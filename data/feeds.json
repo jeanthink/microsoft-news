@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-03-22T12:48:59.205967+00:00",
+  "lastUpdated": "2026-03-23T13:05:06.301534+00:00",
   "totalArticles": 161,
   "articles": [
+    {
+      "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/shaping-the-next-era-of-energy-decision-making-with-geospatial/ba-p/4503662",
+      "published": "2026-03-23T12:00:00+00:00",
+      "summary": "Blog draft Shaping the Next Era of Energy Decision Making with Geospatial Intelligence By Yves Pitsch, GM, Azure Space, Microsoft The global energy system is entering a new phase—one defined not just by a single transition to renewables, but by the convergence of forces that are reshaping how...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "Yves-Pitsch"
+    },
+    {
+      "title": "Reliable blob processing using Azure Logic Apps: Recommended architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/reliable-blob-processing-using-azure-logic-apps-recommended/ba-p/4408091",
+      "published": "2026-03-23T10:53:35+00:00",
+      "summary": "Understanding the Limitations of In-App Blob Triggers The Logic App Blob - In-App trigger https://learn.microsoft.com/en-us/azure/logic-apps/connectors/built-in/reference/azureblob/ is built upon the same architecture as the Azure Function App Blob trigger and therefore inherits similar features...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "SwathiK"
+    },
+    {
+      "title": "Building real-world AI automation with Foundry Local and the Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-real-world-ai-automation-with-foundry-local-and-the/ba-p/4501898",
+      "published": "2026-03-23T07:00:00+00:00",
+      "summary": "A hands-on guide to building real-world AI automation with Foundry Local, the Microsoft Agent Framework, and PyBullet. No cloud subscription, no API keys, no internet required. Why Developers Should Care About Offline AI Imagine telling a robot arm to \"pick up the cube\" and watching it execute the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Securing Azure AI Agents: Identity, Access Control, and Guardrails in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-azure-ai-agents-identity-access-control-and-guardrails/ba-p/4500242",
+      "published": "2026-03-23T07:00:00+00:00",
+      "summary": "As AI agents evolve from simple chatbots to autonomous systems that access enterprise data, call APIs, and orchestrate workflows, security becomes non negotiable. Unlike traditional applications, AI agents introduce new risks — such as prompt injection, over privileged access, unsafe tool...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "SudhaS"
+    },
+    {
+      "title": "Announcing public preview: Cilium mTLS encryption for Azure Kubernetes Service",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-cilium-mtls-encryption-for-azure/ba-p/4504423",
+      "published": "2026-03-23T01:50:18+00:00",
+      "summary": "We are thrilled to announce the public preview of Cilium mTLS encryption in Azure Kubernetes Service (AKS), delivered as part of Advanced Container Networking Services and powered by the Azure CNI dataplane built on Cilium. This capability is the result of a close engineering collaboration between...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal"
+    },
+    {
+      "title": "Run OpenClaw Agents on Azure Linux VMs (with Secure Defaults)",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/run-openclaw-agents-on-azure-linux-vms-with-secure-defaults/ba-p/4502944",
+      "published": "2026-03-22T16:34:46+00:00",
+      "summary": "Many teams want an enterprise-ready personal AI assistant, but they need it on infrastructure they control, with security boundaries they can explain to IT. That is exactly where OpenClaw fits on Azure. OpenClaw is a self-hosted, always-on personal agent runtime you run in your enterprise...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "johnsonshi_msft"
+    },
     {
       "title": "What’s new in Microsoft Sentinel: RSAC 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
@@ -37,15 +91,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "MikeAdams"
-    },
-    {
-      "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/shaping-the-next-era-of-energy-decision-making-with-geospatial/ba-p/4503662",
-      "published": "2026-03-20T20:20:42+00:00",
-      "summary": "Blog draft Shaping the Next Era of Energy Decision Making with Geospatial Intelligence By Yves Pitsch, GM, Azure Space, Microsoft The global energy system is entering a new phase—one defined not just by a single transition to renewables, but by the convergence of forces that are reshaping how...",
-      "blog": "Planetary Computer",
-      "blogId": "microsoft-planetary-computer-blog",
-      "author": "Yves-Pitsch"
     },
     {
       "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
@@ -1281,15 +1326,6 @@
       "author": "Ronnie Geraghty"
     },
     {
-      "title": "Exploring Azure Face API: Facial Landmark Detection and Real-Time Analysis with C#",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/exploring-azure-face-api-facial-landmark-detection-and-real-time/ba-p/4495335",
-      "published": "2026-02-26T11:09:25+00:00",
-      "summary": "In today’s world, applications that understand and respond to human facial cues are no longer science fiction—they’re becoming a reality in domains like security, driver monitoring, gaming, and AR/VR. With Azure Face API, developers can leverage powerful cloud-based facial recognition and analysis...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ravimodi"
-    },
-    {
       "title": "Measuring actual AI Impact for Engineering with Apache DevLake",
       "link": "https://devblogs.microsoft.com/all-things-azure/measuring-actual-ai-impact-for-engineering-with-apache-devlake/",
       "published": "2026-02-26T10:06:19+00:00",
@@ -1297,15 +1333,6 @@
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "Eldrick Wega"
-    },
-    {
-      "title": "Building a Privacy-First Hybrid AI Briefing Tool with Foundry Local and Azure OpenAI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-privacy-first-hybrid-ai-briefing-tool-with-foundry/ba-p/4490535",
-      "published": "2026-02-26T08:00:00+00:00",
-      "summary": "Introduction Management consultants face a critical challenge: they need instant AI-powered insights from sensitive client documents, but traditional cloud-only AI solutions create unacceptable data privacy risks. Every document uploaded to a cloud API potentially exposes confidential client...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
     },
     {
       "title": "Building a Secure MCP Server with OAuth 2.1 and Azure AD: Lessons from the Field",
@@ -1423,33 +1450,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Emmanuel_Abram_Profeta"
-    },
-    {
-      "title": "Microsoft Agent Pre-Purchase Plan: One Unified Path to Scale AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/microsoft-agent-pre-purchase-plan-one-unified-path-to-scale-ai/ba-p/4476052",
-      "published": "2026-02-20T18:06:20+00:00",
-      "summary": "AI is now essential, and at Microsoft Ignite 2025, we introduced a new foundation for intelligent agents: Work IQ, Fabric IQ, and Foundry IQ. These three IQs represent the intelligence layer that gives agents deep context; understanding how people work, connecting to enterprise data, and...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda"
-    },
-    {
-      "title": "Light up Multiple Databases with a Single API with Data API builder’s multi-source configuration",
-      "link": "https://devblogs.microsoft.com/azure-sql/multi-source-data-api-builder/",
-      "published": "2026-02-20T17:30:27+00:00",
-      "summary": "Data API builder (DAB) supports multi-source configurations Data API builder (DAB) connects to your database with a safe REST or GraphQL endpoint. But DAB is not limited to just one database. Using a multi-source configuration, you can connect to more than one database simultaneously. Learn more...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "The Rise of Agentic BSS in the IQ Era: from Systems of Record to Systems of Outcome",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/the-rise-of-agentic-bss-in-the-iq-era-from-systems-of-record-to/ba-p/4495499",
-      "published": "2026-02-20T16:14:52+00:00",
-      "summary": "Authors: Rode Kirk and Rick Lievano Telecom Business Support Systems (BSS) are entering their most consequential transformation since digital billing. As networks become programmable, products become composable, and customers expect real‑time, personalized experiences, the traditional BSS...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "rodekirk"
     }
   ]
 }
