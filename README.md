@@ -6,7 +6,7 @@ A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles 
 
 ## Features
 
-- 📰 **44 blog sources** — Azure, DevOps, Developer Tools, Data & AI, and more
+- 📰 **50 blog sources** — Azure, DevOps, Developer Tools, Data & AI, and more
 - 🔍 **Search & filter** — Find articles by keyword, blog category, or date range
 - ⭐ **Bookmarks** — Save articles for later (stored locally per browser)
 - 🌙 **Dark mode** — Easy on the eyes
@@ -24,7 +24,7 @@ A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles 
 | **Architecture** | Azure Architecture, Customer Innovation, ISE Developer Blog |
 | **Apps & Platform** | Apps on Azure, Azure PaaS, Integrations, Messaging, Aspire, Azure SDK |
 | **Operations** | Governance & Management, Observability, FinOps, Azure Tools, Migration, Azure DevOps |
-| **Community** | Azure Dev Community, Azure Events, Linux & Open Source, All Things Azure, Microsoft Developers Blog |
+| **Community** | Azure Dev Community, Azure Events, Linux & Open Source, All Things Azure, Microsoft Developers Blog, Azure Global Black Belt, Azure Citadel |
 | **Developer Tools** | Visual Studio, VS Code, Windows Command Line, Develop from the Cloud |
 | **Specialized** | Communication Services, Confidential Computing, Maps, Telecommunications, Planetary Computer |
 
@@ -77,7 +77,7 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 ## How It Works
 
 1. **GitHub Actions** runs daily at 7 AM EST / 12 PM UTC (or manually)
-2. **Python script** fetches RSS feeds from all 44 Azure and Microsoft developer blogs
+2. **Python script** fetches RSS feeds from all 50 Azure and Microsoft developer blogs
 3. Articles from the last 30 days are deduplicated, sorted, and saved to `data/feeds.json`
 4. The commit triggers **GitHub Pages** to redeploy
 5. The **static frontend** loads the JSON and renders the feed

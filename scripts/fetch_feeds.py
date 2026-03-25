@@ -72,6 +72,12 @@ DEVBLOGS = {
     "azuresqlblog": ("Azure SQL Dev Corner", "https://devblogs.microsoft.com/azure-sql/feed/"),
 }
 
+# Community blogs definitions: slug -> (display name, feed URL)
+COMMUNITY_BLOGS = {
+    "gbblog": ("Azure Global Black Belt Blog", "https://azureglobalblackbelts.com/rss.xml"),
+    "azurecitadelblog": ("Azure Citadel Blog", "https://www.azurecitadel.com/blog/index.xml"),
+}
+
 
 def clean_html(text):
     """Remove HTML tags and clean up text."""
@@ -227,6 +233,46 @@ def fetch_devblogs_feeds():
     return articles
 
 
+def fetch_community_blogs():
+    """Fetch articles from community blogs."""
+    articles = []
+
+    for blog_id, (blog_name, feed_url) in COMMUNITY_BLOGS.items():
+        print(f"Fetching: {blog_name}...")
+
+        try:
+            feed = feedparser.parse(feed_url)
+
+            if feed.bozo and not feed.entries:
+                print(f"  Warning: Could not parse {blog_name} feed")
+                continue
+
+            count = 0
+            for entry in feed.entries:
+                summary = clean_html(entry.get("summary", ""))
+                articles.append(
+                    {
+                        "title": clean_html(entry.get("title", "Untitled")),
+                        "link": entry.get("link", ""),
+                        "published": parse_date(entry),
+                        "summary": truncate(summary),
+                        "blog": blog_name,
+                        "blogId": blog_id,
+                        "author": entry.get("author", "Microsoft"),
+                    }
+                )
+                count += 1
+
+            print(f"  Found {count} articles")
+
+        except Exception as e:
+            print(f"  Error fetching {blog_name}: {e}")
+
+        time.sleep(0.5)
+
+    return articles
+
+
 def generate_rss_feed(articles):
     """Generate an RSS feed XML file from the aggregated articles."""
     from xml.etree.ElementTree import Element, SubElement, tostring
@@ -323,6 +369,7 @@ def main():
     all_articles.extend(fetch_tech_community_feeds())
     all_articles.extend(fetch_aks_blog())
     all_articles.extend(fetch_devblogs_feeds())
+    all_articles.extend(fetch_community_blogs())
 
     # Sort by date, newest first
     all_articles.sort(key=lambda x: x.get("published", ""), reverse=True)
