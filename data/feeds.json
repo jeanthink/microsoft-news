@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-03-25T13:08:01.972364+00:00",
-  "totalArticles": 175,
+  "lastUpdated": "2026-03-26T13:13:41.001294+00:00",
+  "totalArticles": 178,
   "articles": [
+    {
+      "title": "Guardrails for Generative AI: Securing Developer Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/guardrails-for-generative-ai-securing-developer-workflows/ba-p/4505801",
+      "published": "2026-03-26T08:58:22+00:00",
+      "summary": "Generative AI is revolutionizing software development that accelerates delivery but introduces compliance and security risks if unchecked. Tools like GitHub Copilot empower developers to write code faster, automate repetitive tasks, and even generate tests and documentation. But speed without...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "siddhigupta"
+    },
+    {
+      "title": "Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A",
+      "link": "https://devblogs.microsoft.com/ise/building-bing-search-enabled-agent-with-microsoft-foundry-and-semantic-kernel/",
+      "published": "2026-03-26T07:00:00+00:00",
+      "summary": "A step-by-step guide to enable search in the semantic kernel agents using bing grounding in Azure Foundry AI Agent using A2A. The post Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Munish Malhotra"
+    },
+    {
+      "title": "Shared Agent Context: How We Are Tackling Partner Agent Collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/shared-agent-context-how-we-are-tackling-partner-agent/ba-p/4505714",
+      "published": "2026-03-26T00:34:52+00:00",
+      "summary": "Your Azure SRE agent detects a spike in error rates. It triages with cloud-native telemetry, but the root cause trail leads into a third-party observability platform your team also runs. The agent can't see that data. A second agent can, one that speaks Datadog or Dynatrace or whatever your team...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru"
+    },
+    {
+      "title": "\"No-Ops\" Kafka Experience: Why Event Hubs is Your Default Destination for Streaming on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/quot-no-ops-quot-kafka-experience-why-event-hubs-is-your-default/ba-p/4481501",
+      "published": "2026-03-25T22:28:51+00:00",
+      "summary": "For many engineering teams, the promise of real-time data streaming is often overshadowed by the \"operational tax\" of maintaining the infrastructure. Managing an Apache Kafka® cluster traditionally means wrestling with broker patches, Zookeeper (or KRaft) orchestration, disk rebalancing, and the...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria"
+    },
+    {
+      "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/take-control-of-every-message-partial-failure-handling-for/ba-p/4504893",
+      "published": "2026-03-25T18:06:50+00:00",
+      "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "swapnil_nagar"
+    },
+    {
+      "title": "Azure Managed Redis & Azure Databricks: Real-time Feature Serving for Low-Latency Decisions",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-managed-redis-azure-databricks-real-time-feature-serving/ba-p/4503116",
+      "published": "2026-03-25T16:00:00+00:00",
+      "summary": "This blog content has been a collective collaboration between the Azure Databricks and Azure Managed Redis Product and Product Marketing teams. Executive summary Modern decisioning systems, fraud scoring, payments authorization, personalization, and step-up authentication, must return answers in...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Jason_Pereira"
+    },
+    {
+      "title": "Aspire on Azure App Service is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aspire-on-azure-app-service-is-now-generally-available/ba-p/4505549",
+      "published": "2026-03-25T14:04:28+00:00",
+      "summary": "Today we are announcing General Availability of Aspire on Azure App Service, making it easier to take distributed applications from local development to a fully managed production environment on Azure App Service. With the Aspire.Hosting.Azure.AppService package, you can define your hosting...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC"
+    },
     {
       "title": "🚀GitHub Copilot CLI: AI Assistance from the Command Line for Infrastructure Deployments",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/github-copilot-cli-ai-assistance-from-the-command-line-for/ba-p/4500796",
@@ -109,15 +172,6 @@
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
       "author": "SparshAgrawat"
-    },
-    {
-      "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/take-control-of-every-message-partial-failure-handling-for/ba-p/4504893",
-      "published": "2026-03-24T05:34:12+00:00",
-      "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "swapnil_nagar"
     },
     {
       "title": "SQL code analysis in VS Code: Configure rules without editing your project file",
@@ -975,15 +1029,6 @@
       "author": "dchelupati"
     },
     {
-      "title": "Announcing general availability for the Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-general-availability-for-the-azure-sre-agent/ba-p/4500682",
-      "published": "2026-03-10T14:00:00+00:00",
-      "summary": "Today, we’re excited to announce the General Availability (GA) of Azure SRE Agent— your AI‑powered operations teammate that helps organizations improve uptime, reduce incident impact, and cut operational toil by accelerating diagnosis and automating response workflows. This GA release represents a...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayunk_Jain"
-    },
-    {
       "title": "Building Reusable Custom Images for Azure Confidential VMs Using Azure Compute Gallery",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-reusable-custom-images-for-azure-confidential-vms-using/ba-p/4500880",
       "published": "2026-03-10T12:09:24+00:00",
@@ -1000,15 +1045,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "Simone_Rodigari"
-    },
-    {
-      "title": "Microsoft Azure at KubeCon Europe 2026 | Amsterdam, NL - March 23-26",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-azure-at-kubecon-europe-2026-amsterdam-nl-march-23-26/ba-p/4500716",
-      "published": "2026-03-10T09:15:00+00:00",
-      "summary": "Microsoft Azure is coming back to Amsterdam for KubeCon + CloudNativeCon Europe 2026 in two short weeks, from March 23-26! As a Diamond Sponsor, we have a full week of sessions, hands-on activities, and ways to connect with the engineers behind AKS and our open-source projects. Here's what's on the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "coryskimming"
     },
     {
       "title": "How to Create a Harness Pipeline and integrate with Azure",
@@ -1567,15 +1603,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Xiang Yan"
-    },
-    {
-      "title": "Introducing the next generation of SOC automation: Sentinel playbook generator",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-next-generation-of-soc-automation-sentinel/ba-p/4494438",
-      "published": "2026-02-24T00:04:46+00:00",
-      "summary": "Security teams today operate under constant pressure. They are expected to respond faster, automate more, and do so without sacrificing precision. Traditional security orchestration, automation and response (SOAR) approaches have helped, but they still rely heavily on rigid templates, limited...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "ShiranShuster"
     }
   ]
 }
