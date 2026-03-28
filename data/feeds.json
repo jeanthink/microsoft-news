@@ -1,11 +1,29 @@
 {
-  "lastUpdated": "2026-03-27T13:04:11.646083+00:00",
-  "totalArticles": 179,
+  "lastUpdated": "2026-03-28T12:53:26.657936+00:00",
+  "totalArticles": 174,
   "articles": [
+    {
+      "title": "Autonomous Self-Healing for Azure VMware Solution Private Clouds",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/autonomous-self-healing-for-azure-vmware-solution-private-clouds/ba-p/4506374",
+      "published": "2026-03-27T23:51:43+00:00",
+      "summary": "Overview Azure VMware Solution operates a global fleet of production private clouds, each running a full VMware NSX and vCenter Server control plane. As an example, when a VMware NSX Manager cluster loses quorum, NSX can surface multiple related alarms, but the documented impact is more specific...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "RohanB"
+    },
+    {
+      "title": "What AI Agents for Modernization Look Like in Practice",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-ai-agents-for-modernization-look-like-in-practice/ba-p/4506366",
+      "published": "2026-03-27T19:50:30+00:00",
+      "summary": "We’ve all been put onto an initiative to “modernize” our company’s applications. But talk about a haphazard and confusing project to be put on. Apps are older than anyone first thought, there are dependencies nobody can explain, and business critical services blocked behind another team's roadmap....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "PabloLopes"
+    },
     {
       "title": "Building the agentic future together at JDConf 2026",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-the-agentic-future-together-at-jdconf-2026/ba-p/4505367",
-      "published": "2026-03-27T11:00:00+00:00",
+      "published": "2026-03-27T18:39:18+00:00",
       "summary": "JDConf 2026 is just weeks away, and I’m excited to welcome Java developers, architects, and engineering leaders from around the world for two days of learning and connection. Now in its sixth year, JDConf has become a place where the Java community compares notes on their real-world production...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
@@ -1083,15 +1101,6 @@
       "author": "SamhithaGurumurthy"
     },
     {
-      "title": "What's new in Azure SRE Agent in the GA release",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-in-the-ga-release/ba-p/4500779",
-      "published": "2026-03-10T15:03:50+00:00",
-      "summary": "Azure SRE Agent is now generally available (read the GA announcement). . After months in preview with teams across Microsoft and early customers, here's what's shipping at GA. We use SRE Agent in our team We built SRE Agent to solve our own operational problems first. It investigates our...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati"
-    },
-    {
       "title": "Building Reusable Custom Images for Azure Confidential VMs Using Azure Compute Gallery",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-reusable-custom-images-for-azure-confidential-vms-using/ba-p/4500880",
       "published": "2026-03-10T12:09:24+00:00",
@@ -1558,60 +1567,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Ronnie Geraghty"
-    },
-    {
-      "title": "Measuring actual AI Impact for Engineering with Apache DevLake",
-      "link": "https://devblogs.microsoft.com/all-things-azure/measuring-actual-ai-impact-for-engineering-with-apache-devlake/",
-      "published": "2026-02-26T10:06:19+00:00",
-      "summary": "If you want to skip the explain and get started super quick with adoption + impact insights, use gh-devlake to deploy a GitHub Copilot impact dashboard in a few CLI commands. So! You’ve rolled out GitHub Copilot to your engineering teams. You’ve got the built-in dashboards. You know how many seats...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Eldrick Wega"
-    },
-    {
-      "title": "Building a Secure MCP Server with OAuth 2.1 and Azure AD: Lessons from the Field",
-      "link": "https://devblogs.microsoft.com/ise/aca-secure-mcp-server-oauth21-azure-ad/",
-      "published": "2026-02-26T08:00:00+00:00",
-      "summary": "How we built a production-ready MCP server with OAuth 2.1 authentication and On-Behalf-Of flow for Microsoft Graph, navigating a rapidly evolving specification. The post Building a Secure MCP Server with OAuth 2.1 and Azure AD: Lessons from the Field appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Juan Burckhardt"
-    },
-    {
-      "title": "The Polyglot Tax",
-      "link": "https://devblogs.microsoft.com/azure-sql/the-polyglot-tax/",
-      "published": "2026-02-26T01:09:47+00:00",
-      "summary": "Part 1 of 4 – The Multimodal Database Series This is a four-part series about what happens when a single database engine handles relational, document, graph, vector, and analytical workloads natively – and what you stop paying for when it does. You spin up a database, point an agent at it, and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Aditya Badramraju"
-    },
-    {
-      "title": "MSSQL Extension for VS Code: Query Profiler, ADS Migration Toolkit & More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-feb-2026/",
-      "published": "2026-02-25T17:00:27+00:00",
-      "summary": "The MSSQL Extension for VS Code continues to evolve, delivering features that make SQL development more integrated, more powerful, and more developer-friendly. In version v1.40.0, we’re introducing the ADS Migration Toolkit, Basic Database Management, Flat File Import, Database Backup & Restore,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Carlos Robles, Tauseef Siddique, Yo-Lei Chen"
-    },
-    {
-      "title": "Azure Developer CLI (azd) – February 2026: JMESPath Queries & Deployment Slots",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-february-2026/",
-      "published": "2026-02-25T16:00:38+00:00",
-      "summary": "This post announces the February 2026 release of the Azure Developer CLI (`azd`). The post Azure Developer CLI (azd) – February 2026: JMESPath Queries & Deployment Slots appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan"
-    },
-    {
-      "title": "Stop Writing Plumbing! Use the New Logic Apps MCP Server Wizard",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/stop-writing-plumbing-use-the-new-logic-apps-mcp-server-wizard/ba-p/4496702",
-      "published": "2026-02-25T14:19:26+00:00",
-      "summary": "As part of our continued investment in making Logic Apps a first‑class platform for providing AI agents with connectivity, we’ve introduced the new Logic Apps MCP server configuration experience—a guided, in‑portal workflow that lets you turn any existing Standard logic app into a fully functional...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "KentWeareMSFT"
     }
   ]
 }
