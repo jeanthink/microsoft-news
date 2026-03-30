@@ -26,6 +26,7 @@
   // Reading state: tracks article status — "read", "read-later", or absent (unseen)
   var readingState = JSON.parse(localStorage.getItem("azurefeed-reading") || "{}");
   var readingFilter = "all"; // "all", "unseen", "read-later", "read"
+  var updateClearButton = function () {}; // assigned after DOM ready
 
   // Color palette for blog tags
   var blogColors = {};
@@ -594,6 +595,7 @@
     }
 
     articlesGrid.innerHTML = html;
+    updateClearButton();
   }
 
   // ===== Group by Date =====
@@ -898,6 +900,69 @@
 
     // Theme toggle
     themeToggle.addEventListener("click", toggleTheme);
+
+    // Clear all filters
+    var clearBtn = document.getElementById("clear-filters");
+    if (clearBtn) {
+      clearBtn.addEventListener("click", function () {
+        currentCategory = "all";
+        currentFilter = "all";
+        currentTagFilter = "all";
+        currentSolutionArea = "all";
+        currentRevenueType = "all";
+        currentBlogSource = "all";
+        currentProduct = "all";
+        readingFilter = "all";
+        searchQuery = "";
+        showBookmarksOnly = false;
+
+        // Reset select elements
+        var selects = ["reading-filter", "solution-area-filter", "revenue-filter"];
+        selects.forEach(function (id) {
+          var el = document.getElementById(id);
+          if (el) el.value = "all";
+        });
+
+        // Reset searchable dropdowns
+        ["blog-source-dropdown", "product-dropdown"].forEach(function (id) {
+          var wrap = document.getElementById(id);
+          if (wrap) {
+            var inp = wrap.querySelector(".search-input");
+            var hid = wrap.querySelector("input[type=hidden]");
+            if (inp) { inp.value = ""; inp.placeholder = inp.title ? inp.title.replace("Filter by ", "All ") : "All"; }
+            if (hid) hid.value = "all";
+          }
+        });
+
+        // Reset search box
+        searchInput.value = "";
+
+        // Reset category pills
+        filterPills.querySelectorAll(".category-pill").forEach(function (p) {
+          p.classList.remove("active");
+          if (p.dataset.category === "all") p.classList.add("active");
+        });
+
+        // Reset tag pills
+        document.querySelectorAll(".tag-pill").forEach(function (p) {
+          p.classList.remove("active");
+          if (p.dataset.tag === "all") p.classList.add("active");
+        });
+
+        clearBtn.style.display = "none";
+        applyFilters();
+      });
+    }
+
+    updateClearButton = function () {
+      if (!clearBtn) return;
+      var active = currentCategory !== "all" || currentFilter !== "all" ||
+        currentTagFilter !== "all" || currentSolutionArea !== "all" ||
+        currentRevenueType !== "all" || currentBlogSource !== "all" ||
+        currentProduct !== "all" || readingFilter !== "all" ||
+        searchQuery !== "" || showBookmarksOnly;
+      clearBtn.style.display = active ? "inline-block" : "none";
+    };
 
     // Category and blog pills (event delegation)
     filterPills.addEventListener("click", function (e) {

@@ -1001,6 +1001,23 @@ footer a:hover {
   color: var(--text-primary);
 }
 
+/* Clear filters button */
+#clear-filters {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid rgba(255, 100, 100, 0.5);
+  border-radius: 20px;
+  background: rgba(255, 80, 80, 0.2);
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background var(--transition);
+}
+
+#clear-filters:hover {
+  background: rgba(255, 80, 80, 0.4);
+}
+
 /* Searchable dropdown filters */
 .searchable-dropdown {
   position: relative;
