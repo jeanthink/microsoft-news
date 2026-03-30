@@ -970,7 +970,8 @@ footer a:hover {
 #reading-filter,
 #solution-area-filter,
 #revenue-filter,
-#blog-source-filter {
+#blog-source-filter,
+#product-filter {
   padding: 0.4rem 0.75rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
@@ -992,14 +993,16 @@ footer a:hover {
 #reading-filter:hover,
 #solution-area-filter:hover,
 #revenue-filter:hover,
-#blog-source-filter:hover {
+#blog-source-filter:hover,
+#product-filter:hover {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
 #reading-filter option,
 #solution-area-filter option,
 #revenue-filter option,
-#blog-source-filter option {
+#blog-source-filter option,
+#product-filter option {
   background: var(--bg-secondary);
   color: var(--text-primary);
 }

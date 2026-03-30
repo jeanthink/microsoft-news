@@ -103,6 +103,8 @@ def fetch_all_feeds(config):
                     article["solutionArea"] = feed_info["solutionArea"]
                 if feed_info.get("revenueType"):
                     article["revenueType"] = feed_info["revenueType"]
+                if feed_info.get("product"):
+                    article["product"] = feed_info["product"]
                 articles.append(article)
                 count += 1
 

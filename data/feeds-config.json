@@ -10,7 +10,16 @@
       "enabled": true,
       "batchSize": 10,
       "model": "gpt-4o-mini",
-      "tags": ["breaking-change", "preview", "ga-release", "deprecation", "new-feature", "security", "pricing", "migration"]
+      "tags": [
+        "breaking-change",
+        "preview",
+        "ga-release",
+        "deprecation",
+        "new-feature",
+        "security",
+        "pricing",
+        "migration"
+      ]
     }
   },
   "feeds": {
@@ -18,331 +27,645 @@
       "name": "Azure Compute",
       "category": "Compute",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Compute"
     },
     "aksblog": {
       "name": "AKS Blog",
       "category": "Compute",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://blog.aks.azure.com/rss.xml"
+      "url": "https://blog.aks.azure.com/rss.xml",
+      "product": "AKS"
     },
     "azurevirtualdesktopblog": {
       "name": "Azure Virtual Desktop",
       "category": "Compute",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Virtual Desktop"
     },
     "azurehighperformancecomputingblog": {
       "name": "High Performance Computing",
       "category": "Compute",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure HPC"
     },
     "analyticsonazure": {
       "name": "Analytics on Azure",
       "category": "Data & AI",
       "solutionArea": "AIBS",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Analytics"
     },
     "azure-databricks": {
       "name": "Azure Databricks",
       "category": "Data & AI",
       "solutionArea": "AIBS",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Databricks"
     },
     "oracleonazureblog": {
       "name": "Oracle on Azure",
       "category": "Data & AI",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Oracle on Azure"
     },
     "cosmosdbblog": {
       "name": "Azure Cosmos DB Blog",
       "category": "Data & AI",
       "solutionArea": "AIBS",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/cosmosdb/feed/"
+      "url": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "product": "Azure Cosmos DB"
     },
     "azuresqlblog": {
       "name": "Azure SQL Dev Corner",
       "category": "Data & AI",
       "solutionArea": "AIBS",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/azure-sql/feed/"
+      "url": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "product": "Azure SQL"
     },
     "foundryblog": {
       "name": "Microsoft Foundry Blog",
       "category": "Data & AI",
       "solutionArea": "AIBS",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/foundry/feed/"
+      "url": "https://devblogs.microsoft.com/foundry/feed/",
+      "product": "Azure AI Foundry"
     },
     "azureinfrastructureblog": {
       "name": "Azure Infrastructure",
       "category": "Infrastructure",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Infrastructure"
     },
     "azurearcblog": {
       "name": "Azure Arc",
       "category": "Infrastructure",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Arc"
     },
     "azurestackblog": {
       "name": "Azure Stack",
       "category": "Infrastructure",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Stack"
     },
     "azurenetworkingblog": {
       "name": "Azure Networking",
       "category": "Infrastructure",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Networking"
     },
     "azurenetworksecurityblog": {
       "name": "Azure Network Security",
       "category": "Infrastructure",
       "solutionArea": "Security",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Network Security"
     },
     "azurestorageblog": {
       "name": "Azure Storage",
       "category": "Infrastructure",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Storage"
     },
     "azurearchitectureblog": {
       "name": "Azure Architecture",
       "category": "Architecture",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Architecture"
     },
     "azure-customer-innovation-blog": {
       "name": "Customer Innovation",
       "category": "Architecture",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Innovation"
     },
     "iseblog": {
       "name": "ISE Developer Blog",
       "category": "Architecture",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/ise/feed/"
+      "url": "https://devblogs.microsoft.com/ise/feed/",
+      "product": "ISE"
     },
     "appsonazureblog": {
       "name": "Apps on Azure",
       "category": "Apps & Platform",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure App Service"
     },
     "azurepaasblog": {
       "name": "Azure PaaS",
       "category": "Apps & Platform",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure PaaS"
     },
     "integrationsonazureblog": {
       "name": "Integrations on Azure",
       "category": "Apps & Platform",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Integration"
     },
     "messagingonazureblog": {
       "name": "Messaging on Azure",
       "category": "Apps & Platform",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Messaging"
     },
     "aspireblog": {
       "name": "Aspire Blog",
       "category": "Apps & Platform",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/aspire/feed/"
+      "url": "https://devblogs.microsoft.com/aspire/feed/",
+      "product": ".NET Aspire"
     },
     "azuresdkblog": {
       "name": "Azure SDK Blog",
       "category": "Apps & Platform",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/azure-sdk/feed/"
+      "url": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "product": "Azure SDK"
     },
     "azuregovernanceandmanagementblog": {
       "name": "Governance & Management",
       "category": "Operations",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Governance"
     },
     "azureobservabilityblog": {
       "name": "Azure Observability",
       "category": "Operations",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Monitor"
     },
     "finopsblog": {
       "name": "FinOps",
       "category": "Operations",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "FinOps"
     },
     "azuretoolsblog": {
       "name": "Azure Tools",
       "category": "Operations",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Tools"
     },
     "azuremigrationblog": {
       "name": "Azure Migration",
       "category": "Operations",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Migrate"
     },
     "azuredevops": {
       "name": "Azure DevOps Blog",
       "category": "Operations",
       "solutionArea": "CAIP",
       "revenueType": "License",
-      "url": "https://devblogs.microsoft.com/devops/feed/"
+      "url": "https://devblogs.microsoft.com/devops/feed/",
+      "product": "Azure DevOps"
     },
     "azuredevcommunityblog": {
       "name": "Azure Dev Community",
       "category": "Community",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Community"
     },
     "azure-events": {
       "name": "Azure Events",
       "category": "Community",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Events"
     },
     "linuxandopensourceblog": {
       "name": "Linux & Open Source",
       "category": "Community",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Linux on Azure"
     },
     "allthingsazure": {
       "name": "All Things Azure",
       "category": "Community",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/all-things-azure/feed/"
+      "url": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "product": "Azure General"
     },
     "msdevblog": {
       "name": "Microsoft Developers Blog",
       "category": "Community",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://developer.microsoft.com/blog/feed/"
+      "url": "https://developer.microsoft.com/blog/feed/",
+      "product": "Microsoft Dev"
     },
     "gbblog": {
       "name": "Azure Global Black Belt Blog",
       "category": "Community",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://azureglobalblackbelts.com/rss.xml"
+      "url": "https://azureglobalblackbelts.com/rss.xml",
+      "product": "Azure GBB"
     },
     "azurecitadelblog": {
       "name": "Azure Citadel Blog",
       "category": "Community",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://www.azurecitadel.com/blog/index.xml"
+      "url": "https://www.azurecitadel.com/blog/index.xml",
+      "product": "Azure Citadel"
     },
     "visualstudio": {
       "name": "Visual Studio Blog",
       "category": "Developer Tools",
       "solutionArea": "CAIP",
       "revenueType": "License",
-      "url": "https://devblogs.microsoft.com/visualstudio/feed/"
+      "url": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "product": "Visual Studio"
     },
     "vscodeblog": {
       "name": "VS Code Blog",
       "category": "Developer Tools",
       "solutionArea": "CAIP",
       "revenueType": "License",
-      "url": "https://devblogs.microsoft.com/vscode-blog/feed/"
+      "url": "https://devblogs.microsoft.com/vscode-blog/feed/",
+      "product": "VS Code"
     },
     "commandline": {
       "name": "Windows Command Line",
       "category": "Developer Tools",
       "solutionArea": "CAIP",
       "revenueType": "License",
-      "url": "https://devblogs.microsoft.com/commandline/feed/"
+      "url": "https://devblogs.microsoft.com/commandline/feed/",
+      "product": "Windows Terminal"
     },
     "developfromthecloud": {
       "name": "Develop from the Cloud",
       "category": "Developer Tools",
       "solutionArea": "CAIP",
       "revenueType": "ACR",
-      "url": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/"
+      "url": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/",
+      "product": "Cloud Development"
     },
     "azurecommunicationservicesblog": {
       "name": "Communication Services",
       "category": "Specialized",
       "solutionArea": "AIBS",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Communication Services"
     },
     "azureconfidentialcomputingblog": {
       "name": "Confidential Computing",
       "category": "Specialized",
       "solutionArea": "Security",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Confidential Computing"
     },
     "azuremapsblog": {
       "name": "Azure Maps",
       "category": "Specialized",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Maps"
     },
     "telecommunications-industry-blog": {
       "name": "Telecommunications",
       "category": "Specialized",
       "solutionArea": "CAIP",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Azure Telecom"
     },
     "microsoft-planetary-computer-blog": {
       "name": "Planetary Computer",
       "category": "Specialized",
       "solutionArea": "AIBS",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Planetary Computer"
     },
     "microsoftsentinelblog": {
       "name": "Microsoft Sentinel",
       "category": "Security",
       "solutionArea": "Security",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Microsoft Sentinel"
     },
     "microsoftdefendercloudblog": {
       "name": "Microsoft Defender for Cloud",
       "category": "Security",
       "solutionArea": "Security",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Defender for Cloud"
     },
     "azureadvancedthreatprotection": {
       "name": "Azure Advanced Threat Protection",
       "category": "Security",
       "solutionArea": "Security",
-      "revenueType": "ACR"
+      "revenueType": "ACR",
+      "product": "Defender for Identity"
     },
     "githubblog": {
       "name": "GitHub Blog",
       "category": "Developer Tools",
       "solutionArea": "CAIP",
       "revenueType": "License",
-      "url": "https://github.blog/feed/"
+      "url": "https://github.blog/feed/",
+      "product": "GitHub"
     },
     "microsoftfabricblog": {
       "name": "Microsoft Fabric Blog",
       "category": "Data & AI",
       "solutionArea": "AIBS",
       "revenueType": "ACR",
-      "url": "https://blog.fabric.microsoft.com/en-us/blog/feed/"
+      "url": "https://blog.fabric.microsoft.com/en-us/blog/feed/",
+      "product": "Microsoft Fabric"
+    },
+    "microsoft-defender-xdr": {
+      "name": "Microsoft Defender XDR",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Defender XDR"
+    },
+    "windows-defender-endpoint": {
+      "name": "Defender for Endpoint",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Defender for Endpoint"
+    },
+    "microsoft-defender-office-365": {
+      "name": "Defender for Office 365",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Defender for Office 365"
+    },
+    "microsoft-defender-for-identity": {
+      "name": "Defender for Identity",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Defender for Identity"
+    },
+    "microsoft-defender-cloud-apps": {
+      "name": "Defender for Cloud Apps",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Defender for Cloud Apps"
+    },
+    "microsoft-entra-blog": {
+      "name": "Microsoft Entra",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Microsoft Entra"
+    },
+    "microsoft-purview": {
+      "name": "Microsoft Purview",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Microsoft Purview"
+    },
+    "microsoft-intune": {
+      "name": "Microsoft Intune",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Microsoft Intune"
+    },
+    "securitydevblog": {
+      "name": "Microsoft Security DevBlog",
+      "category": "Security",
+      "solutionArea": "Security",
+      "revenueType": "ACR",
+      "product": "Microsoft Security",
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/"
+    },
+    "microsoft-365-blog": {
+      "name": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Microsoft 365"
+    },
+    "exchange-team-blog": {
+      "name": "Exchange Team Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Exchange"
+    },
+    "microsoftteams": {
+      "name": "Microsoft Teams",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Microsoft Teams"
+    },
+    "sharepointblog": {
+      "name": "SharePoint Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "SharePoint"
+    },
+    "onedriveblog": {
+      "name": "OneDrive Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "OneDrive"
+    },
+    "outlookblog": {
+      "name": "Outlook Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Outlook"
+    },
+    "copilot-for-microsoft-365": {
+      "name": "Copilot for Microsoft 365",
+      "category": "Microsoft 365",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "Copilot for M365"
+    },
+    "m365devblog": {
+      "name": "Microsoft 365 Developer Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Microsoft 365",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/feed/"
+    },
+    "power-bi-blog": {
+      "name": "Power BI Blog",
+      "category": "Power Platform",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "Power BI"
+    },
+    "powerapps": {
+      "name": "Power Apps",
+      "category": "Power Platform",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "Power Apps"
+    },
+    "power-automate": {
+      "name": "Power Automate",
+      "category": "Power Platform",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "Power Automate"
+    },
+    "power-virtual-agents": {
+      "name": "Power Virtual Agents",
+      "category": "Power Platform",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "Copilot Studio"
+    },
+    "dynamics-365-blog": {
+      "name": "Dynamics 365 Blog",
+      "category": "Dynamics 365",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "Dynamics 365"
+    },
+    "windows-it-pro-blog": {
+      "name": "Windows IT Pro Blog",
+      "category": "Windows & Edge",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Windows"
+    },
+    "windows-insider": {
+      "name": "Windows Insider",
+      "category": "Windows & Edge",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Windows"
+    },
+    "microsoft-edge-insider": {
+      "name": "Microsoft Edge Blog",
+      "category": "Windows & Edge",
+      "solutionArea": "CAIP",
+      "revenueType": "License",
+      "product": "Edge"
+    },
+    "azure-ai-services-blog": {
+      "name": "Azure AI Services Blog",
+      "category": "Data & AI",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR",
+      "product": "Azure AI Services"
+    },
+    "aiplatformblog": {
+      "name": "AI Platform Blog",
+      "category": "Data & AI",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR",
+      "product": "Azure AI Platform",
+      "url": "https://devblogs.microsoft.com/ai-platform/feed/"
+    },
+    "copilotdevblog": {
+      "name": "GitHub Copilot Blog",
+      "category": "Developer Tools",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "GitHub Copilot",
+      "url": "https://devblogs.microsoft.com/copilot/feed/"
+    },
+    "dotnetblog": {
+      "name": ".NET Blog",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR",
+      "product": ".NET",
+      "url": "https://devblogs.microsoft.com/dotnet/feed/"
+    },
+    "typescriptblog": {
+      "name": "TypeScript Blog",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR",
+      "product": "TypeScript",
+      "url": "https://devblogs.microsoft.com/typescript/feed/"
+    },
+    "javablog": {
+      "name": "Java on Azure",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR",
+      "product": "Java on Azure",
+      "url": "https://devblogs.microsoft.com/java/feed/"
+    },
+    "pythonblog": {
+      "name": "Python at Microsoft",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR",
+      "product": "Python",
+      "url": "https://devblogs.microsoft.com/python/feed/"
+    },
+    "powershellblog": {
+      "name": "PowerShell Blog",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR",
+      "product": "PowerShell",
+      "url": "https://devblogs.microsoft.com/powershell/feed/"
+    },
+    "sql-server-blog": {
+      "name": "SQL Server Blog",
+      "category": "Data & AI",
+      "solutionArea": "AIBS",
+      "revenueType": "License",
+      "product": "SQL Server"
+    },
+    "azuresynapseblog": {
+      "name": "Azure Synapse Analytics",
+      "category": "Data & AI",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR",
+      "product": "Azure Synapse"
+    },
+    "azuresqldevblog": {
+      "name": "Azure SQL DevBlog",
+      "category": "Data & AI",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR",
+      "product": "Azure SQL",
+      "url": "https://devblogs.microsoft.com/azure-sql/feed/"
     }
   }
 }

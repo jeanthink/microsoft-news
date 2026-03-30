@@ -9,6 +9,7 @@
   var currentSolutionArea = "all";
   var currentRevenueType = "all";
   var currentBlogSource = "all";
+  var currentProduct = "all";
 
   // ===== State =====
   var articles = [];
@@ -114,6 +115,24 @@
           opt.value = b.id;
           opt.textContent = b.name;
           blogSourceEl.appendChild(opt);
+        });
+      }
+
+      // Populate product filter dropdown
+      var productFilterEl = document.getElementById("product-filter");
+      if (productFilterEl) {
+        var productSet = {};
+        articles.forEach(function (a) {
+          if (a.product && !productSet[a.product]) {
+            productSet[a.product] = true;
+          }
+        });
+        var productList = Object.keys(productSet).sort();
+        productList.forEach(function (p) {
+          var opt = document.createElement("option");
+          opt.value = p;
+          opt.textContent = p;
+          productFilterEl.appendChild(opt);
         });
       }
 
@@ -400,6 +419,13 @@
     if (currentBlogSource !== "all") {
       result = result.filter(function (a) {
         return a.blogId === currentBlogSource;
+      });
+    }
+
+    // Product filter
+    if (currentProduct !== "all") {
+      result = result.filter(function (a) {
+        return a.product === currentProduct;
       });
     }
 
@@ -810,6 +836,15 @@
     if (blogSourceFilterEl) {
       blogSourceFilterEl.addEventListener("change", function (e) {
         currentBlogSource = e.target.value;
+        applyFilters();
+      });
+    }
+
+    // Product filter
+    var productFilterEl = document.getElementById("product-filter");
+    if (productFilterEl) {
+      productFilterEl.addEventListener("change", function (e) {
+        currentProduct = e.target.value;
         applyFilters();
       });
     }
