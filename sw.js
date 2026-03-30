@@ -1,4 +1,4 @@
-const CACHE_NAME = "azurefeed-v1";
+const CACHE_NAME = "msnews-v1";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -30,7 +30,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   var url = new URL(event.request.url);
 
-  // Network-first for feed data (always get fresh data)
+  // Network-first for feed data
   if (url.pathname.includes("feeds.json") || url.pathname.includes("feed.xml")) {
     event.respondWith(
       fetch(event.request)
@@ -44,17 +44,16 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Cache-first for static assets
+  // Network-first for all assets (cache as offline fallback)
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
+    fetch(event.request)
+      .then((response) => {
         if (response.ok && url.origin === self.location.origin) {
           var clone = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
         }
         return response;
-      });
-    })
+      })
+      .catch(() => caches.match(event.request))
   );
 });
