@@ -1088,11 +1088,12 @@ footer a:hover {
   font-weight: 700;
 }
 
-/* Solution Area & Billing Type badges on cards */
+/* Solution Area, Billing & Product badges on cards */
 .meta-badges {
   display: flex;
   gap: 0.3rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .sa-badge,
@@ -1103,6 +1104,22 @@ footer a:hover {
   font-weight: 600;
   letter-spacing: 0.02em;
   white-space: nowrap;
+}
+
+.product-badge {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+[data-theme="dark"] .product-badge {
+  background: #0c4a6e;
+  color: #7dd3fc;
 }
 
 .sa-badge--AIBS { background: #e8d5f5; color: #6b21a8; }

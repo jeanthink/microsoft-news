@@ -688,6 +688,9 @@
 
     // Build solution area / billing badges
     var metaBadges = "";
+    if (article.product) {
+      metaBadges += '<span class="product-badge">🏷️ ' + escapeHtml(article.product) + "</span>";
+    }
     if (article.solutionArea) {
       var saIcons = { AIBS: "🧠", CAIP: "☁️", Security: "🔒" };
       metaBadges += '<span class="sa-badge sa-badge--' + escapeHtml(article.solutionArea) + '">' +
