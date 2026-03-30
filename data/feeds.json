@@ -9,7 +9,9 @@
       "summary": "Overview Azure VMware Solution operates a global fleet of production private clouds, each running a full VMware NSX and vCenter Server control plane. As an example, when a VMware NSX Manager cluster loses quorum, NSX can surface multiple related alarms, but the documented impact is more specific...",
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
-      "author": "RohanB"
+      "author": "RohanB",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "What AI Agents for Modernization Look Like in Practice",
@@ -18,7 +20,9 @@
       "summary": "We’ve all been put onto an initiative to “modernize” our company’s applications. But talk about a haphazard and confusing project to be put on. Apps are older than anyone first thought, there are dependencies nobody can explain, and business critical services blocked behind another team's roadmap....",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "PabloLopes"
+      "author": "PabloLopes",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building the agentic future together at JDConf 2026",
@@ -27,7 +31,9 @@
       "summary": "JDConf 2026 is just weeks away, and I’m excited to welcome Java developers, architects, and engineering leaders from around the world for two days of learning and connection. Now in its sixth year, JDConf has become a place where the Java community compares notes on their real-world production...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "Mayunk_Jain"
+      "author": "Mayunk_Jain",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Unit Testing Helm Charts with Terratest: A Pattern Guide for Type-Safe Validation",
@@ -36,7 +42,9 @@
       "summary": "Helm charts are the de facto standard for packaging Kubernetes applications. But here's a question worth asking: how do you know your chart actually produces the manifests you expect, across every environment, before it reaches a cluster? If you're like most teams, the answer is some combination of...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "pratikpanda"
+      "author": "pratikpanda",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building an Offline AI Interview Coach with Foundry Local, RAG, and SQLite",
@@ -45,7 +53,9 @@
       "summary": "How to build a 100% offline, AI-powered interview preparation tool using Microsoft Foundry Local, Retrieval-Augmented Generation, and nothing but JavaScript. Foundry Local 100% Offline RAG + TF-IDF JavaScript / Node.js Contents Introduction What is RAG and Why Offline? Architecture Overview Setting...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Maps Adds Support to Private Endpoints (Preview)",
@@ -54,7 +64,9 @@
       "summary": "Location data is by nature sensitive and therefore needs to be managed securely. Today, we’re announcing the Public Preview of private endpoint support for Azure Maps, bringing enterprise-grade network isolation and data privacy to your location-aware applications. With Azure Private Link, your...",
       "blog": "Azure Maps",
       "blogId": "azuremapsblog",
-      "author": "PeterBr"
+      "author": "PeterBr",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Introducing Skills in Azure API Center",
@@ -63,7 +75,9 @@
       "summary": "The problem Modern applications depend on more than APIs. A single AI workflow might call an LLM, invoke an MCP tool, integrate a third-party service, and reference a business capability spanning dozens of endpoints. Without a central inventory, these assets become impossible to discover, easy to...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
-      "author": "anishta"
+      "author": "anishta",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure SDK Release (March 2026)",
@@ -72,7 +86,9 @@
       "summary": "Azure SDK releases every month. In this post, you find this month's highlights and release notes. The post Azure SDK Release (March 2026) appeared first on Azure SDK Blog.",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "Ronnie Geraghty"
+      "author": "Ronnie Geraghty",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Copy dashboards from Dashboards with Grafana to Azure Managed Grafana",
@@ -81,7 +97,9 @@
       "summary": "Azure Monitor Dashboards with Grafana provides an in‑portal Grafana experience optimized for Azure Monitor and managed Prometheus data. For many teams, that simplicity is exactly what they need. As observability practices mature, teams often need more than visualization: broader data source...",
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
-      "author": "aayodeji"
+      "author": "aayodeji",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "TypeScript AppHost in Aspire 13.2: same app model, different syntax",
@@ -90,7 +108,9 @@
       "summary": "Aspire 13.2 enables TypeScript developers to define AppHosts directly in TypeScript, with the same streamlined Aspire application model. The post TypeScript AppHost in Aspire 13.2: same app model, different syntax appeared first on Aspire Blog.",
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
-      "author": "Sebastien Ros"
+      "author": "Sebastien Ros",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Assess Azure DDoS Protection Status Across Your Environment",
@@ -99,7 +119,9 @@
       "summary": "Introduction Distributed Denial of Service (DDoS) attacks continue to be one of the most prevalent threats facing organizations with internet-facing workloads. Azure DDoS Protection provides cloud-scale protection against L3/4 volumetric attacks, helping ensure your applications remain available...",
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
-      "author": "SaleemBseeu"
+      "author": "SaleemBseeu",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Guardrails for Generative AI: Securing Developer Workflows",
@@ -108,7 +130,9 @@
       "summary": "Generative AI is revolutionizing software development that accelerates delivery but introduces compliance and security risks if unchecked. Tools like GitHub Copilot empower developers to write code faster, automate repetitive tasks, and even generate tests and documentation. But speed without...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "siddhigupta"
+      "author": "siddhigupta",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A",
@@ -117,7 +141,9 @@
       "summary": "A step-by-step guide to enable search in the semantic kernel agents using bing grounding in Azure Foundry AI Agent using A2A. The post Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A appeared first on ISE Developer Blog.",
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
-      "author": "Munish Malhotra"
+      "author": "Munish Malhotra",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Shared Agent Context: How We Are Tackling Partner Agent Collaboration",
@@ -126,7 +152,9 @@
       "summary": "Your Azure SRE agent detects a spike in error rates. It triages with cloud-native telemetry, but the root cause trail leads into a third-party observability platform your team also runs. The agent can't see that data. A second agent can, one that speaks Datadog or Dynatrace or whatever your team...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "dbandaru"
+      "author": "dbandaru",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "\"No-Ops\" Kafka Experience: Why Event Hubs is Your Default Destination for Streaming on Azure",
@@ -135,7 +163,9 @@
       "summary": "For many engineering teams, the promise of real-time data streaming is often overshadowed by the \"operational tax\" of maintaining the infrastructure. Managing an Apache Kafka® cluster traditionally means wrestling with broker patches, Zookeeper (or KRaft) orchestration, disk rebalancing, and the...",
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria"
+      "author": "ashish-chhabria",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
@@ -144,7 +174,9 @@
       "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "swapnil_nagar"
+      "author": "swapnil_nagar",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Managed Redis & Azure Databricks: Real-time Feature Serving for Low-Latency Decisions",
@@ -153,7 +185,9 @@
       "summary": "This blog content has been a collective collaboration between the Azure Databricks and Azure Managed Redis Product and Product Marketing teams. Executive summary Modern decisioning systems, fraud scoring, payments authorization, personalization, and step-up authentication, must return answers in...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
-      "author": "Jason_Pereira"
+      "author": "Jason_Pereira",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Aspire on Azure App Service is now Generally Available",
@@ -162,7 +196,9 @@
       "summary": "Today we are announcing General Availability of Aspire on Azure App Service, making it easier to take distributed applications from local development to a fully managed production environment on Azure App Service. With the Aspire.Hosting.Azure.AppService package, you can define your hosting...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "TulikaC"
+      "author": "TulikaC",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "🚀GitHub Copilot CLI: AI Assistance from the Command Line for Infrastructure Deployments",
@@ -171,7 +207,9 @@
       "summary": "What is GitHub Copilot CLI? GitHub Copilot CLI is an AI-powered assistant that runs directly inside your terminal. Instead of manually writing commands, scripts, or debugging issues, you can simply describe what you want — and Copilot executes it. Here’s the shift: Traditional CLI Copilot CLI You...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "ibrahimbaig"
+      "author": "ibrahimbaig",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft Foundry Labs: A Practical Fast Lane from Research to Real Developer Work",
@@ -180,7 +218,9 @@
       "summary": "Why developers need a fast lane from research → prototypes AI engineering has a speed problem, but it is not a shortage of announcements. The hard part is turning research into a useful prototype before the next wave of models, tools, or agent patterns shows up. That gap matters. AI engineers want...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Vectorless Reasoning-Based RAG: A New Approach to Retrieval-Augmented Generation",
@@ -189,7 +229,9 @@
       "summary": "Introduction Retrieval-Augmented Generation (RAG) has become a widely adopted architecture for building AI applications that combine Large Language Models (LLMs) with external knowledge sources. Traditional RAG pipelines rely heavily on vector embeddings and similarity search to retrieve relevant...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Rajapriya"
+      "author": "Rajapriya",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "🚀 Securing Enterprise AI: From Red Teaming to Risk Cards and Azure Guardrails",
@@ -198,7 +240,9 @@
       "summary": "AI is no longer experimental—it’s deeply embedded into critical business workflows. From copilots to decision intelligence systems, organizations are rapidly adopting large language models (LLMs). But here’s the reality: AI is not just another application layer—it’s a new attack surface. 🧠 Why...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "adityakumar60"
+      "author": "adityakumar60",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Your Entire Engineering Floor Just Stopped Coding",
@@ -207,7 +251,9 @@
       "summary": "And the developers running Claude Code and GitHub Copilot CLI didn’t notice… Status Page Says ‘Operational.’ Your Subagents Say Otherwise. If you’re running autonomous agents in any serious capacity, you’ve experienced this: model provider outages aren’t edge cases — they’re part of the operating...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Desi Villanueva"
+      "author": "Desi Villanueva",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "HTTP Triggers in Azure SRE Agent: From Jira Ticket to Automated Investigation",
@@ -216,7 +262,9 @@
       "summary": "Introduction Many teams run their observability, incident management, ticketing, and deployment on platforms outside of Azure—Jira, Opsgenie, Grafana, Zendesk, GitLab, Jenkins, Harness, or homegrown internal tools. These are the systems where alerts fire, tickets get filed, deployments happen, and...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "Vineela-Suri"
+      "author": "Vineela-Suri",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Hosted Containers and AI Agent Solutions",
@@ -225,7 +273,9 @@
       "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Unlock More Power in Your Development Workflow: Syncfusion for Visual Studio Subscribers",
@@ -234,7 +284,9 @@
       "summary": "A few months ago, I was talking with a developer who said something that stuck with me: “I love building apps. I just don’t love rebuilding the same UI controls over and over again.” That’s the reality for a lot of teams. You want to focus on your business logic, your architecture, your...",
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
-      "author": "Jim Harrer"
+      "author": "Jim Harrer",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Automating Azure OpenAI Cost Control Using Budgets, Action Groups, and Automation Runbooks",
@@ -243,7 +295,9 @@
       "summary": "Introduction As organizations increasingly adopt Azure OpenAI for use cases such as generative AI, analytics, and experimentation, cost governance becomes a critical operational concern. Azure OpenAI workloads can scale quickly, and without proper controls, unmonitored usage may lead to unexpected...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "trisha1302"
+      "author": "trisha1302",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Synchronizing Azure Storage Across Isolated Private Endpoint Networks",
@@ -252,7 +306,9 @@
       "summary": "Introduction In Azure repatriation programs, enterprises often need to migrate large volumes of blob data from a source Azure environment to a target Azure environment under strict security and network isolation constraints. A typical repatriation setup includes fully isolated source and target...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "deepakkumarv"
+      "author": "deepakkumarv",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing Public Preview of Argo CD extension on AKS and Azure Arc enabled Kubernetes clusters",
@@ -261,7 +317,9 @@
       "summary": "We are excited to announce public preview of the Argo CD extension for Azure Kubernetes Service (AKS) and Azure Arc-enabled Kubernetes clusters. As GitOps becomes the standard for deploying and operating applications at scale, enterprises need a way to implement GitOps while staying compliant with...",
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
-      "author": "Poornima99"
+      "author": "Poornima99",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "New Oracle Autonomous AI Database - Dedicated option on Oracle AI Database@Azure",
@@ -270,7 +328,9 @@
       "summary": "At Microsoft, our partnership with Oracle reflects a shared commitment to meeting customers where they are — helping them modernize mission-critical workloads on Azure without sacrificing the performance, control, or compliance posture they've built over years. As part of this continued evolution,...",
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
-      "author": "SparshAgrawat"
+      "author": "SparshAgrawat",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "SQL code analysis in VS Code: Configure rules without editing your project file",
@@ -279,7 +339,9 @@
       "summary": "SQL code analysis has been part of the SSDT workflow for a long time. Before deploying a schema change, you could run a set of static analysis rules against your project to catch potential issues, things like missing primary keys, deprecated syntax, or objects that could break under certain...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
-      "author": "Iqra Shaikh"
+      "author": "Iqra Shaikh",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Manage SQL database schemas in VS Code: Publish dialog and item templates",
@@ -288,7 +350,9 @@
       "summary": "Making schema changes often means jumping between tools. You write code in VS Code, then switch to a separate tool to deploy your changes : exporting a script, running it manually, or copy-pasting into a query editor. Either way, it pulls you out of your flow. With the latest updates to SQL...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
-      "author": "Iqra Shaikh"
+      "author": "Iqra Shaikh",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Agentic Platform Engineering with GitHub Copilot",
@@ -297,7 +361,9 @@
       "summary": "We’ve talked about the human scale problem and what happens when infrastructure scales but understanding doesn’t. If you’ve been following along, you know the thesis: our tools have outpaced our ability to operate them, and platform engineering is how we’re fighting back. But here’s the thing –...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao"
+      "author": "Diego Casati, Ray Kao",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Get started with NeuBird Hawkeye MCP server in Azure SRE Agent",
@@ -306,7 +372,9 @@
       "summary": "Integrate NeuBird Hawkeye MCP with Azure SRE Agent TL;DR If your infrastructure spans multiple clouds say Azure and GCP, or Azure alongside any other cloud provider investigating incidents means jumping between completely separate consoles, log systems, and monitoring stacks. Azure SRE Agent now...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "dbandaru"
+      "author": "dbandaru",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Event Grid MQTT Broker: Enterprise-Grade Messaging for the Connected World",
@@ -315,7 +383,9 @@
       "summary": "Azure Messaging · What's New · March 2026 The Enterprise MQTT Brokerfor Every Connected Ecosystem Scale to millions of devices, enforce zero-trust security, and route real-time events across every service, system, and application — all on Azure's hyperscaler-grade messaging backbone. 1,000...",
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
-      "author": "Connected-Seth"
+      "author": "Connected-Seth",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
@@ -324,7 +394,9 @@
       "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available in April, extends the Microsoft Defender Unified RBAC model to...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "tomasbeerthuis"
+      "author": "tomasbeerthuis",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "From code to cloud: Deploy an AI agent to Microsoft Foundry in minutes with azd",
@@ -333,7 +405,9 @@
       "summary": "Deploy and monitor an AI agent on Microsoft Foundry using the Azure Developer CLI (azd). This tutorial covers infrastructure scaffolding with Bicep, one-command deployment, local development, and real-time log streaming—all from Visual Studio Code. The post From code to cloud: Deploy an AI agent to...",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan"
+      "author": "PuiChee (PC) Chan",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Migrating Ant Builds to Maven with GitHub Copilot app modernization",
@@ -342,7 +416,9 @@
       "summary": "Many legacy Java applications still rely on Apache Ant for building, packaging, and dependency management. While Ant remains flexible, it lacks the structured lifecycle, dependency resolution, and ecosystem support that modern build tools like Maven provide. Migrating from Ant to Maven improves...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "ayangupta"
+      "author": "ayangupta",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing Aspire 13.2",
@@ -351,7 +427,9 @@
       "summary": "Aspire 13.2 brings TypeScript AppHost authoring, an agent-native CLI, Foundry integration, and more. The post Announcing Aspire 13.2 appeared first on Aspire Blog.",
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
-      "author": "Maddy Montaquila, David Fowler"
+      "author": "Maddy Montaquila, David Fowler",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Code Optimizations for Azure App Service Now Available in VS Code",
@@ -360,7 +438,9 @@
       "summary": "Today we shipped a feature in the Azure App Service extension for VS Code that answers both questions: Code Optimizations, powered by Application Insights profiler data and GitHub Copilot. The problem: production performance is a black box You've deployed your .NET app to Azure App Service....",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "fiveisprime"
+      "author": "fiveisprime",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
@@ -369,7 +449,9 @@
       "summary": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence By Yves Pitsch, GM, Azure Space, Microsoft The global energy system is entering a new phase—one defined not just by a single transition to renewables, but by the convergence of forces that are reshaping how energy is...",
       "blog": "Planetary Computer",
       "blogId": "microsoft-planetary-computer-blog",
-      "author": "Yves-Pitsch"
+      "author": "Yves-Pitsch",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "How to get blob Total Blob Count and Total Capacity with Blob Inventory",
@@ -378,7 +460,9 @@
       "summary": "Table of Contents Approach Introduction to the Blob Inventory Service Steps to enable inventory report Support Documentation Disclaimer: Approach This article presents how to take advantage of the Blob Inventory service to get the total blob count and the total capacity per storage account, per...",
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
-      "author": "ruineiva"
+      "author": "ruineiva",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Reliable blob processing using Azure Logic Apps: Recommended architecture",
@@ -387,7 +471,9 @@
       "summary": "Understanding the Limitations of In-App Blob Triggers The Logic App Blob - In-App trigger https://learn.microsoft.com/en-us/azure/logic-apps/connectors/built-in/reference/azureblob/ is built upon the same architecture as the Azure Function App Blob trigger and therefore inherits similar features...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
-      "author": "SwathiK"
+      "author": "SwathiK",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building real-world AI automation with Foundry Local and the Microsoft Agent Framework",
@@ -396,7 +482,9 @@
       "summary": "A hands-on guide to building real-world AI automation with Foundry Local, the Microsoft Agent Framework, and PyBullet. No cloud subscription, no API keys, no internet required. Why Developers Should Care About Offline AI Imagine telling a robot arm to \"pick up the cube\" and watching it execute the...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Securing Azure AI Agents: Identity, Access Control, and Guardrails in Microsoft Foundry",
@@ -405,7 +493,9 @@
       "summary": "As AI agents evolve from simple chatbots to autonomous systems that access enterprise data, call APIs, and orchestrate workflows, security becomes non negotiable. Unlike traditional applications, AI agents introduce new risks — such as prompt injection, over privileged access, unsafe tool...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "SudhaS"
+      "author": "SudhaS",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing public preview: Cilium mTLS encryption for Azure Kubernetes Service",
@@ -414,7 +504,9 @@
       "summary": "We are thrilled to announce the public preview of Cilium mTLS encryption in Azure Kubernetes Service (AKS), delivered as part of Advanced Container Networking Services and powered by the Azure CNI dataplane built on Cilium. This capability is the result of a close engineering collaboration between...",
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal"
+      "author": "chandanAggarwal",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Run OpenClaw Agents on Azure Linux VMs (with Secure Defaults)",
@@ -423,7 +515,9 @@
       "summary": "Many teams want an enterprise-ready personal AI assistant, but they need it on infrastructure they control, with security boundaries they can explain to IT. That is exactly where OpenClaw fits on Azure. OpenClaw is a self-hosted, always-on personal agent runtime you run in your enterprise...",
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
-      "author": "johnsonshi_msft"
+      "author": "johnsonshi_msft",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "What’s new in Microsoft Sentinel: RSAC 2026",
@@ -432,7 +526,9 @@
       "summary": "Security is entering a new era, one defined by explosive data growth, increasingly sophisticated threats, and the rise of AI-enabled operations. To keep pace, security teams need an AI-powered approach to collect, reason over, and act on security data at scale. At RSA Conference 2026 (RSAC), we’re...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "spalani"
+      "author": "spalani",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
@@ -441,7 +537,9 @@
       "summary": "As threat actors continue to blend reconnaissance, exploitation, and post-compromise activity, network-level signals remain critical for early detection and correlated response. To strengthen this layer, we're introducing five new Azure Firewall IDPS detections, now available out of the box in the...",
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
-      "author": "Mohit_Kumar"
+      "author": "Mohit_Kumar",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Agentic Use Cases for Developers on the Microsoft Sentinel Platform",
@@ -450,7 +548,9 @@
       "summary": "Interested in building an agent with Sentinel platform solutions but not sure where to start? This blog will help you understand some common use cases for agent development that we’ve seen across our partner ecosystem. SOC teams don’t need more alerts - they need fast, repeatable investigation and...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "Sai_Marapareddy"
+      "author": "Sai_Marapareddy",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Extending App Assure’s Sentinel Promise through the Sentinel Advisory Service",
@@ -459,7 +559,9 @@
       "summary": "At RSAC last year, we introduced the Microsoft Sentinel Promise with a straightforward commitment to our customers: that third-party data ingestion for Sentinel is reliable, predictable, and scalable without the need for complex custom coding and architecting. In other words, your connectors for...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "MikeAdams"
+      "author": "MikeAdams",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
@@ -468,7 +570,9 @@
       "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to security threats across increasingly complex environments. With the rollout of the Microsoft Sentinel data lake in the fall, and the App Assure-backed Sentinel promise that supports it, customers now have access to...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "JesseKopavi"
+      "author": "JesseKopavi",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "How Granular Delegated Admin Privileges (GDAP) allows Sentinel customers to delegate access",
@@ -477,7 +581,9 @@
       "summary": "Simplifying Defender SIEM and XDR delegated access As Microsoft Sentinel and Defender converge into a unified experience, organizations face a fundamental challenge: the lack of a scalable, comprehensive, delegated access model that works seamlessly across Entra ID and Sentinel’s Azure Resource...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "Yossi Basha"
+      "author": "Yossi Basha",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Defending the AI Era: New Microsoft Capabilities to Protect AI",
@@ -486,7 +592,9 @@
       "summary": "As enterprises rapidly adopt AI to drive productivity, automate decisions, and power intelligent agents, a new attack surface is emerging—one that traditional security controls were never designed to protect. AI models, training pipelines, plugins, and autonomous agents now sit directly in the path...",
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
-      "author": "danielacardon"
+      "author": "danielacardon",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "New innovations in Microsoft Defender to strengthen multi-cloud, containers, and AI model security",
@@ -495,7 +603,9 @@
       "summary": "Cloud security today is no longer just about misconfigurations; it’s about keeping pace with cloud-native change, prioritizing risk before it becomes an incident, and securing AI as a new supply chain for applications. In modern environments, infrastructure and applications are rebuilt and...",
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
-      "author": "parulseth"
+      "author": "parulseth",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Heroku Entered Maintenance Mode — Here's Your Next Move",
@@ -504,7 +614,9 @@
       "summary": "Heroku has entered sustaining engineering — no new features, no new enterprise contracts. If you're running production workloads on the platform, you're probably thinking about what comes next. Azure Container Apps is worth a serious look. Scale-to-zero pricing, event-driven autoscaling, built-in...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "simonjj"
+      "author": "simonjj",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Designing an Azure Disaster Recovery Strategy for Enterprise Workloads",
@@ -513,7 +625,9 @@
       "summary": "Introduction As organizations accelerate their cloud adoption journey, ensuring resiliency and disaster recovery (DR) becomes a foundational requirement for maintaining business continuity. In large-scale Azure environments, customers often operate critical workloads in a primary region and later...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "Shikhaghildiyal"
+      "author": "Shikhaghildiyal",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Power Apps Vibe Experience: Build Business Apps at the Speed of Ideas",
@@ -522,7 +636,9 @@
       "summary": "Power Apps Vibe Experience: Building Business Applications with AI in Minutes Organizations today operate in a fast-paced digital environment where new business challenges emerge constantly. Whether it’s managing internal workflows, tracking projects, or collecting customer feedback, businesses...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "harshul05"
+      "author": "harshul05",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Centralized Monitoring in Azure",
@@ -531,7 +647,9 @@
       "summary": "Centralized Monitoring in Azure: Automating Diagnostic Settings Across All Resources Introduction In modern cloud environments, observability is not optional—it’s foundational. As organizations scale their Azure footprint, ensuring consistent monitoring across hundreds (or thousands) of resources...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "Shikhaghildiyal"
+      "author": "Shikhaghildiyal",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Introducing Azure Managed Grafana MCP: The Managed Telemetry Gateway for AI Agents",
@@ -540,7 +658,9 @@
       "summary": "AI agents are rapidly becoming a core part of how teams build, operate, and improve cloud systems, from coding assistants to autonomous remediation workflows. To deliver on that promise in the enterprise, agents need a secure, governed way to access real production telemetry. Azure Managed Grafana...",
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
-      "author": "aayodeji"
+      "author": "aayodeji",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building an Enterprise Platform for Inference at Scale",
@@ -549,7 +669,9 @@
       "summary": "Architecture Decisions With the optimization stack in place, the next layer of decisions is architectural — how you distribute compute across GPUs, nodes, and deployment environments to match your model size and traffic profile. GPU Parallelism Strategy on AKS Strategy How It Works When to Use...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "bobmital"
+      "author": "bobmital",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Remote MCP Server preview in Microsoft Foundry",
@@ -558,7 +680,9 @@
       "summary": "Earlier this week we release the public preview for our Azure DevOps MCP Server. Today we are excited to let you know that the Azure DevOps MCP Server is now available to use in Microsoft Foundry. For those who are new to Foundry, Microsoft Foundry is a unified platform for building and managing AI...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
-      "author": "Dan Hellem"
+      "author": "Dan Hellem",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
@@ -567,7 +691,9 @@
       "summary": "In Part 1 of this blog series, we outlined our four‑pillar strategy for resiliency in Azure Front Door: configuration resiliency, data plane resiliency, tenant isolation, and accelerated Recovery Time Objective (RTO). Together, these pillars help Azure Front Door remain continuously available and...",
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
-      "author": "AbhishekTiwari"
+      "author": "AbhishekTiwari",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Bastion: Enterprise-grade secure access made simple",
@@ -576,7 +702,9 @@
       "summary": "Managing secure remote access to virtual machines traditionally means juggling public IP addresses, configuring jump boxes, deploying VPN infrastructure, and managing complex firewall rules. Each layer adds cost, complexity, and potential security vulnerabilities. Azure Bastion changes everything....",
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
-      "author": "ShabazShaik"
+      "author": "ShabazShaik",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Building Knowledge-Grounded AI Agents with Foundry IQ",
@@ -585,7 +713,9 @@
       "summary": "Foundry IQ now integrates with Foundry Agent Service via MCP (Model Context Protocol), enabling developers to build AI agents grounded in enterprise knowledge. This integration combines Foundry IQ’s intelligent retrieval capabilities with Foundry Agent Service’s orchestration, enabling agents to...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "NelsonKumari"
+      "author": "NelsonKumari",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "From Azure IoT Operations Data Processor Pipelines to Dataflows",
@@ -594,7 +724,9 @@
       "summary": "In this post we explore the evolution from Azure IoT Operations Data Processor Pipelines to Dataflows, why we adopted a hybrid strategy with custom Rust pods, and the architectural lessons we learned building event detection systems at the edge. The post From Azure IoT Operations Data Processor...",
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
-      "author": "Maho Pacheco"
+      "author": "Maho Pacheco",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure NCv6 Virtual Machines: Enhancements and GA Transition",
@@ -603,7 +735,9 @@
       "summary": "NCv6 Virtual Machines are Azure's flexible, next generation platform enabling both leading-edge graphics and generative AI compute workloads. Featuring NVIDIA RTX PRO 6000 Blackwell Server Edition (BSE) GPUs, Intel Xeon™ 6 \"Granite Rapids\" 6900P series CPUs, and a suite of Microsoft Azure...",
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar"
+      "author": "Fernando_Aznar",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Authentication Tokens Are Not a Data Contract",
@@ -612,7 +746,9 @@
       "summary": "Authentication tokens exist to answer one question: is this caller authorized to do this? They are not intended to be a stable data interface, a schema you can depend on, or an input into application logic. If your application decodes tokens and reads claims from them, this is an important...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
-      "author": "Angel Wong"
+      "author": "Angel Wong",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Announcing the New Home for the Azure Databricks Blog",
@@ -621,7 +757,9 @@
       "summary": "We’re excited to share that the Azure Databricks blog has moved to a new address on Microsoft Tech Community Hub! Azure Databricks | Microsoft Community Hub Our new blog home is designed to make it easier than ever for you to discover the latest product updates, deep technical insights, and...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
-      "author": "AnaviNahar"
+      "author": "AnaviNahar",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "The Swarm Diaries: What Happens When You Let AI Agents Loose on a Codebase",
@@ -630,7 +768,9 @@
       "summary": "The Idea Single-agent coding assistants are impressive, but they have a fundamental bottleneck: they think serially. Ask one to build a full CLI app with a database layer, a command parser, pretty output, and tests, and it’ll grind through each piece one by one. Industry benchmarks bear this out:...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "larohra"
+      "author": "larohra",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Developer CLI (azd): Run and test AI agents locally with azd",
@@ -639,7 +779,9 @@
       "summary": "New azd ai agent run and invoke commands let you start and test AI agents from your terminal—locally or in the cloud. The post Azure Developer CLI (azd): Run and test AI agents locally with azd appeared first on Azure SDK Blog.",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan, Travis Angevine"
+      "author": "PuiChee (PC) Chan, Travis Angevine",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "DiskANN Vector Index Improvements",
@@ -648,7 +790,9 @@
       "summary": "Remember when we announced the Public Preview of DiskANN vector indexes back in November and mentioned that once you created the index, your table became read‑only? Yeah… about that… 😅 We shipped early because the demand for Vector search in SQL was overwhelming. We knew the constraints weren’t...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
-      "author": "Davide Mauri, Pooja Kamath"
+      "author": "Davide Mauri, Pooja Kamath",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft partners with DataBahn to accelerate enterprise deployments for Microsoft Sentinel",
@@ -657,7 +801,9 @@
       "summary": "Enterprise security teams are collecting more telemetry than ever across cloud platforms, endpoints, SaaS applications, and on-premises infrastructure. Security teams want broader data coverage and longer retention without losing control of cost and data quality. This post explains the new DataBahn...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "JamesAde"
+      "author": "JamesAde",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "When Infrastructure Scales But Understanding Doesn’t",
@@ -666,7 +812,9 @@
       "summary": "We all know this, even if we don’t like to admit it: modern infrastructure can scale infinitely, but human understanding doesn’t. We’ve all seen it happen – organizations going from managing dozens of servers to thousands of containers, from deploying weekly to deploying hundreds of times per day,...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao"
+      "author": "Diego Casati, Ray Kao",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Introducing Lakeflow Connect Free Tier, now available on Azure Databricks",
@@ -675,7 +823,9 @@
       "summary": "We're excited to introduce the Lakeflow Connect Free Tier on Azure Databricks, so you can easily bring your enterprise data into your lakehouse to build analytics and AI applications faster. Modern applications require reliable access to operational data, especially for training analytics and AI...",
       "blog": "Azure Databricks",
       "blogId": "azure-databricks",
-      "author": "AnaviNahar"
+      "author": "AnaviNahar",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Near–Real-Time CDC to Delta Lake for BI and ML with Lakeflow on Azure Databricks",
@@ -684,7 +834,9 @@
       "summary": "The Challenge: Too Many Tools, Not Enough Clarity Modern data teams on Azure often stitch together separate orchestrators, custom streaming consumers, hand-rolled transformation notebooks, and third-party connectors — each with its own monitoring UI, credential system, and failure modes. The result...",
       "blog": "Azure Databricks",
       "blogId": "azure-databricks",
-      "author": "AnaviNahar"
+      "author": "AnaviNahar",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Turning historical patterns into actionable detection pipelines with Microsoft Sentinel data lake",
@@ -693,7 +845,9 @@
       "summary": "This article is part of the Sentinel data lake practitioner series. In part 1, we introduced the Operationalization Framework — a structured way to turn exploratory notebooks into reliable, scheduled Spark jobs within the Microsoft Sentinel data lake. Now in Part 2, we go from framework to function...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "Ashwin_Patil"
+      "author": "Ashwin_Patil",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder & More",
@@ -702,7 +856,9 @@
       "summary": "The MSSQL extension for VS Code v1.41 continues to evolve, delivering features that make SQL development more integrated, more powerful, and more developer-friendly. In this release, we’re introducing the Public Preview of Schema Designer with GitHub Copilot, Data API builder, and SQL Notebooks,...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen, Tauseef Siddique, Carlos Robles"
+      "author": "Yo-Lei Chen, Tauseef Siddique, Carlos Robles",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
@@ -711,7 +867,9 @@
       "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
       "blog": "FinOps",
       "blogId": "finopsblog",
-      "author": "kyleikeda"
+      "author": "kyleikeda",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Learn how to build agents and workflows in Python",
@@ -720,7 +878,9 @@
       "summary": "We just concluded Python + Agents, a six-part livestream series where we explored the foundational concepts behind building AI agents in Python using the Microsoft Agent Framework: Using agents with tools, MCP servers, and subagents Adding context to agents with database calls and long-term memory...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
+      "author": "Pamela_Fox",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
@@ -729,7 +889,9 @@
       "summary": "Introduction: Azure Firewall Premium provides strong protection with a built-in Intrusion Detection and Prevention System (IDPS). It inspects inbound, outbound, and east-west traffic against Microsoft’s continuously updated signature set and can block threats before they reach your workloads. IDPS...",
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
+      "author": "saikishor",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing Gateway API support for App Routing (preview)",
@@ -738,7 +900,9 @@
       "summary": "The AKS app routing add-on now supports the Kubernetes Gateway API via a meshless Istio control plane — the recommended path to migrate from Ingress-NGINX.",
       "blog": "AKS Blog",
       "blogId": "aksblog",
-      "author": "Microsoft"
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "From 150 Unread to Zero Stress: Automating Inbox Triage with MCP and GitHub Copilot",
@@ -747,7 +911,9 @@
       "summary": "Taming the Noisy Inbox: How I Used MCP to Automate Email and Teams Triage How the Model Context Protocol (MCP) turns your AI coding assistant into a workplace productivity engine — connecting Microsoft 365 data to your terminal workflow. The Problem We All Share If you work in a customer-facing...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Desi Villanueva"
+      "author": "Desi Villanueva",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing Microsoft Azure Network Adapter (MANA) support for Existing VM SKUs",
@@ -756,7 +922,9 @@
       "summary": "As a leader in cloud infrastructure, Microsoft ensures that Azure’s IaaS customers always have access to the latest hardware. Our goal is to consistently deliver technology to support business critical workloads with world class efficiency, reliability, and security. Customers benefit from...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "ali_sheriff"
+      "author": "ali_sheriff",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Skills Plugin – Let’s Get Started!",
@@ -765,7 +933,9 @@
       "summary": "Part 2 of the Azure Skills Plugin series Previously: Announcing the Azure Skills Plugin This post is all about getting you up and running. I won’t go deep on capabilities, architecture or anything like that here – that’s coming in future posts in this series. The goal is to get the plugin...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Chris Harris"
+      "author": "Chris Harris",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "After Ingress NGINX: Migrating to Application Gateway for Containers",
@@ -774,7 +944,9 @@
       "summary": "If you're running Ingress NGINX on AKS, you've probably seen the announcements by now. The community Ingress Nginx project is being retired, upstream maintenance ends in March 2026, and Microsoft's extended support for the Application Routing add-on runs out in November 2026. A requirement to...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "samcogan"
+      "author": "samcogan",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
@@ -783,7 +955,9 @@
       "summary": "We’re back with a fresh PowerToys release – PowerToys 0.98! This month introduces the new Command Palette Dock, along with a refreshed Keyboard Manager experience and many other improvements across the utilities. You can grab the update by checking for updates in PowerToys or by heading to the...",
       "blog": "Windows Command Line",
       "blogId": "commandline",
-      "author": "Niels Laute"
+      "author": "Niels Laute",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Introducing the Azure Cosmos DB Plugin for Cursor",
@@ -792,7 +966,9 @@
       "summary": "We’re excited to announce the Cursor plugin for Azure Cosmos DB bringing AI-powered database expertise, best practices guidance, and live database connectivity directly into your coding workflow. Whether you’re designing a new data model, optimizing queries, or building a RAG application with...",
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
+      "author": "Sajeetharan Sinnathurai",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure DevOps Remote MCP Server (public preview)",
@@ -801,7 +977,9 @@
       "summary": "When we released the local Azure DevOps MCP Server, it gave customers a way to connect Azure DevOps data with tools like Visual Studio and Visual Studio Code through GitHub Copilot Chat. The next step was to make this experience easier to get started with and to enable it for services that support...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
-      "author": "Dan Hellem"
+      "author": "Dan Hellem",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Resiliency Patterns for Azure Front Door: Field Lessons",
@@ -810,7 +988,9 @@
       "summary": "Abstract Azure Front Door (AFD) sits at the edge of Microsoft’s global cloud, delivering secure, performant, and highly available applications to users worldwide. As adoption has grown—especially for mission‑critical workloads—the need for resilient application architectures that can tolerate rare...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "pbeegala"
+      "author": "pbeegala",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Porting C++ from IBM Power to x86: Solving Silent Endianness Corruption with C++and Github Copilot",
@@ -819,7 +999,9 @@
       "summary": "Migrating C++ applications from IBM Power Systems to Azure x86 involves a subtle but critical architectural difference that is the byte order. When legacy code compiled for Big-Endian hardware is recompiled for Little-Endian x86 without modification, multi-byte integers silently corrupt. There are...",
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
-      "author": "OsvaldoDaibert"
+      "author": "OsvaldoDaibert",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing the IQ Series: Foundry IQ",
@@ -828,7 +1010,9 @@
       "summary": "AI agents are rapidly becoming a new way to build applications. But for agents to be truly useful, they need access to the knowledge and context that helps them reason about the world they operate in. That’s where Foundry IQ comes in. Today we’re announcing the IQ Series: Foundry IQ, a new set of...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "aycabas"
+      "author": "aycabas",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Foundry Agent Service is GA: private networking, Voice Live, and enterprise-grade evaluations",
@@ -837,7 +1021,9 @@
       "summary": "The next-gen Foundry Agent Service is generally available today with end-to-end private networking, Voice Live integration, expanded MCP authentication, GA evaluations with continuous monitoring, and hosted agent deployments in six new Azure regions. The post Foundry Agent Service is GA: private...",
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
-      "author": "Bala Venkataraman, jeffhollan, Nick Brady"
+      "author": "Bala Venkataraman, jeffhollan, Nick Brady",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Building Microsoft’s Sovereign AI on Azure Local with NVIDIA RTX PRO and Next Gen NVIDIA Rubin",
@@ -846,7 +1032,9 @@
       "summary": "Across governments, regulated industries, and critical infrastructure, organizations are moving quickly to adopt advanced AI but with a clear requirement: AI systems should be built and operated within Sovereign boundaries. The question is no longer whether to use advanced models, but where those...",
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
-      "author": "meenagowdar"
+      "author": "meenagowdar",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "🚀 AI Toolkit for VS Code — March 2026 Update",
@@ -855,7 +1043,9 @@
       "summary": "March brings another milestone for AI Toolkit! Version 0.32.0 is packed with new capabilities designed to help you ship production ready AI agents. This release brings a unified tree view experience, Agent Builder enhancements, and streamlined GitHub Copilot integration for agent development. 🗂️...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "junjieli"
+      "author": "junjieli",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Health-Aware Failover for Azure Container Registry Geo-Replication",
@@ -864,7 +1054,9 @@
       "summary": "Azure Container Registry (ACR) supports geo-replication: one registry resource with active-active (primary-primary), write-enabled geo-replicas across multiple Azure regions. You can push or pull through any replica, and ACR asynchronously replicates content and metadata to all other replicas using...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft"
+      "author": "johnsonshi_msft",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Cosmos DB at FOSSASIA Summit 2026: Sessions, Conversations, and Community",
@@ -873,7 +1065,9 @@
       "summary": "The FOSSASIA Summit 2026 was an incredible gathering of developers, open-source contributors, startups, and technology enthusiasts from across the region. This year, Azure Cosmos DB and Azure DocumentDB were present at the summit with both technical sessions and a dedicated booth, giving us a great...",
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
+      "author": "Sajeetharan Sinnathurai",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft hits the road with Oracle AI World Tour 2026.",
@@ -882,7 +1076,9 @@
       "summary": "Enterprises around the world are looking to do more with AI—but complexity often stands in the way. That’s why Microsoft and Oracle have partnered to deliver the most comprehensive, enterprise-ready solution for Oracle workloads in the public cloud. With Oracle Database@Azure, organizations can...",
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
-      "author": "NadineSalem"
+      "author": "NadineSalem",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Get the Inside Scoop on Visual Studio Subscriptions, Straight to Your Inbox",
@@ -891,7 +1087,9 @@
       "summary": "Get the Inside Scoop on Visual Studio Subscriptions, Straight to Your Inbox A few weeks ago I was talking with a Visual Studio Enterprise subscriber. Seasoned .NET developer. Ships production code. Knows his stack inside and out. During the conversation I mentioned one of the training benefits...",
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
-      "author": "Jim Harrer"
+      "author": "Jim Harrer",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Now Generally Available: Cosmos DB Mirroring in Microsoft Fabric with Private Networks",
@@ -900,7 +1098,9 @@
       "summary": "We’re excited to announce the general availability of private network support for Azure Cosmos DB mirroring in Microsoft Fabric, enabling customers to replicate operational data into Fabric from Azure Cosmos DB accounts secured with private endpoints or virtual networks while continuing to operate...",
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
-      "author": "Jai Maldonado"
+      "author": "Jai Maldonado",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "From Prototype to Production: Building a Hosted Agent with AI Toolkit & Microsoft Foundry",
@@ -909,7 +1109,9 @@
       "summary": "From Prototype to Production: Building a Hosted Agent with AI Toolkit & Microsoft Foundry Agentic AI is no longer a future concept — it’s quickly becoming the backbone of intelligent, action-oriented applications. But while it’s easy to prototype an AI agent, taking it all the way to production...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste"
+      "author": "carlottacaste",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Scaling multi-node LLM inference with NVIDIA Dynamo and NVIDIA GPUs on AKS (Part 3)",
@@ -918,7 +1120,9 @@
       "summary": "Learn how NVIDIA Dynamo's KV Router optimizes multi-worker LLM inference on AKS with H100 GPUs, achieving lower latency through intelligent routing.",
       "blog": "AKS Blog",
       "blogId": "aksblog",
-      "author": "Microsoft"
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "The Agent that investigates itself",
@@ -927,7 +1131,9 @@
       "summary": "Azure SRE Agent handles tens of thousands of incident investigations each week for internal Microsoft services and external teams running it for their own systems. Last month, one of those incidents was about the agent itself. Our KV cache hit rate alert started firing. Cached token percentage was...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
+      "author": "sanchitmehta",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "March Patches for Azure DevOps Server",
@@ -936,7 +1142,9 @@
       "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. This patch addresses an issue introduced...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
-      "author": "Gloridel Morales"
+      "author": "Gloridel Morales",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "The Human Scale Problem in Platform Engineering",
@@ -945,7 +1153,9 @@
       "summary": "We keep doing this thing where we solve a problem, celebrate the victory, then realize we’ve created three new problems we didn’t even know existed. Remember when manually configuring servers was the bottleneck? So we built containers. Great! Now we’re orchestrating thousands of them. Remember when...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao"
+      "author": "Diego Casati, Ray Kao",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Developer CLI (azd): Debug hosted AI agents from your terminal",
@@ -954,7 +1164,9 @@
       "summary": "New azd ai agent show and monitor commands help you diagnose hosted AI agent failures directly from the CLI. The post Azure Developer CLI (azd): Debug hosted AI agents from your terminal appeared first on Azure SDK Blog.",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan"
+      "author": "PuiChee (PC) Chan",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Introducing Azure Managed Grafana 12",
@@ -963,7 +1175,9 @@
       "summary": "In this release, Azure Managed Grafana makes it easier to tighten access with current-user Entra authentication, speed up Azure Monitor logs exploration, and level up Prometheus and database monitoring experiences. What’s new in Azure Managed Grafana 12 Use current-user Entra authentication for...",
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
-      "author": "aayodeji"
+      "author": "aayodeji",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "A Practical Path Forward for Heroku Customers with Azure",
@@ -972,7 +1186,9 @@
       "summary": "On February 6, 2026, Heroku announced it is moving to a sustaining engineering model focused on stability, security, reliability, and ongoing support. Many customers are now reassessing how their application platforms will support today’s workloads and future innovation. Microsoft is committed to...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "NagaSurendran"
+      "author": "NagaSurendran",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
@@ -981,7 +1197,9 @@
       "summary": "We are excited to announce the public preview of Entra ID-based access for Azure Blob Storage SFTP. This new capability enables you to use Microsoft Entra ID (formerly Azure Active Directory) identities (including guest users via Entra External Identities) to securely connect to Azure Blob Storage...",
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
-      "author": "JeevanManoj"
+      "author": "JeevanManoj",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Arc Server Feb 2026 Forum Recap",
@@ -990,7 +1208,9 @@
       "summary": "Please find the recording for the monthly Azure Arc Server Forum at YouTube! During the February 2026 Azure Arc Server Forum, we discussed: Arc Server Reporting & Dashboard (Jeff Pigot, Sr. Solution Engineer): Check out this awesome visual reporting bringing together different management services...",
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
-      "author": "Aurnov_Chattopadhyay"
+      "author": "Aurnov_Chattopadhyay",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Proactive Health Monitoring and Auto-Communication Now Available for Azure Container Registry",
@@ -999,7 +1219,9 @@
       "summary": "Today, we're introducing Azure Container Registry's (ACR) latest service health enhancement: automated auto-communication through Azure Service Health alerts. When ACR detects degradation in critical operations—authentication, image push, and pull—your teams are now proactively notified through...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "FeynmanZhou"
+      "author": "FeynmanZhou",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Copilot Migration Agent",
@@ -1008,7 +1230,9 @@
       "summary": "Migration and modernization are complex, involving multiple decisions that determine cost, risk, and long‑term success. The timelines stretch and momentum is lost due to fragmented tools and manual planning. For most organizations, this is a continuous motion driven by shifting demands, security...",
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
-      "author": "shashban"
+      "author": "shashban",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building a Multi-Agent On-Call Copilot with Microsoft Agent Framework",
@@ -1017,7 +1241,9 @@
       "summary": "Four AI agents, one incident payload, structured triage in under 60 seconds powered by Microsoft Agent Framework and Foundry Hosted Agents. Multi-Agent Microsoft Agent Framework Foundry Hosted Agents Python SRE / Incident Response When an incident fires at 3 AM, every second the on-call engineer...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Temporary rollback: build identities can access Advanced Security: read alerts again",
@@ -1026,7 +1252,9 @@
       "summary": "If you use build service identities like Project Collection Build Service to call Advanced Security APIs, the Advanced Security permission changes in Sprint 269 broke that. We restricted API access for build identities as a security improvement but failed to provide an early notice for customers...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
-      "author": "Laura Jiang"
+      "author": "Laura Jiang",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Modern Database Protection: From Visibility to Threat Detection with Microsoft Defender for Cloud",
@@ -1035,7 +1263,9 @@
       "summary": "Databases sit at the heart of modern businesses. They support everyday apps, reports and AI tools. For example, any time you engage a site that requires a username and password, there is a database at the back end that stores your login information. As organizations adopt multi-cloud and hybrid...",
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee"
+      "author": "Yura_Lee",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "A Look Ahead at Azure Cosmos DB Conf 2026: From AI Agents to Global Scale",
@@ -1044,7 +1274,9 @@
       "summary": "Join us for Azure Cosmos DB Conf 2026, a free global, virtual developer event focused on building modern applications with Azure Cosmos DB. Date: April 28, 2026 Time: 9:00 AM–2:00 PM PT Where: Streaming live on the Microsoft Developer YouTube channel, with additional sessions available on demand....",
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
-      "author": "Jay Gordon"
+      "author": "Jay Gordon",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "From Single Apps to Scale Solutions: How AI Agents Scale Modernization",
@@ -1053,7 +1285,9 @@
       "summary": "AI is rewriting the modernization playbook. Over the past few years, AI has changed software development faster than anything we’ve seen in decades. And it’s not just about writing code faster. AI is reducing the day-to-day friction that slows teams down: upgrades, migrations, test failures,...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "mandywhaley"
+      "author": "mandywhaley",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Implementing the Backend-for-Frontend (BFF) / Curated API Pattern Using Azure API Management",
@@ -1062,7 +1296,9 @@
       "summary": "Modern digital applications rarely serve a single type of client. Web portals, mobile apps, partner integrations, and internal tools often consume the same backend services—yet each has different performance, payload, and UX requirements. Exposing backend APIs directly to all clients frequently...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "SajalMukherjee"
+      "author": "SajalMukherjee",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
@@ -1071,7 +1307,9 @@
       "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD managed disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
-      "author": "austin-ma"
+      "author": "austin-ma",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Aspire Conf is Coming! Join us Live on March 23",
@@ -1080,7 +1318,9 @@
       "summary": "Save the date and tune in for our free, livestream event on March 23. Discover Aspire and learn how it can transform the way you build and deploy your distributed apps and agents. The post Aspire Conf is Coming! Join us Live on March 23 appeared first on Aspire Blog.",
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
-      "author": "Maddy Montaquila"
+      "author": "Maddy Montaquila",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "What It Takes to Give SRE Agent a Useful Starting Point",
@@ -1089,7 +1329,9 @@
       "summary": "In our latest posts, The Agent that investigates itself and Azure SRE Agent Now Builds Expertise Like Your Best Engineer Introducing Deep Context, we wrote about a moment that changed how we think about agent systems. Azure SRE Agent investigated a regression in its own prompt cache, traced the...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic"
+      "author": "Dalibor_Kovacevic",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Migrating On-prem Windows & Linux VMs to Azure Confidential Virtual Machines via Azure Migrate",
@@ -1098,7 +1340,9 @@
       "summary": "1. Executive Summary Enterprise cloud adoption increasingly prioritizes trust boundaries that extend beyond traditional infrastructure isolation. While encryption at rest and in transit are foundational, modern organizations must also ensure that data in use (data actively processed in CPU or...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "SamhithaGurumurthy"
+      "author": "SamhithaGurumurthy",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building Reusable Custom Images for Azure Confidential VMs Using Azure Compute Gallery",
@@ -1107,7 +1351,9 @@
       "summary": "Overview Azure Confidential Virtual Machines (CVMs) provide hardware-enforced protection for sensitive workloads by encrypting data in use using AMD SEV-SNP technology. In enterprise environments, organizations typically need to: Create hardened golden images Standardize baseline configurations...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "PramodPalukuru"
+      "author": "PramodPalukuru",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Scaling DNS on AKS with Cilium: NodeLocal DNSCache, LRP, and FQDN Policies",
@@ -1116,7 +1362,9 @@
       "summary": "Why Adopt NodeLocal DNSCache? The primary drivers for adoption are usually: Eliminating Conntrack Pressure: In high-QPS UDP DNS scenarios, conntrack contention and UDP tracking can cause intermittent DNS response loss and retries; depending on resolver retry/timeouts, this can appear as...",
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
-      "author": "Simone_Rodigari"
+      "author": "Simone_Rodigari",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "How to Create a Harness Pipeline and integrate with Azure",
@@ -1125,7 +1373,9 @@
       "summary": "Building reliable, automated CI/CD pipelines is crucial for modern cloud applications. Harness — with its powerful pipeline orchestration — integrates seamlessly with Microsoft Azure, enabling teams to deploy applications faster, with stronger governance, security, and visibility. In this blog,...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
-      "author": "gjayadev"
+      "author": "gjayadev",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Getting Started with Behave: Writing Cucumber Tests in VS Code",
@@ -1134,7 +1384,9 @@
       "summary": "What is Behave? Behave is a BDD test framework for Python that allows you to write tests in plain English using Given–When–Then syntax, backed by Python step definitions. Key benefits: Human‑readable test scenarios using Gherkin Strong alignment between business requirements and test automation...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "sabappal"
+      "author": "sabappal",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "How to Access a Shared OneDrive Folder in Azure Logic Apps",
@@ -1143,7 +1395,9 @@
       "summary": "What is the problem? A common enterprise automation scenario involves copying files from a OneDrive folder shared by a colleague into another storage service such as SharePoint or Azure Blob Storage using Azure Logic Apps. However, when you configure the OneDrive for Business – “List files in...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
-      "author": "Arpit_MSFT"
+      "author": "Arpit_MSFT",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Databricks & Fabric Disaster Recovery: The Better Together Story",
@@ -1152,7 +1406,9 @@
       "summary": "Author's: Amudha Palani amudhapalani​, Oscar Alvarado oscaralvarado​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Disaster recovery (DR) is a critical component of any cloud-native data analytics platform, ensuring business continuity even during rare regional outages...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing the Azure Skills Plugin",
@@ -1161,7 +1417,9 @@
       "summary": "Part 1 of the Azure Skills Plugin series Coding agents like GitHub Copilot and Claude Code are great at code, but getting your app to production on Azure is not just about writing code. Really, it is about making the right calls. Which service fits this app? Which SKU fits this workload? Should...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Chris Harris"
+      "author": "Chris Harris",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft Agent Framework, Microsoft Foundry, MCP, Aspire を使った実践的な AI アプリを構築するサンプルが登場",
@@ -1170,7 +1428,9 @@
       "summary": "AI エージェントを作ること自体は、以前よりも簡単になってきました。しかし、それらを実際の本番運用のアプリケーションの一部としてデプロイすること (複数のサービス、永続的な状態管理、本番向けのインフラを含めた形で運用すること) になると、途端に複雑になります。 .NET コミュニティの開発者からも、ローカル環境でもクラウドでも動作する、クラウドネイティブな実運用レベルのサンプルが見たいという声が多く寄せられていました。 その声に応え、私たちはオープンソースのサンプルアプリ『Interview Coach (面接コーチ)』を作りました。模擬就職面接を行う AI チャット web アプリです。...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "Madoka Chiyoda"
+      "author": "Madoka Chiyoda",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft Agent Framework, Microsoft Foundry, MCP, Aspire를 활용한 실전 예제 만들기",
@@ -1179,7 +1439,9 @@
       "summary": "AI 에이전트를 개발하는 것은 점점 쉬워지고 있습니다. 하지만 여러 서비스, 상태 관리, 프로덕션 인프라를 갖춘 실제 애플리케이션의 일부로 배포하는 것은 여전히 복잡합니다. 실제로 .NET 개발자 커뮤니티에서는 로컬 머신과 클라우드 네이티브 방식의 클라우드 환경 모두에서 실제로 동작하는 실전 예제에 대한 요구가 많았습니다. 그래서 준비했습니다! Microsoft Agent Framework과 Microsoft Foundry, MCP(Model Context Protocol), Aspire등을 어떻게 프로덕션 상황에서 조합할 수...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "justinyoo"
+      "author": "justinyoo",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Visual Studio Dev Essentials: Free, Practical Tools for Every Developer",
@@ -1188,7 +1450,9 @@
       "summary": "When I first found Visual Studio Dev Essentials, it felt like discovering a hidden door in the developer toolkit world. I’d heard about free tools and cloud credits, but I wasn’t sure if it would really matter in day-to-day coding life. The short answer: it absolutely does. What struck me most was...",
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
-      "author": "Jim Harrer"
+      "author": "Jim Harrer",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Upcoming Compute API Change: Always return non-null securityType",
@@ -1197,7 +1461,9 @@
       "summary": "Overview Starting with Azure Compute API version 2025‑11‑01, responses for Azure Virtual Machines (VMs) and Virtual Machine Scale Sets (VMSS) will include a non‑null securityType value in all operations. While this is a small behavioral change, it can impact deployments if they rely on null checks...",
       "blog": "Azure Compute",
       "blogId": "azurecompute",
-      "author": "AjKundnani"
+      "author": "AjKundnani",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "AI Inferencing in Air-Gapped Environments",
@@ -1206,7 +1472,9 @@
       "summary": "If you had to point out the top trends of IT these days, two strong candidates would be Generative AI and Cybersecurity. Especially around the latter, sophistication, reach and volume of cyberattacks have seen significant increases in the last years, with added ingredients such as advanced...",
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
-      "author": "damocelj"
+      "author": "damocelj",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Stop Burning Money in Azure Storage",
@@ -1215,7 +1483,9 @@
       "summary": "Audience: Engineers, Architects, FinOps teams (and anyone whose finance team sends \"friendly\" cost emails) Your blobs called. They want to talk about your spending habits. Look, we've all been there. You spin up a storage account, dump everything into Hot tier, and walk away feeling productive. Six...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "Sabyasachi-Samaddar"
+      "author": "Sabyasachi-Samaddar",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft at NVIDIA GTC 2026",
@@ -1224,7 +1494,9 @@
       "summary": "Microsoft returns to NVIDIA GTC 2026 in San Jose with a strong presence across conference sessions, in‑booth theater talks, live demos, and executive‑level ancillary events. Together with NVIDIA and our partner ecosystem, Microsoft is showcasing how Azure AI infrastructure enables AI training,...",
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar"
+      "author": "Fernando_Aznar",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "What’s new in Microsoft Foundry | February 2026",
@@ -1233,7 +1505,9 @@
       "summary": "February brings Anthropic's Claude Opus 4.6 and Sonnet 4.6 with 1M-token context, GPT-Realtime-1.5 and GPT-Audio-1.5, Grok 4.0 GA, the Microsoft Agent Framework reaching Release Candidate, and the Foundry REST API quietly going GA — laying the foundation for imminent SDK GA announcements across...",
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
-      "author": "Nick Brady"
+      "author": "Nick Brady",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "MCP vs mcp-cli: Dynamic Tool Discovery for Token-Efficient AI Agents",
@@ -1242,7 +1516,9 @@
       "summary": "Introduction The AI agent ecosystem is evolving rapidly, and with it comes a scaling challenge that many developers are hitting context window bloat. When building systems that integrate with multiple MCP (Model Context Protocol) servers, you're forced to load all tool definitions upfront—consuming...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "anbonagi"
+      "author": "anbonagi",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Using Agents to Setup Experiments",
@@ -1251,7 +1527,9 @@
       "summary": "When setting up an experiment is complex, agents can automate the process to make it faster and more reliable. The post Using Agents to Setup Experiments appeared first on ISE Developer Blog.",
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
-      "author": "Peter Lasne"
+      "author": "Peter Lasne",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Decision Matrix: API vs MCP Tools — The Great Integration Showdown 🥊",
@@ -1260,7 +1538,9 @@
       "summary": "Audience: Engineers + Stakeholders (and anyone who's ever argued about API architecture at lunch)Date: March 2026Author: Sabyasachi Samaddar Purpose Somewhere, right now, two engineers are arguing about the \"right\" way to call an API. One swears by raw HTTP. The other just discovered MCP and thinks...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "Sabyasachi-Samaddar"
+      "author": "Sabyasachi-Samaddar",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Dynamic Resource Allocation (DRA) with NVIDIA virtualized GPU (vGPU) on AKS",
@@ -1269,7 +1549,9 @@
       "summary": "Configure dynamic resource allocation (DRA) for NVIDIA vGPU workloads and learn the prerequisites with setup steps on Azure Kubernetes Service (AKS).",
       "blog": "AKS Blog",
       "blogId": "aksblog",
-      "author": "Microsoft"
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Windows Terminal Preview 1.25 Release",
@@ -1278,7 +1560,9 @@
       "summary": "We briefly paused our quarterly release cycle to focus on reliability and performance, but now we’re back with Windows Terminal 1.25! We are also updating Windows Terminal stable to version 1.24, which will include all of the features from this previous blog post. Some notable features to call out...",
       "blog": "Windows Command Line",
       "blogId": "commandline",
-      "author": "Dustin Howett"
+      "author": "Dustin Howett",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "How Netstar Streamlined Fleet Monitoring and Reduced Custom Integrations with Drasi",
@@ -1287,7 +1571,9 @@
       "summary": "When a high-value container goes silent between waystations, logistics teams lose critical visibility, risking delays that can cascade into port congestion and missed connections. Netstar, a connected fleet solutions provider supporting customers like Maersk, faced this challenge as its operations...",
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
-      "author": "CollinBrian"
+      "author": "CollinBrian",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Building High-Performance Agentic Systems",
@@ -1296,7 +1582,9 @@
       "summary": "Most enterprise chatbots fail in the same quiet way. They answer questions. They impress in demos. And then they stall in production. Knowledge goes stale. Answers cannot be audited. The system cannot act beyond generating text. When workflows require coordination, execution, or accountability, the...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "sgangaramani"
+      "author": "sgangaramani",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Platform Engineering for the Agentic AI era",
@@ -1305,7 +1593,9 @@
       "summary": "For the last decade, platform engineering has relied on explicit API interaction layers: CLIs, SDKs, pipelines, wrappers, and UI workflows that translate human intent into machine‑safe API calls. AI agents are now short‑circuiting much of that stack. By combining natural language understanding,...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Arnaud Lheureux, davidwright"
+      "author": "Arnaud Lheureux, davidwright",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "The Polyglot tax – Part 2",
@@ -1314,7 +1604,9 @@
       "summary": "When JSON Met Graph Part 2 of 4 – The Multimodal Database Series A note on naming. Throughout this series, when we say “SQL Server 2025” we also mean Azure SQL. The multimodal capabilities we discuss – native JSON, graph, vector, and columnstore – are available across both the on-premises engine...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
-      "author": "Aditya Badramraju"
+      "author": "Aditya Badramraju",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "What’s New in Microsoft Sentinel: March 2026",
@@ -1323,7 +1615,9 @@
       "summary": "March brings a set of updates to Microsoft Sentinel focused on helping your SOC automate faster, onboard data with less friction, and detect threats across more of your environment. This month's updates include natural-language playbook generation for more flexible SOAR workflows, streamlined...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "NogaRonen"
+      "author": "NogaRonen",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Phi-4-Reasoning-Vision-15B: Use Cases In-Depth",
@@ -1332,7 +1626,9 @@
       "summary": "Phi-4-Reasoning-vision-15B is Microsoft's latest vision reasoning model released on Microsoft Foundry. It combines high-resolution visual perception with selective, task-aware reasoning, making it the first model in the Phi-4 family to simultaneously achieve both \"seeing clearly\" and \"thinking...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing the General Availability of the Azure Maps Geocode Autocomplete API",
@@ -1341,7 +1637,9 @@
       "summary": "It was just last September that we were Introducing the Azure Maps Geocode Autocomplete API but now we’re excited to announce the general availability (GA) of the Azure Maps Geocode Autocomplete API, a production‑ready REST service that delivers fast, intelligent, and structured location...",
       "blog": "Azure Maps",
       "blogId": "azuremapsblog",
-      "author": "sinnypan"
+      "author": "sinnypan",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Defending Container Runtime from Malware with Microsoft Defender for Containers",
@@ -1350,7 +1648,9 @@
       "summary": "In cloud-native environments, malware protection is no longer traditional antivirus — it is runtime workload security, ensuring containerized applications remain safe throughout their lifecycle. Many organizations focus on scanning container images before deployment. While image scanning is...",
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
-      "author": "Vasavi_Pasula"
+      "author": "Vasavi_Pasula",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "New Azure API management service limits",
@@ -1359,7 +1659,9 @@
       "summary": "Azure API Management operates on finite physical infrastructure. To ensure reliable performance for all customers, the service enforces limits calibrated based on: Azure platform capacity and performance characteristics Service tier capabilities Typical customer usage patterns Resource limits are...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala"
+      "author": "Sreekanth_Thirthala",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Announcing the General Availability of the Azure Arc Gateway for Arc-enabled Kubernetes!",
@@ -1368,7 +1670,9 @@
       "summary": "We’re excited to announce the General Availability of Arc gateway for Arc‑enabled Kubernetes. Arc gateway dramatically simplifies the network configuration required to use Azure Arc by consolidating outbound connectivity through a small, predictable set of endpoints. For customers operating behind...",
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
-      "author": "jalenmcg"
+      "author": "jalenmcg",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Public Preview: Restrict usage of user delegation SAS to an Entra ID identity",
@@ -1377,7 +1681,9 @@
       "summary": "Shared access signatures (SAS) grant time-bound, scoped access to Azure Storage resources without sharing account keys. Over time, Azure Storage has continued to strengthen SAS security, moving from account keys to user delegation (UD) SAS secured by Microsoft Entra ID. Today, we’re taking the next...",
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
-      "author": "ellievail"
+      "author": "ellievail",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Developer CLI (azd): One command to swap Azure App Service slots",
@@ -1386,7 +1692,9 @@
       "summary": "The new azd appservice swap command makes deployment slot swaps fast and intuitive. The post Azure Developer CLI (azd): One command to swap Azure App Service slots appeared first on Azure SDK Blog.",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan"
+      "author": "PuiChee (PC) Chan",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Implementing / Migrating the BizTalk Server Aggregator Pattern to Azure Logic Apps Standard",
@@ -1395,7 +1703,9 @@
       "summary": "While the article focuses on the migration path from BizTalk Server, the template is equally suited for new (greenfield) implementations any team looking to implement the Aggregator pattern natively in Azure Logic Apps can deploy it directly from the Azure portal without prior BizTalk experience....",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
-      "author": "reynaldom"
+      "author": "reynaldom",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
@@ -1404,7 +1714,9 @@
       "summary": "Check out monthly news for the rest of the MTP suite here! What's new in Defender for Cloud? Now in public preview, Defender for Cloud provides threat protection for AI agents built with Foundry, as part of the Defender for AI Services plan. Learn more about this in our documentation. Defender for...",
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee"
+      "author": "Yura_Lee",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Malware scan results now in blob tags (ADLS Gen2 HNS | Public Preview)",
@@ -1413,7 +1725,9 @@
       "summary": "If you’ve been using Defender for Storage malware scanning with ADLS Gen2 storage accounts that have Hierarchical Namespace (HNS), you probably know that the scan happens, but the result isn’t easy to see right where the file lives. That changes now. Azure Storage just released a public preview...",
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
-      "author": "Fernanda_Vela"
+      "author": "Fernanda_Vela",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Azure Databricks Lakebase is now generally available",
@@ -1422,7 +1736,9 @@
       "summary": "Modern applications are built on real-time, intelligent, and increasingly powered by AI agents that need fast, reliable access to operational data—without sacrificing governance, scale, or simplicity. To solve for this, Azure Databricks Lakebase introduces a serverless, Postgres database...",
       "blog": "Azure Databricks",
       "blogId": "azure-databricks",
-      "author": "AnaviNahar"
+      "author": "AnaviNahar",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "ExpressRoute Gateway Microsoft initiated migration",
@@ -1431,7 +1747,9 @@
       "summary": "Objective The backend migration process is an automated upgrade performed by Microsoft to ensure your ExpressRoute gateways use the Standard IP SKU. This migration enhances gateway reliability and availability while maintaining service continuity. You receive notifications about scheduled...",
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
-      "author": "MekaylaMoore"
+      "author": "MekaylaMoore",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Running more with less: Multi-instance GPU (MIG) with Dynamic Resource Allocation (DRA) on AKS",
@@ -1440,7 +1758,9 @@
       "summary": "Learn how to use dynamic resource allocation (DRA) to allocate right-sized multi-instance GPU (MIG) node partitions for your GPU-accelerated workloads on Azure Kubernetes Service (AKS).",
       "blog": "AKS Blog",
       "blogId": "aksblog",
-      "author": "Microsoft"
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "What questions will you ask your data agent?",
@@ -1449,7 +1769,9 @@
       "summary": "Data API builder (DAB) 1.7+ delivers secure MCP-based CRUD access with deterministic, policy-enforced query generation and an upcoming aggregate tool that enables complex, production-safe analytical questions without exposing raw SQL to AI agents. The post What questions will you ask your data...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
+      "author": "Jerry Nixon",
+      "solutionArea": "AIBS",
+      "revenueType": "ACR"
     },
     {
       "title": "Logic Apps Aviators Newsletter - March 2026",
@@ -1458,7 +1780,9 @@
       "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month March 2026's Ace Aviator: Lilan Sameera Lilan Sameera - Senior Consulltant @ Adaptiv What's your role and title? What are your responsibilities? I’m a Senior Consultant at Adaptiv,...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     },
     {
       "title": "Updates to Team Calendar extension",
@@ -1467,7 +1791,9 @@
       "summary": "We are excited to release a new update to the Team Calendar extension. This update includes a series of visual refinements across the extension, introducing a more consistent design language, smoother transitions when expanding and collapsing sections, improved contrast for better readability, an...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
-      "author": "Dan Hellem"
+      "author": "Dan Hellem",
+      "solutionArea": "CAIP",
+      "revenueType": "License"
     },
     {
       "title": "Top 5 Microsoft Sentinel Queries for Threat Hunting",
@@ -1476,7 +1802,9 @@
       "summary": "Threat hunting in Microsoft Sentinel goes beyond relying on scheduled analytics rules. It’s about proactively asking better questions of your data to uncover stealthy or emerging attacker behavior before it turns into an incident. Effective hunting helps security teams spot activity that may never...",
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
-      "author": "SonjaEd"
+      "author": "SonjaEd",
+      "solutionArea": "Security",
+      "revenueType": "ACR"
     },
     {
       "title": "Evolving the Network Operations Agent Framework: Driving the Next Wave of Autonomous Networks",
@@ -1485,7 +1813,123 @@
       "summary": "The original announcement of the Network Operations Agent (NOA) Framework outlined a bold mission: provide telecom operators with a modular, multiagent foundation to accelerate the journey toward autonomous networks. NOA combined intelligent agents, unified data access, and strong governance to...",
       "blog": "Telecommunications",
       "blogId": "telecommunications-industry-blog",
-      "author": "rickliev"
+      "author": "rickliev",
+      "solutionArea": "CAIP",
+      "revenueType": "ACR"
     }
-  ]
+  ],
+  "solutionAreas": {
+    "CAIP": [
+      "azurecompute",
+      "aksblog",
+      "azurevirtualdesktopblog",
+      "azurehighperformancecomputingblog",
+      "oracleonazureblog",
+      "azureinfrastructureblog",
+      "azurearcblog",
+      "azurestackblog",
+      "azurenetworkingblog",
+      "azurestorageblog",
+      "azurearchitectureblog",
+      "azure-customer-innovation-blog",
+      "iseblog",
+      "appsonazureblog",
+      "azurepaasblog",
+      "integrationsonazureblog",
+      "messagingonazureblog",
+      "aspireblog",
+      "azuresdkblog",
+      "azuregovernanceandmanagementblog",
+      "azureobservabilityblog",
+      "finopsblog",
+      "azuretoolsblog",
+      "azuremigrationblog",
+      "azuredevops",
+      "azuredevcommunityblog",
+      "azure-events",
+      "linuxandopensourceblog",
+      "allthingsazure",
+      "msdevblog",
+      "gbblog",
+      "azurecitadelblog",
+      "visualstudio",
+      "vscodeblog",
+      "commandline",
+      "developfromthecloud",
+      "azuremapsblog",
+      "telecommunications-industry-blog"
+    ],
+    "AIBS": [
+      "analyticsonazure",
+      "azure-databricks",
+      "cosmosdbblog",
+      "azuresqlblog",
+      "foundryblog",
+      "azurecommunicationservicesblog",
+      "microsoft-planetary-computer-blog"
+    ],
+    "Security": [
+      "azurenetworksecurityblog",
+      "azureconfidentialcomputingblog",
+      "microsoftsentinelblog",
+      "microsoftdefendercloudblog",
+      "azureadvancedthreatprotection"
+    ]
+  },
+  "revenueTypes": {
+    "ACR": [
+      "azurecompute",
+      "aksblog",
+      "azurevirtualdesktopblog",
+      "azurehighperformancecomputingblog",
+      "analyticsonazure",
+      "azure-databricks",
+      "oracleonazureblog",
+      "cosmosdbblog",
+      "azuresqlblog",
+      "foundryblog",
+      "azureinfrastructureblog",
+      "azurearcblog",
+      "azurestackblog",
+      "azurenetworkingblog",
+      "azurenetworksecurityblog",
+      "azurestorageblog",
+      "azurearchitectureblog",
+      "azure-customer-innovation-blog",
+      "iseblog",
+      "appsonazureblog",
+      "azurepaasblog",
+      "integrationsonazureblog",
+      "messagingonazureblog",
+      "aspireblog",
+      "azuresdkblog",
+      "azuregovernanceandmanagementblog",
+      "azureobservabilityblog",
+      "finopsblog",
+      "azuretoolsblog",
+      "azuremigrationblog",
+      "azuredevcommunityblog",
+      "azure-events",
+      "linuxandopensourceblog",
+      "allthingsazure",
+      "msdevblog",
+      "gbblog",
+      "azurecitadelblog",
+      "developfromthecloud",
+      "azurecommunicationservicesblog",
+      "azureconfidentialcomputingblog",
+      "azuremapsblog",
+      "telecommunications-industry-blog",
+      "microsoft-planetary-computer-blog",
+      "microsoftsentinelblog",
+      "microsoftdefendercloudblog",
+      "azureadvancedthreatprotection"
+    ],
+    "License": [
+      "azuredevops",
+      "visualstudio",
+      "vscodeblog",
+      "commandline"
+    ]
+  }
 }

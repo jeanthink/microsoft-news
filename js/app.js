@@ -8,6 +8,7 @@
   var currentTagFilter = "all";
   var currentSolutionArea = "all";
   var currentRevenueType = "all";
+  var currentBlogSource = "all";
 
   // ===== State =====
   var articles = [];
@@ -95,12 +96,26 @@
       articles.forEach(function (a) {
         if (!seen[a.blogId]) {
           seen[a.blogId] = true;
-          blogs.push(a.blogId);
+          blogs.push({ id: a.blogId, name: a.blog });
         }
       });
-      blogs.forEach(function (blogId, i) {
-        blogColors[blogId] = colorPalette[i % colorPalette.length];
+      blogs.forEach(function (b, i) {
+        blogColors[b.id] = colorPalette[i % colorPalette.length];
       });
+
+      // Populate blog source filter dropdown
+      var blogSourceEl = document.getElementById("blog-source-filter");
+      if (blogSourceEl) {
+        var sorted = blogs.slice().sort(function (a, b) {
+          return a.name.localeCompare(b.name);
+        });
+        sorted.forEach(function (b) {
+          var opt = document.createElement("option");
+          opt.value = b.id;
+          opt.textContent = b.name;
+          blogSourceEl.appendChild(opt);
+        });
+      }
 
       // Update header stats
       if (data.lastUpdated) {
@@ -378,6 +393,13 @@
       var rtBlogs = REVENUE_TYPES[currentRevenueType] || [];
       result = result.filter(function (a) {
         return rtBlogs.indexOf(a.blogId) !== -1;
+      });
+    }
+
+    // Blog source filter
+    if (currentBlogSource !== "all") {
+      result = result.filter(function (a) {
+        return a.blogId === currentBlogSource;
       });
     }
 
@@ -779,6 +801,15 @@
     if (rtFilterEl) {
       rtFilterEl.addEventListener("change", function (e) {
         currentRevenueType = e.target.value;
+        applyFilters();
+      });
+    }
+
+    // Blog source filter
+    var blogSourceFilterEl = document.getElementById("blog-source-filter");
+    if (blogSourceFilterEl) {
+      blogSourceFilterEl.addEventListener("change", function (e) {
+        currentBlogSource = e.target.value;
         applyFilters();
       });
     }
