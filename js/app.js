@@ -1,18 +1,8 @@
 (function () {
   "use strict";
 
-  // ===== Category Mapping =====
-  var CATEGORIES = {
-    "Compute": ["azurecompute", "aksblog", "azurevirtualdesktopblog", "azurehighperformancecomputingblog"],
-    "Data & AI": ["analyticsonazure", "azure-databricks", "oracleonazureblog", "cosmosdbblog", "azuresqlblog", "foundryblog"],
-    "Infrastructure": ["azureinfrastructureblog", "azurearcblog", "azurestackblog", "azurenetworkingblog", "azurenetworksecurityblog", "azurestorageblog"],
-    "Architecture": ["azurearchitectureblog", "azure-customer-innovation-blog", "iseblog"],
-    "Apps & Platform": ["appsonazureblog", "azurepaasblog", "integrationsonazureblog", "messagingonazureblog", "aspireblog", "azuresdkblog"],
-    "Operations": ["azuregovernanceandmanagementblog", "azureobservabilityblog", "finopsblog", "azuretoolsblog", "azuremigrationblog", "azuredevops"],
-    "Community": ["azuredevcommunityblog", "azure-events", "linuxandopensourceblog", "allthingsazure", "msdevblog", "gbblog", "azurecitadelblog"],
-    "Developer Tools": ["visualstudio", "vscodeblog", "commandline", "developfromthecloud"],
-    "Specialized": ["azurecommunicationservicesblog", "azureconfidentialcomputingblog", "azuremapsblog", "telecommunications-industry-blog", "microsoft-planetary-computer-blog"]
-  };
+  // ===== Category Mapping (loaded from feed data) =====
+  var CATEGORIES = {};
 
   // ===== State =====
   var articles = [];
@@ -77,6 +67,11 @@
       if (!response.ok) throw new Error("Failed to load feeds");
       var data = await response.json();
       articles = data.articles || [];
+
+      // Load categories from feed data (generated from feeds-config.json)
+      if (data.categories) {
+        CATEGORIES = data.categories;
+      }
 
       // Assign colors to blogs
       var blogs = [];

@@ -1,0 +1,228 @@
+{
+  "_comment": "Azure News Feed - Feed Configuration. Edit this file to add, remove, or recategorize feeds. If 'url' is omitted, the feed is fetched from Tech Community RSS using the key as board_id.",
+  "settings": {
+    "techCommunityRssPattern": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id={board}",
+    "retentionDays": 30,
+    "maxRssItems": 50,
+    "summaryMaxLength": 300,
+    "fetchDelaySeconds": 0.5
+  },
+  "feeds": {
+    "azurecompute": {
+      "name": "Azure Compute",
+      "category": "Compute"
+    },
+    "aksblog": {
+      "name": "AKS Blog",
+      "category": "Compute",
+      "url": "https://blog.aks.azure.com/rss.xml"
+    },
+    "azurevirtualdesktopblog": {
+      "name": "Azure Virtual Desktop",
+      "category": "Compute"
+    },
+    "azurehighperformancecomputingblog": {
+      "name": "High Performance Computing",
+      "category": "Compute"
+    },
+    "analyticsonazure": {
+      "name": "Analytics on Azure",
+      "category": "Data & AI"
+    },
+    "azure-databricks": {
+      "name": "Azure Databricks",
+      "category": "Data & AI"
+    },
+    "oracleonazureblog": {
+      "name": "Oracle on Azure",
+      "category": "Data & AI"
+    },
+    "cosmosdbblog": {
+      "name": "Azure Cosmos DB Blog",
+      "category": "Data & AI",
+      "url": "https://devblogs.microsoft.com/cosmosdb/feed/"
+    },
+    "azuresqlblog": {
+      "name": "Azure SQL Dev Corner",
+      "category": "Data & AI",
+      "url": "https://devblogs.microsoft.com/azure-sql/feed/"
+    },
+    "foundryblog": {
+      "name": "Microsoft Foundry Blog",
+      "category": "Data & AI",
+      "url": "https://devblogs.microsoft.com/foundry/feed/"
+    },
+    "azureinfrastructureblog": {
+      "name": "Azure Infrastructure",
+      "category": "Infrastructure"
+    },
+    "azurearcblog": {
+      "name": "Azure Arc",
+      "category": "Infrastructure"
+    },
+    "azurestackblog": {
+      "name": "Azure Stack",
+      "category": "Infrastructure"
+    },
+    "azurenetworkingblog": {
+      "name": "Azure Networking",
+      "category": "Infrastructure"
+    },
+    "azurenetworksecurityblog": {
+      "name": "Azure Network Security",
+      "category": "Infrastructure"
+    },
+    "azurestorageblog": {
+      "name": "Azure Storage",
+      "category": "Infrastructure"
+    },
+    "azurearchitectureblog": {
+      "name": "Azure Architecture",
+      "category": "Architecture"
+    },
+    "azure-customer-innovation-blog": {
+      "name": "Customer Innovation",
+      "category": "Architecture"
+    },
+    "iseblog": {
+      "name": "ISE Developer Blog",
+      "category": "Architecture",
+      "url": "https://devblogs.microsoft.com/ise/feed/"
+    },
+    "appsonazureblog": {
+      "name": "Apps on Azure",
+      "category": "Apps & Platform"
+    },
+    "azurepaasblog": {
+      "name": "Azure PaaS",
+      "category": "Apps & Platform"
+    },
+    "integrationsonazureblog": {
+      "name": "Integrations on Azure",
+      "category": "Apps & Platform"
+    },
+    "messagingonazureblog": {
+      "name": "Messaging on Azure",
+      "category": "Apps & Platform"
+    },
+    "aspireblog": {
+      "name": "Aspire Blog",
+      "category": "Apps & Platform",
+      "url": "https://devblogs.microsoft.com/aspire/feed/"
+    },
+    "azuresdkblog": {
+      "name": "Azure SDK Blog",
+      "category": "Apps & Platform",
+      "url": "https://devblogs.microsoft.com/azure-sdk/feed/"
+    },
+    "azuregovernanceandmanagementblog": {
+      "name": "Governance & Management",
+      "category": "Operations"
+    },
+    "azureobservabilityblog": {
+      "name": "Azure Observability",
+      "category": "Operations"
+    },
+    "finopsblog": {
+      "name": "FinOps",
+      "category": "Operations"
+    },
+    "azuretoolsblog": {
+      "name": "Azure Tools",
+      "category": "Operations"
+    },
+    "azuremigrationblog": {
+      "name": "Azure Migration",
+      "category": "Operations"
+    },
+    "azuredevops": {
+      "name": "Azure DevOps Blog",
+      "category": "Operations",
+      "url": "https://devblogs.microsoft.com/devops/feed/"
+    },
+    "azuredevcommunityblog": {
+      "name": "Azure Dev Community",
+      "category": "Community"
+    },
+    "azure-events": {
+      "name": "Azure Events",
+      "category": "Community"
+    },
+    "linuxandopensourceblog": {
+      "name": "Linux & Open Source",
+      "category": "Community"
+    },
+    "allthingsazure": {
+      "name": "All Things Azure",
+      "category": "Community",
+      "url": "https://devblogs.microsoft.com/all-things-azure/feed/"
+    },
+    "msdevblog": {
+      "name": "Microsoft Developers Blog",
+      "category": "Community",
+      "url": "https://developer.microsoft.com/blog/feed/"
+    },
+    "gbblog": {
+      "name": "Azure Global Black Belt Blog",
+      "category": "Community",
+      "url": "https://azureglobalblackbelts.com/rss.xml"
+    },
+    "azurecitadelblog": {
+      "name": "Azure Citadel Blog",
+      "category": "Community",
+      "url": "https://www.azurecitadel.com/blog/index.xml"
+    },
+    "visualstudio": {
+      "name": "Visual Studio Blog",
+      "category": "Developer Tools",
+      "url": "https://devblogs.microsoft.com/visualstudio/feed/"
+    },
+    "vscodeblog": {
+      "name": "VS Code Blog",
+      "category": "Developer Tools",
+      "url": "https://devblogs.microsoft.com/vscode-blog/feed/"
+    },
+    "commandline": {
+      "name": "Windows Command Line",
+      "category": "Developer Tools",
+      "url": "https://devblogs.microsoft.com/commandline/feed/"
+    },
+    "developfromthecloud": {
+      "name": "Develop from the Cloud",
+      "category": "Developer Tools",
+      "url": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/"
+    },
+    "azurecommunicationservicesblog": {
+      "name": "Communication Services",
+      "category": "Specialized"
+    },
+    "azureconfidentialcomputingblog": {
+      "name": "Confidential Computing",
+      "category": "Specialized"
+    },
+    "azuremapsblog": {
+      "name": "Azure Maps",
+      "category": "Specialized"
+    },
+    "telecommunications-industry-blog": {
+      "name": "Telecommunications",
+      "category": "Specialized"
+    },
+    "microsoft-planetary-computer-blog": {
+      "name": "Planetary Computer",
+      "category": "Specialized"
+    },
+    "microsoftsentinelblog": {
+      "name": "Microsoft Sentinel",
+      "category": "Security"
+    },
+    "microsoftdefendercloudblog": {
+      "name": "Microsoft Defender for Cloud",
+      "category": "Security"
+    },
+    "azureadvancedthreatprotection": {
+      "name": "Azure Advanced Threat Protection",
+      "category": "Security"
+    }
+  }
+}
