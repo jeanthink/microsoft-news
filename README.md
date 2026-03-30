@@ -1,74 +1,41 @@
-# ☁️ Azure News Feed
+# 📰 Microsoft News
 
-A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles from Azure blogs and presents them in a clean, searchable interface — last 30 days only.
+A daily-updated Microsoft blog aggregator hosted on GitHub Pages. Collects articles from 88+ Microsoft blogs and presents them in a clean, searchable interface — last 30 days only.
 
-**Live site:** [azurefeed.news](https://azurefeed.news)
+**Live site:** [jeanthink.github.io/microsoft-news](https://jeanthink.github.io/microsoft-news/)
 
 ## Features
 
-- 📰 **50 blog sources** — Azure, DevOps, Developer Tools, Data & AI, and more
-- 🔍 **Search & filter** — Find articles by keyword, blog category, or date range
-- ⭐ **Bookmarks** — Save articles for later (stored locally per browser)
+- 📰 **88+ blog sources** — Azure, Microsoft 365, Security, Power Platform, Developer Tools, AI & more
+- 🔍 **Search & filter** — By keyword, category, blog, product, solution area, revenue type
+- 🏷️ **Solution areas** — Filter by AIBS, CAIP, or Security
+- 💰 **Revenue type** — Filter by PAYGO or License
+- ⭐ **Bookmarks** — Save articles for later (stored locally)
+- 📋 **Reading queue** — Mark articles as read, read later, or unseen
 - 🌙 **Dark mode** — Easy on the eyes
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
-- 🤖 **Auto-updated** — GitHub Actions fetches new articles daily at 7 AM EST (12 PM UTC)
-- 📅 **Last 30 days** — Keeps only recent articles for a lean, fast experience
-
-## Blog Sources
-
-| Category | Blogs |
-|----------|-------|
-| **Compute** | Azure Compute, AKS, Azure Virtual Desktop, High Performance Computing |
-| **Data & AI** | Analytics on Azure, Azure Databricks, Oracle on Azure, Cosmos DB, Azure SQL, Microsoft Foundry |
-| **Infrastructure** | Azure Infrastructure, Azure Arc, Azure Stack, Azure Networking, Azure Storage |
-| **Architecture** | Azure Architecture, Customer Innovation, ISE Developer Blog |
-| **Apps & Platform** | Apps on Azure, Azure PaaS, Integrations, Messaging, Aspire, Azure SDK |
-| **Operations** | Governance & Management, Observability, FinOps, Azure Tools, Migration, Azure DevOps |
-| **Community** | Azure Dev Community, Azure Events, Linux & Open Source, All Things Azure, Microsoft Developers Blog, Azure Global Black Belt, Azure Citadel |
-| **Developer Tools** | Visual Studio, VS Code, Windows Command Line, Develop from the Cloud |
-| **Specialized** | Communication Services, Confidential Computing, Maps, Telecommunications, Planetary Computer |
+- 🤖 **Auto-updated** — GitHub Actions fetches new articles daily at 12 PM UTC
+- 📅 **Last 30 days** — Keeps only recent articles
 
 ## Setup
 
-### 1. Create the GitHub repository
+### 1. Enable GitHub Pages
 
-```bash
-gh repo create azurenewsfeed --public --source=. --remote=origin
-```
+Go to **Settings → Pages → Source** and select **Deploy from a branch** → **master** → **/ (root)**.
 
-### 2. Push the code
-
-```bash
-git init
-git add .
-git commit -m "Initial commit - Azure News Feed"
-git push -u origin main
-```
-
-### 3. Enable GitHub Pages
-
-Go to **Settings → Pages → Source** and select **Deploy from a branch** → **main** → **/ (root)**.
-
-### 4. Trigger the first data fetch
+### 2. Trigger the first data fetch
 
 Go to **Actions → Fetch Azure Blog Feeds → Run workflow** to populate the initial data.
 
-### 5. Visit your site
+### 3. Visit your site
 
-Your feed will be live at `https://azurefeed.news`
+Your feed will be live at `https://jeanthink.github.io/microsoft-news/`
 
 ## Local Development
-
-To test the feed fetcher locally:
 
 ```bash
 pip install -r scripts/requirements.txt
 python scripts/fetch_feeds.py
-```
-
-Then serve the site:
-
-```bash
 python -m http.server 8000
 ```
 
@@ -76,8 +43,8 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ## How It Works
 
-1. **GitHub Actions** runs daily at 7 AM EST / 12 PM UTC (or manually)
-2. **Python script** fetches RSS feeds from all 50 Azure and Microsoft developer blogs
+1. **GitHub Actions** runs daily at 12 PM UTC (or manually)
+2. **Python script** fetches RSS feeds from 88+ Microsoft blogs
 3. Articles from the last 30 days are deduplicated, sorted, and saved to `data/feeds.json`
 4. The commit triggers **GitHub Pages** to redeploy
 5. The **static frontend** loads the JSON and renders the feed

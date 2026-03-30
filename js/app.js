@@ -694,7 +694,7 @@
         (saIcons[article.solutionArea] || "") + " " + escapeHtml(article.solutionArea) + "</span>";
     }
     if (article.revenueType) {
-      var rtIcons = { ACR: "📊", License: "📄" };
+      var rtIcons = { PAYGO: "📊", License: "📄" };
       metaBadges += '<span class="rt-badge rt-badge--' + escapeHtml(article.revenueType) + '">' +
         (rtIcons[article.revenueType] || "") + " " + escapeHtml(article.revenueType) + "</span>";
     }
