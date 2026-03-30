@@ -25,7 +25,7 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Azure Feed" href="data/feed.xml">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
-  <link rel="stylesheet" href="css/styles.css?v=4">
+  <link rel="stylesheet" href="css/styles.css?v=5">
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -70,12 +70,16 @@
           <option value="ACR">📊 ACR</option>
           <option value="License">📄 License</option>
         </select>
-        <select id="blog-source-filter" title="Filter by blog source">
-          <option value="all">All Sources</option>
-        </select>
-        <select id="product-filter" title="Filter by product">
-          <option value="all">All Products</option>
-        </select>
+        <div class="searchable-dropdown" id="blog-source-dropdown">
+          <input type="text" class="search-input" placeholder="All Sources" title="Filter by blog source" autocomplete="off">
+          <input type="hidden" id="blog-source-filter" value="all">
+          <div class="dropdown-list"></div>
+        </div>
+        <div class="searchable-dropdown" id="product-dropdown">
+          <input type="text" class="search-input" placeholder="All Products" title="Filter by product" autocomplete="off">
+          <input type="hidden" id="product-filter" value="all">
+          <div class="dropdown-list"></div>
+        </div>
         <button id="theme-toggle" title="Toggle dark mode">🌙</button>
       </div>
     </div>
@@ -133,6 +137,6 @@
     <p>☁️ Azure Feed &bull; Updated daily via <a href="https://github.com/ricmmartins/azurenewsfeed" target="_blank" rel="noopener">GitHub Actions</a> &bull; <a href="data/feed.xml" target="_blank" rel="noopener">📡 RSS Feed</a></p>
   </footer>
 
-  <script src="js/app.js?v=4"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

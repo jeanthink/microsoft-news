@@ -969,9 +969,7 @@ footer a:hover {
 
 #reading-filter,
 #solution-area-filter,
-#revenue-filter,
-#blog-source-filter,
-#product-filter {
+#revenue-filter {
   padding: 0.4rem 0.75rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
@@ -992,19 +990,82 @@ footer a:hover {
 
 #reading-filter:hover,
 #solution-area-filter:hover,
-#revenue-filter:hover,
-#blog-source-filter:hover,
-#product-filter:hover {
+#revenue-filter:hover {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
 #reading-filter option,
 #solution-area-filter option,
-#revenue-filter option,
-#blog-source-filter option,
-#product-filter option {
+#revenue-filter option {
   background: var(--bg-secondary);
   color: var(--text-primary);
+}
+
+/* Searchable dropdown filters */
+.searchable-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.searchable-dropdown .search-input {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+  width: 120px;
+  transition: background var(--transition), width 0.2s;
+}
+
+.searchable-dropdown .search-input::placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.searchable-dropdown .search-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.25);
+  width: 180px;
+}
+
+.searchable-dropdown .dropdown-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 1000;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.searchable-dropdown.open .dropdown-list {
+  display: block;
+}
+
+.searchable-dropdown .dropdown-item {
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: var(--text-primary);
+  transition: background 0.15s;
+}
+
+.searchable-dropdown .dropdown-item:hover,
+.searchable-dropdown .dropdown-item.highlighted {
+  background: var(--accent-color);
+  color: white;
+}
+
+.searchable-dropdown .dropdown-item.active {
+  font-weight: 700;
 }
 
 /* Solution Area & Revenue Type badges on cards */

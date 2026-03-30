@@ -56,6 +56,83 @@
   var aiSummaryEl = document.getElementById("ai-summary");
   var catchupBannerEl = document.getElementById("catchup-banner");
 
+  // ===== Searchable Dropdown =====
+  function initSearchableDropdown(wrapperId, hiddenId, items, placeholder, onSelect) {
+    var wrapper = document.getElementById(wrapperId);
+    if (!wrapper) return;
+    var input = wrapper.querySelector(".search-input");
+    var hidden = document.getElementById(hiddenId);
+    var list = wrapper.querySelector(".dropdown-list");
+    var allItems = [{ value: "all", label: placeholder }].concat(items);
+    var highlighted = -1;
+
+    function render(filter) {
+      var q = (filter || "").toLowerCase();
+      list.innerHTML = "";
+      highlighted = -1;
+      var matches = allItems.filter(function (item) {
+        return !q || item.label.toLowerCase().indexOf(q) !== -1;
+      });
+      matches.forEach(function (item, idx) {
+        var div = document.createElement("div");
+        div.className = "dropdown-item" + (hidden.value === item.value ? " active" : "");
+        div.textContent = item.label;
+        div.dataset.value = item.value;
+        div.addEventListener("mousedown", function (e) {
+          e.preventDefault();
+          select(item);
+        });
+        list.appendChild(div);
+      });
+    }
+
+    function select(item) {
+      hidden.value = item.value;
+      input.value = item.value === "all" ? "" : item.label;
+      input.placeholder = item.value === "all" ? placeholder : item.label;
+      wrapper.classList.remove("open");
+      onSelect(item.value);
+    }
+
+    function moveHighlight(dir) {
+      var items = list.querySelectorAll(".dropdown-item");
+      if (!items.length) return;
+      if (highlighted >= 0) items[highlighted].classList.remove("highlighted");
+      highlighted = Math.max(0, Math.min(items.length - 1, highlighted + dir));
+      items[highlighted].classList.add("highlighted");
+      items[highlighted].scrollIntoView({ block: "nearest" });
+    }
+
+    input.addEventListener("focus", function () {
+      render(input.value);
+      wrapper.classList.add("open");
+    });
+
+    input.addEventListener("input", function () {
+      render(input.value);
+      wrapper.classList.add("open");
+    });
+
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown") { e.preventDefault(); moveHighlight(1); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); moveHighlight(-1); }
+      else if (e.key === "Enter") {
+        e.preventDefault();
+        var items = list.querySelectorAll(".dropdown-item");
+        if (highlighted >= 0 && items[highlighted]) {
+          select(allItems.find(function (x) { return x.value === items[highlighted].dataset.value; }));
+        }
+      } else if (e.key === "Escape") {
+        wrapper.classList.remove("open");
+        input.blur();
+      }
+    });
+
+    input.addEventListener("blur", function () {
+      setTimeout(function () { wrapper.classList.remove("open"); }, 150);
+    });
+  }
+
   // ===== Initialize =====
   async function init() {
     loadTheme();
@@ -104,37 +181,25 @@
         blogColors[b.id] = colorPalette[i % colorPalette.length];
       });
 
-      // Populate blog source filter dropdown
-      var blogSourceEl = document.getElementById("blog-source-filter");
-      if (blogSourceEl) {
-        var sorted = blogs.slice().sort(function (a, b) {
-          return a.name.localeCompare(b.name);
-        });
-        sorted.forEach(function (b) {
-          var opt = document.createElement("option");
-          opt.value = b.id;
-          opt.textContent = b.name;
-          blogSourceEl.appendChild(opt);
-        });
-      }
+      // Populate searchable blog source dropdown
+      var blogSourceItems = blogs.slice().sort(function (a, b) {
+        return a.name.localeCompare(b.name);
+      }).map(function (b) { return { value: b.id, label: b.name }; });
+      initSearchableDropdown("blog-source-dropdown", "blog-source-filter", blogSourceItems, "All Sources", function (val) {
+        currentBlogSource = val;
+        applyFilters();
+      });
 
-      // Populate product filter dropdown
-      var productFilterEl = document.getElementById("product-filter");
-      if (productFilterEl) {
-        var productSet = {};
-        articles.forEach(function (a) {
-          if (a.product && !productSet[a.product]) {
-            productSet[a.product] = true;
-          }
-        });
-        var productList = Object.keys(productSet).sort();
-        productList.forEach(function (p) {
-          var opt = document.createElement("option");
-          opt.value = p;
-          opt.textContent = p;
-          productFilterEl.appendChild(opt);
-        });
-      }
+      // Populate searchable product dropdown
+      var productSet = {};
+      articles.forEach(function (a) {
+        if (a.product && !productSet[a.product]) productSet[a.product] = true;
+      });
+      var productItems = Object.keys(productSet).sort().map(function (p) { return { value: p, label: p }; });
+      initSearchableDropdown("product-dropdown", "product-filter", productItems, "All Products", function (val) {
+        currentProduct = val;
+        applyFilters();
+      });
 
       // Update header stats
       if (data.lastUpdated) {
@@ -827,24 +892,6 @@
     if (rtFilterEl) {
       rtFilterEl.addEventListener("change", function (e) {
         currentRevenueType = e.target.value;
-        applyFilters();
-      });
-    }
-
-    // Blog source filter
-    var blogSourceFilterEl = document.getElementById("blog-source-filter");
-    if (blogSourceFilterEl) {
-      blogSourceFilterEl.addEventListener("change", function (e) {
-        currentBlogSource = e.target.value;
-        applyFilters();
-      });
-    }
-
-    // Product filter
-    var productFilterEl = document.getElementById("product-filter");
-    if (productFilterEl) {
-      productFilterEl.addEventListener("change", function (e) {
-        currentProduct = e.target.value;
         applyFilters();
       });
     }
