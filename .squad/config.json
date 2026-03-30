@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "observability": {
+    "enabled": true,
+    "otlp": {
+      "endpoint": "http://localhost:4317",
+      "protocol": "grpc",
+      "service_name": "squad-coordinator",
+      "headers": {},
+      "metrics_enabled": true
+    },
+    "events": {
+      "agent_spawned": true,
+      "agent_completed": true,
+      "agent_failed": true,
+      "decision_made": true,
+      "session_start": true,
+      "session_end": true,
+      "ceremony_run": true,
+      "collaboration": true,
+      "metrics": true
+    },
+    "dashboard_url": "http://localhost:18888",
+    "setup_notes": "Run 'npm install' in .squad/tools/ then start Aspire dashboard. See .squad/tools/README.md for details."
+  }
+}

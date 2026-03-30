@@ -90,17 +90,20 @@ def fetch_all_feeds(config):
             count = 0
             for entry in feed.entries:
                 summary = clean_html(entry.get("summary", ""))
-                articles.append(
-                    {
-                        "title": clean_html(entry.get("title", "Untitled")),
-                        "link": entry.get("link", ""),
-                        "published": parse_date(entry),
-                        "summary": truncate(summary, max_length),
-                        "blog": blog_name,
-                        "blogId": blog_id,
-                        "author": entry.get("author", "Microsoft"),
-                    }
-                )
+                article = {
+                    "title": clean_html(entry.get("title", "Untitled")),
+                    "link": entry.get("link", ""),
+                    "published": parse_date(entry),
+                    "summary": truncate(summary, max_length),
+                    "blog": blog_name,
+                    "blogId": blog_id,
+                    "author": entry.get("author", "Microsoft"),
+                }
+                if feed_info.get("solutionArea"):
+                    article["solutionArea"] = feed_info["solutionArea"]
+                if feed_info.get("revenueType"):
+                    article["revenueType"] = feed_info["revenueType"]
+                articles.append(article)
                 count += 1
 
             print(f"  Found {count} articles")
@@ -326,16 +329,26 @@ def main():
 
     # Build categories from config for inclusion in output
     categories = {}
+    solution_areas = {}
+    revenue_types = {}
     for blog_id, feed_info in config.get("feeds", {}).items():
         cat = feed_info.get("category", "Uncategorized")
-        if cat not in categories:
-            categories[cat] = []
-        categories[cat].append(blog_id)
+        categories.setdefault(cat, []).append(blog_id)
+
+        sa = feed_info.get("solutionArea")
+        if sa:
+            solution_areas.setdefault(sa, []).append(blog_id)
+
+        rt = feed_info.get("revenueType")
+        if rt:
+            revenue_types.setdefault(rt, []).append(blog_id)
 
     data = {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
         "totalArticles": len(unique_articles),
         "categories": categories,
+        "solutionAreas": solution_areas,
+        "revenueTypes": revenue_types,
         "articles": unique_articles,
     }
     if summary:

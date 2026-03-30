@@ -3,7 +3,11 @@
 
   // ===== Category Mapping (loaded from feed data) =====
   var CATEGORIES = {};
+  var SOLUTION_AREAS = {};
+  var REVENUE_TYPES = {};
   var currentTagFilter = "all";
+  var currentSolutionArea = "all";
+  var currentRevenueType = "all";
 
   // ===== State =====
   var articles = [];
@@ -77,6 +81,12 @@
       // Load categories from feed data (generated from feeds-config.json)
       if (data.categories) {
         CATEGORIES = data.categories;
+      }
+      if (data.solutionAreas) {
+        SOLUTION_AREAS = data.solutionAreas;
+      }
+      if (data.revenueTypes) {
+        REVENUE_TYPES = data.revenueTypes;
       }
 
       // Assign colors to blogs
@@ -355,6 +365,22 @@
       });
     }
 
+    // Solution area filter
+    if (currentSolutionArea !== "all") {
+      var saBlogs = SOLUTION_AREAS[currentSolutionArea] || [];
+      result = result.filter(function (a) {
+        return saBlogs.indexOf(a.blogId) !== -1;
+      });
+    }
+
+    // Revenue type filter
+    if (currentRevenueType !== "all") {
+      var rtBlogs = REVENUE_TYPES[currentRevenueType] || [];
+      result = result.filter(function (a) {
+        return rtBlogs.indexOf(a.blogId) !== -1;
+      });
+    }
+
     // Blog filter (within category)
     if (currentFilter !== "all") {
       result = result.filter(function (a) { return a.blogId === currentFilter; });
@@ -545,11 +571,25 @@
       insightHtml = '<div class="article-insight">💡 ' + escapeHtml(article.insight) + "</div>";
     }
 
+    // Build solution area / revenue badges
+    var metaBadges = "";
+    if (article.solutionArea) {
+      var saIcons = { AIBS: "🧠", CAIP: "☁️", Security: "🔒" };
+      metaBadges += '<span class="sa-badge sa-badge--' + escapeHtml(article.solutionArea) + '">' +
+        (saIcons[article.solutionArea] || "") + " " + escapeHtml(article.solutionArea) + "</span>";
+    }
+    if (article.revenueType) {
+      var rtIcons = { ACR: "📊", License: "📄" };
+      metaBadges += '<span class="rt-badge rt-badge--' + escapeHtml(article.revenueType) + '">' +
+        (rtIcons[article.revenueType] || "") + " " + escapeHtml(article.revenueType) + "</span>";
+    }
+
     return (
       '<article class="' + cardClass + '">' +
       '<div class="card-header">' +
       '<span class="blog-tag" style="background:' + color + "18;color:" + color + ';">' +
       escapeHtml(article.blog) + "</span>" +
+      (metaBadges ? '<span class="meta-badges">' + metaBadges + "</span>" : "") +
       '<div class="card-actions-top">' +
       '<button class="reading-btn ' + status +
       '" data-action="reading" data-link="' + encodedLink +
@@ -721,6 +761,24 @@
     if (readingFilterEl) {
       readingFilterEl.addEventListener("change", function (e) {
         readingFilter = e.target.value;
+        applyFilters();
+      });
+    }
+
+    // Solution area filter
+    var saFilterEl = document.getElementById("solution-area-filter");
+    if (saFilterEl) {
+      saFilterEl.addEventListener("change", function (e) {
+        currentSolutionArea = e.target.value;
+        applyFilters();
+      });
+    }
+
+    // Revenue type filter
+    var rtFilterEl = document.getElementById("revenue-filter");
+    if (rtFilterEl) {
+      rtFilterEl.addEventListener("change", function (e) {
+        currentRevenueType = e.target.value;
         applyFilters();
       });
     }
