@@ -3,6 +3,7 @@
 
   // ===== Category Mapping (loaded from feed data) =====
   var CATEGORIES = {};
+  var currentTagFilter = "all";
 
   // ===== State =====
   var articles = [];
@@ -43,6 +44,7 @@
   var toastEl = document.getElementById("toast");
   var bookmarksToggle = document.getElementById("bookmarks-toggle");
   var aiSummaryEl = document.getElementById("ai-summary");
+  var catchupBannerEl = document.getElementById("catchup-banner");
 
   // ===== Initialize =====
   async function init() {
@@ -110,7 +112,11 @@
         aiSummaryEl.style.display = "block";
       }
 
+      // Show catch-up banner if user has been away
+      showCatchupBanner();
+
       renderFilters();
+      renderTagFilters();
       applyFilters();
     } catch (err) {
       console.error("Error loading feeds:", err);
@@ -195,6 +201,144 @@
     blogPillsRow.style.display = "block";
   }
 
+  // ===== Catch-up Banner =====
+  function showCatchupBanner() {
+    var lastVisit = localStorage.getItem("azurefeed-last-visit");
+    var now = new Date();
+
+    // Update last visit time
+    localStorage.setItem("azurefeed-last-visit", now.toISOString());
+
+    if (!lastVisit || !catchupBannerEl) return;
+
+    var lastDate = new Date(lastVisit);
+    var hoursAway = Math.floor((now - lastDate) / (1000 * 60 * 60));
+
+    // Only show if away for more than 18 hours
+    if (hoursAway < 18) return;
+
+    var daysAway = Math.floor(hoursAway / 24);
+    var missedArticles = articles.filter(function (a) {
+      return new Date(a.published) > lastDate;
+    });
+
+    if (missedArticles.length === 0) return;
+
+    // Count articles by category
+    var catCounts = {};
+    missedArticles.forEach(function (a) {
+      Object.keys(CATEGORIES).forEach(function (cat) {
+        if (CATEGORIES[cat].indexOf(a.blogId) !== -1) {
+          catCounts[cat] = (catCounts[cat] || 0) + 1;
+        }
+      });
+    });
+
+    // Count tagged articles
+    var tagCounts = {};
+    missedArticles.forEach(function (a) {
+      if (a.tags) {
+        a.tags.forEach(function (tag) {
+          tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+        });
+      }
+    });
+
+    // Build banner
+    var timeLabel = daysAway >= 1 ? daysAway + " day" + (daysAway > 1 ? "s" : "") : hoursAway + " hours";
+    var html = "<h2>👋 Welcome back! You've been away " + timeLabel + "</h2>";
+    html += "<p><strong>" + missedArticles.length + " new articles</strong> since your last visit.</p>";
+
+    // Show top categories
+    var sortedCats = Object.keys(catCounts).sort(function (a, b) {
+      return catCounts[b] - catCounts[a];
+    });
+    if (sortedCats.length > 0) {
+      html += '<div class="catchup-stats">';
+      sortedCats.slice(0, 5).forEach(function (cat) {
+        html += '<span class="catchup-stat"><strong>' + catCounts[cat] + '</strong> ' + escapeHtml(cat) + '</span>';
+      });
+      html += '</div>';
+    }
+
+    // Highlight important tags
+    var importantTags = ["breaking-change", "ga-release", "deprecation", "security"];
+    var alerts = [];
+    importantTags.forEach(function (tag) {
+      if (tagCounts[tag]) {
+        var emoji = tag === "breaking-change" ? "⚠️" : tag === "ga-release" ? "🚀" :
+          tag === "deprecation" ? "📦" : "🔒";
+        alerts.push(emoji + " " + tagCounts[tag] + " " + tag.replace(/-/g, " "));
+      }
+    });
+    if (alerts.length > 0) {
+      html += "<p>" + alerts.join(" &bull; ") + "</p>";
+    }
+
+    html += '<button class="catchup-dismiss" id="catchup-dismiss">✓ Got it</button>';
+    catchupBannerEl.innerHTML = html;
+    catchupBannerEl.style.display = "block";
+
+    // Dismiss handler
+    setTimeout(function () {
+      var dismissBtn = document.getElementById("catchup-dismiss");
+      if (dismissBtn) {
+        dismissBtn.addEventListener("click", function () {
+          catchupBannerEl.style.display = "none";
+        });
+      }
+    }, 0);
+  }
+
+  // ===== Tag Filters =====
+  function renderTagFilters() {
+    var tagCounts = {};
+    articles.forEach(function (a) {
+      if (a.tags) {
+        a.tags.forEach(function (tag) {
+          tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+        });
+      }
+    });
+
+    var tags = Object.keys(tagCounts).sort(function (a, b) {
+      return tagCounts[b] - tagCounts[a];
+    });
+
+    if (tags.length === 0) return;
+
+    var tagRow = document.createElement("div");
+    tagRow.className = "tag-filters";
+    tagRow.id = "tag-filters";
+
+    var html = '<button class="tag-pill active" data-tag="all">All Tags</button>';
+    tags.forEach(function (tag) {
+      html +=
+        '<button class="tag-pill" data-tag="' + escapeHtml(tag) + '">' +
+        escapeHtml(tag.replace(/-/g, " ")) +
+        ' <span class="count">' + tagCounts[tag] + "</span></button>";
+    });
+    tagRow.innerHTML = html;
+
+    // Insert after filter-pills
+    var filtersEl = document.querySelector(".filters .filter-scroll");
+    if (filtersEl) {
+      filtersEl.appendChild(tagRow);
+    }
+
+    // Event delegation for tag pills
+    tagRow.addEventListener("click", function (e) {
+      var pill = e.target.closest(".tag-pill");
+      if (!pill) return;
+      tagRow.querySelectorAll(".tag-pill").forEach(function (p) {
+        p.classList.remove("active");
+      });
+      pill.classList.add("active");
+      currentTagFilter = pill.dataset.tag;
+      applyFilters();
+    });
+  }
+
   // ===== Apply Filters & Sort =====
   function applyFilters() {
     var result = articles.slice();
@@ -241,6 +385,13 @@
     // Bookmarks filter
     if (showBookmarksOnly) {
       result = result.filter(function (a) { return bookmarks.has(a.link); });
+    }
+
+    // Tag filter
+    if (currentTagFilter !== "all") {
+      result = result.filter(function (a) {
+        return a.tags && a.tags.indexOf(currentTagFilter) !== -1;
+      });
     }
 
     // Sort
@@ -352,6 +503,23 @@
     var shareUrl = encodeURIComponent(article.link);
     var shareTitle = encodeURIComponent(article.title);
 
+    // Build tags HTML
+    var tagsHtml = "";
+    if (article.tags && article.tags.length > 0) {
+      tagsHtml = '<div class="article-tags">';
+      article.tags.forEach(function (tag) {
+        tagsHtml += '<span class="article-tag article-tag--' + escapeHtml(tag) + '">' +
+          escapeHtml(tag.replace(/-/g, " ")) + "</span>";
+      });
+      tagsHtml += "</div>";
+    }
+
+    // Build insight HTML
+    var insightHtml = "";
+    if (article.insight) {
+      insightHtml = '<div class="article-insight">💡 ' + escapeHtml(article.insight) + "</div>";
+    }
+
     return (
       '<article class="article-card">' +
       '<div class="card-header">' +
@@ -366,6 +534,8 @@
       '<a href="' + escapeHtml(article.link) + '" target="_blank" rel="noopener">' +
       escapeHtml(article.title) + "</a>" + newBadge +
       "</h3>" +
+      tagsHtml +
+      insightHtml +
       '<div class="article-meta">' +
       "<span>✍️ " + escapeHtml(article.author) + "</span>" +
       "<span>📅 " + dateStr + "</span>" +

@@ -5,7 +5,13 @@
     "retentionDays": 30,
     "maxRssItems": 50,
     "summaryMaxLength": 300,
-    "fetchDelaySeconds": 0.5
+    "fetchDelaySeconds": 0.5,
+    "insights": {
+      "enabled": true,
+      "batchSize": 10,
+      "model": "gpt-4o-mini",
+      "tags": ["breaking-change", "preview", "ga-release", "deprecation", "new-feature", "security", "pricing", "migration"]
+    }
   },
   "feeds": {
     "azurecompute": {

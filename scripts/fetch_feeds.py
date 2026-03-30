@@ -200,6 +200,96 @@ def generate_ai_summary(articles):
         return None
 
 
+def generate_article_insights(articles, config):
+    """Generate per-article AI insights: one-liner + semantic tags."""
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    if not api_key:
+        print("No OPENAI_API_KEY set, skipping article insights")
+        return articles
+
+    settings = config.get("settings", {})
+    insights_config = settings.get("insights", {})
+    if not insights_config.get("enabled", False):
+        print("Article insights disabled in config")
+        return articles
+
+    try:
+        import openai
+
+        client = openai.OpenAI(api_key=api_key)
+        model = insights_config.get("model", "gpt-4o-mini")
+        batch_size = insights_config.get("batchSize", 10)
+        valid_tags = insights_config.get("tags", [])
+        tag_list = ", ".join(valid_tags)
+
+        # Only process articles from the last 2 days to limit API costs
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
+        recent_indices = [
+            i for i, a in enumerate(articles)
+            if a.get("published", "") >= cutoff and "insight" not in a
+        ]
+
+        if not recent_indices:
+            print("No recent articles need insights")
+            return articles
+
+        print(f"Generating insights for {len(recent_indices)} recent articles...")
+
+        for batch_start in range(0, len(recent_indices), batch_size):
+            batch_indices = recent_indices[batch_start:batch_start + batch_size]
+            batch_articles = [articles[i] for i in batch_indices]
+
+            article_list = "\n".join([
+                f"{idx+1}. [{a['title']}] — {a['blog']}: {a['summary'][:150]}"
+                for idx, a in enumerate(batch_articles)
+            ])
+
+            prompt = (
+                "You are an Azure expert analyst. For each article below, provide:\n"
+                "1. A one-line insight (what this means for practitioners, max 20 words)\n"
+                f"2. Relevant tags from ONLY this set: [{tag_list}]\n\n"
+                "Respond as JSON array. Each element: "
+                '{"n": 1, "insight": "...", "tags": ["tag1"]}\n'
+                "Only include tags that clearly apply. Most articles get 0-2 tags.\n\n"
+                f"Articles:\n{article_list}"
+            )
+
+            try:
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}],
+                    max_tokens=1000,
+                    response_format={"type": "json_object"},
+                )
+                raw = response.choices[0].message.content.strip()
+                result = json.loads(raw)
+
+                # Handle both {"items": [...]} and [...] formats
+                items = result if isinstance(result, list) else result.get("items", result.get("articles", []))
+
+                for item in items:
+                    idx = item.get("n", 0) - 1
+                    if 0 <= idx < len(batch_indices):
+                        article_idx = batch_indices[idx]
+                        insight = item.get("insight", "")
+                        tags = [t for t in item.get("tags", []) if t in valid_tags]
+                        articles[article_idx]["insight"] = insight
+                        articles[article_idx]["tags"] = tags
+
+                enriched = sum(1 for i in batch_indices if "insight" in articles[i])
+                print(f"  Batch {batch_start//batch_size + 1}: enriched {enriched}/{len(batch_indices)} articles")
+
+            except Exception as e:
+                print(f"  Batch {batch_start//batch_size + 1} failed: {e}")
+
+            time.sleep(1)  # Rate limit between batches
+
+    except Exception as e:
+        print(f"Article insights failed: {e}")
+
+    return articles
+
+
 def main():
     print("=" * 60)
     print("Azure News Feed - Fetching RSS Feeds")
@@ -230,6 +320,9 @@ def main():
 
     # Generate AI summary (optional)
     summary = generate_ai_summary(unique_articles)
+
+    # Generate per-article AI insights (optional)
+    unique_articles = generate_article_insights(unique_articles, config)
 
     # Build categories from config for inclusion in output
     categories = {}
