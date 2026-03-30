@@ -405,53 +405,11 @@
       "product": "Microsoft Fabric",
       "billingType": "PAYGO"
     },
-    "microsoft-defender-xdr": {
-      "name": "Microsoft Defender XDR",
-      "category": "Security",
-      "solutionArea": "Security",
-      "product": "Defender XDR",
-      "billingType": "PAYGO"
-    },
-    "windows-defender-endpoint": {
-      "name": "Defender for Endpoint",
-      "category": "Security",
-      "solutionArea": "Security",
-      "product": "Defender for Endpoint",
-      "billingType": "PAYGO"
-    },
-    "microsoft-defender-office-365": {
-      "name": "Defender for Office 365",
-      "category": "Security",
-      "solutionArea": "Security",
-      "product": "Defender for Office 365",
-      "billingType": "PAYGO"
-    },
-    "microsoft-defender-for-identity": {
-      "name": "Defender for Identity",
-      "category": "Security",
-      "solutionArea": "Security",
-      "product": "Defender for Identity",
-      "billingType": "PAYGO"
-    },
-    "microsoft-defender-cloud-apps": {
-      "name": "Defender for Cloud Apps",
-      "category": "Security",
-      "solutionArea": "Security",
-      "product": "Defender for Cloud Apps",
-      "billingType": "PAYGO"
-    },
     "microsoft-entra-blog": {
       "name": "Microsoft Entra",
       "category": "Security",
       "solutionArea": "Security",
       "product": "Microsoft Entra",
-      "billingType": "PAYGO"
-    },
-    "microsoft-purview": {
-      "name": "Microsoft Purview",
-      "category": "Security",
-      "solutionArea": "Security",
-      "product": "Microsoft Purview",
       "billingType": "PAYGO"
     },
     "microsoft-intune": {
@@ -469,32 +427,11 @@
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "billingType": "PAYGO"
     },
-    "microsoft-365-blog": {
-      "name": "Microsoft 365 Blog",
-      "category": "Microsoft 365",
-      "solutionArea": "CAIP",
-      "product": "Microsoft 365",
-      "billingType": "License"
-    },
-    "exchange-team-blog": {
-      "name": "Exchange Team Blog",
-      "category": "Microsoft 365",
-      "solutionArea": "CAIP",
-      "product": "Exchange",
-      "billingType": "License"
-    },
     "microsoftteams": {
       "name": "Microsoft Teams",
       "category": "Microsoft 365",
       "solutionArea": "CAIP",
       "product": "Microsoft Teams",
-      "billingType": "License"
-    },
-    "sharepointblog": {
-      "name": "SharePoint Blog",
-      "category": "Microsoft 365",
-      "solutionArea": "CAIP",
-      "product": "SharePoint",
       "billingType": "License"
     },
     "onedriveblog": {
@@ -504,20 +441,6 @@
       "product": "OneDrive",
       "billingType": "License"
     },
-    "outlookblog": {
-      "name": "Outlook Blog",
-      "category": "Microsoft 365",
-      "solutionArea": "CAIP",
-      "product": "Outlook",
-      "billingType": "License"
-    },
-    "copilot-for-microsoft-365": {
-      "name": "Copilot for Microsoft 365",
-      "category": "Microsoft 365",
-      "solutionArea": "AIBS",
-      "product": "Copilot for M365",
-      "billingType": "License"
-    },
     "m365devblog": {
       "name": "Microsoft 365 Developer Blog",
       "category": "Microsoft 365",
@@ -525,69 +448,6 @@
       "product": "Microsoft 365",
       "url": "https://devblogs.microsoft.com/microsoft365dev/feed/",
       "billingType": "License"
-    },
-    "power-bi-blog": {
-      "name": "Power BI Blog",
-      "category": "Power Platform",
-      "solutionArea": "AIBS",
-      "product": "Power BI",
-      "billingType": "License"
-    },
-    "powerapps": {
-      "name": "Power Apps",
-      "category": "Power Platform",
-      "solutionArea": "AIBS",
-      "product": "Power Apps",
-      "billingType": "License"
-    },
-    "power-automate": {
-      "name": "Power Automate",
-      "category": "Power Platform",
-      "solutionArea": "AIBS",
-      "product": "Power Automate",
-      "billingType": "License"
-    },
-    "power-virtual-agents": {
-      "name": "Power Virtual Agents",
-      "category": "Power Platform",
-      "solutionArea": "AIBS",
-      "product": "Copilot Studio",
-      "billingType": "License"
-    },
-    "dynamics-365-blog": {
-      "name": "Dynamics 365 Blog",
-      "category": "Dynamics 365",
-      "solutionArea": "AIBS",
-      "product": "Dynamics 365",
-      "billingType": "License"
-    },
-    "windows-it-pro-blog": {
-      "name": "Windows IT Pro Blog",
-      "category": "Windows & Edge",
-      "solutionArea": "CAIP",
-      "product": "Windows",
-      "billingType": "License"
-    },
-    "windows-insider": {
-      "name": "Windows Insider",
-      "category": "Windows & Edge",
-      "solutionArea": "CAIP",
-      "product": "Windows",
-      "billingType": "License"
-    },
-    "microsoft-edge-insider": {
-      "name": "Microsoft Edge Blog",
-      "category": "Windows & Edge",
-      "solutionArea": "CAIP",
-      "product": "Edge",
-      "billingType": "License"
-    },
-    "azure-ai-services-blog": {
-      "name": "Azure AI Services Blog",
-      "category": "Data & AI",
-      "solutionArea": "AIBS",
-      "product": "Azure AI Services",
-      "billingType": "PAYGO"
     },
     "aiplatformblog": {
       "name": "AI Platform Blog",
@@ -645,20 +505,6 @@
       "url": "https://devblogs.microsoft.com/powershell/feed/",
       "billingType": "PAYGO"
     },
-    "sql-server-blog": {
-      "name": "SQL Server Blog",
-      "category": "Data & AI",
-      "solutionArea": "AIBS",
-      "product": "SQL Server",
-      "billingType": "License"
-    },
-    "azuresynapseblog": {
-      "name": "Azure Synapse Analytics",
-      "category": "Data & AI",
-      "solutionArea": "AIBS",
-      "product": "Azure Synapse",
-      "billingType": "PAYGO"
-    },
     "azuresqldevblog": {
       "name": "Azure SQL DevBlog",
       "category": "Data & AI",
@@ -666,6 +512,110 @@
       "product": "Azure SQL",
       "url": "https://devblogs.microsoft.com/azure-sql/feed/",
       "billingType": "PAYGO"
+    },
+    "githubengineering": {
+      "name": "GitHub Engineering",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub",
+      "url": "https://github.blog/engineering/feed/"
+    },
+    "githubsecurity": {
+      "name": "GitHub Security",
+      "category": "Security",
+      "solutionArea": "Security",
+      "billingType": "License",
+      "product": "GitHub Advanced Security",
+      "url": "https://github.blog/security/feed/"
+    },
+    "githubenterprise": {
+      "name": "GitHub Enterprise",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub Enterprise",
+      "url": "https://github.blog/enterprise/feed/"
+    },
+    "githubchangelog": {
+      "name": "GitHub Changelog",
+      "category": "Developer Tools",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub",
+      "url": "https://github.blog/changelog/feed/"
+    },
+    "githubcopilotblog": {
+      "name": "GitHub Copilot Blog",
+      "category": "Data & AI",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/ai-and-ml/feed/"
+    },
+    "MicrosoftThreatProtectionBlog": {
+      "name": "Microsoft Defender XDR",
+      "category": "Security",
+      "solutionArea": "Security",
+      "product": "Defender XDR",
+      "billingType": "PAYGO"
+    },
+    "MicrosoftDefenderATPBlog": {
+      "name": "Defender for Endpoint",
+      "category": "Security",
+      "solutionArea": "Security",
+      "product": "Defender for Endpoint",
+      "billingType": "PAYGO"
+    },
+    "MicrosoftDefenderforOffice365Blog": {
+      "name": "Defender for Office 365",
+      "category": "Security",
+      "solutionArea": "Security",
+      "product": "Defender for Office 365",
+      "billingType": "PAYGO"
+    },
+    "microsoft-purview-blog": {
+      "name": "Microsoft Purview",
+      "category": "Security",
+      "solutionArea": "Security",
+      "product": "Microsoft Purview",
+      "billingType": "PAYGO"
+    },
+    "Microsoft-365": {
+      "name": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "product": "Microsoft 365",
+      "billingType": "License"
+    },
+    "Exchange": {
+      "name": "Exchange Team Blog",
+      "category": "Microsoft 365",
+      "solutionArea": "CAIP",
+      "product": "Exchange",
+      "billingType": "License"
+    },
+    "MicrosoftEdgeInsider": {
+      "name": "Microsoft Edge Blog",
+      "category": "Windows & Edge",
+      "solutionArea": "CAIP",
+      "product": "Edge",
+      "billingType": "License"
+    },
+    "WindowsInsiderProgram": {
+      "name": "Windows Insider",
+      "category": "Windows & Edge",
+      "solutionArea": "CAIP",
+      "product": "Windows",
+      "billingType": "License"
+    },
+    "powerbi": {
+      "name": "Power BI Blog",
+      "category": "Power Platform",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI",
+      "url": "https://powerbi.microsoft.com/en-us/blog/feed/"
     }
   }
 }
