@@ -9,7 +9,7 @@ A daily-updated Microsoft blog aggregator hosted on GitHub Pages. Collects artic
 - 📰 **88+ blog sources** — Azure, Microsoft 365, Security, Power Platform, Developer Tools, AI & more
 - 🔍 **Search & filter** — By keyword, category, blog, product, solution area, revenue type
 - 🏷️ **Solution areas** — Filter by AIBS, CAIP, or Security
-- 💰 **Revenue type** — Filter by PAYGO or License
+- 💰 **Billing type** — Filter by PAYGO or License
 - ⭐ **Bookmarks** — Save articles for later (stored locally)
 - 📋 **Reading queue** — Mark articles as read, read later, or unseen
 - 🌙 **Dark mode** — Easy on the eyes

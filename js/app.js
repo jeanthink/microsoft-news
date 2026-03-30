@@ -4,10 +4,10 @@
   // ===== Category Mapping (loaded from feed data) =====
   var CATEGORIES = {};
   var SOLUTION_AREAS = {};
-  var REVENUE_TYPES = {};
+  var BILLING_TYPES = {};
   var currentTagFilter = "all";
   var currentSolutionArea = "all";
-  var currentRevenueType = "all";
+  var currentBillingType = "all";
   var currentBlogSource = "all";
   var currentProduct = "all";
 
@@ -165,8 +165,8 @@
       if (data.solutionAreas) {
         SOLUTION_AREAS = data.solutionAreas;
       }
-      if (data.revenueTypes) {
-        REVENUE_TYPES = data.revenueTypes;
+      if (data.billingTypes) {
+        BILLING_TYPES = data.billingTypes;
       }
 
       // Assign colors to blogs
@@ -473,9 +473,9 @@
       });
     }
 
-    // Revenue type filter
-    if (currentRevenueType !== "all") {
-      var rtBlogs = REVENUE_TYPES[currentRevenueType] || [];
+    // Billing type filter
+    if (currentBillingType !== "all") {
+      var rtBlogs = BILLING_TYPES[currentBillingType] || [];
       result = result.filter(function (a) {
         return rtBlogs.indexOf(a.blogId) !== -1;
       });
@@ -686,17 +686,17 @@
       insightHtml = '<div class="article-insight">💡 ' + escapeHtml(article.insight) + "</div>";
     }
 
-    // Build solution area / revenue badges
+    // Build solution area / billing badges
     var metaBadges = "";
     if (article.solutionArea) {
       var saIcons = { AIBS: "🧠", CAIP: "☁️", Security: "🔒" };
       metaBadges += '<span class="sa-badge sa-badge--' + escapeHtml(article.solutionArea) + '">' +
         (saIcons[article.solutionArea] || "") + " " + escapeHtml(article.solutionArea) + "</span>";
     }
-    if (article.revenueType) {
+    if (article.billingType) {
       var rtIcons = { PAYGO: "📊", License: "📄" };
-      metaBadges += '<span class="rt-badge rt-badge--' + escapeHtml(article.revenueType) + '">' +
-        (rtIcons[article.revenueType] || "") + " " + escapeHtml(article.revenueType) + "</span>";
+      metaBadges += '<span class="rt-badge rt-badge--' + escapeHtml(article.billingType) + '">' +
+        (rtIcons[article.billingType] || "") + " " + escapeHtml(article.billingType) + "</span>";
     }
 
     return (
@@ -889,11 +889,11 @@
       });
     }
 
-    // Revenue type filter
-    var rtFilterEl = document.getElementById("revenue-filter");
+    // Billing type filter
+    var rtFilterEl = document.getElementById("billing-filter");
     if (rtFilterEl) {
       rtFilterEl.addEventListener("change", function (e) {
-        currentRevenueType = e.target.value;
+        currentBillingType = e.target.value;
         applyFilters();
       });
     }
@@ -909,7 +909,7 @@
         currentFilter = "all";
         currentTagFilter = "all";
         currentSolutionArea = "all";
-        currentRevenueType = "all";
+        currentBillingType = "all";
         currentBlogSource = "all";
         currentProduct = "all";
         readingFilter = "all";
@@ -917,7 +917,7 @@
         showBookmarksOnly = false;
 
         // Reset select elements
-        var selects = ["reading-filter", "solution-area-filter", "revenue-filter"];
+        var selects = ["reading-filter", "solution-area-filter", "billing-filter"];
         selects.forEach(function (id) {
           var el = document.getElementById(id);
           if (el) el.value = "all";
@@ -958,7 +958,7 @@
       if (!clearBtn) return;
       var active = currentCategory !== "all" || currentFilter !== "all" ||
         currentTagFilter !== "all" || currentSolutionArea !== "all" ||
-        currentRevenueType !== "all" || currentBlogSource !== "all" ||
+        currentBillingType !== "all" || currentBlogSource !== "all" ||
         currentProduct !== "all" || readingFilter !== "all" ||
         searchQuery !== "" || showBookmarksOnly;
       clearBtn.style.display = active ? "inline-block" : "none";

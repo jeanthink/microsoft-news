@@ -101,8 +101,8 @@ def fetch_all_feeds(config):
                 }
                 if feed_info.get("solutionArea"):
                     article["solutionArea"] = feed_info["solutionArea"]
-                if feed_info.get("revenueType"):
-                    article["revenueType"] = feed_info["revenueType"]
+                if feed_info.get("billingType"):
+                    article["billingType"] = feed_info["billingType"]
                 if feed_info.get("product"):
                     article["product"] = feed_info["product"]
                 articles.append(article)
@@ -332,7 +332,7 @@ def main():
     # Build categories from config for inclusion in output
     categories = {}
     solution_areas = {}
-    revenue_types = {}
+    billing_types = {}
     for blog_id, feed_info in config.get("feeds", {}).items():
         cat = feed_info.get("category", "Uncategorized")
         categories.setdefault(cat, []).append(blog_id)
@@ -341,16 +341,16 @@ def main():
         if sa:
             solution_areas.setdefault(sa, []).append(blog_id)
 
-        rt = feed_info.get("revenueType")
+        rt = feed_info.get("billingType")
         if rt:
-            revenue_types.setdefault(rt, []).append(blog_id)
+            billing_types.setdefault(rt, []).append(blog_id)
 
     data = {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
         "totalArticles": len(unique_articles),
         "categories": categories,
         "solutionAreas": solution_areas,
-        "revenueTypes": revenue_types,
+        "billingTypes": billing_types,
         "articles": unique_articles,
     }
     if summary:
