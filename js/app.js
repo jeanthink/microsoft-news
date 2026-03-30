@@ -17,6 +17,10 @@
   );
   var showBookmarksOnly = false;
 
+  // Reading state: tracks article status — "read", "read-later", or absent (unseen)
+  var readingState = JSON.parse(localStorage.getItem("azurefeed-reading") || "{}");
+  var readingFilter = "all"; // "all", "unseen", "read-later", "read"
+
   // Color palette for blog tags
   var blogColors = {};
   var colorPalette = [
@@ -394,6 +398,13 @@
       });
     }
 
+    // Reading status filter
+    if (readingFilter !== "all") {
+      result = result.filter(function (a) {
+        return getReadingStatus(a.link) === readingFilter;
+      });
+    }
+
     // Sort
     switch (sortBy) {
       case "date-desc":
@@ -410,8 +421,14 @@
     }
 
     filteredArticles = result;
-    showingCount.textContent =
-      "Showing " + result.length + " of " + articles.length + " articles";
+
+    // Update counts with reading stats
+    var stats = getReadingStats();
+    var countText = "Showing " + result.length + " of " + articles.length;
+    if (stats.read > 0 || stats.later > 0) {
+      countText += " · ✅ " + stats.read + " read · 📋 " + stats.later + " queued";
+    }
+    showingCount.textContent = countText;
     renderArticles();
   }
 
@@ -503,6 +520,14 @@
     var shareUrl = encodeURIComponent(article.link);
     var shareTitle = encodeURIComponent(article.title);
 
+    // Reading status
+    var status = getReadingStatus(article.link);
+    var statusIcon = status === "read" ? "✅" : status === "read-later" ? "📋" : "○";
+    var statusTitle = status === "read" ? "Read — click to clear" :
+      status === "read-later" ? "Read later — click to mark read" : "Click to mark read later";
+    var cardClass = "article-card" + (status === "read" ? " article-read" : "") +
+      (status === "read-later" ? " article-read-later" : "");
+
     // Build tags HTML
     var tagsHtml = "";
     if (article.tags && article.tags.length > 0) {
@@ -521,17 +546,21 @@
     }
 
     return (
-      '<article class="article-card">' +
+      '<article class="' + cardClass + '">' +
       '<div class="card-header">' +
       '<span class="blog-tag" style="background:' + color + "18;color:" + color + ';">' +
       escapeHtml(article.blog) + "</span>" +
+      '<div class="card-actions-top">' +
+      '<button class="reading-btn ' + status +
+      '" data-action="reading" data-link="' + encodedLink +
+      '" title="' + statusTitle + '">' + statusIcon + "</button>" +
       '<button class="bookmark-btn ' + (isBookmarked ? "bookmarked" : "") +
       '" data-action="bookmark" data-link="' + encodedLink +
       '" title="' + (isBookmarked ? "Remove bookmark" : "Bookmark this article") + '">' +
       (isBookmarked ? "⭐" : "☆") + "</button>" +
-      "</div>" +
+      "</div></div>" +
       '<h3 class="article-title">' +
-      '<a href="' + escapeHtml(article.link) + '" target="_blank" rel="noopener">' +
+      '<a href="' + escapeHtml(article.link) + '" target="_blank" rel="noopener" data-trackread="' + encodedLink + '">' +
       escapeHtml(article.title) + "</a>" + newBadge +
       "</h3>" +
       tagsHtml +
@@ -561,6 +590,60 @@
       JSON.stringify(Array.from(bookmarks))
     );
     applyFilters();
+  }
+
+  // ===== Reading State Management =====
+  function getReadingStatus(link) {
+    return readingState[link] || "unseen";
+  }
+
+  function setReadingStatus(link, status) {
+    if (status === "unseen") {
+      delete readingState[link];
+    } else {
+      readingState[link] = status;
+    }
+    // Prune entries older than retention window (keep state manageable)
+    var keys = Object.keys(readingState);
+    if (keys.length > 2000) {
+      var sorted = keys.sort();
+      var toRemove = sorted.slice(0, keys.length - 1500);
+      toRemove.forEach(function (k) { delete readingState[k]; });
+    }
+    localStorage.setItem("azurefeed-reading", JSON.stringify(readingState));
+  }
+
+  function cycleReadingStatus(link) {
+    var current = getReadingStatus(link);
+    var next;
+    if (current === "unseen") {
+      next = "read-later";
+      showToast("📋 Marked as read later");
+    } else if (current === "read-later") {
+      next = "read";
+      showToast("✅ Marked as read");
+    } else {
+      next = "unseen";
+      showToast("Cleared reading status");
+    }
+    setReadingStatus(link, next);
+    applyFilters();
+  }
+
+  function markAsRead(link) {
+    setReadingStatus(link, "read");
+  }
+
+  function getReadingStats() {
+    var total = articles.length;
+    var readCount = 0;
+    var laterCount = 0;
+    articles.forEach(function (a) {
+      var s = getReadingStatus(a.link);
+      if (s === "read") readCount++;
+      else if (s === "read-later") laterCount++;
+    });
+    return { total: total, read: readCount, later: laterCount, unseen: total - readCount - laterCount };
   }
 
   // ===== Find article by encoded link =====
@@ -633,6 +716,15 @@
       applyFilters();
     });
 
+    // Reading filter
+    var readingFilterEl = document.getElementById("reading-filter");
+    if (readingFilterEl) {
+      readingFilterEl.addEventListener("change", function (e) {
+        readingFilter = e.target.value;
+        applyFilters();
+      });
+    }
+
     // Theme toggle
     themeToggle.addEventListener("click", toggleTheme);
 
@@ -679,6 +771,16 @@
 
     // Article actions (event delegation on grid)
     articlesGrid.addEventListener("click", function (e) {
+      // Auto-mark as read when clicking article title link
+      var trackLink = e.target.closest("[data-trackread]");
+      if (trackLink) {
+        var link = decodeURIComponent(trackLink.dataset.trackread);
+        markAsRead(link);
+        // Don't re-render immediately — let the link open first
+        setTimeout(function () { applyFilters(); }, 300);
+        return;
+      }
+
       var btn = e.target.closest("[data-action]");
       if (!btn) return;
 
@@ -688,6 +790,8 @@
 
       if (btn.dataset.action === "bookmark") {
         toggleBookmark(article.link);
+      } else if (btn.dataset.action === "reading") {
+        cycleReadingStatus(article.link);
       }
     });
 

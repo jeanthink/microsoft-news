@@ -920,3 +920,76 @@ footer a:hover {
   color: white;
   border-color: var(--azure-blue);
 }
+
+/* ===== Reading Status ===== */
+.card-actions-top {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-shrink: 0;
+}
+
+.reading-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.1rem;
+  opacity: 0.3;
+  transition: opacity var(--transition), transform var(--transition);
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.reading-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.15);
+}
+
+.reading-btn.read-later {
+  opacity: 1;
+}
+
+.reading-btn.read {
+  opacity: 0.7;
+}
+
+.article-read {
+  opacity: 0.55;
+}
+
+.article-read:hover {
+  opacity: 0.85;
+}
+
+.article-read-later {
+  border-left: 3px solid #0078D4;
+}
+
+#reading-filter {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background var(--transition);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 1.5rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='white' d='M2 4l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+}
+
+#reading-filter:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#reading-filter option {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
