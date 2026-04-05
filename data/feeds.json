@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-04T12:10:26.297768+00:00",
-  "totalArticles": 367,
+  "lastUpdated": "2026-04-05T12:10:27.765543+00:00",
+  "totalArticles": 360,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,30 @@
     ]
   },
   "articles": [
+    {
+      "title": "How we build Azure SRE Agent with agentic workflows",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-we-build-azure-sre-agent-with-agentic-workflows/ba-p/4508753",
+      "published": "2026-04-05T07:40:28+00:00",
+      "summary": "The Challenge: Ops is critical but takes time from innovation Microsoft operates always-on, mission-critical production systems at extraordinary scale. Thousands of services, millions of deployments, and constant change are the reality of modern cloud engineering. These are titan systems that power...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "saziz_msft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "When the audio pipeline decides to act up 😂🤌",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/when-the-audio-pipeline-decides-to-act-up/m-p/4508675#M42550",
+      "published": "2026-04-04T16:53:26+00:00",
+      "summary": "Ever since build 2820.x.x.x, I’ve been keeping an eye on one specific process — Audio Graph Isolation.And this little troublemaker 😂 sometimes decides it wants to “spice up your day.” Not by taking a few MB of RAM…Oh no, no — it goes straight for several gigabytes 😂 So you’re just sitting there,...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "kikero_exe",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
     {
       "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure/ba-p/4507828",
@@ -1375,18 +1399,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Windows 11 Taskbar icons on multiple screens",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-taskbar-icons-on-multiple-screens/m-p/4507648#M42384",
-      "published": "2026-04-01T10:04:15+00:00",
-      "summary": "In Windows 11, small icons on the right side of the taskbar only show on the main screen and are hidden on other monitors. How to make them appear on all monitors?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Komondor2240",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Agents League: Meet the Winners",
@@ -3141,18 +3153,6 @@
       "product": "Defender XDR"
     },
     {
-      "title": "Heroku Entered Maintenance Mode — Here's Your Next Move",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/heroku-entered-maintenance-mode-here-s-your-next-move/ba-p/4504021",
-      "published": "2026-03-20T14:27:30+00:00",
-      "summary": "Heroku has entered sustaining engineering — no new features, no new enterprise contracts. If you're running production workloads on the platform, you're probably thinking about what comes next. Azure Container Apps is worth a serious look. Scale-to-zero pricing, event-driven autoscaling, built-in...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "TMDL View on the Web (Preview)",
       "link": "https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/",
       "published": "2026-03-20T14:15:00+00:00",
@@ -4600,90 +4600,6 @@
       "blog": "Microsoft Teams",
       "blogId": "microsoftteams",
       "author": "EAB1977",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Using Agents to Setup Experiments",
-      "link": "https://devblogs.microsoft.com/ise/using-agents-to-setup-experiments/",
-      "published": "2026-03-06T08:00:00+00:00",
-      "summary": "When setting up an experiment is complex, agents can automate the process to make it faster and more reliable. The post Using Agents to Setup Experiments appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Peter Lasne",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "ISE"
-    },
-    {
-      "title": "Decision Matrix: API vs MCP Tools — The Great Integration Showdown 🥊",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/decision-matrix-api-vs-mcp-tools-the-great-integration-showdown/ba-p/4499385",
-      "published": "2026-03-06T06:48:28+00:00",
-      "summary": "Audience: Engineers + Stakeholders (and anyone who's ever argued about API architecture at lunch)Date: March 2026Author: Sabyasachi Samaddar Purpose Somewhere, right now, two engineers are arguing about the \"right\" way to call an API. One swears by raw HTTP. The other just discovered MCP and thinks...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sabyasachi-Samaddar",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Dynamic Resource Allocation (DRA) with NVIDIA virtualized GPU (vGPU) on AKS",
-      "link": "https://blog.aks.azure.com/2026/03/06/dra-with-vGPUs-on-aks",
-      "published": "2026-03-06T00:00:00+00:00",
-      "summary": "Configure dynamic resource allocation (DRA) for NVIDIA vGPU workloads and learn the prerequisites with setup steps on Azure Kubernetes Service (AKS).",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "AKS"
-    },
-    {
-      "title": "Windows Terminal Preview 1.25 Release",
-      "link": "https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-25-release/",
-      "published": "2026-03-05T22:28:49+00:00",
-      "summary": "We briefly paused our quarterly release cycle to focus on reliability and performance, but now we’re back with Windows Terminal 1.25! We are also updating Windows Terminal stable to version 1.24, which will include all of the features from this previous blog post. Some notable features to call out...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Dustin Howett",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows Terminal"
-    },
-    {
-      "title": "60 million Copilot code reviews and counting",
-      "link": "https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/",
-      "published": "2026-03-05T20:10:43+00:00",
-      "summary": "How Copilot code review helps teams keep up with AI-accelerated code changes. The post 60 million Copilot code reviews and counting appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Ria Gopu",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "How Netstar Streamlined Fleet Monitoring and Reduced Custom Integrations with Drasi",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/how-netstar-streamlined-fleet-monitoring-and-reduced-custom/ba-p/4499592",
-      "published": "2026-03-05T19:23:46+00:00",
-      "summary": "When a high-value container goes silent between waystations, logistics teams lose critical visibility, risking delays that can cascade into port congestion and missed connections. Netstar, a connected fleet solutions provider supporting customers like Maersk, faced this challenge as its operations...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "CollinBrian",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
-    },
-    {
-      "title": "Teams Voice Migration Checklist for IT Leaders",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-voice-migration-checklist-for-it-leaders/m-p/4499778#M144752",
-      "published": "2026-03-05T18:15:31+00:00",
-      "summary": "✅ Microsoft Teams Voice Migration Requires the Right StrategyMoving from a traditional PBX or legacy VoIP system to Microsoft Teams Phone offers flexibility, cost savings, and better integration with Microsoft 365. But successful migrations require careful planning across infrastructure, licensing,...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "WME",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
