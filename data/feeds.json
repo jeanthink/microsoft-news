@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-11T12:10:22.903394+00:00",
-  "totalArticles": 382,
+  "lastUpdated": "2026-04-12T12:11:33.774800+00:00",
+  "totalArticles": 373,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,18 @@
     ]
   },
   "articles": [
+    {
+      "title": "Azure Red Hat OpenShift: Managed Identity and Workload Identity now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-managed-identity-and-workload-identity/ba-p/4504940",
+      "published": "2026-04-11T23:03:17+00:00",
+      "summary": "Azure Red Hat OpenShift now supports managed identities and workload identities as a generally available capability, so you can run OpenShift clusters and applications on Azure without long-lived service principal credentials.​ ARO, identity, and Azure governance With GA support for managed...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "MelanieKraintz007",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
     {
       "title": "Windows 11 D Drive Space Drops Dramatically After Deleting Game",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-d-drive-space-drops-dramatically-after-deleting-game/m-p/4510438#M42810",
@@ -1855,18 +1867,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Azure Red Hat OpenShift: Managed Identity and Workload Identity now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-managed-identity-and-workload-identity/ba-p/4504940",
-      "published": "2026-04-06T14:44:45+00:00",
-      "summary": "Azure Red Hat OpenShift now supports managed identities and workload identities as a generally available capability, so you can run OpenShift clusters and applications on Azure without long-lived service principal credentials.​ ARO, identity, and Azure governance With GA support for managed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "MelanieKraintz007",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Use ANY_VALUE() for simpler grouping of results in Fabric Data Warehouse (Generally Available)",
@@ -4759,114 +4759,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Monitor"
-    },
-    {
-      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
-      "published": "2026-03-13T10:37:25+00:00",
-      "summary": "We are excited to announce the public preview of Entra ID-based access for Azure Blob Storage SFTP. This new capability enables you to use Microsoft Entra ID (formerly Azure Active Directory) identities (including guest users via Entra External Identities) to securely connect to Azure Blob Storage...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "JeevanManoj",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Storage"
-    },
-    {
-      "title": "Teams Suppresses Sentiments in Meeting Chats",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-suppresses-sentiments-in-meeting-chats/m-p/4501955#M144778",
-      "published": "2026-03-13T10:32:24+00:00",
-      "summary": "In December 2024, Microsoft introduced a control to block responses to sentiment-related prompts in Teams meeting chat. Now that block extends to every Teams user following a consolidation of the Teams meeting implementation of chat with Microsoft 365 Copilot. Basically, the block stops Copilot...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Azure Arc Server Feb 2026 Forum Recap",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-feb-2026-forum-recap/ba-p/4501793",
-      "published": "2026-03-12T23:24:03+00:00",
-      "summary": "Please find the recording for the monthly Azure Arc Server Forum at YouTube! During the February 2026 Azure Arc Server Forum, we discussed: Arc Server Reporting & Dashboard (Jeff Pigot, Sr. Solution Engineer): Check out this awesome visual reporting bringing together different management services...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Aurnov_Chattopadhyay",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "Microsoft at JavaOne: Empowering Java developers to lead the next era of AI",
-      "link": "https://devblogs.microsoft.com/java/microsoft-at-javaone-empowering-java-developers-to-lead-the-next-era-of-ai/",
-      "published": "2026-03-12T20:08:19+00:00",
-      "summary": "Java has powered some of the world’s most mission‑critical systems for decades and that’s a big part of why we’re excited to be back with the community at JavaOne 2026 (March 17–19 in Redwood City). At Microsoft, we get to work with Java teams every day: folks shipping at massive scale, running on...",
-      "blog": "Java on Azure",
-      "blogId": "javablog",
-      "author": "Brian Benz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Java on Azure"
-    },
-    {
-      "title": "Azure Copilot Migration Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-copilot-migration-agent/ba-p/4501292",
-      "published": "2026-03-12T17:21:59+00:00",
-      "summary": "Migration and modernization are complex, involving multiple decisions that determine cost, risk, and long‑term success. The timelines stretch and momentum is lost due to fragmented tools and manual planning. For most organizations, this is a continuous motion driven by shifting demands, security...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "shashban",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Migrate"
-    },
-    {
-      "title": "Modernize .NET Anywhere with GitHub Copilot",
-      "link": "https://devblogs.microsoft.com/dotnet/modernize-dotnet-anywhere-with-ghcp/",
-      "published": "2026-03-12T17:05:00+00:00",
-      "summary": "See how the modernize-dotnet agent helps you assess apps, create upgrade plans, and modernize .NET projects from Visual Studio, VS Code, GitHub Copilot CLI, and GitHub. The post Modernize .NET Anywhere with GitHub Copilot appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Mika Dumont",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": ".NET 10.0.5 Out-of-Band Release – macOS Debugger Fix",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-10-0-5-oob-release-macos-debugger-fix/",
-      "published": "2026-03-12T17:00:00+00:00",
-      "summary": "An out-of-band release of .NET 10.0.5 to fix a critical debugger crash affecting macOS users with Visual Studio Code. The post .NET 10.0.5 Out-of-Band Release – macOS Debugger Fix appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Rahul Bhandari (MSFT)",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "Teams availability status - admin way to manage this?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-availability-status-admin-way-to-manage-this/m-p/4501653#M144768",
-      "published": "2026-03-12T16:17:23+00:00",
-      "summary": "We have some staff here who seem to be abusing the Teams status feature: they indicate they are \"available\" when they are away from their desk/computer. Management here as inquired if there is a way to enforce the Teams feature where it normally shows inactive after a few minutes. Is this possible?",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "TomCSB",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Continuous AI for accessibility: How GitHub transforms feedback into inclusion",
-      "link": "https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/",
-      "published": "2026-03-12T16:00:00+00:00",
-      "summary": "AI automates triage for accessibility feedback, allowing us to focus on fixing barriers—turning a chaotic backlog into continuous, rapid resolutions. The post Continuous AI for accessibility: How GitHub transforms feedback into inclusion appeared first on The GitHub Blog.",
-      "blog": "GitHub Engineering",
-      "blogId": "githubengineering",
-      "author": "Carie Fisher",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     }
   ]
 }
