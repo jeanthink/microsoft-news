@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-12T12:11:33.774800+00:00",
-  "totalArticles": 373,
+  "lastUpdated": "2026-04-13T12:22:44.537335+00:00",
+  "totalArticles": 372,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,138 @@
     ]
   },
   "articles": [
+    {
+      "title": "Connecting an ExpressRoute circuit to Megaport Virtual Edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/connecting-an-expressroute-circuit-to-megaport-virtual-edge/ba-p/4510770",
+      "published": "2026-04-13T09:31:17+00:00",
+      "summary": "Megaport is an ExpressRoute partner in many locations. The Megaport Cloud Router (MCR) allows ExpressRoute customers to connect leased lines to their on-premise locations, and to connect other Cloud Providers. MCR is easy to set up and operate, it even automatically configures the ExpressRoute...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Marc de Droog",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "Windows Insider Program sign-in prompt closing",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider-program-sign-in-prompt-closing/m-p/4510774#M42883",
+      "published": "2026-04-13T09:27:53+00:00",
+      "summary": "Every time I try to sign in to the Windows Insider program, the sign-in prompt opens. It just. Closes. It only shows me the icon of the sign in prompt, and after a few seconds, it closes. And I really want to be in the dev channel of the Windows Insider Program so I can have the best updates. OS...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Drakeka",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Does anyone else fondly look back at the Windows Insider Program from 2014-15?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/does-anyone-else-fondly-look-back-at-the-windows-insider-program/m-p/4510771#M42882",
+      "published": "2026-04-13T09:26:34+00:00",
+      "summary": "2014-15 was when the Windows Insider Program got beta builds of Windows 10. I enrolled on Day 1, I would always download the updates ASAP on the family computer no matter how much it pissed off my sister. I got excited for new builds on Wednesdays and often looked at the Windows blog as well as...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Amiasop",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Got my first mac on Windows PC",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/got-my-first-mac-on-windows-pc/m-p/4510769#M42881",
+      "published": "2026-04-13T09:23:21+00:00",
+      "summary": "Microsoft unveils major Windows 11 preview program overhaul that actually lets you test its new features — Windows Insider Program gains new Experimental and Beta channels with feature flag control",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Azaellow",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Revo uninstaller not working and system apps can't be deleted",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/revo-uninstaller-not-working-and-system-apps-can-t-be-deleted/m-p/4510738#M42871",
+      "published": "2026-04-13T08:14:21+00:00",
+      "summary": "Hi everyone,I heard Revo Uninstaller is a good app uninstall and but it doesn't seem to work properly for windows system apps. Some apps either fail to uninstall completely or still leave behind files and registry entries. Even worse, there are certain system apps that I can't remove at all, no...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "CalahanReed",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion/ba-p/4510493",
+      "published": "2026-04-13T08:06:40+00:00",
+      "summary": "HTTP Data Collector API in Log Analytics workspaces is being deprecated, and will be totally out of support in September 2026. Data Collector actions in logic app using already created API connections (which uses workspace Id & Key) would still work against old custom log tables, however, newly...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "mshboul",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Can no longer \"log out\" (signing out is not logging out)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/can-no-longer-quot-log-out-quot-signing-out-is-not-logging-out/m-p/4510728#M144826",
+      "published": "2026-04-13T07:56:39+00:00",
+      "summary": "Hello, Up until recently, when right clicking the Teams icon on the task bar, there was an option to Log Out of teams, which had the effect of logging out (re-opening the program would instantly lead to LOGGING IN). On the most recently release, this is gone. There is now only an option to SIGN...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "Justin0880",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Introducing Wildcard Roles in Azure Web PubSub: simpler, smarter permissions for real-time apps",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-wildcard-roles-in-azure-web-pubsub-simpler-smarter/ba-p/4509524",
+      "published": "2026-04-13T07:11:33+00:00",
+      "summary": "Real-time interactivity is now a baseline expectation across industries, from collaborative dashboards to trading platforms, IoT monitoring, and live data visualizations. Developers need a way to broadcast data instantly to connected clients without worrying about connection management, scaling, or...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "kevinguo",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Automating Arc-enabled SQL Server license type configuration with Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/automating-arc-enabled-sql-server-license-type-configuration/ba-p/4500326",
+      "published": "2026-04-13T07:06:25+00:00",
+      "summary": "Azure Arc enables customers to onboard SQL Server instances - hosted on Linux or Windows - into Azure, regardless of where they are hosted: on‑premises, in multicloud environments, or at the edge. Once onboarded, these resources can be managed through the Azure Portal using services like Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "TomClaes",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
+      "title": "Safe youtube mp3 downloader and converter that still works 2026?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/safe-youtube-mp3-downloader-and-converter-that-still-works-2026/m-p/4510673#M42832",
+      "published": "2026-04-13T06:53:45+00:00",
+      "summary": "I have been trying to find a good solution but no luck so far. Is there anything out there in 2026 that is safe and not full of popups? A lot of online converters claim to be free and fast, but most seem unreliable or overloaded with ads, which honestly makes them feel unsafe.A lot of people still...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "PrestonYork",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Passwordless AKS Secrets: Sync Azure Key Vault with ESO + Workload Identity",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/passwordless-aks-secrets-sync-azure-key-vault-with-eso-workload/ba-p/4509959",
+      "published": "2026-04-13T05:00:00+00:00",
+      "summary": "Architecture High-level flow The solution uses a User-Assigned Managed Identity (UAMI) federated to a Kubernetes Service Account via AKS OIDC—then ESO uses that identity to read secrets from Key Vault and write them into Kubernetes as Opaque secrets. Flow:Azure Key Vault → ESO → Kubernetes Secret...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "fenildoshi2510",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
     {
       "title": "Azure Red Hat OpenShift: Managed Identity and Workload Identity now generally available",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-managed-identity-and-workload-identity/ba-p/4504940",
@@ -1041,42 +1173,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "Windows 11 After setting SDR brightness to match HDR, does it still look the same?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-after-setting-sdr-brightness-to-match-hdr-does-it/m-p/4509944#M42715",
-      "published": "2026-04-09T10:31:25+00:00",
-      "summary": "In Windows 11's HDR settings, if I adjust the SDR content brightness slider to match the HDR level, will SDR content still display normally? Will it cause overexposure or color issues?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Wrentdr",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Windows 11 Favorites star turned black, how to change back to blue?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-favorites-star-turned-black-how-to-change-back-to/m-p/4509943#M42714",
-      "published": "2026-04-09T10:30:04+00:00",
-      "summary": "The favorites star icon in my browser turned black on Windows 11. How can I change it back to blue?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Lucienw",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Windows 11 Search Crashes When Connected to Internet",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-search-crashes-when-connected-to-internet/m-p/4509942#M42713",
-      "published": "2026-04-09T10:29:35+00:00",
-      "summary": "Windows 11 search works fine offline, but when connected to the internet, the search box freezes for 1 second then crashes. I’ve updated Windows, turned off cloud/secure search, enabled desktop interaction, and restarted, but nothing works. Need help fixing this.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "PhoenixAdler",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "What’s new in Fabric Eventstream: 2026 Q1 Edition",
       "link": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-in-fabric-eventstream-2026-q1-edition/",
       "published": "2026-04-09T10:00:00+00:00",
@@ -1099,18 +1195,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Look for the best sd card recovery software that still works now",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/look-for-the-best-sd-card-recovery-software-that-still-works-now/m-p/4509882#M42699",
-      "published": "2026-04-09T08:46:22+00:00",
-      "summary": "I was out shooting b-roll for a project yesterday on my Sony A7III. When I got home to offload the footage, my computer asked me to format the card before I could use it. I panicked and plugged it back into my camera, and now the camera says \"No files.\"The card is a Sandisk Extreme Pro 128GB. I...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "JaggerKnox",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Enterprise UAMI Design in Azure: Trust Boundaries and Blast Radius",
@@ -1363,18 +1447,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender XDR"
-    },
-    {
-      "title": "How to clear cache on iphone to free up more space",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-clear-cache-on-iphone-to-free-up-more-space/m-p/4509531#M42677",
-      "published": "2026-04-08T08:10:23+00:00",
-      "summary": "I have an iPhone 13 that I've been using for a couple of years, and I'm down to just 5GB of free space. I already deleted unused apps and old photos, but storage is still tight. I know Android phones have a straightforward way to clear app cache, but on iOS, it seems less obvious.How do I...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "TheoDalton",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Dropped warehouse recovery in Microsoft Fabric (Preview)",
@@ -3081,18 +3153,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Gain Visibility into Cloud Browser Usage with Browser Activity Logs in Playwright Workspaces",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gain-visibility-into-cloud-browser-usage-with-browser-activity/ba-p/4506706",
-      "published": "2026-03-30T06:28:43+00:00",
-      "summary": "Today, we're announcing a new feature to view the usage metrics for a browser session using the Browser Activity Logs in Playwright Workspaces. Modern test automation and browser-based workflows increasingly rely on cloud-hosted browsers. As teams scale their usage across test runs, automation...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AbhinavPremsekhar",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Microsoft can you bring back the new microsoft rewards dashboard",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-can-you-bring-back-the-new-microsoft-rewards-dashboard/m-p/4506676#M59125",
       "published": "2026-03-30T01:08:32+00:00",
@@ -4557,18 +4617,6 @@
       "product": "Exchange"
     },
     {
-      "title": "🚀 AI Toolkit for VS Code — March 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/ai-toolkit-for-vs-code-march-2026-update/ba-p/4502517",
-      "published": "2026-03-16T18:52:34+00:00",
-      "summary": "March brings another milestone for AI Toolkit! Version 0.32.0 is packed with new capabilities designed to help you ship production ready AI agents. This release brings a unified tree view experience, Agent Builder enhancements, and streamlined GitHub Copilot integration for agent development. 🗂️...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "OneDrive Office Hours | March 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-office-hours-march-2026/ba-p/4502727",
       "published": "2026-03-16T18:26:39+00:00",
@@ -4699,66 +4747,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "AKS"
-    },
-    {
-      "title": "March Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4/",
-      "published": "2026-03-13T21:41:24+00:00",
-      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. This patch addresses an issue introduced...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
-    },
-    {
-      "title": "The Human Scale Problem in Platform Engineering",
-      "link": "https://devblogs.microsoft.com/all-things-azure/the-human-scale-problem-in-platform-engineering/",
-      "published": "2026-03-13T20:22:49+00:00",
-      "summary": "We keep doing this thing where we solve a problem, celebrate the victory, then realize we’ve created three new problems we didn’t even know existed. Remember when manually configuring servers was the bottleneck? So we built containers. Great! Now we’re orchestrating thousands of them. Remember when...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure General"
-    },
-    {
-      "title": "Teams status ignores duration and resets status",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-status-ignores-duration-and-resets-status/m-p/4502108#M144782",
-      "published": "2026-03-13T19:43:25+00:00",
-      "summary": "I set myself to \"Appear offline\" with duration through \"This week\". But every time I step away from my computer and come back, my status resets to Available. Scheduled meetings on my calendar also reset my status (from 'Offline' to 'Busy'.) I deleted the Team app entirely and only use it on web...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "anon-user-151",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Azure Developer CLI (azd): Debug hosted AI agents from your terminal",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-logs-status/",
-      "published": "2026-03-13T19:19:52+00:00",
-      "summary": "New azd ai agent show and monitor commands help you diagnose hosted AI agent failures directly from the CLI. The post Azure Developer CLI (azd): Debug hosted AI agents from your terminal appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "Introducing Azure Managed Grafana 12",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-12/ba-p/4500673",
-      "published": "2026-03-13T16:54:19+00:00",
-      "summary": "In this release, Azure Managed Grafana makes it easier to tighten access with current-user Entra authentication, speed up Azure Monitor logs exploration, and level up Prometheus and database monitoring experiences. What’s new in Azure Managed Grafana 12 Use current-user Entra authentication for...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
     }
   ]
 }
