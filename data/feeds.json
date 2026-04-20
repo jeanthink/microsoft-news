@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-19T12:11:09.298773+00:00",
-  "totalArticles": 373,
+  "lastUpdated": "2026-04-20T12:24:26.707253+00:00",
+  "totalArticles": 367,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,78 @@
   },
   "articles": [
     {
+      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
+      "published": "2026-04-20T09:49:14+00:00",
+      "summary": "Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file shares spread across Windows and Linux servers. Azure Migrate now extends its discovery and...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "bapic",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Storage"
+    },
+    {
+      "title": "Discoverable – Observable MCP Server",
+      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
+      "published": "2026-04-20T07:00:00+00:00",
+      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Colin Desmond",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "ISE"
+    },
+    {
+      "title": "Building an Enterprise HR Chatbot with Multi-Strategy RAG and Live Agent Handoff on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-enterprise-hr-chatbot-with-multi-strategy-rag-and/ba-p/4506829",
+      "published": "2026-04-20T05:00:00+00:00",
+      "summary": "HR teams deal with thousands of employee questions every day — policy lookups, leave balances, case escalations, and sensitive topics like harassment or misconduct. AI chatbots can handle the routine stuff and free up HR advisors for the hard cases. But most chatbot projects get stuck at basic Q&A....",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "risthakur1213",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Network Connectivity Check APIs for Logic App Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/network-connectivity-check-apis-for-logic-app-standard/ba-p/4512516",
+      "published": "2026-04-19T18:40:14+00:00",
+      "summary": "Introduction When your Logic App Standard is integrated with a Virtual Network (VNET), you can use these APIs to troubleshoot connectivity issues to downstream resources like SQL databases, Storage Accounts, Service Bus, Key Vault, and more. The checks run directly from the worker hosting your...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Mohammed_Barqawi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "AKS App Routing's Next Chapter: Gateway API with Istio",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aks-app-routing-s-next-chapter-gateway-api-with-istio/ba-p/4512729",
+      "published": "2026-04-19T18:25:14+00:00",
+      "summary": "If you've been following my previous posts on the Ingress NGINX retirement, you'll know the story so far. The community Ingress NGINX project was retired in March 2026, and Microsoft's extended support for the NGINX-based App Routing add-on runs until November 2026. I've covered migrating from...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "samcogan",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Step by Step Guide to Ontology and Plan for Financial Service",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/step-by-step-guide-to-ontology-and-plan-for-financial-service/ba-p/4512708",
+      "published": "2026-04-19T15:06:24+00:00",
+      "summary": "What We Will Build In this guide, we will construct a complete Fabric IQ solution that accomplishes the following: First, a Lakehouse that ingests publicly available data including bank financials, P2P lending statistics, borrower demographics, and licensing information. Second, a Semantic Model...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "NaufalPrawironegoro",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
       "title": "Azure Virtual Desktop in the Perth Azure Extended Zone: A Real‑World Production Deployment",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-virtual-desktop-in-the-perth-azure-extended-zone-a-real/ba-p/4508550",
       "published": "2026-04-19T10:03:32+00:00",
@@ -295,18 +367,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "How do I fix a malfunction in the Windows 11 shutdown update feature?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-do-i-fix-a-malfunction-in-the-windows-11-shutdown-update/m-p/4512619#M43230",
-      "published": "2026-04-18T13:13:29+00:00",
-      "summary": "The shutdown option in the Start Menu is unresponsive, the update page cannot be opened, and both third-party repair attempts and manual patch installations have failed. How can this be resolved?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "JacobBrown",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "How do I fix an abnormal screen and system freeze during Windows 11 startup?",
@@ -952,6 +1012,18 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "ArkansasQuapaw",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Windows 11 Why is my microphone so quiet in calls?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-why-is-my-microphone-so-quiet-in-calls/m-p/4512010#M43120",
+      "published": "2026-04-16T11:07:41+00:00",
+      "summary": "My built-in mic is really quiet on Windows 11 even at max volume. Friends say they can barely hear me. I tried settings but nothing helps.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Thatcherw",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -1857,10 +1929,10 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)",
-      "link": "https://blog.fabric.microsoft.com/en-US/blog/alter-table-inside-explicit-transactions-in-fabric-data-warehouse-generally-available/",
+      "title": "Bring your local files to OneLake with OneLake file explorer (Generally Available)",
+      "link": "https://blog.fabric.microsoft.com/en-US/blog/bring-your-local-files-to-onelake-with-onelake-file-explorer-generally-available/",
       "published": "2026-04-13T11:00:00+00:00",
-      "summary": "Schema evolution is a fact of life for modern analytics platforms. As data models grow, teams need to add columns, drop unused fields, and evolve constraints—often as part of tightly controlled deployment pipelines. Fabric DW supported transactional execution for key table‑focused DDLs like CREATE...",
+      "summary": "Adopted by thousands of active users, OneLake File Explorer enables developers, data scientists, and business users to move data from local files into OneLake quickly—without changing how they work. From local files to cloud analytics—without breaking your flow Imagine this scenario: You’re a data...",
       "blog": "Microsoft Fabric Blog",
       "blogId": "microsoftfabricblog",
       "author": "Microsoft",
@@ -1869,10 +1941,10 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Bring your local files to OneLake with OneLake file explorer (Generally Available)",
-      "link": "https://blog.fabric.microsoft.com/en-US/blog/bring-your-local-files-to-onelake-with-onelake-file-explorer-generally-available/",
+      "title": "ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)",
+      "link": "https://blog.fabric.microsoft.com/en-US/blog/alter-table-inside-explicit-transactions-in-fabric-data-warehouse-generally-available/",
       "published": "2026-04-13T11:00:00+00:00",
-      "summary": "Adopted by thousands of active users, OneLake File Explorer enables developers, data scientists, and business users to move data from local files into OneLake quickly—without changing how they work. From local files to cloud analytics—without breaking your flow Imagine this scenario: You’re a data...",
+      "summary": "Schema evolution is a fact of life for modern analytics platforms. As data models grow, teams need to add columns, drop unused fields, and evolve constraints—often as part of tightly controlled deployment pipelines. Fabric DW supported transactional execution for key table‑focused DDLs like CREATE...",
       "blog": "Microsoft Fabric Blog",
       "blogId": "microsoftfabricblog",
       "author": "Microsoft",
@@ -2263,18 +2335,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Entra"
-    },
-    {
-      "title": "How we build and use Azure SRE Agent with agentic workflows",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-we-build-and-use-azure-sre-agent-with-agentic-workflows/ba-p/4508753",
-      "published": "2026-04-09T17:52:27+00:00",
-      "summary": "The Challenge: Ops is critical but takes time from innovation Microsoft operates always-on, mission-critical production systems at extraordinary scale. Thousands of services, millions of deployments, and constant change are the reality of modern cloud engineering. These are titan systems that power...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Shamir_AbdulAziz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Advancing to Agentic AI with Azure NetApp Files VS Code Extension v1.2.0",
@@ -4251,7 +4311,7 @@
       "summary": "Hello everyone,We’re facing a consistent issue with Windows Autopilot user‑driven Microsoft Entra hybrid join where devices are provisioned using a Hybrid Join Autopilot profile, but Hybrid Join does not complete. Setup (High level)Windows Autopilot (user‑driven)Autopilot profile: Microsoft Entra...",
       "blog": "Microsoft Intune",
       "blogId": "microsoft-intune",
-      "author": "uzairahmad",
+      "author": "Uzair_Ahmad",
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
@@ -4288,18 +4348,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Vectorless Reasoning-Based RAG: A New Approach to Retrieval-Augmented Generation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vectorless-reasoning-based-rag-a-new-approach-to-retrieval/ba-p/4502238",
-      "published": "2026-03-25T07:00:00+00:00",
-      "summary": "Introduction Retrieval-Augmented Generation (RAG) has become a widely adopted architecture for building AI applications that combine Large Language Models (LLMs) with external knowledge sources. Traditional RAG pipelines rely heavily on vector embeddings and similarity search to retrieve relevant...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Rajapriya",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
@@ -4639,126 +4687,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Linux on Azure"
-    },
-    {
-      "title": "Consolidate & Conquer: Driving Business Transformation with Integrated Security",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/consolidate-conquer-driving-business-transformation-with/ba-p/4466867",
-      "published": "2026-03-21T02:05:18+00:00",
-      "summary": "In the evolving cybersecurity landscape, the choice between a unified security platform and a point solution is a strategic one with far-reaching implications. This blog post examines the strategic decision organizations face between adopting a unified security platform and relying on multiple...",
-      "blog": "Microsoft Purview",
-      "blogId": "microsoft-purview-blog",
-      "author": "Thorsten_Schwaab",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Purview"
-    },
-    {
-      "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/detect-correlate-contain-new-azure-firewall-idps-detections-in/ba-p/4502128",
-      "published": "2026-03-20T21:03:45+00:00",
-      "summary": "As threat actors continue to blend reconnaissance, exploitation, and post-compromise activity, network-level signals remain critical for early detection and correlated response. To strengthen this layer, we're introducing five new Azure Firewall IDPS detections, now available out of the box in the...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "Mohit_Kumar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Azure Network Security"
-    },
-    {
-      "title": "Agentic Use Cases for Developers on the Microsoft Sentinel Platform",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/agentic-use-cases-for-developers-on-the-microsoft-sentinel/ba-p/4503041",
-      "published": "2026-03-20T20:46:02+00:00",
-      "summary": "Interested in building an agent with Sentinel platform solutions but not sure where to start? This blog will help you understand some common use cases for agent development that we’ve seen across our partner ecosystem. SOC teams don’t need more alerts - they need fast, repeatable investigation and...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Sai_Marapareddy",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Extending App Assure’s Sentinel Promise through the Sentinel Advisory Service",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/extending-app-assure-s-sentinel-promise-through-the-sentinel/ba-p/4503045",
-      "published": "2026-03-20T20:23:18+00:00",
-      "summary": "At RSAC last year, we introduced the Microsoft Sentinel Promise with a straightforward commitment to our customers: that third-party data ingestion for Sentinel is reliable, predictable, and scalable without the need for complex custom coding and architecting. In other words, your connectors for...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "MikeAdams",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Redefining identity security for the modern enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/redefining-identity-security-for-the-modern-enterprise/ba-p/4503129",
-      "published": "2026-03-20T16:00:00+00:00",
-      "summary": "Every breach has one thing in common: an identity was exploited. Attackers have learned that identity is the fastest path to lateral movement and escalation. The challenge for defenders is that today's identity landscape is vast and fragmented — spanning hybrid environments, SaaS apps, cloud...",
-      "blog": "Microsoft Defender XDR",
-      "blogId": "MicrosoftThreatProtectionBlog",
-      "author": "YaronParyanty",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender XDR"
-    },
-    {
-      "title": "Defending the AI Era: New Microsoft Capabilities to Protect AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/defending-the-ai-era-new-microsoft-capabilities-to-protect-ai/ba-p/4503885",
-      "published": "2026-03-20T15:45:00+00:00",
-      "summary": "As enterprises rapidly adopt AI to drive productivity, automate decisions, and power intelligent agents, a new attack surface is emerging—one that traditional security controls were never designed to protect. AI models, training pipelines, plugins, and autonomous agents now sit directly in the path...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "danielacardon",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender for Cloud"
-    },
-    {
-      "title": "RSA 2026: What’s new in Microsoft Defender?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/rsa-2026-what-s-new-in-microsoft-defender/ba-p/4503046",
-      "published": "2026-03-20T15:45:00+00:00",
-      "summary": "Modern attacks increasingly exploit the sprawl of today’s digital environments. In the identity space alone, over half of today’s organizations say each person now has more than 21 distinct accounts. Each one of these accounts is a potential entry point that an attacker can exploit. As...",
-      "blog": "Microsoft Defender XDR",
-      "blogId": "MicrosoftThreatProtectionBlog",
-      "author": "Caroline_Lee",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender XDR"
-    },
-    {
-      "title": "New innovations in Microsoft Defender to strengthen multi-cloud, containers, and AI model security",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/new-innovations-in-microsoft-defender-to-strengthen-multi-cloud/ba-p/4503886",
-      "published": "2026-03-20T15:30:00+00:00",
-      "summary": "Cloud security today is no longer just about misconfigurations; it’s about keeping pace with cloud-native change, prioritizing risk before it becomes an incident, and securing AI as a new supply chain for applications. In modern environments, infrastructure and applications are rebuilt and...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "parulseth",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender for Cloud"
-    },
-    {
-      "title": "Security Copilot in Defender: empowering the SOC with assistive and autonomous AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/security-copilot-in-defender-empowering-the-soc-with-assistive/ba-p/4503047",
-      "published": "2026-03-20T15:30:00+00:00",
-      "summary": "Security operations centers are increasingly overwhelmed. Analysts must triage large volumes of alerts, investigate complex signals across multiple environments, and determine which threats require immediate action. Much of this work still involves manually gathering context, reconstructing...",
-      "blog": "Microsoft Defender XDR",
-      "blogId": "MicrosoftThreatProtectionBlog",
-      "author": "cristinadagamah",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender XDR"
-    },
-    {
-      "title": "TMDL View on the Web (Preview)",
-      "link": "https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/",
-      "published": "2026-03-20T14:15:00+00:00",
-      "summary": "TMDL View on the Web will be available in the coming weeks, providing a powerful code-first semantic modelling experience directly to your browser.",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "Microsoft",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     }
   ]
 }
