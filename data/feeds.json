@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-25T12:13:31.479003+00:00",
-  "totalArticles": 407,
+  "lastUpdated": "2026-04-26T12:15:13.910275+00:00",
+  "totalArticles": 398,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,66 @@
     ]
   },
   "articles": [
+    {
+      "title": "Microsoft’s New In‑House AI Models (MAI‑Transcribe, MAI‑Voice, MAI‑Image)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-s-new-in-house-ai-models-mai-transcribe-mai-voice-mai/ba-p/4512731",
+      "published": "2026-04-26T11:56:35+00:00",
+      "summary": "What Are the New MAI Models? MAI‑Transcribe‑1 (Speech‑to‑Text) MAI‑Transcribe‑1 is Microsoft’s first‑generation in‑house speech recognition model. It supports 25 languages and is optimized for real‑world, noisy enterprise audio, such as meetings and call centers. Key highlights Enterprise‑grade...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "kumar_rahul",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Employee Onboarding in a Day: Creating Role-Specific Training Guides from SharePoint Content",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/employee-onboarding-in-a-day-creating-role-specific-training/m-p/4514775#M59220",
+      "published": "2026-04-26T06:30:47+00:00",
+      "summary": "In today’s fast-paced business environment, the expectation to get new employees productive as quickly as possible is higher than ever. Yet, onboarding often remains one of the most fragmented and time-consuming processes within organizations. Information is scattered, training materials are...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JohnNaguib",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Dev Containers for .NET in VS Code: A Beginner‑Friendly Guide That Actually Works",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/dev-containers-for-net-in-vs-code-a-beginner-friendly-guide-that/ba-p/4507785",
+      "published": "2026-04-26T05:00:00+00:00",
+      "summary": "What Dev Containers are really about At a high level, Dev Containers let you use a Docker container as your development environment inside VS Code. But the real idea is not “Docker for development”. The real idea is this: Move all environment complexity out of your laptop and into...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Debapriya",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Azure Key Vault Auto‑Rotation Practicle Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-auto-rotation-practicle-guide/ba-p/4513816",
+      "published": "2026-04-26T03:21:33+00:00",
+      "summary": "If you’ve ever been called into a Severity-1 issue because a certificate expired at midnight, you already understand why credential rotation matters. Keys, secrets, and certificates sit quietly in the background and when they expire, applications go dark, trust breaks, and teams scramble. This is...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ChandraHundigam_MSFT",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "How ACR Artifact Cache Handles Multi-Arch Images: What Gets Cached and When Webhooks Fire",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-artifact-cache-handles-multi-arch-images-what-gets/ba-p/4514744",
+      "published": "2026-04-25T19:37:56+00:00",
+      "summary": "By Johnson Shi (Senior Product Manager), Toddy Mladenov (Principal PM Manager), Luis Dieguez (Principal SWE Manager), Akash Singhal (Senior Software Engineer), Kiran Challa (Senior Software Engineer), Ren Shao (Senior Software Engineer) Introduction Three of the most common questions we hear from...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
     {
       "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/modernizing-industrial-safety-and-inspection-with-ai-driven/ba-p/4514284",
@@ -3249,18 +3309,6 @@
       "product": "Azure Networking"
     },
     {
-      "title": "Writing PowerShell for the Eventually Consistent Entra ID Database",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/writing-powershell-for-the-eventually-consistent-entra-id/m-p/4510788#M59175",
-      "published": "2026-04-13T12:29:22+00:00",
-      "summary": "Entra ID uses an eventually consistent multi-region database architecture. PowerShell code that fetches and updates Entra ID objects needs to interact with the database in the most efficient manner. This article illustrates some guidance from Microsoft engineering with examples from the Microsoft...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Migrate Data Ingestion from Data Collector to Log Ingestion",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion/ba-p/4510493",
       "published": "2026-04-13T08:06:40+00:00",
@@ -3729,18 +3777,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "Build and Host MCP Apps on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-and-host-mcp-apps-on-azure-app-service/ba-p/4509705",
-      "published": "2026-04-08T18:10:03+00:00",
-      "summary": "MCP Apps are here, and they're a game-changer for building AI tools with interactive UIs. If you've been following the Model Context Protocol (MCP) ecosystem, you've probably heard about the MCP Apps spec — the first official MCP extension that lets your tools return rich, interactive UIs that...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Intune Device Reset Issue After Recent Update",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-device-reset-issue-after-recent-update/m-p/4509689#M23336",
       "published": "2026-04-08T17:40:55+00:00",
@@ -3895,18 +3931,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "AKS"
-    },
-    {
-      "title": "3 Ways to Get More from Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/3-ways-to-get-more-from-azure-sre-agent/ba-p/4508993",
-      "published": "2026-04-07T23:33:10+00:00",
-      "summary": "When you first set up Azure SRE Agent, it’s tempting to give it everything. Connect all your alert sources, route every severity, set up scheduled tasks to poll your channels every 30 seconds. The agent can handle all of it. But a few simple configuration choices can help you get more value from...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps",
@@ -4219,18 +4243,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Building MCP servers with Entra ID and pre-authorized clients",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-with-entra-id-and-pre-authorized-clients/ba-p/4508453",
-      "published": "2026-04-06T07:00:00+00:00",
-      "summary": "The Model Context Protocol (MCP) gives AI agents a standard way to call external tools, but things get more complicated when those tools need to know who the user is. In this post, I’ll show how to build an MCP server with the Python FastMCP package that authenticates users with Microsoft Entra ID...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     },
     {
       "title": "Building Cost-Aware Azure Infrastructure Pipelines: Estimate Costs Before You Deploy",
@@ -4627,18 +4639,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Architecture"
-    },
-    {
-      "title": "Migrating Azure SQL Database Across Tenants Using Subscription Transfer",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-azure-sql-database-across-tenants-using-subscription/ba-p/4507002",
-      "published": "2026-04-01T16:01:18+00:00",
-      "summary": "Moving an Azure subscription between Microsoft Entra ID (formerly Azure Active Directory) tenants is a common requirement during: Mergers and acquisitions Organizational restructuring Enterprise Agreement (EA) enrollment realignment Lighthouse or multi‑tenant operating model changes However, when...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "princy_rajpoot",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
     },
     {
       "title": "Run multiple agents at once with /fleet in Copilot CLI",
@@ -5059,114 +5059,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender for Office 365"
-    },
-    {
-      "title": "Azure Maps Adds Support to Private Endpoints (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/azure-maps-adds-support-to-private-endpoints-preview/ba-p/4505743",
-      "published": "2026-03-27T00:23:58+00:00",
-      "summary": "Location data is by nature sensitive and therefore needs to be managed securely. Today, we’re announcing the Public Preview of private endpoint support for Azure Maps, bringing enterprise-grade network isolation and data privacy to your location-aware applications. With Azure Private Link, your...",
-      "blog": "Azure Maps",
-      "blogId": "azuremapsblog",
-      "author": "PeterBr",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Maps"
-    },
-    {
-      "title": "Introducing Skills in Azure API Center",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-skills-in-azure-api-center/ba-p/4506014",
-      "published": "2026-03-26T21:31:02+00:00",
-      "summary": "The problem Modern applications depend on more than APIs. A single AI workflow might call an LLM, invoke an MCP tool, integrate a third-party service, and reference a business capability spanning dozens of endpoints. Without a central inventory, these assets become impossible to discover, easy to...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anishta",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Azure SDK Release (March 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-march-2026/",
-      "published": "2026-03-26T20:41:06+00:00",
-      "summary": "Azure SDK releases every month. In this post, you find this month's highlights and release notes. The post Azure SDK Release (March 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Ronnie Geraghty",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "Breaking Change Ahead: Graph API Updates to Sensitive Email Properties",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/graph-api-updates-to-sensitive-email-properties/",
-      "published": "2026-03-26T18:25:52+00:00",
-      "summary": "On 12/31/2026, we will begin restricting updates to sensitive properties on non-draft email messages (including subject, body, and recipients). Apps will need Mail-Advanced.ReadWrite (or .All / .Shared) with admin consent to continue modifying these fields. Review your current usage and update...",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "Thomas Mechelke",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Copy dashboards from Dashboards with Grafana to Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/copy-dashboards-from-dashboards-with-grafana-to-azure-managed/ba-p/4505710",
-      "published": "2026-03-26T17:28:43+00:00",
-      "summary": "Azure Monitor Dashboards with Grafana provides an in‑portal Grafana experience optimized for Azure Monitor and managed Prometheus data. For many teams, that simplicity is exactly what they need. As observability practices mature, teams often need more than visualization: broader data source...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
-    },
-    {
-      "title": "TypeScript AppHost in Aspire 13.2: same app model, different syntax",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-typescript-apphost/",
-      "published": "2026-03-26T17:00:00+00:00",
-      "summary": "Aspire 13.2 enables TypeScript developers to define AppHosts directly in TypeScript, with the same streamlined Aspire application model. The post TypeScript AppHost in Aspire 13.2: same app model, different syntax appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Sebastien Ros",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET Aspire"
-    },
-    {
-      "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
-      "link": "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/",
-      "published": "2026-03-26T16:00:00+00:00",
-      "summary": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response. The post A year of open source vulnerability trends: CVEs, advisories, and malware appeared first on The GitHub Blog.",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Jonathan Evans",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "Assess Azure DDoS Protection Status Across Your Environment",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/assess-azure-ddos-protection-status-across-your-environment/ba-p/4505969",
-      "published": "2026-03-26T15:36:26+00:00",
-      "summary": "Introduction Distributed Denial of Service (DDoS) attacks continue to be one of the most prevalent threats facing organizations with internet-facing workloads. Azure DDoS Protection provides cloud-scale protection against L3/4 volumetric attacks, helping ensure your applications remain available...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "SaleemBseeu",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Azure Network Security"
-    },
-    {
-      "title": "Teams webinar poll participant numbers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-webinar-poll-participant-numbers/m-p/4505946#M144802",
-      "published": "2026-03-26T14:08:16+00:00",
-      "summary": "I'm trying to work out whether a Teams webinar using a premium account will allow more than 300 people to take part in a poll. At a recent webinar with over 500 attendees the polls crashed because too many people were trying to vote. According to some info I'm finding online, a webinar set up with...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Ros12369",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     }
   ]
 }
