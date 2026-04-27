@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-26T12:15:13.910275+00:00",
-  "totalArticles": 398,
+  "lastUpdated": "2026-04-27T12:31:55.173146+00:00",
+  "totalArticles": 396,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,270 @@
     ]
   },
   "articles": [
+    {
+      "title": "Windows 11 Solution To Remove Text Popup",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-solution-to-remove-text-popup/m-p/4515100#M43513",
+      "published": "2026-04-27T12:29:45+00:00",
+      "summary": "Windows 11 open registry to HKEY_CURRENT_USER\\Control Panel\\Mouse set MouseHoverTime to -2000 minus sign required to remove popup",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "AnselRhodes",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Windows 11 Taskbar icons on multiple screens",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-taskbar-icons-on-multiple-screens/m-p/4515099#M43512",
+      "published": "2026-04-27T12:28:49+00:00",
+      "summary": "In Windows 11, small icons on the right side of the taskbar only show on the main screen and are hidden on other monitors. How to make them appear on all monitors?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "DaxxonFoster",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Six months after reinstalling the operating system, I received a prompt to activate Windows 11.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/six-months-after-reinstalling-the-operating-system-i-received-a/m-p/4515098#M43511",
+      "published": "2026-04-27T12:27:26+00:00",
+      "summary": "When I sent my computer in for repairs, the shop reinstalled the operating system. Recently, I’ve been prompted to activate Windows. The Home and Student edition that came pre-installed on the computer was genuine. Can I switch back to the original version and have it activated automatically? Or do...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "GageWilder",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Failed to install Windows 11 Update 25H2, error code 0xc190011f",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/failed-to-install-windows-11-update-25h2-error-code-0xc190011f/m-p/4515097#M43510",
+      "published": "2026-04-27T12:26:13+00:00",
+      "summary": "When I try to update to Windows 11 25H2, I get an installation error with the error code 0xc190011f. How can I fix this?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "KairosRivers",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
+      "published": "2026-04-27T11:36:05+00:00",
+      "summary": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "robcronin",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Linux on Azure"
+    },
+    {
+      "title": "Outside the Insider Program",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/outside-the-insider-program/m-p/4515091#M43509",
+      "published": "2026-04-27T11:35:06+00:00",
+      "summary": "HiIm registered with Insider program for many years.I have been away for quite some time, but it says Im still registered.I thought I'd give it a go again as I read about the \"reboot\" but I cant find the insider screen on my update page.Copilot says (perhaps I shouldn't take any notice) that I can...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Mark Jones",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Restrict Users from Creating New Teams in Microsoft Teams",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/restrict-users-from-creating-new-teams-in-microsoft-teams/m-p/4515082#M144864",
+      "published": "2026-04-27T10:57:54+00:00",
+      "summary": "Hello together,I've do this here: Manage who can create Microsoft 365 Groups | Microsoft LearnI create a group for users, that allowed to create new Teams Channels and run the script, but i didnt see in the updated settings the group ID: What im doing wrong?At the moment no one can create new Teams...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "GodCordial",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "What to do if iPad is disabled and says to connect to iTunes?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-to-do-if-ipad-is-disabled-and-says-to-connect-to-itunes/m-p/4515033#M43500",
+      "published": "2026-04-27T09:30:24+00:00",
+      "summary": "Hey everyone,My iPad is disabled and the screen says to connect to iTunes. I am not really sure what that means or what I am supposed to do next. I tried unlocking it too many times, and now I am stuck.I am not very techy, so I would really appreciate simple advice. Is there any way to fix iPad is...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Willienood",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "OneDrive Sync Client Changes How It Processes Deleted Files",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onedrive-sync-client-changes-how-it-processes-deleted-files/m-p/4514994#M59224",
+      "published": "2026-04-27T08:18:10+00:00",
+      "summary": "Microsoft plans a May 2026 update for the OneDrive Sync client to improve the way that the client handles the deletion of files stored in SharePoint Online and OneDrive for Business. The client will no longer move the local synchronized copy of the deleted file into the workstation’s recycle bin,...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "I am going to DVD Copying on Windows PC",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-am-going-to-dvd-copying-on-windows-pc/m-p/4514986#M43498",
+      "published": "2026-04-27T08:01:29+00:00",
+      "summary": "Can anyone advice this novice of the best way to digitise DVD/Bluray movies with menu and subtitle options remaining intact?Just wanting to copy some DVD's I already own for preservation and personal use.Hoping for a relatively inexpensive program, though, also need ease of use.PC: Windows Insider...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Kaisond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Is it possible to stream a ps5 on a laptop screen?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/is-it-possible-to-stream-a-ps5-on-a-laptop-screen/m-p/4514985#M43497",
+      "published": "2026-04-27T08:00:07+00:00",
+      "summary": "I have managed to obtain a ps5 just for gta6 but all the stationary screens I have available are inconvenient. I’m pretty sure my laptop (windows) can’t accept video with just a cable. Is there a program that can work as an adapter or does play station offer streaming to other devices?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Philipess",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Could I get some help checking what I'm doing wrong with Hello?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/could-i-get-some-help-checking-what-i-m-doing-wrong-with-hello/m-p/4514984#M43496",
+      "published": "2026-04-27T07:58:45+00:00",
+      "summary": "Hi, I've been trying to start working my way through the learnopengl tutorials but I've got stuck almost straight away. Would anyone mind telling me what I've got wrong with this: The clear colour is showing but no triangle is showing.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Uriellip",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "From Portal Edits to GitOps : Deploying Azure API Management Configuration with APIOps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-portal-edits-to-gitops-deploying-azure-api-management/ba-p/4514975",
+      "published": "2026-04-27T07:45:35+00:00",
+      "summary": "Introduction Modern enterprise platforms are increasingly built around APIs, and Azure API Management (APIM) sits at the heart of these systems as the control plane for enforcing policies, managing access, and routing traffic. While APIM provides a powerful interface through the Azure portal, many...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "aloormahesh",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Protect org data on BYOD Windows / macOS devices",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/protect-org-data-on-byod-windows-macos-devices/m-p/4514964#M23387",
+      "published": "2026-04-27T07:38:28+00:00",
+      "summary": "Hi AllI hope you are well.Anyway, I have a need to protect org data on:Window personal / BYOD devicesMacOS personal / BYOD devicesWhat's the best way to achieve this?My thinking is:1 X Conditional Access policy that blocks1 X Conditional Access policy that allows via Edge, no persistent session, no...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "StuartK73",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "How do I [23F] stop being scared of the men trespassing our backyard",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-do-i-23f-stop-being-scared-of-the-men-trespassing-our/m-p/4514949#M43473",
+      "published": "2026-04-27T07:07:24+00:00",
+      "summary": "I thought I would be brave and strong when it comes to this but it turns out I am a scaredy cat.I was home alone this 10 in the morning when I heard footsteps around the house, and up in our roof. I was sure the men are back again in our backyard, stealing our fruits. We have avocado trees in our...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Kaisond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Is it possible to stream a ps5 on a laptop screen?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/is-it-possible-to-stream-a-ps5-on-a-laptop-screen/m-p/4514948#M43472",
+      "published": "2026-04-27T07:06:15+00:00",
+      "summary": "I have managed to obtain a ps5 just for gta6 but all the stationary screens I have available are inconvenient. I’m pretty sure my laptop (windows) can’t accept video with just a cable. Is there a program that can work as an adapter or does play station offer streaming to other devices?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Philipess",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "How can I fully know if an SD card is damaged?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-can-i-fully-know-if-an-sd-card-is-damaged/m-p/4514947#M43471",
+      "published": "2026-04-27T07:03:47+00:00",
+      "summary": "A couple of weeks ago, I updated my Redmi Note 8 OS to MIUI 12. Everything went well, except for the fact that now I couldn't get permissions to move screenshots and imagines to my SD card. I tried everything and it still wouldn't let me under any circumstances and there's a clear abnormality when...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Luccask",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Rethinking Data Modeling: How GitHub Copilot Is Changing the Way We Design Systems",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/rethinking-data-modeling-how-github-copilot-is-changing-the-way/ba-p/4509941",
+      "published": "2026-04-27T07:00:00+00:00",
+      "summary": "There is a point in every engineer’s journey where data modeling stops feeling intuitive. What starts as a clean schema becomes harder to reason about. Relationships blur. Query paths multiply. Small changes ripple across different steps. This is where data modeling reveals its real challenge: not...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "B_Manasa",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "How can I transfer text messages from iphone to computer?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-can-i-transfer-text-messages-from-iphone-to-computer/m-p/4514943#M43467",
+      "published": "2026-04-27T06:56:50+00:00",
+      "summary": "Hi everyone,There are so many important contacts on my iPhone so I would like to backup all my text messages from my iPhone onto my computer, just in case something happens to my phone. I don't want to lose years of conversations with family and friends. The problem is, I'm not very tech‑savvy, and...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "CaliforniaGolden",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "YouTubeをMP3に変換するのに最適なサイトはどこですか？",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/youtube%E3%82%92mp3%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B%E3%81%AE%E3%81%AB%E6%9C%80%E9%81%A9%E3%81%AA%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AF%E3%81%A9%E3%81%93%E3%81%A7%E3%81%99%E3%81%8B/m-p/4514928#M43457",
+      "published": "2026-04-27T06:20:08+00:00",
+      "summary": "本当に知りたいです。こんにちは。最近、音楽を保存するためにyoutube mp3 変換 サイトを使おうかと考えていますが、安全性 についてとても不安があります。2026年現在でも、このようなサイトは安全に使えるのでしょうか？広告が多かったり、怪しいダ ウンロードボタンが表示されたりすることがあり、ウイルス感染やマルウェアのリスクが気になります。また、youtube mp3 変換...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Syamter",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Azure AI Foundry vs Traditional ML Pipelines: What’s Different and Why It Matters",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-ai-foundry-vs-traditional-ml-pipelines-what-s-different/ba-p/4508897",
+      "published": "2026-04-27T06:06:18+00:00",
+      "summary": "The Traditional ML Pipeline: What It Was Built For Traditional ML pipelines typically look like this: Data ingestion and preparation Model training (often batch‑oriented) Model validation and versioning Deployment via APIs or batch jobs Monitoring focused on accuracy and drift This approach worked...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Parvathy_R_Pillai",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "How to Troubleshoot Azure Functions Service Bus Trigger Issues",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-service-bus-trigger-issues/ba-p/4514006",
+      "published": "2026-04-27T06:01:56+00:00",
+      "summary": "Table of Contents Overview Understanding How the Service Bus Trigger Works Message Processing Flow Key Concepts host.json Configuration Reference Issue Categories Common Causes and Solutions 1. Connection String or Configuration Errors 2. Authentication and Authorization Failures (RBAC / SAS) 3....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vikasgupta5",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
     {
       "title": "Microsoft’s New In‑House AI Models (MAI‑Transcribe, MAI‑Voice, MAI‑Image)",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-s-new-in-house-ai-models-mai-transcribe-mai-voice-mai/ba-p/4512731",
@@ -645,18 +909,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "How to backup iphone to external hard drive on my Windows PC",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-backup-iphone-to-external-hard-drive-on-my-windows-pc/m-p/4514367#M43407",
-      "published": "2026-04-24T06:47:25+00:00",
-      "summary": "Greetings,The internal drive is getting pretty full, so storing backups locally isn't really ideal anymore. The Windows 11 PC has 2 TB free storage left. Now, I am trying to figure out a reliable way to back up iPhone to an external hard drive on my Windows PC. From what I understand, iTunes only...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Argento665",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Autopilot V1 vs “Device Preparation” (V2): Great direction — but is it enterprise-ready yet?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/autopilot-v1-vs-device-preparation-v2-great-direction-but-is-it/m-p/4514362#M23381",
       "published": "2026-04-24T06:39:18+00:00",
@@ -667,18 +919,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Mac system data too large. How to clear system data on mac",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/mac-system-data-too-large-how-to-clear-system-data-on-mac/m-p/4514355#M43400",
-      "published": "2026-04-24T06:11:45+00:00",
-      "summary": "Hi all,Ran into an issue with a Mac where System Data is taking up a huge chunk of storage (over 100GB), and it keeps growing. But it doesn't really show what is inside that category, so it's hard to know what can be deleted safely.Tried a few basic things like emptying Trash, clearing browser...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Hupixdel",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
@@ -945,54 +1185,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "False virus protection alerts on Windows 11 29531.1000",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/false-virus-protection-alerts-on-windows-11-29531-1000/m-p/4514063#M43395",
-      "published": "2026-04-23T14:26:51+00:00",
-      "summary": "After updating to Windows 11 build 29531.1000, I keep getting false \"Turn on virus protection\" alerts even though security is on. Anyone else?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "DashielQuinn",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Windows 11 vs Windows 11 Pro",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-vs-windows-11-pro/m-p/4514062#M43394",
-      "published": "2026-04-23T14:25:12+00:00",
-      "summary": "What’s the difference between Windows 11 Home and Pro?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Olddies",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "The i5-12490F runs Windows 11 25H2 with lag",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-i5-12490f-runs-windows-11-25h2-with-lag/m-p/4514061#M43393",
-      "published": "2026-04-23T14:23:48+00:00",
-      "summary": "My system is configured with an i5-12490F and runs Windows 11 25H2, but it doesn't feel very smooth. When playing CS:GO, the mouse always lags for a few seconds, and sometimes the interface freezes when I click on widgets. Is this a hardware issue or a system optimization issue?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "bonirl",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Black screen after restarting following a Windows 10 to Windows 11 upgrade",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/black-screen-after-restarting-following-a-windows-10-to-windows/m-p/4514059#M43392",
-      "published": "2026-04-23T14:21:42+00:00",
-      "summary": "My system is configured with a 9070XT and 9700RT. After upgrading to Windows 11 and restarting, the screen went black, but I can hear a beep when I click the left mouse button. If I hold down the power button to force a shutdown and then restart, the system boots normally, but I get a message...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "TrappJean",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Nested folders support in shortcut transformations (Generally Available)",
       "link": "https://blog.fabric.microsoft.com/en-US/blog/nested-folders-support-in-shortcut-transformations-generally-available/",
       "published": "2026-04-23T14:00:00+00:00",
@@ -1099,30 +1291,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Bester YouTube zu MP3 Konverter für Windows PC?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/bester-youtube-zu-mp3-konverter-f%C3%BCr-windows-pc/m-p/4513907#M43363",
-      "published": "2026-04-23T08:18:14+00:00",
-      "summary": "Hallo zusammen,ich bin gerade auf der Suche nach einem guten YouTube zu MP3 Konverter für meinen Windows-PC, kenne mich damit aber ehrlich gesagt nicht besonders gut aus. Es gibt so viele Tools online, und ich bin unsicher, welche wirklich sicher und zuverlässig sind.Mir ist wichtig, dass der...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Leonardprio",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "How to transfer address book from android to iphone after setup without sim",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-transfer-address-book-from-android-to-iphone-after-setup/m-p/4513902#M43362",
-      "published": "2026-04-23T08:02:48+00:00",
-      "summary": "Hello,I need to move my address book from an Android phone to an iPhone, but I do not want to use a SIM card for the transfer. I am not very familiar with phone data transfer, so I am looking for a simple and safe method that a beginner can follow.Is there an easy way to transfer address book from...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Perez",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Lessons Learned from Building a Well-Matching Intelligence Layer",
@@ -1437,30 +1605,6 @@
       "product": "Linux on Azure"
     },
     {
-      "title": "Continuous feedback in Teams without it getting lost in chat?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/continuous-feedback-in-teams-without-it-getting-lost-in-chat/m-p/4513589#M144849",
-      "published": "2026-04-22T05:36:06+00:00",
-      "summary": "Our company is trying to move from annual reviews to continuous feedback. The idea is that managers and peers give quick feedback throughout the year and it all gets captured somewhere. Right now people just send feedback in Teams chat or email and it vanishes. By the time reviews come around...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "ElisaDelaney",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "How to delete contacts on iPhone in bulk?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-delete-contacts-on-iphone-in-bulk/m-p/4513588#M43325",
-      "published": "2026-04-22T05:32:27+00:00",
-      "summary": "I am trying to find a way to delete multiple contacts at once on my iPhone because manually removing each contact one by one is very time-consuming and inconvenient. I want to know if there are any built-in features, settings, or reliable third-party apps that can help me quickly select and delete...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Brondam",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Running performance reviews without leaving Microsoft 365?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/running-performance-reviews-without-leaving-microsoft-365/m-p/4513586#M59205",
       "published": "2026-04-22T05:31:37+00:00",
@@ -1725,42 +1869,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "My C drive is running out of space, so I want to upgrade to Windows 11 26H1 to clean up junk files.",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/my-c-drive-is-running-out-of-space-so-i-want-to-upgrade-to/m-p/4513352#M43310",
-      "published": "2026-04-21T11:38:11+00:00",
-      "summary": "My C drive is almost full, mainly because the WinSxS and AppData folders are taking up space and are difficult to delete. I’m thinking of upgrading to 26H1 to free up some space. Will CS:GO run without errors on 26H1? If it works fine, I plan to test it in a virtual machine first before installing...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Stonehu",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Occasional frame drops when minimizing windows in Windows 11",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/occasional-frame-drops-when-minimizing-windows-in-windows-11/m-p/4513349#M43308",
-      "published": "2026-04-21T11:36:44+00:00",
-      "summary": "My computer has sufficient performance, and the monitor has a high refresh rate. When I open a window, wait a while, and then minimize it, I experience frame drops, but this doesn’t happen if I interact with the window continuously. I’m looking for a solution.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Kodyon",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "My laptop gets stuck on the logo screen after restarting following a Windows 11 installation",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/my-laptop-gets-stuck-on-the-logo-screen-after-restarting/m-p/4513348#M43307",
-      "published": "2026-04-21T11:35:26+00:00",
-      "summary": "After installing Windows 11, the system gets stuck on the brand logo screen during restart and won't boot into the OS. Please help with a solution.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Komondor2240",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Teams Transcription (Licensing / Button greyed out for some users)",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-transcription-licensing-button-greyed-out-for-some-users/m-p/4513315#M144843",
       "published": "2026-04-21T10:29:58+00:00",
@@ -1771,30 +1879,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Windows 11 displays a black screen at startup and won't load the desktop",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-displays-a-black-screen-at-startup-and-won-t-load-the/m-p/4513308#M43280",
-      "published": "2026-04-21T10:19:56+00:00",
-      "summary": "My computer suddenly shut down on its own. After restarting, the screen remains black, and I can't boot into the system normally. Please help.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Castiellm",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "After reinstalling Windows 11, the system frequently restarts while gaming",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/after-reinstalling-windows-11-the-system-frequently-restarts/m-p/4513307#M43279",
-      "published": "2026-04-21T10:18:42+00:00",
-      "summary": "After reinstalling Windows 11, my computer frequently restarts on its own when I play games, but everything works fine during light use, such as watching videos or doing everyday office work. I’d like to know the possible causes, as well as how to troubleshoot and resolve the issue.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "DaxxonSawyer",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "The Microsoft Graph PowerShell SDK and the additionalProperties Property",
@@ -2661,18 +2745,6 @@
       "product": "Azure Architecture"
     },
     {
-      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
-      "published": "2026-04-15T22:38:11+00:00",
-      "summary": "Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster registries, lazy-pull snapshotters, different compression formats....",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "robcronin",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
-    },
-    {
       "title": "Enforce Cost Limits on KQL Queries and Notebooks in the Microsoft Sentinel Data Lake",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/enforce-cost-limits-on-kql-queries-and-notebooks-in-the/ba-p/4511329",
       "published": "2026-04-15T20:26:56+00:00",
@@ -2887,18 +2959,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Networking"
-    },
-    {
-      "title": "Creating a Planner Weekly Notification Email for Incomplete Tasks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/creating-a-planner-weekly-notification-email-for-incomplete/m-p/4511508#M59180",
-      "published": "2026-04-15T09:20:05+00:00",
-      "summary": "A reader wanted a weekly incomplete task report to send details of Planner tasks to people with outstanding work to do. We used PowerShell to scan for incomplete tasks for people who are members of a group, perform some analysis on the data, and create and send email. Despite some deficiencies in...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Platform SSO \"Page not found\" on macOS Tahoe 26.4 — Company Portal 5.2602",
@@ -3729,18 +3789,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Deploying to Azure Web App from Azure DevOps Using UAMI",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/deploying-to-azure-web-app-from-azure-devops-using-uami/ba-p/4509800",
-      "published": "2026-04-09T05:53:29+00:00",
-      "summary": "TOC UAMI Configuration App Configuration Azure DevOps Configuration Logs UAMI Configuration Create a User Assigned Managed Identity with no additional configuration.This identity will be mentioned in later steps, especially at Object ID. App Configuration On an existing Azure Web App, enable...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "theringe",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "AI Inference on AKS enabled by Azure Arc: Generative AI using Triton and TensorRT‑LLM",
       "link": "https://blog.aks.azure.com/2026/04/09/ai-inference-on-aks-arc-part-5",
       "published": "2026-04-09T00:00:00+00:00",
@@ -4089,18 +4137,6 @@
       "product": "Azure Migrate"
     },
     {
-      "title": "Why Data Platforms Must Become Intelligence Platforms for AI Agents to Work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-data-platforms-must-become-intelligence-platforms-for-ai/ba-p/4505653",
-      "published": "2026-04-07T07:00:00+00:00",
-      "summary": "The promise and the gap Your organization has invested in an AI agent. You ask it: \"Prepare a summary of Q3 revenue by region, including year-over-year trends and top product lines.\" The agent finds revenue numbers in a SQL warehouse, product metadata in Dataverse, regional mappings in SharePoint,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "AnjaliSadhukhan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "Webinar Cancellation",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/webinar-cancellation/m-p/4508987#M23329",
       "published": "2026-04-07T01:46:53+00:00",
@@ -4389,18 +4425,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "Enterprise‑Scale Azure Subscription Vending Using Azure Verified Modules (AVM)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enterprise-scale-azure-subscription-vending-using-azure-verified/ba-p/4507751",
-      "published": "2026-04-03T06:45:24+00:00",
-      "summary": "Why Subscription Vending Is Critical at Scale Azure subscriptions define the security, governance, and billing boundary for workloads. In large organizations, manual subscription creation often leads to: Inconsistent management group placement Delayed or missing policy enforcement Incorrect RBAC...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "kumaramit1",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
       "title": "How are you running performance reviews without leaving Teams?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-are-you-running-performance-reviews-without-leaving-teams/m-p/4508261#M144814",
       "published": "2026-04-03T06:04:29+00:00",
@@ -4495,18 +4519,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "VS Code Custom Agents: AI-Powered Terraform Security Scanning in the IDE",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/vs-code-custom-agents-ai-powered-terraform-security-scanning-in/ba-p/4507903",
-      "published": "2026-04-02T09:30:08+00:00",
-      "summary": "GitHub Copilot is already a powerful coding assistant, but out of the box it knows nothing specific about your project's conventions, security requirements, or operational processes. Custom agents change that. They let you define specialized AI assistants that live inside your repository, carry...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SundarBalajiA",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
     },
     {
       "title": "Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future",
@@ -4929,18 +4941,6 @@
       "product": "Azure SDK"
     },
     {
-      "title": "IOS - Embedded Webkit - Not Reporting Correct Device info",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/ios-embedded-webkit-not-reporting-correct-device-info/m-p/4507029#M23309",
-      "published": "2026-03-30T20:36:33+00:00",
-      "summary": "It appears that with the latest iOS versions (26.3.1 through 26.4), applications that rely on an embedded WebKit for sign-in are no longer reporting accurate device details within Device Info.Users have company-issued phones that are successfully enrolled in Intune, but when they attempt to sign in...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "NexusEgo",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
       "title": "Events & Multiple Organizers",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/events-multiple-organizers/m-p/4507016#M144806",
       "published": "2026-03-30T20:06:55+00:00",
@@ -5035,30 +5035,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "AKS"
-    },
-    {
-      "title": "Autonomous Self-Healing for Azure VMware Solution Private Clouds",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/autonomous-self-healing-for-azure-vmware-solution-private-clouds/ba-p/4506374",
-      "published": "2026-03-27T23:51:43+00:00",
-      "summary": "Overview Azure VMware Solution operates a global fleet of production private clouds, each running a full VMware NSX and vCenter Server control plane. As an example, when a VMware NSX Manager cluster loses quorum, NSX can surface multiple related alarms, but the documented impact is more specific...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "RohanB",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Migrate"
-    },
-    {
-      "title": "From Impersonation Calls to Transparent Reporting: Defending the New Front Door of Attacks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/from-impersonation-calls-to-transparent-reporting-defending-the/ba-p/4503050",
-      "published": "2026-03-27T23:13:51+00:00",
-      "summary": "Email is still a major entry point—but it’s no longer the only one that matters. Today’s attackers are increasingly shifting to collaboration channels like Microsoft Teams, where trust is implicit and interaction is real time. Decisions happen fast, and that changes the economics of attacks....",
-      "blog": "Defender for Office 365",
-      "blogId": "MicrosoftDefenderforOffice365Blog",
-      "author": "JeffreyPinkston",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender for Office 365"
     }
   ]
 }
