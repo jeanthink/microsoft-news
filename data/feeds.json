@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-03T12:16:46.994805+00:00",
-  "totalArticles": 395,
+  "lastUpdated": "2026-05-04T12:33:18.346275+00:00",
+  "totalArticles": 391,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,102 @@
   },
   "articles": [
     {
+      "title": "Microsoft to Retire Together Mode for Teams Meetings",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-to-retire-together-mode-for-teams-meetings/m-p/4516748#M144890",
+      "published": "2026-05-04T10:03:25+00:00",
+      "summary": "In a somewhat surprising decision, Microsoft announced plans to retire the Together mode feature for Teams meetings in June 2026. Based on personal experience, it didn’t seem that many people used Together mode. It seemed like it was something that people tried a couple of times before giving up....",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "From Drift to Self-Healing: Building a Multi-Repo Azure AI Infrastructure You Can Actually Trust",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-drift-to-self-healing-building-a-multi-repo-azure-ai/ba-p/4515315",
+      "published": "2026-05-04T09:58:14+00:00",
+      "summary": "A question before we begin Quick — what version of infrastructure is running in your production subscription right now? Not what your pipeline last deployed. Not what your tracking spreadsheet says. What's actually running — right now, this second — and can you prove it? If you had to think about...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Valini_Sunthwal",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "High Availability Testing for Azure Kubernetes Service in a Single Region with Availability Zones",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/high-availability-testing-for-azure-kubernetes-service-in-a/ba-p/4509825",
+      "published": "2026-05-04T07:00:00+00:00",
+      "summary": "During migration testing engagements for enterprise workloads moving to Azure Kubernetes Service (AKS), we frequently validate high availability behavior under simulated infrastructure failures within a single Azure region using Availability Zones. In one such workload migration scenario involving...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jiteshhp",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Announcing the public preview of Oracle Database built-in connector for Azure Logic Apps Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-the-public-preview-of-oracle-database-built-in/ba-p/4516714",
+      "published": "2026-05-04T05:45:01+00:00",
+      "summary": "Announcing the public preview of Oracle Database built-in connector for Azure Logic Apps Standard Run Oracle Database operations natively in your Logic Apps Standard workflows. Today we’re excited to announce the public preview of Oracle Database built-in connector for Azure Logic Apps (Standard)....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Introducing Apache Arrow Support in mssql-python",
+      "link": "https://devblogs.microsoft.com/python/introducing-apache-arrow-support-in-mssql-python/",
+      "published": "2026-05-04T04:33:00+00:00",
+      "summary": "Reviewed by Sumit Sarabhai Fetching a million rows from SQL Server into a Polars DataFrame used to mean a million Python objects, a million GC allocations, and then throwing it all away to build a DataFrame. Not anymore. mssql-python now supports fetching SQL Server data directly as Apache Arrow...",
+      "blog": "Python at Microsoft",
+      "blogId": "pythonblog",
+      "author": "Saumya Garg",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Python"
+    },
+    {
+      "title": "Removing The Monkey Work of Migration",
+      "link": "https://devblogs.microsoft.com/all-things-azure/removing-the-monkey-work-of-migration-using-agentic-platform-engineering/",
+      "published": "2026-05-03T22:49:02+00:00",
+      "summary": "Removing The Monkey Work of Migration; in this post we show how Git-Ape analyses an AWS deployment repo and generates an Azure-native replacement, with design critique built in. This post walks through a real migration workflow: start with an AWS deployment repo and end with an Azure deployment...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure General"
+    },
+    {
+      "title": "Running GitHub Actions Runners on Azure Container Apps with KEDA Autoscaling",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/running-github-actions-runners-on-azure-container-apps-with-keda/ba-p/4512980",
+      "published": "2026-05-03T13:47:09+00:00",
+      "summary": "GitHub-hosted runners work well for most scenarios. But as workloads grow, teams often need: Better cost optimization — pay only when jobs run More control over execution environments and installed tools Scalable parallel execution — run 10, 20, or 50 jobs simultaneously Network access to private...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "shubhijain",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Windows 12 — Almost Ready for Its Big Reveal?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-12-almost-ready-for-its-big-reveal/m-p/4516634#M43653",
+      "published": "2026-05-03T13:16:59+00:00",
+      "summary": "I’ve been testing the new build of the upcoming system for two days now, and it’s clear that Microsoft is gradually addressing several key areas:🎧 Audio pipelineIt’s finally starting to behave much more consistently.It no longer inflates as aggressively as in previous builds (where it often jumped...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "kikero_exe",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "How MS Discovery Is Empowering Scientists to Do More",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-ms-discovery-is-empowering-scientists-to-do-more/ba-p/4516670",
       "published": "2026-05-03T12:05:56+00:00",
@@ -309,18 +405,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "Windows 12 — Almost Ready for Its Big Reveal?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-12-almost-ready-for-its-big-reveal/m-p/4516634#M43653",
-      "published": "2026-05-02T21:16:03+00:00",
-      "summary": "I’ve been testing the new build of the upcoming system for two days now, and it’s clear that Microsoft is gradually addressing several key areas:🎧 Audio pipelineIt’s finally starting to behave much more consistently.It no longer inflates as aggressively as in previous builds (where it often jumped...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "kikero_exe",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Modernizing Terraform Pipelines on Azure: OIDC Federation for GitHub Actions and Azure DevOps",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-terraform-pipelines-on-azure-oidc-federation-for/ba-p/4516620",
       "published": "2026-05-02T20:34:19+00:00",
@@ -333,6 +417,18 @@
       "product": "Azure Infrastructure"
     },
     {
+      "title": "OneNote Desktop sync issue",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onenote-desktop-sync-issue/m-p/4516630#M59246",
+      "published": "2026-05-02T20:17:39+00:00",
+      "summary": "Hello dear community, I installed OneNote from the Store on my Windows 11 laptop and connected it to my notebook in the Microsoft cloud. I opened a notebook in it, and it apparently syncs, but no notes appear on my device. When I click the link to the OneNote notebook in OneNote, the web version...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "BD15",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "Reimagining Azure Governance with Automation & EPAC",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/reimagining-azure-governance-with-automation-epac/ba-p/4516626",
       "published": "2026-05-02T19:26:11+00:00",
@@ -343,6 +439,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Word Desktop friert ein, wenn Tabellen mit modernen Kommentaren verwendet werden",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/word-desktop-friert-ein-wenn-tabellen-mit-modernen-kommentaren/m-p/4516595#M59245",
+      "published": "2026-05-02T11:27:31+00:00",
+      "summary": "As soon as I use modern comments with tables, Word freezes completely. What can I do? It works in Word Online , though.",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "MarinaGoelz",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
@@ -871,18 +979,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "From ServiceNow to Self-Healing Infrastructure: A Multi-Repo Azure AI Platform",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-servicenow-to-self-healing-infrastructure-a-multi-repo/ba-p/4515315",
-      "published": "2026-04-30T06:00:06+00:00",
-      "summary": "A question before we begin Quick — what version of infrastructure is running in your production subscription right now? Not what your pipeline last deployed. Not what your tracking spreadsheet says. What's actually running — right now, this second — and can you prove it? If you had to think about...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Valini_Sunthwal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
     },
     {
       "title": "Running Diffusion Models at Scale on AKS",
@@ -3381,18 +3477,6 @@
       "product": "Azure Analytics"
     },
     {
-      "title": "Azure Virtual Desktop in the Perth Azure Extended Zone: A Real‑World Production Deployment",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-virtual-desktop-in-the-perth-azure-extended-zone-a-real/ba-p/4508550",
-      "published": "2026-04-19T10:03:32+00:00",
-      "summary": "Introduction Perth is one of the most geographically isolated major cities globally. For performance‑sensitive, graphics‑heavy engineering workloads, user experience can degrade significantly when desktops are hosted far from the user. For workloads such as subsurface modelling and GPU‑intensive...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "akashmishra",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
       "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
       "published": "2026-04-18T12:55:45+00:00",
@@ -3523,18 +3607,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Arc"
-    },
-    {
-      "title": "Lost Access to Microsoft Authenticator",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/lost-access-to-microsoft-authenticator/m-p/4512374#M59188",
-      "published": "2026-04-17T09:10:35+00:00",
-      "summary": "Hello team,I reimage my phone, unfortunately lost Microsoft Authenticator, I dont have cloud backup enabled in my Authenticator, I try login account in Microsoft Authenticator, but still ask me Authenticator verification, and no other option (like email, SMS, or backup codes) shown, I'm register...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "wxus88",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "⚡Foundry Toolkit for VS Code: A Deep Dive on GA",
@@ -3727,18 +3799,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Architecting Secure and Trustworthy AI Agents with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/architecting-secure-and-trustworthy-ai-agents-with-microsoft/ba-p/4506580",
-      "published": "2026-04-16T09:30:30+00:00",
-      "summary": "Co-Authored by Avneesh Kaushik Why Trust Matters for AI Agents Unlike static ML models, AI agents call tools and APIs, retrieve enterprise data, generate dynamic outputs, and can act autonomously based on their planning. This introduces expanded risk surfaces: prompt injection, data exfiltration,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "PrabhKaur",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     },
     {
       "title": "Announcing One‑Command Backup Configuration for AKS with Azure Backup",
@@ -4135,18 +4195,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Re-install Office Home & Student 2013",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/re-install-office-home-student-2013/m-p/4511232#M59189",
-      "published": "2026-04-14T15:04:37+00:00",
-      "summary": "Hello,I have recently updated my laptop from Win 10 to 11, however i cannot reinstall from my MS account subscriptions my Office Home & Student 2013. I receive this message.“Hello, I have recently updated my laptop from Win 10 to 11, however i cannot reinstall from my MS account subscriptions my...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "trademark_uk",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "How exposed is your code? Find out in minutes—for free",
@@ -4617,18 +4665,6 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "External sharing recommendations?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/external-sharing-recommendations/m-p/4509636#M144818",
-      "published": "2026-04-08T13:13:12+00:00",
-      "summary": "Our Teams environment is fairly restrictive when it comes to external sharing. We do not permit OneDrive external sharing, and Teams sharing is disabled except for guest accounts that IT creates. That has become a bit of a pain when we need to provide access to external entities that might need...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "TomCSB",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
       "title": "Monthly news - April 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-april-2026/ba-p/4508050",
       "published": "2026-04-08T08:18:07+00:00",
@@ -4939,90 +4975,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure SDK"
-    },
-    {
-      "title": "Run the latest Azure Arc agent with Automatic Agent Upgrade (Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/run-the-latest-azure-arc-agent-with-automatic-agent-upgrade/ba-p/4508535",
-      "published": "2026-04-03T19:30:06+00:00",
-      "summary": "Customers managing large fleets of Azure Arc servers need a scalable way to ensure the Azure Arc agent stays up to date without manual intervention. Per server configuration does not scale, and gaps in upgrade coverage can lead to operational drift, missed features, and delayed security updates. To...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "yunishussein",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "Secure HTTP‑Only AKS Ingress with Azure Front Door Premium, Firewall DNAT, and Private AGIC",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/secure-http-only-aks-ingress-with-azure-front-door-premium/ba-p/4508167",
-      "published": "2026-04-03T19:15:55+00:00",
-      "summary": "Reference architecture and runbook (Part 1: HTTP-only) for Hub-Spoke networking with private Application Gateway (AGIC), Azure Firewall DNAT, and Azure Front Door Premium (WAF) 0. When and Why to Use This Architecture Series note: This document is Part 1 and uses HTTP to keep the focus on routing...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kkaushal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "From Discovery to Executive Presentation: Plan Your Migration with Azure Migrate in Hours",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/from-discovery-to-executive-presentation-plan-your-migration/ba-p/4508500",
-      "published": "2026-04-03T18:06:11+00:00",
-      "summary": "The migration planning bottleneck Every migration starts with the same question: what do we have, and where should it go? Getting from that question to a clear, executive-ready answer has traditionally taken weeks. You scan the environment, export spreadsheets, manually classify workloads, run...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "Shikher",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Migrate"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: RSAC 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
-      "published": "2026-04-03T17:54:06+00:00",
-      "summary": "Security is entering a new era, one defined by explosive data growth, increasingly sophisticated threats, and the rise of AI-enabled operations. To keep pace, security teams need an AI-powered approach to collect, reason over, and act on security data at scale. At RSA Conference 2026 (RSAC), we’re...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "spalani",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Announcing general availability of Network Security Perimeter for Azure Service Bus",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-network-security-perimeter/ba-p/4508179",
-      "published": "2026-04-03T16:31:50+00:00",
-      "summary": "Today we are excited to announce the general availability of Network Security Perimeter (NSP) support for Azure Service Bus. Network Security Perimeter allows you to define a logical network boundary around your Service Bus namespaces and other Azure PaaS resources, restricting public network...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Messaging"
-    },
-    {
-      "title": "The uphill climb of making diff lines performant",
-      "link": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
-      "published": "2026-04-03T16:00:00+00:00",
-      "summary": "The path to better performance is often found in simplicity. The post The uphill climb of making diff lines performant appeared first on The GitHub Blog.",
-      "blog": "GitHub Engineering",
-      "blogId": "githubengineering",
-      "author": "Luke Ghenco",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "AKS cluster with AGIC hits the Azure Application Gateway backend pool limit (100)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/aks-cluster-with-agic-hits-the-azure-application-gateway-backend/ba-p/4508201",
-      "published": "2026-04-03T15:46:16+00:00",
-      "summary": "I’m writing this article to document a real-world scaling issue we hit while exposing many applications from an Azure Kubernetes Service (AKS) cluster using Application Gateway Ingress Controller (AGIC). The problem is easy to miss because Kubernetes resources keep applying successfully, but the...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kkaushal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
     }
   ]
 }
