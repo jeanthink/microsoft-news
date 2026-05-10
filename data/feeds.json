@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-09T12:19:18.431796+00:00",
-  "totalArticles": 437,
+  "lastUpdated": "2026-05-10T12:18:38.445755+00:00",
+  "totalArticles": 424,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -609,18 +609,6 @@
       "product": "Windows"
     },
     {
-      "title": "The Windows 10 update failed, so I'm planning to switch to Windows 11",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-windows-10-update-failed-so-i-m-planning-to-switch-to/m-p/4517791#M43805",
-      "published": "2026-05-08T10:11:23+00:00",
-      "summary": "Due to issues with the Windows 10 version, I’m unable to install ME and updates keep failing, so I plan to install Windows 11 directly. The available editions are Home, Pro, Enterprise, and Workstation. I primarily use video editing software like Premiere Pro, After Effects, and Photoshop, as well...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "JacksonRobinson",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Using the Microsoft Graph PowerShell SDK to Update User Profiles",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/using-the-microsoft-graph-powershell-sdk-to-update-user-profiles/m-p/4517779#M59264",
       "published": "2026-05-08T09:48:18+00:00",
@@ -1096,6 +1084,18 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "Nicoleep",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Virus in Rufus while flashing USB for Kali?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/virus-in-rufus-while-flashing-usb-for-kali/m-p/4517423#M43721",
+      "published": "2026-05-07T07:40:41+00:00",
+      "summary": "I was planning to install kali on a bare metal, an old laptop, i downloaded new kali iso 26.1, then when i opened rufus to flash the iso to it, i got a pop up saying that my rufus is not updated to the newest version, it was as 4.9 and it said to update to 4.14 as you can see in the image that i...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Yosefor",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -5371,162 +5371,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "PowerShell"
-    },
-    {
-      "title": "Intune enroll on redhat 10 KDE",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-enroll-on-redhat-10-kde/m-p/4510249#M23342",
-      "published": "2026-04-10T10:05:44+00:00",
-      "summary": "**intune-portal 1.2603.31 fails to authenticate on RHEL 10 KDE Plasma — Misconfiguration(0) in gtk4/actions.rs** **Environment**- OS: Red Hat Enterprise Linux 10- Desktop: KDE Plasma (Wayland, XDG_SESSION_DESKTOP=plasma)- intune-portal: 1.2603.31-1.el10.x86_64- microsoft-identity-broker:...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "Brike",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Agent Governance Toolkit: Architecture Deep Dive, Policy Engines, Trust, and SRE for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agent-governance-toolkit-architecture-deep-dive-policy-engines/ba-p/4510105",
-      "published": "2026-04-10T04:55:22+00:00",
-      "summary": "Last week we announced the Agent Governance Toolkit on the Microsoft Open Source Blog, an open-source project that brings runtime security governance to autonomous AI agents. In that announcement, we covered the why: AI agents are making autonomous decisions in production, and the security patterns...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "mosiddi",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
-    },
-    {
-      "title": "Putting Agentic Platform Engineering to the test",
-      "link": "https://devblogs.microsoft.com/all-things-azure/putting-agentic-platform-engineering-to-the-test/",
-      "published": "2026-04-10T01:45:08+00:00",
-      "summary": "In Part 1 of this blog series set the stage for why platform engineering is being reshaped by agentic AI. (read it here) Basically we outline how instead of humans translating intent through layers of CLIs, SDKs, and bespoke workflows, capable agents can interpret natural-language goals and turn...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Arnaud Lheureux, davidwright, Suzanne Daniels",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure General"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry | March 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-mar-2026/",
-      "published": "2026-04-09T23:33:53+00:00",
-      "summary": "﻿March ships Foundry Agent Service GA with private networking, GPT-5.4 and GPT-5.4 Mini, Priority Processing, Phi-4 Reasoning Vision, SDK 2.0 GA across Python, JS/TS, Java, and .NET, Fireworks AI and NVIDIA Nemotron models, and third-party guardrails from Palo Alto and Zenity. The post What’s new...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Estimate Microsoft Sentinel Costs with Confidence Using the New Sentinel Cost Estimator",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/estimate-microsoft-sentinel-costs-with-confidence-using-the-new/ba-p/4507062",
-      "published": "2026-04-09T22:26:18+00:00",
-      "summary": "One of the first questions teams ask when evaluating Microsoft Sentinel is simple: what will this actually cost? Today, many customers and partners estimate Sentinel costs using the Azure Pricing Calculator, but it doesn’t provide the Sentinel-specific usage guidance needed to understand how each...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "shubh_khandhadia",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "OneDrive at the Microsoft 365 Community Conference 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-at-the-microsoft-365-community-conference-2026/ba-p/4509650",
-      "published": "2026-04-09T21:58:25+00:00",
-      "summary": "The Microsoft 365 Community Conference is the ultimate Microsoft 365 community event—and the perfect place to expand your skills and knowledge in Microsoft 365 and Copilot. Come connect with the OneDrive team to learn what’s new, what’s next, and how to work smarter with AI. With over 200+ expert...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "sophiapeng",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
-    },
-    {
-      "title": "Foundry Local is now Generally Available",
-      "link": "https://devblogs.microsoft.com/foundry/foundry-local-ga/",
-      "published": "2026-04-09T19:00:00+00:00",
-      "summary": "Ship local AI to millions of devices - fast, private on-device inference with no per-token costs. The post Foundry Local is now Generally Available appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "samkemp",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Microsoft Entra expands SCIM support with new SCIM 2.0 APIs for identity lifecycle operations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-expands-scim-support-with-new-scim-2-0-apis-for/ba-p/4507465",
-      "published": "2026-04-09T18:38:08+00:00",
-      "summary": "Modern organizations rely on a growing ecosystem of applications, platforms, and services to run their business. Managing users and groups consistently across these systems is essential for security and operational efficiency. Many teams rely on the System for Cross-domain Identity Management...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Joseph Dadzie",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Advancing to Agentic AI with Azure NetApp Files VS Code Extension v1.2.0",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/advancing-to-agentic-ai-with-azure-netapp-files-vs-code/ba-p/4500383",
-      "published": "2026-04-09T17:03:05+00:00",
-      "summary": "Table of Contents Abstract Introducing Agentic AI: The Agent Volume Scan Why This Matters Why AI-Informed Operations Core Components Enhanced Natural Language Interface AI-Powered Analysis and Templates What are the Benefits? Business Benefits Economic Benefits Technical Benefits Real‑World...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "GeertVanTeylingen",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Running Multiple Instances of an Aspire AppHost Without Port Conflicts",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-isolated-mode-parallel-development/",
-      "published": "2026-04-09T17:00:00+00:00",
-      "summary": "Aspire 13.2 introduces isolated mode, letting you run multiple instances of the same AppHost in parallel without port conflicts. Learn how the --isolated flag solves development and testing workflows. The post Running Multiple Instances of an Aspire AppHost Without Port Conflicts appeared first on...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "James Newton-King",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET Aspire"
-    },
-    {
-      "title": "Announcing Private Preview: Deploy Ansible Playbooks using Azure Policy via Machine Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-private-preview-deploy-ansible-playbooks-using-azure/ba-p/4507848",
-      "published": "2026-04-09T16:25:52+00:00",
-      "summary": "Azure Arc is on a mission to unify security, compliance, and management for Windows and Linux machines—anywhere. By extending Azure’s control plane beyond the cloud, Azure Arc enables organizations to unify governance, compliance, security and management of servers across on‑premises, edge, and...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "As AI adoption scales, is your access strategy still viable?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/as-ai-adoption-scales-is-your-access-strategy-still-viable/ba-p/4486060",
-      "published": "2026-04-09T16:19:33+00:00",
-      "summary": "As AI moves from experimentation into everyday workflows and AI agents begin operating more autonomously across systems, access environments are changing in scale, complexity, and speed. Our latest research, Secure access in the age of AI , looks at how security leaders are navigating one of the...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Kaitlin_Murphy",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Sovereignty in Azure Belgium Central: A Three-Layer Technical Deep Dive",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/sovereignty-in-azure-belgium-central-a-three-layer-technical/ba-p/4506936",
-      "published": "2026-04-09T16:00:00+00:00",
-      "summary": "When Belgium Central went live in November 2025, it marked the launch of a new Azure region for Belgian organizations operating in the EU. For many scenarios, it enables customers to run workloads in-country and apply technical controls that can support sovereignty requirements. But \"sovereignty\"...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "wesback",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Confidential Computing"
     }
   ]
 }
