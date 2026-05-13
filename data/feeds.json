@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-12T12:40:03.466017+00:00",
-  "totalArticles": 431,
+  "lastUpdated": "2026-05-13T12:43:03.885750+00:00",
+  "totalArticles": 441,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,9 +285,57 @@
   },
   "articles": [
     {
+      "title": "Introducing Azure Container Apps Express!",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150",
+      "published": "2026-05-13T11:20:48+00:00",
+      "summary": "Three years ago, a 15-second cold start was industry-leading. Today, developers and AI agents expect sub-second. The speed bar has moved, and the tooling needs to move with it. After running Azure Container Apps for years, we've learned something important: for most developers, the ACA environment...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "simonjj",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "How to Test AI Agents with LangSmith: A Complete Guide",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-to-test-ai-agents-with-langsmith-a-complete-guide/ba-p/4515972",
+      "published": "2026-05-13T10:27:51+00:00",
+      "summary": "Testing AI agents is crucial for ensuring reliability and accuracy in production.Evaluation is a technique to evaluate your agents. Different type of evaluation are # Evaluation Type 1 Task Success (Pass / Fail) 2 Instruction Adherence 3 Correctness / Accuracy 4 Relevance 5 Groundedness...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "syedarshad",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Understanding How Graph Permissions for Groups Work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/understanding-how-graph-permissions-for-groups-work/m-p/4519247#M59275",
+      "published": "2026-05-13T09:29:08+00:00",
+      "summary": "Understanding the set of Graph permissions required by apps can be challenging. In this article we discuss how the Group.Read.All and GroupMember.Real.All permissions work and why you should choose one permission over the other so that you respect the principle of least permission when it comes to...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Retrieving the “Device inventory” of iOS devices via the Graph API",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/retrieving-the-device-inventory-of-ios-devices-via-the-graph-api/m-p/4519225#M23445",
+      "published": "2026-05-13T08:46:36+00:00",
+      "summary": "We use Microsoft Intune to manage our iOS mobile devices.To achieve the highest possible level of efficiency, we use PowerShell as a supplementary tool for administration.Since our devices may contain two SIM cards, it is important for us to be able to read this information in order to perform...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "ATroester",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
       "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
-      "published": "2026-05-12T12:25:53+00:00",
+      "published": "2026-05-13T06:46:25+00:00",
       "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
@@ -297,40 +345,352 @@
       "product": "Azure Analytics"
     },
     {
-      "title": "How can I delete or clear clipboard history on mac?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-can-i-delete-or-clear-clipboard-history-on-mac/m-p/4518764#M43931",
-      "published": "2026-05-12T09:05:05+00:00",
-      "summary": "Hi guys,Bit of a weird question, but how do you actually delete clipboard history on a Mac? I copied some sensitive stuff earlier and now I want to make sure it's gone completely.I know macOS clipboard works differently from Windows, so I'm not sure if there's a built-in way to clear it or if I...",
+      "title": "Announcing the General Availability of the Next Generation of Azure Boost",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-the-next-generation-of/ba-p/4519136",
+      "published": "2026-05-13T06:27:25+00:00",
+      "summary": "Starting May 7th, 2026, the new Esv7, Dsv7, and Dlsv7 virtual machines are generally available — and underneath them is a fundamentally new generation of Azure Boost. Not an incremental refresh. A platform that took over five years to build, with custom ASIC-hardened logic, a new network adapter,...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Max_Uritsky",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Compute"
+    },
+    {
+      "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-eyes-browser-harness-meets-playwright/ba-p/4518419",
+      "published": "2026-05-13T06:00:21+00:00",
+      "summary": "What happens when you hand a coding agent a real browser — not a mock, not an API wrapper, but a full Chromium instance running in the cloud? It shops for you. It scrapes for you. It navigates JavaScript-heavy SPAs that would make any REST-based scraper weep. And it does it across 10+ parallel...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "NandiniMuralidharan",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Interpreter‑Focused Dummy Agent Proposal",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/interpreter-focused-dummy-agent-proposal/m-p/4519166#M43961",
+      "published": "2026-05-13T05:59:40+00:00",
+      "summary": "Here's a suggestion for the Windows Insider Program.Tailor Windows Insider Program for the following suggestion. Interpreter‑Focused Dummy Agent Proposal Title: Request for a Sandboxed Agent Container With Support for User‑Defined Interpreters Proposal:As Windows transitions toward an agent‑centric...",
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
-      "author": "Axton-X",
+      "author": "irwin1050",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
     },
     {
-      "title": "New Steam Controller can't control PC on Bluetooth until I first select Steam",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/new-steam-controller-can-t-control-pc-on-bluetooth-until-i-first/m-p/4518754#M43930",
-      "published": "2026-05-12T08:34:55+00:00",
-      "summary": "Edit for the people who didn't understand: Steam is running. Steam Controller does literally nothing until I select Steam with my mouse. Then the controller works.Original post: Windows 10, I have my puck attached to a different computer and until I can get a second controller this is the setup I...",
+      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
+      "published": "2026-05-13T03:37:38+00:00",
+      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "NicolasMondada",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
+      "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
+      "published": "2026-05-12T22:53:09+00:00",
+      "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Defender Security Research Team",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": ".NET 11 Preview 4 is now available!",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-4/",
+      "published": "2026-05-12T22:25:49+00:00",
+      "summary": "Find out about the new features in .NET 11 Preview 4 across the .NET runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, and more! The post .NET 11 Preview 4 is now available! appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": ".NET Team",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Fabric April 2026 Feature Summary",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Fabric-April-2026-Feature-Summary/ba-p/5176490",
+      "published": "2026-05-12T22:19:20+00:00",
+      "summary": "Author: Katie Murray - Senior Program Manager",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "kamurray",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Power BI May 2026 Feature Summary",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
+      "published": "2026-05-12T22:03:40+00:00",
+      "summary": "Welcome to the May Power BI update! Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports. This month’s release brings improvements across Copilot and AI experiences, reporting and modeling enhancements, new data...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "murray-kp",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+      "published": "2026-05-12T22:00:00+00:00",
+      "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Taesoo Kim",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Build Smarter, Simpler IoT Messaging with Azure Event Grid MQTT Broker",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/build-smarter-simpler-iot-messaging-with-azure-event-grid-mqtt/ba-p/4518672",
+      "published": "2026-05-12T21:39:49+00:00",
+      "summary": "Why this matters for modern IoT solutions As IoT solutions grow, teams need messaging that is reliable, scalable, and simple enough to operate across devices, apps, and cloud services. Azure Event Grid MQTT broker helps organizations connect devices and applications using standard MQTT patterns...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "Connected-Seth",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Messaging"
+    },
+    {
+      "title": "Company Portal No Longer Installing During Autopilot Enrollment",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/company-portal-no-longer-installing-during-autopilot-enrollment/m-p/4519066#M23444",
+      "published": "2026-05-12T20:47:02+00:00",
+      "summary": "Up until today, Autopilot enrollment which included Company Portal from the Microsoft Store (NEW) was successful. Starting today, the same enrollment workflow with similar hardware is failing to install Company Portal, reporting an error code of 0x87D1041C (\"The application was not detected after...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "dsorcinelli_insight",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "Copilot code review: Comment experience improvements",
+      "link": "https://github.blog/changelog/2026-05-12-copilot-code-review-comment-experience-improvements",
+      "published": "2026-05-12T19:14:26+00:00",
+      "summary": "Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated… The post Copilot code review: Comment experience improvements appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "April reports are now available to prepare for usage-based billing",
+      "link": "https://github.blog/changelog/2026-05-12-april-reports-are-now-available-to-prepare-for-usage-based-billing",
+      "published": "2026-05-12T19:01:57+00:00",
+      "summary": "Starting today, you can download your usage report to see how April’s GitHub Copilot activity translates into AI credits. The new billing unit of AI credits is going live on… The post April reports are now available to prepare for usage-based billing appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": ".NET and .NET Framework May 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-may-2026-servicing-updates/",
+      "published": "2026-05-12T18:36:00+00:00",
+      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for May 2026. The post .NET and .NET Framework May 2026 servicing releases updates appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Rahul Bhandari (MSFT), Tara Overfield",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "From Prompt to Production: Open in VS Code for Terraform in Azure Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/from-prompt-to-production-open-in-vs-code-for-terraform-in-azure/ba-p/4494931",
+      "published": "2026-05-12T18:25:34+00:00",
+      "summary": "We’re excited to introduce a new step in the Terraform on Azure experience: Open in VS Code, now available directly from Azure Copilot in the Azure Portal. This capability helps you move seamlessly from AI‑generated Terraform code to real Azure deployments - within a connected, guided workflow...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Jingwei_Wang",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Tools"
+    },
+    {
+      "title": "CodeQL 2.25.4 adds Swift 6.3.1 support, improvements to C# and Java, and more",
+      "link": "https://github.blog/changelog/2026-05-12-codeql-2-25-4-adds-swift-6-3-1-support-improvements-to-c-and-java-and-more",
+      "published": "2026-05-12T18:04:38+00:00",
+      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.4, which adds Swift 6.3.1 support, improves… The post CodeQL 2.25.4 adds Swift 6.3.1 support, improvements to C# and Java, and more appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
+      "link": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
+      "published": "2026-05-12T17:35:41+00:00",
+      "summary": "Starting June 1, our lineup of individual plans will update based on your feedback. The post GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Optimize your storage costs with OneLake storage tiers and lifecycle management (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Optimize-your-storage-costs-with-OneLake-storage-tiers-and/ba-p/5179295",
+      "published": "2026-05-12T17:30:00+00:00",
+      "summary": "Author: Matt Basile - Senior Product Manager",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "Mabasile_MSFT",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Configurable Data Retention in Microsoft Fabric Warehouse (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Configurable-Data-Retention-in-Microsoft-Fabric-Warehouse/ba-p/5181211",
+      "published": "2026-05-12T17:26:00+00:00",
+      "summary": "Author: Ambika Jagadish, Senior Product Manager",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "ajagadish",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "No Exchange Server Security Updates for May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/no-exchange-server-security-updates-for-may-2026/ba-p/4519008",
+      "published": "2026-05-12T17:00:15+00:00",
+      "summary": "We wanted to let the Exchange Server community know that there are no security releases for any version of Exchange Server in May 2026, for customers with Exchange SE, or Exchange 2016 or 2019 ESU. Please keep upgrading your organizations to Exchange SE. The Exchange Team",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Foundry Local 1.1: Live Transcription, Embeddings, and Responses API",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-local-v1-1/",
+      "published": "2026-05-12T16:51:39+00:00",
+      "summary": "Foundry Local 1.1 adds live transcription, embeddings, Responses API, WebGPU plugin, and download cancellation. The post Foundry Local 1.1: Live Transcription, Embeddings, and Responses API appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "samkemp",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Microsoft Edge and Adobe partner to improve the PDF experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-edge-insider/microsoft-edge-and-adobe-partner-to-improve-the-pdf-experience/ba-p/3733481",
+      "published": "2026-05-12T16:28:15+00:00",
+      "summary": "Update: The commercial rollout for embedding the Adobe PDF engine into the Microsoft Edge built-in PDF reader has completed and is now shipped to all enterprise customers. The opt-out policy is available until September 2026, after which it will expire. Enterprises facing any issues with the new...",
+      "blog": "Microsoft Edge Blog",
+      "blogId": "MicrosoftEdgeInsider",
+      "author": "RickTurner",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Edge"
+    },
+    {
+      "title": "Synchronous SBOM API deprecated",
+      "link": "https://github.blog/changelog/2026-05-12-synchronous-sbom-api-deprecated",
+      "published": "2026-05-12T16:00:53+00:00",
+      "summary": "Following the recent release of the new Asynchronous SBOM REST API, the older, synchronous API is deprecated and slated for removal in six months, on November 13, 2026. If your… The post Synchronous SBOM API deprecated appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Defending consumer web properties against modern DDoS attacks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
+      "published": "2026-05-12T16:00:00+00:00",
+      "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Kumar Srinivasamurthy",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI",
+      "link": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/",
+      "published": "2026-05-12T15:00:00+00:00",
+      "summary": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon. The post Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Lee Reilly",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
+      "published": "2026-05-12T15:00:00+00:00",
+      "summary": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating that intrusions have increasingly avoided using noisy exploits, obvious malware, or custom tooling,...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Incident Response",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Posting Guidelines – Windows Insider Board (Read Before Posting)",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/posting-guidelines-windows-insider-board-read-before-posting/m-p/4518916#M43953",
+      "published": "2026-05-12T14:52:00+00:00",
+      "summary": "Hi all, We’ve seen an increase in off-topic posts in this board, so I want to clarify the policy here. This space is for discussion related specifically to the Windows Insider Program — including participation, features, builds, and Insider-specific issues. Posts that are simply asking for general...",
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
-      "author": "JacquelineSom",
+      "author": "Allen",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
     },
     {
-      "title": "Need help with hp victus 15-fb0131ax",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/need-help-with-hp-victus-15-fb0131ax/m-p/4518750#M43928",
-      "published": "2026-05-12T08:30:53+00:00",
-      "summary": "so, i was tweaking settings with help of copilot, when i was trying to unhide hybrid sleep and few settings i accidentally hidden , i trusted copilot method blindly and changed attributes of all settings under power settings, which lead to error and blank window when opening advanced power settings...",
+      "title": "Egregious bug in this distro on Windows PC",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/egregious-bug-in-this-distro-on-windows-pc/m-p/4518752#M43929",
+      "published": "2026-05-12T08:32:38+00:00",
+      "summary": "Hi everyone. This was the first linux distro I ever tried for personal use and I'm sorry to say that I'd rather switch back to windows than keep using pop_os.I switched to Ubuntu and life has never been better.Here are my issues with this os:Window size management: if you've used this distro for a...",
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
-      "author": "Arthurew",
+      "author": "Ronaldwol",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
+    },
+    {
+      "title": "Anything inside Teams for people management you use and can recommend?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/anything-inside-teams-for-people-management-you-use-and-can/m-p/4518744#M144908",
+      "published": "2026-05-12T08:17:08+00:00",
+      "summary": "We currently have to use one tool for goals, another for feedback, a spreadsheet for review tracking, Teams for 1:1s, and then some shared doc for engagement notes. Leadership asked me if theres anything that does all of this inside Teams so they dont have to keep jumping around. We're a mid-size...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "AliceAtLangen",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
     },
     {
       "title": "Giving the Copilot SDK Agent a \"hardware-level helmet\" using Kata microVM on AKS",
@@ -357,18 +717,6 @@
       "product": "Microsoft Teams"
     },
     {
-      "title": "Comment télécharger des vidéos YouTube en masse en 2026",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/comment-t%C3%A9l%C3%A9charger-des-vid%C3%A9os-youtube-en-masse-en-2026/m-p/4518728#M43917",
-      "published": "2026-05-12T07:36:31+00:00",
-      "summary": "Bonjour à tous,Je cherche une bonne méthode pour télécharger plusieurs vidéos YouTube en même temps sur mon PC Windows en 2026. J’ai beaucoup de playlists et de longues vidéos à sauvegarder pour les regarder hors ligne.J’ai testé quelques sites web, mais ils sont souvent lents, pleins de pubs ou...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Damk",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "What’s new in Microsoft Foundry | April 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-apr-2026/",
       "published": "2026-05-12T07:13:15+00:00",
@@ -393,42 +741,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Will I be able to install Windows 10 on my computer?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/will-i-be-able-to-install-windows-10-on-my-computer/m-p/4518691#M43904",
-      "published": "2026-05-12T06:22:15+00:00",
-      "summary": "I'm a bit at a loss. I don't know what to do. Why did the installation of Windows 10 fail on my computer?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Asaoniu",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "I ascended. My PC is now a god, and Windows 11 is a forgotten mortal",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-ascended-my-pc-is-now-a-god-and-windows-11-is-a-forgotten/m-p/4518690#M43903",
-      "published": "2026-05-12T06:17:26+00:00",
-      "summary": "For years, I was a Windows slave. A serf to the whims of Bill Gates. I put up with the forced updates that always hit five minutes before a big presentation. I tolerated the bloatware that ate my RAM like it was a Thanksgiving dinner. And I even drank the Windows 11 Kool-Aid, thinking a fresh coat...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Abigailop",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "My computer is old (OLD) - Will Windows 11 run well?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/my-computer-is-old-old-will-windows-11-run-well/m-p/4518688#M43902",
-      "published": "2026-05-12T06:15:57+00:00",
-      "summary": "I know it looks like trolling/ragebait, but please don't disregard it as that. I'm poor. This is my only computer. As you can see it is top 2025 technology /sIt is running with an HDD only and the graphics are Intel G41 express chipset.Two years ago I used to use Windows 10 on this same machine,...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Nicoleep",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Modernizing Azure Landing Zone Deployments: From Terraform Scripts to GHCP-Driven Engineering",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-azure-landing-zone-deployments-from-terraform/ba-p/4517168",
       "published": "2026-05-12T04:36:08+00:00",
@@ -439,6 +751,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Running Foundry Agent Service on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/running-foundry-agent-service-on-azure-container-apps/ba-p/4518598",
+      "published": "2026-05-12T04:27:25+00:00",
+      "summary": "Microsoft’s Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade agentic platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vyomnagrani",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
     },
     {
       "title": "Azure Arc AKS Explained: Run Kubernetes Beyond Azure Cloud",
@@ -475,6 +799,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Architecture"
+    },
+    {
+      "title": "Accidentally Restored Files from Recycle Bin: Impossible to Distinguish from Existing Files",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/accidentally-restored-files-from-recycle-bin-impossible-to/m-p/4518622#M43881",
+      "published": "2026-05-11T23:20:44+00:00",
+      "summary": "I accidentally clicked \"Restore all items\" in the Recycle Bin instead of permanently deleting the files.The restored files were merged back into my original photo folder, mixing with the files I intentionally kept. The photos have very similar filenames, and the restored files kept their original...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "thianr",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Introducing the Azure Resource Manager MCP Server!",
@@ -561,6 +897,18 @@
       "product": "Azure Messaging"
     },
     {
+      "title": "USB Speakers Not Recognizing/Referred to as \"Steam Streaming\" Devices Following Potential Update",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/usb-speakers-not-recognizing-referred-to-as-quot-steam-streaming/m-p/4518546#M43879",
+      "published": "2026-05-11T17:21:00+00:00",
+      "summary": "My USB speakers are suddenly not being recognized, and instead are being referred to as \"Steam Streaming Speakers/Microphone\" in the sound settings. I've tried pretty much everything I can think of, including:Disabling the speakers in settingsUnplugging/plugging in Speakers (lights/speaker \"pop\"...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "anthonynash",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Azure Service Bus Premium now offers 99.99% SLA in all Availability Zone regions",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/azure-service-bus-premium-now-offers-99-99-sla-in-all/ba-p/4517933",
       "published": "2026-05-11T17:00:00+00:00",
@@ -595,18 +943,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Edge and Copilot App - Error code: STATUS_ACCESS_DENIED",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/edge-and-copilot-app-error-code-status-access-denied/m-p/4518520#M43878",
-      "published": "2026-05-11T16:22:34+00:00",
-      "summary": "I am running Windows 11 Pro - Insider Preview - Version 25H2 (OS Build 26300-8376)My \"Copilot app\" from the Windows Store started giving me that error code, and Edge stopped working completely, unable to access anything at all, and shows that error on the screen. Windows support won't even look...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "ryanokjr",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "What’s new in Microsoft Sentinel: RSAC 2026",
@@ -645,64 +981,16 @@
       "product": "Azure Messaging"
     },
     {
-      "title": "What happened to Screen Capture in PC Manager?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-happened-to-screen-capture-in-pc-manager/m-p/4518474#M43877",
-      "published": "2026-05-11T14:15:35+00:00",
-      "summary": "The feature I used the most was the screen capture. It was quick and intuitive. After a recent update it's gone replaced by something called Circle to Act.How do I get it back?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "BobHatcher1055",
+      "title": "Cross-org Dependabot access for internal repositories",
+      "link": "https://github.blog/changelog/2026-05-11-cross-org-dependabot-access-for-internal-repositories",
+      "published": "2026-05-11T13:52:50+00:00",
+      "summary": "Dependabot can now access internal repositories hosted in other organizations within your enterprise. Consider the situation where you have a dependency hosted in an internal GitHub repository. This repository is… The post Cross-org Dependabot access for internal repositories appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
       "solutionArea": "CAIP",
       "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Does the screen look very bright at 100% brightness in Windows 11, but noticeably dimmer at 99%?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/does-the-screen-look-very-bright-at-100-brightness-in-windows-11/m-p/4518452#M43874",
-      "published": "2026-05-11T13:08:11+00:00",
-      "summary": "When adjusting the screen brightness, going from 99% to 100% suddenly makes the screen very bright; it feels like there’s a big jump between the two levels rather than a smooth transition. I’m wondering if this is a Windows 11 issue or if it’s caused by hardware or driver settings.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "ZacharyRobinson",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "What is the GameTurbo power plan that suddenly appeared in Windows 11?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-is-the-gameturbo-power-plan-that-suddenly-appeared-in/m-p/4518450#M43873",
-      "published": "2026-05-11T13:06:26+00:00",
-      "summary": "I found a power plan called GameTurbo in the Power Options menu that I've never seen before. I'd like to know what this plan does, where it comes from, and whether it's recommended.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "AlejandroSmith",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "For a new computer with a 2TB SSD running Windows 11, what is the recommended size for the C drive?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/for-a-new-computer-with-a-2tb-ssd-running-windows-11-what-is-the/m-p/4518447#M43871",
-      "published": "2026-05-11T13:04:28+00:00",
-      "summary": "My new computer comes with a 2TB SSD that hasn’t been partitioned yet. A friend suggested reserving 150–300 GB for the C drive, but I used Windows 7 for eight years with only 50 GB allocated to the C drive and still had 20 GB left. Does Windows 11 really need that much space on the C drive? I’d...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "BenjaminLiu",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "The Windows 11 Photos app cannot display the full image when viewing landscape-oriented photos",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-windows-11-photos-app-cannot-display-the-full-image-when/m-p/4518446#M43870",
-      "published": "2026-05-11T13:02:57+00:00",
-      "summary": "I just started using Windows 11, and I noticed that when I run a slideshow in the new Photos app, landscape-oriented images aren’t displayed in full (part of the image is automatically cropped), while portrait-oriented images display normally. Is this a settings issue? How can I fix it?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "WilliamHuang",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
+      "product": "GitHub"
     },
     {
       "title": "Scaling GitHub Advanced Security in Azure DevOps with a single reusable YAML template",
@@ -715,18 +1003,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "How to do I get my hard drive back?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-do-i-get-my-hard-drive-back/m-p/4518381#M43868",
-      "published": "2026-05-11T09:46:12+00:00",
-      "summary": "I installed windows 11 using windows installation media but now my hard drive is not appearing how do I get it back? It's encrypted with bitlocker and I don't know the security key :(",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Chandlere",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Windows PC slow after leaving off for months",
@@ -825,6 +1101,18 @@
       "product": "Microsoft Teams"
     },
     {
+      "title": "Any good suggestion for Spotify download mp3 on my Windows PC?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/any-good-suggestion-for-spotify-download-mp3-on-my-windows-pc/m-p/4518315#M43827",
+      "published": "2026-05-11T07:38:03+00:00",
+      "summary": "This is a long time problem even I have a premium subscription. I have the Spotify app on my Windows PC but it won't allow for mp3 download. This is the way it prevents user for offline listening. Any good suggestion for Spotify download mp3 on my Windows PC?I tried contacting the support team and...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "RyderNova",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "From Test Cases to Trusted Automation: Scaling Enterprise Quality with GitHub Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trusted-automation-scaling-enterprise-quality/ba-p/4512843",
       "published": "2026-05-11T07:00:00+00:00",
@@ -835,6 +1123,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
+    },
+    {
+      "title": "How to remove junk files on mac and free up storage space?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-remove-junk-files-on-mac-and-free-up-storage-space/m-p/4518300#M43826",
+      "published": "2026-05-11T06:52:15+00:00",
+      "summary": "Hi everyone,My Mac has been getting slower recently and I noticed the storage is almost full. I think a lot of junk files, caches, old app data, and temporary files are taking up space, but I’m not sure what is safe to clear out.What is the best way to remove junk files on mac without damaging the...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Amiasop",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Understanding the deployment quota limitation (800) Error in Azure Bicep and ARM Deployments",
@@ -873,6 +1173,54 @@
       "product": "AKS"
     },
     {
+      "title": "TTFT-Driven Autoscaling for Disaggregated LLM Inference with NVIDIA Dynamo on AKS",
+      "link": "https://azureglobalblackbelts.com/2026/05/11/dynamo-keda-autoscaling-on-aks",
+      "published": "2026-05-11T00:00:00+00:00",
+      "summary": "Deploy NVIDIA Dynamo on AKS with disaggregated vLLM inference and KEDA autoscaling driven by TTFT p99 latency via Azure Managed Prometheus — no GPU Operator required.",
+      "blog": "Azure Global Black Belt Blog",
+      "blogId": "gbblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure GBB"
+    },
+    {
+      "title": "insider win11 - impossible update",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/insider-win11-impossible-update/m-p/4518189#M43825",
+      "published": "2026-05-10T15:24:43+00:00",
+      "summary": "I am in insider program, I bought a pc with this onfiguration, now I am trying to instal win11pro normal license. but process lock at 27% trying to preserve my data. I need urgent fix.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "therulli",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Bug na bateria após atualização em 06/05/2026",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/bug-na-bateria-ap%C3%B3s-atualiza%C3%A7%C3%A3o-em-06-05-2026/m-p/4518153#M43823",
+      "published": "2026-05-09T19:18:35+00:00",
+      "summary": "Olá, pessoal. Tenho um notebook com processador Intel Core i5 de 11ª geração e faço parte do Programa Windows Insider. Na quarta-feira, 06/05/2026, por volta das 16h, ao desligar o notebook, apareceu a opção de atualização. Selecionei “Atualizar e desligar”. Aguardei o desligamento, fechei a tampa...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "JulianoCristhian",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "CRITICAL: Data Loss on Build 26200.8328 - AI Storage Sense deleted 160+ apps with 870GB free space.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/critical-data-loss-on-build-26200-8328-ai-storage-sense-deleted/m-p/4517842#M43811",
+      "published": "2026-05-09T10:17:47+00:00",
+      "summary": "Subject: CRITICAL BUG: Permanent Data Loss in x86 Applications via AI Storage Sense (Build 26200.8328)Date of Incident: May 8, 2026OS Version: Windows 11 Pro, Version 25H2OS Build: 26200.8328Hardware Status: 876 GB Free Disk Space on C:Description of Issue:On May 8, 2026, the Windows AI Storage...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Dimtheo",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-github-copilot-into-a-best-practices-coach-with-copilot/ba-p/4511567",
       "published": "2026-05-09T10:14:47+00:00",
@@ -883,6 +1231,54 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
+    },
+    {
+      "title": "Quick question about window PC requirements for meta link cable?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/quick-question-about-window-pc-requirements-for-meta-link-cable/m-p/4517981#M43820",
+      "published": "2026-05-09T06:13:58+00:00",
+      "summary": "Do I not have the right requirements? I finally got myself a link cable and was going to connect it to my computer, but it’s just not reading it and it’s saying, I don’t meet the updated minimum specifications. I have a: NVIDIA GeForce RTX 5060 Laptop GPU (sorry for being dumb I am)",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Paulload",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Is it possible to run ryujinx canary on an administrator account on windows?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/is-it-possible-to-run-ryujinx-canary-on-an-administrator-account/m-p/4517980#M43819",
+      "published": "2026-05-09T06:09:23+00:00",
+      "summary": "hi! I recently saw a tutorial for opening ryujinx (from extracted folder) when it isn't working, and the guys said that yu need to make a local acc for your pc. I'm wondering if there's anyway I can do this without doing that, because I'd have to redownload everything.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Manstaway",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Why Windows 11 still depends on 1990s code",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/why-windows-11-still-depends-on-1990s-code/m-p/4517979#M43818",
+      "published": "2026-05-09T06:05:00+00:00",
+      "summary": "Windows 11 looks modern on the surface. Rounded corners, AI features, redesigned menus, cloud integration, Copilot branding everywhere. Underneath all of that, Microsoft is still relying on core technology designed during the Windows 95 era.That is not speculation or internet nostalgia. Microsoft...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Zillmann",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Remove ads from Office 365 apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/remove-ads-from-office-365-apps/m-p/4517968#M59265",
+      "published": "2026-05-09T05:39:19+00:00",
+      "summary": "How do I remove the ads from my Office 365 apps that recently appears?",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Johnny_Howland",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "CHERIoT-Ibex: Closing the door on memory safety vulnerabilities with hardware-enforced protection",
@@ -993,18 +1389,6 @@
       "product": "Exchange"
     },
     {
-      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
-      "published": "2026-05-08T17:15:32+00:00",
-      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "NicolasMondada",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
       "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
       "published": "2026-05-08T17:12:46+00:00",
@@ -1101,6 +1485,18 @@
       "product": "GitHub"
     },
     {
+      "title": "The Windows 11 Photos app cannot display the full image when viewing landscape-oriented photos",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-windows-11-photos-app-cannot-display-the-full-image-when/m-p/4517824#M43810",
+      "published": "2026-05-08T11:15:11+00:00",
+      "summary": "I just started using Windows 11, and I noticed that when I run a slideshow in the new Photos app, landscape-oriented images aren’t displayed in full (part of the image is automatically cropped), while portrait-oriented images display normally. Is this a settings issue? How can I fix it?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Michael77",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Using the Microsoft Graph PowerShell SDK to Update User Profiles",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/using-the-microsoft-graph-powershell-sdk-to-update-user-profiles/m-p/4517779#M59264",
       "published": "2026-05-08T09:48:18+00:00",
@@ -1111,18 +1507,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "CodeQL 2.25.3 adds Swift 6.3 support",
-      "link": "https://github.blog/changelog/2026-05-08-codeql-2-25-3-adds-swift-6-3-support",
-      "published": "2026-05-08T09:02:12+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.3, which adds support for Swift 6.3,… The post CodeQL 2.25.3 adds Swift 6.3 support appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Announcing Microsoft Host Integration Server 2028: Modern connectivity for IBM Mainframes Midranges",
@@ -1149,16 +1533,16 @@
       "product": "Azure Community"
     },
     {
-      "title": "Upcoming deprecation of GPT-4.1",
-      "link": "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
-      "published": "2026-05-08T00:22:08+00:00",
-      "summary": "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Suggested alternative… The post Upcoming deprecation of GPT-4.1 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
+      "title": "NVIDIA Dynamo on AKS: Disaggregated LLM Inference with H100 GPUs",
+      "link": "https://azureglobalblackbelts.com/2026/05/08/nvidia-dynamo-on-aks",
+      "published": "2026-05-08T00:00:00+00:00",
+      "summary": "Deploy NVIDIA Dynamo on Azure Kubernetes Service with H100 GPU nodes using AKS Managed GPU and the Dynamo Kubernetes operator to run disaggregated LLM inference at scale. Then layer AI Runway on top for a visual dashboard that manages multiple inference runtimes — Dynamo, KAITO, and KubeRay — from...",
+      "blog": "Azure Global Black Belt Blog",
+      "blogId": "gbblog",
+      "author": "Microsoft",
       "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
+      "billingType": "PAYGO",
+      "product": "Azure GBB"
     },
     {
       "title": "Improving token efficiency in GitHub Agentic Workflows",
@@ -1168,18 +1552,6 @@
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "Landon Cox",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Claude Sonnet 4 deprecated",
-      "link": "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated",
-      "published": "2026-05-07T22:30:23+00:00",
-      "summary": "We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date… The post Claude Sonnet 4 deprecated appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -1219,18 +1591,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure SDK"
-    },
-    {
-      "title": "Enterprise Live Migrations is now in public preview",
-      "link": "https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview",
-      "published": "2026-05-07T20:28:33+00:00",
-      "summary": "Enterprise Live Migrations (ELM) is now available in public preview. ELM gives enterprise administrators a new way to migrate repositories from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with… The post Enterprise Live Migrations is now in public preview appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
@@ -1363,18 +1723,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Rubber Duck in GitHub Copilot CLI now supports more models",
-      "link": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
-      "published": "2026-05-07T14:49:28+00:00",
-      "summary": "Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude… The post Rubber Duck in GitHub Copilot CLI now supports more models appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Microsoft Teams Consecutive Interpretation Explained (NEW Copilot Feature for Multilingual Meetings)",
@@ -1912,18 +2260,6 @@
       "blog": "Microsoft Fabric Blog",
       "blogId": "microsoftfabricblog",
       "author": "anboisve",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Fabric April 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Fabric-April-2026-Feature-Summary/ba-p/5176490",
-      "published": "2026-05-05T19:12:02+00:00",
-      "summary": "Author: Katie Murray - Senior Program Manager",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "kamurray",
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
@@ -2505,18 +2841,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
-      "published": "2026-05-02T03:06:08+00:00",
-      "summary": "A high-severity Linux vulnerability, “Copy Fail” (CVE-2026-31431), enables root privilege escalation across cloud environments and Kubernetes workloads. With a working exploit already in the wild, organizations should act quickly to detect, mitigate, and reduce risk. The post CVE-2026-31431: Copy...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Defender Security Research Team",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Update to disabling Teams meeting recording expiration notification emails",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/update-to-disabling-teams-meeting-recording-expiration/m-p/4516523#M144887",
       "published": "2026-05-01T21:12:58+00:00",
@@ -2625,18 +2949,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-      "published": "2026-05-01T15:00:00+00:00",
-      "summary": "​Today we’re announcing the general availability of Agent 365, plus previews of new capabilities to discover and manage shadow AI agents, including local agents like OpenClaw and Claude Code. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appeared first...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Nirav Shah, Rob Lefferts and Jason Roszak",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "AI‑Accelerated AVM Refactoring: Modernizing Legacy IaC Safely and Swiftly",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ai-accelerated-avm-refactoring-modernizing-legacy-iac-safely-and/ba-p/4516437",
       "published": "2026-05-01T12:14:29+00:00",
@@ -2683,18 +2995,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "Explaining what GitHub Copilot Modernization can (and cannot do)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/explaining-what-github-copilot-modernization-can-and-cannot-do/ba-p/4511739",
-      "published": "2026-04-30T19:52:23+00:00",
-      "summary": "In the last post, we looked at the workflow: assess, plan, execute. You get reports you can review and the agent makes changes you can inspect. If you don’t know, GitHub Copilot Modernization is the new agentic tool that supports you to in modernizing older applications. Could it support you with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "PabloLopes",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "App Enforced Restrictions not working on Chrome",
@@ -2749,24 +3049,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/",
       "published": "2026-04-30T16:09:02+00:00",
       "summary": "Learn the difference between CLI interactive v. non-interactive modes. The post GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Kayla Cinnamon",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "What’s new, updated, or recently released in Microsoft Security",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/whats-new-updated-or-recently-released-in-microsoft-security/",
-      "published": "2026-04-30T16:00:00+00:00",
-      "summary": "Stay ahead of emerging threats with Microsoft’s newest security innovations and updates, delivered through the In the Loop series. The post What’s new, updated, or recently released in Microsoft Security appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Alym Rayani",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Transforming Microsoft Teams into a Project Management Hub",
@@ -2805,18 +3093,6 @@
       "product": "Microsoft Entra"
     },
     {
-      "title": "Email threat landscape: Q1 2026 trends and insights",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
-      "published": "2026-04-30T15:00:00+00:00",
-      "summary": "In early 2026, email threats increased with a rise in credential phishing, QR code phishing, and CAPTCHA-gated campaigns, highlighted by Microsoft’s disruption of the Tycoon2FA phishing platform which led to a 15% volume decrease and shifts in threat actor tactics. The post Email threat landscape:...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Public Preview: Managed Identity support for graphical session recording",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-managed-identity-support-for-graphical-session/ba-p/4513139",
       "published": "2026-04-30T14:05:12+00:00",
@@ -2839,6 +3115,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Can't remove external presenter in Microsoft Teams Webinar",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/can-t-remove-external-presenter-in-microsoft-teams-webinar/m-p/4516160#M144911",
+      "published": "2026-04-30T09:38:17+00:00",
+      "summary": "Hello,I am trying to remove some external presenters from my Microsoft Teams webinar, but clicking the 'X' button - which normally works - is not removing them.It is likely worth noting that these external presenters who can't be removed are in fact, for some reason, duplicates. In other words,...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "cs02",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
     },
     {
       "title": "New Local Management Group for ALZ & Updated Sovereign Policies for SLZ",
@@ -3273,18 +3561,6 @@
       "product": "Azure SDK"
     },
     {
-      "title": "GitHub for Beginners: Getting started with Markdown",
-      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-markdown/",
-      "published": "2026-04-28T18:00:00+00:00",
-      "summary": "Discover how to format and edit your comments and posts using Markdown. The post GitHub for Beginners: Getting started with Markdown appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Kedasha Kerr",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "SharePoint Framework (SPFx) roadmap update – April 2026",
       "link": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-april-2026/",
       "published": "2026-04-28T17:13:17+00:00",
@@ -3316,18 +3592,6 @@
       "blog": ".NET Blog",
       "blogId": "dotnetblog",
       "author": "Jared Meade",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "Combining API versioning with OpenAPI in .NET 10 applications",
-      "link": "https://devblogs.microsoft.com/dotnet/api-versioning-in-dotnet-10-applications/",
-      "published": "2026-04-28T17:00:00+00:00",
-      "summary": "Learn how to implement API versioning in your .NET 10 applications using OpenAPI for better API management and documentation. The post Combining API versioning with OpenAPI in .NET 10 applications appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Sander ten Brinke",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
@@ -3849,18 +4113,6 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/stop-experimenting-start-building-ai-apps-agents-dev-days-has/ba-p/4513651",
-      "published": "2026-04-24T05:57:58+00:00",
-      "summary": "The AI landscape has shifted. The question is no longer “Can we build AI applications?” it’s “Can we build AI applications that actually work in production?” Demos are easy. Reliable, scalable, resilient AI systems that handle real-world complexity? That’s where most teams struggle. If you’re an AI...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "Join our free livestream series on hosting agents in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-hosting-agents-in-microsoft/ba-p/4508479",
       "published": "2026-04-24T05:00:00+00:00",
@@ -3981,30 +4233,6 @@
       "product": "Microsoft Entra"
     },
     {
-      "title": "Resource instance rules for OneLake in Microsoft Fabric (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Resource-instance-rules-for-OneLake-in-Microsoft-Fabric-Preview/ba-p/5171998",
-      "published": "2026-04-23T17:30:00+00:00",
-      "summary": "As enterprises adopt OneLake as their unified data lake for analytics, securing how external services access data in OneLake becomes increasingly important—especially in environments where public internet access must be tightly controlled. Today, we’re introducing resource instance rules for...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "HARMEETGILL",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "What’s new for .NET in Ubuntu 26.04",
-      "link": "https://devblogs.microsoft.com/dotnet/whats-new-for-dotnet-in-ubuntu-2604/",
-      "published": "2026-04-23T17:25:00+00:00",
-      "summary": "Ubuntu 26.04 (Resolute Raccoon) ships today with .NET 10. Here's how to install .NET 10 from the archive, use the new -resolute container tags, build Native AOT apps, and install .NET 8 and 9 from the dotnet-backports PPA. The post What’s new for .NET in Ubuntu 26.04 appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Richard Lander",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
       "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
       "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
       "published": "2026-04-23T17:00:14+00:00",
@@ -4015,18 +4243,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Microsoft Dev"
-    },
-    {
-      "title": "Cross-workspace logging for MLflow in Microsoft Fabric: Build MLOps workflows with confidence (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Cross-workspace-logging-for-MLflow-in-Microsoft-Fabric-Build/ba-p/5172000",
-      "published": "2026-04-23T17:00:00+00:00",
-      "summary": "Machine learning teams need more than a great model — they need a reliable way to move that model from experimentation to production. Cross-workspace logging for MLflow in Microsoft Fabric, is a capability that enables you to build end-to-end MLOps workflows using the standard MLflow APIs you...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "ruxu",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Microsoft 365 multi-agent workflow with Microsoft Agent Framework",
@@ -4051,18 +4267,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Purview"
-    },
-    {
-      "title": "Word Version Incompatibility",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/word-version-incompatibility/m-p/4514068#M59214",
-      "published": "2026-04-23T14:35:32+00:00",
-      "summary": "Good morning everyone, I've switched from Microsoft 365 Personal to Microsoft Plus 2021 Business. My question is, is there any incompatibility between the Word versions of these two services? I ask because when I try to work with a file saved as a \"Microsoft Word 97-2003 Document,\" I get a memory...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "flielguera",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Autopatch - Microsoft 365 Apps Update Rings",
@@ -4303,18 +4507,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Azure DevOps"
-    },
-    {
-      "title": "Microsoft 365 Quarterly Uptime Number Sinks to New Low",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-quarterly-uptime-number-sinks-to-new-low/m-p/4513673#M59207",
-      "published": "2026-04-22T09:32:23+00:00",
-      "summary": "According to Microsoft, the Microsoft 365 uptime performance for Q1 CY2026 was 99.526%. That’s the lowest uptime figure since we started to record data in 2013. The first thing that people might ask is whether this performance means that Microsoft has to pay out under the terms of its financially...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "NFS Permission Denied in Azure App Service on Linux: What It Means and What to Do",
@@ -4845,18 +5037,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Event-Driven IaC Operations with Azure SRE Agent: Terraform Drift Detection via HTTP Triggers",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/event-driven-iac-operations-with-azure-sre-agent-terraform-drift/ba-p/4512233",
-      "published": "2026-04-17T02:13:18+00:00",
-      "summary": "What Happens After terraform plan Finds Drift? If your team is like most, the answer looks something like this: A nightly terraform plan runs and finds 3 drifted resources A notification lands in Slack or Teams Someone files a ticket During the next sprint, an engineer opens 4 browser tabs —...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Introducing the plugin marketplace for Azure API Center",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-the-plugin-marketplace-for-azure-api-center/ba-p/4512231",
       "published": "2026-04-17T00:50:01+00:00",
@@ -4999,18 +5179,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Governance"
-    },
-    {
-      "title": "Managing Multi‑Tenant Azure Resource with SRE Agent and Lighthouse",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/managing-multi-tenant-azure-resource-with-sre-agent-and/ba-p/4511789",
-      "published": "2026-04-16T04:58:53+00:00",
-      "summary": "Azure SRE Agent is an AI‑powered reliability assistant that helps teams diagnose and resolve production issues faster while reducing operational toil. It analyzes logs, metrics, alerts, and deployment data to perform root cause analysis and recommend or execute mitigations with human approval. It’s...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Pranab_Mandal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Production Cutover in Cloud-Native Migrations",
@@ -5373,30 +5541,6 @@
       "product": "GitHub Advanced Security"
     },
     {
-      "title": "Teams & channels names are blank",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-channels-names-are-blank/m-p/4511223#M144831",
-      "published": "2026-04-14T14:41:30+00:00",
-      "summary": "So fun UI issue on Desktop application (26072.519.4556.7438).. Teams and channels are blank and not clickable.. I've reset & repaired app, cleared the cache and reinstalled (temp fixed but same issue came back) Web version works good, but user wants a fix not a \"workaround\"Any ideas?",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "TCEQJackie",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "attach file option not visible with bot joined call",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/attach-file-option-not-visible-with-bot-joined-call/m-p/4511194#M144830",
-      "published": "2026-04-14T12:43:50+00:00",
-      "summary": "I have created bot using azure and recall.ai When bot joins adhoc or schedule team meetings, it is appearing as an external user.While we have created bot email as well in azure AD. And I think due to this we are not able to see attach file option in teams chat when bot gets invited into the adhoc...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "arpit_jain",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
       "title": "Microsoft Purview Referential Architecture Diagrams",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/microsoft-purview-referential-architecture-diagrams/ba-p/4510925",
       "published": "2026-04-13T23:24:30+00:00",
@@ -5431,30 +5575,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Networking"
-    },
-    {
-      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion/ba-p/4510493",
-      "published": "2026-04-13T08:06:40+00:00",
-      "summary": "HTTP Data Collector API in Log Analytics workspaces is being deprecated, and will be totally out of support in September 2026. Data Collector actions in logic app using already created API connections (which uses workspace Id & Key) would still work against old custom log tables, however, newly...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "mshboul",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Automating Arc-enabled SQL Server license type configuration with Azure Policy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/automating-arc-enabled-sql-server-license-type-configuration/ba-p/4500326",
-      "published": "2026-04-13T07:06:25+00:00",
-      "summary": "Azure Arc enables customers to onboard SQL Server instances - hosted on Linux or Windows - into Azure, regardless of where they are hosted: on‑premises, in multicloud environments, or at the edge. Once onboarded, these resources can be managed through the Azure Portal using services like Azure...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "TomClaes",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
     }
   ]
 }
