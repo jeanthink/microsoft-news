@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-17T12:20:03.011774+00:00",
-  "totalArticles": 420,
+  "lastUpdated": "2026-05-18T13:11:53.658387+00:00",
+  "totalArticles": 415,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,66 @@
     ]
   },
   "articles": [
+    {
+      "title": "Building a Controllable Inference Platform on Kubernetes with AI Runway",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-controllable-inference-platform-on-kubernetes-with-ai/ba-p/4520590",
+      "published": "2026-05-18T11:46:14+00:00",
+      "summary": "When enterprises move generative AI from demos to real business workloads, the hardest question is usually not whether a model can answer a prompt. The harder question is whether the whole system can run reliably, predictably, securely, and economically over time. This becomes especially important...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Getting Started with OpenSearch on AKS with AKS AVM and Helm",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-started-with-opensearch-on-aks-with-aks-avm-and-helm/ba-p/4520392",
+      "published": "2026-05-18T08:28:56+00:00",
+      "summary": "Co-authored by Chetan Vaja (Senior Cloud Solution Architect @ Microsoft), Ninad Kapse (Senior Cloud Solution Architect @ Microsoft), Vikas Gautam (Senior Cloud Solution Architect @ Microsoft), and Prafulla Wani (Principal Cloud Solution Architect @ Microsoft). Summary OpenSearch is a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "prafullawani",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Understanding and building an Azure Hybrid Meshed Hub-Spoke Topology",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/understanding-and-building-an-azure-hybrid-meshed-hub-spoke/ba-p/4516879",
+      "published": "2026-05-18T07:15:26+00:00",
+      "summary": "A meshed hybrid hub-spoke topology Azure offers two main approaches to build network architectures. This article focuses on traditional networking (using VNets, peering, route tables, etc.), rather than Azure Virtual WAN. Why a hub-spoke topology? A hub‑spoke topology is the only way to control...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Svenbaeck",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "Integrating Azure DevOps with VS Code Agent using MCP (Model Context Protocol)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/integrating-azure-devops-with-vs-code-agent-using-mcp-model/ba-p/4516250",
+      "published": "2026-05-18T07:00:00+00:00",
+      "summary": "🧠 What is MCP (Model Context Protocol)? MCP is a standard interface that allows AI agents to securely interact with external systems such as Azure DevOps/ With MCP: Azure DevOps capabilities are exposed as tools GitHub Copilot can discover, reason, and execute actions All actions happen with user...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "bhramesh",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
+      "link": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
+      "published": "2026-05-18T04:01:11+00:00",
+      "summary": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization… The post GPT-5.3-Codex is now the base model for Copilot Business and Enterprise appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
     {
       "title": "GitHub App installation tokens: Per-request override header",
       "link": "https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header",
@@ -955,18 +1015,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "New enterprise installation API now in public preview",
-      "link": "https://github.blog/changelog/2026-05-13-new-enterprise-installation-api-now-in-public-preview",
-      "published": "2026-05-13T19:27:52+00:00",
-      "summary": "We’re filling an API gap for GitHub App developers based on community feedback. Enterprise Installation API We’ve added a new API that lets a GitHub App find out if it’s… The post New enterprise installation API now in public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Service Principal Support for Data Agents in Fabric (Preview)",
@@ -4161,18 +4209,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "The Future of Agentic AI: Inside Microsoft Agent Framework 1.0",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-future-of-agentic-ai-inside-microsoft-agent-framework-1-0/ba-p/4510698",
-      "published": "2026-04-28T07:00:00+00:00",
-      "summary": "Agentic AI is rapidly moving beyond demos and chatbots toward long‑running, autonomous systems that reason, call tools, collaborate with other agents, and operate reliably in production. On April 3, 2026, Microsoft marked a major milestone with the General Availability (GA) release of Microsoft...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "rajesh-yadav",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "Why Does Azure App Service Return HTTP 404?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-does-azure-app-service-return-http-404/ba-p/4514004",
       "published": "2026-04-28T06:39:38+00:00",
@@ -4315,18 +4351,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Rethinking Data Modeling: How GitHub Copilot Is Changing the Way We Design Systems",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/rethinking-data-modeling-how-github-copilot-is-changing-the-way/ba-p/4509941",
-      "published": "2026-04-27T07:00:00+00:00",
-      "summary": "There is a point in every engineer’s journey where data modeling stops feeling intuitive. What starts as a clean schema becomes harder to reason about. Relationships blur. Query paths multiply. Small changes ripple across different steps. This is where data modeling reveals its real challenge: not...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "B_Manasa",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     },
     {
       "title": "How to Troubleshoot Azure Functions Service Bus Trigger Issues",
@@ -4591,18 +4615,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Microsoft Dev"
-    },
-    {
-      "title": "Microsoft 365 multi-agent workflow with Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-365-multi-agent-workflow-with-microsoft-agent/ba-p/4514164",
-      "published": "2026-04-23T16:16:15+00:00",
-      "summary": "Most production AI tasks are too complex for a single agent. You need specialists that collaborate, a destination expert that researches the best places to visit, a budget analyst that breaks down costs, an activities curator that finds the best experiences, all coordinated by an orchestration...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vincent_Giraud",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "From Oversharing to Enforcement: A Practical Guide to AI Data Security with Microsoft Purview",
@@ -5251,78 +5263,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Analytics"
-    },
-    {
-      "title": "Microsoft Fabric Operations Agent Step by Step Walkthrough",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-operations-agent-step-by-step-walkthrough/ba-p/4512572",
-      "published": "2026-04-18T07:00:41+00:00",
-      "summary": "Fabric Capacity and Workspace You need a Microsoft Fabric workspace backed by a paid capacity. Trial capacities are not supported for Operations Agent. Your capacity must be provisioned in a supported region. As of April 2026, Operations Agent is available in all Microsoft Fabric regions except...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "NaufalPrawironegoro",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
-    },
-    {
-      "title": "Deploy scalable ring‑fenced Purview operations with Administrative Units",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/deploy-scalable-ring-fenced-purview-operations-with/ba-p/4512556",
-      "published": "2026-04-18T01:22:01+00:00",
-      "summary": "As Microsoft Purview deployments mature, many organisations encounter the same scaling challenge: how do you decentralize operations without fragmenting governance or losing visibility? Administrative Units (AUs) provide a native way to solve this by enabling ring‑fenced operations—allowing teams...",
-      "blog": "Microsoft Purview",
-      "blogId": "microsoft-purview-blog",
-      "author": "MaximeBombardier",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Purview"
-    },
-    {
-      "title": "Which Entra account are you supposed to use to connect to a managed Google Play account?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/which-entra-account-are-you-supposed-to-use-to-connect-to-a/m-p/4512536#M23355",
-      "published": "2026-04-17T20:47:42+00:00",
-      "summary": "At Connect Intune account to managed Google Play account - Microsoft Intune | Microsoft Learn, it says:We recommend using the Microsoft Entra account you're signed into to create the Google Admin account.So I used my Entra account to set it up. Now, though, when I look at the Managed Google Play...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "RyanSteele-CoV",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Building an emoji list generator with the GitHub Copilot CLI",
-      "link": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
-      "published": "2026-04-17T18:00:00+00:00",
-      "summary": "See how we created an emoji list generator during the Rubber Duck Thursday stream. The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Cassidy Williams",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "How to repair an application deployed via Intune with no admin rights",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/how-to-repair-an-application-deployed-via-intune-with-no-admin/m-p/4512489#M23354",
-      "published": "2026-04-17T15:42:40+00:00",
-      "summary": "Hi, I would like to know how to repair an applcation deployed by Intune. User has no admin rights , so via control panel is not an option. User is not set as primary user on device. Thks for all comments",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "sylsimp1",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Bringing AI to the Factory Floor with Foundry Local - Now in Public Preview on Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/bringing-ai-to-the-factory-floor-with-foundry-local-now-in/ba-p/4509951",
-      "published": "2026-04-17T15:23:10+00:00",
-      "summary": "Key capabilities in this preview Foundry Local exposes standard REST and OpenAI‑compatible APIs, enabling IT and AI teams to deploy and operate local AI workloads using familiar, cloud‑aligned patterns across edge and on‑prem environments. In this public preview, we deliver the following...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "liranlyabock_microsoft",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
     }
   ]
 }
