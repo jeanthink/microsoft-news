@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-23T12:21:02.050704+00:00",
-  "totalArticles": 404,
+  "lastUpdated": "2026-05-24T12:23:08.705851+00:00",
+  "totalArticles": 392,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,30 @@
     ]
   },
   "articles": [
+    {
+      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
+      "published": "2026-05-24T09:43:53+00:00",
+      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Noa Kuperberg",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Monitor"
+    },
+    {
+      "title": "Microsoft 365 PC: The Modern Windows Experience for Work and Business",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-pc-the-modern-windows-experience-for-work-and/m-p/4522545#M59312",
+      "published": "2026-05-24T09:31:24+00:00",
+      "summary": "In today’s workplace, a computer is no longer just a machine used to write documents or browse the internet. Modern businesses need devices that are secure, connected to the cloud, easy to manage remotely, and powerful enough to support hybrid work. That is where the concept of a “Microsoft 365 PC”...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JohnNaguib",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
     {
       "title": "Update 26220.8491: Win11 Update Freezes at 38% - Hypervisor Launch Failed (No VMX)",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/update-26220-8491-win11-update-freezes-at-38-hypervisor-launch/m-p/4522441#M44034",
@@ -1615,18 +1639,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "YellowKey BitLocker Exploit",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/yellowkey-bitlocker-exploit/m-p/4520770#M23463",
-      "published": "2026-05-18T15:05:12+00:00",
-      "summary": "Hi AllI hope you are well.Anyway, the YellowKey BitLocker Exploit has came to my attention.We already have automatic / silent BitLocker encryption enabled.So, is there anything we should be doing (preferably via Intune) to mitigate this new exploit? SK",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "StuartK73",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
     },
     {
       "title": "Platform SSO during automated device enrollment is now generally available for macOS",
@@ -4185,18 +4197,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "OneNote Desktop sync issue",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onenote-desktop-sync-issue/m-p/4516630#M59246",
-      "published": "2026-05-02T20:17:39+00:00",
-      "summary": "Hello dear community, I installed OneNote from the Store on my Windows 11 laptop and connected it to my notebook in the Microsoft cloud. I opened a notebook in it, and it apparently syncs, but no notes appear on my device. When I click the link to the OneNote notebook in OneNote, the web version...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "BD15",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Update to disabling Teams meeting recording expiration notification emails",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/update-to-disabling-teams-meeting-recording-expiration/m-p/4516523#M144887",
       "published": "2026-05-01T21:12:58+00:00",
@@ -4987,150 +4987,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Architecture"
-    },
-    {
-      "title": "Axios npm Supply Chain Compromise – Guidance for Azure Pipelines Customers",
-      "link": "https://devblogs.microsoft.com/devops/axios-npm-supply-chain-compromise-guidance-for-azure-pipelines-customers/",
-      "published": "2026-04-24T10:40:43+00:00",
-      "summary": "On March 31, 2026, malicious versions of the widely used JavaScript HTTP client library Axios were briefly published to the npm registry as part of a supply chain attack. The affected versions — 1.14.1 and 0.30.4 — included a hidden malicious dependency that executed during installation and...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Josef Sin",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
-    },
-    {
-      "title": "Best approach for migrating AD joined devices to Entra ID without wiping user profiles?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/best-approach-for-migrating-ad-joined-devices-to-entra-id/m-p/4514425#M23382",
-      "published": "2026-04-24T08:12:47+00:00",
-      "summary": "We’ve seen many organizations struggle with device migration when moving from traditional Active Directory (AD) or hybrid environments to Microsoft Entra ID.The biggest challenge is avoiding user disruption especially when wiping devices causes profile loss, app reconfiguration, and downtime.In...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "Pranavsethuraman10",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "When RAG Isn’t Enough: Moving from Retrieval to Relationship-Aware Systems in Enterprise AI:",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/when-rag-isn-t-enough-moving-from-retrieval-to-relationship/ba-p/4514185",
-      "published": "2026-04-24T07:04:57+00:00",
-      "summary": "The Problem In an enterprise AI scenario, the goal was to map structured feature data to relevant sections within large technical documents. At a glance, this appears to be a straightforward semantic matching problem. Initial results using semantic search were promising. However, as the system was...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "ankitasarkar",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Autopilot V1 vs “Device Preparation” (V2): Great direction — but is it enterprise-ready yet?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/autopilot-v1-vs-device-preparation-v2-great-direction-but-is-it/m-p/4514362#M23381",
-      "published": "2026-04-24T06:39:18+00:00",
-      "summary": "We evaluated Autopilot v2 but decided to stay on Autopilot v1 for large‑enterprise scale.Group Tags + dynamic groups are still essential for our device naming, segmentation, and governance model.We intentionally limit apps in EAS to speed up provisioning, so EAS‑based app deployment in v2 isn’t a...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "christiandominguezjp",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Centralizing Enterprise API Access for Agent-Based Architectures",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/centralizing-enterprise-api-access-for-agent-based-architectures/ba-p/4511792",
-      "published": "2026-04-23T21:43:23+00:00",
-      "summary": "Problem Statement When building AI agents or automation solutions, calling enterprise APIs directly often means configuring individual HTTP actions within each agent for every API. While this works for simple scenarios, it quickly becomes repetitive and difficult to manage as complexity grows. The...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "sbaskaran",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Automatic SSO Takeover in Azure AD B2C Custom Policies",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/automatic-sso-takeover-in-azure-ad-b2c-custom-policies/ba-p/4514167",
-      "published": "2026-04-23T21:34:55+00:00",
-      "summary": "Why This Matters As organizations modernize authentication, many shift toward Single Sign-On (SSO) using providers like Microsoft EntraID. But if you already have users in Azure AD B2C using local accounts (email + password), the transition isn’t straightforward. You’ll run into: Duplicate...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "anammalu",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Modernizing DNS Security for Exchange Online Mail Flow",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/modernizing-dns-security-for-exchange-online-mail-flow/ba-p/4514248",
-      "published": "2026-04-23T21:00:39+00:00",
-      "summary": "The Domain Name System (DNS) protocol is used by clients to find mail servers over the internet. DNS is unencrypted and unauthenticated by default, making it vulnerable to spoofing, tampering, and adversary‑in‑the‑middle attacks. As threat actors increasingly target the foundational layers of email...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Direct Routing PSTN calls to Teams Auto Attendant does not forward to Shared Voicemail",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/direct-routing-pstn-calls-to-teams-auto-attendant-does-not/m-p/4514247#M144858",
-      "published": "2026-04-23T20:51:16+00:00",
-      "summary": "Hi all,I’m running into a strange issue with a Teams Auto Attendant and I’m hoping someone here has seen it before.We have a Direct Routing number where business hours calls go to a Call Queue, which works, and after hours calls should go to Shared Voicemail for a Microsoft 365 Group. If I call the...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "rudimentaire",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Enabling Agentic Data Governance with Hybrid Cloud Flexibility in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enabling-agentic-data-governance-with-hybrid-cloud-flexibility/ba-p/4513511",
-      "published": "2026-04-23T18:17:35+00:00",
-      "summary": "The “Why” Do you manage data in a complex multi-cloud environment? Are you struggling with data silos, evolving regulations, and the pressure to maintain control and compliance across on-prem and multiple clouds? Do you ever wish an intelligent assistant could help shoulder the load of data...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Moaz_Mirza",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Now generally available: License usage insights in Microsoft Entra",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/now-generally-available-license-usage-insights-in-microsoft/ba-p/4507463",
-      "published": "2026-04-23T18:13:19+00:00",
-      "summary": "Organizations rely on Microsoft Entra to secure access in an ever-changing identity threat landscape without sacrificing workforce productivity. As organizations adopt advanced identity and access capabilities, IT teams often need greater transparency into how those capabilities are being used,...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Joseph Dadzie",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
-      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
-      "published": "2026-04-23T17:00:14+00:00",
-      "summary": "Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own? We put together a free, open source course to help you get there. LangChain.js for Beginners is 8 chapters and 70+ runnable TypeScript examples....",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Yohan Lasorsa",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "From Oversharing to Enforcement: A Practical Guide to AI Data Security with Microsoft Purview",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/from-oversharing-to-enforcement-a-practical-guide-to-ai-data/ba-p/4513727",
-      "published": "2026-04-23T14:58:26+00:00",
-      "summary": "Why AI Changed the Data Security Problem AI does not create entirely new categories of risk—it supercharges existing ones. Traditional data leakage stems from ordinary behavior: sharing a document too broadly, sending an email to the wrong person, copying regulated data to an uncontrolled device....",
-      "blog": "Microsoft Purview",
-      "blogId": "microsoft-purview-blog",
-      "author": "George Smyrlis",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Purview"
     }
   ]
 }
