@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-24T12:23:08.705851+00:00",
-  "totalArticles": 392,
+  "lastUpdated": "2026-05-25T13:08:01.428314+00:00",
+  "totalArticles": 386,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,30 @@
     ]
   },
   "articles": [
+    {
+      "title": "How to Send a Welcome Message to New Employees with Attachments for Calendar Events",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-send-a-welcome-message-to-new-employees-with-attachments/m-p/4522621#M59316",
+      "published": "2026-05-25T08:19:57+00:00",
+      "summary": "ICS files are a useful method to send information about calendar events between different IT systems. This article discusses using PowerShell to create ICS files for Teams Online meetings as part of a project to send welcome messages to new employees that contain information about upcoming...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Building an End-to-End Azure RAG Strategy Agent with MS Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-end-to-end-azure-rag-strategy-agent-with-ms-foundry/ba-p/4516967",
+      "published": "2026-05-25T07:00:00+00:00",
+      "summary": "High-Level Architecture This architecture represents an end-to-end Retrieval-Augmented Generation (RAG) pipeline where raw documents are ingested from Azure Blob Storage, processed using Document Intelligence, transformed into embeddings via Azure OpenAI, and indexed in Azure AI Search for hybrid...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "SHAILESHDEVADIGA",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
     {
       "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
@@ -2997,18 +3021,6 @@
       "product": "Windows"
     },
     {
-      "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-github-copilot-into-a-best-practices-coach-with-copilot/ba-p/4511567",
-      "published": "2026-05-09T10:14:47+00:00",
-      "summary": "Why Copilot Spaces + Markdown repos work so well When you ask Copilot generic questions (“How should we log errors?” “What’s our API versioning approach?”), the model will often respond with reasonable defaults. But reasonable defaults are not the same as your standards. Copilot Spaces solve the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "mohashaikh",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "Quick question about window PC requirements for meta link cable?",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/quick-question-about-window-pc-requirements-for-meta-link-cable/m-p/4517981#M43820",
       "published": "2026-05-09T06:13:58+00:00",
@@ -3871,18 +3883,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "How File-Level Archiving Works for SharePoint Online",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-file-level-archiving-works-for-sharepoint-online/m-p/4516951#M59248",
-      "published": "2026-05-05T07:24:53+00:00",
-      "summary": "SharePoint Online supports file-level archiving, meaning that you can send individual files (most types) to Microsoft 365 Archive to be held in cold storage. Individual users can make the decision about what files need to be online instead of forcing administrators to decide whether to archive...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Building an AI Agent for Azure Infrastructure Validation",
@@ -4915,78 +4915,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/modernizing-industrial-safety-and-inspection-with-ai-driven/ba-p/4514284",
-      "published": "2026-04-25T00:07:31+00:00",
-      "summary": "In large-scale manufacturing and infrastructure environments, maintaining structural integrity is a continuous operational challenge. Industrial facilities—from automotive plants to energy and infrastructure sites—depend on thousands of structural connection points such as bolts and fasteners to...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "PeterTHLee",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
-      "published": "2026-04-24T20:32:49+00:00",
-      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Victor Colin Amador",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "What’s new in Microsoft Entra – March 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-march-2026/ba-p/4502150",
-      "published": "2026-04-24T20:16:41+00:00",
-      "summary": "From January through March 2026, Microsoft Entra introduced key updates to help organizations strengthen identity security, simplify governance, and improve user experience. This Q1 roundup highlights the latest feature releases and important changes—organized by product—so you can quickly see...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "ShobhitSahay",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
-      "published": "2026-04-24T18:35:28+00:00",
-      "summary": "Co-authors: Jie Su, Abhinav Dua, Mukthar Ahmed, Dhruv Joshi, Dibyendu Mondal In a previous post, we shared how Azure Automated VM Recovery works to minimize virtual machine downtime through a three-stage approach: Detection, Diagnosis, and Mitigation. This post goes one layer deeper into how our...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Jon_Andoni_Baranda",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Compute"
-    },
-    {
-      "title": "Designing a Medallion Framework — A Decision Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/designing-a-medallion-framework-a-decision-guide/ba-p/4514349",
-      "published": "2026-04-24T16:11:09+00:00",
-      "summary": "Everyone draws the same picture: Bronze → Silver → Gold. Three boxes, three arrows. Done. What that picture hides is the dozen design decisions you have to make inside each box — and the ones you make at the boundaries between them. Get those right and onboarding the 200th table feels like...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Subhajit1994",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Enhancing Enterprise AI Deployments with Zero Trust Networking",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enhancing-enterprise-ai-deployments-with-zero-trust-networking/ba-p/4513662",
-      "published": "2026-04-24T16:08:22+00:00",
-      "summary": "Problem Statement Azure OpenAI is publicly accessible by default Azure OpenAI frequently asked questions | Microsoft Learn Any application with API access can call it from anywhere Violates: Enterprise security policies Zero Trust architecture Key principles of the Zero Trust network model...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kirankumar_manchiwar04",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
     }
   ]
 }
