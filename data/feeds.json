@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T13:08:01.428314+00:00",
+  "lastUpdated": "2026-05-26T12:58:03.988121+00:00",
   "totalArticles": 386,
   "categories": {
     "Compute": [
@@ -285,6 +285,90 @@
   },
   "articles": [
     {
+      "title": "Reporting Usage Patterns for Room Mailboxes",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/reporting-usage-patterns-for-room-mailboxes/m-p/4522890#M59321",
+      "published": "2026-05-26T09:41:15+00:00",
+      "summary": "A recent post on the EHLO blog discusses how to find whether room mailboxes are active. I've been down this path before and created a PowerShell script to analyze the usage of room mailboxes. In this article, I explain some of the finer points about the topic, including whether to use Exchange...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Code coverage on pull requests is now in public preview",
+      "link": "https://github.blog/changelog/2026-05-26-code-coverage-in-pull-requests-is-now-in-public-preview",
+      "published": "2026-05-26T08:51:59+00:00",
+      "summary": "Code coverage metrics are now in public preview for all GitHub Code Quality users on github.com. You can now see an aggregate percent of code covered directly on pull requests,… The post Code coverage on pull requests is now in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Building an On-Device Voice Assistant with Microsoft Foundry Local",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-on-device-voice-assistant-with-microsoft-foundry/ba-p/4522392",
+      "published": "2026-05-26T07:00:00+00:00",
+      "summary": "Why on-device voice still matters Most \"voice AI\" tutorials assume your audio leaves the machine. You ship a WAV to Whisper-API, your transcript to GPT-4, and a synthesized response back over the wire. That works — but it also means three round trips, three per-token bills, and three places your...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Outlook Cached Mode Repeatedly Re-syncs Mailbox After Restart (Starts Again Around 3.99 GB)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/outlook-cached-mode-repeatedly-re-syncs-mailbox-after-restart/m-p/4522809#M59319",
+      "published": "2026-05-26T05:52:55+00:00",
+      "summary": "Hi everyone,I’m experiencing a strange Outlook Cached Exchange Mode issue with a Microsoft 365 mailbox after a recent Windows rebuild and wanted to see if anyone has seen similar behavior.Environment:Microsoft 365 mailbox (Exchange Online)Outlook for Microsoft 365Version 2605 Build 16.0.20026.20076...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "AhBAy2335",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Sole Microsoft 365 Admin Locked Out After Phone Replacement / Lost MFA Device",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/sole-microsoft-365-admin-locked-out-after-phone-replacement-lost/m-p/4522775#M59317",
+      "published": "2026-05-25T21:03:45+00:00",
+      "summary": "I am the sole admin for a Microsoft 365 tenant and I am currently locked out after replacing my phone. The old phone was wiped before Microsoft Authenticator was fully re-registered on the new device. Authenticator was the only MFA method configured on the account. Current situation: password is...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JamesLPFG",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+      "published": "2026-05-25T16:00:00+00:00",
+      "summary": "Discover how to use VS Code to interact with GitHub and maintain your projects. The post GitHub for Beginners: Getting started with Git and GitHub in VS Code appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Windows activation lost",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-activation-lost/m-p/4522700#M44049",
+      "published": "2026-05-25T11:44:46+00:00",
+      "summary": "Hey everyone! i recently joined the insider program with a windows 11 Home edition PC. after that, it switched itself to pro edition for some reason, and my activation was lost. after that, i left the insider program, and reupdated to the normal edition to wndows, but my activation was still gone....",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "dec0",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "How to Send a Welcome Message to New Employees with Attachments for Calendar Events",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-send-a-welcome-message-to-new-employees-with-attachments/m-p/4522621#M59316",
       "published": "2026-05-25T08:19:57+00:00",
@@ -309,6 +393,18 @@
       "product": "Azure Community"
     },
     {
+      "title": "Help! Locked out due to Authenticator App Issues",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/help-locked-out-due-to-authenticator-app-issues/m-p/4522555#M44042",
+      "published": "2026-05-24T12:05:52+00:00",
+      "summary": "I'm really hoping someone can help - In transferring over my authenticator app to a new phone something went wrong and now the only way to 2-step authenticate is through the app - which I can't access. When i select additional verification methods this is what I get: When I reset my password...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "lockedout",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
       "published": "2026-05-24T09:43:53+00:00",
@@ -331,6 +427,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Microsoft teams personal package",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-personal-package/m-p/4522461#M144943",
+      "published": "2026-05-23T12:41:52+00:00",
+      "summary": "Dear communityI am looking for a Microsoft package with Teams that supports 300 users. Can the personal package work out for this?I was trying to pay for one month, but it was not allowing me to change the country, only the US. Kindly help out if anyone can.",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "James26",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
     },
     {
       "title": "Update 26220.8491: Win11 Update Freezes at 38% - Hypervisor Launch Failed (No VMX)",
@@ -1315,18 +1423,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Networking"
-    },
-    {
-      "title": "Gemini 3.5 Flash is generally available for GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
-      "published": "2026-05-19T17:56:38+00:00",
-      "summary": "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost… The post Gemini 3.5 Flash is generally available for GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Outbound Access Protection for semantic models (Preview)",
@@ -2325,18 +2421,6 @@
       "product": "Visual Studio"
     },
     {
-      "title": "Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them)",
-      "link": "https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them/",
-      "published": "2026-05-13T16:00:00+00:00",
-      "summary": "Roguelikes don’t die. They fork, mutate, get argued over, rewritten, abandoned, and revived again. Sometimes all at once. The post Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them) appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Lee Reilly",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Encryption in Microsoft 365 – How It Protects Your Data",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/encryption-in-microsoft-365-how-it-protects-your-data/m-p/4519389#M59278",
       "published": "2026-05-13T15:18:28+00:00",
@@ -3033,30 +3117,6 @@
       "product": "Windows"
     },
     {
-      "title": "Is it possible to run ryujinx canary on an administrator account on windows?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/is-it-possible-to-run-ryujinx-canary-on-an-administrator-account/m-p/4517980#M43819",
-      "published": "2026-05-09T06:09:23+00:00",
-      "summary": "hi! I recently saw a tutorial for opening ryujinx (from extracted folder) when it isn't working, and the guys said that yu need to make a local acc for your pc. I'm wondering if there's anyway I can do this without doing that, because I'd have to redownload everything.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Manstaway",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Why Windows 11 still depends on 1990s code",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/why-windows-11-still-depends-on-1990s-code/m-p/4517979#M43818",
-      "published": "2026-05-09T06:05:00+00:00",
-      "summary": "Windows 11 looks modern on the surface. Rounded corners, AI features, redesigned menus, cloud integration, Copilot branding everywhere. Underneath all of that, Microsoft is still relying on core technology designed during the Windows 95 era.That is not speculation or internet nostalgia. Microsoft...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Zillmann",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Remove ads from Office 365 apps",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/remove-ads-from-office-365-apps/m-p/4517968#M59265",
       "published": "2026-05-09T05:39:19+00:00",
@@ -3441,18 +3501,6 @@
       "product": "ISE"
     },
     {
-      "title": "Building a Scalable Contract Data Extraction Pipeline with Microsoft Foundry and Python",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-scalable-contract-data-extraction-pipeline-with/ba-p/4513681",
-      "published": "2026-05-07T07:00:00+00:00",
-      "summary": "Architecture Overview Alt text: Architecture diagram showing Blob Storage triggering Azure Function, calling Document Intelligence, transforming data, and storing in Cosmos DB Flow: Upload contract files (PDF or ZIP) to Azure Blob Storage Azure Function triggers automatically on file upload Azure...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "tanyabaranwal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "Governing Agent Sprawl: A Multi‑Region AI Agent Landing Zone on Azure (Reference Architecture)",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/governing-agent-sprawl-a-multi-region-ai-agent-landing-zone-on/ba-p/4516036",
       "published": "2026-05-07T05:19:02+00:00",
@@ -3765,30 +3813,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "Running engagement surveys through M365 without buying another tool?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/running-engagement-surveys-through-m365-without-buying-another/m-p/4517146#M59253",
-      "published": "2026-05-06T03:12:44+00:00",
-      "summary": "HR asked me if we can run quarterly employee engagement surveys using our existing M365 stack. We have E3 licenses. I tried setting up something with Forms but the analytics are super basic and theres no way to track trends over time or slice by department without a bunch of manual Excel work....",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "ElisaDelaney",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Best way to enforce manager check-ins across the org using M365 tools?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/best-way-to-enforce-manager-check-ins-across-the-org-using-m365/m-p/4517145#M59252",
-      "published": "2026-05-06T03:03:39+00:00",
-      "summary": "Our CHRO wants every manager to have at least bi-weekly check-ins with directs and wants visibility into whether its actually happening. Right now theres zero tracking. Some managers do it, some dont, and leadership has no idea. I looked at Viva Insights but it only shows meeting frequency, not...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JordanT86",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Use Azure Container Registry as an Upstream Source for Artifact Cache",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/use-azure-container-registry-as-an-upstream-source-for-artifact/ba-p/4517102",
       "published": "2026-05-05T23:29:10+00:00",
@@ -3847,18 +3871,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "No More All-or-Nothing: Smarter, Granular Data Recovery in Microsoft 365 Backup",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/no-more-all-or-nothing-smarter-granular-data-recovery-in/m-p/4516988#M59249",
-      "published": "2026-05-05T11:42:35+00:00",
-      "summary": "Data recovery has long carried a kind of quiet dread in the IT world. When something goes wrong whether it’s a user accidentally deleting an important file, a sync error wiping out folders, or a security incident compromising data the recovery process often feels like a blunt instrument....",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JohnNaguib",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "From Manual Backfills to Autonomous Pipelines: Building an LLM-Powered Backfill Agent on Azure",
@@ -4903,18 +4915,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "New MTR devices unable to connect workplace",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/new-mtr-devices-unable-to-connect-workplace/m-p/4514790#M144861",
-      "published": "2026-04-26T09:52:08+00:00",
-      "summary": "Hello collective im facing an issue with new Poly devices Poly X52 + Poly TC10 + Poly Trio 60Poly X52 + Poly TC10Both devices can not connect to M365.Error message: \"Couldn't connect to Workplace Join. try again, or contact your admin.\"Firewall settings seems to be ok and devices are on the same...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Viktor_Kanocz",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     }
   ]
 }
