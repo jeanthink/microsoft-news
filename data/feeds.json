@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-26T12:58:03.988121+00:00",
-  "totalArticles": 386,
+  "lastUpdated": "2026-05-27T13:07:42.351946+00:00",
+  "totalArticles": 391,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,330 @@
     ]
   },
   "articles": [
+    {
+      "title": "From Excel to Delta Tables - Simplifying Excel Data Ingestion with Shortcut Transformations (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-Excel-to-Delta-Tables-Simplifying-Excel-Data-Ingestion-with/ba-p/5185370",
+      "published": "2026-05-27T12:31:59+00:00",
+      "summary": "Haresh Gowri Sankar, Principal Product Manager - Microsoft Fabric",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "hareshgowri",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Sending a Welcome Message to New Employees Part 2",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/sending-a-welcome-message-to-new-employees-part-2/m-p/4523229#M59328",
+      "published": "2026-05-27T09:48:41+00:00",
+      "summary": "Recently, I wrote about how to use PowerShell to send a welcome email to new employees together with attached ICS files for corporate events. Although new employees can add the ICS files to their calendars (so the solution works), simply inviting employees to attend those events by updating the...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Multi-Tenant Architecture: Real Challenges and an Azure Design Walkthrough",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/multi-tenant-architecture-real-challenges-and-an-azure-design/ba-p/4517460",
+      "published": "2026-05-27T07:00:00+00:00",
+      "summary": "Azure Multi-Tenant Architecture (B2C Scenario) Let’s start with a reference design commonly used in Azure-based systems. A pretty standard setup looks something like this: Microsoft Entra External ID (Azure AD B2C) for authentication Azure API Management as the entry layer App Service or Functions...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "pranav_pratik",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
+      "published": "2026-05-26T21:35:34+00:00",
+      "summary": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Defender Experts and Microsoft Defender Security Research Team",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Copilot Memory has more controls for deletion, scope, and the Copilot CLI",
+      "link": "https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli",
+      "published": "2026-05-26T21:05:28+00:00",
+      "summary": "Copilot Memory now includes improved memory deletion, adds a repository-level off switch, and brings further memory controls into the Copilot CLI. Copilot Memory is in public preview and available to… The post Copilot Memory has more controls for deletion, scope, and the Copilot CLI appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Simplify your data movement with Copy job: CDC with SQL estate (Generally Available)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Simplify-your-data-movement-with-Copy-job-CDC-with-SQL-estate/ba-p/5184211",
+      "published": "2026-05-26T21:00:00+00:00",
+      "summary": "Author: Ye Xu, Principal Program Manager - Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds and tenants. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "yexu",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Simplify Virtual WAN Spoke Connectivity at Scale with Azure Virtual Network Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-virtual-wan-spoke-connectivity-at-scale-with-azure/ba-p/4523055",
+      "published": "2026-05-26T20:44:54+00:00",
+      "summary": "With Azure Virtual Network Manager (AVNM) integration, organizations using Virtual WAN for transitive connectivity can simplify spoke connectivity and policy management across large-scale hub-and-spoke deployments. By using a Virtual WAN hub as the hub in an AVNM hub-and-spoke topology,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "GitHub Code Quality: Repository Enablement API",
+      "link": "https://github.blog/changelog/2026-05-26-github-code-quality-repository-enablement-api",
+      "published": "2026-05-26T20:35:06+00:00",
+      "summary": "You can now programmatically enable and configure GitHub Code Quality on individual repositories using the new Repository Enablement API, available today in public preview. Two new endpoints are now available:… The post GitHub Code Quality: Repository Enablement API appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Target Copilot models to organizations with model rules",
+      "link": "https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules",
+      "published": "2026-05-26T19:47:22+00:00",
+      "summary": "Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of… The post Target Copilot models to organizations with model rules appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How ACR Runs Multi-Tenancy at Scale: Stamp Rebalancing and Why You Never See It Happen",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-runs-multi-tenancy-at-scale-stamp-rebalancing-and-why/ba-p/4523014",
+      "published": "2026-05-26T18:11:47+00:00",
+      "summary": "By Johnson Shi, Richard Yuan, Yi Zha, Susan Shi, Jeanine Burke, Bin Du, Clark Porter, Bernie Harris, Eric Du Introduction Two of the most common questions we hear from teams running container workloads at scale on Azure Container Registry (ACR) are: \"How does ACR keep my registry's performance...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Doing More with GitHub Copilot as a .NET Developer",
+      "link": "https://devblogs.microsoft.com/dotnet/doing-more-with-github-copilot/",
+      "published": "2026-05-26T17:05:00+00:00",
+      "summary": "Want to get more out of your GitHub Copilot experience? Here are some easy ways to get started. The post Doing More with GitHub Copilot as a .NET Developer appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Wendy Breiding (SHE/HER)",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Custom Live Pools for Fabric Data Engineering (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Custom-Live-Pools-for-Fabric-Data-Engineering-Preview/ba-p/5187356",
+      "published": "2026-05-26T17:00:00+00:00",
+      "summary": "Author: Santhosh Kumar Ravindran, Principal Product Manager - Custom Live Pools for Fabric Data Engineering is a new way to schedule and manage “ready to run” Spark capacity so your teams spend less time waiting for compute and more time delivering outcomes.",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "Santhosh_Ravin1",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Give Your .NET MAUI Android Apps a Material 3 Makeover",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-maui-material-3/",
+      "published": "2026-05-26T17:00:00+00:00",
+      "summary": "Material 3 (a.k.a. Material You) support is now available for .NET MAUI apps on Android. Here is how to enable it, what changes today, and what is still on the way. The post Give Your .NET MAUI Android Apps a Material 3 Makeover appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Gerald Versluis",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-may-2026/ba-p/4519803",
+      "published": "2026-05-26T16:51:37+00:00",
+      "summary": "Get ready for May’s OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "sophiapeng",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | April 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-april-2026/ba-p/4510339",
+      "published": "2026-05-26T16:50:02+00:00",
+      "summary": "Get ready for April’s OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "sophiapeng",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | March 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-march-2026/ba-p/4502727",
+      "published": "2026-05-26T16:47:09+00:00",
+      "summary": "OneDrive Consumer Office Hours are back! Creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared experiences. Register...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | February 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-february-2026/ba-p/4495492",
+      "published": "2026-05-26T16:45:57+00:00",
+      "summary": "OneDrive Consumer Office Hours are back! Creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared experiences. Register...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | January 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-january-2026/ba-p/4486905",
+      "published": "2026-05-26T16:44:52+00:00",
+      "summary": "There’s no better way to start the new year than listening, learning, and taking action! OneDrive Consumer Office Hours are back this January, creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "Dependabot version updates now support the sbt ecosystem",
+      "link": "https://github.blog/changelog/2026-05-26-dependabot-version-updates-now-support-the-sbt-ecosystem",
+      "published": "2026-05-26T16:10:46+00:00",
+      "summary": "Dependabot now supports sbt. Add sbt as a package ecosystem in your dependabot.yml file. Dependabot will then monitor your build.sbt inputs and open pull requests when newer commits are available… The post Dependabot version updates now support the sbt ecosystem appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
+      "published": "2026-05-26T16:01:24+00:00",
+      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "simranparkhe",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Confidential Computing"
+    },
+    {
+      "title": "Filter secret scanning approval requests by sort order and bypass status",
+      "link": "https://github.blog/changelog/2026-05-26-filter-secret-scanning-approval-requests-by-sort-order-and-bypass-status",
+      "published": "2026-05-26T16:01:21+00:00",
+      "summary": "This week, we’re rolling out two improvements to our delegated workflows for secret scanning. What’s changing Sort bypass and dismissal requests in the UI: You can now choose between ascending… The post Filter secret scanning approval requests by sort order and bypass status appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Simplify data movement with Copy job: more control, more flexibility",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Simplify-data-movement-with-Copy-job-more-control-more/ba-p/5184219",
+      "published": "2026-05-26T16:00:00+00:00",
+      "summary": "Author: Ye Xu, Principal Program Manager - Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds and tenants. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "yexu",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Allow Canvas Studio Public Embeds in Microsoft Sway",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/allow-canvas-studio-public-embeds-in-microsoft-sway/m-p/4522982#M59324",
+      "published": "2026-05-26T15:49:04+00:00",
+      "summary": "Sway is a hidden gem inside of Microsoft 365. I just discovered it, and it's an amazing tool to turn old PowerPoints or even lecture notes into dynamic lessons for students! One limitation I'm running into is the embed whitelist. While I know this app likely has low priority, is there any chance...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "DallasNM",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "GitHub Classroom sign-ups are no longer available",
+      "link": "https://github.blog/changelog/2026-05-26-github-classroom-sign-ups-are-no-longer-available",
+      "published": "2026-05-26T15:44:08+00:00",
+      "summary": "Starting today, new sign-ups for GitHub Classroom are no longer available as we transition to partner solutions. If you already have a GitHub Classroom account or existing classrooms, you can… The post GitHub Classroom sign-ups are no longer available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Visual Studio May Update – Plan, Review, Refine",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-may-update-plan-review-refine/",
+      "published": "2026-05-26T15:00:39+00:00",
+      "summary": "There’s a particular rhythm to good development work: you think, you try, you check, you adjust. This month’s Visual Studio update leans into that rhythm. Whether you’re sketching an approach with the Plan agent before touching a single file, reviewing a wave of changes across many files, or...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "Find shadow tenants and reduce risk fast with Microsoft Entra Tenant Governance",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/find-shadow-tenants-and-reduce-risk-fast-with-microsoft-entra/ba-p/4521996",
+      "published": "2026-05-26T15:00:00+00:00",
+      "summary": "As organizations grow, so does their tenant footprint. Over time, tenants created for acquisitions, development projects, regional operations, or partner collaboration can fall outside central IT visibility, creating what many security teams now refer to as shadow tenants. One of the foundational...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "CindyCrane",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Teams for Android Auto - Receive Messages but Replies always Fail",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-for-android-auto-receive-messages-but-replies-always-fail/m-p/4522952#M144946",
+      "published": "2026-05-26T13:21:07+00:00",
+      "summary": "I have a Pixel 10 with all latest OS and Patches as well as latest MS Teams App. For months now I've had a problem where all my incoming work messages on Teams come through fine, but when I attempt to reply it never sends the message. When I look at my Teams App there is a red retry icon because...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "KevinInKy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
     {
       "title": "Reporting Usage Patterns for Room Mailboxes",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/reporting-usage-patterns-for-room-mailboxes/m-p/4522890#M59321",
@@ -1005,18 +1329,6 @@
       "product": "Azure Integration"
     },
     {
-      "title": "Copilot usage metrics reports now use GitHub-owned download URLs",
-      "link": "https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls",
-      "published": "2026-05-20T23:58:35+00:00",
-      "summary": "As previously announced, the download URLs for Copilot usage metrics reports have migrated from Azure Front Door domains to a stable, GitHub-owned custom domain. This change improves URL stability and… The post Copilot usage metrics reports now use GitHub-owned download URLs appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Announcing Public Preview of Argo CD extension in AKS Azure Portal Experience",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-of-argo-cd-extension-in-aks-azure/ba-p/4521618",
       "published": "2026-05-20T22:00:21+00:00",
@@ -1041,10 +1353,10 @@
       "product": "Azure Arc"
     },
     {
-      "title": "Investigating unauthorized access to GitHub-owned repositories",
+      "title": "Investigation update: GitHub Enterprise Server signing key rotation",
       "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
       "published": "2026-05-20T21:07:38+00:00",
-      "summary": "If any impact is discovered, customers will be notified via established incident response and notification channels. The post Investigating unauthorized access to GitHub-owned repositories appeared first on The GitHub Blog.",
+      "summary": "GitHub Enterprise Server customers need to take immediate action. The post Investigation update: GitHub Enterprise Server signing key rotation appeared first on The GitHub Blog.",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "Natalie Guevara",
@@ -1137,18 +1449,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Updates to available models in Copilot on web",
-      "link": "https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web",
-      "published": "2026-05-20T17:11:42+00:00",
-      "summary": "We have updated our available model selection for Copilot Chat on the web to deliver more consistent, high-quality responses. What’s changed While model choice is valuable, we are limiting the… The post Updates to available models in Copilot on web appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Your dev loop is full of tribal knowledge",
       "link": "https://devblogs.microsoft.com/aspire/dev-loop-tribal-knowledge/",
       "published": "2026-05-20T17:00:00+00:00",
@@ -1221,18 +1521,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Auto model selection now routes based on your task in VS Code",
-      "link": "https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code",
-      "published": "2026-05-20T15:24:40+00:00",
-      "summary": "GitHub Copilot auto model selection now routes to the best model for your task, using utilization and model health metrics for a high quality, reliable, and token-efficient experience. How it… The post Auto model selection now routes based on your task in VS Code appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
       "published": "2026-05-20T15:00:00+00:00",
@@ -1243,18 +1531,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "Semantic issue search in Copilot Chat",
-      "link": "https://github.blog/changelog/2026-05-20-semantic-issue-search-in-copilot-chat",
-      "published": "2026-05-20T14:07:27+00:00",
-      "summary": "You can use natural language in GitHub Copilot Chat on web to quickly find, group, and analyze issues, with context-aware results powered by a new semantic issues index. What’s new… The post Semantic issue search in Copilot Chat appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Addressing Exchange Server May 2026 vulnerability CVE-2026-42897",
@@ -1315,30 +1591,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Linux on Azure"
-    },
-    {
-      "title": "Easily apply Copilot code review feedback with Copilot cloud agent",
-      "link": "https://github.blog/changelog/2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent",
-      "published": "2026-05-19T22:28:17+00:00",
-      "summary": "Copilot code review’s previous Implement suggestion button has now been renamed to Fix with Copilot and updated to support a UI dialog for more control over how suggestions are applied.… The post Easily apply Copilot code review feedback with Copilot cloud agent appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Upcoming deprecation of Python 3.9 for Dependabot",
-      "link": "https://github.blog/changelog/2026-05-19-upcoming-deprecation-of-python-3-9-for-dependabot",
-      "published": "2026-05-19T22:11:33+00:00",
-      "summary": "On June 23, 2026, Dependabot will no longer support Python version 3.9, which has reached its end-of-life. If you continue to use Python 3.9, there’s a risk that Dependabot will… The post Upcoming deprecation of Python 3.9 for Dependabot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
@@ -1435,18 +1687,6 @@
       "solutionArea": "AIBS",
       "billingType": "License",
       "product": "Power BI"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-05-19T16:44:15+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Confidential Computing"
     },
     {
       "title": "How to run evals for the model router",
@@ -1723,18 +1963,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "How to better protect your growing business in an AI-powered world",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
-      "published": "2026-05-18T16:00:00+00:00",
-      "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Alym Rayani",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Introducing selective response actions for high-value assets in Microsoft Defender",
@@ -2131,18 +2359,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender for Endpoint"
-    },
-    {
-      "title": "OneDrive Office Hours | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-office-hours-may-2026/ba-p/4519803",
-      "published": "2026-05-14T17:00:03+00:00",
-      "summary": "Get ready for May’s OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "sophiapeng",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
     },
     {
       "title": "From latency to instant: Modernizing GitHub Issues navigation performance",
@@ -2577,18 +2793,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Configurable Data Retention in Microsoft Fabric Warehouse (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Configurable-Data-Retention-in-Microsoft-Fabric-Warehouse/ba-p/5181211",
-      "published": "2026-05-12T17:26:00+00:00",
-      "summary": "Author: Ambika Jagadish, Senior Product Manager",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "ajagadish",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Foundry Local 1.1: Live Transcription, Embeddings, and Responses API",
       "link": "https://devblogs.microsoft.com/foundry/foundry-local-v1-1/",
       "published": "2026-05-12T16:51:39+00:00",
@@ -2875,18 +3079,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Entra"
-    },
-    {
-      "title": "Data Warehouse Monitor: A Unified Monitoring Experience for Fabric Data Warehouse (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-Warehouse-Monitor-A-Unified-Monitoring-Experience-for/ba-p/5180024",
-      "published": "2026-05-11T16:30:00+00:00",
-      "summary": "Authored by: Mariya Ali - Program Manager II and Twinkle Cyril - Senior Product Manager",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "TwinkleCyril",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "What’s new in Microsoft Sentinel: RSAC 2026",
@@ -3273,18 +3465,6 @@
       "product": "Azure Integration"
     },
     {
-      "title": "From Test Cases to Trust: Elevating Enterprise Quality with GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trust-elevating-enterprise-quality-with/ba-p/4512819",
-      "published": "2026-05-08T07:00:00+00:00",
-      "summary": "The Traditional QA Bottleneck In complex enterprise systems, QA teams often face familiar challenges: Time‑consuming test case creation from evolving requirements Repetitive automation scripting and refactoring Heavy regression cycles under tight release timelines Limited bandwidth for deeper risk...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SagarPatra",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "NVIDIA Dynamo on AKS: Disaggregated LLM Inference with H100 GPUs",
       "link": "https://azureglobalblackbelts.com/2026/05/08/nvidia-dynamo-on-aks",
       "published": "2026-05-08T00:00:00+00:00",
@@ -3537,40 +3717,16 @@
       "product": "Azure Migrate"
     },
     {
-      "title": "Prevent Microsoft 365 meeting invites from automatically appearing in users’ calendars",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/prevent-microsoft-365-meeting-invites-from-automatically/m-p/4517364#M59256",
-      "published": "2026-05-07T04:00:05+00:00",
-      "summary": "Hi All, We are trying to prevent Microsoft 365 meeting invites from automatically appearing in users’ calendars as Tentative until the user explicitly accepts the invite. Setting for Outlook Classic, New Outlook and Windows or Outlook Web. Need Microsoft recommendation on this one.",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "AhBAy2335",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Validating agentic behavior when “correct” isn’t deterministic",
       "link": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
       "published": "2026-05-06T21:16:31+00:00",
-      "summary": "How to build the “Trust Layer” for Github Copilot cloud agent without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog.",
+      "summary": "How to build the “Trust Layer” for GitHub Copilot cloud agent without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog.",
       "blog": "GitHub Copilot Blog",
       "blogId": "githubcopilotblog",
       "author": "Gaurav Mittal",
       "solutionArea": "AIBS",
       "billingType": "License",
       "product": "GitHub Copilot"
-    },
-    {
-      "title": "High Concurrency Support for the Fabric Livy API— Scalable Spark Automation (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/High-Concurrency-Support-for-the-Fabric-Livy-API-Scalable-Spark/ba-p/5178390",
-      "published": "2026-05-06T21:00:00+00:00",
-      "summary": "Author: Avinanda Chattapadday — Senior Product Manager",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "avinandac",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Azure Reserved VM Instances for select VM series will no longer be available starting July 1, 2026",
@@ -3609,18 +3765,6 @@
       "product": "Azure Innovation"
     },
     {
-      "title": "OneLake catalog is now natively available in Foundry (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-catalog-is-now-natively-available-in-Foundry-Generally/ba-p/5178376",
-      "published": "2026-05-06T18:37:02+00:00",
-      "summary": "Author: Miquella de Boer - Principal Product Manager Lead",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "miquelladeboer",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Distributing model weights to your AI cluster: a faster pre-flight on AKS and Slurm",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/distributing-model-weights-to-your-ai-cluster-a-faster-pre/ba-p/4517294",
       "published": "2026-05-06T18:30:00+00:00",
@@ -3655,18 +3799,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender for Cloud"
-    },
-    {
-      "title": "Durable Workflows in the Microsoft Agent Framework",
-      "link": "https://devblogs.microsoft.com/dotnet/durable-workflows-in-microsoft-agent-framework/",
-      "published": "2026-05-06T17:00:00+00:00",
-      "summary": "Build durable AI agent workflows with the Microsoft Agent Framework. Start with in-process console apps, add durability with the Durable Task runtime, scale with parallel AI agents, and host on Azure Functions for serverless execution. The post Durable Workflows in the Microsoft Agent Framework...",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Shyju Krishnankutty",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
     },
     {
       "title": "Tenant Configuration Management APIs are now generally available",
@@ -3775,18 +3907,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Granular Restore for Microsoft 365 Backup Reaches General Availability",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/granular-restore-for-microsoft-365-backup-reaches-general/m-p/4517207#M59255",
-      "published": "2026-05-06T08:46:07+00:00",
-      "summary": "Eighteen months after the product became generally available, Microsoft 365 Backup has delivered granular restore for SharePoint Online and OneDrive sites. It’s the kind of feature that most tenant administrators might have assumed is already in the program, but at least it now is. The next step is...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Feature Request: Custom Status Labels for Calendar Events (e.g., 'In a Training')",
@@ -4027,18 +4147,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Microsoft Agent Framework – Building Blocks for AI Part 3",
-      "link": "https://devblogs.microsoft.com/dotnet/microsoft-agent-framework-building-blocks-for-ai-part-3/",
-      "published": "2026-05-04T17:06:22+00:00",
-      "summary": "Build intelligent AI agents in .NET with the Microsoft Agent Framework. Learn how to create agents with tools, multi-turn conversations, memory, and graph-based workflows that bring together the building blocks from Parts 1 and 2. The post Microsoft Agent Framework – Building Blocks for AI Part 3...",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Jeremy Likness",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
     },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
@@ -4485,18 +4593,6 @@
       "product": "Azure Architecture"
     },
     {
-      "title": "Azure SRE Agent for Azure Monitor Alerts: Reduce Alert Fatigue, Investigate What Matters",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-for-azure-monitor-alerts-reduce-alert-fatigue/ba-p/4513458",
-      "published": "2026-04-30T01:28:49+00:00",
-      "summary": "The Alert Problem Organizations running Azure Monitor tend to land in one of two situations: Alert fatigue has set in. Alert rules tend to grow over time — a CPU threshold from two years ago, a health probe check from a migration, a disk alert from an outage that never got cleaned up. These rules...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "From prompt to production: Teams agent setup, simplified",
       "link": "https://devblogs.microsoft.com/microsoft365dev/from-prompt-to-production-teams-agent-setup-simplified/",
       "published": "2026-04-29T21:27:55+00:00",
@@ -4879,42 +4975,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Arc"
-    },
-    {
-      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
-      "published": "2026-04-27T11:36:05+00:00",
-      "summary": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "robcronin",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
-    },
-    {
-      "title": "Restrict Users from Creating New Teams in Microsoft Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/restrict-users-from-creating-new-teams-in-microsoft-teams/m-p/4515082#M144864",
-      "published": "2026-04-27T10:57:54+00:00",
-      "summary": "Hello together,I've do this here: Manage who can create Microsoft 365 Groups | Microsoft LearnI create a group for users, that allowed to create new Teams Channels and run the script, but i didnt see in the updated settings the group ID: What im doing wrong?At the moment no one can create new Teams...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "GodCordial",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Protect org data on BYOD Windows / macOS devices",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/protect-org-data-on-byod-windows-macos-devices/m-p/4514964#M23387",
-      "published": "2026-04-27T07:38:28+00:00",
-      "summary": "Hi AllI hope you are well.Anyway, I have a need to protect org data on:Window personal / BYOD devicesMacOS personal / BYOD devicesWhat's the best way to achieve this?My thinking is:1 X Conditional Access policy that blocks1 X Conditional Access policy that allows via Edge, no persistent session, no...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "StuartK73",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
     }
   ]
 }
