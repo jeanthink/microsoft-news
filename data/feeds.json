@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-27T13:07:42.351946+00:00",
-  "totalArticles": 391,
+  "lastUpdated": "2026-05-28T13:12:00.525036+00:00",
+  "totalArticles": 388,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,210 @@
     ]
   },
   "articles": [
+    {
+      "title": "SQL + AI, hands-on: Join a free workshop near you",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-ai-hands-on-join-a-free-workshop-near-you/",
+      "published": "2026-05-28T13:09:15+00:00",
+      "summary": "If you work with Microsoft SQL regularly, the AI conversation right now probably feels a little exhausting. Every week brings a new platform, a new pattern, a new opinion about how you’re “supposed” to build AI apps. Most of it assumes you’ll start over. You don’t have to. We’re running SQL AI App...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Microsoft Rolls Out the New Calendar Sharing Model",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-rolls-out-the-new-calendar-sharing-model/m-p/4523490#M59332",
+      "published": "2026-05-28T07:17:22+00:00",
+      "summary": "An automatic upgrade is currently ongoing to move Outlook calendar sharing from the old MAPI-based model to a new REST-based model. The new model has been available to Outlook classic clients on an optional basis and is now becoming the default. The REST model is simpler and exploits the Exchange...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Verification-driven tooling prompts for fast-moving codebases",
+      "link": "https://devblogs.microsoft.com/ise/verification-driven-tooling-prompts/",
+      "published": "2026-05-28T07:00:00+00:00",
+      "summary": "A practical pattern for using GenAI research agents to produce reliable internal tooling by verifying assumptions with detection classes and a final checklist. The post Verification-driven tooling prompts for fast-moving codebases appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Dexter Williams",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "ISE"
+    },
+    {
+      "title": "Building Agentic Systems on Azure: Microsoft Foundry Agents SDK vs Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-agentic-systems-on-azure-microsoft-foundry-agents-sdk/ba-p/4517290",
+      "published": "2026-05-28T07:00:00+00:00",
+      "summary": "In my recent experience as a Senior Consultant at Microsoft, I’ve been actively involved in designing and delivering AI-driven solutions, with a strong focus on building intelligent agents using modern frameworks. Along the way, I've built agents using both Microsoft Foundry Agents SDK (hereafter...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ChaitanyaThalloory",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Access Your SRE Agent from Any IDE, Terminal, or AI Assistant",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/access-your-sre-agent-from-any-ide-terminal-or-ai-assistant/ba-p/4523434",
+      "published": "2026-05-28T01:28:47+00:00",
+      "summary": "Your team already uses an SRE Agent — it monitors your services, learns your architecture, and handles operational tasks. Now developers can talk to that agent in natural language from the interfaces they already use every day: their editor, their terminal, their AI assistant. Check what the agent...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "I’m Starting a New Cosmos DB App. What Security Do I Actually Need?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/im-starting-a-new-cosmos-db-app-what-security-do-i-actually-need/",
+      "published": "2026-05-27T20:49:18+00:00",
+      "summary": "You just created a Cosmos DB account. The portal handed you two keys and a connection string, it worked, and you moved on. That’s what most developers do, and it causes problems later. This post is a guide for developers launching a new Cosmos DB app who want a secure default setup without...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sudhanshu Khera, Iria Osara",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "Incremental Liquid Clustering in Microsoft Fabric: Faster, smarter, and truly incremental",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Incremental-Liquid-Clustering-in-Microsoft-Fabric-Faster-smarter/ba-p/5189122",
+      "published": "2026-05-27T19:37:15+00:00",
+      "summary": "Miles Cole — Principal Program Manager, Microsoft",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "milescole-msft",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Inspektor Gadget Completes Its First Independent Security Audit",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
+      "published": "2026-05-27T19:04:24+00:00",
+      "summary": "One thing I've learned working with Open Source software over the years is that the projects you can trust most are the ones willing to let someone else test and review. That's what's recently happened with Inspektor Gadget, the open source eBPF tool for Kubernetes observability and Linux host...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "Brian Benz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Linux on Azure"
+    },
+    {
+      "title": "How AI coding agents actually use your technology",
+      "link": "https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology",
+      "published": "2026-05-27T18:30:38+00:00",
+      "summary": "You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what’s actually happening between “developer types a prompt” and “agent generates code with your technology.” Is the agent reading...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
+    },
+    {
+      "title": "What was Windows XP for you?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-was-windows-xp-for-you/m-p/4523355#M44070",
+      "published": "2026-05-27T17:54:42+00:00",
+      "summary": "Almost everybody has heard of the legendary operating system Windows XP, but what was Windows XP specifically for you? Nostalgia, childhood?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "CTCSD",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Unlock IoT Hub event metadata in Fabric Eventstream with the enhanced IoT Hub connector (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Unlock-IoT-Hub-event-metadata-in-Fabric-Eventstream-with-the/ba-p/5184735",
+      "published": "2026-05-27T17:00:00+00:00",
+      "summary": "Author: Xu Jiang, Principal PM Manager - Bring more context to your IoT data in Microsoft Fabric Eventstream. With the enhanced Azure IoT Hub connector (Preview), you can now preserve valuable event metadata—such as device identity, ingestion time, and authentication details—alongside your payload,...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "xujx",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Organize your multitenant view with Tenant Groups in Microsoft Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/organize-your-multitenant-view-with-tenant-groups-in-microsoft/ba-p/4522992",
+      "published": "2026-05-27T16:00:00+00:00",
+      "summary": "Managing security across many tenants shouldn’t mean drowning in a single, flat list. We’re excited to share a new capability, now in public preview in the Microsoft Defender multitenant (MTO) portal: Tenant Groups—a flexible way to organize the tenants you manage and switch your view between them...",
+      "blog": "Microsoft Defender XDR",
+      "blogId": "MicrosoftThreatProtectionBlog",
+      "author": "Simaya_Ouli",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender XDR"
+    },
+    {
+      "title": "Introducing Microsoft Planetary Computer Pro Model Context Protocol Tools on VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/introducing-microsoft-planetary-computer-pro-model-context/ba-p/4522346",
+      "published": "2026-05-27T15:23:32+00:00",
+      "summary": "About Microsoft Planetary Computer Pro MCP Tools The Microsoft Planetary Computer Pro MCP Tools introduces a natural language-driven interface that simplifies how users interact with geospatial data managed with Microsoft Planetary Computer Pro. By integrating directly with GitHub Copilot in VS...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "nelsontam",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Planetary Computer"
+    },
+    {
+      "title": "A USB speaker in preview mode is suddenly recognized as a Steam Streaming device",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/a-usb-speaker-in-preview-mode-is-suddenly-recognized-as-a-steam/m-p/4523325#M44067",
+      "published": "2026-05-27T14:54:15+00:00",
+      "summary": "I'm not sure if this is related to the Windows Insider update, but the issue appeared today after the update last night. My USB speakers suddenly aren't being recognized properly and are showing up as “Steam Streaming Speakers/Microphone” in the sound settings.I’ve tried the following solutions,...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "PhoenixAdler",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "The Windows Insider settings screen says the account has already been registered and linked.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-windows-insider-settings-screen-says-the-account-has-already/m-p/4523324#M44066",
+      "published": "2026-05-27T14:53:38+00:00",
+      "summary": "When I go to the Windows Insider Program tab in Windows Settings, a yellow warning icon appears at the top: “Your device is set to receive Insider Preview builds. To change your Insider tier, make sure your Microsoft account is enrolled in the Insider Program and linked on this page.”The problem is...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "DaxxonFoster",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "CrossDeviceResume has reappeared after the Insider Preview update KB5089573",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/crossdeviceresume-has-reappeared-after-the-insider-preview/m-p/4523323#M44065",
+      "published": "2026-05-27T14:51:29+00:00",
+      "summary": "Nearly a year after successfully disabling the Resume feature using ViVeTool, the KB5089573 preview update has caused CrossDeviceResume to reappear. The old method no longer works, even when the Overrides key is entered correctly, and the Resume prompt still appears at every startup. All related...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Xollom",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Windows 11 Insider Experimental Future Platform build is stuck at 29591, and no updates are detected",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-experimental-future-platform-build-is-stuck/m-p/4523322#M44064",
+      "published": "2026-05-27T14:50:23+00:00",
+      "summary": "I went to Settings → Windows Update → Check for updates, hoping to detect and download version 29595, but it actually told me that I was already running the latest version and couldn't update to 29595.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "EmmettBrooks",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
     {
       "title": "From Excel to Delta Tables - Simplifying Excel Data Ingestion with Shortcut Transformations (Preview)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-Excel-to-Delta-Tables-Simplifying-Excel-Data-Ingestion-with/ba-p/5185370",
@@ -1075,6 +1279,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "The AX stack: what’s fixed, where you can win",
+      "link": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
+      "published": "2026-05-21T17:39:59+00:00",
+      "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
     },
     {
       "title": "You Can Build a Framework-Agnostic AI Gateway on Azure App Service — Here's How",
@@ -2553,18 +2769,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "Service Principal Support for Data Agents in Fabric (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Service-Principal-Support-for-Data-Agents-in-Fabric-Preview/ba-p/5181634",
-      "published": "2026-05-13T18:45:00+00:00",
-      "summary": "Amir Jafari - Principal Product ManagerJoanne Wong - Senior Product Marketing Manager",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "AmirJafari",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Introducing Azure Container Apps Express!",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150",
       "published": "2026-05-13T17:42:31+00:00",
@@ -2779,18 +2983,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Tools"
-    },
-    {
-      "title": "Optimize your storage costs with OneLake storage tiers and lifecycle management (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Optimize-your-storage-costs-with-OneLake-storage-tiers-and/ba-p/5179295",
-      "published": "2026-05-12T17:30:00+00:00",
-      "summary": "Author: Matt Basile - Senior Product Manager",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Mabasile_MSFT",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Foundry Local 1.1: Live Transcription, Embeddings, and Responses API",
@@ -3189,42 +3381,6 @@
       "product": "Microsoft Teams"
     },
     {
-      "title": "Any good suggestion for Spotify download mp3 on my Windows PC?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/any-good-suggestion-for-spotify-download-mp3-on-my-windows-pc/m-p/4518315#M43827",
-      "published": "2026-05-11T07:38:03+00:00",
-      "summary": "This is a long time problem even I have a premium subscription. I have the Spotify app on my Windows PC but it won't allow for mp3 download. This is the way it prevents user for offline listening. Any good suggestion for Spotify download mp3 on my Windows PC?I tried contacting the support team and...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "RyderNova",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "From Test Cases to Trusted Automation: Scaling Enterprise Quality with GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trusted-automation-scaling-enterprise-quality/ba-p/4512843",
-      "published": "2026-05-11T07:00:00+00:00",
-      "summary": "Automation First, But Trust Is Earned Enterprise QA teams today are automation‑led by default. Regression suites run daily, API tests validate integrations, and UI automation protects critical workflows. Yet, many teams still struggle with: Automation suites that lag behind changing requirements...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SagarPatra",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "How to remove junk files on mac and free up storage space?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-remove-junk-files-on-mac-and-free-up-storage-space/m-p/4518300#M43826",
-      "published": "2026-05-11T06:52:15+00:00",
-      "summary": "Hi everyone,My Mac has been getting slower recently and I noticed the storage is almost full. I think a lot of junk files, caches, old app data, and temporary files are taking up space, but I’m not sure what is safe to clear out.What is the best way to remove junk files on mac without damaging the...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Amiasop",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Understanding the deployment quota limitation (800) Error in Azure Bicep and ARM Deployments",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/understanding-the-deployment-quota-limitation-800-error-in-azure/ba-p/4518262",
       "published": "2026-05-11T05:12:56+00:00",
@@ -3271,42 +3427,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure GBB"
-    },
-    {
-      "title": "insider win11 - impossible update",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/insider-win11-impossible-update/m-p/4518189#M43825",
-      "published": "2026-05-10T15:24:43+00:00",
-      "summary": "I am in insider program, I bought a pc with this onfiguration, now I am trying to instal win11pro normal license. but process lock at 27% trying to preserve my data. I need urgent fix.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "therulli",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Bug na bateria após atualização em 06/05/2026",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/bug-na-bateria-ap%C3%B3s-atualiza%C3%A7%C3%A3o-em-06-05-2026/m-p/4518153#M43823",
-      "published": "2026-05-09T19:18:35+00:00",
-      "summary": "Olá, pessoal. Tenho um notebook com processador Intel Core i5 de 11ª geração e faço parte do Programa Windows Insider. Na quarta-feira, 06/05/2026, por volta das 16h, ao desligar o notebook, apareceu a opção de atualização. Selecionei “Atualizar e desligar”. Aguardei o desligamento, fechei a tampa...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "JulianoCristhian",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Quick question about window PC requirements for meta link cable?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/quick-question-about-window-pc-requirements-for-meta-link-cable/m-p/4517981#M43820",
-      "published": "2026-05-09T06:13:58+00:00",
-      "summary": "Do I not have the right requirements? I finally got myself a link cable and was going to connect it to my computer, but it’s just not reading it and it’s saying, I don’t meet the updated minimum specifications. I have a: NVIDIA GeForce RTX 5060 Laptop GPU (sorry for being dumb I am)",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Paulload",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Remove ads from Office 365 apps",
@@ -3379,18 +3499,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Exchange"
-    },
-    {
-      "title": "Inspektor Gadget Completes Its First Independent Security Audit",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
-      "published": "2026-05-08T17:56:26+00:00",
-      "summary": "One thing I've learned working with Open Source software over the years is that the projects you can trust most are the ones willing to let someone else test and review. That's what's recently happened with Inspektor Gadget, the open source eBPF tool for Kubernetes observability and Linux host...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "Brian Benz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
     },
     {
       "title": "Retirement of Direct Exchange ActiveSync Certificate-Based Authentication by End of 2026",
@@ -3655,18 +3763,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "An Explosion of Audit Events for Legacy SharePoint Online Authentication",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/an-explosion-of-audit-events-for-legacy-sharepoint-online/m-p/4517475#M59257",
-      "published": "2026-05-07T09:59:23+00:00",
-      "summary": "Microsoft phased out the legacy IDCRL authentication mechanism from SharePoint Online on May 1, 2026. Sounds good, until you notice the explosion of IDCRLBlockedDueToSoftEnforcement events created by SharePoint Online in the unified audit log. The events are associated with Microsoft Office apps...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "SQL query generation from natural language",
@@ -4039,18 +4135,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Performance Tuning and Scaling Optimization for Large-Scale Azure Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/performance-tuning-and-scaling-optimization-for-large-scale/ba-p/4516788",
-      "published": "2026-05-05T04:52:06+00:00",
-      "summary": "Summary As cloud-native systems scale, performance challenges rarely stem from a single bottleneck. Instead, they emerge from the interaction between compute, orchestration, and data layers under load. This article captures a practical optimization journey of a high-volume Azure-based workload and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "ruchitapradhan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Building Multi-File Refactoring Agents with GitHub Copilot Workspace",
@@ -4855,126 +4939,6 @@
       "solutionArea": "Security",
       "billingType": "License",
       "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "Project Pavilion Presence at KubeCon EU 2026",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/project-pavilion-presence-at-kubecon-eu-2026/ba-p/4515518",
-      "published": "2026-04-28T12:50:16+00:00",
-      "summary": "KubeCon + CloudNativeCon Europe 2026 took place from 23 to 26 March at RAI Amsterdam, and it was a strong one. The themes running through the week reflected where the cloud native community is right now: AI moving from experimentation into production, platform engineering continuing to mature, and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "lexinadolski",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
-    },
-    {
-      "title": "Welcome to Azure Cosmos DB Conf 2026",
-      "link": "https://devblogs.microsoft.com/cosmosdb/welcome-to-azure-cosmos-db-conf-2026/",
-      "published": "2026-04-28T12:00:07+00:00",
-      "summary": "Today is the day. Azure Cosmos DB Conf 2026, in partnership with AMD, is a free virtual developer event focused on building modern, scalable applications with Azure Cosmos DB. The agenda features Microsoft engineers, product team leaders, and members of the global developer community sharing...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jay Gordon",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "PowerToys 0.99 is here: new monitor controls, easier window management, and Dock upgrades",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-99-is-here-new-monitor-controls-easier-window-management-and-dock-upgrades/",
-      "published": "2026-04-28T11:32:59+00:00",
-      "summary": "We’re back with a fresh PowerToys release! This month introduces Power Display for controlling your monitors from the system tray, Grab And Move for quickly moving and resizing windows, and a wave of improvements to Command Palette and the Dock, along with updates across the utility suite. You can...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows Terminal"
-    },
-    {
-      "title": "How to Report Single-User Teams Online Meetings",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-to-report-single-user-teams-online-meetings/m-p/4515412#M144871",
-      "published": "2026-04-28T09:36:12+00:00",
-      "summary": "In 2024, I wrote a script explaining how to report details of Teams online meetings, including participants. Now someone wants to report single-user meetings. Their reason is that company management believe that some remote workers schedule online meetings that only they attend with the intention...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Introducing AI Skill Assessment in Azure API Center",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-ai-skill-assessment-in-azure-api-center/ba-p/4515243",
-      "published": "2026-04-27T23:33:09+00:00",
-      "summary": "As AI skills become central to enterprise automation and intelligent workflows, ensuring their quality, safety, and discoverability at scale is a growing challenge. Today, we're excited to announce skills assessment in Azure API Center — a built-in, automated quality scoring system powered by the...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Python Environments Extension for VS Code- April Update",
-      "link": "https://devblogs.microsoft.com/python/python-in-visual-studio-code-april-2026-release/",
-      "published": "2026-04-27T20:07:30+00:00",
-      "summary": "The April 2026 release update includes the Python Environments extension... Keep on reading to learn more! The post Python Environments Extension for VS Code- April Update appeared first on Microsoft for Python Developers Blog.",
-      "blog": "Python at Microsoft",
-      "blogId": "pythonblog",
-      "author": "Vedha Ranganathan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Python"
-    },
-    {
-      "title": "Deprecating Legacy TLS and Endpoints for POP and IMAP in Exchange Online",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/deprecating-legacy-tls-and-endpoints-for-pop-and-imap-in/ba-p/4515201",
-      "published": "2026-04-27T19:03:29+00:00",
-      "summary": "Security on the internet continues to evolve, and older cryptographic protocols no longer provide the protections required for today’s threat landscape. As part of our ongoing work to help customers keep their email environments secure, we’re taking another step in modernizing Exchange Online...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Azure Data Studio is retired: Move your Azure SQL workflow to VS Code in 10 minutes",
-      "link": "https://devblogs.microsoft.com/azure-sql/azure-data-studio-is-retired-move-your-azure-sql-workflow-to-vs-code-in-10-minutes/",
-      "published": "2026-04-27T18:20:58+00:00",
-      "summary": "Azure Data Studio (ADS) retired on February 6, 2025, and support ended on February 28, 2026. The recommended path forward is Visual Studio Code with the MSSQL extension. If you used ADS daily, this guide gets you productive quickly in VS Code. The focus is on importing your existing setup,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Iqra Shaikh",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "Assess Secure Boot status with Microsoft Defender",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/assess-secure-boot-status-with-microsoft-defender/ba-p/4510356",
-      "published": "2026-04-27T16:38:22+00:00",
-      "summary": "Understanding the Secure Boot certificate challenge Secure Boot is a foundational security feature that validates the integrity of your device's boot process, ensuring only trusted software can run during system startup. This protection has been quietly defending enterprise devices since 2012, but...",
-      "blog": "Defender for Endpoint",
-      "blogId": "MicrosoftDefenderATPBlog",
-      "author": "amitcohen",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender for Endpoint"
-    },
-    {
-      "title": "Azure Local expands to sovereign-scale infrastructure with disaggregated deployments",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-expands-to-sovereign-scale-infrastructure-with/ba-p/4514338",
-      "published": "2026-04-27T15:45:00+00:00",
-      "summary": "As organizations accelerate digital transformation across datacenters, sovereign environments, and edge locations, infrastructure architectures must evolve to meet new operational and regulatory demands. The first feature update of Azure Local in CY 2026 (version 2604) marks a significant step...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "troettinger",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
     }
   ]
 }
