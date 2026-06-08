@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-07T12:32:49.832852+00:00",
-  "totalArticles": 398,
+  "lastUpdated": "2026-06-08T13:27:03.497390+00:00",
+  "totalArticles": 391,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,78 @@
     ]
   },
   "articles": [
+    {
+      "title": "Now in preview: built-in MCP for Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/now-in-preview-built-in-mcp-for-azure-app-service/ba-p/4526407",
+      "published": "2026-06-08T13:09:52+00:00",
+      "summary": "At Build 2026 last week, we announced the public preview of built-in MCP for Azure App Service. It does one thing, and it does it with almost no effort on your part: it turns a REST API you already host on App Service into a Model Context Protocol (MCP) server, so AI agents and assistants can call...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "SharePoint and OneDrive Shortcuts in OneLake (Generally Available)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/SharePoint-and-OneDrive-Shortcuts-in-OneLake-Generally-Available/ba-p/5193807",
+      "published": "2026-06-08T12:18:35+00:00",
+      "summary": "For most enterprises, the largest and fastest-growing repository of business-critical information is SharePoint and OneDrive. Contracts, financial models, project plans, meeting notes, presentations, and compliance documentation accumulate across every team and department, rich with context that...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "shiv_narayanan",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "The Worm in the Supply Chain: How Defender for Endpoint and Sentinel for SAP BTP Caught Shai-Hulud",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-worm-in-the-supply-chain-how-defender-for-endpoint-and/ba-p/4526246",
+      "published": "2026-06-08T10:52:16+00:00",
+      "summary": "On 29 April 2026, malicious versions of multiple SAP ecosystem npm packages were briefly published, creating a supply-chain exposure for SAP Cloud Application Programming (CAP) development environments and CI/CD pipelines. For a brief window that morning, affected developers have executed a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MartinPankraz",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Sentinel"
+    },
+    {
+      "title": "Designing Reliable Data Platforms: Centralized Failure Logging Framework with Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/designing-reliable-data-platforms-centralized-failure-logging/ba-p/4505832",
+      "published": "2026-06-08T10:31:33+00:00",
+      "summary": "Introduction Modern data platforms are no longer just about moving and transforming data. In production, what really matters is reliability and how quickly you can understand and react when something breaks. If you’re using Azure Synapse/ADF/Microsoft Fabric, you already have built-in monitoring....",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Sally_Dabbah",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Microsoft Extends Sensitivity Label Block for Connected Services",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-extends-sensitivity-label-block-for-connected-services/m-p/4526293#M59363",
+      "published": "2026-06-08T09:10:04+00:00",
+      "summary": "The BlockContentAnalysisServices sensitivity label setting blocks access to Microsoft connected services for the content of labeled Office documents. The intention is that users assign sensitivity labels with the block setting to protect an organization’s most sensitive files. Regretfully,...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Getting Secrets Out of YAML: Implementing Azure Key Vault CSI Driver on AKS with Workload Identity",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-secrets-out-of-yaml-implementing-azure-key-vault-csi/ba-p/4522590",
+      "published": "2026-06-08T07:00:00+00:00",
+      "summary": "Table of Contents Why This Pattern Matters The Problem with Secrets in YAML What We Wanted to Achieve Architecture Overview How the Flow Works Implementation Prerequisites Step-by-Step Implementation Understanding the YAML Components Secret Rotation and Reloaders Common Pitfalls and Troubleshooting...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "anandranjan",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
     {
       "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
@@ -1617,18 +1689,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Shaping what Azure SRE Agent does: Tool Permissions and Hooks",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/shaping-what-azure-sre-agent-does-tool-permissions-and-hooks/ba-p/4524791",
-      "published": "2026-06-02T21:11:11+00:00",
-      "summary": "When an AI agent runs against production, the first question every security team asks is \"What can it do, who decided it could, and what stops it from doing something it should not.\" Azure SRE Agent reached general availability in March. Since then, teams inside Microsoft and customers running it...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Private Plugins with Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/private-plugins-with-azure-sre-agent/ba-p/4523763",
       "published": "2026-06-02T21:09:48+00:00",
@@ -1759,18 +1819,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Fabric IQ: The shared context layer for AI agents and real-time applications",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-IQ-The-shared-context-layer-for-AI-agents-and-real-time/ba-p/5191678",
-      "published": "2026-06-02T20:40:19+00:00",
-      "summary": "Every leadership team is asking the same question: how do we win in the age of AI?The answer is no longer just better models. It is whether your people and AI agents can operate together, in real time, sharing an always-current understanding of the state of the business.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "yitzhak",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Azure Connector Namespaces: managed integration for any Azure compute",
@@ -3645,18 +3693,6 @@
       "product": "Azure Storage"
     },
     {
-      "title": "Info MS 365",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/info-ms-365/m-p/4522235#M59308",
-      "published": "2026-05-22T09:58:04+00:00",
-      "summary": "Hi,by purchasing an MS 365 Standard license is it possible to configure my Outlook Pro 2021 LTSC to see the email? Thanks",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "NewWasat",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "When RAG Hits the Wall: Designing Systems That Scale from 1,000 to 1 million Documents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-rag-hits-the-wall-designing-systems-that-scale-from-1-000/ba-p/4516085",
       "published": "2026-05-22T07:00:00+00:00",
@@ -3847,18 +3883,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Exchange"
-    },
-    {
-      "title": "Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to Self-Hosted",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from/ba-p/4521792",
-      "published": "2026-05-21T08:28:42+00:00",
-      "summary": "AI agent development has a steep on-ramp. The combination of new SDKs, tool-calling patterns, model selection decisions, retrieval-augmented generation, and deployment concerns means most developers spend more time wiring things together than actually building anything useful. The Microsoft Foundry...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     },
     {
       "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
@@ -4951,114 +4975,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure GBB"
-    },
-    {
-      "title": "CHERIoT-Ibex: Closing the door on memory safety vulnerabilities with hardware-enforced protection",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/cheriot-ibex-closing-the-door-on-memory-safety-vulnerabilities/ba-p/4517904",
-      "published": "2026-05-09T05:08:11+00:00",
-      "summary": "Memory safety vulnerabilities—largely arising from widely used programming languages such as C and C++—remain a leading cause of exploitable software defects across systems, from embedded devices to cloud-scale infrastructure. In simple terms, memory safety ensures that software accesses only the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "kunyanliu",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "What's New in Microsoft Entra: May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-may-2026/ba-p/4517884",
-      "published": "2026-05-08T22:03:27+00:00",
-      "summary": "Welcome to the May edition of our monthly newsletter, summarizing the latest news and developments in the exciting, ever-evolving world of Microsoft Entra. What went into General Availability (GA) since April 2026? Network content filtering by file type in Global Secure Access - Microsoft Global...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Martin_Coetzer",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Generate Embeddings Function and External Model Object Support Are Now Generally Available in Azure SQL",
-      "link": "https://devblogs.microsoft.com/azure-sql/generate-embeddings-function-and-external-model-object-support-are-now-generally-available-in-azure-sql/",
-      "published": "2026-05-08T21:42:36+00:00",
-      "summary": "We are excited to announce the General Availability (GA) of AI_GENERATE_EMBEDDINGS and CREATE EXTERNAL MODEL in Azure SQL Database and Azure SQL Managed Instance. These two T-SQL features — CREATE EXTERNAL MODEL and AI_GENERATE_EMBEDDINGS — work together as a single, integrated pipeline for...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Aaron Saidi",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "Announcing the public preview of the Microsoft 365 Copilot Agent Evaluations tool",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/announcing-the-public-preview-of-the-microsoft-365-copilot-agent-evaluations-tool/",
-      "published": "2026-05-08T20:51:57+00:00",
-      "summary": "The Microsoft 365 Copilot Agent Evaluations tool helps developers measure and improve the quality of agents they build for Microsoft 365 Copilot. The post Announcing the public preview of the Microsoft 365 Copilot Agent Evaluations tool appeared first on Microsoft 365 Developer Blog.",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "Barry Gervin, Sai Deepthi Kovvuru",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Released: May 2026 Exchange Server Hotfix Update",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-may-2026-exchange-server-hotfix-update/ba-p/4517516",
-      "published": "2026-05-08T20:31:09+00:00",
-      "summary": "Microsoft has released Hotfix Update (HU) for: Exchange Server Subscription Edition (SE) HU is available for the following specific version of Exchange Server: Exchange SE RTM The May 2026 HU does not contain any new Exchange Server security updates but contains new functionality. Please see the...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Retirement of Direct Exchange ActiveSync Certificate-Based Authentication by End of 2026",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/retirement-of-direct-exchange-activesync-certificate-based/ba-p/4517896",
-      "published": "2026-05-08T17:40:11+00:00",
-      "summary": "We are announcing the deprecation of Exchange ActiveSync (EAS) certificate-based authentication (CBA) directly to Exchange Online. By the end of 2026, Microsoft will no longer support direct CBA connections from EAS mobile email clients to Exchange Online. After that date, any EAS clients using CBA...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Safely Migrating Terraform Managed Disks on Azure Using Stable Keys and Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/safely-migrating-terraform-managed-disks-on-azure-using-stable/ba-p/4517509",
-      "published": "2026-05-08T16:02:01+00:00",
-      "summary": "The Root Cause: Index-Based \"for_each\" Keys: Many Terraform modules flatten VM and disk definitions into a list and use the list index as the for_each key: for_each = { for index, sp in local.managed_disks : index => sp } This pattern looks harmless, but the index is not stable: Adding a disk to...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "shwetayadav",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Update Your Exchange SE Hybrid On-premises Rich Coexistence to Graph",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/update-your-exchange-se-hybrid-on-premises-rich-coexistence-to/ba-p/4517520",
-      "published": "2026-05-08T14:36:18+00:00",
-      "summary": "About a year ago, we announced Exchange Server Security Changes for Hybrid Deployments. This change impacted Exchange hybrid customers who host some of their mailboxes on-premises and their on-premises users need access to “rich coexistence” features (Free/Busy lookups, MailTips and profile picture...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "General Availability of Mailbox Import and Export Microsoft Graph APIs",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/general-availability-of-mailbox-import-and-export-microsoft/ba-p/4517854",
-      "published": "2026-05-08T14:21:17+00:00",
-      "summary": "As a part of our continuing march to Exchange Web Service (EWS) deprecation in Exchange Online (see Exchange Online EWS, Your Time is Almost Up | Microsoft Community Hub) - the Microsoft Graph Team announced another milestone in enabling developers to efficiently manage, migrate, and integrate...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "Nino_Bilic",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     }
   ]
 }
