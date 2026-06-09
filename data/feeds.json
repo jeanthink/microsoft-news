@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-08T13:27:03.497390+00:00",
-  "totalArticles": 391,
+  "lastUpdated": "2026-06-09T12:59:07.651785+00:00",
+  "totalArticles": 404,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,402 @@
     ]
   },
   "articles": [
+    {
+      "title": "How to Find Inactive (Stale) User Accounts",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-find-inactive-stale-user-accounts/m-p/4526709#M59364",
+      "published": "2026-06-09T09:26:48+00:00",
+      "summary": "Inactive accounts can soak up a lot of paid-for but unused product licenses. With increases for Microsoft 365 licenses due to come into effect from 1 July 2026, it’s time to find and remove unused licenses from inactive user accounts. We discuss two approaches by using the Microsoft 365 Licensing...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Troubleshooting Azure Container Apps and Jobs for .NET and Django Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-azure-container-apps-and-jobs-for-net-and-django/ba-p/4518303",
+      "published": "2026-06-09T07:58:44+00:00",
+      "summary": "Introduction Deploying to Azure Container Apps feels like a huge step forward — you get serverless containers, automatic scaling, built-in ingress, and managed environments without managing Kubernetes directly. But when something goes wrong and your container refuses to start, or your Container App...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Periodic code scanning of inactive repositories",
+      "link": "https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories",
+      "published": "2026-06-09T07:21:22+00:00",
+      "summary": "GitHub code scanning now supports scheduled security scans of repositories that have had no pushes or pull requests for six months or more. Organizations can use this to maintain continuous… The post Periodic code scanning of inactive repositories appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "What to do? For the second time Windows Update that failed?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-to-do-for-the-second-time-windows-update-that-failed/m-p/4526630#M44169",
+      "published": "2026-06-09T04:41:38+00:00",
+      "summary": "I am facing a recurring issue where Windows Update fails to install the same cumulative update for the second time in a row on my Windows 11 PC. The update downloads and reaches a certain percentage like 70 or 90 percent but then throws an error message and rolls back the changes. I have already...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Delilahsw",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "How to Delete And reinstalling Windows OS",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-delete-and-reinstalling-windows-os/m-p/4526625#M44165",
+      "published": "2026-06-09T04:35:07+00:00",
+      "summary": "I want to completely wipe my hard drive and perform a clean installation of Windows 10 or Windows 11 on my computer. I have already backed up all my personal files to an external drive but I am unsure of the correct steps to delete the existing operating system and reinstall a fresh copy without...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Su-Jace",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "How do you troubleshoot slow boot times after recent updates?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-do-you-troubleshoot-slow-boot-times-after-recent-updates/m-p/4526624#M44164",
+      "published": "2026-06-09T04:23:45+00:00",
+      "summary": "I’ve noticed my Windows system takes much longer to start after automatic updates. I’ve checked startup apps, disabled some, but it still feels sluggish. What steps do you take first when boot performance drops unexpectedly?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Feliox",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Any source. Any destination. Ready for AI-era.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
+      "published": "2026-06-09T01:43:45+00:00",
+      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shayoni_seth",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Monitor"
+    },
+    {
+      "title": "What's new in Azure App Service at #MSBuild 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-app-service-at-msbuild-2026/ba-p/4526569",
+      "published": "2026-06-08T22:30:40+00:00",
+      "summary": "At Microsoft Build 2026, Azure App Service introduced a powerful set of updates designed to help organizations accelerate their journey into AI, without increasing complexity or cost. These innovations focus on one clear business outcome: enabling teams to build, deploy, and scale AI-powered...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayunk_Jain",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Write Logic Apps in C#: introducing the Logic Apps Standard SDK",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/write-logic-apps-in-c-introducing-the-logic-apps-standard-sdk/ba-p/4524277",
+      "published": "2026-06-08T21:52:53+00:00",
+      "summary": "The workflow you always wished you could write in code If you build on Logic Apps Standard, you already know the deal: the runtime is excellent at the unglamorous parts of integration - connecting to systems, retrying, scaling, keeping run history you can actually debug. What you sometimes wanted...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Tools for Azure AD B2C migration now available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/tools-for-azure-ad-b2c-migration-now-available/ba-p/4525678",
+      "published": "2026-06-08T20:38:36+00:00",
+      "summary": "If you rely on Azure AD B2C for customer identity, you’re likely starting to evaluate what comes next. With Azure AD B2C no longer receiving new features and several features recently added to Microsoft Entra External ID, planning your migration is easier and can help you with this important next...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "NamitaSingh",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Turn insights into signals with Activator as a Business Event Publisher (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Turn-insights-into-signals-with-Activator-as-a-Business-Event/ba-p/5190248",
+      "published": "2026-06-08T20:09:22+00:00",
+      "summary": "Activator can now publish Business Events. Turn KPI alerts, threshold breaches, and query results into structured, governed signals your entire organization can discover, consume, and act on.",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "GEGUIRGU",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
+      "published": "2026-06-08T19:52:41+00:00",
+      "summary": "Your business events are now automatically stored and queryable in Eventhouse. Run historical analyses with KQL, build live Real-Time Dashboards, and turn every business signal into actionable intelligence, all without extra configuration.",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "GEGUIRGU",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "NOW ON DEMAND| OneDrive Office Hours | July 2025",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-july-2025/ba-p/4431784",
+      "published": "2026-06-08T19:14:42+00:00",
+      "summary": "Join the OneDrive product team live each month on our monthly OneDrive Customer Office Hours to hear what's top of mind, get insights into roadmap updates, and dig into a special topic. Each call includes live Q&A where you'll have a chance to ask the OneDrive product team any question about...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND| OneDrive Office Hours | August 2025",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-august-2025/ba-p/4442970",
+      "published": "2026-06-08T19:14:12+00:00",
+      "summary": "Join the OneDrive product team live each month on our monthly OneDrive Customer Office Hours to hear what's top of mind, get insights into roadmap updates, and dig into a special topic. Each call includes live Q&A where you'll have a chance to ask the OneDrive product team any question about...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND| OneDrive Office Hours | September 2025",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-september-2025/ba-p/4454561",
+      "published": "2026-06-08T19:13:51+00:00",
+      "summary": "Join the OneDrive product team live each month on our monthly OneDrive Customer Office Hours to hear what's top of mind, get insights into roadmap updates, and dig into a special topic. Each call includes live Q&A where you'll have a chance to ask the OneDrive product team any question about...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "OneDrive Office Hours | December 2025",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-office-hours-december-2025/ba-p/4472672",
+      "published": "2026-06-08T19:13:29+00:00",
+      "summary": "Join the OneDrive product team live each month on our monthly OneDrive Customer Office Hours to hear what's top of mind, get insights into roadmap updates, and dig into a special topic. Each call includes live Q&A where you'll have a chance to ask the OneDrive product team any question about...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | January 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-january-2026/ba-p/4486905",
+      "published": "2026-06-08T19:13:09+00:00",
+      "summary": "There’s no better way to start the new year than listening, learning, and taking action! OneDrive Consumer Office Hours are back this January, creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | February 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-february-2026/ba-p/4495492",
+      "published": "2026-06-08T19:12:52+00:00",
+      "summary": "OneDrive Consumer Office Hours are back! Creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared experiences. Register...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | March 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-march-2026/ba-p/4502727",
+      "published": "2026-06-08T19:12:37+00:00",
+      "summary": "OneDrive Consumer Office Hours are back! Creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared experiences. Register...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Rob_Nunez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | April 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-april-2026/ba-p/4510339",
+      "published": "2026-06-08T19:12:17+00:00",
+      "summary": "Get ready for April’s OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "sophiapeng",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "NOW ON DEMAND | OneDrive Office Hours | May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-may-2026/ba-p/4519803",
+      "published": "2026-06-08T19:11:52+00:00",
+      "summary": "Get ready for May’s OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "sophiapeng",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - June 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-june-2026/ba-p/4526525",
+      "published": "2026-06-08T19:10:51+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month June 2026's Ace Aviator: Florian De Langhe LinkedIn: https://www.linkedin.com/in/floriandelanghe/ Florian De Langhe Lead Expert/Team Lead - Microsoft Integration @ delaware What's...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Microsoft Entra ID security updates: What organizations need to do now",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-id-security-updates-what-organizations-need-to/ba-p/4522024",
+      "published": "2026-06-08T18:47:46+00:00",
+      "summary": "Microsoft Entra ID continues to strengthen identity security by modernizing how authentication and access policies are enforced. As part of this effort, Microsoft is retiring legacy capabilities and closing gaps that attackers could exploit. These updates focus on three key areas: replacing Custom...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Swaroop Krishnamurthy",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Microsoft Defender now monitors RPC activity",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-now-monitors-rpc-activity/ba-p/4523368",
+      "published": "2026-06-08T18:16:45+00:00",
+      "summary": "Remote procedure call (RPC) is a protocol commonly abused by attackers that allows functions implemented in a separate process, and potentially on a remote machine, to be called as if they were local. Many core Windows and Active Directory capabilities are built on or make use of RPC, which makes...",
+      "blog": "Defender for Endpoint",
+      "blogId": "MicrosoftDefenderATPBlog",
+      "author": "EdanZwick",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender for Endpoint"
+    },
+    {
+      "title": "Designing for High Availability: The Operational Reference for Running a Geo-Replicated ACR",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/designing-for-high-availability-the-operational-reference-for/ba-p/4526465",
+      "published": "2026-06-08T18:07:21+00:00",
+      "summary": "By Johnson Shi, Zoey (Zhuyu) Li, Huangli Wu Introduction Three of the most common questions we hear from enterprise teams running geo-replicated Azure Container Registries (ACR) are: \"How do I control which region serves my traffic?\" — When my AKS clusters are spread across regions, can I pin each...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "AI-Powered Power BI reporting: From design to deployment with agent skills (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/AI-Powered-Power-BI-reporting-From-design-to-deployment-with/ba-p/5190703",
+      "published": "2026-06-08T17:29:20+00:00",
+      "summary": "AI powered Power BI reporting skills is a collection of multiple skills that enables AI agents to automate report creation, from designing pages to publishing to Fabric. Now available through the Power BI authoring plugin in Skills for Fabric —a first-party catalog of agent skills for Microsoft...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "Sharlkaur",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Connect Metrics to Traces with Exemplars in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714",
+      "published": "2026-06-08T17:21:43+00:00",
+      "summary": "Following Microsoft’s recent GA announcement for OpenTelemetry (OTel) support, we are excited to announce support for Exemplars for customers instrumenting metrics with Prometheus or OpenTelemetry and traces using OpenTelemetry, enhancing Azure Monitor’s integrated observability experience for...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "sunayanasingh",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Monitor"
+    },
+    {
+      "title": ".NET at Microsoft Build 2026: Must watch sessions",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-at-microsoft-build-2026/",
+      "published": "2026-06-08T17:15:00+00:00",
+      "summary": "Catch up on all the .NET sessions from Microsoft Build 2026 covering .NET 11, union types in C#, AI building blocks, the agentic web, .NET MAUI, and more! The post .NET at Microsoft Build 2026: Must watch sessions appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Daniel Roth",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "IP allow list coverage for EMU namespaces in general availability",
+      "link": "https://github.blog/changelog/2026-06-08-ip-allow-list-coverage-for-emu-namespaces-in-general-availability",
+      "published": "2026-06-08T16:26:25+00:00",
+      "summary": "GitHub Enterprise Cloud with Enterprise Managed Users (EMUs) can now enforce GitHub’s native IP allow list configuration across user namespaces. This feature is now generally available. EMUs allow the enterprise… The post IP allow list coverage for EMU namespaces in general availability appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Enterprise Live Migrations: Moving from Azure DevOps Repo to GitHub with minimal disruption",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations/",
+      "published": "2026-06-08T16:13:26+00:00",
+      "summary": "Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. For many enterprise teams, however, migrating at scale comes with real constraints. Traditional approaches...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Soo Stahl, Bhuvan Shah",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Azure DevOps"
+    },
+    {
+      "title": "GitHub for Beginners: Answers to some common questions",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
+      "published": "2026-06-08T16:00:00+00:00",
+      "summary": "Find the answers to some of the most common GitHub-related questions. The post GitHub for Beginners: Answers to some common questions appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
+      "published": "2026-06-08T16:00:00+00:00",
+      "summary": "As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "GA of NSP for Azure Service Bus & NSP now available in Azure Gov. Regions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/ga-of-nsp-for-azure-service-bus-nsp-now-available-in-azure-gov/ba-p/4526413",
+      "published": "2026-06-08T14:01:28+00:00",
+      "summary": "TL; DR Network Security Perimeter (NSP) support for Azure Service Bus is now Generally Available. With this, you can now place your Service Bus namespace inside a central security boundary and apply perimeter-based governance for inbound/outbound network access—while keeping key PaaS-to-PaaS...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shashankamalladi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
     {
       "title": "Now in preview: built-in MCP for Azure App Service",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/now-in-preview-built-in-mcp-for-azure-app-service/ba-p/4526407",
@@ -945,30 +1341,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "GitHub Copilot in Visual Studio — May update",
-      "link": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update",
-      "published": "2026-06-04T15:35:58+00:00",
-      "summary": "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual… The post GitHub Copilot in Visual Studio — May update appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Enterprise Teams is now generally available",
-      "link": "https://github.blog/changelog/2026-06-04-enterprise-teams-is-now-generally-available",
-      "published": "2026-06-04T15:30:17+00:00",
-      "summary": "Enterprise Teams is now generally available on GitHub Enterprise Cloud. First announced in public preview last September, enterprise teams let enterprise admins define a group of users once at the… The post Enterprise Teams is now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Harness-Driven Agents: Secure Podcast Pipeline in Hyperlight MicroVM Sandbox",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/harness-driven-agents-secure-podcast-pipeline-in-hyperlight/ba-p/4525512",
       "published": "2026-06-04T14:12:41+00:00",
@@ -1173,18 +1545,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
-      "published": "2026-06-03T18:30:00+00:00",
-      "summary": "Your business events are now automatically stored and queryable in Eventhouse. Run historical analyses with KQL, build live Real-Time Dashboards, and turn every business signal into actionable intelligence, all without extra configuration.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "GEGUIRGU",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Announcing Confidential Live Migration in Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-confidential-live-migration-in-azure/ba-p/4524558",
       "published": "2026-06-03T18:15:50+00:00",
@@ -1195,18 +1555,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Confidential Computing"
-    },
-    {
-      "title": "Turn insights into signals with Activator as a Business Event Publisher (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Turn-insights-into-signals-with-Activator-as-a-Business-Event/ba-p/5190248",
-      "published": "2026-06-03T18:00:00+00:00",
-      "summary": "Activator can now publish Business Events. Turn KPI alerts, threshold breaches, and query results into structured, governed signals your entire organization can discover, consume, and act on.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "GEGUIRGU",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Azure Event Grid: Powering IoT and Event-Driven Applications at Scale",
@@ -1240,18 +1588,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "susaraswat4",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
-    },
-    {
-      "title": "Any source. Any destination. Ready for AI-era.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
-      "published": "2026-06-03T17:15:19+00:00",
-      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shayoni_seth",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Monitor"
@@ -1593,18 +1929,6 @@
       "product": "Azure AI Foundry"
     },
     {
-      "title": "VNet integration for Azure SRE Agent (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/vnet-integration-for-azure-sre-agent-preview/ba-p/4524287",
-      "published": "2026-06-02T22:54:04+00:00",
-      "summary": "For many production systems, the logs, databases, private endpoints, repositories, and runbooks an SRE Agent needs to do its job are behind network boundaries your security team already governs. VNet integration for Azure SRE Agent, now in preview, puts the agent's outbound traffic under those same...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "The end of patching era for containers: Microsoft Defender for Cloud expands hardened image support",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/the-end-of-patching-era-for-containers-microsoft-defender-for/ba-p/4524798",
       "published": "2026-06-02T22:53:19+00:00",
@@ -1677,18 +2001,6 @@
       "product": "Defender for Cloud"
     },
     {
-      "title": "Managed Connectors for SRE Agent (preview)- Govern what your agent can do",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/managed-connectors-for-sre-agent-preview-govern-what-your-agent/ba-p/4524840",
-      "published": "2026-06-02T21:12:53+00:00",
-      "summary": "Giving an agent access to a tool is the easy part. The harder question is what it's allowed to do with that access. \"Can the agent copy a file in OneDrive?\" mostly answers itself. \"Can it copy any file, to any destination, over one that's already there?\" is the one that decides whether the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Private Plugins with Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/private-plugins-with-azure-sre-agent/ba-p/4523763",
       "published": "2026-06-02T21:09:48+00:00",
@@ -1759,18 +2071,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Write Logic Apps in C#: introducing the Logic Apps Standard SDK",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/write-logic-apps-in-c-introducing-the-logic-apps-standard-sdk/ba-p/4524277",
-      "published": "2026-06-02T20:54:24+00:00",
-      "summary": "The workflow you always wished you could write in code If you build on Logic Apps Standard, you already know the deal: the runtime is excellent at the unglamorous parts of integration - connecting to systems, retrying, scaling, keeping run history you can actually debug. What you sometimes wanted...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
     },
     {
       "title": "New AI gateway capabilities in Azure API Management",
@@ -2925,18 +3225,6 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "KB5089573 forced install + Lenovo network stack degradation (HTTPS latency, build 26200.8524)",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/kb5089573-forced-install-lenovo-network-stack-degradation-https/m-p/4524034#M44081",
-      "published": "2026-05-29T13:38:34+00:00",
-      "summary": "KB5089573 installed automatically on a Lenovo system despite updates being paused and no preview updates enabled. After installation, the system jumped to build 26200.8524 and the network stack degraded severely. Heavy HTTPS sites (LinkedIn, Google Finance, YouTube) take 20–60 seconds to load...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "phermi",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Microsoft Cans Power BI App for Reporting Microsoft 365 Usage",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-cans-power-bi-app-for-reporting-microsoft-365-usage/m-p/4523943#M59335",
       "published": "2026-05-29T09:41:30+00:00",
@@ -3213,18 +3501,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "preview builds prevents virus and threat protections to start",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/preview-builds-prevents-virus-and-threat-protections-to-start/m-p/4523430#M44073",
-      "published": "2026-05-28T00:56:53+00:00",
-      "summary": "I have win11Pro, upgraded from 10 home. I am an insider and have switched to a canary channel. I never switched it, but now I only get the preview release builds. I am trying to download some trial software for my work and cannot since it \"fails virus scanning.\" When i checked on the virus and...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "manodwell",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Inspektor Gadget Completes Its First Independent Security Audit",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
       "published": "2026-05-27T19:04:24+00:00",
@@ -3247,18 +3523,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Microsoft Dev"
-    },
-    {
-      "title": "What was Windows XP for you?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-was-windows-xp-for-you/m-p/4523355#M44070",
-      "published": "2026-05-27T17:54:42+00:00",
-      "summary": "Almost everybody has heard of the legendary operating system Windows XP, but what was Windows XP specifically for you? Nostalgia, childhood?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "CTCSD",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Organize your multitenant view with Tenant Groups in Microsoft Defender",
@@ -3355,66 +3619,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "NOW ON DEMAND | OneDrive Office Hours | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-may-2026/ba-p/4519803",
-      "published": "2026-05-26T16:51:37+00:00",
-      "summary": "Get ready for May’s OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "sophiapeng",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
-    },
-    {
-      "title": "NOW ON DEMAND | OneDrive Office Hours | April 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-april-2026/ba-p/4510339",
-      "published": "2026-05-26T16:50:02+00:00",
-      "summary": "Get ready for April’s OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "sophiapeng",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
-    },
-    {
-      "title": "NOW ON DEMAND | OneDrive Office Hours | March 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-march-2026/ba-p/4502727",
-      "published": "2026-05-26T16:47:09+00:00",
-      "summary": "OneDrive Consumer Office Hours are back! Creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared experiences. Register...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "Rob_Nunez",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
-    },
-    {
-      "title": "NOW ON DEMAND | OneDrive Office Hours | February 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-february-2026/ba-p/4495492",
-      "published": "2026-05-26T16:45:57+00:00",
-      "summary": "OneDrive Consumer Office Hours are back! Creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared experiences. Register...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "Rob_Nunez",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
-    },
-    {
-      "title": "NOW ON DEMAND | OneDrive Office Hours | January 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-january-2026/ba-p/4486905",
-      "published": "2026-05-26T16:44:52+00:00",
-      "summary": "There’s no better way to start the new year than listening, learning, and taking action! OneDrive Consumer Office Hours are back this January, creating space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "Rob_Nunez",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
     },
     {
       "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
@@ -3561,18 +3765,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Microsoft 365 PC: The Modern Windows Experience for Work and Business",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-pc-the-modern-windows-experience-for-work-and/m-p/4522545#M59312",
-      "published": "2026-05-24T09:31:24+00:00",
-      "summary": "In today’s workplace, a computer is no longer just a machine used to write documents or browse the internet. Modern businesses need devices that are secure, connected to the cloud, easy to manage remotely, and powerful enough to support hybrid work. That is where the concept of a “Microsoft 365 PC”...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JohnNaguib",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Microsoft teams personal package",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-personal-package/m-p/4522461#M144943",
       "published": "2026-05-23T12:41:52+00:00",
@@ -3619,18 +3811,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
-      "published": "2026-05-22T17:00:00+00:00",
-      "summary": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories. The post Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Nadim Abdo",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row",
@@ -3691,18 +3871,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "When RAG Hits the Wall: Designing Systems That Scale from 1,000 to 1 million Documents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-rag-hits-the-wall-designing-systems-that-scale-from-1-000/ba-p/4516085",
-      "published": "2026-05-22T07:00:00+00:00",
-      "summary": "Introduction Retrieval-Augmented Generation (RAG) has quickly become the default architecture for grounding Large Language Models (LLMs) in enterprise data. And at small scale, it works exceptionally well. 100 documents → Excellent accuracy 1,000 documents → Still predictable With around 100...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "himachauhan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     },
     {
       "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
@@ -3919,18 +4087,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Run Javascript code on Agent Loop",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/run-javascript-code-on-agent-loop/ba-p/4519880",
-      "published": "2026-05-21T02:10:42+00:00",
-      "summary": "We have recently introduced support for Code interpreters inside of Azure Logic Apps Agent Loop, extending the support we had for Python. When partnered with a LLM, this allow builders to express their goals or intents via natural language and obtain executable results. These capabilities become...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
@@ -4309,12 +4465,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
       "published": "2026-05-15T16:00:00+00:00",
       "summary": "Learn about the experimental general-purpose accessibility agent that GitHub is piloting. The post Building a general-purpose accessibility agent—and what we learned in the process appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Natalie Guevara",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
