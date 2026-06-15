@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-14T12:38:36.556986+00:00",
-  "totalArticles": 390,
+  "lastUpdated": "2026-06-15T14:06:15.563795+00:00",
+  "totalArticles": 391,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,186 @@
   },
   "articles": [
     {
+      "title": "Make Visual Studio look the way you want",
+      "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
+      "published": "2026-06-15T14:00:40+00:00",
+      "summary": "Themes are personal. Some of us live in dark mode, some swear by high contrast, and some of us have very strong opinions about that one shade of blue from years ago. The new themes in Visual Studio 2026 are built on Fluent, which gives us a much more consistent and accessible foundation, but we […]...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "How to Remove Teams Chat Threads with PowerShell",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-to-remove-teams-chat-threads-with-powershell/m-p/4528176#M144999",
+      "published": "2026-06-15T07:49:05+00:00",
+      "summary": "Sometimes, Microsoft 365 tenants need to remove problematic Teams chat threads from user view. The usual reason is because someone posted some bad or objectionable content to Teams. This article covers how to use Microsoft Graph PowerShell SDK cmdlets to find chat threads, to check thread messages...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Bringing Enterprise File Data to Users with Azure NetApp Files, Microsoft Foundry, and M365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/bringing-enterprise-file-data-to-users-with-azure-netapp-files/ba-p/4528002",
+      "published": "2026-06-15T07:37:24+00:00",
+      "summary": "Table of Contents Introduction Why the user experience layer matters in enterprise AI Microsoft Foundry: Orchestrating enterprise AI agents The Copilot agent as the enterprise user experience End‑to‑end user query flow Why this pattern works for regulated and complex environments Extending Copilot...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Storage"
+    },
+    {
+      "title": "From Enterprise File Storage to an AI-Ready Data Foundation using Azure NetApp Files and OneLake",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-enterprise-file-storage-to-an-ai-ready-data-foundation/ba-p/4527999",
+      "published": "2026-06-15T07:37:21+00:00",
+      "summary": "Table of Contents Introduction Why the data foundation matters Expanding beyond collaboration-centric data The zero‑copy data foundation pattern Why OneLake changes the model What this enables Key takeaway Learn more Introduction Enterprise AI is advancing rapidly, but many organizations are...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Storage"
+    },
+    {
+      "title": "From File Data to AI‑Powered Knowledge Pipelines using Azure NetApp Files object REST API",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-file-data-to-ai-powered-knowledge-pipelines-using-azure/ba-p/4528001",
+      "published": "2026-06-15T07:37:13+00:00",
+      "summary": "Table of Contents Introduction Why a knowledge pipeline is required Retrieval‑augmented generation (RAG) at enterprise scale Knowledge pipeline architecture overview Step 1: Indexing enterprise file content without moving it Step 2: Creating semantic meaning with embeddings Step 3: Retrieval at...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Storage"
+    },
+    {
+      "title": "Agents That Test Agents: A Cloud-Native Skill-Eval Harness on Foundry Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-test-agents-a-cloud-native-skill-eval-harness-on/ba-p/4528085",
+      "published": "2026-06-15T07:00:00+00:00",
+      "summary": "Skills are an agent's must-have. So test them. A skill is the lightest way to give an agent durable, reusable behavior: a SKILL.md file you author once, store centrally in Foundry's versioned Skills API, and inject into a Hosted Agent's context — no code change, no redeploy. That's why skills have...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Drawing on OneNote for IOs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/drawing-on-onenote-for-ios/m-p/4528134#M59390",
+      "published": "2026-06-15T02:41:38+00:00",
+      "summary": "I'm ready to give up on OneNote... it used to be good. I have two problems that regularly interrupt my work.The first problem I noticed was that when I double tap my Apple Pencil, although it is set to go to the eraser, it does that for a brief moment and then turns into that text-to-type pen. The...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Elaine_L",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Submitting Driver for Registration",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/submitting-driver-for-registration/m-p/4528077#M44200",
+      "published": "2026-06-14T13:11:32+00:00",
+      "summary": "I use an interface to record audio at my church that is plugged into my laptop that is now not working anymore with my laptop due to the expiration of the Windows Driver Policy. How do I go about submitting it for the registration?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "dTg17roe",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Windows 11 Windows Update Get The Newer Windows Version Error",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-windows-update-get-the-newer-windows-version-error/m-p/4528057#M44199",
+      "published": "2026-06-14T06:10:53+00:00",
+      "summary": "Hello!I am getting a banner in my Windows Update of \"Get the new version of Windows to stay up to date. This device has the most recent recommended security and quality updates, but it'll stop receiving them soon Learn more...\" then the typical check for updates button. Clicking check for updates...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "skullnbonz",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26300.8687)",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26300-8687/m-p/4528053#M44198",
+      "published": "2026-06-14T04:20:46+00:00",
+      "summary": "Failed to install on ‎14/‎06/‎2026 - 0xc190020d",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "PANAYIOTA",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "You cannot add optional features in the Windows 11 Preview build",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/you-cannot-add-optional-features-in-the-windows-11-preview-build/m-p/4528051#M44196",
+      "published": "2026-06-14T03:23:52+00:00",
+      "summary": "In the latest experimental build, I am unable to add any features when I go to Settings → Optional Features. Is this a known issue, or is there a specific procedure I need to follow?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "DanielDavis",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "CrossDeviceResume has reappeared after the Insider Preview update KB5089573",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/crossdeviceresume-has-reappeared-after-the-insider-preview/m-p/4528050#M44195",
+      "published": "2026-06-14T03:12:18+00:00",
+      "summary": "When I go to the Windows Insider Program tab in Windows Settings, a yellow warning icon appears at the top: “Your device is set to receive Insider Preview builds. To change your Insider tier, make sure your Microsoft account is enrolled in the Insider Program and linked on this page.”The problem is...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "ZacharyRodriguez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "The Insider build is stuck at 29591, and the 29595 update cannot be detected.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-insider-build-is-stuck-at-29591-and-the-29595-update-cannot/m-p/4528049#M44194",
+      "published": "2026-06-14T03:08:30+00:00",
+      "summary": "I went to Settings → Windows Update → Check for updates, hoping to detect and download version 29595, but it actually told me that I was already running the latest version and couldn't update to 29595.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "LiamWhite",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "When installing IoT Enterprise, however, the Insider Preview version with a watermark is installed.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/when-installing-iot-enterprise-however-the-insider-preview/m-p/4528048#M44193",
+      "published": "2026-06-14T03:00:22+00:00",
+      "summary": "When installing 26H1 on a Surface Laptop SE, I selected the IoT Enterprise edition, but it ended up being the Windows 11 SE Preview, and I couldn't create an offline account.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "LukeBrown",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Microsoft 365 Developer E5 license lacking endpoints and device ON defender portal",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-developer-e5-license-lacking-endpoints-and-device/m-p/4528005#M59388",
+      "published": "2026-06-13T13:55:31+00:00",
+      "summary": "Dear Support Team,I am a microsoft certified trainer (MCT). I currently have a Microsoft 365 Developer E5 license assigned to my tenant. However, I have noticed that my Microsoft Defender portal (security.microsoft.com) is missing several critical features. For example, I cannot see the Endpoints...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Dozie",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "WSL 3 Request MCT AI-Engineer Associate",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/wsl-3-request-mct-ai-engineer-associate/m-p/4527996#M44190",
       "published": "2026-06-13T12:26:18+00:00",
@@ -292,6 +472,18 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "CleverFoxDev",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Microsoft Print to PDF not working/missing.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/microsoft-print-to-pdf-not-working-missing/m-p/4527994#M44188",
+      "published": "2026-06-13T11:48:15+00:00",
+      "summary": "The Microsoft Print to PDF was not working on my PC so I tried reenabling it via Windows Features in Optional Features and it won't turn back on. It gives error code: 0x800f0922. I also tried other various methods online and none work. All end with various error codes which all result in the...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "SamratB",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -1284,7 +1476,7 @@
       "title": "Copilot Code Reviews for Azure Repos",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
       "published": "2026-06-09T15:12:40+00:00",
-      "summary": "Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI powered and agentic development experiences that GitHub is delivering. At the same time, we recognize that migrating repositories to GitHub can vary...",
+      "summary": "🚨 ​​​​​​​Attention: We are accepting a final round of preview requests, with those organizations scheduled for enablement beginning the second week of July. Requests submitted after July 3 will not be accepted into the preview program. Over the last several years, we have encouraged customers to...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem, Andrew Brenner",
@@ -1929,18 +2121,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Official Complaint: Broken Mandatory Update & Incompetent Tech Support",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/official-complaint-broken-mandatory-update-incompetent-tech/m-p/4525954#M44150",
-      "published": "2026-06-05T16:55:35+00:00",
-      "summary": "Hello Microsoft Community, I am writing to express my deep frustration with the latest mandatory Windows updates and the shocking incompetence of the tech support agent who handled my case. The update broke my system entirely—breaking the Start Menu, Settings, and messing up my screen reader...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "QueenOfKeysReema",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Securing CI/CD in an agentic world: Claude Code Github action case",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/",
       "published": "2026-06-05T16:46:47+00:00",
@@ -1953,18 +2133,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "NOT ABLE TO UPDATE THIS - Windows 11 Insider Preview Quality Update (26300.8553)",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/not-able-to-update-this-windows-11-insider-preview-quality/m-p/4525939#M44147",
-      "published": "2026-06-05T14:07:30+00:00",
-      "summary": "NOT ABLE TO UPDATE THIS - Windows 11 Insider Preview Quality Update (26300.8553)-THIS ERROR APPEARS-Install error - 0x800736b3",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "CAHARSHAD01",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Microsoft Wants PowerShell Developers to Change How They Download Microsoft Modules",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-wants-powershell-developers-to-change-how-they/m-p/4525855#M59358",
       "published": "2026-06-05T10:10:57+00:00",
@@ -1975,42 +2143,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "How can I remove the Windows preview?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-can-i-remove-the-windows-preview/m-p/4525732#M44142",
-      "published": "2026-06-05T06:30:47+00:00",
-      "summary": "Why is this appearing in the corner of the screen? How can I remove the Windows preview?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Sashann",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "It is impossible to add the optional function in the latest \"experimental version\".",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/it-is-impossible-to-add-the-optional-function-in-the-latest-quot/m-p/4525728#M44140",
-      "published": "2026-06-05T06:28:51+00:00",
-      "summary": "I'm experiencing an issue with the latest experimental build where I am unable to add optional features through the settings menu. Despite multiple attempts, the option to select and install additional features simply does not respond or appears to be broken, preventing me from customizing my...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Porterwer",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Have any other people received emails inviting them to join the Windows Insider Panel?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/have-any-other-people-received-emails-inviting-them-to-join-the/m-p/4525729#M44141",
-      "published": "2026-06-05T06:27:41+00:00",
-      "summary": "I received an email inviting me to join the Windows Insider Panel, but I am unsure if this is legitimate or a scam. Has anyone else also received such an email, and if so, what has been your experience with it?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Aarongs2480",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Regional Endpoints for Azure Container Registry Geo-Replication — Now in Public Preview",
@@ -2299,18 +2431,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "opted out of WIP, but still, I am stuck",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/opted-out-of-wip-but-still-i-am-stuck/m-p/4525424#M44131",
-      "published": "2026-06-04T09:33:20+00:00",
-      "summary": "After the recent Windows Insider program update, we can now leave the WIP, even if we were previously on the developer build, without doing a clean reinstall. I did not have time and energy to do a complete clean reinstall of Windows to go back from developer build to the normal Windows version as...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Ashwani_Jha",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria",
@@ -2625,18 +2745,6 @@
       "product": "Azure Integration"
     },
     {
-      "title": "Any one have issues installing 26220.8544 build",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/any-one-have-issues-installing-26220-8544-build/m-p/4525204#M44129",
-      "published": "2026-06-03T14:32:29+00:00",
-      "summary": "Any one have issues installing 26220.8544 buildit does not seem to download and install..Paul",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "maherpaul1",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "How much should Teams presence influence call routing",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-much-should-teams-presence-influence-call-routing/m-p/4525196#M144971",
       "published": "2026-06-03T13:39:43+00:00",
@@ -2671,18 +2779,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "Why is this even a thing on Windows PC?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/why-is-this-even-a-thing-on-windows-pc/m-p/4525172#M44124",
-      "published": "2026-06-03T11:27:40+00:00",
-      "summary": "I am looking for some suggestion!Thanks.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Asaoniu",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Microsoft Launches Container Management Support for Security Groups",
@@ -3957,18 +4053,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "From Requirement to Production Code, How Engineering Squad Automates the Full Dev Lifecycle",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-requirement-to-production-code-how-engineering-squad/ba-p/4522698",
-      "published": "2026-05-29T07:00:00+00:00",
-      "summary": "I started wondering: what if instead of one AI assistant generating code snippets, you had an entire squad of specialized AI agents. Each owning a single stage of the delivery pipeline, they could collaborate, self-correct, and produce a complete, traceable output from a plain-text requirement?...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "paggarwal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
       "published": "2026-05-29T06:52:47+00:00",
@@ -4113,18 +4197,6 @@
       "product": ".NET Aspire"
     },
     {
-      "title": "Migration from Hosted Exchange (Hybrid) to M365 Classic Outlook Client Problems and Solutions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/migration-from-hosted-exchange-hybrid-to-m365-classic-outlook/m-p/4523629#M59333",
-      "published": "2026-05-28T13:14:51+00:00",
-      "summary": "Hello Everyone,I'm a tech who started on a 8088 processor in the 80's. Not mentioning the Vic20 and C64 since that hardly seem relevant!I'm posting here to hopefully help the next person with the issues I've had over the last few weeks. My client had to port his email from a provider with an...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "pinkish_panther",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "SQL + AI, hands-on: Join a free workshop near you",
       "link": "https://devblogs.microsoft.com/azure-sql/sql-ai-hands-on-join-a-free-workshop-near-you/",
       "published": "2026-05-28T13:09:15+00:00",
@@ -4147,18 +4219,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Microsoft Rolls Out the New Calendar Sharing Model",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-rolls-out-the-new-calendar-sharing-model/m-p/4523490#M59332",
-      "published": "2026-05-28T07:17:22+00:00",
-      "summary": "An automatic upgrade is currently ongoing to move Outlook calendar sharing from the old MAPI-based model to a new REST-based model. The new model has been available to Outlook classic clients on an optional basis and is now becoming the default. The REST model is simpler and exploits the Exchange...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Verification-driven tooling prompts for fast-moving codebases",
@@ -4915,54 +4975,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Networking"
-    },
-    {
-      "title": "What's new in FinOps toolkit 14 – April 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/what-s-new-in-finops-toolkit-14-april-2026/ba-p/4519497",
-      "published": "2026-05-15T23:53:55+00:00",
-      "summary": "FinOps toolkit 14 connects AI to your FinOps hub data with a Copilot Studio agent template, ingests recommendations from Azure Advisor and your own Resource Graph queries, simplifies hub deployment, and previews a new commitment discount eligibility dataset. Whether you consider yourself a FinOps...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Michael_Flanakin",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "FinOps"
-    },
-    {
-      "title": "Writeback for Cloud-Managed Remote Mailboxes: Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/writeback-for-cloud-managed-remote-mailboxes-now-in-public/ba-p/4520138",
-      "published": "2026-05-15T17:37:57+00:00",
-      "summary": "In our previous posts, we announced the Public Preview and the General Availability of Cloud-Managed Remote Mailboxes – a key step toward retiring the 'last Exchange Server' in your organization. The response from the community has been incredible, and your feedback continues to shape the roadmap....",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Building a general-purpose accessibility agent—and what we learned in the process",
-      "link": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
-      "published": "2026-05-15T16:00:00+00:00",
-      "summary": "Learn about the experimental general-purpose accessibility agent that GitHub is piloting. The post Building a general-purpose accessibility agent—and what we learned in the process appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Natalie Guevara",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-      "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-      "published": "2026-05-15T14:00:00+00:00",
-      "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The...",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Natalie Guevara",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
     }
   ]
 }
