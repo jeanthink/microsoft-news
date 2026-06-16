@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-15T14:06:15.563795+00:00",
-  "totalArticles": 391,
+  "lastUpdated": "2026-06-16T13:43:40.865873+00:00",
+  "totalArticles": 397,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,246 @@
   },
   "articles": [
     {
+      "title": "Unlocking Microsoft OneLake as the data foundation for Azure Databricks customers",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Unlocking-Microsoft-OneLake-as-the-data-foundation-for-Azure/ba-p/5201876",
+      "published": "2026-06-16T13:09:07+00:00",
+      "summary": "As organizations scale their data and AI investments, many are adopting a multi-platform approach so teams can use the tools that best fit each project. But this flexibility comes at a cost: duplicated data, fragmented governance, and complex data movement across systems. The next phase of data...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "diptiborkar",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Extending interoperability: Azure Databricks can now store Unity Catalog managed tables directly in OneLake",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Extending-interoperability-Azure-Databricks-can-now-store-Unity/ba-p/5199741",
+      "published": "2026-06-16T13:00:00+00:00",
+      "summary": "As organizations scale their data and AI investments, they increasingly adopt a multi-platform approach, enabling teams to use the tools that best fit their needs. The challenge has been enabling both platforms to work from a single copy of data without duplicating storage or building complex...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "preshah",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "The Case for an Ontology Layer in Telecoms",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/the-case-for-an-ontology-layer-in-telecoms/ba-p/4527091",
+      "published": "2026-06-16T12:41:49+00:00",
+      "summary": "The Challenge: Data Without Context in the Telco AI Era GenAI and analytics tools and solutions pull data from applications and from downstream and external data sources. However, when data is decontextualized from the applications where it was created, it often loses the business meaning,...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "Alberto_Manuel",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Telecom"
+    },
+    {
+      "title": "Announcing General Availability of the Azure Cosmos DB Built-in Connector for Logic Apps Standard",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-the-azure-cosmos-db-built-in-connector-for-logic-apps-standard/",
+      "published": "2026-06-16T11:33:42+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Azure Cosmos DB built-in connector for Azure Logic Apps Standard. This connector gives you a native, high-performance way to integrate Azure Cosmos DB into your Standard logic app workflows, with better throughput, lower latency, and...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "Network security perimeter for Azure Service Bus & also now available in Azure Gov. Regions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-for-azure-service-bus-also-now/ba-p/4526413",
+      "published": "2026-06-16T10:56:27+00:00",
+      "summary": "TL; DR Network security perimeter support for Azure Service Bus is now Generally Available. With this, you can now place your Service Bus namespace inside a central security boundary and apply perimeter-based governance for inbound/outbound network access—while keeping key PaaS-to-PaaS scenarios...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shashankamalladi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "Most of the junk files were deleted, but the computer did not speed up",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/most-of-the-junk-files-were-deleted-but-the-computer-did-not/m-p/4528514#M44208",
+      "published": "2026-06-16T10:48:52+00:00",
+      "summary": "I recently deleted most of the junk files from my computer, hoping to improve its performance, but I did not notice any significant speed increase. Despite freeing up space, my system still runs slowly and lags during everyday tasks. I am unsure why cleaning junk files did not enhance my computer’s...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Imansun",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "How Much Will the July 2026 License Increases Cost Your Microsoft 365 Tenant?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-much-will-the-july-2026-license-increases-cost-your/m-p/4528445#M59391",
+      "published": "2026-06-16T07:53:21+00:00",
+      "summary": "July 1, 2026, sees a bunch of monthly price increases that will affect Microsoft 365 tenants. How much will the increases cost your tenant? One way to find out is to use PowerShell to find which licenses assigned to user are affected by the price increases and compute the effect of the monthly...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "GitHub Copilot for JetBrains is moving to Copilot CLI as the default agent harness",
+      "link": "https://devblogs.microsoft.com/java/github-copilot-for-jetbrains-is-moving-to-copilot-cli-as-the-default-agent-harness/",
+      "published": "2026-06-16T06:16:54+00:00",
+      "summary": "Copilot CLI is becoming the default agent harness in GitHub Copilot for JetBrains, and our local harness will be deprecated. This change provides greater consistency across all GitHub Copilot surfaces and is an important step toward faster feature parity and higher-quality results in GitHub Copilot...",
+      "blog": "Java on Azure",
+      "blogId": "javablog",
+      "author": "Ji Dong",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Java on Azure"
+    },
+    {
+      "title": "Copilot usage metrics now include more of your active users",
+      "link": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "published": "2026-06-15T21:30:13+00:00",
+      "summary": "Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by… The post Copilot usage metrics now include more of your active users appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "published": "2026-06-15T20:15:31+00:00",
+      "summary": "GitHub Copilot CLI for Beginners: Learn how to use slash commands to control your terminal AI agent. The post GitHub Copilot CLI for Beginners: Overview of common slash commands appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How to determine which Resource Mailboxes are being actively used",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/how-to-determine-which-resource-mailboxes-are-being-actively/ba-p/4521577",
+      "published": "2026-06-15T19:57:45+00:00",
+      "summary": "Today we wanted to take a few minutes to discuss a topic that has come up several times. Consider the scenario where your organization has created Resource mailboxes, and you want to know which ones are actually being used. Seems like a fair request. This would include Room and Equipment mailboxes...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+      "link": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+      "published": "2026-06-15T19:17:30+00:00",
+      "summary": "A new repository-level dataset, published on GitHub under CC0-1.0, helps researchers and developers discover multilingual developer content across READMEs, issues, and pull requests. The post Accelerating researchers and developers building multilingual AI with a new open dataset appeared first on...",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Tools for Azure AD B2C migration now available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/tools-for-azure-ad-b2c-migration-now-available/ba-p/4525678",
+      "published": "2026-06-15T18:39:00+00:00",
+      "summary": "If you rely on Azure AD B2C for customer identity, you’re likely starting to evaluate what comes next. With Azure AD B2C no longer receiving new features and several features recently added to Microsoft Entra External ID, planning your migration is easier and can help you with this important next...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "NamitaSingh",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Simplified Oracle connectivity in Power BI (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366",
+      "published": "2026-06-15T17:00:00+00:00",
+      "summary": "Connecting Power BI to Oracle has historically meant extra provider installations and data gateway deployment — even for cloud-hosted databases. Two new Preview capabilities change that. Power BI Desktop now includes a bundled Oracle Managed ODP.NET provider, and the Power BI service supports...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "kayu",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
+      "published": "2026-06-15T16:00:00+00:00",
+      "summary": "See how Microsoft Defender performed in one year of real-world email security benchmarking against SEG and ICES vendors. The post Microsoft Defender email security benchmarking: Key insights from one year of data appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Jeff Pinkston",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167",
+      "published": "2026-06-15T16:00:00+00:00",
+      "summary": "If you use connectors like Databricks, Snowflake, or BigQuery in Power BI or Fabric, there’s an important change coming. Microsoft is moving from embedded ODBC drivers to ADBC, which affects how connections are established and managed. This post explains what’s changing, who’s impacted, and the...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "MichaelaIsaacs",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
+      "published": "2026-06-15T15:57:54+00:00",
+      "summary": "Incidents are rarely explained by one chart. A spike in request failures might be caused by a dependency timeout. A dependency timeout might come from a connection pool issue. And that connection pool issue might trace back to a deployment or a resource health event that started minutes earlier....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yalavi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Monitor"
+    },
+    {
+      "title": "Pascal (10 series) GPUs on Windows 11 encounter artifacting boot loop when HDR is enabled in Windows",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/pascal-10-series-gpus-on-windows-11-encounter-artifacting-boot/m-p/4528345#M44206",
+      "published": "2026-06-15T15:43:39+00:00",
+      "summary": "Bug: Users with Pascal (10 series) GPUs on the latest builds of Windows 11 are encountering an issue with an infinite boot loop that shows artifacting on screen when HDR is enabled in Windows 11.Workaround: Disable HDR in Windows 11User...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "NoblesseDeRobe",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
+      "published": "2026-06-15T15:24:42+00:00",
+      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RohitMadhavKrishnan",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Released: June 2026 Exchange Server Security Updates",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2026-exchange-server-security-updates/ba-p/4524491",
+      "published": "2026-06-15T15:00:14+00:00",
+      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
       "title": "Make Visual Studio look the way you want",
       "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
       "published": "2026-06-15T14:00:40+00:00",
@@ -367,6 +607,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Deploy Anyscale on Azure with Terraform: a step-by-step guide",
+      "link": "https://blog.aks.azure.com/2026/06/15/get-anyscale-on-azure-up-and-running-with-terraform",
+      "published": "2026-06-15T00:00:00+00:00",
+      "summary": "Deploy Anyscale on Azure end-to-end with Terraform, AKS managed Gateway API, Istio-based app routing, and the AzAPI provider for newly released services.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "AKS"
     },
     {
       "title": "Submitting Driver for Registration",
@@ -547,18 +799,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
-      "published": "2026-06-12T10:13:43+00:00",
-      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "RohitMadhavKrishnan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Microsoft to Delete Unlicensed OneDrive for Business Accounts",
@@ -1005,18 +1245,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Released: June 2026 Exchange Server Security Updates",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2026-exchange-server-security-updates/ba-p/4524491",
-      "published": "2026-06-11T12:19:27+00:00",
-      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
       "title": "Communities tab in Teams",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/communities-tab-in-teams/m-p/4527506#M144985",
       "published": "2026-06-11T11:40:02+00:00",
@@ -1075,18 +1303,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "List, view, and create discussions in GitHub CLI",
-      "link": "https://github.blog/changelog/2026-06-10-list-view-and-create-discussions-in-github-cli",
-      "published": "2026-06-10T22:22:07+00:00",
-      "summary": "GitHub Discussions now has a first-class home in GitHub CLI through the new gh discussion command group. This means you can browse, create, and update discussions right where you already… The post List, view, and create discussions in GitHub CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Migrating Azure Data Factory pipelines to Fabric directly from your Fabric workspace",
@@ -1653,18 +1869,6 @@
       "product": "Azure Integration"
     },
     {
-      "title": "Tools for Azure AD B2C migration now available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/tools-for-azure-ad-b2c-migration-now-available/ba-p/4525678",
-      "published": "2026-06-08T20:38:36+00:00",
-      "summary": "If you rely on Azure AD B2C for customer identity, you’re likely starting to evaluate what comes next. With Azure AD B2C no longer receiving new features and several features recently added to Microsoft Entra External ID, planning your migration is easier and can help you with this important next...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "NamitaSingh",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
       "title": "Turn insights into signals with Activator as a Business Event Publisher (Preview)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Turn-insights-into-signals-with-Activator-as-a-Business-Event/ba-p/5190248",
       "published": "2026-06-08T20:09:22+00:00",
@@ -1881,18 +2085,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "GA of NSP for Azure Service Bus & NSP now available in Azure Gov. Regions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/ga-of-nsp-for-azure-service-bus-nsp-now-available-in-azure-gov/ba-p/4526413",
-      "published": "2026-06-08T14:01:28+00:00",
-      "summary": "TL; DR Network Security Perimeter (NSP) support for Azure Service Bus is now Generally Available. With this, you can now place your Service Bus namespace inside a central security boundary and apply perimeter-based governance for inbound/outbound network access—while keeping key PaaS-to-PaaS...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
       "title": "Now in preview: built-in MCP for Azure App Service",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/now-in-preview-built-in-mcp-for-azure-app-service/ba-p/4526407",
       "published": "2026-06-08T13:09:52+00:00",
@@ -1989,18 +2181,6 @@
       "product": "Windows"
     },
     {
-      "title": "problemes selection windows insider previews canary",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/problemes-selection-windows-insider-previews-canary/m-p/4526094#M44154",
-      "published": "2026-06-06T16:10:30+00:00",
-      "summary": "bonjourje suis sous Windows insider sous Windows 11 64 bits et je n arrive pas a réinstaller Windows insider Canary tout est grise et je n arrive pas dégriser choisir vos paramètres insider pour remettre sur Canarymerci de vos réponses et bon Week end a tous",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "CHRISTOPHE2030",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Update: You can now control Teams Meeting Recording expiration notification emails",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/update-you-can-now-control-teams-meeting-recording-expiration/m-p/4526017#M144979",
       "published": "2026-06-05T23:37:03+00:00",
@@ -2071,18 +2251,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Purview"
-    },
-    {
-      "title": "Windows 11 Insider Preview Feature Update (26220.8544) Error de instalación: 0xc1900101",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-8544-error-de/m-p/4525977#M44152",
-      "published": "2026-06-05T18:42:45+00:00",
-      "summary": "Cuando pide reiniciar para actualizar la instalación de la actualización, sale este menú, entorno de Recuperación de Windows (Windows Recovery Environment - WinRE), por favor guienme a solucionar este error",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "ortizpinedam34",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Ansible + Azure Arc: Use Ansible modules to deploy and manage Azure Arc machine extensions at scale",
@@ -2611,30 +2779,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Fabric Skills for GitHub Copilot, Claude, and CLI: built by Microsoft, open for contribution",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Skills-for-GitHub-Copilot-Claude-and-CLI-built-by/ba-p/5190188",
-      "published": "2026-06-03T17:00:00+00:00",
-      "summary": "Microsoft Fabric Skills teach GitHub Copilot, Claude, Cursor, and Windsurf how to work with Fabric correctly - the right APIs, auth, and end-to-end recipes. Open source, install in seconds.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Teddyb",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Building real-time, event-driven applications on Mirrored Database Change Feeds with Fabric Eventstreams (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Building-real-time-event-driven-applications-on-Mirrored/ba-p/5190893",
-      "published": "2026-06-03T16:30:00+00:00",
-      "summary": "If you are already using Mirroring in Microsoft Fabric, you know the value of having your operational data continuously replicated into Fabric as OneLake Delta tables — ready for analytics, AI, and reporting across Fabric workloads. And if you have enabled Delta Change Data Feed (CDF) through...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "arindamc",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Your first model deployment on Foundry Local on Azure Local: from catalog to inference in 10 minutes",
@@ -3369,18 +3513,6 @@
       "product": "Azure Cosmos DB"
     },
     {
-      "title": "Announcing the Public Preview of Semantic Reranker in Azure Cosmos DB for NoSQL",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-the-public-preview-of-semantic-reranker-in-azure-cosmos-db-for-nosql/",
-      "published": "2026-06-02T19:15:33+00:00",
-      "summary": "Today we’re thrilled to announce the public preview of Semantic Reranker in Azure Cosmos DB for NoSQL,a new AI-powered capability that improves the relevancy of your search results with just a few lines of code. If you’ve ever run a vector, full-text, or hybrid search and wished the most relevant...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "James Codella",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
       "title": "Work IQ: Production‑ready intelligence for every agent",
       "link": "https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/",
       "published": "2026-06-02T19:15:12+00:00",
@@ -4017,18 +4149,6 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "Microsoft Cans Power BI App for Reporting Microsoft 365 Usage",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-cans-power-bi-app-for-reporting-microsoft-365-usage/m-p/4523943#M59335",
-      "published": "2026-05-29T09:41:30+00:00",
-      "summary": "Microsoft has announced that the Microsoft 365 Usage Analytics Power BI app will retire on August 1, 2026. The alternative is the usage reports in the Microsoft 365 admin center or to develop a custom Power BI dashboard based on data imported through the Graph usage reports API. The decision isn’t...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Edge displays a splash screen saying ‘Sign in to sync your data’",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/edge-displays-a-splash-screen-saying-sign-in-to-sync-your-data/m-p/4523908#M23510",
       "published": "2026-05-29T08:59:51+00:00",
@@ -4077,18 +4197,6 @@
       "product": "Azure HPC"
     },
     {
-      "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
-      "published": "2026-05-29T03:04:52+00:00",
-      "summary": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigation guidance to help organizations identify and disrupt related activity. The post Typosquatted npm...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Defender Security Research Team",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/preview-cis-benchmarks-on-azure-now-for-windows-server/ba-p/4523432",
       "published": "2026-05-28T23:33:29+00:00",
@@ -4135,18 +4243,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Governance"
-    },
-    {
-      "title": "Still a developer. Just outside. Our latest GitHub Shop collection is here.",
-      "link": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
-      "published": "2026-05-28T18:18:43+00:00",
-      "summary": "The ESC collection lets you escape the confines of your desk and get out into the sun where good ideas are bound to happen. The post Still a developer. Just outside. Our latest GitHub Shop collection is here. appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "SharePoint Framework (SPFx) roadmap update – May 2026",
@@ -4363,18 +4459,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
-      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
-      "published": "2026-05-25T16:00:00+00:00",
-      "summary": "Discover how to use VS Code to interact with GitHub and maintain your projects. The post GitHub for Beginners: Getting started with Git and GitHub in VS Code appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Microsoft teams personal package",
@@ -4615,18 +4699,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "PowerShell"
-    },
-    {
-      "title": "How to determine which Resource Mailboxes are being actively used",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/how-to-determine-which-resource-mailboxes-are-being-actively/ba-p/4521577",
-      "published": "2026-05-21T13:38:55+00:00",
-      "summary": "Today we wanted to take a few minutes to discuss a topic that has come up several times. Consider the scenario where your organization has created Resource mailboxes, and you want to know which ones are actually being used. Seems like a fair request. This would include Room and Equipment mailboxes...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
