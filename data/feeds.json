@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-16T13:43:40.865873+00:00",
-  "totalArticles": 397,
+  "lastUpdated": "2026-06-17T13:14:16.863583+00:00",
+  "totalArticles": 407,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,270 @@
   },
   "articles": [
     {
+      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
+      "published": "2026-06-17T12:17:58+00:00",
+      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "AvanishYadav",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Azure Network Security"
+    },
+    {
+      "title": "Microsoft Tightens Security for Self-Service Password Reset",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-tightens-security-for-self-service-password-reset/m-p/4528753#M59399",
+      "published": "2026-06-17T08:22:57+00:00",
+      "summary": "Microsoft plans to improve the security of the Self-Service Password Reset (SSPR) facility in September 2026 by requiring users to register at least one authentication method. SSPR will then use the registered authentication method to verify user accounts when changing passwords. The change aligns...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-sets-a-new-performance-record-for-llm-training-benchmark/ba-p/4523077",
+      "published": "2026-06-17T00:17:30+00:00",
+      "summary": "Azure achieved the most performant MLPerf Training v6.0 result to date for Llama 3.1 405B, with a time-to-train of just over seven minutes according to MLCommons. This loadbearing benchmark measures how communication overhead and system stability dominate training performance, where Azure’s full...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "azinheidarshenas",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
+    },
+    {
+      "title": "Closing the loop on container security: From code to runtime in the AI era",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/closing-the-loop-on-container-security-from-code-to-runtime-in/ba-p/4528599",
+      "published": "2026-06-16T23:15:21+00:00",
+      "summary": "Containers are the backbone of modern cloud-native apps — and increasingly, the infrastructure powering AI, from AI assistants to a new wave of intelligent agents. They also blur the line between build, deploy, and runtime: a single code change can become a running workload in minutes. A...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "mahersko",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender for Cloud"
+    },
+    {
+      "title": "Azure Databricks at Databricks Data + AI Summit 2026: updates and new announcements",
+      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-at-databricks-data-ai-summit-2026-updates-and/ba-p/4528388",
+      "published": "2026-06-16T21:07:43+00:00",
+      "summary": "Databricks Data + AI Summit brings together the global data and AI community in San Francisco to share product news, technical breakthroughs, and customer stories. This year, as usual, we have a lot of Azure Databricks announcements, a strong presence across the event, and a continued focus on...",
+      "blog": "Azure Databricks",
+      "blogId": "azure-databricks",
+      "author": "AnaviNahar",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Databricks"
+    },
+    {
+      "title": "Spark History Server performance improvement: Snapshot-based loading (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Spark-History-Server-performance-improvement-Snapshot-based/ba-p/5196953",
+      "published": "2026-06-16T21:00:00+00:00",
+      "summary": "As Spark workloads scale in size and complexity, fast access to Spark application execution metrics and logs is essential for debugging, performance analysis, and operational confidence. The Spark History Server is a key part of that workflow — but for large workloads, loading times have been a...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "jiang_jenny1",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "What are git worktrees, and why should I use them?",
+      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "published": "2026-06-16T20:58:54+00:00",
+      "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Azure Arc Server May 2026 Forum",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-may-2026-forum/ba-p/4528643",
+      "published": "2026-06-16T20:47:16+00:00",
+      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the May 2026 Azure Arc Server Forum, we discussed: Private Preview of Windows Server 2016 Extended Security Updates (ESUs): Customers with Windows Server 2016 Servers with an NDA and willingness to provide feedback...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Aurnov_Chattopadhyay",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
+      "title": "GitHub Models is no longer available to new customers",
+      "link": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+      "published": "2026-06-16T20:24:41+00:00",
+      "summary": "We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won’t see… The post GitHub Models is no longer available to new customers appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Stay informed about Microsoft Fabric service issues (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Stay-informed-about-Microsoft-Fabric-service-issues-Preview/ba-p/5194037",
+      "published": "2026-06-16T19:00:00+00:00",
+      "summary": "Fabric uses several message types to communicate service issues, depending on how an issue is detected and where the information is surfaced.",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "royr",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Org apps with audiences for Power BI and Fabric (Generally Available)",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326",
+      "published": "2026-06-16T19:00:00+00:00",
+      "summary": "Announcing general availability of org apps in Power BI and Fabric, including one of the most requested capabilities: audiences.",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "dustinaskinpbi",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Anomaly detection made easy with Dynamic thresholds for Log search alerts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/anomaly-detection-made-easy-with-dynamic-thresholds-for-log/ba-p/4521522",
+      "published": "2026-06-16T17:33:52+00:00",
+      "summary": "We’re excited to announce the General Availability of dynamic thresholds for log search alerts in Azure Monitor. Dynamic thresholds make anomaly detection easier by using machine learning to learn normal behavior from your historical log query results, automatically account for patterns such as...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Monitor"
+    },
+    {
+      "title": "General Availability: Simple log alerts in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/general-availability-simple-log-alerts-in-azure-monitor/ba-p/4521498",
+      "published": "2026-06-16T17:33:31+00:00",
+      "summary": "We are excited to announce the General Availability of Simple log alerts in Azure Monitor! This feature is designed to provide a simplified and more intuitive experience for monitoring and alerting, enhancing your ability to detect and respond to problems in near real-time. Simple log alerts are a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Monitor"
+    },
+    {
+      "title": "Announcing Public Preview: Agent Identities Asset Connector for Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-public-preview-agent-identities-asset-connector-for/ba-p/4527960",
+      "published": "2026-06-16T17:00:01+00:00",
+      "summary": "As organizations accelerate adoption of AI agents across Microsoft 365 and enterprise environments, security teams face a fundamental shift: Agents are becoming first-class identities and securing them requires understanding both their behavior and their identity context. We are excited to announce...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Krishna_Sagar_B_V",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Sentinel"
+    },
+    {
+      "title": "Aspire in VS Code: the 13.4 developer loop",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-vscode-extension-13-4/",
+      "published": "2026-06-16T17:00:00+00:00",
+      "summary": "Aspire 13.4 brings more of the local development loop into VS Code: AppHost CodeLens actions, live resource state, dashboard shortcuts, typed resource command prompts, TypeScript AppHost support, and multi-language debugging. The post Aspire in VS Code: the 13.4 developer loop appeared first on...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Adam Ratzman",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET Aspire"
+    },
+    {
+      "title": "Copy job for SAP with ABAP Add-On in Microsoft Fabric (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Copy-job-for-SAP-with-ABAP-Add-On-in-Microsoft-Fabric-Preview/ba-p/5196120",
+      "published": "2026-06-16T17:00:00+00:00",
+      "summary": "SAP systems sit at the center of many enterprises’ core business operations, powering processes across finance, supply chain, manufacturing, procurement, and HR. That makes SAP data some of the most business-critical data in the enterprise. As organizations modernize their analytics and AI...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "UlrichChrist",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "How to determine which Resource Mailboxes are being actively used",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/how-to-determine-which-resource-mailboxes-are-being-actively/ba-p/4521577",
+      "published": "2026-06-16T16:38:30+00:00",
+      "summary": "Today we wanted to take a few minutes to discuss a topic that has come up several times. Consider the scenario where your organization has created Resource mailboxes, and you want to know which ones are actually being used. Seems like a fair request. This would include Room and Equipment mailboxes...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "GitHub Code Quality generally available July 20, 2026",
+      "link": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "published": "2026-06-16T16:25:31+00:00",
+      "summary": "More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On July 20, 2026, Code… The post GitHub Code Quality generally available July 20, 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Organization-level enablement for GitHub Code Quality",
+      "link": "https://github.blog/changelog/2026-06-16-organization-level-enablement-for-github-code-quality",
+      "published": "2026-06-16T16:25:28+00:00",
+      "summary": "Organization administrators can now enable or disable GitHub Code Quality across all repositories in their organization with a single toggle, instead of configuring each repository individually. What’s new A new… The post Organization-level enablement for GitHub Code Quality appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Transform your security operation with a unified experience in Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/transform-your-security-operation-with-a-unified-experience-in/ba-p/4527932",
+      "published": "2026-06-16T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Security operations teams today are being asked to do more than ever: respond faster, manage increasing data volumes, reduce operational complexity, stay ahead of evolving threats, and balance cost and efficiency. That’s why...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Sentinel"
+    },
+    {
+      "title": "Don't expire attached chat files | Show a warning.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/don-t-expire-attached-chat-files-show-a-warning/m-p/4528562#M145000",
+      "published": "2026-06-16T15:09:44+00:00",
+      "summary": "Teams allows users to upload files to share with others in a chat. These files inherit the organization's sharing policy. So whether you use Share or Copy Link in SharePoint or OneDrive or you use Attach File in Teams, the same default policy is applied. The issue, what makes the Teams experience...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "Anthony-123",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Sensitivity label \"Certificate Error\"",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/sensitivity-label-quot-certificate-error-quot/m-p/4528545#M59392",
+      "published": "2026-06-16T14:06:06+00:00",
+      "summary": "When applying Sensitivity Labels in Microsoft Office applications, we receive the following certificate warning:\"The certificate issuer for this site is untrusted or unknown. Do you wish to proceed?\"We have already excluded the required Microsoft Azure URLs from the firewall and disabled SSL/TLS...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "SenthilvelS",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "Unlocking Microsoft OneLake as the data foundation for Azure Databricks customers",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Unlocking-Microsoft-OneLake-as-the-data-foundation-for-Azure/ba-p/5201876",
       "published": "2026-06-16T13:09:07+00:00",
@@ -345,18 +609,6 @@
       "product": "Azure Networking"
     },
     {
-      "title": "Most of the junk files were deleted, but the computer did not speed up",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/most-of-the-junk-files-were-deleted-but-the-computer-did-not/m-p/4528514#M44208",
-      "published": "2026-06-16T10:48:52+00:00",
-      "summary": "I recently deleted most of the junk files from my computer, hoping to improve its performance, but I did not notice any significant speed increase. Despite freeing up space, my system still runs slowly and lags during everyday tasks. I am unsure why cleaning junk files did not enhance my computer’s...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Imansun",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "How Much Will the July 2026 License Increases Cost Your Microsoft 365 Tenant?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-much-will-the-july-2026-license-increases-cost-your/m-p/4528445#M59391",
       "published": "2026-06-16T07:53:21+00:00",
@@ -367,6 +619,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Azure Function App — Queue-Based Architecture for Long-Running Sync Jobs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azure-function-app-queue-based-architecture-for-long-running/ba-p/4524474",
+      "published": "2026-06-16T07:00:00+00:00",
+      "summary": "The Problem: HTTP Triggers and Long-Running Jobs Don't Mix Here's a situation you've probably run into: you have a job that needs to loop over dozens of Azure resources, call APIs, and do real work. You wrap it in an HTTP-triggered Azure Function so it can be called on demand. It works great and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Jamesdld23",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
     },
     {
       "title": "GitHub Copilot for JetBrains is moving to Copilot CLI as the default agent harness",
@@ -403,18 +667,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "How to determine which Resource Mailboxes are being actively used",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/how-to-determine-which-resource-mailboxes-are-being-actively/ba-p/4521577",
-      "published": "2026-06-15T19:57:45+00:00",
-      "summary": "Today we wanted to take a few minutes to discuss a topic that has come up several times. Consider the scenario where your organization has created Resource mailboxes, and you want to know which ones are actually being used. Seems like a fair request. This would include Room and Equipment mailboxes...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
@@ -1065,18 +1317,6 @@
       "product": "GitHub"
     },
     {
-      "title": "New runner images in public preview",
-      "link": "https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview",
-      "published": "2026-06-11T16:18:07+00:00",
-      "summary": "Two new GitHub-hosted runner images for GitHub Actions are now available in public preview for all users, giving you early access to test your workflows on the latest platforms before… The post New runner images in public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Erro 0x0800f0843",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/erro-0x0800f0843/m-p/4527569#M44183",
       "published": "2026-06-11T16:04:34+00:00",
@@ -1087,18 +1327,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "GitHub Agentic Workflows is now in public preview",
-      "link": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview",
-      "published": "2026-06-11T16:00:35+00:00",
-      "summary": "GitHub Agentic Workflows is now in public preview. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, and documentation updates by leveraging coding agents inside… The post GitHub Agentic Workflows is now in public preview appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
@@ -1135,18 +1363,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender for Endpoint"
-    },
-    {
-      "title": "Agentic workflows no longer need a personal access token",
-      "link": "https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
-      "published": "2026-06-11T15:55:49+00:00",
-      "summary": "You can now use GitHub Agentic Workflows with GitHub Actions’s built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the… The post Agentic workflows no longer need a personal access token appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Copilot Autofix for GitHub Advanced Security for Azure DevOps",
@@ -1869,30 +2085,6 @@
       "product": "Azure Integration"
     },
     {
-      "title": "Turn insights into signals with Activator as a Business Event Publisher (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Turn-insights-into-signals-with-Activator-as-a-Business-Event/ba-p/5190248",
-      "published": "2026-06-08T20:09:22+00:00",
-      "summary": "Activator can now publish Business Events. Turn KPI alerts, threshold breaches, and query results into structured, governed signals your entire organization can discover, consume, and act on.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "GEGUIRGU",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Analyze Your Business Events in Eventhouse and Real-Time Dashboards (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Analyze-Your-Business-Events-in-Eventhouse-and-Real-Time/ba-p/5190245",
-      "published": "2026-06-08T19:52:41+00:00",
-      "summary": "Your business events are now automatically stored and queryable in Eventhouse. Run historical analyses with KQL, build live Real-Time Dashboards, and turn every business signal into actionable intelligence, all without extra configuration.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "GEGUIRGU",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "NOW ON DEMAND| OneDrive Office Hours | September 2025",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-september-2025/ba-p/4454561",
       "published": "2026-06-08T19:13:51+00:00",
@@ -2176,6 +2368,18 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "wisejayc",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "problemes selection windows insider previews canary",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/problemes-selection-windows-insider-previews-canary/m-p/4526094#M44154",
+      "published": "2026-06-06T16:10:30+00:00",
+      "summary": "bonjourje suis sous Windows insider sous Windows 11 64 bits et je n arrive pas a réinstaller Windows insider Canary tout est grise et je n arrive pas dégriser choisir vos paramètres insider pour remettre sur Canarymerci de vos réponses et bon Week end a tous",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "CHRISTOPHE2030",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -2697,18 +2901,6 @@
       "product": "Azure Monitor"
     },
     {
-      "title": "A new analytics frontier: GPU-accelerated Fabric Data Warehouse (Early Access Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/A-new-analytics-frontier-GPU-accelerated-Fabric-Data-Warehouse/ba-p/5191598",
-      "published": "2026-06-03T18:49:23+00:00",
-      "summary": "As data volumes grow, concurrency rises, and analytics workloads become more dynamic and AI-driven, performance becomes harder to predict and harder to scale. Every query sits in the critical path, adding pressure to the warehouse, and every second counts. This is the core tension in analytics...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "maraki",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "How Microsoft is migrating repositories to GitHub",
       "link": "https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github/",
       "published": "2026-06-03T18:48:27+00:00",
@@ -2947,18 +3139,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Arc"
-    },
-    {
-      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
-      "published": "2026-06-03T07:18:18+00:00",
-      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "AvanishYadav",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Azure Network Security"
     },
     {
       "title": "Token economics–driven architecture: hybrid models, AI Runway, AKS Kata MicroVM, MCP",
@@ -3705,18 +3885,6 @@
       "product": "Defender XDR"
     },
     {
-      "title": "GitHub Copilot app: The agent-native desktop experience",
-      "link": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-      "published": "2026-06-02T17:30:03+00:00",
-      "summary": "At Microsoft Build 2026, GitHub introduced new tools, updates, and surfaces so agents can work the way you already work. The post GitHub Copilot app: The agent-native desktop experience appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry",
       "link": "https://devblogs.microsoft.com/foundry/build-2026-foundry-models/",
       "published": "2026-06-02T17:20:00+00:00",
@@ -3969,18 +4137,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Taken over MS365 tenant, failed payment stuck",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/taken-over-ms365-tenant-failed-payment-stuck/m-p/4524570#M59342",
-      "published": "2026-06-01T18:39:38+00:00",
-      "summary": "Hi all, I have taken over an MS365 tenant for a customer that took over another company. This was a tenant managed by an MSP, but they canceled the relationship. So I tried to purchase a Business Premium subscription for one month and couple it to my admin account, so that I can decoupled some...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "FreekvH",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Public preview: Automatic OS Image Upgrades for VMSS Flex",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-os-image-upgrades-for-vmss-flex/ba-p/4523067",
       "published": "2026-06-01T18:38:35+00:00",
@@ -4077,18 +4233,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Cannot install addins",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/cannot-install-addins/m-p/4524145#M59337",
-      "published": "2026-05-30T10:56:40+00:00",
-      "summary": "I am a Microsoft 365 Personal user. When I try to add the Claude for Excel Addin (for the Desktop version of Excel), I get an error: \"Error loading add-ins. One or more add-ins failed to load. See your add-ins.\". However, this is not specific to the Claude addin, since every addin gives the same...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "pavanmaverick",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Malicious npm packages abuse dependency confusion to profile developer environments",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
       "published": "2026-05-30T00:06:20+00:00",
@@ -4159,18 +4303,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-pages-spa-deploying-a-custom-react-spa-to-microsoft-power/ba-p/4521378",
-      "published": "2026-05-29T07:00:00+00:00",
-      "summary": "Introduction Modern business applications are no longer limited to traditional server-rendered pages or fixed portal layouts. Today’s users expect fast, responsive, highly interactive web experiences - the kind of experience developers commonly build using modern front-end frameworks such as React....",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aakarshdhawan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     },
     {
       "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
@@ -5035,18 +5167,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Entra"
-    },
-    {
-      "title": "Understanding and building an Azure Hybrid Meshed Hub-Spoke Topology",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/understanding-and-building-an-azure-hybrid-meshed-hub-spoke/ba-p/4516879",
-      "published": "2026-05-18T07:15:26+00:00",
-      "summary": "A meshed hybrid hub-spoke topology Azure offers two main approaches to build network architectures. This article focuses on traditional networking (using VNets, peering, route tables, etc.), rather than Azure Virtual WAN. Why a hub-spoke topology? A hub‑spoke topology is the only way to control...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Svenbaeck",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
     }
   ]
 }
