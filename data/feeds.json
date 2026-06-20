@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-19T13:10:20.570582+00:00",
-  "totalArticles": 412,
+  "lastUpdated": "2026-06-20T12:35:57.619019+00:00",
+  "totalArticles": 413,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,126 @@
   },
   "articles": [
     {
+      "title": "Batch & Streaming Architecture Designs: Another Better Together Story!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/batch-streaming-architecture-designs-another-better-together/ba-p/4526166",
+      "published": "2026-06-19T21:24:09+00:00",
+      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
+      "published": "2026-06-19T20:03:56+00:00",
+      "summary": "At Build 2026, we announced significant new capabilities across our on-device AI platform that expand what’s possible at the edge, in the field, and in the network operations center. This post covers two key areas and what they mean for telecom: new capabilities in Microsoft Foundry on Windows, and...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "OpeSam-Olowu",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Telecom"
+    },
+    {
+      "title": "Announcing the Path to Production for Agents Webinar Series",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
+      "published": "2026-06-19T18:51:28+00:00",
+      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Azure Firewall explicit proxy Migration Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-migration-guide/ba-p/4528899",
+      "published": "2026-06-19T18:21:40+00:00",
+      "summary": "Purpose of the blog This blog outlines the key upcoming changes to Azure Firewall explicit proxy and provides detailed migration guidance for customers using PAC file–based configurations. It also covers the supported deployment options for enabling explicit proxy after the changes are released,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "devanshirastogi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
+      "published": "2026-06-19T17:42:41+00:00",
+      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "ARM MCP Server: A Catalog of 24 PoCs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/arm-mcp-server-a-catalog-of-24-pocs/ba-p/4519069",
+      "published": "2026-06-19T16:57:26+00:00",
+      "summary": "Introduction The Azure Resource Manager MCP Server is a remote Model Context Protocol server that gives AI agents first-class access to Azure infrastructure operations. Six tools is a small surface area, but ARM and Azure Resource Graph are not small control planes. To explore what that surface...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "varghesejoji",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Governance"
+    },
+    {
+      "title": "Three lessons that make or break your AWS-to-Azure workload migration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/three-lessons-that-make-or-break-your-aws-to-azure-workload/ba-p/4520020",
+      "published": "2026-06-19T16:52:06+00:00",
+      "summary": "Thomas Maurer and Raffaele Garofalo get into this in a new episode of the Azure Essentials Show. Raffaele, a Partner Solution Architect at Microsoft, has seen these migrations up close, and he walks through the three lessons that separate smooth migrations from the ones that stall or fail outright....",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "rhack",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Migrate"
+    },
+    {
+      "title": "Generate at scale code insights in Azure Migrate using GitHub Copilot Modernize CLI (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/generate-at-scale-code-insights-in-azure-migrate-using-github/ba-p/4529120",
+      "published": "2026-06-19T16:47:11+00:00",
+      "summary": "Overview Azure Migrate integrates with GitHub Copilot Modernization (public preview) to deliver at scale code insights. This capability brings together two powerful services: Azure Migrate’s portfolio-level discovery and assessment with GitHub Copilot’s context-aware code analysis. The shared...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "Nikita_Bajaj",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Migrate"
+    },
+    {
+      "title": "AI credits consumed per user now in the Copilot usage metrics API",
+      "link": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+      "published": "2026-06-19T16:23:29+00:00",
+      "summary": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API.… The post AI credits consumed per user now in the Copilot usage metrics API appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How we built an internal data analytics agent",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "published": "2026-06-19T16:00:00+00:00",
+      "summary": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it. The post How we built an internal data analytics agent appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Moving Office 365 Mailboxes to IMAP Servers - What’s the Best Approach",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/moving-office-365-mailboxes-to-imap-servers-what-s-the-best/m-p/4529483#M59410",
       "published": "2026-06-19T13:01:59+00:00",
@@ -295,6 +415,30 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
+      "published": "2026-06-19T12:22:17+00:00",
+      "summary": "Exchange Web Services (EWS) retirement in Exchange Online is entering its final phase. Over the last several years, Microsoft has worked with product teams, independent software vendors (ISVs), and customers across the ecosystem to migrate workloads to Microsoft Graph and other modern APIs. Many of...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Hands‑on with Build 29610: Smoother Shell, Vulkan Boost, Hybrid AI",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/hands-on-with-build-29610-smoother-shell-vulkan-boost-hybrid-ai/m-p/4529434#M44232",
+      "published": "2026-06-19T08:49:17+00:00",
+      "summary": "Build 29610 delivers a noticeable jump in overall smoothness and UI responsiveness.There are several smaller but important improvements visible in this build: 🖥️ New ShellHost compositorAnimations feel significantly smoother compared to previous builds. The Shell now uses a new rendering path that...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "kikero_exe",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Entra ID Tightens Conditional Access Processing for Baseline Scopes",
@@ -319,6 +463,30 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Networking"
+    },
+    {
+      "title": "My computer has been infected by viruses, malware and security threats",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/my-computer-has-been-infected-by-viruses-malware-and-security/m-p/4529412#M44231",
+      "published": "2026-06-19T07:46:47+00:00",
+      "summary": "My computer is clearly infected with some kind of virus or malware, as I keep getting persistent pop-up ads even when my browser is closed, unfamiliar toolbars and extensions have appeared without my permission, and my system performance has drastically slowed down with the hard drive constantly...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Zaoey",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Disk Drive Failures and Data Loss from Windows PC",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/disk-drive-failures-and-data-loss-from-windows-pc/m-p/4529411#M44230",
+      "published": "2026-06-19T07:39:04+00:00",
+      "summary": "My Windows PC suddenly stopped recognizing my secondary internal hard drive, and when I check Disk Management, the drive shows as unallocated space or raw format, even though it contains years of critical personal and work files that I desperately need to recover. I've already tried running chkdsk,...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Jesse_PooleL",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
@@ -489,6 +657,18 @@
       "product": "GitHub"
     },
     {
+      "title": "Detection and automation, reimagined",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
+      "published": "2026-06-18T18:31:03+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Sentinel"
+    },
+    {
       "title": "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
       "link": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
       "published": "2026-06-18T18:04:33+00:00",
@@ -525,6 +705,18 @@
       "product": "Microsoft 365"
     },
     {
+      "title": "Microsoft Defender for Office 365 Plan 1 is now rolling out to Microsoft 365 E3 and Office 365 E3",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/microsoft-defender-for-office-365-plan-1-is-now-rolling-out-to/ba-p/4527287",
+      "published": "2026-06-18T16:29:24+00:00",
+      "summary": "Starting today, Microsoft Defender for Office 365 Plan 1 is rolling out to customers with Microsoft 365 E3/G3 and Office 365 E3/G3 licenses, with rollout expected to complete by Fall 2026. For security teams, this means added protection against phishing, malware, and malicious links across email...",
+      "blog": "Defender for Office 365",
+      "blogId": "MicrosoftDefenderforOffice365Blog",
+      "author": "VipulPandey",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender for Office 365"
+    },
+    {
       "title": "Copilot-authored pull requests now included in author searches",
       "link": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
       "published": "2026-06-18T16:24:05+00:00",
@@ -547,18 +739,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "Detection and automation, reimagined",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
-      "published": "2026-06-18T16:00:00+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
     },
     {
       "title": "How pull request limits are cutting down the noise",
@@ -669,18 +849,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Generated release notes credit you for Copilot pull requests",
-      "link": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
-      "published": "2026-06-18T09:30:02+00:00",
-      "summary": "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release… The post Generated release notes credit you for Copilot pull requests appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Microsoft Blocks Graph Access to Non-IPM Folders",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-blocks-graph-access-to-non-ipm-folders/m-p/4529048#M59400",
       "published": "2026-06-18T08:36:14+00:00",
@@ -691,6 +859,30 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "My computer keeps reminding me to update",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/my-computer-keeps-reminding-me-to-update/m-p/4529045#M44225",
+      "published": "2026-06-18T08:29:14+00:00",
+      "summary": "My computer keeps showing constant notifications reminding me to update the system, but whenever I try to proceed with the update, it either fails to install or gets stuck at a certain point. I have tried restarting the computer, checking my internet connection, and freeing up disk space, but the...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Loganiy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Can the lost data be retrieved in the computer?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/can-the-lost-data-be-retrieved-in-the-computer/m-p/4529040#M44224",
+      "published": "2026-06-18T08:22:58+00:00",
+      "summary": "Hey everyone, I'm in a bit of a panic here, I lost some files on my PC and I have no idea if they can be recovered or if they're gone for good. Can you guys point me toward any free software or built-in Windows tools that actually work for retrieving deleted files, or is it hopeless once they're...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Amelags",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
@@ -705,13 +897,13 @@
       "product": "Azure Community"
     },
     {
-      "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise",
+      "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
       "published": "2026-06-18T03:43:04+00:00",
       "summary": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat intelligence. The post From package to postinstall payload: Inside the Mastra npm supply chain...",
       "blog": "Microsoft Security DevBlog",
       "blogId": "securitydevblog",
-      "author": "Microsoft Defender Security Research Team",
+      "author": "Microsoft Defender Security Research Team and Microsoft Threat Intelligence",
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
@@ -799,18 +991,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "Microsoft Defender for Office 365 Plan 1 is now rolling out to Microsoft 365 E3 and Office 365 E3",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/microsoft-defender-for-office-365-plan-1-is-now-rolling-out-to/ba-p/4527287",
-      "published": "2026-06-17T18:44:08+00:00",
-      "summary": "Starting today, Microsoft Defender for Office 365 Plan 1 is rolling out to customers with Microsoft 365 E3/G3 and Office 365 E3/G3 licenses, with rollout expected to complete in August 2026. For security teams, this means added protection against phishing, malware, and malicious links across email...",
-      "blog": "Defender for Office 365",
-      "blogId": "MicrosoftDefenderforOffice365Blog",
-      "author": "VipulPandey",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender for Office 365"
     },
     {
       "title": "​​Forrester names Microsoft a Leader in the 2026 Extended Detection and Response Platforms Wave™ report",
@@ -2025,18 +2205,6 @@
       "product": "Azure HPC"
     },
     {
-      "title": "Microsoft Fabric to Azure Databricks: Another Better Together Story!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-to-azure-databricks-another-better-together/ba-p/4526166",
-      "published": "2026-06-11T13:34:46+00:00",
-      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
-    },
-    {
       "title": "Dynamic Connection Properties in Azure Logic Apps Standard",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/dynamic-connection-properties-in-azure-logic-apps-standard/ba-p/4527525",
       "published": "2026-06-11T13:20:10+00:00",
@@ -2265,18 +2433,6 @@
       "product": "Defender for Endpoint"
     },
     {
-      "title": "Announcing the Path to Production for Agents Webinar Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
-      "published": "2026-06-10T13:54:17+00:00",
-      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
       "title": "Restricting Access is The Most Important Step in a Microsoft 365 Copilot Deployment",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/restricting-access-is-the-most-important-step-in-a-microsoft-365/m-p/4527158#M59370",
       "published": "2026-06-10T10:30:37+00:00",
@@ -2371,6 +2527,18 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
+    },
+    {
+      "title": "App Routing Gateway API is GA: Here's a Demo",
+      "link": "https://blog.aks.azure.com/2026/06/10/app-routing-gateway-api-ga",
+      "published": "2026-06-10T00:00:00+00:00",
+      "summary": "App Routing's Gateway API implementation is now GA, with built-in Azure DNS and Azure Key Vault TLS integration plus JSON access logs on gateway proxies.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "AKS"
     },
     {
       "title": "Extend Microsoft Purview data protection to AWS Bedrock agents for cross-cloud AI governance",
@@ -2509,12 +2677,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
       "published": "2026-06-09T16:00:00+00:00",
       "summary": "Custom agents let GitHub Copilot CLI understand your stack and team workflows, turning one-off terminal prompts into repeatable, reviewable processes. The post From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Natalie Guevara",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Elevate your telemetry using custom data collection in Microsoft Defender",
@@ -2608,54 +2776,6 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "Matthewsd",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "What to do? For the second time Windows Update that failed?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-to-do-for-the-second-time-windows-update-that-failed/m-p/4526630#M44169",
-      "published": "2026-06-09T04:41:38+00:00",
-      "summary": "I am facing a recurring issue where Windows Update fails to install the same cumulative update for the second time in a row on my Windows 11 PC. The update downloads and reaches a certain percentage like 70 or 90 percent but then throws an error message and rolls back the changes. I have already...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Delilahsw",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "How to Delete And reinstalling Windows OS",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-delete-and-reinstalling-windows-os/m-p/4526625#M44165",
-      "published": "2026-06-09T04:35:07+00:00",
-      "summary": "I want to completely wipe my hard drive and perform a clean installation of Windows 10 or Windows 11 on my computer. I have already backed up all my personal files to an external drive but I am unsure of the correct steps to delete the existing operating system and reinstall a fresh copy without...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Su-Jace",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "How do you troubleshoot slow boot times after recent updates?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-do-you-troubleshoot-slow-boot-times-after-recent-updates/m-p/4526624#M44164",
-      "published": "2026-06-09T04:23:45+00:00",
-      "summary": "I’ve noticed my Windows system takes much longer to start after automatic updates. I’ve checked startup apps, disabled some, but it still feels sluggish. What steps do you take first when boot performance drops unexpectedly?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Feliox",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Stuck in the insider program",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/stuck-in-the-insider-program/m-p/4526611#M44160",
-      "published": "2026-06-09T03:45:52+00:00",
-      "summary": "I seem to be in the insider program with no way of getting out of it. I have contacted support but was met with AI generated responses.I would like some advice on how to get out of the insider program while keeping as much of my data as possible.\\Any help would be very greatly appreciated!",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Tryfecta",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -2947,18 +3067,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Tools"
-    },
-    {
-      "title": "Build 26300 Activation fail..",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/build-26300-activation-fail/m-p/4526105#M44156",
-      "published": "2026-06-06T21:32:32+00:00",
-      "summary": "After I Upgrade to 26300 from Broken Foced Update 26200, Begging of April 2026.Struggle with Help of Co-pilot & Gemini, 20 Hrs a Day, Couldn't Fix...I Tried Reinstall 26100 & 26200 from Usb, Format,Cleaned by Co-pilot & Gemini Min 40+ Times,Cannot Fix., I Upgraded to 26300,Problem Still Exist but...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "wisejayc",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Update: You can now control Teams Meeting Recording expiration notification emails",
@@ -5131,102 +5239,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "PowerShell"
-    },
-    {
-      "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
-      "link": "https://devblogs.microsoft.com/ise/ai-assisted-development-agents-skills-copilot-cli/",
-      "published": "2026-05-21T07:00:00+00:00",
-      "summary": "How to move AI-assisted development from ad-hoc experimentation to a coordinated team-wide capability using AGENTS.md and reusable skills with GitHub Copilot CLI The post Coordinating AI-Assisted Development with AGENTS.md and Skills appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Jimmy Kurian, Destiny Hillis",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "ISE"
-    },
-    {
-      "title": "Clean up idle and always-failing Azure Logic App Consumption",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/clean-up-idle-and-always-failing-azure-logic-app-consumption/ba-p/4521728",
-      "published": "2026-05-21T05:11:18+00:00",
-      "summary": "If you’ve inherited an Azure subscription that’s been collecting Logic Apps Consumption workflows for a couple of years, you already know the shape of the problem: dozens of TestLA, webhook-test-2, poc-for-jira-FINAL workflows in the portal, half of them still Enabled, half of them quietly failing...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Yanbo_Deng",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Is monthly BIOS updates via Intune overkill for enterprise Windows 11",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/is-monthly-bios-updates-via-intune-overkill-for-enterprise/m-p/4521736#M23477",
-      "published": "2026-05-21T04:28:42+00:00",
-      "summary": "Hey all,Looking for some opinions from others managing BIOS and Drivers on enterprise environments.We’re considering pushing BIOS/firmware updates monthly across our Windows 11 fleet using Intune, but it feels a bit too aggressive.Is anyone actually doing BIOS updates this frequently?Do you see...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "ER2025",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Investigation update: GitHub Enterprise Server signing key rotation",
-      "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
-      "published": "2026-05-20T21:07:38+00:00",
-      "summary": "GitHub Enterprise Server customers need to take immediate action. The post Investigation update: GitHub Enterprise Server signing key rotation appeared first on The GitHub Blog.",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Natalie Guevara",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "PowerShell PSResource Roadmap and Best Practices",
-      "link": "https://devblogs.microsoft.com/powershell/powershell-psresource-roadmap-and-best-practices/",
-      "published": "2026-05-20T20:56:10+00:00",
-      "summary": "PowerShell is a critical automation and configuration platform across enterprises—and as that automation grows, how you source, validate, and distribute PowerShell packages becomes just as important as the scripts themselves. Modern security guidance increasingly treats package feeds as part of the...",
-      "blog": "PowerShell Blog",
-      "blogId": "powershellblog",
-      "author": "Sydney Smith",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "PowerShell"
-    },
-    {
-      "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/summarized-gateway-prefixes-for-route-advertisement-in-azure/ba-p/4521652",
-      "published": "2026-05-20T19:10:30+00:00",
-      "summary": "Background Many Azure deployments follow a hub-and-spoke topology: one VNet is designated as the hub and holds the connection to on-premises (via ExpressRoute Gateway, VPN Gateway, or both), and workload VNets — the spokes — peer to the hub to reach on-premises and shared services. This centralizes...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
-      "title": "New Power Query experience in Power BI Desktop (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
-      "published": "2026-05-20T17:30:00+00:00",
-      "summary": "Authored by: Sara Lammini Rodriguez - Product Manager II, and Miguel Escobar - Senior Product Manager",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "miguel",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "Your dev loop is full of tribal knowledge",
-      "link": "https://devblogs.microsoft.com/aspire/dev-loop-tribal-knowledge/",
-      "published": "2026-05-20T17:00:00+00:00",
-      "summary": "Aspire turns a team's scattered tribal knowledge into an explicit, incrementally-adoptable app model that humans, scripts, and AI agents can all use. The post Your dev loop is full of tribal knowledge appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "David Fowler",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET Aspire"
     }
   ]
 }
