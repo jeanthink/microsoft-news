@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-20T12:35:57.619019+00:00",
-  "totalArticles": 413,
+  "lastUpdated": "2026-06-21T12:39:23.426829+00:00",
+  "totalArticles": 400,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,18 @@
     ]
   },
   "articles": [
+    {
+      "title": "New Search Issues",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/new-search-issues/m-p/4529715#M44251",
+      "published": "2026-06-21T10:33:58+00:00",
+      "summary": "I just updated to 26h2 26300.8697. The window search window doesnt load anything anymore and the button does not have the changing icon on the taskbar. The search window pops up but nothing loads and there is just the loading animation zipping across the top of the window. Any ideas?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Dougyyyyy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
     {
       "title": "Batch & Streaming Architecture Designs: Another Better Together Story!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/batch-streaming-architecture-designs-another-better-together/ba-p/4526166",
@@ -2349,6 +2361,18 @@
       "product": "Microsoft Dev"
     },
     {
+      "title": "Stop skillmaxxing, save your tokens",
+      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
+      "published": "2026-06-10T18:00:15+00:00",
+      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
+    },
+    {
       "title": "Declined meetings in MS Bookings - no notifications",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/declined-meetings-in-ms-bookings-no-notifications/m-p/4527266#M59375",
       "published": "2026-06-10T17:28:34+00:00",
@@ -2767,18 +2791,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "I Can't get settings on Windows PC?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-can-t-get-settings-on-windows-pc/m-p/4526632#M44171",
-      "published": "2026-06-09T04:46:54+00:00",
-      "summary": "My Windows PC cannot open the Settings app at all, and Windows Update keeps failing on the same update for the second time. Clicking the gear icon does nothing, and the update rolls back after reaching a certain percentage. Please help.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Matthewsd",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Any source. Any destination. Ready for AI-era.",
@@ -5071,174 +5083,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "AI Infrastructure Preflight at User space: Validating Multi Node, Multi GPU Slurm Clusters",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-infrastructure-preflight-at-user-space-validating-multi-node/ba-p/4522284",
-      "published": "2026-05-22T12:29:15+00:00",
-      "summary": "Every team that operates GPU clusters for AI has seen this pattern. The cluster boots, GPUs are visible, and scheduling works at a basic level. Then the first distributed training run stalls in NCCL initialization, fails during rank rendezvous, or silently maps ranks to the wrong devices. The issue...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "vinilv",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure HPC"
-    },
-    {
-      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
-      "published": "2026-05-22T10:24:28+00:00",
-      "summary": "UPDATE as of 20th May 2026: We are happy to announce that this capability is now GA worldwide. Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "bapic",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Storage"
-    },
-    {
-      "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/deploy-with-confidence-using-rule-impact-analyzer-in-azure/ba-p/4521342",
-      "published": "2026-05-22T06:36:58+00:00",
-      "summary": "Introduction In a previous blog post, we described how Azure Virtual Network Manager (AVNM) enables central teams to enforce security admin rules across hundreds of virtual networks—bring consistency and governance to complex enterprise environments. But enforcement at scale introduces a new...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
-      "title": "Host a Microsoft Build //local host Event in Your City",
-      "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
-      "published": "2026-05-22T00:42:41+00:00",
-      "summary": "Content at Microsoft Build will be grounded in technical depth, developer credibility, and hands-on learning and creation. There are a total of 16 sessions available to build your agenda, including 4 labs and 12 breakout sessions, listed below. Labs are approximately 75 minutes in length, while...",
-      "blog": "Azure Events",
-      "blogId": "azure-events",
-      "author": "GalimahB",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Events"
-    },
-    {
-      "title": "Cloud Native Platforms: Build",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-build/ba-p/4519605",
-      "published": "2026-05-21T22:41:29+00:00",
-      "summary": "Audience: Cloud architects, platform engineers, engineering leaders making design decisions Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 1 of 3. Most engineering teams can build systems. Few can scale them without rebuilding them. As platforms grow,...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Cloud Native Platforms: Run",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-run/ba-p/4520188",
-      "published": "2026-05-21T22:41:09+00:00",
-      "summary": "Audience: SREs (Site Reliability Engineers), platform engineers, engineering managers running production systems Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 2 of 3. Most systems are designed thoughtfully. Most operations are inherited reactively. The...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Cloud Native Platforms: Evolve",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-evolve/ba-p/4520195",
-      "published": "2026-05-21T22:40:33+00:00",
-      "summary": "Audience: Engineering leaders, platform architects, senior developers exploring how to operationalise AI in their teams Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 3 of 3. Cloud helped us scale infrastructure. AI is starting to do the same thing for the...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "WAR, Azure Advisor, and Us (Azure Arch Diagram Builder): Three Ways to Score an Azure Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/war-azure-advisor-and-us-azure-arch-diagram-builder-three-ways/ba-p/4521611",
-      "published": "2026-05-21T18:06:15+00:00",
-      "summary": "Author: Arturo Quiroga, Azure AI services Engineer - Senior Partner Solutions Architect — Microsoft A few days ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. One feature got more follow-up...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "The AX stack: what’s fixed, where you can win",
-      "link": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
-      "published": "2026-05-21T17:39:59+00:00",
-      "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "Plan Before You Build: Introducing the Plan agent in Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/plan-before-you-build-introducing-the-plan-agent-in-visual-studio/",
-      "published": "2026-05-21T17:17:59+00:00",
-      "summary": "You ask Copilot to tackle something big, it gets to work, and a dozen file changes later you realize you had a completely different approach in mind. The code isn’t wrong… it just isn’t what you were going for. Last year, we introduced planning as a feature in Agent mode to help with exactly this....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Rachel Kang (SHE/HER)",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Visual Studio"
-    },
-    {
-      "title": "Announcing Agent Governance Toolkit MCP Extensions for .NET",
-      "link": "https://devblogs.microsoft.com/dotnet/announcing-agent-governance-toolkit-mcp-extensions-for-dotnet/",
-      "published": "2026-05-21T17:05:00+00:00",
-      "summary": "Announcing a Public Preview .NET package that adds policy enforcement, startup tool scanning, fallback governance, and response sanitization to MCP servers with a single builder extension. The post Announcing Agent Governance Toolkit MCP Extensions for .NET appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Jack Batzner",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "Improving C# Memory Safety",
-      "link": "https://devblogs.microsoft.com/dotnet/improving-csharp-memory-safety/",
-      "published": "2026-05-21T16:08:00+00:00",
-      "summary": "The `unsafe` keyword is being redesigned to mark caller-facing contracts rather than just syntax. Safety obligations between callers and callees become visible and reviewable. The model is motivated by the rise of AI-assisted code generation and arrives as a preview in .NET 11. The post Improving...",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Richard Lander",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "Anyone found a good way to run performance reviews inside Teams?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/anyone-found-a-good-way-to-run-performance-reviews-inside-teams/m-p/4521978#M144933",
-      "published": "2026-05-21T15:41:08+00:00",
-      "summary": "Our company just switched to doing everything in Teams and the one thing that still lives outside is performance reviews. We use a separate web app that nobody logs into until the last minute and managers hate it. Is there anything that actually handles the full review cycle with self assessments,...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "HarryP",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "PowerShell is now notarized and hardened for macOS",
-      "link": "https://devblogs.microsoft.com/powershell/powershell-notarized-hardened-macos/",
-      "published": "2026-05-21T14:40:15+00:00",
-      "summary": "PowerShell for macOS is now properly notarized and hardened, meeting both Apple and Microsoft security requirements. The post PowerShell is now notarized and hardened for macOS appeared first on PowerShell Team.",
-      "blog": "PowerShell Blog",
-      "blogId": "powershellblog",
-      "author": "Jason Helmick",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "PowerShell"
     }
   ]
 }
