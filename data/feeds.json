@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-21T12:39:23.426829+00:00",
-  "totalArticles": 400,
+  "lastUpdated": "2026-06-22T13:52:33.053894+00:00",
+  "totalArticles": 396,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,42 @@
   },
   "articles": [
     {
+      "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
+      "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/",
+      "published": "2026-06-22T13:21:18+00:00",
+      "summary": "Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to pick the next one, keeping a todo list as it goes. On top of that loop […] The post How to Use...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "The Grief and Joys of New PowerShell Releases",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/the-grief-and-joys-of-new-powershell-releases/m-p/4529801#M59420",
+      "published": "2026-06-22T10:03:05+00:00",
+      "summary": "A new version of the Microsoft Graph PowerShell SDK (V2.38) is available, as is a new version of the Exchange Online Management module. They don’t work well together. It’s annoying and beyond frustrating that two critical PowerShell modules in the Microsoft 365 ecosystem cannot work together. If...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Retirement of Azure DevOps issuer in Workload identity federation service connections",
+      "link": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/",
+      "published": "2026-06-22T09:35:34+00:00",
+      "summary": "We are announcing the deprecation of the Azure DevOps issuer in workload identity federation (WIF) service connections, with planned retirement on July 1, 2027. The Azure DevOps issuer uses the https://vstoken.dev.azure.com prefix in federated credentials. This change is part of Microsoft’s broader...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Azure DevOps"
+    },
+    {
       "title": "New Search Issues",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/new-search-issues/m-p/4529715#M44251",
       "published": "2026-06-21T10:33:58+00:00",
@@ -292,6 +328,42 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "Dougyyyyy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "The new modern Run dialog (Win+R) looks terrible and too bulky",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-new-modern-run-dialog-win-r-looks-terrible-and-too-bulky/m-p/4529672#M44250",
+      "published": "2026-06-20T21:11:40+00:00",
+      "summary": "I am a windows 11 fan and I love modern, clean design. however, the new test version of the run dialog (the optional \"Modern Run\" toggle found in Settings -> System -> Advanced) is a disaster. It is bloated, way too wide, and looks ugly. the classic Run dialog was perfect because of its minimalism....",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "windows_10_is_trash",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "I accidentally turned off my laptop during complete factory reset.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-accidentally-turned-off-my-laptop-during-complete-factory/m-p/4529632#M44248",
+      "published": "2026-06-20T09:15:25+00:00",
+      "summary": "So I took an old laptop of mine and decided to wipe it clean. I set it for factory reset, the problem is that the screen doesn't work. All this time I've been using my TV as a monitor. Before that it worked perfectly but during the reset it said no signal. That's when I decided to turn it off and...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "RaGp97",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "I can't update anymore.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-can-t-update-anymore/m-p/4529585#M44243",
+      "published": "2026-06-20T01:41:18+00:00",
+      "summary": "I want to get rid of this version if I can't update it. What needs to be done to get this fixed?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "BigEDubz",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -417,6 +489,18 @@
       "product": "GitHub"
     },
     {
+      "title": "Intune Autopatch Reports - Expected Behavior",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-autopatch-reports-expected-behavior/m-p/4529521#M23547",
+      "published": "2026-06-19T14:47:13+00:00",
+      "summary": "I utilize the Intune Autopatch Reports for Quality Updates to monitor the deployment of updates across our environment. We currently have a group of devices which have a 30-day deferral period due to the compliance/testing policy we have to follow. My Understanding is that the \"Quality Update...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "jokelly",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
       "title": "Moving Office 365 Mailboxes to IMAP Servers - What’s the Best Approach",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/moving-office-365-mailboxes-to-imap-servers-what-s-the-best/m-p/4529483#M59410",
       "published": "2026-06-19T13:01:59+00:00",
@@ -441,16 +525,16 @@
       "product": "Exchange"
     },
     {
-      "title": "Hands‑on with Build 29610: Smoother Shell, Vulkan Boost, Hybrid AI",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/hands-on-with-build-29610-smoother-shell-vulkan-boost-hybrid-ai/m-p/4529434#M44232",
-      "published": "2026-06-19T08:49:17+00:00",
-      "summary": "Build 29610 delivers a noticeable jump in overall smoothness and UI responsiveness.There are several smaller but important improvements visible in this build: 🖥️ New ShellHost compositorAnimations feel significantly smoother compared to previous builds. The Shell now uses a new rendering path that...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "kikero_exe",
+      "title": "Still Cannot Bulk Add People or Groups in Team/Channel in 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/still-cannot-bulk-add-people-or-groups-in-team-channel-in-2026/m-p/4529443#M145008",
+      "published": "2026-06-19T09:49:12+00:00",
+      "summary": "It's 2026, still same issue. As a regular user/leader of a large team (hundreds of people), we still cannot bulk add people in Team/Channel. It's frustrating to add one people at a time. This has been brought up in 2020, 6 years after, same issue.teams and bulk adding of members | Microsoft...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "kingtoph_corp1",
       "solutionArea": "CAIP",
       "billingType": "License",
-      "product": "Windows"
+      "product": "Microsoft Teams"
     },
     {
       "title": "Entra ID Tightens Conditional Access Processing for Baseline Scopes",
@@ -2265,18 +2349,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Preview update turned full win11 license into an evaluation",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/preview-update-turned-full-win11-license-into-an-evaluation/m-p/4527403#M44181",
-      "published": "2026-06-11T07:46:15+00:00",
-      "summary": "Hello community, something weird here, a Lenovo laptop bought new with a full win 11 license (not sure 100% if it was win11 or 10 upgraded to 11)after one of the latest preview updates turned to an evaluation copy with timed expiration.Edition Windows 11 Pro Insider PreviewVersion 25H2Installed on...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Deskart",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523",
       "published": "2026-06-11T07:00:00+00:00",
@@ -2353,18 +2425,6 @@
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
       "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "Stop skillmaxxing, save your tokens",
-      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
-      "published": "2026-06-10T18:00:15+00:00",
-      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz",
@@ -2745,18 +2805,6 @@
       "product": "OneDrive"
     },
     {
-      "title": "How to Resolve Intuit Data Protect Has Stopped Working Issue",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-resolve-intuit-data-protect-has-stopped-working-issue/m-p/4526793#M44174",
-      "published": "2026-06-09T14:27:11+00:00",
-      "summary": "The Intuit Data Protect Has Stopped Working issue can disrupt backup processes and increase the risk of data loss. Common causes include outdated software, damaged program files, firewall restrictions, and internet connectivity problems. Identifying and resolving these issues can help restore...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Isabellaqb",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Intune Install Printer Driver",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-install-printer-driver/m-p/4526738#M23534",
       "published": "2026-06-09T10:12:13+00:00",
@@ -3127,18 +3175,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "Microsoft rewards, how am i gonna redeem my rewards",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-rewards-how-am-i-gonna-redeem-my-rewards/m-p/4525987#M59359",
-      "published": "2026-06-05T19:44:30+00:00",
-      "summary": "How am i gonna redeem my rewards in Microsoft rewards if i can't even do phone verification?? It says it's not allowed… Microsoft pls fix this. Thanks",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Isaiah_Cacho_95",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Enhancements to Device Status API & Logged-In User Email in Endpoint DLP",
@@ -4185,18 +4221,6 @@
       "product": "Azure Cosmos DB"
     },
     {
-      "title": "Announcing General availability of the Azure Cosmos DB vNext emulator",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-the-azure-cosmos-db-vnext-emulator/",
-      "published": "2026-06-02T19:15:34+00:00",
-      "summary": "The Azure Cosmos DB vNext emulator is generally available today. It ships as a Docker image that runs on Linux, macOS, and Windows, on both x64 and ARM64 architectures, giving you a local Cosmos DB instance you can develop and test against. Use it for inner-loop development on your laptop, in CI...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
       "title": "Work IQ: Production‑ready intelligence for every agent",
       "link": "https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/",
       "published": "2026-06-02T19:15:12+00:00",
@@ -5011,78 +5035,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Microsoft teams personal package",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-personal-package/m-p/4522461#M144943",
-      "published": "2026-05-23T12:41:52+00:00",
-      "summary": "Dear communityI am looking for a Microsoft package with Teams that supports 300 users. Can the personal package work out for this?I was trying to pay for one month, but it was not allowing me to change the country, only the US. Kindly help out if anyone can.",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "James26",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Regex support for LOB types in T-SQL—available in Azure SQL & SQL Server 2025",
-      "link": "https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-types-in-t-sql-available-in-azure-sql-sql-server-2025/",
-      "published": "2026-05-22T20:28:15+00:00",
-      "summary": "At a glance — Native regular expression (regex) functions in T-SQL now accept varchar(max) and nvarchar(max) inputs of up to 2 MB across all seven regex functions, including the two table-valued functions (REGEXP_MATCHES and REGEXP_SPLIT_TO_TABLE). This capability ships in SQL Server 2025 CU5 and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Abhiman Tiwari",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "From Prompt to Production: Building Azure Architecture Diagrams with AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-prompt-to-production-building-azure-architecture-diagrams/ba-p/4520336",
-      "published": "2026-05-22T18:35:07+00:00",
-      "summary": "Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Cloud architects spend significant time translating ideas into architecture diagrams. They toggle between Visio, draw.io, pricing calculators, and documentation. According to the 2024 Stack Overflow Developer Survey, 61% of...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
-      "published": "2026-05-22T16:10:21+00:00",
-      "summary": "We are committed to empowering every developer by building an open, secure, and AI-powered platform that defines the future of software development. The post GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row appeared first on...",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Natalie Guevara",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "Power BI Tenant Migration: Trade-offs, risks, and realities",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
-      "published": "2026-05-22T15:05:26+00:00",
-      "summary": "Author: Winnie Li, Cloud Solution Architect",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "WinnieLi",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "From Scale to Breakthrough: Azure NetApp Files Sets a New Cloud Benchmark for EDA Performance",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-scale-to-breakthrough-azure-netapp-files-sets-a-new-cloud/ba-p/4520890",
-      "published": "2026-05-22T15:00:00+00:00",
-      "summary": "Table of Contents Introduction New benchmark proof with large volume breakthrough mode What is Azure NetApp Files large volume breakthrough mode? Explore the latest Azure NetApp Files SPECstorage® 2020 publications Results that Speak for Themselves Single large volume breakthrough mode Large volume...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Storage"
     }
   ]
 }
