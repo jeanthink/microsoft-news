@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-05T12:28:30.060672+00:00",
-  "totalArticles": 344,
+  "lastUpdated": "2026-07-06T13:14:23.053880+00:00",
+  "totalArticles": 340,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,78 @@
   },
   "articles": [
     {
+      "title": "Teams for Mac retains deleted personal Microsoft account in account picker after alias change",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-for-mac-retains-deleted-personal-microsoft-account-in/m-p/4533601#M145048",
+      "published": "2026-07-06T12:59:14+00:00",
+      "summary": "I’m hoping someone can point me to the location where Teams for Mac stores remembered accounts, or confirm whether this is a bug. Environment Teams Version: 26163.407.4839.8659 macOS: 27.0 Problem I previously had both: a work account using email address removed for privacy reasons a personal...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "serdikoffs",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Token Economics: The New FinOps for Agentic AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
+      "published": "2026-07-06T07:00:00+00:00",
+      "summary": "In AI applications, tokens are now cost — and token economics deserves architectural attention For a long time, AI application design started with model capability: Can the model write code? Can it reason? Can it use tools? Can it handle long context? Those questions still matter, but in the age of...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Azure SDK Release (June 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june-2026/",
+      "published": "2026-07-06T05:56:58+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (June 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure SDK"
+    },
+    {
+      "title": "Automatically Route Azure Service Health Alerts to the Right Service Owners Using Agentic Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/automatically-route-azure-service-health-alerts-to-the-right/ba-p/4531853",
+      "published": "2026-07-05T21:55:20+00:00",
+      "summary": "As organizations adopt more Azure services, operational ownership naturally becomes distributed across multiple teams. The platform team may own Azure Kubernetes Service (AKS), the database team may manage Azure SQL, while application teams are responsible for App Services and Logic Apps. Azure...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Arpit_MSFT",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Factory Reset",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/factory-reset/m-p/4533731#M44354",
+      "published": "2026-07-05T02:50:57+00:00",
+      "summary": "I factory reset the laptop but, now after clearing everything and deleting old windows file as well, why is more than 100 GB occupied, i do not understand",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "wanisaqib",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Power Apps + Excel Online: RFC 3339 Date/DateTime Format Error When Patching to Excel Date Columns",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/power-apps-excel-online-rfc-3339-date-datetime-format-error-when/m-p/4533673#M59492",
+      "published": "2026-07-04T12:25:06+00:00",
+      "summary": "Hi everyone, I need help with a Power Apps canvas app connected to an Excel workbook stored in SharePoint/OneDrive. The app is a warehouse inventory system using Excel tables as the data source. The app has these Excel tables:tblSKUtblLocationtblInventorytblTransactionsThe main issue is with date...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Rr__",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms",
       "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403",
       "published": "2026-07-03T16:00:00+00:00",
@@ -316,18 +388,6 @@
       "blog": "Microsoft 365 Blog",
       "blogId": "Microsoft-365",
       "author": "FerVF",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Outlook Classic - Crashes When Drafting with Copilot in RDS environment",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/outlook-classic-crashes-when-drafting-with-copilot-in-rds/m-p/4533463#M59483",
-      "published": "2026-07-03T10:28:10+00:00",
-      "summary": "Hi all,I'm interested to see whether anyone else is experiencing this issue, particularly in an RDS environment.We have a number of users who have paid-for Microsoft 365 Copilot licences, including the integration within Office applications such as Outlook, Word and Excel.In Outlook Classic running...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Chris House",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
@@ -1804,18 +1864,6 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "Edgerson",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Is there a difference between Insider's Balanced and Best Performance power modes?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/is-there-a-difference-between-insider-s-balanced-and-best/m-p/4531113#M44287",
-      "published": "2026-06-26T02:20:52+00:00",
-      "summary": "For new Windows 11 laptops equipped with Modern Standby, what are the actual differences in performance test results between the Balanced and Best Performance modes in Settings?This is what I want to figure out. What are the differences between the preview version and other versions?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "ZacharyRodriguez",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -3513,18 +3561,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Struggling to get managers to actually use 1:1 meeting agendas in Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/struggling-to-get-managers-to-actually-use-1-1-meeting-agendas/m-p/4527640#M144988",
-      "published": "2026-06-12T04:48:09+00:00",
-      "summary": "We've been trying to get our managers to run structured 1:1s with their direct reports using Teams. Right now they just hop on a call with no agenda and wing it. HR wants there to be a documented agenda, talking points from both sides, and some kind of record of what was discussed. We tried using...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "EmmaHastings",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
       "title": "June Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-5/",
       "published": "2026-06-11T21:33:15+00:00",
@@ -4317,18 +4353,6 @@
       "product": "Azure Analytics"
     },
     {
-      "title": "Getting Secrets Out of YAML: Implementing Azure Key Vault CSI Driver on AKS with Workload Identity",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-secrets-out-of-yaml-implementing-azure-key-vault-csi/ba-p/4522590",
-      "published": "2026-06-08T07:00:00+00:00",
-      "summary": "Table of Contents Why This Pattern Matters The Problem with Secrets in YAML What We Wanted to Achieve Architecture Overview How the Flow Works Implementation Prerequisites Step-by-Step Implementation Understanding the YAML Components Secret Rotation and Reloaders Common Pitfalls and Troubleshooting...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "anandranjan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
       "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
       "published": "2026-06-07T07:19:58+00:00",
@@ -4339,78 +4363,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Tools"
-    },
-    {
-      "title": "Govern AI Agents Using Agent Governance Toolkit and Azure Container App Sandboxes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/govern-ai-agents-using-agent-governance-toolkit-and-azure/ba-p/4526011",
-      "published": "2026-06-05T22:40:19+00:00",
-      "summary": "When you let a model generate code and you actually execute it, you are handing the model a Python REPL on whatever machine runs the agent. That sounds alarmist — right up until a planner (yours, mine, or anyone else's) produces a snippet that reads as harmless on the first pass: # \"summarize the...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "amolravande",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
-    },
-    {
-      "title": "New Capabilities to Observe Agents in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
-      "published": "2026-06-05T22:09:44+00:00",
-      "summary": "Over the last six months, we have been listening to you and building new capabilities to help you observe your agents. You’ve been sharing with us that quality issues are tricky and evaluation is critical, that agent reasoning needs to be understood, that humans must be in the loop to review select...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "MattMc",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
-    },
-    {
-      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
-      "published": "2026-06-05T21:50:11+00:00",
-      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "grace_kim",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Storage"
-    },
-    {
-      "title": "Enhancements to Device Status API & Logged-In User Email in Endpoint DLP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/enhancements-to-device-status-api-logged-in-user-email-in/ba-p/4512046",
-      "published": "2026-06-05T19:34:11+00:00",
-      "summary": "1. The Real‑World Problem Endpoint DLP analyst Faced (What Was Missing Earlier) Before the introduction of the Device Status API enhancements and logged‑in user visibility, Endpoint DLP teams consistently struggled in below discussed areas: Device Visibility Was Fragmented and Manual - Customers...",
-      "blog": "Microsoft Purview",
-      "blogId": "microsoft-purview-blog",
-      "author": "Harysh9",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Purview"
-    },
-    {
-      "title": "Ansible + Azure Arc: Use Ansible modules to deploy and manage Azure Arc machine extensions at scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-use-ansible-modules-to-deploy-and-manage-azure/ba-p/4521689",
-      "published": "2026-06-05T18:05:16+00:00",
-      "summary": "We are making Azure Arc extensible and increasing the flexibility of the tooling you can use to operate your machines using Azure’s control plane. We are excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "Run Global Secure Access with confidence: Introducing the GSA Operations Guide",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/run-global-secure-access-with-confidence-introducing-the-gsa/ba-p/4524891",
-      "published": "2026-06-05T18:04:21+00:00",
-      "summary": "In working with customers, I’ve seen the same pattern again and again: deployment gets the attention, but day 2 operations are where teams need the most structure. This guide is meant to make that part easier—with practical guidance teams can use right away. TL;DR: Your day 2 playbook is here...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "tdetzner",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
     }
   ]
 }
