@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-06T13:14:23.053880+00:00",
-  "totalArticles": 340,
+  "lastUpdated": "2026-07-07T12:48:08.224903+00:00",
+  "totalArticles": 313,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,114 @@
   },
   "articles": [
     {
+      "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
+      "published": "2026-07-07T09:53:09+00:00",
+      "summary": "Log Analytics Export Job is now available in public preview. It gives you a straightforward way to export historical log data from your workspace to Azure Blob Storage, without writing custom scripts or disrupting live operations. You submit a job including a query, time range, and the service...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "YossiY",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Monitor"
+    },
+    {
+      "title": "What’s New in Microsoft Foundry | June 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
+      "published": "2026-07-07T07:10:25+00:00",
+      "summary": "Claude is now generally available in Microsoft Foundry. Here's everything else that shipped between Build 2026 and the end of June — autopilot agents, expanded Toolboxes and Routines, Agent Optimizer's private preview, and more. The post What’s New in Microsoft Foundry | June 2026 appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
+      "published": "2026-07-07T03:00:27+00:00",
+      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
+    },
+    {
+      "title": "See our new Azure Cosmos DB Design Patterns",
+      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
+      "published": "2026-07-06T20:20:06+00:00",
+      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Mark Brown",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
+      "published": "2026-07-06T16:00:00+00:00",
+      "summary": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management. The post 5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management appeared first on Microsoft...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Team",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-july-2026/ba-p/4533851",
+      "published": "2026-07-06T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month July 2026's Ace Aviator: Bill Chesnut Bill Chesnut - Cloud Platform and API Evangelist @ SixPivot What's your role and title? What are your responsibilities? Cloud Platform and API...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Securing message brokers takes more than turning off public access",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
+      "published": "2026-07-06T14:00:00+00:00",
+      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Messaging"
+    },
+    {
+      "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
+      "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
+      "published": "2026-07-06T13:37:33+00:00",
+      "summary": "Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cross-partition queries or hot partitions, you need to consider your options for changing it. This post explains the mechanics of...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "Automatically Sync SharePoint Document Libraries on macOS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/automatically-sync-sharepoint-document-libraries-on-macos/m-p/4534130#M23569",
+      "published": "2026-07-06T13:01:11+00:00",
+      "summary": "Hi everyone,We manage macOS devices with Microsoft Intune and need to automatically sync one or more SharePoint document libraries to users' OneDrive, similar to how it's done on Windows using the Intune auto-sync policy.Has anyone successfully implemented this on macOS using Intune, Jamf Pro,...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "ynarvil",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
       "title": "Teams for Mac retains deleted personal Microsoft account in account picker after alias change",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-for-mac-retains-deleted-personal-microsoft-account-in/m-p/4533601#M145048",
       "published": "2026-07-06T12:59:14+00:00",
@@ -355,18 +463,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403",
-      "published": "2026-07-03T16:00:00+00:00",
-      "summary": "We’re proud to share that Microsoft has once again been named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms for the nineteenth consecutive year.",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "NicoCristache",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     },
     {
       "title": "Azure landing zone (ALZ) enters its next chapter",
@@ -549,18 +645,6 @@
       "product": "Defender for Cloud"
     },
     {
-      "title": "Workspace Outbound Access Protection (OAP) for Real-Time Intelligence (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Workspace-Outbound-Access-Protection-OAP-for-Real-Time/ba-p/5241179",
-      "published": "2026-07-02T18:09:23+00:00",
-      "summary": "Workspace Outbound Access Protection (Preview) for key Real-Time Intelligence experiences in Microsoft Fabric, helping organizations reduce data exfiltration risk while keeping common real-time ingestion, analytics, dashboarding, and automation workflows running. Read on to learn which RTI items...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "galir",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Copilot agent session streaming is now in public preview",
       "link": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
       "published": "2026-07-02T18:05:05+00:00",
@@ -571,30 +655,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "Securing zero-copy distribution patterns with OneLake security and shortcuts",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Securing-zero-copy-distribution-patterns-with-OneLake-security/ba-p/5227853",
-      "published": "2026-07-02T18:00:00+00:00",
-      "summary": "Aaron Merrill - Principal Product Manager",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "aonelakeuser",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Simplifying secure data access with Delegated OneLake Shortcuts (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Simplifying-secure-data-access-with-Delegated-OneLake-Shortcuts/ba-p/5254632",
-      "published": "2026-07-02T17:00:00+00:00",
-      "summary": "IntroductionData rarely stays in one place. As organizations standardize Microsoft Fabric and OneLake, the same datasets need to be reused across teams, domains, workspaces, and increasingly across tenant boundaries. The challenge is no longer moving data; it is sharing it securely, consistently,...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "shiv_narayanan",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Cost centers now support AI credit pools",
@@ -631,18 +691,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "Deep dive into visual calculations: Adding calculations directly to your Power BI visuals (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-visual-calculations-Adding-calculations-directly/ba-p/5255359",
-      "published": "2026-07-02T16:00:00+00:00",
-      "summary": "Visual calculations (Generally Available) in Power BI, making it easier to add DAX calculations directly to the visual where they’re used.",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "DataZoe",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     },
     {
       "title": "Microsoft Teams File Permissions: Why Can't I Remove Direct Access?",
@@ -741,18 +789,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Supercharge your real-time data ingestion: What's new in Fabric Eventstream connectors",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Supercharge-your-real-time-data-ingestion-What-s-new-in-Fabric/ba-p/5260314",
-      "published": "2026-07-01T23:39:22+00:00",
-      "summary": "Discover the latest Fabric Eventstream connector updates—bringing stronger enterprise security, broader source coverage, and simpler real-time ingestion across private networks, Kafka, Service Bus, IoT Hub, Oracle CDC, and HTTP.Now available: Connector private network support, Apache Kafka...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "xujx",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Upcoming Change: NTLM Removal in Git (libcurl) – Impact to Azure DevOps Server Customers",
       "link": "https://devblogs.microsoft.com/devops/upcoming-change-ntlm-removal-in-git-libcurl-impact-to-azure-devops-server-customers/",
       "published": "2026-07-01T23:25:39+00:00",
@@ -811,18 +847,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "Power BI reports and Fabric Apps: Expanding how you build on your semantic model data",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-reports-and-Fabric-Apps-Expanding-how-you-build-on-your/ba-p/5234706",
-      "published": "2026-07-01T21:00:00+00:00",
-      "summary": "Power BI reports continue to help analysts build secure, governed BI experiences on semantic models, while Fabric Apps expands what developers can create from the same trusted data.",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "DataZoe",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     },
     {
       "title": "Enterprise managed-settings.json is generally available",
@@ -895,18 +919,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Fabric data agent API is now public: Build Fabric data agents into your tools and pipelines",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-data-agent-API-is-now-public-Build-Fabric-data-agents/ba-p/5230588",
-      "published": "2026-07-01T17:00:00+00:00",
-      "summary": "The Fabric data agent API is now public. Developers can now automate how Fabric data agents are created, configured, updated, and published from their own tools, pipelines, and backend services. The primary purpose of the management-plane public API is lifecycle management: managing and updating...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "AmirJafari",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Bring business logic into PIM role activation workflows",
@@ -1185,18 +1197,6 @@
       "product": "Azure SQL"
     },
     {
-      "title": "Item Recovery in Microsoft Fabric (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Item-Recovery-in-Microsoft-Fabric-Generally-Available/ba-p/5240675",
-      "published": "2026-06-30T19:00:00+00:00",
-      "summary": "With Item Recovery in Microsoft Fabric (Generally Available), you can now recover deleted items across supported workloads, restore items through the Workspace Recycle bin or REST API, and configure tenant-wide recovery policies.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "YuliaTurchin",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Accelerating the quantum-safe timeline",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
       "published": "2026-06-30T19:00:00+00:00",
@@ -1207,18 +1207,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "Power BI Desktop Bridge (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Desktop-Bridge-Preview/ba-p/5227769",
-      "published": "2026-06-30T19:00:00+00:00",
-      "summary": "Power BI Desktop Bridge (Preview)Power BI Desktop Bridge introduces a new way of working, allowing external applications and agents to interact directly with Power BI Desktop! What is Power BI Desktop Bridge?The bridge is a lightweight local server that lets external applications interact directly...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "saralam",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     },
     {
       "title": "Microsoft Entra Backup and Recovery is now generally available",
@@ -1255,18 +1243,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "AI-assisted Synapse Spark and pipeline migration to Microsoft Fabric from the command line (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/AI-assisted-Synapse-Spark-and-pipeline-migration-to-Microsoft/ba-p/5234478",
-      "published": "2026-06-30T17:20:00+00:00",
-      "summary": "Many organizations running Apache Spark workloads on Azure Synapse Analytics are planning their move to Microsoft Fabric for a more unified analytics experience. This preview introduces an AI-assisted migration skill that helps move Synapse Spark artifacts to Fabric from the command line, using...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "jiang_jenny1",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "MCP Beyond the Chat Window: Build Diagnostics in CI",
@@ -1533,18 +1509,6 @@
       "product": "Microsoft Sentinel"
     },
     {
-      "title": "Secure Azure and Fabric Event Flows Across Workspaces with Outbound Access Protection (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Secure-Azure-and-Fabric-Event-Flows-Across-Workspaces-with/ba-p/5240305",
-      "published": "2026-06-29T16:00:00+00:00",
-      "summary": "Lock down cross-workspace event flows in Fabric: new Outbound Access Protection lets you control which workspaces can consume Azure and Fabric events—blocking unauthorized access by default until you explicitly allow the Real-Time Events connector.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "GEGUIRGU",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "WSL container is now available for public preview",
       "link": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview/",
       "published": "2026-06-29T15:29:48+00:00",
@@ -1713,18 +1677,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "More resilient Spark jobs with Efficient Scaledown (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/More-resilient-Spark-jobs-with-Efficient-Scaledown-Preview/ba-p/5212071",
-      "published": "2026-06-26T20:55:59+00:00",
-      "summary": "Running large-scale data engineering workloads in Apache Spark often means dealing with expensive shuffle operations. Shuffle is one of the most resource-intensive operations that Spark runs on most, if not all, jobs. When executors holding shuffle data are removed during scale-down, Spark must...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Santhosh_Ravin1",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "ISO Download error",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/iso-download-error/m-p/4531398#M44299",
       "published": "2026-06-26T20:47:20+00:00",
@@ -1881,18 +1833,6 @@
       "product": "Linux on Azure"
     },
     {
-      "title": "Use built-in Fabric data protection to get your data AI-ready",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Use-built-in-Fabric-data-protection-to-get-your-data-AI-ready/ba-p/5237428",
-      "published": "2026-06-26T00:23:30+00:00",
-      "summary": "Every organization wants to put AI to work on its data. Copilot, agents, and generative AI promise faster insight, but they raise a hard question for security teams: If AI can reach all our data, what stops it from surfacing the wrong data to the wrong person? The answer is to make your data...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "antonfr",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Your agent already has a plan",
       "link": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan",
       "published": "2026-06-26T00:00:05+00:00",
@@ -1903,18 +1843,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Microsoft Dev"
-    },
-    {
-      "title": "Using Bulk Copy API for faster ingestion in Fabric Data Warehouse (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Using-Bulk-Copy-API-for-faster-ingestion-in-Fabric-Data/ba-p/5195627",
-      "published": "2026-06-25T23:25:00+00:00",
-      "summary": "The BCP API provides a client-side ingestion path for scenarios where data is produced within application code and needs to be written directly to warehouse tables without intermediate staging. It can deliver 5–10× higher ingestion throughput from the client compared to standard T-SQL INSERT...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "jovanpop-msft",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
@@ -1939,18 +1867,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "On-premises data gateway June 2026 release",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-June-2026-release/ba-p/5233421",
-      "published": "2026-06-25T21:00:00+00:00",
-      "summary": "The June 2026 release of the on-premises data gateway is version 3000.322. This new version (3000.322) continues our focus on improving gateway manageability, operational visibility, and enterprise governance while maintaining secure and reliable connectivity between on-premises data sources and...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "goupadhy",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Secure AI at scale: Join the Microsoft Entra + Purview webinar series",
@@ -1999,18 +1915,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Microsoft Dev"
-    },
-    {
-      "title": "Fabric Influencers Spotlight: June 2026",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Influencers-Spotlight-June-2026/ba-p/5232694",
-      "published": "2026-06-25T17:00:00+00:00",
-      "summary": "A monthly post to shine a bright light on Microsoft MVPs & Fabric Super Users",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "mamathews",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms",
@@ -2109,18 +2013,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Know before you optimize: Diagnose Lakehouse table health with a single T-SQL command (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Know-before-you-optimize-Diagnose-Lakehouse-table-health-with-a/ba-p/5228076",
-      "published": "2026-06-24T21:00:00+00:00",
-      "summary": "A new built-in stored procedure for the SQL analytics endpoint in Microsoft Fabric; sp_get_table_health_metric. This feature gives you a T-SQL-native way to check the structural health of your Lakehouse tables, so you can make informed decisions about table maintenance before it impacts your users....",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "perirocha",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Azure Confidential Computing for Digital Sovereignty and Regulated Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/azure-confidential-computing-for-digital-sovereignty-and/ba-p/4529932",
       "published": "2026-06-24T20:48:24+00:00",
@@ -2169,18 +2061,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/What-s-new-across-Microsoft-SQL-in-2026-so-far-SQL-Server-Azure/ba-p/5221163",
-      "published": "2026-06-24T17:05:00+00:00",
-      "summary": "We’re halfway through 2026, and Microsoft SQL has not slowed down. Since SQLCon/FabCon in March (where we released a ton of things, and those updates can be found in the What's New in Microsoft SQL at SQLCon/FabCon | Data Exposed video), we shipped a wave of updates across SQL Server, Azure SQL,...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "analyticanna",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Inside Llama 3.1 405B MLPerf Training on Azure: System-Level Insights at 8K+ GPU Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/inside-llama-3-1-405b-mlperf-training-on-azure-system-level/ba-p/4529296",
       "published": "2026-06-24T16:13:35+00:00",
@@ -2217,18 +2097,6 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Billing for Microsoft Fabric Planning (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Billing-for-Microsoft-Fabric-Planning-Preview/ba-p/5207643",
-      "published": "2026-06-24T13:54:12+00:00",
-      "summary": "A business-first approach to economics on Microsoft Fabric Enterprise planning is evolving across industries - from an isolated finance exercise to a cross-functional capability that spans finance, operations, supply chain, HR, and executive leadership, but the tools and pricing models behind it...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "SupriyaKashyap",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Office 2019 Home & Business for Mac – activation after erased old Mac",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/office-2019-home-business-for-mac-activation-after-erased-old/m-p/4530624#M59432",
       "published": "2026-06-24T12:57:20+00:00",
@@ -2251,30 +2119,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
-      "published": "2026-06-24T12:30:00+00:00",
-      "summary": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a technical breakdown of StealC and Amadey. The post StealC and Amadey: Breaking down infostealers and...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence, Microsoft Defender Security Research Team and Microsoft Digital Crimes Unit",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
-      "title": "Protect once, enforce everywhere: Protection policies for Power BI (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Protect-once-enforce-everywhere-Protection-policies-for-Power-BI/ba-p/5223932",
-      "published": "2026-06-24T11:22:57+00:00",
-      "summary": "How to use sensitivity labels and Protection Policies to secure your Power BI estate — and why it matters more than ever in the age of AI.",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "yaelbiss",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     },
     {
       "title": "What Is Agentic AI in Microsoft Ecosystem? A Deep Technical Explainer",
@@ -2373,18 +2217,6 @@
       "product": "Azure Innovation"
     },
     {
-      "title": "Microsoft Entra ID single sign-on for the Denodo connector in Power BI (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376",
-      "published": "2026-06-23T21:00:00+00:00",
-      "summary": "When you configure a Denodo data connection for Entra ID SSO, users querying a semantic model in DirectQuery mode are authenticated to Denodo with their own Microsoft Entra ID identity.",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "kayu",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
       "title": "Azure Copilot Observability Agent is generally available, with autonomous operations in preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-copilot-observability-agent-is-generally-available-with/ba-p/4528213",
       "published": "2026-06-23T19:38:23+00:00",
@@ -2407,18 +2239,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Multi-cloud data architecture patterns using Fabric Data Factory (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Multi-cloud-data-architecture-patterns-using-Fabric-Data-Factory/ba-p/5217279",
-      "published": "2026-06-23T17:00:00+00:00",
-      "summary": "Multi Cloud Data integration and transformation made easy and painless by Fabric Data Factory.",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "sunil_sabat",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "NOW ON DEMAND | OneDrive Office Hours | June 2026",
@@ -2539,30 +2359,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Telecom"
-    },
-    {
-      "title": "Improve performance for Python UDFs and complex data types in Microsoft Fabric’s Native Execution Engine",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Improve-performance-for-Python-UDFs-and-complex-data-types-in/ba-p/5212036",
-      "published": "2026-06-22T17:00:00+00:00",
-      "summary": "Where this matters: A concrete exampleFor example, you have a data pipeline (extract, transform, load—ETL) that ingests JSON telemetry events, each containing nested arrays of user actions. Your pipeline uses a Python UDF to apply custom business rules—say, classifying events based on logic that...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Santhosh_Ravin1",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Event-Driven Copy Job Execution with Fabric Activator (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Event-Driven-Copy-Job-Execution-with-Fabric-Activator-Generally/ba-p/5195808",
-      "published": "2026-06-22T16:00:00+00:00",
-      "summary": "IntroductionModern data platforms are increasingly moving toward event-driven architectures where data flows react to events or changes instead of running on rigid schedules. In Microsoft Fabric, two powerful capabilities enable this vision:Copy job: the simplest and most scalable way to move data...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "yexu",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
@@ -2769,37 +2565,13 @@
       "product": "Azure Community"
     },
     {
-      "title": "Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167",
-      "published": "2026-06-18T22:10:45+00:00",
-      "summary": "If you use connectors like Databricks, Snowflake, or BigQuery in Power BI or Fabric, there’s an important change coming. Microsoft is moving from embedded ODBC drivers to ADBC, which affects how connections are established and managed. This post explains what’s changing, who’s impacted, and the...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "MichaelaIsaacs",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "New string functions and operators in Fabric Data Warehouse (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-string-functions-and-operators-in-Fabric-Data-Warehouse/ba-p/5195232",
-      "published": "2026-06-18T21:00:00+00:00",
-      "summary": "The new preview capabilities in Fabric Data Warehouse for approximate string matching, along with modern string-processing functions and operators simplify everyday string processing with T‑SQL language. Together, these additions help developers handle variation directly in SQL while improving...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "jovanpop-msft",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Revolutionizing Document Intelligence: Scaling Construction Industries with AI-Driven Extraction",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/revolutionizing-document-intelligence-scaling-construction/ba-p/4522393",
       "published": "2026-06-18T20:52:34+00:00",
       "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "its_gaurav_bhardwaj",
+      "author": "gauravbhardwaj",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Architecture"
@@ -2853,18 +2625,6 @@
       "product": "Defender for Office 365"
     },
     {
-      "title": "Microsoft Entra ID single sign-on for the Starburst connector in Power BI (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371",
-      "published": "2026-06-18T16:00:00+00:00",
-      "summary": "When enabling Microsoft Entra ID single sign-on (SSo) for Starburst (Preview) report viewers querying semantic models in DirectQuery mode authenticate to Starburst with their own Entra ID identity, to Starburst's access policies — including row-level and column-level security rules — are evaluated...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "kayu",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
       "title": "Controlling Tool Access with APIM MCP Gateway",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/controlling-tool-access-with-apim-mcp-gateway/ba-p/4529225",
       "published": "2026-06-18T14:44:22+00:00",
@@ -2913,18 +2673,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Power BI May 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
-      "published": "2026-06-17T23:07:49+00:00",
-      "summary": "Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports. This month’s release brings improvements across Copilot and AI experiences, reporting and modeling enhancements, new data...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
       "title": "Intelligent Terminal 0.1.1 is here: bash support, new slash commands, and more customization",
       "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-1-1-is-here-bash-support-new-slash-commands-and-customization/",
       "published": "2026-06-17T22:31:51+00:00",
@@ -2947,18 +2695,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure HPC"
-    },
-    {
-      "title": "Workspace outbound access protection for Power BI reports (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354",
-      "published": "2026-06-17T21:00:00+00:00",
-      "summary": "Workspace outbound access protection (OAP) is a workspace-level control in Microsoft Fabric that lets you constrain where the data inside a workspace can flow. With this preview, OAP support now extends to Power BI reports. The good news for report authors and admins: there's nothing new to...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "kayu",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     },
     {
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
@@ -3165,18 +2901,6 @@
       "product": "Azure Arc"
     },
     {
-      "title": "Org apps with audiences for Power BI and Fabric (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326",
-      "published": "2026-06-16T19:00:00+00:00",
-      "summary": "Announcing general availability of org apps in Power BI and Fabric, including one of the most requested capabilities: audiences.",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "dustinaskinpbi",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
       "title": "Anomaly detection made easy with Dynamic thresholds for Log search alerts",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/anomaly-detection-made-easy-with-dynamic-thresholds-for-log/ba-p/4521522",
       "published": "2026-06-16T17:33:52+00:00",
@@ -3367,18 +3091,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Entra"
-    },
-    {
-      "title": "Simplified Oracle connectivity in Power BI (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366",
-      "published": "2026-06-15T17:00:00+00:00",
-      "summary": "Connecting Power BI to Oracle has historically meant extra provider installations and data gateway deployment — even for cloud-hosted databases. Two new Preview capabilities change that. Power BI Desktop now includes a bundled Oracle Managed ODP.NET provider, and the Power BI service supports...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "kayu",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
     },
     {
       "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
@@ -3981,18 +3693,6 @@
       "product": "Microsoft Purview"
     },
     {
-      "title": "Power BI June 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-June-2026-Feature-Summary/ba-p/5193264",
-      "published": "2026-06-09T19:48:16+00:00",
-      "summary": "This month, we’re continuing to focus on making every day work a little easier—whether that’s building reports, modeling data, or just getting answers faster. You’ll see progress across Copilot and newer AI-driven experiences, along with a set of practical updates to reporting that help reduce...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
       "title": "Ginkgo Bioworks and Microsoft Discovery: Bringing agentic AI to biological discovery",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ginkgo-bioworks-and-microsoft-discovery-bringing-agentic-ai-to/ba-p/4526550",
       "published": "2026-06-09T19:00:00+00:00",
@@ -4092,7 +3792,7 @@
       "title": "Copilot Code Reviews for Azure Repos",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
       "published": "2026-06-09T15:12:40+00:00",
-      "summary": "🚨 ​​​​​​​Attention: We are accepting a final round of preview requests, with those organizations scheduled for enablement beginning the second week of July. Requests submitted after July 3 will not be accepted into the preview program. Over the last several years, we have encouraged customers to...",
+      "summary": "🚨 July 6 Update: This private preview is no longer accepting new sign-ups. We are working to expand availability and expect to open a public preview within the next few weeks. Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem, Andrew Brenner",
@@ -4269,18 +3969,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "AI-Powered Power BI reporting: From design to deployment with agent skills (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/AI-Powered-Power-BI-reporting-From-design-to-deployment-with/ba-p/5190703",
-      "published": "2026-06-08T17:29:20+00:00",
-      "summary": "AI powered Power BI reporting skills is a collection of multiple skills that enables AI agents to automate report creation, from designing pages to publishing to Fabric. Now available through the Power BI authoring plugin in Skills for Fabric —a first-party catalog of agent skills for Microsoft...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "Sharlkaur",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
       "title": "Connect Metrics to Traces with Exemplars in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714",
       "published": "2026-06-08T17:21:43+00:00",
@@ -4351,18 +4039,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Analytics"
-    },
-    {
-      "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
-      "published": "2026-06-07T07:19:58+00:00",
-      "summary": "TL;DR — If you belong to many tenants, or a tenant holds hundreds or thousands of subscriptions, az login can crawl — it tries to enumerate every subscription in every tenant before it returns. Two flags now let you skip that enumeration and make login near-instant: az login --tenant <TENANT_ID>...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Tools"
     }
   ]
 }
