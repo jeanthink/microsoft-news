@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-13T12:49:06.859862+00:00",
-  "totalArticles": 286,
+  "lastUpdated": "2026-07-14T12:27:32.121757+00:00",
+  "totalArticles": 293,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,174 @@
   },
   "articles": [
     {
+      "title": "Microsoft to Stop Providing Telephony-Based Authentication Methods for MFA in February 2027",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-to-stop-providing-telephony-based-authentication/m-p/4536814#M59530",
+      "published": "2026-07-14T09:08:14+00:00",
+      "summary": "In an important announcement for all tenants, Microsoft revealed that Entra ID will no longer provide SMS one-time codes or voice calls for MFA challenges after February 1, 2027. Tenants can continue to use telephony-based authentication methods after that date, but only by purchasing a service...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
+      "published": "2026-07-14T08:19:35+00:00",
+      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Abhishek_Mittal",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Building AI Agents from Zero to Production",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
+      "published": "2026-07-14T07:00:00+00:00",
+      "summary": "Building AI Agents from Zero to Production Most agent demos stop at \"it answered my question.\" Production doesn't. The gap between a notebook that calls an LLM and a governed, observable, multi-agent system your organisation can actually depend on is where real engineering happens, evaluation,...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "From Multi-Model Chaos to a Governed AI Gateway: Cost Optimization on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-multi-model-chaos-to-a-governed-ai-gateway-cost/ba-p/4531729",
+      "published": "2026-07-14T04:15:00+00:00",
+      "summary": "What is Multi-Model Chaos, and what cost and security challenges does it pose? Multi-model chaos describes the sprawl that emerges when an organization rapidly adopts many large language and foundation models—OpenAI, Anthropic, Meta Llama, Mistral, and a long tail of open-source and fine-tuned...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jisunchoi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "GitHub Code Quality license estimate in public preview",
+      "link": "https://github.blog/changelog/2026-07-13-github-code-quality-license-estimate-in-public-preview",
+      "published": "2026-07-13T23:39:22+00:00",
+      "summary": "You can now see the number of active committers on repositories using GitHub Code Quality across your enterprise, giving you an estimate of your Code Quality license cost before it… The post GitHub Code Quality license estimate in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
+      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
+      "published": "2026-07-13T22:21:36+00:00",
+      "summary": "One of the best parts of a Visual Studio Subscription is discovering benefits that can make your day-to-day development work easier and more cost effective. One benefit that deserves more attention is Azure Dev/Test pricing. In fact, it’s one of the most valuable benefits included with a Visual...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+      "published": "2026-07-13T22:02:41+00:00",
+      "summary": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications. The post Defending SaaS-based applications...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research and Microsoft Defender Security Research Team",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Upcoming Changes to Azure Relay IP Addresses and DNS Support",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-changes-to-azure-relay-ip-addresses-and-dns-support/ba-p/4463597",
+      "published": "2026-07-13T20:04:04+00:00",
+      "summary": "Azure Relay is an integral part of modern hybrid cloud architectures, enabling seamless connectivity between on-premises and cloud resources. To ensure continued reliability and security, Microsoft is implementing important updates to the IP addresses and DNS naming conventions used by Azure Relay...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Messaging"
+    },
+    {
+      "title": "Released: June 2026 Exchange Server Security Updates",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2026-exchange-server-security-updates/ba-p/4524491",
+      "published": "2026-07-13T18:24:37+00:00",
+      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+      "published": "2026-07-13T17:00:00+00:00",
+      "summary": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare. The post Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Nadim Abdo",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Separate SSO and Organizations pages in Settings",
+      "link": "https://github.blog/changelog/2026-07-13-separate-sso-and-organizations-pages-in-settings",
+      "published": "2026-07-13T15:57:56+00:00",
+      "summary": "We’ve separated the combined SSO & Organizations page in your user settings into two distinct pages: SSO and Organizations. This update makes it easier to find and manage these settings… The post Separate SSO and Organizations pages in Settings appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "SharePoint 2013 to 2026: Why Legacy Migrations Are Still the Backbone of IT",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/sharepoint-2013-to-2026-why-legacy-migrations-are-still-the/m-p/4536533#M59528",
+      "published": "2026-07-13T14:39:11+00:00",
+      "summary": "Technology moves fast, but enterprise systems rarely do. While organizations eagerly adopt cloud platforms, AI-powered tools, and modern collaboration solutions, many still rely on legacy systems that have quietly supported business operations for years. One of the most common examples is...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JohnNaguib",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "A message broker is only as reliable as the layer you stopped at",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/a-message-broker-is-only-as-reliable-as-the-layer-you-stopped-at/ba-p/4533259",
+      "published": "2026-07-13T14:00:00+00:00",
+      "summary": "Reliability is easy to reduce to a single number. You find the SLA, you put it on a slide, and you move on. But a service-level agreement describes an outcome, not the set of decisions that produce it. The same Azure Service Bus namespace can keep running when a single server fails, survive the...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Messaging"
+    },
+    {
+      "title": "Bitte Geräte‑UUID aus Windows Insider Program entfernen",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/bitte-ger%C3%A4te-uuid-aus-windows-insider-program-entfernen/m-p/4536468#M44472",
+      "published": "2026-07-13T10:29:22+00:00",
+      "summary": "Hallo, mein Gerät lädt nach jeder Neuinstallation automatisch Windows Insider Builds, obwohl ich das Insider‑Programm verlassen habe.Bitte entfernen Sie meine Geräte‑UUID vollständig aus dem Windows Insider Program: ACF35976‑45A5‑0B48‑A913‑12C6F1A12083Vielen Dank!",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "lantzelordt",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "How to Identify Obsolete SharePoint Online Sites with PowerShell",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-identify-obsolete-sharepoint-online-sites-with-powershell/m-p/4536445#M59526",
       "published": "2026-07-13T10:08:11+00:00",
@@ -295,6 +463,30 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Teams Desktop – Notification area becomes unresponsive after first notification",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-desktop-notification-area-becomes-unresponsive-after-first/m-p/4536382#M145079",
+      "published": "2026-07-13T08:31:19+00:00",
+      "summary": "SummaryAfter the first notification is displayed following Teams startup, the notification area becomes unresponsive to clicks. This persists even after the notification itself has been dismissed, and is only resolved by force-closing and restarting Teams.EnvironmentOS: Windows 11 25H2 (Build...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "Acceptable-Network61",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Creating Autonomous Teams Agents Using OpenClaw, MCP, and Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/creating-autonomous-teams-agents-using-openclaw-mcp-and-azure/ba-p/4536296",
+      "published": "2026-07-13T07:39:45+00:00",
+      "summary": "The one shift that changes everything For two years, \"AI coding\" meant autocomplete. A suggestion appears in your editor, you hit tab, you move on. The agent only existed while you were actively typing. That is no longer the only model. A new category of tools runs asynchronously and autonomously:...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
     },
     {
       "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
@@ -777,18 +969,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Innersource security advisories are generally available",
-      "link": "https://github.blog/changelog/2026-07-08-innersource-security-advisories-are-generally-available",
-      "published": "2026-07-08T21:30:35+00:00",
-      "summary": "GitHub Advanced Security enterprise customers can now publish internal security advisories. Innersource advisories work similarly to GitHub’s open source advisories, but their visibility is restricted to repositories owned by the… The post Innersource security advisories are generally available...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
       "link": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
       "published": "2026-07-08T21:11:56+00:00",
@@ -796,18 +976,6 @@
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "David Pine",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Enterprise-managed OpenTelemetry export for VS Code and CLI",
-      "link": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-      "published": "2026-07-08T20:50:07+00:00",
-      "summary": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through… The post Enterprise-managed OpenTelemetry export for VS Code and CLI...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -2037,18 +2205,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Securing AI agents: When AI tools move from reading to acting",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
-      "published": "2026-06-30T15:57:11+00:00",
-      "summary": "MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Incident Response",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "In the Windows 11 preview, does the system image creation feature still work 100% as expected?",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/in-the-windows-11-preview-does-the-system-image-creation-feature/m-p/4532219#M44321",
       "published": "2026-06-30T15:31:26+00:00",
@@ -2203,18 +2359,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Chromium extension uses AI‑related branding to redirect browser search",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
-      "published": "2026-06-29T16:27:46+00:00",
-      "summary": "A malicious Chromium-based extension that spoofs the AI-powered answer engine Perplexity AI redirects browser search traffic using MV3 APIs and intermediary infrastructure. The post Chromium extension uses AI‑related branding to redirect browser search appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
@@ -2419,18 +2563,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "ISO Download error",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/iso-download-error/m-p/4531398#M44299",
-      "published": "2026-06-26T20:47:20+00:00",
-      "summary": "Im in iran and i got an error download windows insider build iso",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Artafp",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Azure Developer CLI (azd) – May and June 2026",
@@ -2709,18 +2841,6 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Office 2019 Home & Business for Mac – activation after erased old Mac",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/office-2019-home-business-for-mac-activation-after-erased-old/m-p/4530624#M59432",
-      "published": "2026-06-24T12:57:20+00:00",
-      "summary": "Hello,I own a perpetual Office 2019 Home & Business for Mac license, linked to my Microsoft account on 6 February 2022.The old MacBook where Office was activated was completely erased before being sold. I now need to activate Office on a new MacBook, but Word and Excel say that no license was...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Ales18",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-server-authorization-with-azure-api-management-from-simple/ba-p/4528869",
       "published": "2026-06-24T12:50:23+00:00",
@@ -2731,18 +2851,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "What Is Agentic AI in Microsoft Ecosystem? A Deep Technical Explainer",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/what-is-agentic-ai-in-microsoft-ecosystem-a-deep-technical/m-p/4530539#M59430",
-      "published": "2026-06-24T09:37:25+00:00",
-      "summary": "Artificial intelligence has rapidly moved from simple automation tools to intelligent systems that can understand, reason, and perform complex tasks. The next major evolution in this space is Agentic AI. Traditional AI applications usually work by receiving a request, processing it, and generating...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JohnNaguib",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "How to Use PowerShell to Identify Inactive Teams Channels",
@@ -2983,18 +3091,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Azure DevOps"
-    },
-    {
-      "title": "Speaker diarisation help!",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/speaker-diarisation-help/m-p/4529771#M145009",
-      "published": "2026-06-21T23:58:32+00:00",
-      "summary": "Hi!Is there a way to get speaker diarisation in Microsoft Teams meetings? This is a situation where all speakers are in the same room, and the meeting is joined through a Teams enabled device. I am aware of programs like WhisperX, however I do not know how to do any coding-based stuff, and would...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "packedsteak88888",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     },
     {
       "title": "Azure Firewall explicit proxy Migration Guide",
@@ -3423,7 +3519,7 @@
       "summary": "Git worktrees have been around since 2015, but it wasn't until recently they became popular. Learn what they are, how to use them, and why you might. The post What are git worktrees, and why should I use them? appeared first on The GitHub Blog.",
       "blog": "GitHub Copilot Blog",
       "blogId": "githubcopilotblog",
-      "author": "Natalie Guevara",
+      "author": "Cassidy Williams",
       "solutionArea": "AIBS",
       "billingType": "License",
       "product": "GitHub Copilot"
@@ -3631,18 +3727,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Released: June 2026 Exchange Server Security Updates",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2026-exchange-server-security-updates/ba-p/4524491",
-      "published": "2026-06-15T15:00:14+00:00",
-      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "Make Visual Studio look the way you want",
