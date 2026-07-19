@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-18T12:18:08.659512+00:00",
-  "totalArticles": 290,
+  "lastUpdated": "2026-07-19T12:17:53.967835+00:00",
+  "totalArticles": 281,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,30 @@
   },
   "articles": [
     {
+      "title": "Round Table: Building Browser-Capable Agents with the Browser Automation Tool",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/round-table-building-browser-capable-agents-with-the-browser/ba-p/4538581",
+      "published": "2026-07-18T22:12:25+00:00",
+      "summary": "Some of the most valuable work still lives inside a browser: booking a class, pulling a figure off a dashboard, filling in a portal form, gathering research across a dozen tabs. These are exactly the tasks people wish an agent could just do. On 22 July 2026 at 2:30 PM BST (7:00 PM IST), the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
+      "published": "2026-07-18T12:26:02+00:00",
+      "summary": "Microsoft Architect's: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh Tom-Dinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
       "title": "Urgent: Stuck KB5094126 (2026-06 Security Update) Loop on ASUS M413A",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/urgent-stuck-kb5094126-2026-06-security-update-loop-on-asus/m-p/4538362#M44507",
       "published": "2026-07-17T22:57:18+00:00",
@@ -523,18 +547,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
-      "published": "2026-07-16T19:24:03+00:00",
-      "summary": "Microsoft Architect's: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh Tom-Dinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
     },
     {
       "title": "Advanced search for Projects is generally available",
@@ -3643,126 +3655,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
-      "published": "2026-06-19T07:55:59+00:00",
-      "summary": "Introduction A common pattern in large Azure deployments is to route VNet-to-VNet traffic through Microsoft Enterprise Edge (MSEE) routers. This happens when spoke VNets in a hub-and-spoke topology communicate with each other by hairpinning through the ExpressRoute circuit: traffic exits the Azure...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
-      "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
-      "link": "https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference/",
-      "published": "2026-06-19T07:00:00+00:00",
-      "summary": "When 100% of our prototype outputs were valid JSON but 0% met the data contract, we discovered the LLM was doing work that software should own. A field classification exercise and 4-pass pipeline brought schema compliance from 0% to 100%. The post Separating Deterministic Extraction from AI...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Viktor Ciroski",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "ISE"
-    },
-    {
-      "title": "Microsoft Leads a New Era of Software Supply Chain Transparency",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-leads-a-new-era-of-software-supply-chain-transparency/ba-p/4528367",
-      "published": "2026-06-19T07:00:00+00:00",
-      "summary": "Microsoft announces the general availability of Microsoft’s Signing Transparency (MST) – a first-of-its-kind capability that brings unprecedented visibility and trust to our software supply chain. With this release, Microsoft is leading the industry by recording the build of critical cloud services...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ShubhraS",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Revolutionizing Document Intelligence: Scaling Construction Industries with AI-Driven Extraction",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/revolutionizing-document-intelligence-scaling-construction/ba-p/4522393",
-      "published": "2026-06-18T20:52:34+00:00",
-      "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry/",
-      "published": "2026-06-18T20:37:18+00:00",
-      "summary": "We shipped a lot at Build 2026: hosted agents, Toolboxes, Foundry IQ, Memory, Managed Compute, fine‑tuning, Frontier Tuning, and a new evaluation and optimization stack. Read as a feature list, it is a lot to hold in your head. So here is a simpler way to see it: these are the parts you need to […]...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Govind Kamtamneni",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
-      "published": "2026-06-18T19:55:04+00:00",
-      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "FinOps"
-    },
-    {
-      "title": "Detection and automation, reimagined",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
-      "published": "2026-06-18T18:31:03+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Microsoft Defender for Office 365 Plan 1 is now rolling out to Microsoft 365 E3 and Office 365 E3",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/microsoft-defender-for-office-365-plan-1-is-now-rolling-out-to/ba-p/4527287",
-      "published": "2026-06-18T16:29:24+00:00",
-      "summary": "Starting today, Microsoft Defender for Office 365 Plan 1 is rolling out to customers with Microsoft 365 E3/G3 and Office 365 E3/G3 licenses, with rollout expected to complete by Fall 2026. For security teams, this means added protection against phishing, malware, and malicious links across email...",
-      "blog": "Defender for Office 365",
-      "blogId": "MicrosoftDefenderforOffice365Blog",
-      "author": "VipulPandey",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender for Office 365"
-    },
-    {
-      "title": "Controlling Tool Access with APIM MCP Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/controlling-tool-access-with-apim-mcp-gateway/ba-p/4529225",
-      "published": "2026-06-18T14:44:22+00:00",
-      "summary": "If you've started working with MCP servers in GitHub Copilot, Claude, or any other agent host in an enterprise environment, you've probably hit a similar problem. You want to give your developers access to a useful MCP server, but not every tool it ships with. Maybe one tool is noisy and burns...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "samcogan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Announcing TypeScript 7.0 RC",
-      "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/",
-      "published": "2026-06-18T14:31:17+00:00",
-      "summary": "Today we are excited to announce the Release Candidate of TypeScript 7.0! If you haven’t been following TypeScript 7.0’s development, this release is significant in that it is built on a completely new foundation. Over the past year, we have been porting the existing TypeScript codebase from...",
-      "blog": "TypeScript Blog",
-      "blogId": "typescriptblog",
-      "author": "Daniel Rosenwasser",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "TypeScript"
     }
   ]
 }
