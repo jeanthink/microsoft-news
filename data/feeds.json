@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-20T12:42:53.694088+00:00",
-  "totalArticles": 275,
+  "lastUpdated": "2026-07-21T12:32:49.997323+00:00",
+  "totalArticles": 283,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,222 @@
   },
   "articles": [
     {
+      "title": "Has anyone migrated from one Google Workspace to another after a company merger?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/has-anyone-migrated-from-one-google-workspace-to-another-after-a/m-p/4539329#M59569",
+      "published": "2026-07-21T12:19:51+00:00",
+      "summary": "Hi all,Our company recently went through a merger and we now have two separate Google Workspace accounts that need to be consolidated into one.I need to move everything across, emails, contacts, calendars and tasks, for all users without anything getting lost in the process.Honestly not sure where...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "KastroMoff",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Primer: How to Use JSON Batching to Speed up Graph Processing",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/primer-how-to-use-json-batching-to-speed-up-graph-processing/m-p/4539240#M59563",
+      "published": "2026-07-21T09:16:41+00:00",
+      "summary": "JSON batching is one of the most effective ways to speed up the processing of Graph API requests. Although it might seem complicated, once you understand how batches are put together and submitted to the Graph batch endpoint, it’s not that hard. JSON batching is of particular interest to large...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Insider Update Settings page shows that your organization has disabled certain updates",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/insider-update-settings-page-shows-that-your-organization-has/m-p/4539155#M44534",
+      "published": "2026-07-21T06:13:16+00:00",
+      "summary": "After upgrading to the latest Insider Preview build, when I open Settings → Windows Update, a yellow warning banner appears at the top of the page stating that my organization has disabled certain updates, even though I am not part of any corporate domain and have never seen this message before....",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "LukeUnderwood",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "CrossDeviceResume has reappeared after the Insider Preview update KB5089573",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/crossdeviceresume-has-reappeared-after-the-insider-preview/m-p/4539151#M44531",
+      "published": "2026-07-21T06:08:20+00:00",
+      "summary": "After using a tool to disable the resume feature for nearly a year, the KB5089573 preview update caused the CrossDeviceResume feature to reappear. The old method no longer works; even when the key is entered correctly, the resume prompt still pops up at every startup.All related features have now...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "SebastianSantos",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "The Insider build is stuck at 29591, and the 29595 update cannot be detected.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-insider-build-is-stuck-at-29591-and-the-29595-update-cannot/m-p/4539149#M44530",
+      "published": "2026-07-21T06:06:05+00:00",
+      "summary": "I went to Settings → Windows Update → Check for updates, hoping to detect and download version 29595, but it actually told me that I was already running the latest version and couldn't update to 29595.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "RaymondRamirez",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "In the Insider build, all the pinned folders in Quick Access suddenly disappeared",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/in-the-insider-build-all-the-pinned-folders-in-quick-access/m-p/4539148#M44529",
+      "published": "2026-07-21T06:04:37+00:00",
+      "summary": "After updating to the latest Insider Preview build, all frequently used folders that I had manually pinned to the Quick Access section in File Explorer disappeared and reverted to their default state.When I tried repinning the folders and restarted File Explorer, the pinned items were lost again,...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "QuinnRoberts",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
+      "published": "2026-07-21T05:13:20+00:00",
+      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Secure AI, web, and private apps with Zero Trust",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/secure-ai-web-and-private-apps-with-zero-trust/ba-p/4516387",
+      "published": "2026-07-20T21:26:12+00:00",
+      "summary": "Today's threats don't respect boundaries. As AI agents proliferate across enterprise workflows, employees work from everywhere, and organizations adopt cloud-first architectures, the attack surface has fundamentally shifted. Traditional perimeter security can no longer keep pace with how work...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Sinead_ODonovan",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "AI credit pools for cost centers in the billing UI",
+      "link": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
+      "published": "2026-07-20T18:24:14+00:00",
+      "summary": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the… The post AI credit pools for cost centers in the billing UI appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Reminder: Exchange 2016 and 2019 ESU Program Ends in October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/reminder-exchange-2016-and-2019-esu-program-ends-in-october-2026/ba-p/4539033",
+      "published": "2026-07-20T18:10:45+00:00",
+      "summary": "Over the last several weeks we have received several questions about possible extension of the Exchange Server 2016/2019 ESU program past October 2026. After all, in our original Exchange 2016/2019 ESU announcement we said that there would be no extensions, but then we ended up creating a Period 2...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Plan your Azure AD B2C migration with the Migration Policy Analyzer",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/plan-your-azure-ad-b2c-migration-with-the-migration-policy/ba-p/4532874",
+      "published": "2026-07-20T17:18:24+00:00",
+      "summary": "Migration planning starts with visibility One of the first challenges organizations face when planning a migration from Azure AD B2C to Microsoft Entra External ID is understanding exactly what is implemented in their tenant today. Over time, Azure AD B2C deployments often grow to include custom...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "NamitaSingh",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "T-SQL Hygiene: Introducing the Covering Index",
+      "link": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/",
+      "published": "2026-07-20T17:00:49+00:00",
+      "summary": "Often in applications, we write database queries. And often, the same query is executed again and again. To make queries against large tables faster, we can add an index. This is a general improvement for anyone accessing the table. However, there is a specially designed index called a covering...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "关于windows白板停止使用造成的问题",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/%E5%85%B3%E4%BA%8Ewindows%E7%99%BD%E6%9D%BF%E5%81%9C%E6%AD%A2%E4%BD%BF%E7%94%A8%E9%80%A0%E6%88%90%E7%9A%84%E9%97%AE%E9%A2%98/m-p/4538958#M59560",
+      "published": "2026-07-20T16:56:29+00:00",
+      "summary": "今天我打开Windows白板的时候，出现了提示即将停用，我目前可以导出为pdf或者图片还有压缩包，我想知道有没有办法在其他应用上继续进行编辑，最好可以用手写笔进行编辑 TRANSLATION When I opened Windows Whiteboard today, a message appeared saying it will be discontinued soon. For now, I can export as PDF, images, or a compressed file. I want to know if there's a way to continue...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "FLYPANDA999",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "$100 million for open source: A milestone built by the community",
+      "link": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "published": "2026-07-20T16:00:00+00:00",
+      "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day. The post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Stephanie Lincoln",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
+      "published": "2026-07-20T15:32:26+00:00",
+      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "akhilkarmalkar",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "AI agents, meet the Azure Cosmos DB vNext emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator/",
+      "published": "2026-07-20T14:05:15+00:00",
+      "summary": "If you use the Azure Cosmos DB vNext emulator, you probably know the local development loop: start the emulator, connect to it, create some resources, load test data, run queries, and inspect the results. Each step is straightforward, but together they add setup work before you can test the...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "GitHub Code Quality is now generally available",
+      "link": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "published": "2026-07-20T13:01:24+00:00",
+      "summary": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps… The post GitHub Code Quality is now generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How to Stop the Win 11 KB5094126 Installation Loop and Safely Upgrade From March Baseline Risk-Free",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-stop-the-win-11-kb5094126-installation-loop-and-safely/m-p/4538922#M44518",
+      "published": "2026-07-20T11:04:37+00:00",
+      "summary": "Hello, I need some advice regarding a persistent Windows Update installation loop affecting my machine. My system is currently on a March baseline and is out of date. My primary goal is to completely stop this endless installation loop so I can successfully upgrade Windows to the latest version in...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Nab2255",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Using User Assigned Managed Identities with Microsoft 365 Automation7",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/using-user-assigned-managed-identities-with-microsoft-365/m-p/4538871#M59558",
       "published": "2026-07-20T09:56:51+00:00",
@@ -295,6 +511,30 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Microsoft EPM – Random CMD / PowerShell / OpenConsole popups",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/microsoft-epm-random-cmd-powershell-openconsole-popups/m-p/4538823#M23617",
+      "published": "2026-07-20T08:35:45+00:00",
+      "summary": "Hello everyone,we are currently testing Microsoft Endpoint Privilege Management (EPM) and are seeing some unexpected behavior on several devices.SymptomsUsers occasionally see random:CMD windowsPowerShell windowsOpenConsole windowsThe windows usually appear shortly after logon and disappear...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "silasst",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
+      "published": "2026-07-20T07:00:00+00:00",
+      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
     },
     {
       "title": "Round Table: Building Browser-Capable Agents with the Browser Automation Tool",
@@ -451,18 +691,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Building an employee recognition program that actually lives in Teams?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/building-an-employee-recognition-program-that-actually-lives-in/m-p/4538291#M145104",
-      "published": "2026-07-17T14:38:56+00:00",
-      "summary": "HR asked me to set up some kind of peer recognition system where people can give kudos to each other. They want it inside Teams because thats where everyone already is. I spent a few hours looking at options, Power Automate flows with adaptive cards, custom bots, etc. but nothing feels clean or...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "JordanT86",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     },
     {
       "title": "How to test agent skills without hitting real APIs",
@@ -789,18 +1017,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Improvements to secret scanning and public monitoring",
-      "link": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-      "published": "2026-07-15T22:38:16+00:00",
-      "summary": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub… The post Improvements to secret scanning and public monitoring appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and/ba-p/4535137",
       "published": "2026-07-15T19:51:51+00:00",
@@ -1041,18 +1257,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "GitHub Copilot in Visual Studio — June update",
-      "link": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
-      "published": "2026-07-15T00:01:24+00:00",
-      "summary": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the… The post GitHub Copilot in Visual Studio — June update appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Orchestrate Azure Container Apps Jobs with Apache Airflow",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/orchestrate-azure-container-apps-jobs-with-apache-airflow/ba-p/4534607",
       "published": "2026-07-14T21:41:26+00:00",
@@ -1063,18 +1267,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
-      "published": "2026-07-14T18:55:53+00:00",
-      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "akhilkarmalkar",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
     },
     {
       "title": ".NET and .NET Framework July 2026 servicing releases updates",
@@ -1989,18 +2181,6 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
-      "published": "2026-07-08T11:52:09+00:00",
-      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anandgmenon",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
       "title": "User agent : ODMTADemand-Transform_Zip",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/user-agent-odmtademand-transform-zip/m-p/4534793#M59500",
       "published": "2026-07-08T08:31:13+00:00",
@@ -2529,30 +2709,6 @@
       "product": "Azure DevOps"
     },
     {
-      "title": "New Outlook Not Working if on Windows Insider",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/new-outlook-not-working-if-on-windows-insider/m-p/4532721#M44335",
-      "published": "2026-07-01T22:49:14+00:00",
-      "summary": "New Outlook not working after the Friday 6/26/26 Update. Multiple Ui control failures:Can open settings at first. Then would not open after.\"X\" to close not workingNew email not workingFile pull-down's not workingStarts out working fine. Settings, X-close, File menu. Then everything freezes when I...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "itls",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "New Outlook Unable to Close Since build 26220.8754 Update",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/new-outlook-unable-to-close-since-build-26220-8754-update/m-p/4532714#M44334",
-      "published": "2026-07-01T22:10:22+00:00",
-      "summary": "Since build 26220.8754, I (and others) have been unable to close New Outlook using the X. I went into Windows Settings > Apps > Installed Apps > Outlook > click the 3 dots to the far right, select Advanced Options. Then select Reset. It worked for 1 time, but then the issue just showed right back...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "xmichaelsx",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Audit Frontier AI Agents with SQL MCP Server",
       "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/",
       "published": "2026-07-01T20:02:11+00:00",
@@ -2563,30 +2719,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "Copilot Restrictions Create Security Vulnerabilities and Limit User Expression",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/copilot-restrictions-create-security-vulnerabilities-and-limit/m-p/4532693#M44333",
-      "published": "2026-07-01T19:37:37+00:00",
-      "summary": "Copilot is one of Microsoft’s most powerful and promising technologies, but its current security restrictions have created a situation where the system is no longer able to perform many of the tasks users rely on for safety, verification, and secure workflow management. In attempting to prevent...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Wayfinder7",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "26H2",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/26h2/m-p/4532687#M44332",
-      "published": "2026-07-01T18:41:47+00:00",
-      "summary": "I register in windows insider program in dev channel but 26H2 update not downloading please help",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "mousam20",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
@@ -2677,12 +2809,12 @@
       "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
       "published": "2026-07-01T15:59:29+00:00",
       "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post 6 security settings every GitHub maintainer should enable this week appeared...",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Security",
+      "blogId": "githubsecurity",
       "author": "Natalie Guevara",
-      "solutionArea": "CAIP",
+      "solutionArea": "Security",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Advanced Security"
     },
     {
       "title": "Introducing kars - an Agent Reference Stack for Kubernetes",
@@ -2709,18 +2841,6 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Does CSPP Support Microsoft Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/does-cspp-support-microsoft-copilot/m-p/4532594#M59462",
-      "published": "2026-07-01T14:21:02+00:00",
-      "summary": "We are working on an integration with Microsoft's Cloud Storage Partner Program and already started getting questions on Copilot support. Does CSPP support using copilot in the Microsoft for the web editors? I wasn't able to find anything mentioning it in the documentation for CSPP or CSPP+.",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Jordan3",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
       "published": "2026-07-01T13:32:47+00:00",
@@ -2733,18 +2853,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Cant start microsoft word",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/cant-start-microsoft-word/m-p/4532570#M59461",
-      "published": "2026-07-01T13:05:34+00:00",
-      "summary": "Hello, I am having problems with microsoft word. When I open the software then it says word couldnt start last time. Safe mode could help you troubleshoot the problem, but some features might not be available in this mode. Do you want to start in safe mode? I tried to press both buttons but after...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "wordproblem",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
       "published": "2026-07-01T12:52:43+00:00",
@@ -2755,30 +2863,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "Cost Savings In Microsoft 365",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/cost-savings-in-microsoft-365/m-p/4532546#M59459",
-      "published": "2026-07-01T11:51:48+00:00",
-      "summary": "Long story short, I had a client say, \"We have more M365 licensed users than employees. Please help us find them.\"It took me about a week to find all the waste (first time always takes forever). Now I've run the same steps for a dozen other clients (takes less than an hour now). On average, I've...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "John Gruber",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Windows 11 Insider Preview Feature Update (26220.8754) Install error - 0xc1900101",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-8754-install/m-p/4532541#M44330",
-      "published": "2026-07-01T11:24:47+00:00",
-      "summary": "Hey. I tried multiple times to install this update and it always fails after I restart",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "AhmedAteya",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Monthly news - July 2026",
@@ -3103,6 +3187,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "External Teams federation broken after Dunloe Dataplane Service provisioning failure",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/external-teams-federation-broken-after-dunloe-dataplane-service/m-p/4531739#M145020",
+      "published": "2026-06-29T08:42:05+00:00",
+      "summary": "Repost without tenantIDSince June 26, all external Teams chat/federation is broken for our organization. Messages to all external users fail with \"Send failed\".In our Entra audit log we found the root cause: on June 26 at 05:57 UTC, Microsoft Azure AD Internal - Jit Provisioning failed to provision...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "RichardTilman1",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
     },
     {
       "title": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
