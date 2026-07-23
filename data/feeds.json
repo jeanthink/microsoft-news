@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-22T12:33:05.800743+00:00",
-  "totalArticles": 289,
+  "lastUpdated": "2026-07-23T12:32:19.284945+00:00",
+  "totalArticles": 286,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,126 @@
     ]
   },
   "articles": [
+    {
+      "title": "Smarter Spring Development in Eclipse with GitHub Copilot",
+      "link": "https://devblogs.microsoft.com/java/smarter-spring-development-in-eclipse-with-github-copilot/",
+      "published": "2026-07-23T11:13:52+00:00",
+      "summary": "How the Spring Tools MCP Server and GitHub Copilot together make Spring Development more efficient. Introduction If you write Spring Boot applications in Eclipse, you already know that Spring Tools for Eclipse brings best-in-class tooling right into your IDE, including quick navigation and...",
+      "blog": "Java on Azure",
+      "blogId": "javablog",
+      "author": "Hang Wang, Sheng Chen, martinlippert",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Java on Azure"
+    },
+    {
+      "title": "How Permissions Creep Can Halt the Microsoft Graph PowerShell SDK",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-permissions-creep-can-halt-the-microsoft-graph-powershell/m-p/4540049#M59574",
+      "published": "2026-07-23T09:30:44+00:00",
+      "summary": "The Microsoft Graph PowerShell Command Line tools app is how people run Microsoft Graph PowerShell SDK cmdlets. The app can suffer from permissions creep, meaning that over time, the app accrues a set of delegated permissions used by people to access different types of Microsoft 365 and Entra ID...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
+      "published": "2026-07-23T07:50:18+00:00",
+      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Copilot vs. raw API access: What are you actually paying for?",
+      "link": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+      "published": "2026-07-22T19:00:00+00:00",
+      "summary": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it. The post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Andrea Griffiths",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Defending the Inbox Against Prompt Injection Attacks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/defending-the-inbox-against-prompt-injection-attacks/ba-p/4534636",
+      "published": "2026-07-22T18:50:10+00:00",
+      "summary": "AI assistants are quickly becoming part of everyday work—summarizing emails, drafting responses, triaging requests, and even potentially acting across connected business systems. As email becomes an automated input to AI systems, it can also become a new attack surface. Attackers no longer need to...",
+      "blog": "Defender for Office 365",
+      "blogId": "MicrosoftDefenderforOffice365Blog",
+      "author": "nithinnara",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender for Office 365"
+    },
+    {
+      "title": "New Copilot usage metrics impact dashboard",
+      "link": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+      "published": "2026-07-22T16:21:47+00:00",
+      "summary": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is… The post New Copilot usage metrics impact dashboard appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+      "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+      "published": "2026-07-22T16:00:00+00:00",
+      "summary": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub’s bug bounty program appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Catherine Cassell",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+      "published": "2026-07-22T16:00:00+00:00",
+      "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Aarti Borkar",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Upcoming GHES change impacting uploading support bundles",
+      "link": "https://github.blog/changelog/2026-07-22-upcoming-ghes-change-impacting-uploading-support-bundles",
+      "published": "2026-07-22T15:05:19+00:00",
+      "summary": "We want to give you advance notice of an upcoming security change that may affect GitHub Enterprise Server (GHES) support bundle uploads. Beginning August 18, 2026, GitHub will start rejecting… The post Upcoming GHES change impacting uploading support bundles appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Building Agents that Act on Your Behalf with Toolboxes in Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/",
+      "published": "2026-07-22T15:00:29+00:00",
+      "summary": "How Toolboxes in Foundry simplify user delegation At some point, many agents move from answering questions to taking action. And when it does, the question becomes: whose identity is it acting with? Imagine you are building an internal employee agent. It needs to call a private, Entra-protected MCP...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Linda Li, Maria Naggaga",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
     {
       "title": "Dell Firmware Very Slow to Appear in Intune Driver Updates",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/dell-firmware-very-slow-to-appear-in-intune-driver-updates/m-p/4539663#M23622",
@@ -943,30 +1063,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "Advanced search for Projects is generally available",
-      "link": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
-      "published": "2026-07-16T19:07:14+00:00",
-      "summary": "The filter bar in GitHub Projects views now supports advanced search, so you can build the exact view you need with logical AND and OR instead of maintaining a separate… The post Advanced search for Projects is generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Repository admins can archive pull requests",
-      "link": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
-      "published": "2026-07-16T19:01:09+00:00",
-      "summary": "Repository admins can now archive pull requests to remove them from public view without permanently deleting them. When a pull request is archived, it is closed and locked. Pull requests… The post Repository admins can archive pull requests appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "26H2 → 26220 → 25H2 upgrade failures and Insider enrollment reverting",
@@ -2181,18 +2277,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Defending the Inbox Against Prompt Injection Attacks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/defending-the-inbox-against-prompt-injection-attacks/ba-p/4534636",
-      "published": "2026-07-08T18:16:22+00:00",
-      "summary": "AI assistants are quickly becoming part of everyday work—summarizing emails, drafting responses, triaging requests, and even potentially acting across connected business systems. As email becomes an automated input to AI systems, it can also become a new attack surface. Attackers no longer need to...",
-      "blog": "Defender for Office 365",
-      "blogId": "MicrosoftDefenderforOffice365Blog",
-      "author": "nithinnara",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender for Office 365"
-    },
-    {
       "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
       "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
       "published": "2026-07-08T17:30:28+00:00",
@@ -2203,18 +2287,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Microsoft Dev"
-    },
-    {
-      "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
-      "published": "2026-07-08T17:00:00+00:00",
-      "summary": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks like. But defining the requirements is only the start. Meeting the requirements means continuously...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Salim Chawro",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Azure Monitor Observability Agent goes autonomous (preview)",
@@ -2233,12 +2305,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
       "published": "2026-07-08T16:00:00+00:00",
       "summary": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record. The post How GitHub Copilot enables zero DNS configuration for GitHub Pages appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Bruno Borges",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Announcing TypeScript 7.0",
@@ -2383,18 +2455,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Architecture"
-    },
-    {
-      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
-      "link": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
-      "published": "2026-07-07T16:00:00+00:00",
-      "summary": "New Innovation Graph data shows global developer communities growing faster than ever, with collaboration reaching new highs across many economies. The post Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
@@ -2647,18 +2707,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Getting Azure Blob Storage icon in Visio",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/getting-azure-blob-storage-icon-in-visio/m-p/4533409#M59482",
-      "published": "2026-07-03T08:34:39+00:00",
-      "summary": "Hi,Is there a way to get Azure Blob Storage icon in Visio? It is strange that there's Block Blob, but not Blob storage.Thanks,Cheryl",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "DataQue",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Enabling MLflow OpenAI Autolog on PySpark Workers",
@@ -3667,90 +3715,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "Going beyond text in Microsoft 365 Copilot – Introducing SharePoint Copilot Apps",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/going-beyond-text-in-microsoft-365-copilot-introducing-sharepoint-copilot-apps/",
-      "published": "2026-06-23T12:25:46+00:00",
-      "summary": "Microsoft 365 Copilot is brilliant with words - but work isn't only words. Introducing SharePoint Copilot Apps: bring rich, interactive UX components straight into the Copilot canvas, built with any JavaScript stack your team already knows. Reuse your existing SPFx investments across Copilot,...",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "Vesa Juvonen",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Secure Score does not reflect settings in ASR rule",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/secure-score-does-not-reflect-settings-in-asr-rule/m-p/4530110#M23548",
-      "published": "2026-06-23T09:59:39+00:00",
-      "summary": "Hi,Our secure score ist pretty low, so I followed recommendations from M365 Security Center. The setting reside in one ASR rule, but Secure Score still does not reflect my settings still stating 0% achievement. I waited nearly a week. Defender is not the primary AV, but on other tenants the same...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "heinzelrumpel",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "The Token Economics of the Edge: Running Qwen3 on a Windows NPU with WinML CLI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-token-economics-of-the-edge-running-qwen3-on-a-windows-npu/ba-p/4530054",
-      "published": "2026-06-23T09:35:31+00:00",
-      "summary": "The number that changes the conversation Most \"run an LLM locally\" tutorials start with the model. This one starts with a bill. Every token a cloud LLM generates is metered. One request is rounding-error cheap. But agents don't make one request — they make thousands, in loops, with retries, across...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Azure SDK Release (May 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-may-2026/",
-      "published": "2026-06-22T23:37:37+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (May 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
-      "published": "2026-06-22T17:48:54+00:00",
-      "summary": "At Build 2026, we announced significant new capabilities across our on-device AI platform that expand what’s possible at the edge, in the field, and in the network operations center. This post covers two key areas and what they mean for telecom: new capabilities in Microsoft Foundry on Windows, and...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "OpeSam-Olowu",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Telecom"
-    },
-    {
-      "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-many-copies-of-each-layer-does-your-container-registry/ba-p/4529836",
-      "published": "2026-06-22T15:20:26+00:00",
-      "summary": "Authors: Payal Mahesh and Vicky Lin Azure Container Registry team: Jeanine Burke and Johnson Shi Introduction It's Monday morning. You spin up a fresh 1,000-node AKS cluster for a big training run or a fleet-wide rollout. Every node reaches for the same large container image at the same instant....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "payalmahesh",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
-      "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/",
-      "published": "2026-06-22T13:21:18+00:00",
-      "summary": "Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to pick the next one, keeping a todo list as it goes. On top of that loop […] The post How to Use...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
     }
   ]
 }
