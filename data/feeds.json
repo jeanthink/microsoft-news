@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T12:23:29.395073+00:00",
-  "totalArticles": 276,
+  "lastUpdated": "2026-07-27T13:02:48.668788+00:00",
+  "totalArticles": 274,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,30 @@
     ]
   },
   "articles": [
+    {
+      "title": "Preserve a Legacy IP During Azure Migration with Private Link Service Direct Connect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/preserve-a-legacy-ip-during-azure-migration-with-private-link/ba-p/4540575",
+      "published": "2026-07-27T12:31:30+00:00",
+      "summary": "Why this matters Phased migrations to Azure frequently stall on a single, unglamorous constraint: an application with a hard-coded dependency address. The usual options are to re-address the application or change its configuration, and both add development effort, regression testing, and risk to a...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "kumarshashikaushal",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Windows 11 Insider Setup fails with 0x800B0109 before UEFI disk layout error",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-setup-fails-with-0x800b0109-before-uefi-disk/m-p/4540925#M44590",
+      "published": "2026-07-26T17:35:38+00:00",
+      "summary": "Hello,I am unable to upgrade my Windows 11 Insider Preview installation using either Windows Update or the official Microsoft Insider ISO.Current build:Windows 11 Insider Preview 26200.8894KB5121767 installed successfullyUEFI bootSecure Boot enabledTPM 2.0 enabledThe setup always ends with:\"Windows...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "odiez790",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
     {
       "title": "Java OpenJDK July 2026 Patch & Security Update",
       "link": "https://devblogs.microsoft.com/java/java-openjdk-july-2026-patch-security-update/",
@@ -2277,18 +2301,6 @@
       "product": "Azure Networking"
     },
     {
-      "title": "After a problematic BIOS update",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/after-a-problematic-bios-update/m-p/4535842#M44427",
-      "published": "2026-07-10T18:37:40+00:00",
-      "summary": "Hello. My problem is that I updated my BIOS, and Windows thinks there is new hardware installed, so it disabled my activation. Why? Version number: 28020.2380",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "cskab",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
       "published": "2026-07-10T16:00:00+00:00",
@@ -3559,42 +3571,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "AKS"
-    },
-    {
-      "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-for-beginners-why-every-ai-engineer-and-developer-should/ba-p/4530623",
-      "published": "2026-06-26T22:38:26+00:00",
-      "summary": "If you have spent any time building with large language models in the last year, you have hit the same wall everyone hits: your model is brilliant at reasoning but blind to the real world. It cannot read your database, call your internal API, search your documents, or trigger a deployment unless...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Azure Developer CLI (azd) – May and June 2026",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-may-june-2026/",
-      "published": "2026-06-26T16:53:19+00:00",
-      "summary": "A combined May and June recap. A new azd tool command group, the cross-platform azd exec runner, safer multi-layer provisioning, an interactive Ctrl+C cancel prompt, Go support for Azure Functions, self-contained extension bundles, per-tenant subscription filters, and a long list of correctness...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "How to determine which Resource Mailboxes are being actively used",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/how-to-determine-which-resource-mailboxes-are-being-actively/ba-p/4521577",
-      "published": "2026-06-26T13:57:46+00:00",
-      "summary": "Today we wanted to take a few minutes to discuss a topic that has come up several times. Consider the scenario where your organization has created Resource mailboxes, and you want to know which ones are actually being used. Seems like a fair request. This would include Room and Equipment mailboxes...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     }
   ]
 }
