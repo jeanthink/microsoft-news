@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-02T12:22:24.840911+00:00",
-  "totalArticles": 276,
+  "lastUpdated": "2026-08-03T13:02:30.548425+00:00",
+  "totalArticles": 278,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,42 @@
     ]
   },
   "articles": [
+    {
+      "title": "Writeback for Cloud-Managed Remote Mailboxes: Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/writeback-for-cloud-managed-remote-mailboxes-now-generally/ba-p/4543507",
+      "published": "2026-08-03T12:58:46+00:00",
+      "summary": "In May, we announced the Public Preview of Writeback for Cloud-Managed Remote Mailboxes. Since then, many customers have enabled this feature and shared their feedback. Today, we're excited to announce that Writeback for Cloud-Managed Remote Mailboxes is now Generally Available (GA). Writeback is...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Entra ID Enables Blocking for Nested Security Groups",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/entra-id-enables-blocking-for-nested-security-groups/m-p/4543465#M59626",
+      "published": "2026-08-03T10:43:23+00:00",
+      "summary": "A new Entra ID feature enables the ability to block nesting for security groups. In other words, you can’t include other groups as members of a group. That might not sound important, but it is to those who manage permissions, especially when the time comes to figure out who exactly has access to...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-use-the-four-iqs-web-iq-work-iq-fabric-iq-foundry/ba-p/4542916",
+      "published": "2026-08-03T07:00:00+00:00",
+      "summary": "We just concluded Microsoft IQ Deep Dive with Python, a three-part livestream series all about Microsoft IQ. We showed how to use the four IQs to ground your AI applications and agents: Work IQ: user-specific retrieval of M365 data, like Teams chats, emails, and calendar events. Fabric IQ:...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
     {
       "title": "PC on Insider Preview 26H2 ... Windows Update tries to install 25H2 and fails",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/pc-on-insider-preview-26h2-windows-update-tries-to-install-25h2/m-p/4542985#M44656",
@@ -2287,18 +2323,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Using User Assigned Managed Identities with Microsoft 365 Automation7",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/using-user-assigned-managed-identities-with-microsoft-365/m-p/4538871#M59558",
-      "published": "2026-07-20T09:56:51+00:00",
-      "summary": "A user assigned managed identity (UAMI) is a secure method to authenticate with many important endpoints, including the Microsoft Graph. It’s like a system assigned managed identity (SAMI), but the big difference is that a UAMI is an Azure resource that isn’t tied to an automation account. It can...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Microsoft EPM – Random CMD / PowerShell / OpenConsole popups",
