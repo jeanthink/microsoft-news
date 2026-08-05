@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-04T12:37:21.227200+00:00",
-  "totalArticles": 289,
+  "lastUpdated": "2026-08-05T12:35:57.198844+00:00",
+  "totalArticles": 294,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,234 @@
   },
   "articles": [
     {
+      "title": "Restricted Content Discovery Gets a Makeover",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/restricted-content-discovery-gets-a-makeover/m-p/4544172#M59634",
+      "published": "2026-08-05T08:19:13+00:00",
+      "summary": "Restricted Content Discovery (RCD) is an important guardrail for Microsoft 365 Copilot deployments. Microsoft is tightening how RCD works to eliminate a corner case where recently accessed files from protected SharePoint Online sites could still surface in Microsoft Search and become available to...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
+      "published": "2026-08-05T07:00:00+00:00",
+      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+      "published": "2026-08-04T23:46:41+00:00",
+      "summary": "A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, Ravikant Tiwari, Sagar Patil and Suriyaraj Natarajan",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Use connectors with Managed Identity in the Logic Apps Standard extension",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/use-connectors-with-managed-identity-in-the-logic-apps-standard/ba-p/4539485",
+      "published": "2026-08-04T23:00:51+00:00",
+      "summary": "Managed Identity is Azure’s built-in way to authenticate to Microsoft Entra-protected resources without storing credentials, secrets, or connection strings. Deployed Logic Apps have supported it for a while, but the developer inner loop was a different story. You would wire up one authentication...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Microsoft Entra ID security updates: What organizations need to do now",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-id-security-updates-what-organizations-need-to/ba-p/4522024",
+      "published": "2026-08-04T22:19:54+00:00",
+      "summary": "Microsoft Entra ID continues to strengthen identity security by modernizing how authentication and access policies are enforced. As part of this effort, Microsoft is retiring legacy capabilities and closing gaps that attackers could exploit. These updates focus on three key areas: replacing Custom...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Swaroop Krishnamurthy",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Beyond Chat: live Speech-to-Text with Foundry Local and C#",
+      "link": "https://devblogs.microsoft.com/dotnet/foundry-local-live-speech-to-text-csharp/",
+      "published": "2026-08-04T21:00:00+00:00",
+      "summary": "Build a live speech-to-text app in C# with Foundry Local, a compact Nemotron model, and local model lifecycle management. The post Beyond Chat: live Speech-to-Text with Foundry Local and C# appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Bruno Capuano",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Azure Virtual Network routing appliance is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-virtual-network-routing-appliance-is-now-generally/ba-p/4543616",
+      "published": "2026-08-04T20:42:46+00:00",
+      "summary": "Modern cloud networks are evolving faster than ever. Organizations are building larger AI platforms, connecting more services through private connectivity, adopting IPv6, and expanding applications across regions and business units. As these environments grow, the network becomes a critical...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Anshu_Verma",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "Customize code scanning default setup at scale",
+      "link": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
+      "published": "2026-08-04T19:15:23+00:00",
+      "summary": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for… The post Customize code scanning default setup at scale appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Retiring the Copilot Billing Preview app",
+      "link": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+      "published": "2026-08-04T19:09:32+00:00",
+      "summary": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped… The post Retiring the Copilot Billing Preview app appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "published": "2026-08-04T19:02:34+00:00",
+      "summary": "Learn how to build tools to simplify how you work—without writing a single line of code. The post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Bria Ford",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
+      "published": "2026-08-04T18:30:00+00:00",
+      "summary": "Microsoft expands its Zero Trust for AI strategy to enhance security for AI and DevSecOps environments with new tools and guidance. The post Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Ron Pessner",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "WOA 29639.100 explorer.exe freeze when open some folders",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/woa-29639-100-explorer-exe-freeze-when-open-some-folders/m-p/4543976#M44700",
+      "published": "2026-08-04T18:07:17+00:00",
+      "summary": "When attempting to open certain folders, File Explorer's CPU usage spikes rapidly, and some or all file items become invisible. Stack traces viewed via Process Monitor reveal that the activity consistently involves the `SetLinkFlags` function shown in the image. Third-party file management tools...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "GBmushashi",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+      "published": "2026-08-04T17:54:04+00:00",
+      "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, David Shiran and Ayelet Artzi",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "published": "2026-08-04T16:47:18+00:00",
+      "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Julia Muiruri",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Upcoming deprecation of GitHub Spark on github.com",
+      "link": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
+      "published": "2026-08-04T15:54:47+00:00",
+      "summary": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026… The post Upcoming deprecation of GitHub Spark on github.com appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
+      "published": "2026-08-04T15:12:56+00:00",
+      "summary": "Exchange Web Services (EWS) retirement in Exchange Online is entering its final phase. Over the last several years, Microsoft has worked with product teams, independent software vendors (ISVs), and customers across the ecosystem to migrate workloads to Microsoft Graph and other modern APIs. Many of...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
+      "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/",
+      "published": "2026-08-04T14:00:38+00:00",
+      "summary": "If you’ve been looking for a practical way to build Azure skills, Cloud Academy (a QA company) gives Visual Studio subscribers hands-on learning that fits into busy schedules. Whether you’re new to Azure, expanding your cloud expertise, working towards certifications or preparing for more advanced...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "Customize Dependabot pull request branch names",
+      "link": "https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names",
+      "published": "2026-08-04T12:57:18+00:00",
+      "summary": "You can now customize the branch names Dependabot creates for pull requests. New pull-request-branch-name options in .github/dependabot.yml let you set a prefix and maximum length, choose segment and word separators,… The post Customize Dependabot pull request branch names appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Code coverage automatic enablement in Code Quality settings",
+      "link": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+      "published": "2026-08-04T12:36:32+00:00",
+      "summary": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.… The post Code coverage automatic enablement in Code Quality settings appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
       "link": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
       "published": "2026-08-04T10:57:39+00:00",
@@ -319,6 +547,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
+    },
+    {
+      "title": "Unable to update due to having no access to settings",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-update-due-to-having-no-access-to-settings/m-p/4543686#M44697",
+      "published": "2026-08-04T05:22:59+00:00",
+      "summary": "Have checked around to try to update the version i am on but no luck , Also says needs framework 4.0 or above and says its only got V3.0 . Have tried installing it to V 4.8.1 but will not let me as its in the windows version i have . Build 26100.8370 running windows 11 home addition Also expires on...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Richard5555",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Planning a Google Workspace to Microsoft 365 Migration? What Should You Consider?",
@@ -367,6 +607,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "Windows Insider Update Failed",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider-update-failed/m-p/4543641#M44694",
+      "published": "2026-08-03T23:13:41+00:00",
+      "summary": "I've noticed quite a few people are having issues with this, however I have not seen a direct reply. I received the prompt that my certificate would expire on 08/11/26 and that I should be watching my windows update for the new release. I received it today and after installation seemed to complete,...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "TYCollins27",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Enterprise team specialization for managed settings",
@@ -481,18 +733,6 @@
       "link": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
       "published": "2026-08-03T17:04:32+00:00",
       "summary": "If your repository restricts issue creation to collaborators only, users with the triage role can now create issues. Previously, the restricted setting only allowed users with write access to create… The post Triage role can bypass issue creation restrictions appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Migrate from GitLab to GitHub with GitHub Enterprise Importer",
-      "link": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
-      "published": "2026-08-03T16:33:13+00:00",
-      "summary": "Migrations from gitlab.com and GitLab Self-Managed to GitHub Enterprise Cloud with GitHub Enterprise Importer (GEI) are now generally available. You can now self-serve these migrations using GEI and the gh… The post Migrate from GitLab to GitHub with GitHub Enterprise Importer appeared first on The...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -669,18 +909,6 @@
       "product": "Microsoft Teams"
     },
     {
-      "title": "Upcoming August 2026 model deprecations in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "published": "2026-07-31T21:26:48+00:00",
-      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date… The post Upcoming August 2026 model deprecations in GitHub Copilot appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Tracking whether managers actually complete their review cycles on time",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/tracking-whether-managers-actually-complete-their-review-cycles/m-p/4542959#M59610",
       "published": "2026-07-31T21:08:17+00:00",
@@ -703,30 +931,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
-      "link": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
-      "published": "2026-07-31T20:04:01+00:00",
-      "summary": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Gemini 2.5 Pro and Gemini 3 Flash deprecated appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Enterprise teams model policy targeting in public preview",
-      "link": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
-      "published": "2026-07-31T18:11:50+00:00",
-      "summary": "You can now take advantage of user-based model policy targeting for GitHub Enterprise customers with Copilot Business or Copilot Enterprise licenses. This feature empowers AI administrators to set a baseline… The post Enterprise teams model policy targeting in public preview appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Detecting CVE-2026-54121 (Certighost) with Microsoft Defender",
@@ -763,18 +967,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Planetary Computer"
-    },
-    {
-      "title": "Restricting npm bypass-2FA granular access tokens",
-      "link": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens",
-      "published": "2026-07-31T16:45:50+00:00",
-      "summary": "npm granular access tokens (GATs) configured to bypass 2FA can no longer perform sensitive account, org, and package management actions. These now require an interactive 2FA challenge, closing one of… The post Restricting npm bypass-2FA granular access tokens appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "What’s new in Microsoft Sentinel: July 2026",
@@ -1413,18 +1605,6 @@
       "product": "Windows"
     },
     {
-      "title": "Error en Windows Update",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/error-en-windows-update/m-p/4541730#M44618",
-      "published": "2026-07-29T00:46:51+00:00",
-      "summary": "No se puede instalar la actualización de Windows updateo preview KB5101684 (26200.8973), recibiendo código de error 0x80070306",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Geritu",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Secretless Microsoft Entra ID Authentication for AKS with Istio and oauth2-proxy",
       "link": "https://azureglobalblackbelts.com/2026/07/29/secretless-entra-authentication-on-aks",
       "published": "2026-07-29T00:00:00+00:00",
@@ -1579,18 +1759,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "How to exit Win11 Insider Preview Build 26220?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-exit-win11-insider-preview-build-26220/m-p/4541556#M44614",
-      "published": "2026-07-28T12:22:59+00:00",
-      "summary": "I accidentally joined the Windows Insider Program and opted out in Settings, but I'm not sure if it worked. My desktop still shows the watermark: \"Windows 11 Home Insider Preview Evaluation Copy. Build 26220.8764\". My question: Will my system automatically become the official release after the...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "fanxuetong2002",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "How to share calendar from Shared mailbox to mobile app",
@@ -1843,18 +2011,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "Windows 11 Insider Setup fails with 0x800B0109 before UEFI disk layout error",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-setup-fails-with-0x800b0109-before-uefi-disk/m-p/4540925#M44590",
-      "published": "2026-07-26T17:35:38+00:00",
-      "summary": "Hello,I am unable to upgrade my Windows 11 Insider Preview installation using either Windows Update or the official Microsoft Insider ISO.Current build:Windows 11 Insider Preview 26200.8894KB5121767 installed successfullyUEFI bootSecure Boot enabledTPM 2.0 enabledThe setup always ends with:\"Windows...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "odiez790",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Java OpenJDK July 2026 Patch & Security Update",
@@ -2193,18 +2349,6 @@
       "product": "Azure HPC"
     },
     {
-      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
-      "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-      "published": "2026-07-22T16:00:00+00:00",
-      "summary": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub’s bug bounty program appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Catherine Cassell",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
       "published": "2026-07-22T16:00:00+00:00",
@@ -2215,6 +2359,18 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
+    },
+    {
+      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+      "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+      "published": "2026-07-22T16:00:00+00:00",
+      "summary": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub’s bug bounty program appeared first on The GitHub Blog.",
+      "blog": "GitHub Security",
+      "blogId": "githubsecurity",
+      "author": "Catherine Cassell",
+      "solutionArea": "Security",
+      "billingType": "License",
+      "product": "GitHub Advanced Security"
     },
     {
       "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
@@ -2317,12 +2473,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
       "published": "2026-07-21T16:00:00+00:00",
       "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Jacklyn Carroll",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Has anyone migrated from one Google Workspace to another after a company merger?",
@@ -2341,18 +2497,6 @@
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/which-sharepoint-communication-site-layout-has-worked-best-in/m-p/4539324#M59568",
       "published": "2026-07-21T11:36:54+00:00",
       "summary": "Hi everyone, We're redesigning our SharePoint Online communication site and comparing different homepage layouts for HR, IT, Finance, and Corporate Communications.I'd like to hear from the community: Which homepage layout has worked best in your organization?Which web parts do you consider...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "chavanshubham",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Test discussion",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/test-discussion/m-p/4539321#M59567",
-      "published": "2026-07-21T11:32:36+00:00",
-      "summary": "hello everyone, this is test discussion",
       "blog": "Microsoft 365 Blog",
       "blogId": "Microsoft-365",
       "author": "chavanshubham",
@@ -2517,18 +2661,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
-      "published": "2026-07-17T16:00:00+00:00",
-      "summary": "Join Microsoft Security at Black Hat USA 2026 for supply chain research, hands-on security experiences, expert conversations, and our reception. The post Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Elliot Volkman",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Hypervelocity Engineering: Accelerating Enterprise AI with Azure AI Landing Zones",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/hypervelocity-engineering-accelerating-enterprise-ai-with-azure/ba-p/4536192",
       "published": "2026-07-17T14:57:27+00:00",
@@ -2589,18 +2721,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
-      "published": "2026-07-16T23:12:02+00:00",
-      "summary": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments....",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research and Balaji Venkatesh S",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Azure Cobalt: Workload-Aware Power Management for More Efficient Datacenters",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-cobalt-workload-aware-power-management-for-more-efficient/ba-p/4537049",
       "published": "2026-07-16T21:16:29+00:00",
@@ -2659,18 +2779,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Messaging"
-    },
-    {
-      "title": "Least privilege for AI agents: Identity, access, and tool binding",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
-      "published": "2026-07-16T16:00:00+00:00",
-      "summary": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure. The post Least privilege for AI agents: Identity, access, and tool binding appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Yesenia Yser and Toby Kohlenberg",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "How to build long-running MCP tools on Azure Functions",
@@ -3703,54 +3811,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Not all model upgrades are upgrades",
-      "link": "https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-upgrades/",
-      "published": "2026-07-06T07:49:44+00:00",
-      "summary": "A new model drops with lower per-token pricing and better benchmarks. You switch. A week later someone asks why the agent is burning 12x more tokens on the same task while producing worse output. We ran 150 agent tasks across 15 scenarios on two models, Claude Sonnet 4.6 and Claude Sonnet 5, using...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "Token Economics: The New FinOps for Agentic AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
-      "published": "2026-07-06T07:00:00+00:00",
-      "summary": "In AI applications, tokens are now cost — and token economics deserves architectural attention For a long time, AI application design started with model capability: Can the model write code? Can it reason? Can it use tools? Can it handle long context? Those questions still matter, but in the age of...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Azure SDK Release (June 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june-2026/",
-      "published": "2026-07-06T05:56:58+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (June 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "Automatically Route Azure Service Health Alerts to the Right Service Owners Using Agentic Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/automatically-route-azure-service-health-alerts-to-the-right/ba-p/4531853",
-      "published": "2026-07-05T21:55:20+00:00",
-      "summary": "As organizations adopt more Azure services, operational ownership naturally becomes distributed across multiple teams. The platform team may own Azure Kubernetes Service (AKS), the database team may manage Azure SQL, while application teams are responsible for App Services and Logic Apps. Azure...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Arpit_MSFT",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
     }
   ]
 }
