@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-05T12:35:57.198844+00:00",
-  "totalArticles": 294,
+  "lastUpdated": "2026-08-06T13:47:57.939918+00:00",
+  "totalArticles": 297,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,174 @@
     ]
   },
   "articles": [
+    {
+      "title": "RemoteHelp.exe reports FileVersion 10.4.10008.1000 while the product version is 5.2.1037.0",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/remotehelp-exe-reports-fileversion-10-4-10008-1000-while-the/m-p/4544708#M23669",
+      "published": "2026-08-06T11:12:28+00:00",
+      "summary": "Problem 1 - File VersionBecause RemoteHelp.exe reports FileVersion 10.4.10008.1000 while the product version is 5.2.1037.0, this makes Intune detection, packaging, inventory reporting, and supersedence unnecessarily difficult. Remote Help publishes release versions such as 5.2.1037.0, but the...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "Adrian_Scott",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
+      "link": "https://devblogs.microsoft.com/devops/you-can-now-use-the-azure-devops-service-connection-instead-of-a-pat-or-build-session-token/",
+      "published": "2026-08-06T08:57:40+00:00",
+      "summary": "We’re excited to announce the Azure DevOps service connection, a new way to access Azure DevOps from your pipelines using a Microsoft Entra workload identity (a service principal or managed identity) instead of a Personal Access Token (PAT) or session token. This post walks through what it is, how...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Azure DevOps"
+    },
+    {
+      "title": "Use the Invoke-ChangeMeetingOrganizer Cmdlet to Transfer Meeting Ownership",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/use-the-invoke-changemeetingorganizer-cmdlet-to-transfer-meeting/m-p/4544570#M59637",
+      "published": "2026-08-06T07:52:26+00:00",
+      "summary": "The Invoke-ChangeMeetingOrganizer cmdlet transfers meetings from one organizer to another and makes sure that all calendar settings are preserved. All of which sounds good, but some limitations exist that you should be aware of. The most important limitation is that although Exchange Online can...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Build and Deploy Confidential Virtual Machines on Azure Local (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-and-deploy-confidential-virtual-machines-on-azure-local/ba-p/4543995",
+      "published": "2026-08-06T01:35:53+00:00",
+      "summary": "Estimated read: ~4 minutes Confidential computing has become foundational to how regulated and sovereign organizations run their most sensitive workloads. Today, we're excited to announce that Confidential Virtual Machines on Azure Local are available in public preview — bringing hardware-based...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Dona_Mukherjee",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
+      "title": "Windows 11 + Intune: restrict devices to MDM-managed Wi-Fi profiles only",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/windows-11-intune-restrict-devices-to-mdm-managed-wi-fi-profiles/m-p/4544445#M23668",
+      "published": "2026-08-05T23:11:15+00:00",
+      "summary": "I was trying to solve a problem for our school exam laptops potentially accessing student phones as hotspots and thought I'd share the results in case it helps someone else. EnvironmentWindows 11 Education 25H2Microsoft Entra Joined (cloud only)Microsoft IntuneStandard users (no local admin)Intune...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "NeilMV",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "Monthly News-August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-august-2026/ba-p/4544388",
+      "published": "2026-08-05T22:15:47+00:00",
+      "summary": "Microsoft DefenderMonthly news - August 2026 Edition This is our monthly \"What's new\" blog post, summarizing product updates and various new assets we released over the past month across our Defender products. In this edition, we are looking at all the goodness from July 2026. We are now including...",
+      "blog": "Microsoft Defender XDR",
+      "blogId": "MicrosoftThreatProtectionBlog",
+      "author": "EdFisher",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender XDR"
+    },
+    {
+      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
+      "published": "2026-08-05T21:33:32+00:00",
+      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "austin-ma",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Storage"
+    },
+    {
+      "title": "Update WCF Relay applications to use TLS 1.2 or later",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
+      "published": "2026-08-05T21:00:00+00:00",
+      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can fail to connect through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: no connected listeners accepted the connection within...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Messaging"
+    },
+    {
+      "title": "Announcing Public Preview - Azure Private Link over IPv6",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-azure-private-link-over-ipv6/ba-p/4543978",
+      "published": "2026-08-05T17:06:27+00:00",
+      "summary": "1. Overview Private Link over IPv6 (PL IPv6) enables customers to securely access Azure PaaS services over IPv6-based connectivity. This capability is critical for: IPv6 based PE connectivity to PaaS resources Enabling IPv6 in On-prem environments This document is intended to serve as guide to...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "amitmishra",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
+      "published": "2026-08-05T16:30:00+00:00",
+      "summary": "Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report. The post ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP) appeared first on Microsoft...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Ran Rosin",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
+      "published": "2026-08-05T15:48:39+00:00",
+      "summary": "A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research and Srinivasan Govindarajan",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Azure DevOps Remote MCP Server is generally available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga/",
+      "published": "2026-08-05T12:58:52+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Azure DevOps MCP Server 🎉 The Azure DevOps MCP Server gives AI assistants secure, contextual access to your Azure DevOps projects so they can help you plan, build, and ship software more effectively. With the Azure DevOps remote MCP...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Azure DevOps"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-08-05T12:44:25+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Intune partner compliance onboarding",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-partner-compliance-onboarding/m-p/4544294#M23667",
+      "published": "2026-08-05T11:03:46+00:00",
+      "summary": "Hello,We develop a MDM solution and we would like to become device compliance partner to offer our customers conditionnal access functionality. After filling twice (the first time almost two month ago) the form \"Intune partner compliance onboarding request\" whose link is available on this page...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "Laurent1",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
     {
       "title": "Restricted Content Discovery Gets a Makeover",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/restricted-content-discovery-gets-a-makeover/m-p/4544172#M59634",
@@ -583,18 +751,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-08-04T01:08:48+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
     },
     {
       "title": "Customize the reasoning level for Copilot cloud agent",
@@ -2217,18 +2373,6 @@
       "product": "Azure SQL"
     },
     {
-      "title": "Email threat landscape: Q2 2026 trends and insights",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
-      "published": "2026-07-23T15:00:00+00:00",
-      "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Smarter Spring Development in Eclipse with GitHub Copilot",
       "link": "https://devblogs.microsoft.com/java/smarter-spring-development-in-eclipse-with-github-copilot/",
       "published": "2026-07-23T11:13:52+00:00",
@@ -2347,18 +2491,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure HPC"
-    },
-    {
-      "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-      "published": "2026-07-22T16:00:00+00:00",
-      "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Aarti Borkar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Next chapter: Restructuring GitHub’s bug bounty program",
@@ -2488,18 +2620,6 @@
       "blog": "Microsoft 365 Blog",
       "blogId": "Microsoft-365",
       "author": "KastroMoff",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Which SharePoint Communication Site layout has worked best in your organization?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/which-sharepoint-communication-site-layout-has-worked-best-in/m-p/4539324#M59568",
-      "published": "2026-07-21T11:36:54+00:00",
-      "summary": "Hi everyone, We're redesigning our SharePoint Online communication site and comparing different homepage layouts for HR, IT, Finance, and Corporate Communications.I'd like to hear from the community: Which homepage layout has worked best in your organization?Which web parts do you consider...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "chavanshubham",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
@@ -3727,90 +3847,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Microsoft Dev"
-    },
-    {
-      "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
-      "published": "2026-07-07T09:53:09+00:00",
-      "summary": "Log Analytics Export Job is now available in public preview. It gives you a straightforward way to export historical log data from your workspace to Azure Blob Storage, without writing custom scripts or disrupting live operations. You submit a job including a query, time range, and the service...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "YossiY",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
-    },
-    {
-      "title": "What’s New in Microsoft Foundry | June 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
-      "published": "2026-07-07T07:10:25+00:00",
-      "summary": "Claude is now generally available in Microsoft Foundry. Here's everything else that shipped between Build 2026 and the end of June — autopilot agents, expanded Toolboxes and Routines, Agent Optimizer's private preview, and more. The post What’s New in Microsoft Foundry | June 2026 appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Coding with Logic Apps Standard: Local Functions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/coding-with-logic-apps-standard-local-functions/ba-p/4534240",
-      "published": "2026-07-07T05:38:35+00:00",
-      "summary": "Welcome to the Series Welcome to the first article in the Coding with Logic Apps Standard series. This series is for integration developers, architects, and modernization teams who want to go beyond visual workflow design and use Azure Logic Apps Standard as a complete development platform for...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "See our new Azure Cosmos DB Design Patterns",
-      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
-      "published": "2026-07-06T20:20:06+00:00",
-      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Mark Brown",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-july-2026/ba-p/4533851",
-      "published": "2026-07-06T15:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month July 2026's Ace Aviator: Bill Chesnut Bill Chesnut - Cloud Platform and API Evangelist @ SixPivot What's your role and title? What are your responsibilities? Cloud Platform and API...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
-      "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
-      "published": "2026-07-06T13:37:33+00:00",
-      "summary": "Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cross-partition queries or hot partitions, you need to consider your options for changing it. This post explains the mechanics of...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Automatically Sync SharePoint Document Libraries on macOS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/automatically-sync-sharepoint-document-libraries-on-macos/m-p/4534130#M23569",
-      "published": "2026-07-06T13:01:11+00:00",
-      "summary": "Hi everyone,We manage macOS devices with Microsoft Intune and need to automatically sync one or more SharePoint document libraries to users' OneDrive, similar to how it's done on Windows using the Intune auto-sync policy.Has anyone successfully implemented this on macOS using Intune, Jamf Pro,...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "ynarvil",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
     }
   ]
 }
