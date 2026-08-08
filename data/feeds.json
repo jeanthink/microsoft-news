@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-07T12:45:47.259963+00:00",
-  "totalArticles": 301,
+  "lastUpdated": "2026-08-08T12:33:02.643702+00:00",
+  "totalArticles": 298,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,234 @@
   },
   "articles": [
     {
+      "title": "GitHub Copilot weekly releases — August 3",
+      "link": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+      "published": "2026-08-07T23:16:02+00:00",
+      "summary": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot… The post GitHub Copilot weekly releases — August 3 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Announcing Grafana 13 Support in Azure Managed Grafana",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-grafana-13-support-in-azure-managed-grafana/ba-p/4545199",
+      "published": "2026-08-07T22:24:56+00:00",
+      "summary": "Enhanced Dashboarding and Visualization Experience Grafana 13 introduces a number of improvements that make dashboards easier to build, reuse, and manage at scale. Teams can create richer observability experiences while reducing duplication and improving consistency across environments. These...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nuzhat-minhaz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Enterprises can now install third-party GitHub Apps",
+      "link": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+      "published": "2026-08-07T21:40:03+00:00",
+      "summary": "Enterprise owners can now install public GitHub Apps created outside their enterprise on their enterprise account. This allows third-party integrators to build apps for enterprise management scenarios. Enterprise installations grant… The post Enterprises can now install third-party GitHub Apps...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Copilot impact dashboard adds a return on investment section",
+      "link": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+      "published": "2026-08-07T21:05:37+00:00",
+      "summary": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two… The post Copilot impact dashboard adds a return on investment section appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Copilot code review effort levels are generally available",
+      "link": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "published": "2026-08-07T20:49:26+00:00",
+      "summary": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a… The post Copilot code review effort levels are generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
+      "published": "2026-08-07T19:56:24+00:00",
+      "summary": "Exchange Web Services (EWS) retirement in Exchange Online is entering its final phase. Over the last several years, Microsoft has worked with product teams, independent software vendors (ISVs), and customers across the ecosystem to migrate workloads to Microsoft Graph and other modern APIs. Many of...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Build Durable, Long-Running MCP Tasks on Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-durable-long-running-mcp-tasks-on-azure-app-service/ba-p/4545170",
+      "published": "2026-08-07T19:40:32+00:00",
+      "summary": "Not every tool call finishes in a few seconds. A compliance scan might inspect hundreds of resources. A deployment might wait for an approval. A batch import might run for an hour. Holding an HTTP connection open for that entire operation is fragile: clients restart, proxies time out, networks...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Cross-tenant Free/Busy, MailTips, and Calendar Sharing are moving to Cross-Tenant Access Policy",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/cross-tenant-free-busy-mailtips-and-calendar-sharing-are-moving/ba-p/4545169",
+      "published": "2026-08-07T19:19:23+00:00",
+      "summary": "If your organization shares Free/Busy, MailTips, or calendars with other Microsoft 365 organizations, there's a change coming that you'll want to understand and plan for. If it doesn't, you can stop reading in about two paragraphs. This post covers what's changing as Exchange Web Services (EWS) is...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Zero Ops: Agents Operate, Humans Govern",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
+      "published": "2026-08-07T19:18:40+00:00",
+      "summary": "A note on scope: the patterns in this guide apply to any agentic operations platform. The specifics — the pricing model, the built-in capabilities, the primitives named throughout — are Azure SRE Agent. Where something is a property of the product rather than a universal truth, it’s called out....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Shamir_AbdulAziz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Copilot usage metrics API adds agent app activity",
+      "link": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "published": "2026-08-07T18:20:47+00:00",
+      "summary": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now… The post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Expanding the Azure Local Security Ecosystem with IBM QRadar and Splunk",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/expanding-the-azure-local-security-ecosystem-with-ibm-qradar-and/ba-p/4535101",
+      "published": "2026-08-07T18:00:00+00:00",
+      "summary": "As regulatory obligations, resilience requirements, and the need for greater control over data and infrastructure continue to grow, we are seeing increasing interest in Azure Local from governments, critical infrastructure operators, defense organizations, and regulated industries looking to deploy...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Ariel Netz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
+      "title": "“Relates to” issue relationship in public preview and multi-select fields is generally available",
+      "link": "https://github.blog/changelog/2026-08-07-connecting-issues-and-multi-select-field-support",
+      "published": "2026-08-07T17:33:14+00:00",
+      "summary": "GitHub is making it easier to connect related work and manage multiple field values across issues and projects. Connect related issues The new “Relates to” issue relationship is available in… The post “Relates to” issue relationship in public preview and multi-select fields is generally available...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Secret scanning coverage updates",
+      "link": "https://github.blog/changelog/2026-08-07-secret-scanning-coverage-updates",
+      "published": "2026-08-07T16:54:47+00:00",
+      "summary": "This release expands secret scanning’s coverage with more secrets blocked by push protection, one new secret scanning partner, and richer metadata on alerts. Secret scanning partnership program Lovable Labs is… The post Secret scanning coverage updates appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Update Issues",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/update-issues/m-p/4545132#M44750",
+      "published": "2026-08-07T15:35:38+00:00",
+      "summary": "In Windows Update, I don’t see a new build; it says You have all the latest updates. Windows 11 Home Insider Preview. Trial version. Build 26220.8079.In Windows Update / Insider Program there’s a warning sign and it says A new build is available in Windows Update, and there’s a button to open...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Mira_Brui",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
+      "link": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+      "published": "2026-08-07T15:07:25+00:00",
+      "summary": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have… The post GitHub Code Quality no longer adds Copilot as a reviewer appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How to Configure DLP Policies for Copilot-Generated Content",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-configure-dlp-policies-for-copilot-generated-content/m-p/4545127#M59642",
+      "published": "2026-08-07T14:48:42+00:00",
+      "summary": "Artificial Intelligence has rapidly transformed workplace productivity, and Microsoft Copilot is leading this transformation by helping users generate documents, emails, presentations, reports, code, and more within the Microsoft 365 ecosystem. While these AI-powered capabilities significantly...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JohnNaguib",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Intune Enrollment Issues - Error `0x80180014`",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-enrollment-issues-error-0x80180014/m-p/4545123#M23671",
+      "published": "2026-08-07T14:34:40+00:00",
+      "summary": "Hello Community! We've been occasionally getting this error with some of our machines when trying to manually enroll them in Intune:Error `0x80180014` with the message \"does not support this version of Windows\" From what I've seen, it typically happens to very specific devices. We have our...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "CarloAseron",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "Windows Insider Updates will not download",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider-updates-will-not-download/m-p/4545116#M44749",
+      "published": "2026-08-07T13:29:55+00:00",
+      "summary": "I have been stuck on 22635.5015 for over a year now, not receiving nay updates. I finally started to receive updates after I switched to the Beta channel instead of the Release preview I was on, but I have been unable to install those updates. I go through the whole update process and my PC...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "pyalamala",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Please confirm the KB5101684 File History issue and release a fix in the August security update.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/please-confirm-the-kb5101684-file-history-issue-and-release-a/m-p/4545099#M44745",
+      "published": "2026-08-07T11:37:13+00:00",
+      "summary": "To the Microsoft technical teamThese are my questions below; please read them...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "sheraton",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Platform SSO + Secure Enclave: True Passwordless macOS Sign-in with Entra ID?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/platform-sso-secure-enclave-true-passwordless-macos-sign-in-with/m-p/4545093#M23670",
       "published": "2026-08-07T11:30:15+00:00",
@@ -333,16 +561,28 @@
       "product": "Azure Analytics"
     },
     {
-      "title": "Notice that my version of Windows 11 Pro Insiders Edition going away keeps appearing",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/notice-that-my-version-of-windows-11-pro-insiders-edition-going/m-p/4544802#M44734",
-      "published": "2026-08-06T21:06:16+00:00",
-      "summary": "I started getting the notice that my version of Windows will expire on August 11 three or four weeks ago. I would go to the Windows update under Settings/System and it would say NO updates are available. About a week ago It finally stated that update 25H2 was available. I would do the update...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Robber_Barron",
+      "title": "MCP allowlists in enterprise managed settings",
+      "link": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "published": "2026-08-07T00:11:19+00:00",
+      "summary": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed… The post MCP allowlists in enterprise managed settings appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
       "solutionArea": "CAIP",
       "billingType": "License",
-      "product": "Windows"
+      "product": "GitHub"
+    },
+    {
+      "title": "Set pull request limits at the organization level",
+      "link": "https://github.blog/changelog/2026-08-06-set-pull-request-limits-at-the-organization-level",
+      "published": "2026-08-06T23:46:17+00:00",
+      "summary": "You can now set pull request limits at the organization level. Pull request limits let you define how many open pull requests a user without write access can have at… The post Set pull request limits at the organization level appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
     },
     {
       "title": "A guide to slash commands in the GitHub Copilot app",
@@ -391,18 +631,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Kimi K3 is now available in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
-      "published": "2026-08-06T17:27:25+00:00",
-      "summary": "Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing. See GitHub Copilot’s pricing… The post Kimi K3 is now available in GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Walker Chabbott",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Test reporting in Microsoft.Testing.Platform: from red build to root cause",
@@ -463,18 +691,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
-      "published": "2026-08-06T15:26:35+00:00",
-      "summary": "Exchange Web Services (EWS) retirement in Exchange Online is entering its final phase. Over the last several years, Microsoft has worked with product teams, independent software vendors (ISVs), and customers across the ecosystem to migrate workloads to Microsoft Graph and other modern APIs. Many of...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "Pull request annotations on work item cards",
@@ -813,30 +1029,6 @@
       "product": "Azure Networking"
     },
     {
-      "title": "Customize code scanning default setup at scale",
-      "link": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
-      "published": "2026-08-04T19:15:23+00:00",
-      "summary": "You can now apply your own configuration file to code scanning default setup, using the new github-codeql-config-file repository property. This gives you control over how CodeQL scans your code for… The post Customize code scanning default setup at scale appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Retiring the Copilot Billing Preview app",
-      "link": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
-      "published": "2026-08-04T19:09:32+00:00",
-      "summary": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings. The app helped… The post Retiring the Copilot Billing Preview app appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
       "published": "2026-08-04T19:02:34+00:00",
@@ -897,18 +1089,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Upcoming deprecation of GitHub Spark on github.com",
-      "link": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "published": "2026-08-04T15:54:47+00:00",
-      "summary": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026… The post Upcoming deprecation of GitHub Spark on github.com appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
       "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/",
       "published": "2026-08-04T14:00:38+00:00",
@@ -919,42 +1099,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Visual Studio"
-    },
-    {
-      "title": "Customize Dependabot pull request branch names",
-      "link": "https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names",
-      "published": "2026-08-04T12:57:18+00:00",
-      "summary": "You can now customize the branch names Dependabot creates for pull requests. New pull-request-branch-name options in .github/dependabot.yml let you set a prefix and maximum length, choose segment and word separators,… The post Customize Dependabot pull request branch names appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Code coverage automatic enablement in Code Quality settings",
-      "link": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-      "published": "2026-08-04T12:36:32+00:00",
-      "summary": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.… The post Code coverage automatic enablement in Code Quality settings appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
-      "link": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
-      "published": "2026-08-04T10:57:39+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.2, which adds support for Swift 6.3.3… The post CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Microsoft Defender for Office 365 Blocks Prompt Injections",
@@ -1017,18 +1161,6 @@
       "product": "Azure Integration"
     },
     {
-      "title": "Customize the reasoning level for Copilot cloud agent",
-      "link": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
-      "published": "2026-08-03T23:27:35+00:00",
-      "summary": "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the… The post Customize the reasoning level for Copilot cloud agent appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Windows Insider Update Failed",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider-update-failed/m-p/4543641#M44694",
       "published": "2026-08-03T23:13:41+00:00",
@@ -1039,18 +1171,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Enterprise team specialization for managed settings",
-      "link": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
-      "published": "2026-08-03T22:55:29+00:00",
-      "summary": "Enterprise administrators can now customize managed settings by targeting enterprise teams with itemized configuration files. Large enterprises can scale governance without bottlenecking every configuration change through central administrators or one-size-fits-all… The post Enterprise team...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Built-In Observability for Serverless AI Agents on Azure Functions",
@@ -1087,18 +1207,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Trigger Copilot automations with comments",
-      "link": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
-      "published": "2026-08-03T19:14:58+00:00",
-      "summary": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull… The post Trigger Copilot automations with comments appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
@@ -1557,18 +1665,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "Windows 11 Insider Preview (26H2 - 26300.8935) expires by 08/11, what to do? No updates available",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-26h2-26300-8935-expires-by-08-11-what/m-p/4542658#M44645",
-      "published": "2026-07-31T07:15:52+00:00",
-      "summary": "Edizione Windows 11 Home Insider PreviewVersione 26H2Data installazione: ‎30/‎01/‎2026Data di scadenza della valutazione ‎11/‎08/‎2026 20:09Build sistema operativo 26300.8935Feature Pack Pacchetto di esperienze per funzionalità Windows 1000.26100.416.0",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "ostiaalex",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Domain controller showing \"Not ready for migration\"",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/domain-controller-showing-quot-not-ready-for-migration-quot/m-p/4542534#M4327",
       "published": "2026-07-30T20:52:18+00:00",
@@ -1675,18 +1771,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "FinOps"
-    },
-    {
-      "title": "Windows 11 to KB5101684 File History bug",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-to-kb5101684-file-history-bug/m-p/4542374#M44642",
-      "published": "2026-07-30T10:00:20+00:00",
-      "summary": "Hello everyone, I have a question about Windows 11 File History.After updating my laptop to KB5101684, I modified a file today and confirmed that it was successfully saved.However, after enabling \"File History\" and clicking \"Execute Now,\" the backup time still shows yesterday's date (2026/7/28),...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "sheraton",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Who verifies Teams Meeting summary accurately reflects what was actually agreed in the meeting",
@@ -2157,6 +2241,18 @@
       "product": "FinOps"
     },
     {
+      "title": "Managing disruption with AKS Node Auto-Provisioning",
+      "link": "https://blog.aks.azure.com/2026/07/28/nap-disruption",
+      "published": "2026-07-28T00:00:00+00:00",
+      "summary": "Learn AKS best practices for managing node disruption when using node auto provisioning (NAP) with pod disruption budgets, node disruption budgets, consolidation policies, and maintenance windows in production.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "AKS"
+    },
+    {
       "title": "iOS Enrollment and Conditional Access",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/ios-enrollment-and-conditional-access/m-p/4541284#M23628",
       "published": "2026-07-27T19:37:50+00:00",
@@ -2563,18 +2659,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Java on Azure"
-    },
-    {
-      "title": "How Permissions Creep Can Halt the Microsoft Graph PowerShell SDK",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-permissions-creep-can-halt-the-microsoft-graph-powershell/m-p/4540049#M59574",
-      "published": "2026-07-23T09:30:44+00:00",
-      "summary": "The Microsoft Graph PowerShell Command Line tools app is how people run Microsoft Graph PowerShell SDK cmdlets. The app can suffer from permissions creep, meaning that over time, the app accrues a set of delegated permissions used by people to access different types of Microsoft 365 and Entra ID...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "No function to clear my own chat history like others",
@@ -3775,126 +3859,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Autopatch for quality updates and WUFB for feature updates",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/autopatch-for-quality-updates-and-wufb-for-feature-updates/m-p/4535259#M23586",
-      "published": "2026-07-09T09:00:56+00:00",
-      "summary": "We have switched to Autopatch for quality updates in our environment, but now is the time for feature update deployments. In the past we had used Windows Updates for Business for feature update without any problem. We would like to deploy the feature updates and retain the control of the target...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "demion",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Announcing Flat File Schema Generation support in Azure Logic Apps Standard",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-flat-file-schema-generation-support-in-azure-logic/ba-p/4534695",
-      "published": "2026-07-09T07:02:22+00:00",
-      "summary": "We’re excited to announce the preview of Flat File Schema Generation for Azure Logic Apps Standard. This new built-in action helps integration teams move faster by generating BizTalk compatible flat-file XSD schemas directly from sample flat-file payloads, reducing the manual effort required to...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Shree_Divya_M_V",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search",
-      "link": "https://devblogs.microsoft.com/ise/from_noisy_queries_to_precise_frames/",
-      "published": "2026-07-09T07:00:00+00:00",
-      "summary": "How query decomposition separates metadata filters from visual intent to significantly improve media asset retrieval quality. The post From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Kartheek Palepu, Deeptanil Saha",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "ISE"
-    },
-    {
-      "title": "A Paradigm Shift in Cloud Operations with Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-paradigm-shift-in-cloud-operations-with-azure-sre-agent/ba-p/4533244",
-      "published": "2026-07-08T22:41:52+00:00",
-      "summary": "Cloud operations are entering a new era. As systems grow in scale and complexity, the traditional model of reactive incident response, where engineers manually piece together signals across dozens of tools and portals, juggling all that context alone, is no longer sustainable. The operational toil...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Nir_Mashkowski",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-      "link": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-      "published": "2026-07-08T21:11:56+00:00",
-      "summary": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation. The post Automating cross-repo documentation with GitHub Agentic Workflows appeared first on The GitHub Blog.",
-      "blog": "GitHub Engineering",
-      "blogId": "githubengineering",
-      "author": "David Pine",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
-      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
-      "published": "2026-07-08T17:30:28+00:00",
-      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Katie Savage",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "Azure Monitor Observability Agent goes autonomous (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-observability-agent-goes-autonomous-preview/ba-p/4517265",
-      "published": "2026-07-08T16:16:16+00:00",
-      "summary": "Autonomous operations for the Azure Copilot Observability Agent are now in public preview, alongside the agent's general availability. With autonomous operations enabled, the Observability Agent listens to your alerts as they fire, triages them in the background, and runs deep investigations on the...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Efrat_Ben_Porat",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
-    },
-    {
-      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
-      "published": "2026-07-08T16:00:00+00:00",
-      "summary": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record. The post How GitHub Copilot enables zero DNS configuration for GitHub Pages appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Bruno Borges",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "Announcing TypeScript 7.0",
-      "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
-      "published": "2026-07-08T15:58:29+00:00",
-      "summary": "Today we are proud to announce the availability of TypeScript 7, a 10x faster native port of TypeScript! Since its early days, TypeScript has promised to deliver on JavaScript that scales. By bringing strong type-checking and rich tooling to the world of JavaScript, TypeScript made it possible to...",
-      "blog": "TypeScript Blog",
-      "blogId": "typescriptblog",
-      "author": "Daniel Rosenwasser",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "TypeScript"
-    },
-    {
-      "title": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
-      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/",
-      "published": "2026-07-08T14:56:27+00:00",
-      "summary": "Most “AI agent” demos forget everything the moment the process exits. That’s fine for a toy project, but useless for anything real. An agent that helps you write, triage, or support needs two things a language model alone can’t give it: durable state and the ability to recall the right context by...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
     }
   ]
 }
