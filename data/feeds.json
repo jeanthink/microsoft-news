@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-09T12:35:21.390077+00:00",
-  "totalArticles": 289,
+  "lastUpdated": "2026-08-10T12:52:51.041444+00:00",
+  "totalArticles": 287,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,42 @@
     ]
   },
   "articles": [
+    {
+      "title": "How to Bulk Transfer Meeting Ownership Between Mailboxes",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-bulk-transfer-meeting-ownership-between-mailboxes/m-p/4545469#M59646",
+      "published": "2026-08-10T07:49:57+00:00",
+      "summary": "The Invoke-ChangeMeetingOrganizer cmdlet can transfer meeting ownership from one user to another. In this article, we discuss using a PowerShell script to transfer meetings in bulk between users. The code requires a mixture of Exchange Online and the Microsoft Graph using a registered Entra ID app....",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "A simpler way to deploy ZIP packages to Azure App Service from the Azure portal",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-zip-packages-to-azure-app-service-from/ba-p/4545430",
+      "published": "2026-08-10T06:42:46+00:00",
+      "summary": "We recently introduced a simpler way to deploy applications to Azure App Service for Linux by uploading a ZIP package through Kudu. The experience lets you review the package contents, choose whether to run a server-side build, and follow the deployment through its different stages. This capability...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
+      "published": "2026-08-10T04:30:00+00:00",
+      "summary": "From Deep Dive to Microsoft IQ Live The Microsoft IQ Deep Dive with Python has wrapped up, but our exploration of Microsoft IQ continues. You can revisit the IQ Deep Dive sessions and access the code, notebooks, and other developer resources at https://aka.ms/iqdeepdive. Microsoft IQ Live builds on...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "aycabas",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
     {
       "title": "Zero Ops: Agents Operate, Humans Govern",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
@@ -1603,18 +1639,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "AutoSave disabled when opening SharePoint-synced files from Finder after macOS Tahoe 26.6 update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/autosave-disabled-when-opening-sharepoint-synced-files-from/m-p/4542770#M59600",
-      "published": "2026-07-31T09:41:48+00:00",
-      "summary": "Files stored in SharePoint Online and synchronized locally through OneDrive are opened as local documents when launched from Finder. Office applications display \"Saved to my Mac\" and AutoSave is turned off by default. However, opening the exact same files through Word/Excel > Open > Sites, or via...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "koklucinar",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "probleme activation windows 11",
@@ -3703,54 +3727,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "Azure Front Door: Resiliency Series – Part 3: Tenant isolation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-3-tenant-isolation/ba-p/4535866",
-      "published": "2026-07-10T22:08:29+00:00",
-      "summary": "Abhishek Tiwari, Vice President of Engineering, Azure NetworkingAmit Srivastava, Partner Director of PM, Azure NetworkingVarun Chawla, Partner Director of Engineering, Azure Networking Azure Front Door serves hundreds of thousands of tenants from hundreds of edge locations, densely sharing the...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "AbhishekTiwari",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
-      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
-      "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
-      "published": "2026-07-10T15:57:47+00:00",
-      "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog.",
-      "blog": "GitHub Engineering",
-      "blogId": "githubengineering",
-      "author": "Napalys Klicius",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Cross-Tenant Message Recall in Exchange Online",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/cross-tenant-message-recall-in-exchange-online/ba-p/4535800",
-      "published": "2026-07-10T15:38:58+00:00",
-      "summary": "Since we released cloud-based Message Recall in April 2023 (see Cloud-based Message Recall in Exchange Online), we’ve continued to expand where and how recall works – including support for Outlook on the web and mobile, recipient recall notifications, a maximum recallable message age, and support...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Shrinking Azure Pipeline task extensions using esbuild",
-      "link": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
-      "published": "2026-07-10T14:45:56+00:00",
-      "summary": "TL;DR We bundled an internal Azure Pipelines task extension into a single bundled JavaScript file using esbuild. The task package dropped from tens of megabytes and thousands of files to three files per task ( script.js , task.json , and icon.png ). The change took about 20 lines of build tooling....",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "David Paquette",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
     }
   ]
 }
