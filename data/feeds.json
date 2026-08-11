@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-10T12:52:51.041444+00:00",
-  "totalArticles": 287,
+  "lastUpdated": "2026-08-11T12:47:18.915496+00:00",
+  "totalArticles": 295,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,174 @@
   },
   "articles": [
     {
+      "title": "Creating a Week-by-Week Report for Open Planner Tasks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/creating-a-week-by-week-report-for-open-planner-tasks/m-p/4545863#M59654",
+      "published": "2026-08-11T08:36:21+00:00",
+      "summary": "Accumulating statistics for open tasks in a Planner plan is helpful to understand how active team members are in clearing assigned tasks. Creating a report showing how the number of open tasks vary by team member over a six-week period delivers another type of insight. It’s the kind of thing that...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Vector search finds candidates. Reranking decides what your RAG app reads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vector-search-finds-candidates-reranking-decides-what-your-rag/ba-p/4543923",
+      "published": "2026-08-11T05:00:00+00:00",
+      "summary": "You ask a retrieval-augmented generation (RAG) application a question. Vector search returns ten passages that are clearly related to the topic. The passage that actually contains the answer, however, is ranked seventh, while the language model receives only the first five. Retrieval did not...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Paul_VicenteH",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers/",
+      "published": "2026-08-10T21:35:53+00:00",
+      "summary": "As app developers, our primary focus is building great user experiences, designing APIs, and shipping features quickly. What we don’t want is database friction—wasting hours configuring local DB instances, writing verbose migration scripts by hand, or worrying about unexpected cloud bills while...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Vandana Mahtani, Andrew Carter",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Using the GitHub Copilot SDK for Java",
+      "link": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "published": "2026-08-10T19:30:00+00:00",
+      "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Edward Burns",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Intelligent Terminal 0.2 is here with local model support",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-is-here-with-local-model-support/",
+      "published": "2026-08-10T19:00:01+00:00",
+      "summary": "We’re back, and this is our first minor version bump: 0.1 to 0.2! It’s our biggest release yet. This update adds support for local models, lets you run a different agent in each tab with /agent, brings OpenCode into the built-in agent lineup, runs your agent inside WSL where your work actually...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows Terminal"
+    },
+    {
+      "title": "Microsoft Entra Tenant Governance is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-tenant-governance-is-now-generally-available/ba-p/4543638",
+      "published": "2026-08-10T18:47:52+00:00",
+      "summary": "Today, we’re excited to announce the general availability of Microsoft Entra Tenant Governance, a built-in capability that helps organizations centrally govern and secure multi-tenant environments at scale. Why centralized tenant governance matters Tenants represent your organization, housing its...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "CindyCrane",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "What's New in Microsoft Entra: August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-august-2026/ba-p/4545172",
+      "published": "2026-08-10T17:44:28+00:00",
+      "summary": "Hello everyone, I'm Yina Arenas. I'm honored to have joined Microsoft Security as the CVP and Chief Product Officer of Identity and Network Access and to introduce myself to the legendary Microsoft Entra community. Having spent much of my career focused on platform innovation, I've seen how...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Yina Arenas",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "OneDrive Office Hours | August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-office-hours-august-2026/ba-p/4542927",
+      "published": "2026-08-10T16:24:26+00:00",
+      "summary": "Get ready for the August 2026 OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "sophiapeng",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
+      "published": "2026-08-10T16:00:00+00:00",
+      "summary": "Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise. The post Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise appeared first on Microsoft...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Srikanth Shoroff",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+      "published": "2026-08-10T15:00:00+00:00",
+      "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Threat Intelligence",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Copilot on web expands conversation controls",
+      "link": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+      "published": "2026-08-10T14:27:04+00:00",
+      "summary": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat… The post Copilot on web expands conversation controls appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "GitHub billing in India now supports automatic recurring payments",
+      "link": "https://github.blog/changelog/2026-08-10-github-billing-in-india-now-supports-automatic-recurring-payments",
+      "published": "2026-08-10T14:00:58+00:00",
+      "summary": "Customers in India can now use eligible saved credit cards for automatic recurring payments on monthly and annual GitHub bills. This update uses a payment mandate, also known in the… The post GitHub billing in India now supports automatic recurring payments appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Custom thread subscriptions are being deprecated",
+      "link": "https://github.blog/changelog/2026-08-10-custom-thread-subscriptions-are-being-deprecated",
+      "published": "2026-08-10T12:45:49+00:00",
+      "summary": "You’ll no longer be able to configure custom thread subscriptions for GitHub notifications. What’s changing As part of this rollout, GitHub will remove support for custom thread subscription settings. If… The post Custom thread subscriptions are being deprecated appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Unable to download Windows 11 Insider Preview Feature Update (26220.9022)",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-download-windows-11-insider-preview-feature-update/m-p/4545508#M44769",
+      "published": "2026-08-10T09:24:56+00:00",
+      "summary": "It's over a week since i've been trying to update my windows insider preview and have been getting the response We could not complete the install because an update service was shutting down.How can I resolve this issue please?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "ENGRNONSO",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "How to Bulk Transfer Meeting Ownership Between Mailboxes",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-bulk-transfer-meeting-ownership-between-mailboxes/m-p/4545469#M59646",
       "published": "2026-08-10T07:49:57+00:00",
@@ -295,6 +463,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/",
+      "published": "2026-08-10T07:01:03+00:00",
+      "summary": "We covered the roles your Azure Cosmos DB app needs in our previous post. Now let’s look at what happens after you’ve assigned those roles, switched identities, disabled keys and suddenly staring at a 403. As we continue this security series, we’ll walk through the most common causes, how to...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sudhanshu Khera, Iria Osara",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
     },
     {
       "title": "A simpler way to deploy ZIP packages to Azure App Service from the Azure portal",
@@ -309,6 +489,18 @@
       "product": "Azure App Service"
     },
     {
+      "title": "whathappent",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/whathappent/m-p/4545405#M44768",
+      "published": "2026-08-10T06:03:10+00:00",
+      "summary": "This build of Windows will expire soon Your build of Windows will expire on 8/11/2026. You should move to a new build as soon as possible. Go online for more information.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "vikashkumar0",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
       "published": "2026-08-10T04:30:00+00:00",
@@ -321,6 +513,42 @@
       "product": "Azure Community"
     },
     {
+      "title": "Windows insider",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider/m-p/4545315#M44762",
+      "published": "2026-08-09T07:30:10+00:00",
+      "summary": "Hi I'm having an issue with Windows insider , everytine I restart my laptop , getting error that it will expire on August 11. Please help trouble shoot",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "allworldenterprises",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26220.9022) Issues",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9022-issues/m-p/4545311#M44761",
+      "published": "2026-08-09T06:01:06+00:00",
+      "summary": "I am having problems with my windows insider preview updateWindows 11 Insider Preview Feature Update (26220.9022) to be specificIt stopped at 99% and hasn't moved to 100% for a long while nowPlease I'll appreciate if I can get feedback on how I can solve the problem",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Temicruise111",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Teams HAL driver update skips coreaudiod restart mediaremoted spins at 100% CPU",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-hal-driver-update-skips-coreaudiod-restart-mediaremoted/m-p/4545300#M145167",
+      "published": "2026-08-09T01:33:05+00:00",
+      "summary": "Environment: macOS 15.7.7 build 24G720, Apple M3 Max. Teams updated from 26183.1901.4874.5228 to 26198.202.4929.7171 via Microsoft AutoUpdate.What happens: The delta package installs the MSTeamsAudioDevice component into the system-wide CoreAudio HAL plug-ins folder. The system install log shows...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "AD07",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
       "title": "Zero Ops: Agents Operate, Humans Govern",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
       "published": "2026-08-08T15:47:47+00:00",
@@ -331,6 +559,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
+    },
+    {
+      "title": "Fix Windows 8 Crashed",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/fix-windows-8-crashed/m-p/4545233#M44758",
+      "published": "2026-08-08T06:15:46+00:00",
+      "summary": "My Laptop runs Windows 8 But crashed last night for 20/3/2023 to BSOD was coming Can You Help me Please?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "KMS-Helper-Windows",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "GitHub Copilot weekly releases — August 3",
@@ -525,18 +765,6 @@
       "product": "Windows"
     },
     {
-      "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
-      "link": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
-      "published": "2026-08-07T15:07:25+00:00",
-      "summary": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have… The post GitHub Code Quality no longer adds Copilot as a reviewer appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "How to Configure DLP Policies for Copilot-Generated Content",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-configure-dlp-policies-for-copilot-generated-content/m-p/4545127#M59642",
       "published": "2026-08-07T14:48:42+00:00",
@@ -631,30 +859,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Analytics"
-    },
-    {
-      "title": "MCP allowlists in enterprise managed settings",
-      "link": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
-      "published": "2026-08-07T00:11:19+00:00",
-      "summary": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed… The post MCP allowlists in enterprise managed settings appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Set pull request limits at the organization level",
-      "link": "https://github.blog/changelog/2026-08-06-set-pull-request-limits-at-the-organization-level",
-      "published": "2026-08-06T23:46:17+00:00",
-      "summary": "You can now set pull request limits at the organization level. Pull request limits let you define how many open pull requests a user without write access can have at… The post Set pull request limits at the organization level appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "A guide to slash commands in the GitHub Copilot app",
@@ -1224,7 +1428,7 @@
       "title": "Building an operations assistant on Azure that waits for approval before it acts",
       "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts/",
       "published": "2026-08-03T21:15:38+00:00",
-      "summary": "Grounding an assistant in runbooks is the easy half. The interesting engineering is in the boundary between what a model proposes and what an authenticated person actually authorizes. An operations assistant stops being a demo the moment it can act. Answering “which runbook covers this alert” is a...",
+      "summary": "Grounding an assistant in runbooks is straightforward. The harder part begins when the model proposes an action that requires authorization. An operations assistant needs stronger controls as soon as it can act. Answering “which runbook covers this alert” is a search problem. Opening an incident...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "Ricardo M. Martins",
@@ -1411,42 +1615,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "So far impossible to win update Windows 11 Home Insider Preview - 26H2.",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/so-far-impossible-to-win-update-windows-11-home-insider-preview/m-p/4543217#M44683",
-      "published": "2026-08-02T20:59:33+00:00",
-      "summary": "I´ve received the @this build will expire soon\" message but despite my many attempts to update. I contonously get error codes such as 0x80070652; 0xc190010; 0xc1900101. Last successful update: Windows 11 Home Insider Preview 26H2. Some support here please.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Jer15",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Unable to install the latest system",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-install-the-latest-system/m-p/4543138#M44681",
-      "published": "2026-08-02T04:12:43+00:00",
-      "summary": "The Canary channel cannot install version 29599.1000 or higher, as this would cause errors. However, versions 29599.1000 or earlier can be installed normally.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "nopp_1",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "PC on Insider Preview 26H2 ... Windows Update tries to install 25H2 and fails",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/pc-on-insider-preview-26h2-windows-update-tries-to-install-25h2/m-p/4542985#M44656",
-      "published": "2026-08-01T05:42:00+00:00",
-      "summary": "My PC is running Windows 11 26H2 build 26300.8935 with an expiration of 8/11/2026. Windows Update keeps trying to install 25H2 but fails with error code 0xc1900101. My BIOS and all drivers are up to date. I worked with Windows support .. case number 7106637314 ... and they were unable to help....",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "christ-k",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Running engagement pulse checks in Teams, how do you track trends over time?",
@@ -1639,30 +1807,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "probleme activation windows 11",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/probleme-activation-windows-11/m-p/4542732#M44648",
-      "published": "2026-07-31T08:35:26+00:00",
-      "summary": "bonjour,suite a des soucis j'ai du revenir a une build precedente, par contre elle m'a desactivé windows 11 et je n'arrive plus a l'activer.windows ne trouve plus la licence la capture ecran ne fonctionne pas sur cette version build 2600.8935.ge.prerealise_im260717-1732 windows 11 professionnel...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "DELAVAULT2",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "probleme activation windows 11 build 26300.8935",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/probleme-activation-windows-11-build-26300-8935/m-p/4542725#M44647",
-      "published": "2026-07-31T08:25:12+00:00",
-      "summary": "bonjour,je suis revenu je suis revenua la build antérieure et WINDOWS11 refuse et ne trouve pas la clé d'activation celle ci s'arrete dans pas longtemps, y en a t il une autre en preparation? Merci beaucoup",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "DELAVAULT2",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Advanced Microsoft Intune capabilities - Coming to Education A5?",
@@ -2229,18 +2373,6 @@
       "product": "Azure Governance"
     },
     {
-      "title": "Data Lifecycle Management Adds Support for Planner Retention Policies",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/data-lifecycle-management-adds-support-for-planner-retention/m-p/4541448#M59585",
-      "published": "2026-07-28T08:33:46+00:00",
-      "summary": "From August 2026, Microsoft 365 tenants can apply retention policies to Planner Tasks. We began our preparation to create a retention policy for Planner tasks by writing some PowerShell to test the likely effect of retention. The code scans Microsoft 365 Groups for groups with plans and checks each...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "IOS Enrollment Policys - User affinity with modern auth, does not work with Company Portal VPP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/ios-enrollment-policys-user-affinity-with-modern-auth-does-not/m-p/4541329#M23629",
       "published": "2026-07-28T02:55:58+00:00",
@@ -2337,18 +2469,6 @@
       "product": ".NET"
     },
     {
-      "title": "Rethinking security for the age of AI",
-      "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-      "published": "2026-07-27T16:40:00+00:00",
-      "summary": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception. The post Rethinking security for the age of AI appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Hayete Gallot",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "AI Gateway tier of API Management now in public preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-api-management-now-in-public-preview/ba-p/4540170",
       "published": "2026-07-27T16:37:53+00:00",
@@ -2361,28 +2481,16 @@
       "product": "Azure Integration"
     },
     {
-      "title": "Enhancing AI security through global AI red teaming",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-      "published": "2026-07-27T16:25:00+00:00",
-      "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Ram Shankar Siva Kumar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "GitHub Copilot app for Beginners: Getting started",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
       "published": "2026-07-27T16:00:00+00:00",
       "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Christopher Harrison",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Feature request: Historical Agent Activity Timeline for Microsoft Teams Queues",
@@ -3679,18 +3787,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Azure Network Security"
-    },
-    {
-      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534186",
-      "published": "2026-07-13T04:15:00+00:00",
-      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ellisd4",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     },
     {
       "title": "The AI Agent Lifecycle: A Simple Guide",
