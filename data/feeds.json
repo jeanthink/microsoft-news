@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-12T12:53:19.237529+00:00",
-  "totalArticles": 301,
+  "lastUpdated": "2026-08-13T12:54:24.114419+00:00",
+  "totalArticles": 308,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,294 @@
   },
   "articles": [
     {
+      "title": "Building Agents for Teams: Managing the noise of collaboration",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/building-agents-for-teams-managing-the-noise-of-collaboration/",
+      "published": "2026-08-13T11:43:59+00:00",
+      "summary": "Most of us are familiar with one-to-one agent chats: private, direct interactions where rules are relatively simple. With only you and the agent, each moment has clear intent. You can ask follow-up questions, pause, or restart without worrying about how each exchange affects anyone else....",
+      "blog": "Microsoft 365 Developer Blog",
+      "blogId": "m365devblog",
+      "author": "Lily Du",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Entra Admin Center Flags Licensing Problems with Conditional Access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/entra-admin-center-flags-licensing-problems-with-conditional/m-p/4546613#M59665",
+      "published": "2026-08-13T09:15:51+00:00",
+      "summary": "The Entra admin center is flagging licensing gaps for conditional access. The messages are informational, not the beginning of a new automated billing procedure to charge tenants when Entra ID notices that some accounts use conditional access policies when they don’t have a license. In this...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
+      "published": "2026-08-13T06:02:36+00:00",
+      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ceciliaxia",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
+      "published": "2026-08-13T04:30:00+00:00",
+      "summary": "Model Context Protocol (MCP) is an open protocol that describes how agents can connect to external tools and data sources, and is now widely supported by the most popular coding agents (like GitHub Copilot, Claude Code, and Codex) and agent frameworks (like LangChain and Pydantic AI). If you want...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Win11 25H2 File Explorer preview pane displays bitmap images incompletely",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/win11-25h2-file-explorer-preview-pane-displays-bitmap-images/m-p/4546461#M44808",
+      "published": "2026-08-13T02:26:59+00:00",
+      "summary": "The system version is Windows 11 25H2 (Build 26220.9022). Since the update on August 1, 2026, the File Explorer preview pane has been unable to fully display bitmap images. Regardless of whether the image is in landscape or portrait orientation, a gray gap appears at approximately the bottom 2/3 to...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "AddisonBailey",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "How to Update to the Next Insider Build",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-update-to-the-next-insider-build/m-p/4546459#M44806",
+      "published": "2026-08-13T02:21:50+00:00",
+      "summary": "On my Legion Go device, I am unable to use Windows properly as an administrator. When I try to check for updates, no updates are available, which prevents me from upgrading to a newer version. How can I resolve this issue where I cannot receive updates?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "BreckenFoster",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Add AI to the workflows you already have using Serverless Agents in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/add-ai-to-the-workflows-you-already-have-using-serverless-agents/ba-p/4544824",
+      "published": "2026-08-12T22:51:34+00:00",
+      "summary": "There are a lot of ways to build with AI right now: chat frontends, copilots, greenfield agent apps, orchestration frameworks. All of them have their place, and some customers are building entirely new applications this way. But across customer engagements, a consistent pattern has emerged: the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Anirudh Garg",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "GitHub availability report: July 2026",
+      "link": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "published": "2026-08-12T22:17:32+00:00",
+      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Jakub Oleksy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Governing a Risk Operations Agent with the Microsoft Agent Framework Harness and AGT",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/governing-a-risk-operations-agent-with-the-microsoft-agent/ba-p/4546425",
+      "published": "2026-08-12T21:00:13+00:00",
+      "summary": "Introduction I hope you have already found Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core. This article demonstrates how you can leverage the Agent Governance Toolkit practically. This time, I'll take it a step further and combine the Microsoft Agent...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "daisami",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Write your first prompt with the GitHub Copilot app",
+      "link": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+      "published": "2026-08-12T19:00:00+00:00",
+      "summary": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence. The post Write your first prompt with the GitHub Copilot app appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Kayla Cinnamon",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
+      "published": "2026-08-12T18:43:01+00:00",
+      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Peyton Fraser, Krishnakumar Muthukrishnan, Joe Filcik",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Azure Content Understanding GPT-5 Series Guide: Model Selection, Grounding Improvements, and Confidence Enhancements",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/",
+      "published": "2026-08-12T18:42:25+00:00",
+      "summary": "Enterprise content is no longer just something people consume. As organizations increasingly rely on AI to extract and act on information from documents, images, audio, and video, Azure Content Understanding is expanding support for the GPT-5 series and improving grounding and confidence to deliver...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik, Krishnakumar Muthukrishnan",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
+      "link": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
+      "published": "2026-08-12T18:39:11+00:00",
+      "summary": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.… The post Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Rule insights for organizations in public preview",
+      "link": "https://github.blog/changelog/2026-08-12-rule-insights-for-organizations-in-public-preview",
+      "published": "2026-08-12T18:30:28+00:00",
+      "summary": "The rule insights dashboard is now in public preview at the organization level. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository rulesets, so… The post Rule insights for organizations in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Your contributors are AI-first now. Is your project?",
+      "link": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "published": "2026-08-12T18:00:08+00:00",
+      "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Andrea Griffiths",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Instructions Hygiene – What Frontier Models Still Need You to Say",
+      "link": "https://devblogs.microsoft.com/dotnet/instructions-hygiene-what-frontier-models-still-need-you-to-say/",
+      "published": "2026-08-12T17:05:00+00:00",
+      "summary": "Get the most out of the latest models by providing the right level of instructions The post Instructions Hygiene – What Frontier Models Still Need You to Say appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Wendy Breiding (SHE/HER)",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "How do I remove Insider preview",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-do-i-remove-insider-preview/m-p/4546380#M44796",
+      "published": "2026-08-12T16:32:50+00:00",
+      "summary": "I installed insider preview, now my pc says its not activated. Im trying to remove insider preview but im not sure how. Customer support is of no help, and told me I have to buy windows again. Please help.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "dyland",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Meet compared to the new Events app",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/meet-compared-to-the-new-events-app/m-p/4546361#M145180",
+      "published": "2026-08-12T15:13:07+00:00",
+      "summary": "Am I the only one not impressed by the \"Events\" app that replaced \"Meet\"? Meet was easy to use and was great to find recent items. Now with the Events app, that app is just empty - no content at all. Now I have to instruct users to go dig around their chats for recorded meetings. Is there way to...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "TomCSB",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "How to enforce Zero Trust across every resource",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/how-to-enforce-zero-trust-across-every-resource/ba-p/4529305",
+      "published": "2026-08-12T15:00:00+00:00",
+      "summary": "This post builds on the strategic foundations introduced in End VPN gaps with identity-first access. Read the strategic overview to understand why Zero Trust must apply to every resource before diving into implementation. TL;DR: Your quick guide Reduce deployment risk by using report-only policies,...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Janice_Ricketts",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "New build crashes on camera while April build works just fine..",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/new-build-crashes-on-camera-while-april-build-works-just-fine/m-p/4546350#M145178",
+      "published": "2026-08-12T14:14:23+00:00",
+      "summary": "Win 10 Pro on work machine using the April 2026 build Teams works fine.Each night I shutdown and reboot, Teams updates to the latest version and each time I try to bring up a video call where it accesses my logitech camera, Teams shuts down, restarts, shuts down again, then restarts. If I bring up...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "gmerideth",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Need suggestions for managing email signatures organization-wide",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/need-suggestions-for-managing-email-signatures-organization-wide/m-p/4546348#M59662",
+      "published": "2026-08-12T14:08:25+00:00",
+      "summary": "Hi everyone,I'm looking for advice on managing email signatures organization-wide in Office 365.Right now, every user creates their own signature in Outlook. This has led to inconsistent branding and outdated contact details across the company.I explored a few built-in options, but nothing seems to...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "KastroMoff",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "windows update bug",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-update-bug/m-p/4546342#M44794",
+      "published": "2026-08-12T13:47:23+00:00",
+      "summary": "my windows version is 26h2,but in settings, windows update section, its saying i need to update 25h2.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "eagle_12",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Mastering Clipchamp – From Beginner to Pro 5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/mastering-clipchamp-from-beginner-to-pro-5/m-p/4546341#M59661",
+      "published": "2026-08-12T13:46:01+00:00",
+      "summary": "Creating a good video is about more than simply recording clips and putting them together. The right visual effects can transform a basic collection of footage into a video that feels polished, engaging, and intentional. With tools such as filters, transitions, overlays, stickers, and blending...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JohnNaguib",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "设备无法切换到 Dev 通道，重启后强制回退 Mainline，无法接收 Insider 续期更新(证书已过期)",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/%E8%AE%BE%E5%A4%87%E6%97%A0%E6%B3%95%E5%88%87%E6%8D%A2%E5%88%B0-dev-%E9%80%9A%E9%81%93-%E9%87%8D%E5%90%AF%E5%90%8E%E5%BC%BA%E5%88%B6%E5%9B%9E%E9%80%80-mainline-%E6%97%A0%E6%B3%95%E6%8E%A5%E6%94%B6-insider-%E7%BB%AD%E6%9C%9F%E6%9B%B4%E6%96%B0-%E8%AF%81%E4%B9%A6%E5%B7%B2%E8%BF%87%E6%9C%9F/m-p/4546287#M44791",
+      "published": "2026-08-12T10:25:02+00:00",
+      "summary": "设备：550W (MS-7D76)系统：Windows 11 专业版 Insider Preview 10.0.26300.8772问题：设备无法切换 Dev 通道背景：证书 2026-08-11 已过期，需要安装 Dev 续期构建 26300.90321. 账号已注册，设备已登记（account.microsoft.com/devices 确认 550W）2. 系统在 26300.8772，但更新推 25H2 正式版，安装报 0xc1900101 回滚3. 设置里可选 Dev 并点继续，但重启后 UIContentType 重置回 Mainline，选不上4. Account\\Status...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Zbh",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Change meeting category default options",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/change-meeting-category-default-options/m-p/4546274#M145176",
       "published": "2026-08-12T09:59:19+00:00",
@@ -331,6 +619,54 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
+    },
+    {
+      "title": "AD Minimization: How ready are organizations for the journey?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/ad-minimization-how-ready-are-organizations-for-the-journey/m-p/4546110#M23685",
+      "published": "2026-08-12T06:20:08+00:00",
+      "summary": "Microsoft's direction around Active Directory minimization is an interesting and important part of the broader cloud transformation journey.Moving more identity and device management toward Microsoft Entra ID can help organizations gradually reduce their dependency on traditional on-premises Active...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "VincentSKY",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "更新报错0x80070005，现在想要保留数据退出计划",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/%E6%9B%B4%E6%96%B0%E6%8A%A5%E9%94%990x80070005-%E7%8E%B0%E5%9C%A8%E6%83%B3%E8%A6%81%E4%BF%9D%E7%95%99%E6%95%B0%E6%8D%AE%E9%80%80%E5%87%BA%E8%AE%A1%E5%88%92/m-p/4546086#M44787",
+      "published": "2026-08-12T05:34:57+00:00",
+      "summary": "更新报错0x80070005，现在想要保留数据退出计划切换成零售家庭版Windows11",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "观月",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "update KB5120249 on a desktop Windows 10, the file history time cannot be synchronized correctly.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/update-kb5120249-on-a-desktop-windows-10-the-file-history-time/m-p/4546057#M44786",
+      "published": "2026-08-12T03:07:27+00:00",
+      "summary": "My problem:https://learn.microsoft.com/zh-tw/answers/questions/5972262/windows-11-kb5101684Not only after installing KB5101684 on my laptop, file history timestamps fail to sync correctly, but even after installing KB5120249 on my desktop, file history timestamps fail to sync correctly.I don't know...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "sheraton",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Intune and PSADT v4.x",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-and-psadt-v4-x/m-p/4546039#M23682",
+      "published": "2026-08-11T22:33:24+00:00",
+      "summary": "I have a reboot package PSADT and the first dialog give the user the choice to defer the install, and a Scheduled Task is created to run an hour later. I am returning a 1618 (retry) and inside the PSADT, If Intune runs the app again, it will check my reg key for the defer and check that the task is...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "digiman57",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
     },
     {
       "title": "Azure Developer CLI extension framework is GA: build dev workflows for apps using Azure",
@@ -393,6 +729,18 @@
       "product": "GitHub"
     },
     {
+      "title": "Decided to opt out of windows insider and now windows wont download the update",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/decided-to-opt-out-of-windows-insider-and-now-windows-wont/m-p/4546023#M44784",
+      "published": "2026-08-11T20:25:59+00:00",
+      "summary": "As the title says I decided to opt out of windows insider (26H2) and go back to the normal windows build. After using the opt out slider in the settings windows keeps trying to download version 25H2 and failing. I keep getting the notification about my windows build expiring on august 11th, which...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "jjlpstar",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
       "link": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
       "published": "2026-08-11T20:15:55+00:00",
@@ -403,6 +751,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "Bookings 2026, Cannot Find or Edit \"Staff\" Configs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/bookings-2026-cannot-find-or-edit-quot-staff-quot-configs/m-p/4546017#M59656",
+      "published": "2026-08-11T19:22:41+00:00",
+      "summary": "Whenever a staff member goes to bookings, they can share their 15- and 30-minute times, but they do not see Staff or anything on the left side of the window like if the menus were available. I am a global admin and even I don't see those left pane options. We made a user the Virtual Visits Admin...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JWhit",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Automatically migrate branch protection rules to repository rulesets",
@@ -475,6 +835,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "windows updated error",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-updated-error/m-p/4546002#M44781",
+      "published": "2026-08-11T17:30:20+00:00",
+      "summary": "i have subscribed window insider program and installed 26h2 version after that in windows update they show 25h2 i downloaded but installed failed showing this Install error - 0xc1900101",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Drrizhere",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Released: August 2026 Exchange Server Security Updates",
@@ -571,6 +943,30 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Windows expires",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-expires/m-p/4545946#M44778",
+      "published": "2026-08-11T12:32:46+00:00",
+      "summary": "Following message comes up: In English: the windows versionexpires to day",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "LarsH7012",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Teams completely freezes after clicking on Contacts.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-completely-freezes-after-clicking-on-contacts/m-p/4545943#M145171",
+      "published": "2026-08-11T12:19:44+00:00",
+      "summary": "Hello,Is anyone else experiencing an issue when clicking on Contacts in the Teams desktop client?The Contacts section works without any problems in Teams Web, but not in the desktop application.Thank you in advance for your feedback.",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "mymy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
     },
     {
       "title": "Creating a Week-by-Week Report for Open Planner Tasks",
@@ -729,18 +1125,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Custom thread subscriptions are being deprecated",
-      "link": "https://github.blog/changelog/2026-08-10-custom-thread-subscriptions-are-being-deprecated",
-      "published": "2026-08-10T12:45:49+00:00",
-      "summary": "You’ll no longer be able to configure custom thread subscriptions for GitHub notifications. What’s changing As part of this rollout, GitHub will remove support for custom thread subscription settings. If… The post Custom thread subscriptions are being deprecated appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Unable to download Windows 11 Insider Preview Feature Update (26220.9022)",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-download-windows-11-insider-preview-feature-update/m-p/4545508#M44769",
       "published": "2026-08-10T09:24:56+00:00",
@@ -871,18 +1255,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — August 3",
-      "link": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
-      "published": "2026-08-07T23:16:02+00:00",
-      "summary": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot… The post GitHub Copilot weekly releases — August 3 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Announcing Grafana 13 Support in Azure Managed Grafana",
@@ -1197,18 +1569,6 @@
       "product": "Azure DevOps"
     },
     {
-      "title": "Windows 11 Insider Preview Feature Update (26300.9032)Install error - 0x80092004",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26300-9032-install/m-p/4544594#M44728",
-      "published": "2026-08-06T08:25:51+00:00",
-      "summary": "what's the solution to this error?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Retyza",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Use the Invoke-ChangeMeetingOrganizer Cmdlet to Transfer Meeting Ownership",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/use-the-invoke-changemeetingorganizer-cmdlet-to-transfer-meeting/m-p/4544570#M59637",
       "published": "2026-08-06T07:52:26+00:00",
@@ -1231,30 +1591,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "The Insider Preview version displays a warning that it is about to expire",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-insider-preview-version-displays-a-warning-that-it-is-about/m-p/4544469#M44718",
-      "published": "2026-08-06T02:25:24+00:00",
-      "summary": "I am currently running the Windows 11 Insider Beta (25H2). The system keeps notifying me that this version is about to expire and that I need to update as soon as possible, but when I click Check for updates, it shows that I am already running the latest version and that no updates are available....",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "FinneasHayes",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "What exactly is the new Photos (Preview) app?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/what-exactly-is-the-new-photos-preview-app/m-p/4544468#M44717",
-      "published": "2026-08-06T02:20:31+00:00",
-      "summary": "According to the documentation on the Windows Insider Program page, this new Photos (Preview) app is actually OneDrive Photos and is built using WebView2. This is provided for users who wish to learn more about its technical background.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Wrentdr",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Build and Deploy Confidential Virtual Machines on Azure Local (Public Preview)",
@@ -1509,18 +1845,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "WOA 29639.100 explorer.exe freeze when open some folders",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/woa-29639-100-explorer-exe-freeze-when-open-some-folders/m-p/4543976#M44700",
-      "published": "2026-08-04T18:07:17+00:00",
-      "summary": "When attempting to open certain folders, File Explorer's CPU usage spikes rapidly, and some or all file items become invisible. Stack traces viewed via Process Monitor reveal that the activity consistently involves the `SetLinkFlags` function shown in the image. Third-party file management tools...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "GBmushashi",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
       "published": "2026-08-04T17:54:04+00:00",
@@ -1581,18 +1905,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Unable to update due to having no access to settings",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-update-due-to-having-no-access-to-settings/m-p/4543686#M44697",
-      "published": "2026-08-04T05:22:59+00:00",
-      "summary": "Have checked around to try to update the version i am on but no luck , Also says needs framework 4.0 or above and says its only got V3.0 . Have tried installing it to V 4.8.1 but will not let me as its in the windows version i have . Build 26100.8370 running windows 11 home addition Also expires on...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Richard5555",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Planning a Google Workspace to Microsoft 365 Migration? What Should You Consider?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/planning-a-google-workspace-to-microsoft-365-migration-what/m-p/4543683#M59629",
       "published": "2026-08-04T04:44:53+00:00",
@@ -1615,18 +1927,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Windows Insider Update Failed",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider-update-failed/m-p/4543641#M44694",
-      "published": "2026-08-03T23:13:41+00:00",
-      "summary": "I've noticed quite a few people are having issues with this, however I have not seen a direct reply. I received the prompt that my certificate would expire on 08/11/26 and that I should be watching my windows update for the new release. I received it today and after installation seemed to complete,...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "TYCollins27",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Built-In Observability for Serverless AI Agents on Azure Functions",
@@ -1749,18 +2049,6 @@
       "product": "Exchange"
     },
     {
-      "title": "Unable to come out of Insider preview",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-come-out-of-insider-preview/m-p/4543501#M44691",
-      "published": "2026-08-03T12:40:16+00:00",
-      "summary": "The PC is in Windows 11 pro insider preview, I have opted out for Windows insider previous, but it shows as the built version as Insider preview itself, any insides on this",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "sakshamsharma31789",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "INTUNE: Problems with the Google address (Managed Google Play)",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-problems-with-the-google-address-managed-google-play/m-p/4543486#M23661",
       "published": "2026-08-03T11:43:53+00:00",
@@ -1783,42 +2071,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Windows更新出现错误",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows%E6%9B%B4%E6%96%B0%E5%87%BA%E7%8E%B0%E9%94%99%E8%AF%AF/m-p/4543372#M44689",
-      "published": "2026-08-03T08:40:28+00:00",
-      "summary": "",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "夏先生",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "How to Leave Windows Insider Preview and Return to a Stable Release?",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-leave-windows-insider-preview-and-return-to-a-stable/m-p/4543348#M44688",
-      "published": "2026-08-03T08:05:33+00:00",
-      "summary": "Hello Community, I am currently running Windows 11 Home Insider Preview Single Language Version 26H2 (OS Build 26300.8935) on an ASUS device and would like to leave the Windows Insider Program and move back to a stable, generally available version of Windows. I understand that Insider builds are...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "tejkumar",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Unable to update Windows, and I am unable to unroll the system too",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-update-windows-and-i-am-unable-to-unroll-the-system/m-p/4543311#M44687",
-      "published": "2026-08-03T07:03:53+00:00",
-      "summary": "I am unable to update Windows; it's not downloading beyond 99% in the update window. Brattary drining is high, so I want to unenroll the current device from the Windows Insider program for now, which I am unable to do. When I unroll it, it's showing unrolling is queued but not unrolling. Help me to...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "bijivemulasruthireddy",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
@@ -1963,18 +2215,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Teams Premium + Bookings : Automatic recording and transcription for Bookings meetings ?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-premium-bookings-automatic-recording-and-transcription-for/m-p/4542842#M145149",
-      "published": "2026-07-31T12:20:27+00:00",
-      "summary": "Hello,I have a Teams Premium license, recording and transcription policies are enabled on the admin side, and Video Recap works correctly when both are active simultaneously in the same meeting.My use case : my clients book time slots via Microsoft Bookings. Teams meetings are therefore created...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "CoralieSimonaire",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     },
     {
       "title": "Governing Log Analytics retention at scale",
@@ -2125,12 +2365,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
       "published": "2026-07-30T17:30:24+00:00",
       "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Cassidy Williams",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "​​​​What’s new in Microsoft Security: July 2026",
@@ -2193,18 +2433,6 @@
       "product": "FinOps"
     },
     {
-      "title": "Azure Tops $100 Billion As Microsoft Reports FY26 Q4 Results",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/azure-tops-100-billion-as-microsoft-reports-fy26-q4-results/m-p/4542185#M59598",
-      "published": "2026-07-30T00:42:32+00:00",
-      "summary": "On July 29, Microsoft released their FY26 Q4 results. We learned that Microsoft 365 Copilot has 30 million paid seats, but that’s still less than 7% of the Microsoft 365 installed base, so there’s lots of room for Copilot to grow. Microsoft didn’t provide a number for Teams monthly active users,...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-orchestrator-to-azure-container-apps-jobs/ba-p/4541275",
       "published": "2026-07-29T17:49:33+00:00",
@@ -2265,18 +2493,6 @@
       "product": "Azure Arc"
     },
     {
-      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-      "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-      "published": "2026-07-29T16:00:00+00:00",
-      "summary": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the...",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Bruno Borges",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "​​Better security starts with better questions",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
       "published": "2026-07-29T16:00:00+00:00",
@@ -2287,6 +2503,18 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
+    },
+    {
+      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+      "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "published": "2026-07-29T16:00:00+00:00",
+      "summary": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the...",
+      "blog": "GitHub Engineering",
+      "blogId": "githubengineering",
+      "author": "Bruno Borges",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
     },
     {
       "title": "MDTI convergence in Microsoft Sentinel and Defender XDR is complete",
@@ -2313,18 +2541,6 @@
       "product": "Visual Studio"
     },
     {
-      "title": "Complete Microsoft 365 Security Checklist: Protect Your Business from Modern Cyber Threats",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/complete-microsoft-365-security-checklist-protect-your-business/m-p/4542008#M59592",
-      "published": "2026-07-29T12:49:15+00:00",
-      "summary": "Microsoft 365 has become the backbone of modern businesses. From emails and file sharing to collaboration and cloud storage, organizations rely on it every day. However, as Microsoft 365 adoption grows, cybercriminals increasingly target it through phishing attacks, credential theft, ransomware,...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JohnNaguib",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "problem with Auto-Enrollment for windows devices in Hybrid enviroument",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/problem-with-auto-enrollment-for-windows-devices-in-hybrid/m-p/4542003#M23639",
       "published": "2026-07-29T12:06:51+00:00",
@@ -2347,18 +2563,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "DLP Prevents Microsoft 365 Copilot from Processing External Email",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/dlp-prevents-microsoft-365-copilot-from-processing-external/m-p/4541887#M59590",
-      "published": "2026-07-29T08:39:25+00:00",
-      "summary": "A new (preview) DLP capability allows Microsoft 365 tenants to block Microsoft 365 Copilot from processing the content of external email. When set, any message coming from a domain that’s not in a tenant’s accepted domain list is blocked for Copilot for grounding, referencing, or summarization....",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
@@ -2497,12 +2701,12 @@
       "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
       "published": "2026-07-28T16:00:00+00:00",
       "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Security",
+      "blogId": "githubsecurity",
       "author": "Greg Ose",
-      "solutionArea": "CAIP",
+      "solutionArea": "Security",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Advanced Security"
     },
     {
       "title": "Introducing Physical-World Intelligence: How GeoAI Is Helping Expand Enterprise AI",
@@ -2599,18 +2803,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
-    },
-    {
-      "title": "PowerPoint 2021 crashes when saving .ppsm files containing ActiveX controls",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/powerpoint-2021-crashes-when-saving-ppsm-files-containing/m-p/4541266#M59596",
-      "published": "2026-07-27T18:39:21+00:00",
-      "summary": "Hello,I believe I found a regression in recent Office 2021 builds.PowerPoint crashes every time I try to save a macro-enabled presentation as PowerPoint Show (*.ppsm) if the presentation contains Microsoft Forms (ActiveX) controls, such as:TextBoxComboBoxCheckBoxetc.Troubleshooting...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Tzipirigu",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "NOW ON DEMAND | OneDrive Office Hours | July 2026",
@@ -3705,18 +3897,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": ".NET and .NET Framework July 2026 servicing releases updates",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-july-2026-servicing-updates/",
-      "published": "2026-07-14T18:55:00+00:00",
-      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for July 2026. The post .NET and .NET Framework July 2026 servicing releases updates appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Rahul Bhandari (MSFT), Tara Overfield",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
       "title": "Team disappears from the side rail if a channel is in the section",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/team-disappears-from-the-side-rail-if-a-channel-is-in-the/m-p/4536997#M145089",
       "published": "2026-07-14T18:14:39+00:00",
@@ -3777,30 +3957,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Teams Freezes ~90 seconds into a 1:1 Mac OSX",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-freezes-90-seconds-into-a-1-1-mac-osx/m-p/4536943#M145088",
-      "published": "2026-07-14T15:15:40+00:00",
-      "summary": "Teams video and audio starts freezing 90 seconds into a 1:1 call, and then it comes back to normal and wont happen again. This started about 3 weeks ago and it happens only during 1:1 calls wont happen when there are more then 2 people in a call. Mac OSX 26.5.1 (25F80)Teams Version...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "alexg2022",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Teams black and green lines when sharing screen and recording impact",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-black-and-green-lines-when-sharing-screen-and-recording/m-p/4536942#M145087",
-      "published": "2026-07-14T15:12:53+00:00",
-      "summary": "When sharing screen on mac osx the screen share sometimes goes black with green and white lines all scrambled. Also the recording gets impacted while screen sharing is totally fine during the meeting. This started in the last 1-2 weeks. Teams Version 26149.1804.4788.5681",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "alexg2022",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
       "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
       "published": "2026-07-14T14:02:30+00:00",
@@ -3823,78 +3979,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender XDR"
-    },
-    {
-      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
-      "published": "2026-07-14T08:19:35+00:00",
-      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Abhishek_Mittal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Building AI Agents from Zero to Production",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
-      "published": "2026-07-14T07:00:00+00:00",
-      "summary": "Building AI Agents from Zero to Production Most agent demos stop at \"it answered my question.\" Production doesn't. The gap between a notebook that calls an LLM and a governed, observable, multi-agent system your organisation can actually depend on is where real engineering happens, evaluation,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
-      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
-      "published": "2026-07-13T22:21:36+00:00",
-      "summary": "One of the best parts of a Visual Studio Subscription is discovering benefits that can make your day-to-day development work easier and more cost effective. One benefit that deserves more attention is Azure Dev/Test pricing. In fact, it’s one of the most valuable benefits included with a Visual...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Visual Studio"
-    },
-    {
-      "title": "Upcoming Changes to Azure Relay IP Addresses and DNS Support",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-changes-to-azure-relay-ip-addresses-and-dns-support/ba-p/4463597",
-      "published": "2026-07-13T20:04:04+00:00",
-      "summary": "Azure Relay is an integral part of modern hybrid cloud architectures, enabling seamless connectivity between on-premises and cloud resources. To ensure continued reliability and security, Microsoft is implementing important updates to the IP addresses and DNS naming conventions used by Azure Relay...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Messaging"
-    },
-    {
-      "title": "Building toward an Agentic SOC: A Portable, Autonomous Malware Investigation Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-toward-an-agentic-soc-a-portable-autonomous-malware/ba-p/4526872",
-      "published": "2026-07-13T19:09:25+00:00",
-      "summary": "Modern Security Operations Centers are not short on tools. They are short on continuity. Analysts jump from alert consoles to data exploration, from enrichment to investigation, and from evidence gathering to response—often across multiple interfaces and disconnected workflows. A single malware...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "absharan",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "A message broker is only as reliable as the layer you stopped at",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/a-message-broker-is-only-as-reliable-as-the-layer-you-stopped-at/ba-p/4533259",
-      "published": "2026-07-13T14:00:00+00:00",
-      "summary": "Reliability is easy to reduce to a single number. You find the SLA, you put it on a slide, and you move on. But a service-level agreement describes an outcome, not the set of decisions that produce it. The same Azure Service Bus namespace can keep running when a single server fails, survive the...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Messaging"
     }
   ]
 }
