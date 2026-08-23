@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-22T12:23:59.985730+00:00",
-  "totalArticles": 320,
+  "lastUpdated": "2026-08-23T12:24:53.220945+00:00",
+  "totalArticles": 310,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -309,18 +309,6 @@
       "product": "Windows"
     },
     {
-      "title": "[GSOD]SYSTEM_SERVICE_EXCEPTION in win32kfull!SetMagnificationInputTransform when a process exits",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/gsod-system-service-exception-in-win32kfull/m-p/4549167#M44900",
-      "published": "2026-08-22T08:49:05+00:00",
-      "summary": "问题概述Windows 11 Insider Experimental 26H2 Build 26340.9233 连续发生两次绿屏崩溃。两份 minidump 经 WinDbg 分析后指向完全相同的故障函数、调用栈、触发进程及故障哈希。崩溃发生在 Windows 销毁进程关联的桌面对象，并清理屏幕放大输入变换状态时。系统环境操作系统：Windows 11 Pro for WorkstationsInsider...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "JohnLiao",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "腾龙公司开户与游戏注册官网",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/%E8%85%BE%E9%BE%99%E5%85%AC%E5%8F%B8%E5%BC%80%E6%88%B7%E4%B8%8E%E6%B8%B8%E6%88%8F%E6%B3%A8%E5%86%8C%E5%AE%98%E7%BD%91/m-p/4549132#M59720",
       "published": "2026-08-22T05:55:58+00:00",
@@ -343,6 +331,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Analytics"
+    },
+    {
+      "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
+      "published": "2026-08-21T22:45:58+00:00",
+      "summary": "Exchange Web Services (EWS) retirement in Exchange Online is entering its final phase. Over the last several years, Microsoft has worked with product teams, independent software vendors (ISVs), and customers across the ecosystem to migrate workloads to Microsoft Graph and other modern APIs. Many of...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
     },
     {
       "title": "Power BI August 2026 Feature Summary",
@@ -1461,18 +1461,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
-      "published": "2026-08-17T20:57:29+00:00",
-      "summary": "Exchange Web Services (EWS) retirement in Exchange Online is entering its final phase. Over the last several years, Microsoft has worked with product teams, independent software vendors (ISVs), and customers across the ecosystem to migrate workloads to Microsoft Graph and other modern APIs. Many of...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
       "title": "Data source routing in Microsoft Fabric data agents (Generally Available)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-source-routing-in-Microsoft-Fabric-data-agents-Generally/ba-p/5358696",
       "published": "2026-08-17T20:30:00+00:00",
@@ -1987,6 +1975,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
+    },
+    {
+      "title": "Win11 25H2 File Explorer preview pane displays bitmap images incompletely",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/win11-25h2-file-explorer-preview-pane-displays-bitmap-images/m-p/4546461#M44808",
+      "published": "2026-08-13T02:26:59+00:00",
+      "summary": "The system version is Windows 11 25H2 (Build 26220.9022). Since the update on August 1, 2026, the File Explorer preview pane has been unable to fully display bitmap images. Regardless of whether the image is in landscape or portrait orientation, a gray gap appears at approximately the bottom 2/3 to...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "AddisonBailey",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Add AI to the workflows you already have using Serverless Agents in Azure Functions",
@@ -4003,126 +4003,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Entra"
-    },
-    {
-      "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
-      "published": "2026-07-24T11:00:40+00:00",
-      "summary": "Recently we introduced the Agent Memory Toolkit and the Agentic Retrieval Toolkit for Azure Cosmos DB. The Agent Memory Toolkit gives your agents durable, Cosmos-backed memory: it stores raw conversation turns and then distills them into higher-value derived memories (thread summaries, extracted...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Your Entire Agentic AI Workflow, Now Inside VS Code: New Course Available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/your-entire-agentic-ai-workflow-now-inside-vs-code-new-course/ba-p/4539009",
-      "published": "2026-07-24T09:20:31+00:00",
-      "summary": "If you build with AI, you know the tax: jumping between a browser portal to pick a model, a terminal to run it, a separate playground to test a prompt, and finally your editor to write the code. Every context switch is a small drain on focus—and it adds up. What if the whole loop lived in the one...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Teams PowerShell Embraces Web Account Manager and Imposes Control Over Federated Chat",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-powershell-embraces-web-account-manager-and-imposes/m-p/4540327#M145125",
-      "published": "2026-07-24T09:04:33+00:00",
-      "summary": "Teams released a new version of their PowerShell module on July 19. The new module contains WAM support and cmdlets to limit federated chat for specific users and tenants. The new controls are welcome, but it’s a sad state of affairs that to configure the settings you must install a new version of...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
-      "published": "2026-07-23T20:05:25+00:00",
-      "summary": "Summary Azure Logic Apps Consumption Integration Accounts were served by roughly 60,000 per-customer Azure Functions apps on the end-of-life v1/v2 runtime. Over about two years we migrated the entire fleet to Functions v4 (isolated worker), across all Azure regions, with no migration work required...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "AbodeSaafan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Introducing Kubernetes-Native Policy Validation with CEL and VAP in Azure Policy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-kubernetes-native-policy-validation-with-cel-and-vap/ba-p/4534585",
-      "published": "2026-07-23T19:27:12+00:00",
-      "summary": "Azure Policy for Kubernetes now supports Gatekeeper’s integration with native Kubernetes Validating Admission Policy (VAP) using Common Expression Language (CEL)! This integration leverages the new VAP feature introduced in Kubernetes 1.30, providing a more efficient, reliable and in-process way to...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "stevenbucher",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Governance"
-    },
-    {
-      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
-      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
-      "published": "2026-07-23T19:03:53+00:00",
-      "summary": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Shavonna Jackson",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "Announcing public preview of Azure DDoS Protection custom policy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-custom-policy/ba-p/4538963",
-      "published": "2026-07-23T17:16:28+00:00",
-      "summary": "We are excited to announce the public preview of Azure DDoS Protection custom policy, a new capability that gives customers more granular control over how Azure DDoS Protection detects and mitigates attacks against protected workloads. Azure DDoS Protection has always focused on delivering...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "OfirSarfaty",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
-      "title": "Deep dive into modern visual defaults and formatting your entire report (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-modern-visual-defaults-and-formatting-your-entire/ba-p/5303513",
-      "published": "2026-07-23T16:54:21+00:00",
-      "summary": "Power BI's modern visual defaults and new Customize theme experience enable report authors to centrally manage colors, typography, visual styling, page settings, and filter pane formatting across an entire report, creating consistent, professional reports faster while preserving visual-specific...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "DataZoe",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
-      "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
-      "published": "2026-07-23T16:00:00+00:00",
-      "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog.",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Carlin Cherry",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "Build locally, ship to Azure: meet Azure SQL Developer",
-      "link": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/",
-      "published": "2026-07-23T15:00:27+00:00",
-      "summary": "Big news: Azure SQL Developer is here, in private preview. It’s the Azure SQL Database engine, on your laptop, in a container. Build against the exact engine you run in the cloud. Ship the same code to Azure. Change one line, the connection string, and you’re in production. Free for local dev and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Carlos Robles, Vandana Mahtani",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
     }
   ]
 }
