@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-31T18:34:18.741664+00:00",
-  "totalArticles": 297,
+  "lastUpdated": "2026-09-01T15:53:18.274385+00:00",
+  "totalArticles": 302,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,114 @@
   },
   "articles": [
     {
+      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
+      "published": "2026-09-01T14:08:19+00:00",
+      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Copilot model access update for GitHub Team plans",
+      "link": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+      "published": "2026-08-31T21:58:46+00:00",
+      "summary": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Common dbt job patterns in Microsoft Fabric (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Common-dbt-job-patterns-in-Microsoft-Fabric-Preview/ba-p/5361480",
+      "published": "2026-08-31T21:00:00+00:00",
+      "summary": "One of the most common questions we hear from customers adopting dbt job in Microsoft Fabric isn't how to create models, it's how to structure them. Should Bronze, Silver, and Gold live in a Lakehouse or a Warehouse? Should dbt own Silver, Gold, or both? When does a Fabric pipeline make sense? To...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "meghasony",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Enterprise Live Migrations is now in public preview",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
+      "published": "2026-08-31T20:52:38+00:00",
+      "summary": "Move Azure DevOps repositories to GitHub Enterprise Cloud with data residency while minimizing disruption Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. We...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Soo Stahl",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Azure DevOps"
+    },
+    {
+      "title": "What if Teams isn’t too complicated — but simply being compared to the wrong product?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/what-if-teams-isn-t-too-complicated-but-simply-being-compared-to/m-p/4551996#M145236",
+      "published": "2026-08-31T20:41:30+00:00",
+      "summary": "Many users first experience Microsoft Teams through meetings, chat, and file sharing.So it feels natural to compare Teams with messaging apps.But I’ve started to wonder whether that comparison itself shapes how people experience Teams. In markets such as Taiwan, Japan, and Thailand, LINE is deeply...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "Wang Vinci",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "From factory floor to Fabric: Securely stream private data with Eventstream",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-factory-floor-to-Fabric-Securely-stream-private-data-with/ba-p/5362960",
+      "published": "2026-08-31T20:00:00+00:00",
+      "summary": "Bring private operational data into real-time analytics Real-time operational data is often generated in places that are intentionally isolated from the public internet. Factory MQTT brokers, enterprise Kafka clusters, database change data capture sources, and messaging systems may live in an...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "bytecascade",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Fabric Migration Assistant for SQL database (Generally Available)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Migration-Assistant-for-SQL-database-Generally-Available/ba-p/5363606",
+      "published": "2026-08-31T19:00:00+00:00",
+      "summary": "Migrating a SQL Server database to the cloud rarely fails on the data — it fails on everything around it. Schema objects that use unsupported features surface only after you've provisioned a target and started deploying. Remediation turns into a manual pass-through error logs. Schema and data move...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "FabSubhojit",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/build-governed-asynchronous-apis-with-azure-api-management-and/ba-p/4544780",
+      "published": "2026-08-31T18:38:04+00:00",
+      "summary": "Many applications use Azure Service Bus to decouple services, handle traffic spikes, and process workloads asynchronously. However, securely exposing messaging capabilities to applications, partners, and internal teams can require custom middleware or messaging-specific client implementations....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anishta",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Power Azure SRE Agent with the tools it needs",
+      "link": "https://devblogs.microsoft.com/azure-sdk/power-azure-sre-agent-with-connector-namespace/",
+      "published": "2026-08-31T18:37:17+00:00",
+      "summary": "Use Azure Connector Namespace to host MCP servers and give Azure SRE Agent access to the operational tools it needs without managing the server infrastructure yourself. The post Power Azure SRE Agent with the tools it needs appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure SDK"
+    },
+    {
       "title": "Bring Fabric Maps into Real-Time Dashboards (Preview)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-Fabric-Maps-into-Real-Time-Dashboards-Preview/ba-p/5360916",
       "published": "2026-08-31T18:30:03+00:00",
@@ -297,16 +405,28 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "What’s new in Microsoft Sentinel: August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-august-2026/ba-p/4551405",
-      "published": "2026-08-31T16:00:00+00:00",
-      "summary": "Welcome back to What's new in Microsoft Sentinel. This August, Sentinel innovation kicks off with the AI-powered playbook generator, generally available to all Sentinel customers in the Microsoft Defender portal. Meanwhile, User and Entity Behavior Analytics (UEBA) anomalies enter public preview on...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "spalani",
-      "solutionArea": "Security",
+      "title": "How much of your Microsoft 365 environment can you actually see at once?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-much-of-your-microsoft-365-environment-can-you-actually-see/m-p/4551977#M59790",
+      "published": "2026-08-31T18:29:29+00:00",
+      "summary": "Not how many users you have.Not how many sites, teams, apps or flows you have.How much of it can you actually see connected together?I've been working across Microsoft 365 environments for a while, and I kept running into the same thing.There is no shortage of information. If anything, there is...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "PWRInnovations",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Simpler, private connectivity between Azure and AWS with Azure Multicloud Interconnect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simpler-private-connectivity-between-azure-and-aws-with-azure/ba-p/4550556",
+      "published": "2026-08-31T17:59:37+00:00",
+      "summary": "Multicloud is no longer the exception — it is how most enterprises operate. Teams run analytics in one cloud and applications in another, place workloads to meet data-residency requirements, and increasingly move large volumes of data between clouds to train and serve AI models. Yet the network...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sudha_Mahajan",
+      "solutionArea": "CAIP",
       "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
+      "product": "Azure Networking"
     },
     {
       "title": "Five Business Event scenarios and the pattern they share",
@@ -369,6 +489,18 @@
       "product": "Azure Integration"
     },
     {
+      "title": "GitHub Copilot in VS Code, August 2026 releases",
+      "link": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+      "published": "2026-08-31T08:39:54+00:00",
+      "summary": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the… The post GitHub Copilot in VS Code, August 2026 releases appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "[Request/Suggestion] Suggestions for the September update",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/request-suggestion-suggestions-for-the-september-update/m-p/4551655#M45003",
       "published": "2026-08-31T03:37:54+00:00",
@@ -376,18 +508,6 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "sheraton",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Error de instalación: 0xc1900101",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/error-de-instalaci%C3%B3n-0xc1900101/m-p/4551612#M45001",
-      "published": "2026-08-30T19:03:28+00:00",
-      "summary": "Hola me pueden ayudar memarca este Error de instalación: 0xc1900101 quiero instalar windows 11 pero mi error fue haber instalado windows insider y ahora no me deja instalar windows 11 ya tengo la actualizacion en windows update pero me marca esto Error de instalación: 0xc1900101",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Carlos-A",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -921,30 +1041,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
-      "link": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "published": "2026-08-27T01:52:19+00:00",
-      "summary": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update… The post Enterprise-managed settings now support autoUpdate for...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Global model policy generally available",
-      "link": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
-      "published": "2026-08-26T22:08:38+00:00",
-      "summary": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the… The post Global model policy generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
       "published": "2026-08-26T20:48:29+00:00",
@@ -1401,18 +1497,6 @@
       "product": "Windows Terminal"
     },
     {
-      "title": "Using Custom SQL Pools to balance performance and cost in Fabric Data Warehouse",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Using-Custom-SQL-Pools-to-balance-performance-and-cost-in-Fabric/ba-p/5359735",
-      "published": "2026-08-25T12:34:41+00:00",
-      "summary": "One of the most common questions I hear from customers as they move to an allocation-based billing model is:\"What levers do I actually have if I want to control how many resources my workloads consume?\"Many customers are looking for a way to prevent specific workloads from scaling aggressively and...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "joannapea",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "RemoteHelp.exe reports FileVersion 10.4.10008.1000 while the product version is 5.2.1037.0",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/remotehelp-exe-reports-fileversion-10-4-10008-1000-while-the/m-p/4544708#M23669",
       "published": "2026-08-25T10:39:37+00:00",
@@ -1761,6 +1845,18 @@
       "product": "Microsoft 365"
     },
     {
+      "title": "Unable to activate Windows Insider build 26340",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-activate-windows-insider-build-26340/m-p/4549129#M44897",
+      "published": "2026-08-22T05:28:22+00:00",
+      "summary": "Hello all, I've been in the Windows Insider program since Windows 11 was in prerelease testing. A couple months ago, my install went poo (It wouldn't boot all the way; I think it was a graphics driver problem). I didn't touch it for a month or two, but I just reinstalled windows (first to the...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "dleland",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
       "published": "2026-08-22T01:22:26+00:00",
@@ -2047,18 +2143,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Monitor"
-    },
-    {
-      "title": "How to Fix SharePoint Files Not Opening: Common Causes and Easy Solutions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-fix-sharepoint-files-not-opening-common-causes-and-easy/m-p/4548529#M59703",
-      "published": "2026-08-20T11:28:18+00:00",
-      "summary": "SharePoint makes it easy for teams to store, share, and work on files from almost anywhere. But when you click on a document and it refuses to open, that convenience can quickly turn into frustration. You may see a blank page, an error message, an endless loading screen, or nothing at all....",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JohnNaguib",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Voice Live and Observability for Production Agent Systems Part 5/5",
@@ -2385,18 +2469,6 @@
       "product": "Power BI"
     },
     {
-      "title": "Enhanced data agent visualizations with Fabric visuals (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Enhanced-data-agent-visualizations-with-Fabric-visuals-Preview/ba-p/5359686",
-      "published": "2026-08-18T16:48:38+00:00",
-      "summary": "The Fabric data agent answers natural-language questions about your data and returns visuals, such as charts and graphs, alongside its text responses. Those visuals now render using Fabric Visuals, bringing higher-quality, more consistent visualizations to your responses. What's changed Previously,...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Virginia_R",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Azure DNS introduces Traffic Manager linked records (Public Preview)",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-introduces-traffic-manager-linked-records-public/ba-p/4547112",
       "published": "2026-08-18T16:14:39+00:00",
@@ -2491,18 +2563,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Monitor your Eventstreams with Workspace Monitoring — Now with per-Eventstream control (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Monitor-your-Eventstreams-with-Workspace-Monitoring-Now-with-per/ba-p/5331185",
-      "published": "2026-08-17T21:00:00+00:00",
-      "summary": "When a real-time data pipeline breaks, the first question is always the same: what went wrong, and where? Eventstream observability in Microsoft Fabric brings that visibility directly into Workspace Monitoring, so you can track the health, performance, and errors of your eventstreams without...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Anasheh",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
