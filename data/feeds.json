@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-05T14:21:36.314237+00:00",
-  "totalArticles": 309,
+  "lastUpdated": "2026-09-06T14:44:22.325680+00:00",
+  "totalArticles": 303,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -3919,78 +3919,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Intune Enrollment Issues - Error `0x80180014`",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-enrollment-issues-error-0x80180014/m-p/4545123#M23671",
-      "published": "2026-08-07T14:34:40+00:00",
-      "summary": "Hello Community! We've been occasionally getting this error with some of our machines when trying to manually enroll them in Intune:Error `0x80180014` with the message \"does not support this version of Windows\" From what I've seen, it typically happens to very specific devices. We have our...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "CarloAseron",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Platform SSO + Secure Enclave: True Passwordless macOS Sign-in with Entra ID?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/platform-sso-secure-enclave-true-passwordless-macos-sign-in-with/m-p/4545093#M23670",
-      "published": "2026-08-07T11:30:15+00:00",
-      "summary": "Hi all,I'm testing macOS DEP/ADE + Intune + Platform SSO with Microsoft Entra ID.I have the Mac successfully enrolling through ADE, becoming Entra joined, and users can authenticate against Entra ID.With Platform SSO configured for Password authentication, users can sign in using their Entra...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "King_Rustamus",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
-      "published": "2026-08-06T19:27:34+00:00",
-      "summary": "Today, the Azure Arc team is pleased to announce that Extended Security Updates (ESUs) enabled by Azure Arc is now generally available for Windows Server 2016. By connecting your Windows Server 2016 machines to Azure Arc-enabled servers, you can enroll in ESUs and receive security updates. Enroll...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Mason_Torres",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "Test reporting in Microsoft.Testing.Platform: from red build to root cause",
-      "link": "https://devblogs.microsoft.com/dotnet/microsoft-testing-platform-reporting/",
-      "published": "2026-08-06T17:05:00+00:00",
-      "summary": "Microsoft.Testing.Platform brings failures into GitHub Actions and Azure DevOps, uses pipeline history to separate regressions from flakes, and preserves usable reports when a test host crashes. The post Test reporting in Microsoft.Testing.Platform: from red build to root cause appeared first on...",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Amaury Levé",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "How we took malware advisories beyond npm",
-      "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-      "published": "2026-08-06T16:51:12+00:00",
-      "summary": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malware advisories beyond npm appeared first on The GitHub Blog.",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Ankit Kumar Honey",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "Announcing the preview of the Work IQ Developer Tools",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/announcing-the-preview-of-the-work-iq-developer-tools/",
-      "published": "2026-08-06T16:17:13+00:00",
-      "summary": "Software is shifting from apps built for people to agents that can reason over context and act on someone’s behalf. Microsoft 365 Copilot put that shift in front of hundreds of millions of users, and Work IQ gave agents a production-ready intelligence layer to build on. What’s been missing is the...",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "Sébastien Levert, Rachit Kumar Malik",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     }
   ]
 }
