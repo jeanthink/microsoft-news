@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-06T14:44:22.325680+00:00",
-  "totalArticles": 303,
+  "lastUpdated": "2026-09-07T16:59:49.615534+00:00",
+  "totalArticles": 297,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,10 +285,10 @@
   },
   "articles": [
     {
-      "title": "Microsoft's team will investigate the File History issues caused by KB5101684 and KB5120249.",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/microsoft-s-team-will-investigate-the-file-history-issues-caused/m-p/4553512#M45041",
-      "published": "2026-09-05T09:25:16+00:00",
-      "summary": "Hello, I would like to inquire whether other Windows 10/11 users have encountered the same \"File History\" issue, and I also hope that the Microsoft technical team can seriously investigate this problem.My laptop uses Windows 11 25H2. Before installing KB5101684, File History worked normally. In...",
+      "title": "There is problem with file history logging after the recent Windows updates (KB5101684 / KB5121003)",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/there-is-problem-with-file-history-logging-after-the-recent/m-p/4554065#M45061",
+      "published": "2026-09-07T15:49:18+00:00",
+      "summary": "Hi everyone,This is not spam, I did not spam the site. It appeared after the update. I hope Microsoft can resolve this issue, and I also hope other users experiencing the same problem can reply to me. Please, please.Ever since the latest Windows updates (specifically around KB5101684 / KB5120249 on...",
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "sheraton",
@@ -463,18 +463,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Exchange"
-    },
-    {
-      "title": "Please ask other users to contact Microsoft to repair the file history.",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/please-ask-other-users-to-contact-microsoft-to-repair-the-file/m-p/4553418#M45040",
-      "published": "2026-09-04T10:27:12+00:00",
-      "summary": "This is my question:Win 10/11 file history is malfunctioning after an update why hasn&#39;t Microsoft fixed this issue yet? | Microsoft Community HubI've already reported and inquired about this issue through the Windows 10 Feedback Center, but haven't received any response yet. I've also spoken...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "sheraton",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Preparing a Microsoft 365 Tenant for Copilot in Late 2026",
@@ -2601,6 +2589,18 @@
       "product": "Microsoft Teams"
     },
     {
+      "title": "windows update bug",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-update-bug/m-p/4549307#M44917",
+      "published": "2026-08-23T18:38:06+00:00",
+      "summary": "my windows version is 26h2,but in settings, windows update section, its saying i need to update 25h2.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "eagle_12",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Power BI August 2026 Feature Summary",
       "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-August-2026-Feature-Summary/ba-p/5348434",
       "published": "2026-08-21T21:06:18+00:00",
@@ -3847,78 +3847,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Zero Ops: Agents Operate, Humans Govern",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
-      "published": "2026-08-08T15:47:47+00:00",
-      "summary": "How to design, build, and grow an agentic operations practice — and what becomes possible once you do. A note on scope: the patterns in this guide apply to any agentic operations platform. The specifics — the pricing model, the built-in capabilities, the primitives named throughout — are Azure SRE...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Shamir_AbdulAziz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Announcing Grafana 13 Support in Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-grafana-13-support-in-azure-managed-grafana/ba-p/4545199",
-      "published": "2026-08-07T22:24:56+00:00",
-      "summary": "Enhanced Dashboarding and Visualization Experience Grafana 13 introduces a number of improvements that make dashboards easier to build, reuse, and manage at scale. Teams can create richer observability experiences while reducing duplication and improving consistency across environments. These...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nuzhat-minhaz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Build Durable, Long-Running MCP Tasks on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-durable-long-running-mcp-tasks-on-azure-app-service/ba-p/4545170",
-      "published": "2026-08-07T19:40:32+00:00",
-      "summary": "Not every tool call finishes in a few seconds. A compliance scan might inspect hundreds of resources. A deployment might wait for an approval. A batch import might run for an hour. Holding an HTTP connection open for that entire operation is fragile: clients restart, proxies time out, networks...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "AI-powered playbook generator, now available to more customers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/ai-powered-playbook-generator-now-available-to-more-customers/ba-p/4544385",
-      "published": "2026-08-07T19:28:40+00:00",
-      "summary": "We’re excited to announce we’re making it easier than ever to go from intent to action with the AI-powered playbook generator now available to more customers. What’s new All Microsoft Sentinel customers in Defender portal can now create AI-generated playbooks directly in their automation workflow....",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "NoaCafri",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Expanding the Azure Local Security Ecosystem with IBM QRadar and Splunk",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/expanding-the-azure-local-security-ecosystem-with-ibm-qradar-and/ba-p/4535101",
-      "published": "2026-08-07T18:00:00+00:00",
-      "summary": "As regulatory obligations, resilience requirements, and the need for greater control over data and infrastructure continue to grow, we are seeing increasing interest in Azure Local from governments, critical infrastructure operators, defense organizations, and regulated industries looking to deploy...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Ariel Netz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
-      "published": "2026-08-07T17:15:55+00:00",
-      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Robert_Moriarty",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
     }
   ]
 }
