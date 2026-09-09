@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-08T15:47:23.108145+00:00",
-  "totalArticles": 299,
+  "lastUpdated": "2026-09-09T15:43:06.771302+00:00",
+  "totalArticles": 304,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,318 @@
   },
   "articles": [
     {
+      "title": "My printers don't work after I reinstalled Microsoft 365",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/my-printers-don-t-work-after-i-reinstalled-microsoft-365/m-p/4554895#M59846",
+      "published": "2026-09-09T14:50:33+00:00",
+      "summary": "I recently had to reinstall Microsoft 365. The software now works quite well, but I can't print a document in Microsoft Word or from anywhere in Windows 11. I have two printers: an HP Envy Inspire 7900e AIO and a Brother HL-L2420DW. Both printers worked before the reinstall, and both printers work...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Caesar240",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Cant Install ChatGPT",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/cant-install-chatgpt/m-p/4554890#M45085",
+      "published": "2026-09-09T14:29:45+00:00",
+      "summary": "I have tried to install ChatGPT many times but it just either gets stuck installing or errors with error: 0X80073CF9I have tried:- wsreset.exe- DISM /Online /Cleanup-Image /RestoreHealth- winget source reset --force- winget install 9PLM9XGG6VKS --source msstore- Get-AppxPackage -allusers...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "tomhv9",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Get ready for table discovery in OneLake Catalog search (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Get-ready-for-table-discovery-in-OneLake-Catalog-search-Preview/ba-p/5365764",
+      "published": "2026-09-09T14:09:05+00:00",
+      "summary": "In late September, OneLake Catalog will begin surfacing tables as searchable objects in Microsoft Fabric. This change expands which table metadata users can discover based on their existing item permissions, so administrators may want to review the related tenant setting before rollout.To give...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "nschachter",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "File History problems after installing KB5124008, KB5126052,KB5126146, KB5122878, and KB890830",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/file-history-problems-after-installing-kb5124008-kb5126052/m-p/4554623#M45082",
+      "published": "2026-09-09T12:48:30+00:00",
+      "summary": "This morning, I ran Windows Update on two Windows 10/11 computers, but the file history feature stopped working completely after the update.Previously, after updating KB5121003 and KB5101684, files could still be backed up to the D: drive normally. The \"Last Backup\" time in \"File History\" is not...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "sheraton",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Remediate Code Quality findings with agentic autofix",
+      "link": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
+      "published": "2026-09-09T12:21:01+00:00",
+      "summary": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the… The post Remediate Code Quality findings with agentic autofix appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Teams Desktop and Microphone",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-desktop-and-microphone/m-p/4554824#M145278",
+      "published": "2026-09-09T10:41:46+00:00",
+      "summary": "It appears I am flogging a dead horse here. My microphone works everywhere on my laptop except Desktop TeamsI have tried every possible solution available in these discussions, and everywhere else on the Internet. Basically, they all take you through the same steps. It is not like I do not know how...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "theonlymac",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Why Microsoft Graph Does Not Support Group Mailboxes",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/why-microsoft-graph-does-not-support-group-mailboxes/m-p/4554733#M59844",
+      "published": "2026-09-09T08:33:55+00:00",
+      "summary": "A reader asked why the Outlook Mail Graph API doesn’t support access to group mailboxes. The basic reason is that a group mailbox doesn’t have an account and the Outlook Mail API only supports mailboxes that are linked to an account. When you look at the current usage of group mailboxes, it doesn’t...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Still unable to update in version 29663.1000 because of 0x80070057 - 0x20003",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/still-unable-to-update-in-version-29663-1000-because-of/m-p/4554620#M45081",
+      "published": "2026-09-09T04:12:15+00:00",
+      "summary": "https://aka.ms/AA13ehhf Here's my feedback and here are my report 链接到 4 项",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "ccc000111",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Onenote cannot search for handwriting",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onenote-cannot-search-for-handwriting/m-p/4554604#M59842",
+      "published": "2026-09-09T02:54:57+00:00",
+      "summary": "I have a problem where my Microsoft OneNote cannot search for ink/handwriting, though it used to be searchable. It can search for text but not handwritten notes. My friend who just downloaded OneNote is able to do so, while my other friend who has used OneNote for years is also unable to search for...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Velocity1",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+      "link": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+      "published": "2026-09-09T02:43:38+00:00",
+      "summary": "This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot… The post Enterprise-managed sandbox in Copilot for JetBrains appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How Azure uses AI to turn feedback into improved customer experiences",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
+      "published": "2026-09-08T22:51:21+00:00",
+      "summary": "The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service. One team may only know its top issues, while another may see only...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bharadwajr",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "GitHub Enterprise Server 3.22 is now generally available",
+      "link": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+      "published": "2026-09-08T21:52:42+00:00",
+      "summary": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to… The post GitHub Enterprise Server 3.22 is now generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Announcing .NET 11 Release Candidate 1",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/",
+      "published": "2026-09-08T21:30:00+00:00",
+      "summary": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": ".NET Team",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": ".NET Conf 2026 Community Days Call for Presenters Is Open",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-conf-2026-community-days-call-for-presenters/",
+      "published": "2026-09-08T20:30:00+00:00",
+      "summary": "Submit your session proposal for the community-led .NET Conf 2026 Community Days by October 6, 2026. The post .NET Conf 2026 Community Days Call for Presenters Is Open appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Javier Lozano, Chris Sfanos, Jon Galloway",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": ".NET and .NET Framework September 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-september-2026-servicing-updates/",
+      "published": "2026-09-08T20:00:00+00:00",
+      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for September 2026. The post .NET and .NET Framework September 2026 servicing releases updates appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Rahul Bhandari (MSFT), Tara Overfield",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Teams Q & A Feature",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-q-a-feature/m-p/4554483#M145274",
+      "published": "2026-09-08T19:16:14+00:00",
+      "summary": "Is there a way to mimic exactly how this Tech Community site operates in my company inside of Teams? Seems like MS offers options for Q and A during meetings but nothing in a standalone Teams Channel. I am basically trying to create a channel for a specific topic where people in our company can ask...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "abayer",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Word and Excel stuck in Read and Print mode only",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/word-and-excel-stuck-in-read-and-print-mode-only/m-p/4554482#M59839",
+      "published": "2026-09-08T19:12:05+00:00",
+      "summary": "I have M365 Family Plan and one of my devices can't use Word or Excel. App tells me they are in Read and Print mode only. I have attempted multiple times to get support to resolve this via chat sessions, but they are unable to help. They have escalated this to Tier 3 Support and still no help. They...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "jbonwell",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Advancing the Microsoft Fabric SQL Query Editor",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Advancing-the-Microsoft-Fabric-SQL-Query-Editor/ba-p/5364033",
+      "published": "2026-09-08T19:00:00+00:00",
+      "summary": "The Microsoft Fabric SQL Query Editor is the home for web-based SQL development in Fabric. It gives developers a workspace to explore warehouse data, write and run SQL, among many more capabilities. That work rarely starts and ends with a single query. Developers navigate large schemas, author and...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "salilkanade1",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "New customer portal help.github.com",
+      "link": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
+      "published": "2026-09-08T18:00:10+00:00",
+      "summary": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search… The post New customer portal help.github.com appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Wiring Azure DevOps Pipeline Templates Without the Parameter Sprawl: The Manifest Facade Pattern",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/wiring-azure-devops-pipeline-templates-without-the-parameter/ba-p/4554182",
+      "published": "2026-09-08T17:28:12+00:00",
+      "summary": "Where reusable pipelines start to hurt Who this is for: Platform and DevOps engineers who build shared Azure DevOps Pipeline Templates and want other teams to adopt them consistently. If you have ever built a set of shared Azure DevOps Pipeline Templates, you probably know how this goes. You write...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "pratikpanda",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Released: September 2026 Exchange Server Security Updates",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2026-exchange-server-security-updates/ba-p/4554411",
+      "published": "2026-09-08T17:13:41+00:00",
+      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782",
+      "published": "2026-09-08T17:00:00+00:00",
+      "summary": "What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "kshatzkamer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Telecom"
+    },
+    {
+      "title": "Automatic Dependabot access to GitHub-hosted registries",
+      "link": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
+      "published": "2026-09-08T16:46:05+00:00",
+      "summary": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,… The post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Why is the call button greyed out.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/why-is-the-call-button-greyed-out/m-p/4554437#M145271",
+      "published": "2026-09-08T16:40:00+00:00",
+      "summary": "The title block is blue and the call button is greyed out for this co-worker and when trying to use the call button it just says \"something is wrong at this time\".This is new....any help or know what this is?",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "Jason45",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Today I will… find hidden latency across a distributed .NET application",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
+      "published": "2026-09-08T16:00:22+00:00",
+      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Justin Yoo",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "Exchange Server AD FS Modern Authentication: Expanded Outlook client support",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-ad-fs-modern-authentication-expanded-outlook/ba-p/4554410",
+      "published": "2026-09-08T14:14:41+00:00",
+      "summary": "We are pleased to announce expanded Outlook client support for Exchange Server AD FS Modern Authentication. In our previous update, we announced broad Outlook for Windows/Mac support and support for the native Mail app on iOS and macOS. We are now extending this support to Outlook for iOS and...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
       "title": "Who's Performing Microsoft 365 License Audits For Their Clients?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/who-s-performing-microsoft-365-license-audits-for-their-clients/m-p/4554407#M59837",
       "published": "2026-09-08T13:57:44+00:00",
@@ -345,13 +657,13 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "There is problem with file history logging after the recent Windows updates (KB5101684 / KB5121003)",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/there-is-problem-with-file-history-logging-after-the-recent/m-p/4554065#M45061",
-      "published": "2026-09-07T15:49:18+00:00",
-      "summary": "Hi everyone,This is not spam, I did not spam the site. It appeared after the update. I hope Microsoft can resolve this issue, and I also hope other users experiencing the same problem can reply to me. Please, please.Ever since the latest Windows updates (specifically around KB5101684 / KB5120249 on...",
+      "title": "windows fungerar inte att uppdatera sig felkoder hela tiden",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-fungerar-inte-att-uppdatera-sig-felkoder-hela-tiden/m-p/4554056#M45060",
+      "published": "2026-09-07T15:17:55+00:00",
+      "summary": "jag kan inte uppdatera min windows i 1 års tid nu",
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
-      "author": "sheraton",
+      "author": "thomassarony",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -367,6 +679,42 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
+    },
+    {
+      "title": "Not receiving any notifications in my Samsung S26 Ultra",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/not-receiving-any-notifications-in-my-samsung-s26-ultra/m-p/4553813#M145252",
+      "published": "2026-09-07T03:04:46+00:00",
+      "summary": "Hello, Since I moved to Samsung S26 Ultra, I am not getting any notifications. Following are my settings. Please help to fix the issue. Following are settings in Samsung phone Following are settings in my Teams app in deskop Following is the settings set for all my channels Thanks",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "kishanhathiwalacs",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "When can I leave the program?",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/when-can-i-leave-the-program/m-p/4553785#M45049",
+      "published": "2026-09-06T21:24:57+00:00",
+      "summary": "I want to leave the program as it does not work with ubisoft anti cheat any more so I cannot play my games. I toggled to unenrol at the next update, but it gives zero information on when this might happen. I currently have build 26220.8754. Is there any way I can find out when I might go back to...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "freddie211",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Windows Insider更新不了的问题",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E7%9A%84%E9%97%AE%E9%A2%98/m-p/4553623#M45043",
+      "published": "2026-09-05T03:39:55+00:00",
+      "summary": "我已经加入了预览版体验，为什么在选择预览体验成员设置里面，所有选项成为灰标了呢？通知还一直提醒我版本过期，但是我检查了更新已经是最新了呀？",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "LANYI1145",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "GitHub Copilot weekly releases — August 31",
@@ -645,18 +993,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Upcoming deprecation of selected GitHub Copilot models",
-      "link": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-      "published": "2026-09-03T19:40:14+00:00",
-      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Advocating for Uptime: The 6 Phases of Change",
       "link": "https://devblogs.microsoft.com/azure-sql/schema-change/",
       "published": "2026-09-03T19:09:04+00:00",
@@ -667,30 +1003,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "GitHub CLI Linux package signing key expires September 5",
-      "link": "https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5",
-      "published": "2026-09-03T19:05:40+00:00",
-      "summary": "The current PGP key for the GitHub CLI Linux package repositories expires on Saturday, September 5, 2026. Beginning with the first release after that date, APT and RPM repository metadata… The post GitHub CLI Linux package signing key expires September 5 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-      "published": "2026-09-03T18:50:38+00:00",
-      "summary": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous… The post Gemini 3.8 Flash is now available in GitHub Copilot appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Accelerated AI & Analytics workload on Azure Blob Storage: Up to 25x faster List Blobs operations",
@@ -825,18 +1137,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Reopening Copilot Business and Enterprise signups",
-      "link": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-      "published": "2026-09-03T14:40:43+00:00",
-      "summary": "We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started… The post Reopening Copilot Business and Enterprise signups appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Build Advanced ServiceNow Response Plans in Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-advanced-servicenow-response-plans-in-azure-sre-agent/ba-p/4553059",
       "published": "2026-09-03T14:07:15+00:00",
@@ -847,18 +1147,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "CodeQL 2.26.4 improves GitHub actions security detections",
-      "link": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "published": "2026-09-03T14:04:59+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.4, which adds support for Go 1.27,… The post CodeQL 2.26.4 improves GitHub actions security detections appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
@@ -1821,18 +2109,6 @@
       "product": "Azure Integration"
     },
     {
-      "title": "Fabric August 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-August-2026-Feature-Summary/ba-p/5325824",
-      "published": "2026-08-27T18:00:00+00:00",
-      "summary": "Welcome to the August 2026 Fabric update! Microsoft Fabric continues to evolve with new capabilities that help organizations build, manage, and scale their data and AI solutions more efficiently. This month's updates introduce enhancements across Fabric Platform, OneLake, Data Engineering,...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "SharePoint Framework (SPFx) roadmap update – August 2026",
       "link": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-august-2026/",
       "published": "2026-08-27T17:43:38+00:00",
@@ -1989,18 +2265,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "腾龙公司注册账号网址（68828.tv）",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/%E8%85%BE%E9%BE%99%E5%85%AC%E5%8F%B8%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7%E7%BD%91%E5%9D%80-68828-tv/m-p/4550620#M59766",
-      "published": "2026-08-27T05:08:13+00:00",
-      "summary": "",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "ackkkf",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
       "published": "2026-08-26T20:12:53+00:00",
@@ -2085,18 +2349,6 @@
       "product": "Visual Studio"
     },
     {
-      "title": "IDENTITY columns support for Identity Insert (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/IDENTITY-columns-support-for-Identity-Insert-Generally-Available/ba-p/5361138",
-      "published": "2026-08-26T16:00:00+00:00",
-      "summary": "IDENTITY columns in Fabric Data Warehouse are now generally available. Since preview, thousands of customers have adopted IDENTITY columns to simplify data warehouse design, reduce custom key-generation logic, and make it easier to build scalable dimensional models in Microsoft Fabric. IDENTITY...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "perirocha",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Azure DNS + Traffic Manager linked records",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records/ba-p/4548221",
       "published": "2026-08-26T15:59:25+00:00",
@@ -2167,18 +2419,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "New Graph Permissions Pose Questions for Microsoft 365 Tenants",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/new-graph-permissions-pose-questions-for-microsoft-365-tenants/m-p/4550353#M59758",
-      "published": "2026-08-26T08:29:49+00:00",
-      "summary": "Microsoft issues new granular Graph permissions on an ongoing basis. That’s good, but only if tenants use the permissions to replace wider permissions in apps and scripts. Three new permissions recently became available, including two to reduce what apps can do with user account objects. The...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
@@ -2337,10 +2577,10 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Visual Studio August Update — Work Smarter Across Models and Branches",
+      "title": "Visual Studio August Update – Work Smarter Across Models and Branches",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/",
       "published": "2026-08-25T16:00:00+00:00",
-      "summary": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support. The post Visual Studio August Update — Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
+      "summary": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support. The post Visual Studio August Update – Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mark Downie",
@@ -2421,54 +2661,6 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "Why am I not getting Comcast emails on my iPhone?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/why-am-i-not-getting-comcast-emails-on-my-iphone/m-p/4549977#M59748",
-      "published": "2026-08-25T09:21:50+00:00",
-      "summary": "Hi everyone,I’m trying to convert several pictures on my iPhone into PDF files so I get help can email or upload them more easily. Sometimes I need to combine the pictures into a single PDF, but I also need to batch-convert them so that each picture becomes a separate PDF. I’ve seen suggestions...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "julestvfxx",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "How to Update Teams Settings After Transferring Meetings",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-update-teams-settings-after-transferring-meetings/m-p/4549963#M59747",
-      "published": "2026-08-25T09:00:43+00:00",
-      "summary": "When discussing the transfer ownership of calendar events, we pointed out the Teams meeting problem. Essentially, if an event is a Teams meeting, details of the online meeting are not updated to allow the new owner to control its settings. The result is that recordings and other online meeting...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Windows Sandbox failed to initialize - Invalid Signature (0x80090006) on",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-sandbox-failed-to-initialize-invalid-signature/m-p/4549935#M44935",
-      "published": "2026-08-25T08:09:51+00:00",
-      "summary": "Windows 11 Pro Insider PreviewVersion: 26H2OS Build: 26300.8935Error:Windows Sandbox failed to initialize.Invalid Signature. (0x80090006)",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "baba1191",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Não consigo alterar a aparência do meu cursor",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/n%C3%A3o-consigo-alterar-a-apar%C3%AAncia-do-meu-cursor/m-p/4549769#M44930",
-      "published": "2026-08-25T00:18:38+00:00",
-      "summary": "Recentemente venho tentando trocar a aparência do meu cursor, entretanto todas as vezes que tento alterar a mesma e aperto no Ok, a aparência não é alterada. Já tentei diversas vezes procurar automaticamente por drivers a atualizar, porém diz que todos os drivers do mouse estão atualizados. O que...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Camilly1204",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
       "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
       "published": "2026-08-24T22:39:41+00:00",
@@ -2491,18 +2683,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "I want to leave Windows Insider and get error 0xc1900101 - 0x20017 when installing another version",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-want-to-leave-windows-insider-and-get-error-0xc1900101-0x20017/m-p/4549738#M44929",
-      "published": "2026-08-24T20:41:42+00:00",
-      "summary": "Hello, I wanted to share my issue, which I've been trying to resolve for weeks without successMy version says it has expired, prompting me to update. However, no matter how many times I try, it fails due to error mentioned. I then tried to leave the Insider program by installing another version. I...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "myoppi",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Java OpenJDK August 2026 Critical Patch Update",
@@ -2601,18 +2781,6 @@
       "product": "Power BI"
     },
     {
-      "title": "problem at windows update",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/problem-at-windows-update/m-p/4549591#M44922",
-      "published": "2026-08-24T11:47:20+00:00",
-      "summary": "Windows 11 Insider Preview Feature Update (26220.9223)but still at Downloading - 99% its stuck here please someone help me",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "amitbiswas0577",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "New Teams Policy Controls Meeting Recording and Notetaking Bots",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/new-teams-policy-controls-meeting-recording-and-notetaking-bots/m-p/4549481#M145208",
       "published": "2026-08-24T09:00:24+00:00",
@@ -2623,18 +2791,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "windows update bug",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-update-bug/m-p/4549307#M44917",
-      "published": "2026-08-23T18:38:06+00:00",
-      "summary": "my windows version is 26h2,but in settings, windows update section, its saying i need to update 25h2.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "eagle_12",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Power BI August 2026 Feature Summary",
@@ -3549,30 +3705,6 @@
       "product": "Microsoft Entra"
     },
     {
-      "title": "New build crashes on camera while April build works just fine..",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/new-build-crashes-on-camera-while-april-build-works-just-fine/m-p/4546350#M145178",
-      "published": "2026-08-12T14:14:23+00:00",
-      "summary": "Win 10 Pro on work machine using the April 2026 build Teams works fine.Each night I shutdown and reboot, Teams updates to the latest version and each time I try to bring up a video call where it accesses my logitech camera, Teams shuts down, restarts, shuts down again, then restarts. If I bring up...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "gmerideth",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Change meeting category default options",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/change-meeting-category-default-options/m-p/4546274#M145176",
-      "published": "2026-08-12T09:59:19+00:00",
-      "summary": "When creating a new meeting in Teams and clicking the drop down button to select a category, a list of about six options appears that appear to be randomly selected. These don't bear any relation to the most commonly used categories I use, meaning I then have to click through to the list of all...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "asingardenof",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
       "title": "Azure Monitor Auxiliary Logs expands with Azure tables support, plan switching, and sovereign clouds",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-auxiliary-logs-expands-with-azure-tables-support/ba-p/4525206",
       "published": "2026-08-12T09:08:22+00:00",
@@ -3669,30 +3801,6 @@
       "product": "Azure Community"
     },
     {
-      "title": ".NET 11 Preview 7 is now available!",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-7/",
-      "published": "2026-08-11T18:30:00+00:00",
-      "summary": "Find out about the new features in .NET 11 Preview 7 across libraries, runtime, SDK, C#, ASP.NET Core, .NET MAUI, Entity Framework Core, F#, and Windows Forms. The post .NET 11 Preview 7 is now available! appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": ".NET Team",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": ".NET and .NET Framework August 2026 servicing releases updates",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-august-2026-servicing-updates/",
-      "published": "2026-08-11T18:28:00+00:00",
-      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for August 2026. The post .NET and .NET Framework August 2026 servicing releases updates appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Rahul Bhandari (MSFT), Tara Overfield",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
       "title": "Today I will… manage Git Submodules without leaving the IDE",
       "link": "https://devblogs.microsoft.com/visualstudio/managing-git-submodules-without-leaving-the-ide/",
       "published": "2026-08-11T17:05:31+00:00",
@@ -3739,18 +3847,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "Teams completely freezes after clicking on Contacts.",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-completely-freezes-after-clicking-on-contacts/m-p/4545943#M145171",
-      "published": "2026-08-11T12:19:44+00:00",
-      "summary": "Hello,Is anyone else experiencing an issue when clicking on Contacts in the Teams desktop client?The Contacts section works without any problems in Teams Web, but not in the desktop application.Thank you in advance for your feedback.",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "mymy",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     },
     {
       "title": "Vector search finds candidates. Reranking decides what your RAG app reads",
@@ -3835,42 +3931,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "OneDrive"
-    },
-    {
-      "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
-      "link": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/",
-      "published": "2026-08-10T07:01:03+00:00",
-      "summary": "We covered the roles your Azure Cosmos DB app needs in our previous post. Now let’s look at what happens after you’ve assigned those roles, switched identities, disabled keys and suddenly staring at a 403. As we continue this security series, we’ll walk through the most common causes, how to...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sudhanshu Khera, Iria Osara",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "A simpler way to deploy ZIP packages to Azure App Service from the Azure portal",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-zip-packages-to-azure-app-service-from/ba-p/4545430",
-      "published": "2026-08-10T06:42:46+00:00",
-      "summary": "We recently introduced a simpler way to deploy applications to Azure App Service for Linux by uploading a ZIP package through Kudu. The experience lets you review the package contents, choose whether to run a server-side build, and follow the deployment through its different stages. This capability...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
-      "published": "2026-08-10T04:30:00+00:00",
-      "summary": "From Deep Dive to Microsoft IQ Live The Microsoft IQ Deep Dive with Python has wrapped up, but our exploration of Microsoft IQ continues. You can revisit the IQ Deep Dive sessions and access the code, notebooks, and other developer resources at https://aka.ms/iqdeepdive. Microsoft IQ Live builds on...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aycabas",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
     }
   ]
 }
