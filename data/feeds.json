@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T15:39:48.485879+00:00",
+  "lastUpdated": "2026-09-12T14:46:32.270814+00:00",
   "totalArticles": 297,
   "categories": {
     "Compute": [
@@ -285,6 +285,114 @@
   },
   "articles": [
     {
+      "title": "Our experience migrating from Exchange Server to Microsoft 365",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/our-experience-migrating-from-exchange-server-to-microsoft-365/m-p/4555899#M59868",
+      "published": "2026-09-12T12:32:16+00:00",
+      "summary": "We recently performed a migration from an on-premises Exchange Server to Microsoft 365. Our goal was to transfer mailbox data while minimizing disruption to users.Before starting, we reviewed the source mailboxes, Microsoft 365 accounts, permissions, network availability and mailbox mapping. We...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "KastroMoff",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "link": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "published": "2026-09-11T21:30:30+00:00",
+      "summary": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s… The post Add VS Code Agents to Copilot usage metrics appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Microsoft Edge and Adobe partner to improve the PDF experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-edge-insider/microsoft-edge-and-adobe-partner-to-improve-the-pdf-experience/ba-p/3733481",
+      "published": "2026-09-11T20:14:15+00:00",
+      "summary": "Update: The commercial rollout for embedding the Adobe PDF engine into the Microsoft Edge built-in PDF reader has completed and is now shipped to all enterprise customers. The opt-out policy is available until Edge version 155, after which it will be deprecated. Enterprises facing any issues with...",
+      "blog": "Microsoft Edge Blog",
+      "blogId": "MicrosoftEdgeInsider",
+      "author": "RickTurner",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Edge"
+    },
+    {
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "link": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "published": "2026-09-11T20:00:07+00:00",
+      "summary": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now… The post Auto-resolution and analysis updates in Copilot code review appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Is there a way to create role-specific competency frameworks in Microsoft 365?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/is-there-a-way-to-create-role-specific-competency-frameworks-in/m-p/4555802#M59864",
+      "published": "2026-09-11T19:58:05+00:00",
+      "summary": "We already have a lot of employee information in Entra ID, like job title, department, manager, location, and other user attributes. What I’m trying to figure out is whether we can use those attributes to automatically assign different competency frameworks to different groups of employees.For...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "HarryP",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Best way to automatically bring unfinished 1:1 action items into the next meeting?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/best-way-to-automatically-bring-unfinished-1-1-action-items-into/m-p/4555799#M145295",
+      "published": "2026-09-11T19:55:07+00:00",
+      "summary": "One thing our managers keep running into is losing track of action items between recurring 1:1s. They might agree on 2–3 follow-ups during one meeting, but by the time the next one comes around those notes are sitting in Loop, OneNote, a Teams chat, or someone’s personal task list.Ideally, I’d like...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "EmmaHastings",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Azure App Service is now a trigger destination for Azure Managed Connectors",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-app-service-is-now-a-trigger-destination-for-azure-managed/ba-p/4555785",
+      "published": "2026-09-11T18:41:02+00:00",
+      "summary": "Azure Managed Connectors, currently in public preview, now lets you choose Azure App Service as a trigger destination. Connector events can be delivered directly to applications running on App Service, including ASP.NET Core, Java, Node.js, and Python applications. This is a new capability in the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "published": "2026-09-11T18:26:10+00:00",
+      "summary": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Tomoko Tanaka",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "AI Agent ROI Framework",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445",
+      "published": "2026-09-11T15:47:21+00:00",
+      "summary": "Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Yagneswari",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
       "title": "Intune On-Demand Proactive Remediation API Reliability for Large-Scale Usage",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-on-demand-proactive-remediation-api-reliability-for-large/m-p/4555745#M23743",
       "published": "2026-09-11T15:04:39+00:00",
@@ -295,6 +403,54 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
+    },
+    {
+      "title": "Can't upgrade to Windows 11 Build 26340.9354",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/can-t-upgrade-to-windows-11-build-26340-9354/m-p/4555742#M45102",
+      "published": "2026-09-11T14:55:04+00:00",
+      "summary": "So on 8th of Sept Microsoft release the preview build on the windows insider program for the experimental channel build 26340.9354 but no matter what I can't upgrade to this build no matter what I tried to via windows update and it would download and install and ask me to reboot but when I did and...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "ServerUser2035",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Building on AI Landing Zones: Operationalizing Enterprise AI with the Citadel Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-on-ai-landing-zones-operationalizing-enterprise-ai-with/ba-p/4551078",
+      "published": "2026-09-11T12:14:40+00:00",
+      "summary": "From AI Foundations to a Shared Operating Model In my previous article, AI Azure Landing Zone: Shared Capabilities and Models to Enable AI as a Platform, I explored how organizations establish secure, governed environments for AI workloads. Building on that foundation requires aligning three...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Rohon_Mohapatra",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "From OSDU to Ontology: Why Oil & Gas AI Readiness Lives at the Meaning Layer",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-osdu-to-ontology-why-oil-gas-ai-readiness-lives-at-the/ba-p/4538718",
+      "published": "2026-09-11T12:13:32+00:00",
+      "summary": "The five-answer problem Ask a simple question inside a large operator: “How is this asset producing against plan, and what’s the constraint?” Now watch five systems answer five different things. The production historian knows a “well” as a set of surface sensor tags. The reservoir team reasons...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "KimVaddi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "KB5124008 issue",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/kb5124008-issue/m-p/4555705#M45101",
+      "published": "2026-09-11T12:00:32+00:00",
+      "summary": "KB5124008 (26200.9445) prevents HyperX headphones from connecting/working I am experiencing a reproducible audio/headphone issue after installing the 2026-09 Security Update (KB5124008), OS Build 26200.9445. My computer is an ASUS TUF Gaming A16 (FA608UM) running Windows 11 Home 25H2. The affected...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "PacoDheedene",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Why Some Purview DLP Policies Need Days to Start Working",
@@ -319,6 +475,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26220.9343) is failing.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9343-is-failing/m-p/4555478#M45097",
+      "published": "2026-09-10T22:34:28+00:00",
+      "summary": "Getting the error again and again. Install error - 0x80070057Kindly Help to resolve the issue.Did anyone find a solution to this besides a clean install?Thank you,Aatur",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Aatur",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "September Patches for Azure DevOps Server",
@@ -489,6 +657,18 @@
       "product": "GitHub"
     },
     {
+      "title": "Workload Orchestration in the Azure portal is now available: Deploy in minutes, scale with ease",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-orchestration-in-the-azure-portal-is-now-available/ba-p/4554101",
+      "published": "2026-09-10T16:06:38+00:00",
+      "summary": "Edge deployments rarely stay simple for long. What begins as an application running on a single Kubernetes cluster can quickly expand across stores, factories, branches, or other distributed locations, each having different configuration needs. That is exactly where workload orchestration for Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "mnshnth",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
       "title": "Announcing the public preview of Azure Local workload management in Azure Arc Site Manager",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-public-preview-of-azure-local-workload-management/ba-p/4549703",
       "published": "2026-09-10T16:00:00+00:00",
@@ -657,18 +837,6 @@
       "product": "OneDrive"
     },
     {
-      "title": "Enterprise managed permissions for GitHub Copilot agent operations",
-      "link": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
-      "published": "2026-09-09T20:08:14+00:00",
-      "summary": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed… The post Enterprise managed permissions for GitHub Copilot agent operations appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Generally Available: Restrict usage of user delegation SAS to an Entra ID identity",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/generally-available-restrict-usage-of-user-delegation-sas-to-an/ba-p/4554967",
       "published": "2026-09-09T19:44:54+00:00",
@@ -703,18 +871,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "GitHub Advanced Security expands trial availability",
-      "link": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability",
-      "published": "2026-09-09T17:33:34+00:00",
-      "summary": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up… The post GitHub Advanced Security expands trial availability appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Announcing general availability of Ephemeral OS Disk with full caching for VM/VMSS",
@@ -811,18 +967,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "File History problems after installing KB5124008, KB5126052,KB5126146, KB5122878, and KB890830",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/file-history-problems-after-installing-kb5124008-kb5126052/m-p/4554623#M45082",
-      "published": "2026-09-09T12:48:30+00:00",
-      "summary": "This morning, I ran Windows Update on two Windows 10/11 computers, but the file history feature stopped working completely after the update.Previously, after updating KB5121003 and KB5101684, files could still be backed up to the D: drive normally. The \"Last Backup\" time in \"File History\" is not...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "sheraton",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Teams Desktop and Microphone",
@@ -2373,18 +2517,6 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "How to batch convert JPG files to PDF?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-batch-convert-jpg-files-to-pdf/m-p/4551013#M59776",
-      "published": "2026-08-28T02:46:12+00:00",
-      "summary": "I have a large number of JPG images that I need to convert into PDF files. In some cases, each image should be saved as a separate PDF, while in others, I need to combine several images into a single PDF in the correct order.Doing this manually would take a long time, so I’m looking for a free and...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "AveryMorgan200",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Open-sourcing TauGrid: cloud-native AI infrastructure for GPU workloads on Kubernetes",
       "link": "https://blog.aks.azure.com/2026/08/28/taugrid-open-source",
       "published": "2026-08-28T00:00:00+00:00",
@@ -2395,18 +2527,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "AKS"
-    },
-    {
-      "title": "Backout Plan for EWS to MS Graph API upgrade for SharePoint|sapiens",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/backout-plan-for-ews-to-ms-graph-api-upgrade-for-sharepoint/m-p/4550988#M59775",
-      "published": "2026-08-27T21:14:11+00:00",
-      "summary": "Microsoft has announced the retirement of Exchange Web Services (EWS) in Exchange Online, effective October 1, 2026. After this date, EWS-based integrations will no longer be supported.To ensure uninterrupted email functionality, all affected SharePoint|sapiens solutions must be upgraded to use the...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "chagedorn49",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Zonal redundancy in API management Standard v2",
@@ -2709,18 +2829,6 @@
       "product": "Windows"
     },
     {
-      "title": "Camera Not Working on Windows Insider Build - Error 0xA00F42A0 (0x80070003)",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/camera-not-working-on-windows-insider-build-error-0xa00f42a0/m-p/4550245#M44941",
-      "published": "2026-08-26T05:01:28+00:00",
-      "summary": "Hello Windows Insider Team, I am experiencing an issue with my built-in camera on a Windows 11 Insider Preview build. Issue Details:• Camera app only shows a black screen.• Error code: 0xA00F42A0 (0x80070003).• The camera was working previously, but I noticed the issue several months ago.• I have...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "kashishMahato",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Cost Management with Azure Resource Manager MCP",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/cost-management-with-azure-resource-manager-mcp/ba-p/4550182",
       "published": "2026-08-26T02:17:28+00:00",
@@ -2731,18 +2839,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "FinOps"
-    },
-    {
-      "title": "Microsoft Edge and Adobe partner to improve the PDF experience",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-edge-insider/microsoft-edge-and-adobe-partner-to-improve-the-pdf-experience/ba-p/3733481",
-      "published": "2026-08-25T22:04:18+00:00",
-      "summary": "Update: The commercial rollout for embedding the Adobe PDF engine into the Microsoft Edge built-in PDF reader has completed and is now shipped to all enterprise customers. The opt-out policy is available until Edge version 155, after which it will expire. Enterprises facing any issues with the new...",
-      "blog": "Microsoft Edge Blog",
-      "blogId": "MicrosoftEdgeInsider",
-      "author": "RickTurner",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Edge"
     },
     {
       "title": "How to evaluate LLMs before production",
@@ -2767,18 +2863,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure PaaS"
-    },
-    {
-      "title": "Windows 11 Insider Preview Feature Update (26220.9223) Update installation Stuck in 99%",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9223-update/m-p/4550160#M44939",
-      "published": "2026-08-25T17:32:32+00:00",
-      "summary": "Recent some days I'm trying to update my insider version to 26220.9223; It completed download to 100%, but when it try to install it stuck in 99%, can't complete it, what's the solution of it??",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "limonparvez",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": ".NET Conf 2026 – Save the Date",
@@ -2917,8 +3001,8 @@
       "link": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
       "published": "2026-08-24T20:56:32+00:00",
       "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works. The post Your alt text passes automated checks. That doesn’t mean it’s any good. appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Engineering",
+      "blogId": "githubengineering",
       "author": "Taarik Ashenafi",
       "solutionArea": "CAIP",
       "billingType": "License",
@@ -3573,18 +3657,6 @@
       "product": "Exchange"
     },
     {
-      "title": "How to bring your software delivery workflow into GitHub with agent apps",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-      "published": "2026-08-14T16:00:00+00:00",
-      "summary": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. The post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Sam Zhang",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
       "title": "Problems identifying managed iOS devices when using APP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/problems-identifying-managed-ios-devices-when-using-app/m-p/4547079#M23691",
       "published": "2026-08-14T12:51:34+00:00",
@@ -3775,78 +3847,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Building Agents for Teams: Managing the noise of collaboration",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/building-agents-for-teams-managing-the-noise-of-collaboration/",
-      "published": "2026-08-13T11:43:59+00:00",
-      "summary": "Most of us are familiar with one-to-one agent chats: private, direct interactions where rules are relatively simple. With only you and the agent, each moment has clear intent. You can ask follow-up questions, pause, or restart without worrying about how each exchange affects anyone else....",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "Lily Du",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
-      "published": "2026-08-13T04:30:00+00:00",
-      "summary": "Model Context Protocol (MCP) is an open protocol that describes how agents can connect to external tools and data sources, and is now widely supported by the most popular coding agents (like GitHub Copilot, Claude Code, and Codex) and agent frameworks (like LangChain and Pydantic AI). If you want...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Add AI to the workflows you already have using Serverless Agents in Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/add-ai-to-the-workflows-you-already-have-using-serverless-agents/ba-p/4544824",
-      "published": "2026-08-12T22:51:34+00:00",
-      "summary": "There are a lot of ways to build with AI right now: chat frontends, copilots, greenfield agent apps, orchestration frameworks. All of them have their place, and some customers are building entirely new applications this way. But across customer engagements, a consistent pattern has emerged: the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Anirudh Garg",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Governing a Risk Operations Agent with the Microsoft Agent Framework Harness and AGT",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/governing-a-risk-operations-agent-with-the-microsoft-agent/ba-p/4546425",
-      "published": "2026-08-12T21:00:13+00:00",
-      "summary": "Introduction I hope you have already found Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core. This article demonstrates how you can leverage the Agent Governance Toolkit practically. This time, I'll take it a step further and combine the Microsoft Agent...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "daisami",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
-      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
-      "published": "2026-08-12T18:43:01+00:00",
-      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Peyton Fraser, Krishnakumar Muthukrishnan, Joe Filcik",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Azure Content Understanding GPT-5 Series Guide: Model Selection, Grounding Improvements, and Confidence Enhancements",
-      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/",
-      "published": "2026-08-12T18:42:25+00:00",
-      "summary": "Enterprise content is no longer just something people consume. As organizations increasingly rely on AI to extract and act on information from documents, images, audio, and video, Azure Content Understanding is expanding support for the GPT-5 series and improving grounding and confidence to deliver...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Joe Filcik, Krishnakumar Muthukrishnan",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
     }
   ]
 }
