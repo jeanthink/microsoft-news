@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-13T15:25:45.959129+00:00",
-  "totalArticles": 282,
+  "lastUpdated": "2026-09-14T17:22:24.032962+00:00",
+  "totalArticles": 285,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,126 @@
   },
   "articles": [
     {
+      "title": "Share your .NET story with the community",
+      "link": "https://devblogs.microsoft.com/dotnet/share-your-dotnet-story/",
+      "published": "2026-09-14T17:05:00+00:00",
+      "summary": "Share how your team uses .NET to solve real problems and help us bring more community stories to .NET Conf 2026 and other .NET channels. The post Share your .NET story with the community appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Luis Quintanilla",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Diagnose Fabric Data Warehouse workloads with the SQL DW operations skill (Generally Available)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Diagnose-Fabric-Data-Warehouse-workloads-with-the-SQL-DW/ba-p/5366102",
+      "published": "2026-09-14T17:00:00+00:00",
+      "summary": "When a warehouse slows down, the investigation usually starts with more questions than answers. Was there a capacity spike? Did a specific query suddenly become expensive? Are requests failing, being canceled, or simply taking longer than usual? Answering those questions often requires switching...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "Mariyaali",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "From Business Events, Fabric Events, and Azure Events to Real-Time Hub",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-Business-Events-Fabric-Events-and-Azure-Events-to-Real-Time/ba-p/5365864",
+      "published": "2026-09-14T16:59:28+00:00",
+      "summary": "Welcome to the eighth and final post in our Business Events, Fabric Events, and Azure Events series for Microsoft Fabric. This series takes you from foundational event-driven concepts to practical implementation patterns that help teams turn meaningful business moments into trusted signals,...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "robece-msft",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Designing scalable Business Events in Microsoft Fabric",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Designing-scalable-Business-Events-in-Microsoft-Fabric/ba-p/5365863",
+      "published": "2026-09-14T16:59:09+00:00",
+      "summary": "Welcome to the seventh post in our Business Events, Fabric Events, and Azure Events series for Microsoft Fabric. This series takes you from foundational event-driven concepts to practical implementation patterns that help teams turn meaningful business moments into trusted signals, decisions, and...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "robece-msft",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Configure cost and quality in Copilot auto model selection",
+      "link": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+      "published": "2026-09-14T16:05:27+00:00",
+      "summary": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for… The post Configure cost and quality in Copilot auto model selection appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
+      "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
+      "published": "2026-09-14T13:25:23+00:00",
+      "summary": "Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you share that work across Azure Cosmos DB, Amazon DynamoDB, and Google Cloud...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "Windows11 Insider Preview 29667.1000 fails to install, stuck in boot window",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows11-insider-preview-29667-1000-fails-to-install-stuck-in/m-p/4556283#M45134",
+      "published": "2026-09-14T11:02:21+00:00",
+      "summary": "Windows11 Insider Preview 29667.1000 fails to install; it gets stuck in the boot window. After 2 reboots, it has been in the boot window for over 3 hours. I had to force-shut the system twice and reboot back to the existing Win 11 26H2. Any solution, anyone?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Dineshh",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Why Entra Administrators Cannot Disable Their Own Accounts",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/why-entra-administrators-cannot-disable-their-own-accounts/m-p/4556173#M59874",
+      "published": "2026-09-14T08:50:24+00:00",
+      "summary": "When attempting to disable a user account in an interactive Graph session, I was told that the command failed because the accountEnabled property was invalid. The error is obviously incorrect because it’s very possible to update the property to disable or enable an account. However, different rules...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
+      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon/",
+      "published": "2026-09-14T07:00:00+00:00",
+      "summary": "ISE hackathon produced a reusable Japanese LLM evaluation pipeline with multi-turn, facet-based scoring, cross-provider model support, and publication-ready benchmarking outputs. The post Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon appeared first on ISE Developer...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaein Tak, Akihiro Inui, Kohei Saito",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "ISE"
+    },
+    {
+      "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
+      "published": "2026-09-14T04:15:00+00:00",
+      "summary": "When an agent can use tools, untrusted content can influence requests to access sensitive data or change external systems. A retrieved document might tell the agent to send a file to an external address. An attacker-controlled log field might suggest disabling a security setting. A tool result...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kedikala",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
       "title": "Our experience migrating from Exchange Server to Microsoft 365",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/our-experience-migrating-from-exchange-server-to-microsoft-365/m-p/4555899#M59868",
       "published": "2026-09-12T12:32:16+00:00",
@@ -295,6 +415,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Windows Insider更新不了的问题",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E7%9A%84%E9%97%AE%E9%A2%98/m-p/4555848#M45107",
+      "published": "2026-09-12T04:27:04+00:00",
+      "summary": "我已经加入了预览版体验，为什么在选择预览体验成员设置里面，所有选项成为灰标了呢？通知还一直提醒我版本过期，但是我检查了更新已经是最新了呀？",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "LANYI1145",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Add VS Code Agents to Copilot usage metrics",
@@ -561,18 +693,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Designing scalable Business Events in Microsoft Fabric",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Designing-scalable-Business-Events-in-Microsoft-Fabric/ba-p/5365863",
-      "published": "2026-09-10T19:40:36+00:00",
-      "summary": "Welcome to the seventh post in our Business Events, Fabric Events, and Azure Events series for Microsoft Fabric. This series takes you from foundational event-driven concepts to practical implementation patterns that help teams turn meaningful business moments into trusted signals, decisions, and...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "robece-msft",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Lineage-aware AI with the Fabric item relations API (Preview)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Lineage-aware-AI-with-the-Fabric-item-relations-API-Preview/ba-p/5366064",
       "published": "2026-09-10T19:10:20+00:00",
@@ -817,18 +937,6 @@
       "link": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
       "published": "2026-09-09T21:55:55+00:00",
       "summary": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "CodeQL 2.27.0 adds support for Linux ARM64",
-      "link": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
-      "published": "2026-09-09T21:45:06+00:00",
-      "summary": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is… The post CodeQL 2.27.0 adds support for Linux ARM64 appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2229,18 +2337,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Fabric Migration Assistant for SQL database (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Migration-Assistant-for-SQL-database-Generally-Available/ba-p/5363606",
-      "published": "2026-08-31T19:00:00+00:00",
-      "summary": "Migrating a SQL Server database to the cloud rarely fails on the data — it fails on everything around it. Schema objects that use unsupported features surface only after you've provisioned a target and started deploying. Remediation turns into a manual pass-through error logs. Schema and data move...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "FabSubhojit",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/build-governed-asynchronous-apis-with-azure-api-management-and/ba-p/4544780",
       "published": "2026-08-31T18:38:04+00:00",
@@ -2263,18 +2359,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure SDK"
-    },
-    {
-      "title": "Bring Fabric Maps into Real-Time Dashboards (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-Fabric-Maps-into-Real-Time-Dashboards-Preview/ba-p/5360916",
-      "published": "2026-08-31T18:30:03+00:00",
-      "summary": "Operational data often answers two related questions: what is happening, and where is it happening? Real-Time Dashboards help you monitor changing metrics, trends, and events. With Fabric Map integration, you can add an authored map to the same dashboard and provide geospatial context alongside...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Naorbt",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "How much of your Microsoft 365 environment can you actually see at once?",
@@ -2488,18 +2572,6 @@
       "blog": "Microsoft 365 Blog",
       "blogId": "Microsoft-365",
       "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "How to properly redact a PDF?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-properly-redact-a-pdf/m-p/4551171#M59779",
-      "published": "2026-08-28T08:34:47+00:00",
-      "summary": "I need to share a PDF that contains names, email addresses, and other confidential details that must be removed first. Simply placing black boxes over the text does not seem secure, since the original content may still be searchable, selectable, or recoverable, so I need a way to permanently redact...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Michelle_Scott77",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
@@ -2815,30 +2887,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Migrate"
-    },
-    {
-      "title": "How to Remove This Insider Notification",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/how-to-remove-this-insider-notification/m-p/4550258#M44950",
-      "published": "2026-08-26T06:16:05+00:00",
-      "summary": "An unwanted prompt has appeared on the system interface, and I can't get rid of it using standard methods. Please provide specific instructions on how to remove it.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "AzureMoon",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Insider build 29648.1000 keeps failing to install",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/insider-build-29648-1000-keeps-failing-to-install/m-p/4550255#M44948",
-      "published": "2026-08-26T06:10:15+00:00",
-      "summary": "Hey everyone,I'm stuck on this one. Every time I try to install the latest Insider build—29648.1000—it just fails. I tried installing it through Windows Update first, and when that didn't work, I downloaded the update manually and mounted it. Same result.Current build is 29617, running Pro on a...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "JaydenMiller",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Cost Management with Azure Resource Manager MCP",
@@ -3655,18 +3703,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Monitor"
-    },
-    {
-      "title": "Reminder: Exchange 2016 and 2019 ESU Program Ends in October 2026",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/reminder-exchange-2016-and-2019-esu-program-ends-in-october-2026/ba-p/4539033",
-      "published": "2026-08-14T18:21:08+00:00",
-      "summary": "Over the last several weeks we have received several questions about possible extension of the Exchange Server 2016/2019 ESU program past October 2026. After all, in our original Exchange 2016/2019 ESU announcement we said that there would be no extensions, but then we ended up creating a Period 2...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     }
   ]
 }
