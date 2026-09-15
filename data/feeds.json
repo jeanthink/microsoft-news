@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-14T17:22:24.032962+00:00",
-  "totalArticles": 285,
+  "lastUpdated": "2026-09-15T16:01:04.506190+00:00",
+  "totalArticles": 294,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,150 @@
   },
   "articles": [
     {
+      "title": "Coding agents are picking Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database/",
+      "published": "2026-09-15T12:55:05+00:00",
+      "summary": "I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped into six synthetic-but-realistic repositories and asked to pick a database, then...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Performance Improvements in .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
+      "published": "2026-09-15T12:00:00+00:00",
+      "summary": "Take a tour through hundreds of performance improvements in .NET 11. The post Performance Improvements in .NET 11 appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Stephen Toub - MSFT",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
+      "published": "2026-09-15T11:00:34+00:00",
+      "summary": "When an agent can use tools, untrusted content can influence requests to access sensitive data or change external systems. A retrieved document might tell the agent to send a file to an external address. An attacker-controlled log field might suggest disabling a security setting. A tool result...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kedikala",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "New Outlook’s Copilot-Driven Summaries",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/new-outlook-s-copilot-driven-summaries/m-p/4556637#M59878",
+      "published": "2026-09-15T09:36:34+00:00",
+      "summary": "New Outlook is an acceptable email client. Some dislike its lack of support for different features, like COM add-ins. Then Copilot gets involved and adds options to generate morning briefing and nightly wrap-ups without any way to disable the feature for individual users or the entire tenant....",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Error Message 0x0 when trying to re-install Office 2019 on Mac Tahoe",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/error-message-0x0-when-trying-to-re-install-office-2019-on-mac/m-p/4556610#M59877",
+      "published": "2026-09-15T09:03:31+00:00",
+      "summary": "Hello,I have a genuine Office Home & Student 2019 for Mac license, still listed in my Microsoft account under Services & Subscriptions and was added on March 30, 2022. Microsoft Support confirmed that my Office Home & Student 2019 license is genuine, valid, and should still be activatable. However,...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "EmUl",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Linux Intune enrollment blocked by Secure Boot CA2023 requirement on HP Z4 G4",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/linux-intune-enrollment-blocked-by-secure-boot-ca2023/m-p/4556463#M23749",
+      "published": "2026-09-15T01:04:56+00:00",
+      "summary": "a { text-decoration: none; color: #464feb; } tr th, tr td { border: 1px solid #e6e6e6; } tr th { background-color: #f5f5f5; } Device: HP Z4 G4 WorkstationBIOS: P61 v02.97, 06/17/2025OS: Ubuntu Desktop 26.04 LTSSecure Boot: EnabledDisk encryption: EnabledIntune Portal: 1.2607.4-resoluteMicrosoft...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "pmaddimsetty",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "Public Preview Annoucement: Azure Policy Custom Policy Versioning!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-annoucement-azure-policy-custom-policy-versioning/ba-p/4556461",
+      "published": "2026-09-14T23:56:23+00:00",
+      "summary": "In 2024 we introduced versioning for built-in definitions and initiatives. Today we are extending that capability to your own policies! Custom policy versioning is now in public preview. Custom definitions and custom initiatives can store and reference multiple versions under a single definition...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Governance"
+    },
+    {
+      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
+      "published": "2026-09-14T21:01:36+00:00",
+      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Dashboards are for AI agents too, not just humans",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/dashboards-are-for-ai-agents-too-not-just-humans/ba-p/4556383",
+      "published": "2026-09-14T20:25:20+00:00",
+      "summary": "A few days ago I opened Azure SRE Agent and typed four prompts. None of them was careful: find grafana dashboard for: GitHub Copilot run the panels queries. list top 3 very long sessions in the past 3 days what session 1 was doing? what was session 2 doing? No KQL. No table names. I didn't say what...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Microsoft Foundry Observability: How to Trace, Evaluate, Monitor, and Secure AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/microsoft-foundry-observability-how-to-trace-evaluate-monitor/ba-p/4555846",
+      "published": "2026-09-14T19:42:07+00:00",
+      "summary": "The green check that hid a real problem During a recent customer conversation, I was shown a customer-service refund agent that looked healthy by every traditional measure. Requests completed successfully. The endpoint returned HTTP 200. Latency was within the team's target, and there were no...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Simplify Employee Identity Lifecycle with HiBob and Microsoft Entra",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/simplify-employee-identity-lifecycle-with-hibob-and-microsoft/ba-p/4554510",
+      "published": "2026-09-14T18:17:58+00:00",
+      "summary": "Every workforce transition creates an identity moment that your IT team must get right. That’s why we’re excited to announce the general availability of HiBob’s native integration with Microsoft Entra. It helps you turn trusted workforce changes in HiBob into governed identity actions, so employees...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "udimilo",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Public Preview: Multi-account support for Microsoft Sentinel codeless connectors",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-multi-account-support-for-microsoft-sentinel/ba-p/4544380",
+      "published": "2026-09-14T18:13:41+00:00",
+      "summary": "Security teams rarely have just one of anything. Most SOCs run separate production, staging, and development accounts. Large enterprises segment by region, business unit, or brand. And managed security service providers (MSSPs) watch over many customers at once. Traditionally, ISVs have used the...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MitchellGulledge",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Sentinel"
+    },
+    {
       "title": "Share your .NET story with the community",
       "link": "https://devblogs.microsoft.com/dotnet/share-your-dotnet-story/",
       "published": "2026-09-14T17:05:00+00:00",
@@ -345,6 +489,18 @@
       "product": "GitHub"
     },
     {
+      "title": "Windows 11 Insider Preview Feature Update (26220.9472) Fails",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9472-fails/m-p/4556313#M45136",
+      "published": "2026-09-14T13:45:12+00:00",
+      "summary": "I ran the Windows Update troubleshooter and it sent me here.",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "4xRant",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
       "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
       "published": "2026-09-14T13:25:23+00:00",
@@ -364,6 +520,30 @@
       "blog": "Windows Insider",
       "blogId": "WindowsInsiderProgram",
       "author": "Dineshh",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "BitLocker suspended by recent hotpatch?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/bitlocker-suspended-by-recent-hotpatch/m-p/4556282#M23745",
+      "published": "2026-09-14T11:00:42+00:00",
+      "summary": "We appear to have seen BitLocker get suspended by an automated process this past month or so (since August 2026 Patch Tuesday or thereafter) and left that way. Has anyone else seen their estate do this? We're using Autopatch with hotpatch updates. My No.1 suspect is KB5123607 but I've not yet been...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "AndrewMcN_SFRS",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "No matter what I try, Windows Update always says that my PC is up to date.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/no-matter-what-i-try-windows-update-always-says-that-my-pc-is-up/m-p/4556201#M45132",
+      "published": "2026-09-14T09:34:16+00:00",
+      "summary": "After installing Windows 11 Insider Experimental (Future Platforms) Preview Build 29639.1000.rs using an ISO, I registered for the Windows Insider Program and signed in with my Insider account. I also submitted a bug report.Later, after an engineer informed me that the bug had been fixed, I tried...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "vincent463_re0",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
@@ -393,30 +573,6 @@
       "product": "ISE"
     },
     {
-      "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
-      "published": "2026-09-14T04:15:00+00:00",
-      "summary": "When an agent can use tools, untrusted content can influence requests to access sensitive data or change external systems. A retrieved document might tell the agent to send a file to an external address. An attacker-controlled log field might suggest disabling a security setting. A tool result...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kedikala",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Our experience migrating from Exchange Server to Microsoft 365",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/our-experience-migrating-from-exchange-server-to-microsoft-365/m-p/4555899#M59868",
-      "published": "2026-09-12T12:32:16+00:00",
-      "summary": "We recently performed a migration from an on-premises Exchange Server to Microsoft 365. Our goal was to transfer mailbox data while minimizing disruption to users.Before starting, we reviewed the source mailboxes, Microsoft 365 accounts, permissions, network availability and mailbox mapping. We...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "KastroMoff",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Windows Insider更新不了的问题",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E7%9A%84%E9%97%AE%E9%A2%98/m-p/4555848#M45107",
       "published": "2026-09-12T04:27:04+00:00",
@@ -427,6 +583,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
+    },
+    {
+      "title": "Profiles now show your highest achievement badge tier",
+      "link": "https://github.blog/changelog/2026-09-11-profiles-now-show-your-highest-achievement-badge-tier",
+      "published": "2026-09-11T22:39:50+00:00",
+      "summary": "Your GitHub profile now displays the highest tier you’ve earned for achievements with multiple levels. Previously, profiles could display the first tier earned, even after you had progressed to a… The post Profiles now show your highest achievement badge tier appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
     },
     {
       "title": "Add VS Code Agents to Copilot usage metrics",
@@ -931,18 +1099,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Compute"
-    },
-    {
-      "title": "npm extends recovery-code security holds to all accounts",
-      "link": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
-      "published": "2026-09-09T21:55:55+00:00",
-      "summary": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Threat matrix: Mapping threats across cloud web applications",
@@ -2277,6 +2433,18 @@
       "product": "Microsoft Teams"
     },
     {
+      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability/",
+      "published": "2026-09-01T01:36:09+00:00",
+      "summary": "We’re back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows Terminal"
+    },
+    {
       "title": "Close the gaps: layered data protection with Microsoft Purview across endpoint, browser, and network",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/close-the-gaps-layered-data-protection-with-microsoft-purview/ba-p/4550997",
       "published": "2026-08-31T22:25:14+00:00",
@@ -2505,18 +2673,6 @@
       "product": "Azure Networking"
     },
     {
-      "title": "CRITICAL REGRESSION: Build 26200 broke Mic, Game FPS & Cursors!",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/critical-regression-build-26200-broke-mic-game-fps-cursors/m-p/4551012#M44962",
-      "published": "2026-08-28T20:08:58+00:00",
-      "summary": "System Specifications: Device: Acer Aspire 5 A515-57Memory: 16GB RAMStorage: 2x 250GB SSDsOS Build: Windows Insider Preview Build 26200 (KB5120998)Edição Windows 11 Home Single LanguageVersão 25H2Instalado em ‎18/‎07/‎2026Compilação do SO 26200.9278Pacote de recursos Pacote de Experiência de...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "kevyngustin",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Teams calls reporting as potentially scams incorrectly",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-calls-reporting-as-potentially-scams-incorrectly/m-p/4551363#M145224",
       "published": "2026-08-28T18:04:31+00:00",
@@ -2563,18 +2719,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Microsoft To Enforce WAM for Delegated Interactive Graph Sessions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-to-enforce-wam-for-delegated-interactive-graph/m-p/4551209#M59781",
-      "published": "2026-08-28T09:28:01+00:00",
-      "summary": "In a GitHub post, Microsoft says that interactive Graph sessions using the default Microsoft Graph Command Line Tools app will use the Web Account Manager (WAM) in the future. Some administrators use older versions of the Microsoft Graph PowerShell SDK for continued access to browser-based...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "🚀 Foundry Toolkit for VS Code — August 2026 Update",
@@ -2755,18 +2899,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Failure to install",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/failure-to-install/m-p/4550542#M44952",
-      "published": "2026-08-26T17:00:20+00:00",
-      "summary": "Windows 11, version 24H2 keeps failing to install. I am trying to escape Windows 11 Insider",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "LeeDCornell",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "Retirement of Microsoft HPC Pack",
@@ -3088,18 +3220,6 @@
       "blog": ".NET Blog",
       "blogId": "dotnetblog",
       "author": "Bruno Capuano",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "Explore new features available in C# 15 preview",
-      "link": "https://devblogs.microsoft.com/dotnet/explore-csharp-15/",
-      "published": "2026-08-24T17:00:00+00:00",
-      "summary": "C# 15 ships with .NET 11. It adds union types, closed hierarchies, a preview of the updated unsafe model, and a few smaller changes that remove everyday ceremony. The post Explore new features available in C# 15 preview appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Bill Wagner",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
@@ -3691,18 +3811,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "Keep Azure Monitor issues and ServiceNow ITOM incidents in sync",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-azure-monitor-issues-and-servicenow-itom-incidents-in-sync/ba-p/4543399",
-      "published": "2026-08-16T10:33:18+00:00",
-      "summary": "Operational problems rarely stay within one monitoring tool. Azure Monitor may detect and investigate a service degradation, while operations teams manage ownership, escalation, and resolution in an IT Service Management (ITSM) system. Without a connected workflow, responders must copy context...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Harel Broitman",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
     }
   ]
 }
