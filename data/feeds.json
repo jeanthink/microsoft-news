@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-16T15:54:18.430572+00:00",
-  "totalArticles": 309,
+  "lastUpdated": "2026-09-17T16:00:18.192589+00:00",
+  "totalArticles": 314,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,90 @@
   },
   "articles": [
     {
+      "title": "Manage semantic model settings in context with the default settings pane (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Manage-semantic-model-settings-in-context-with-the-default/ba-p/5366792",
+      "published": "2026-09-17T16:00:00+00:00",
+      "summary": "The semantic model settings pane is becoming the default way to configure semantic models in the Power BI service. The pane opens alongside your workspace, so you can review and change settings without leaving the current page. It provides the same settings as the full semantic model settings page...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "kayu",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Announcing Microsoft Desired State Configuration v3.3.0",
+      "link": "https://devblogs.microsoft.com/powershell/announcing-dsc-v3-3-0/",
+      "published": "2026-09-17T14:57:07+00:00",
+      "summary": "This post announces the General Availability of Microsoft Desired State Configuration (DSC) v3.3.0, with new Windows resources, a registry adapter, server mode improvements, expression function updates, expanded what-if support, and experimental export filtering. The post Announcing Microsoft...",
+      "blog": "PowerShell Blog",
+      "blogId": "powershellblog",
+      "author": "Jason Helmick",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "PowerShell"
+    },
+    {
+      "title": "Automating Private Endpoint DNS Across Azure Tenants with Azure Policy and Azure Lighthouse",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-private-endpoint-dns-across-azure-tenants-with-azure/ba-p/4557495",
+      "published": "2026-09-17T14:49:01+00:00",
+      "summary": "Problem statement Azure Private Endpoints let applications connect to Azure platform services through private IP addresses. They reduce public exposure, keep traffic on private networks, and support a Zero Trust architecture. In a single Microsoft Entra tenant, Azure Policy can automatically...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "abhilashasr",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Foundry IQ with D365F&O and Fabric IQ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557381",
+      "published": "2026-09-17T14:47:21+00:00",
+      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Sayanika",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
+      "published": "2026-09-17T12:00:00+00:00",
+      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Automating Azure Managed Redis capacity acquisition with bounded retries",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/automating-azure-managed-redis-capacity-acquisition-with-bounded/ba-p/4546462",
+      "published": "2026-09-17T04:15:00+00:00",
+      "summary": "TL;DR: Azure Managed Redis has no capacity-reporting API. This PowerShell poller safely rotates real creation attempts across approved regions and SKUs until one succeeds. Who this is for: Azure platform engineers, application owners, and site reliability engineers who need an Azure Managed Redis...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "varghesejoji",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "link": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "published": "2026-09-17T00:26:43+00:00",
+      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Stephen Toub",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Running GitHub Actions Runner Controller on AKS Automatic",
       "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
       "published": "2026-09-17T00:00:00+00:00",
@@ -295,6 +379,150 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "AKS"
+    },
+    {
+      "title": "Cross-tenant Free/Busy, MailTips, and Calendar Sharing are moving to Cross-Tenant Access Policy",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/cross-tenant-free-busy-mailtips-and-calendar-sharing-are-moving/ba-p/4545169",
+      "published": "2026-09-16T21:02:40+00:00",
+      "summary": "Update 9/16/2026: This blog post discusses a feature that is not yet fully available. Please see The rollout schedule for Cross-Tenant Access Policy table below for expected availability dates. If your organization shares Free/Busy, MailTips, or calendars with other Microsoft 365 organizations,...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Build Your Own AI Agent Harness in C#, the MafClaw Live Series",
+      "link": "https://devblogs.microsoft.com/dotnet/build-your-own-ai-agent-harness-in-csharp-the-maf-claw-live-series/",
+      "published": "2026-09-16T21:00:00+00:00",
+      "summary": "I am building a complete C# agent live, from a single call around an IChatClient to a production-ready, observable, governed agent, using the Microsoft Agent Framework harness in a 4-part Microsoft Reactor series. The post Build Your Own AI Agent Harness in C#, the MafClaw Live Series appeared...",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Bruno Capuano",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "link": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "published": "2026-09-16T20:20:16+00:00",
+      "summary": "Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization authorization by your developers.… The post Automate SSO authorization for classic PATs and SSH keys...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "SCIM user responses now include a profileUrl attribute",
+      "link": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
+      "published": "2026-09-16T20:19:58+00:00",
+      "summary": "SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, matching… The post SCIM user responses now include a profileUrl attribute appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Copilot budget increase requests are generally available",
+      "link": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "published": "2026-09-16T20:17:18+00:00",
+      "summary": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to… The post Copilot budget increase requests are generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "The bottleneck isn't AI. It's transformation capacity.",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/the-bottleneck-isn-t-ai-it-s-transformation-capacity/ba-p/4557214",
+      "published": "2026-09-16T19:17:48+00:00",
+      "summary": "AI everywhere, except at scale Ask almost any operator where they are with AI and the answer sounds impressive. Hundreds of potential use cases. Dozens of pilots in play. Multiple foundation models, thousands of agents, several data platforms, and a meaningful share of infrastructure already...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "MOHON",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Telecom"
+    },
+    {
+      "title": "Save the Date: Join us October 20 for the OneDrive + Copilot Digital Event",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/save-the-date-join-us-october-20-for-the-onedrive-copilot/ba-p/4556814",
+      "published": "2026-09-16T19:14:46+00:00",
+      "summary": "Files and photos are at the center of how we work, create, and collaborate. As AI and Copilot transform the way we use content, OneDrive is evolving for this era - helping people get more from their files with Copilot, delivering a faster and more dependable core file experience, making...",
+      "blog": "OneDrive Blog",
+      "blogId": "onedriveblog",
+      "author": "Arwa_Tyebkhan",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "OneDrive"
+    },
+    {
+      "title": "Improve Campaign Reach and Measurement with Azure Confidential Clean Rooms",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/improve-campaign-reach-and-measurement-with-azure-confidential/ba-p/4556346",
+      "published": "2026-09-16T18:56:16+00:00",
+      "summary": "Why campaign performance now depends on trusted data collaboration For many years, third-party cookies helped advertisers, publishers, and measurement partners recognize users across parts of the open web. That model continues to evolve as browsers and mobile platforms introduce stronger privacy...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "Deepak_JV",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Confidential Computing"
+    },
+    {
+      "title": "Windows 11 Home Insider Preview v 10.0.26220 Build 26220. Windows Update is failing.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-home-insider-preview-v-10-0-26220-build-26220-windows/m-p/4557212#M45145",
+      "published": "2026-09-16T17:36:56+00:00",
+      "summary": "I found the root cause in the log: Windows Update is reaching Microsoft, but its Microsoft Store/AppX update pipeline is stuck in an existing deployment. It repeatedly reports WU_E_OPERATIONINPROGRESS.There are older intermittent network/certificate errors (0x8024402C, 0x800B0109), but the affected...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "mrfreepress",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Replace VPN access with identity-driven security",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/replace-vpn-access-with-identity-driven-security/ba-p/4529309",
+      "published": "2026-09-16T16:30:30+00:00",
+      "summary": "Traditional VPNs no longer fit the security or agility needs of modern enterprises. Static tunnels, device trust assumptions, and network-level access introduce risk in a Zero Trust world. Microsoft Entra Private Access offers a different path. As a component of Global Secure Access, it is designed...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "SuleTatar",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Investing in a more reliable Microsoft Graph PowerShell experience",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/investing-in-a-more-reliable-microsoft-graph-powershell-experience/",
+      "published": "2026-09-16T16:02:40+00:00",
+      "summary": "We’re focusing Microsoft Graph PowerShell on the platform where we can give you the most reliable, capable, and well-maintained experience: PowerShell 7.x and later. Built on modern .NET, PowerShell 7.x resolves many of the underlying assembly-loading and dependency issues that affect Windows...",
+      "blog": "Microsoft 365 Developer Blog",
+      "blogId": "m365devblog",
+      "author": "Microsoft Graph team, Barry Gervin, Gavin Barron",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Azure Delivers Strong MLPerf Inference v6.1 Results with NVIDIA GB300 & GB200",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-delivers-strong-mlperf-inference-v6-1-results-with-nvidia/ba-p/4552364",
+      "published": "2026-09-16T15:25:04+00:00",
+      "summary": "By Mark Gitau and Azin Heidarshenas In the MLPerf Inference v6.1 round, Azure demonstrated strong Deepseek-R1 performance on GB300 NVL72 and GB200 NVL72 platforms. Azure submitted GB200 results at 18-node (1-rack) and 72-node (4-rack) scale, and GB300 results at 18 nodes (1 rack), marking our first...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Mark_Gitau",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
     },
     {
       "title": "AI Is Changing How We Code. It’s Also Changing How We Learn.",
@@ -669,6 +897,18 @@
       "product": "Azure Architecture"
     },
     {
+      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability/",
+      "published": "2026-09-14T19:00:09+00:00",
+      "summary": "We’re back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows Terminal"
+    },
+    {
       "title": "Simplify Employee Identity Lifecycle with HiBob and Microsoft Entra",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/simplify-employee-identity-lifecycle-with-hibob-and-microsoft/ba-p/4554510",
       "published": "2026-09-14T18:17:58+00:00",
@@ -885,18 +1125,6 @@
       "product": "Edge"
     },
     {
-      "title": "Auto-resolution and analysis updates in Copilot code review",
-      "link": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
-      "published": "2026-09-11T20:00:07+00:00",
-      "summary": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now… The post Auto-resolution and analysis updates in Copilot code review appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Is there a way to create role-specific competency frameworks in Microsoft 365?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/is-there-a-way-to-create-role-specific-competency-frameworks-in/m-p/4555802#M59864",
       "published": "2026-09-11T19:58:05+00:00",
@@ -943,18 +1171,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "Cross-tenant Free/Busy, MailTips, and Calendar Sharing are moving to Cross-Tenant Access Policy",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/cross-tenant-free-busy-mailtips-and-calendar-sharing-are-moving/ba-p/4545169",
-      "published": "2026-09-11T15:53:09+00:00",
-      "summary": "This blog post discusses a feature that is not yet fully available. Please see The rollout schedule for Cross-Tenant Access Policy table below for expected availability dates. If your organization shares Free/Busy, MailTips, or calendars with other Microsoft 365 organizations, there's a change...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "AI Agent ROI Framework",
@@ -1053,18 +1269,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "GitHub Copilot weekly releases — September 7",
-      "link": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "published": "2026-09-10T22:55:07+00:00",
-      "summary": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code… The post GitHub Copilot weekly releases — September 7 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Windows 11 Insider Preview Feature Update (26220.9343) is failing.",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9343-is-failing/m-p/4555478#M45097",
       "published": "2026-09-10T22:34:28+00:00",
@@ -1096,18 +1300,6 @@
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "Kayla Cinnamon",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Refreshed repository pull requests page in public preview",
-      "link": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-      "published": "2026-09-10T21:27:17+00:00",
-      "summary": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes… The post Refreshed repository pull requests page in public preview appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -2661,18 +2853,6 @@
       "product": "Microsoft Teams"
     },
     {
-      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
-      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability/",
-      "published": "2026-09-01T01:36:09+00:00",
-      "summary": "We’re back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Hamza Usmani",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows Terminal"
-    },
-    {
       "title": "Close the gaps: layered data protection with Microsoft Purview across endpoint, browser, and network",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/close-the-gaps-layered-data-protection-with-microsoft-purview/ba-p/4550997",
       "published": "2026-08-31T22:25:14+00:00",
@@ -2899,18 +3079,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Confidential Computing"
-    },
-    {
-      "title": "Windows 11 Insider Build 26220.9223 fails with 0xC1900101",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-build-26220-9223-fails-with-0xc1900101/m-p/4551323#M44972",
-      "published": "2026-08-28T14:58:45+00:00",
-      "summary": "Hi,I am using Windows 11 Insider Preview and I cannot install Feature Update 26220.9223.The update downloads and starts installing. After the PC restarts, the installation fails and Windows rolls back to the previous build.Windows Update then shows the same update with a Retry option.Error code:...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "AniketDas810144",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "🚀 Foundry Toolkit for VS Code — August 2026 Update",
@@ -3229,12 +3397,12 @@
       "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
       "published": "2026-08-25T21:35:11+00:00",
       "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning. The post How to evaluate LLMs before production appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Mariko Wakabayashi",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Tracking Batch node state and duration in Log Analytics",
@@ -3403,18 +3571,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Java on Azure"
-    },
-    {
-      "title": "From dotnet run to Foundry Hosted Agent in 3 lines of C#",
-      "link": "https://devblogs.microsoft.com/dotnet/from-dotnet-run-to-foundry-hosted-agent-in-3-lines-of-csharp/",
-      "published": "2026-08-24T19:00:00+00:00",
-      "summary": "You built an agent with Microsoft Agent Framework and it works great on your machine. Now what? Turns out deploying it to production takes 1 NuGet package, 3 lines of C#, and 2 commands. Let's do it. The post From dotnet run to Foundry Hosted Agent in 3 lines of C# appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Bruno Capuano",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
     },
     {
       "title": "Help us shape Exchange Server on-premises to different online org Free/Busy after EWS retirement",
@@ -3895,102 +4051,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Arc"
-    },
-    {
-      "title": "[Now Generally Available] What-If for Azure Deployment Stacks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/now-generally-available-what-if-for-azure-deployment-stacks/ba-p/4547614",
-      "published": "2026-08-18T15:20:36+00:00",
-      "summary": "We are proud to announce that what-if for Azure Deployment Stacks is now generally available, in all regions. To be precise about what this is, since the names are similar: what-if for standard template deployments has been around for a while. This release brings what-if to the deployment stacks...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "torreyt",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Governance"
-    },
-    {
-      "title": "Announcing General Availability of Managed Instance on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-general-availability-of-managed-instance-on-azure-app/ba-p/4541283",
-      "published": "2026-08-18T14:16:56+00:00",
-      "summary": "Today, we are thrilled to announce the General Availability (GA) of Managed Instance on Azure App Service. Following the tremendous response to our Public Preview announcement at Ignite 2025, we've spent the past nine months working closely with customers, partners, and the community to harden the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Gaurav-Seth",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Apple Silicon and Xcode 27 images available in pay-as-you-go (preview)",
-      "link": "https://devblogs.microsoft.com/devops/apple-silicon-and-xcode-27-images-availabile-in-pay-as-you-go-preview/",
-      "published": "2026-08-18T08:10:36+00:00",
-      "summary": "Apple developers can now build and test their applications natively on Apple Silicon in Azure Pipelines. New arm64 macOS agents are available in public preview through the pay-as-you-go GitHub-hosted Agents pool. Starting with Apple Silicon, Azure Pipelines is bringing over some of the agent sizes...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Eric van Wijk",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
-    },
-    {
-      "title": "Distributing Agents to Microsoft Teams and Microsoft 365 Copilot Part 4/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/distributing-agents-to-microsoft-teams-and-microsoft-365-copilot/ba-p/4541925",
-      "published": "2026-08-18T07:00:00+00:00",
-      "summary": "This is the fourth post in our series on the Microsoft agent platform. We cover the Distribute in M365 pillar — publishing your agents to Microsoft Teams and Microsoft 365 Copilot so they reach users where they already work. All examples reference the FibreOps repository, demonstrated at Microsoft...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Beyond Deployment: What It Really Takes to Run GitHub Actions Runners on AKS",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-deployment-what-it-really-takes-to-run-github-actions/ba-p/4547638",
-      "published": "2026-08-18T06:44:57+00:00",
-      "summary": "A Successful Demo Is Not a Production Platform Getting GitHub Actions runners working on Azure Kubernetes Service (AKS) with Actions Runner Controller (ARC) is relatively straightforward. Within a short time, you can deploy ARC, register a runner scale set, and execute workflows successfully....",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "aparnabadireddigari",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Why Cloud Browsers Are Becoming Enterprise Infrastructure for AI Agents and Automation",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-cloud-browsers-are-becoming-enterprise-infrastructure-for-ai/ba-p/4547583",
-      "published": "2026-08-18T04:30:35+00:00",
-      "summary": "The browser is becoming a new execution environment Over the last decade, enterprises moved compute from desktops to the cloud. Applications that once depended on individual machines now run on scalable, managed infrastructure. A similar shift is beginning to happen with browser automation....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AbhinavPremsekhar",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/",
-      "published": "2026-08-17T19:20:07+00:00",
-      "summary": "Structured outputs, web search, web fetch, MCP connector, and tool search are now available for Claude models hosted on Azure in Microsoft Foundry, turning a model endpoint into a production agent platform. The post From single call to agents: five new Claude capabilities now available in Microsoft...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Haoran Cheng",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-      "published": "2026-08-17T16:00:00+00:00",
-      "summary": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas. The post How canvases make agentic workflows visible, steerable, and cost-efficient appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Ayan Gupta",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
     }
   ]
 }
