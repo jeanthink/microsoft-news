@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-18T15:35:20.857750+00:00",
-  "totalArticles": 311,
+  "lastUpdated": "2026-09-19T15:09:13.021627+00:00",
+  "totalArticles": 302,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,66 @@
     ]
   },
   "articles": [
+    {
+      "title": "Copilot code review: An improved review experience",
+      "link": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "published": "2026-09-18T20:17:22+00:00",
+      "summary": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept… The post Copilot code review: An improved review experience appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Manage the code coverage ruleset condition with the REST API",
+      "link": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
+      "published": "2026-09-18T19:23:49+00:00",
+      "summary": "You can now use the generally available REST API to manage the Restrict code coverage repository ruleset option, in addition to the existing UI support. This ruleset lets you enforce… The post Manage the code coverage ruleset condition with the REST API appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — September 14",
+      "link": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "published": "2026-09-18T19:21:22+00:00",
+      "summary": "This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app. There are also updates for admins, plus new agent features in… The post GitHub Copilot weekly releases — September 14 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-October",
+      "link": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
+      "published": "2026-09-18T19:00:00+00:00",
+      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in mid-October appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Stage-only npm tokens for safer automation",
+      "link": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation",
+      "published": "2026-09-18T16:37:50+00:00",
+      "summary": "You can now select Read and write (stage only) when creating an npm granular access token. This lets your automated workflows stage package versions for review without giving the token… The post Stage-only npm tokens for safer automation appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
     {
       "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
       "link": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
@@ -681,30 +741,6 @@
       "product": "GitHub"
     },
     {
-      "title": "SCIM user responses now include a profileUrl attribute",
-      "link": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
-      "published": "2026-09-16T20:19:58+00:00",
-      "summary": "SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, matching… The post SCIM user responses now include a profileUrl attribute appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Copilot budget increase requests are generally available",
-      "link": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "published": "2026-09-16T20:17:18+00:00",
-      "summary": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to… The post Copilot budget increase requests are generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "The bottleneck isn't AI. It's transformation capacity.",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/the-bottleneck-isn-t-ai-it-s-transformation-capacity/ba-p/4557214",
       "published": "2026-09-16T19:17:48+00:00",
@@ -825,18 +861,6 @@
       "product": "Visual Studio"
     },
     {
-      "title": "Code scanning AI Scan no longer requires CodeQL default setup",
-      "link": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "published": "2026-09-16T13:26:06+00:00",
-      "summary": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only… The post Code scanning AI Scan no longer requires CodeQL default setup appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Copilot🏆 Copilot Just Built My SharePoint Dashboard. I Wasn't Ready for What It Generated",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/copilot-copilot-just-built-my-sharepoint-dashboard-i-wasn-t/m-p/4557114#M59886",
       "published": "2026-09-16T12:52:39+00:00",
@@ -955,30 +979,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Exchange"
-    },
-    {
-      "title": "Enforce GitHub Advanced Security configurations",
-      "link": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
-      "published": "2026-09-15T19:31:58+00:00",
-      "summary": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings defined at the enterprise level, helping security and… The post Enforce GitHub Advanced Security...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "GitHub Copilot suggests custom properties definitions",
-      "link": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-      "published": "2026-09-15T19:07:47+00:00",
-      "summary": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot… The post GitHub Copilot suggests custom properties definitions appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Introducing Foundry Dev Pack: One Command to Start Building",
@@ -3907,114 +3907,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "From Detection to Action: Extending Azure Monitor Issues with Action Groups",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/from-detection-to-action-extending-azure-monitor-issues-with/ba-p/4548416",
-      "published": "2026-08-20T11:54:02+00:00",
-      "summary": "When the Azure Copilot Observability Agent detects a problem, correlates related alerts, investigates and creates an Azure Monitor issue, it does more than identify what happened. It creates a durable record that brings together investigation findings, severity, impacted resources, and recommended...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "ronitauber",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Monitor"
-    },
-    {
-      "title": "Voice Live and Observability for Production Agent Systems Part 5/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/voice-live-and-observability-for-production-agent-systems-part-5/ba-p/4541922",
-      "published": "2026-08-20T07:00:00+00:00",
-      "summary": "This is the fifth and final post in our series on the Microsoft agent platform. We cover two critical production concerns: Azure AI Voice Live for accessible, hands-free agent interaction, and observability, the tracing, evaluation, and monitoring infrastructure that keeps autonomous systems...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/ba-p/4547978",
-      "published": "2026-08-20T05:25:22+00:00",
-      "summary": "A pattern to steal, not a product to buy. Your CFO leans over and asks a reasonable question: \"How much are we spending on Copilot versus the agents our own team built?\" You open the cost report, confident. You find… a bucket called \"Other.\" Next to another bucket called \"SaaS.\" Somewhere in there...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Dirk_Brinkmann",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "FinOps"
-    },
-    {
-      "title": "Choosing the Right Agent in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/choosing-the-right-agent-in-microsoft-foundry/ba-p/4547827",
-      "published": "2026-08-19T22:52:13+00:00",
-      "summary": "Many discussions about Microsoft Foundry Agent Service eventually arrive at the same question: should this workload be implemented as a Prompt Agent or a Hosted Agent? While the documentation explains both options well, the architectural decision usually comes down to something much simpler: where...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "supriyas",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
-      "link": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/",
-      "published": "2026-08-19T21:01:30+00:00",
-      "summary": "If you’ve been building local prototypes, internal tools, web backends, or lightweight services on SQL Server Express, you know the routine: it’s free, familiar, and gets the job done – until you hit hardware limits or spend weekends manual backup scripts and handling OS patches. Learn how to...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Vandana Mahtani, Amit Khandelwal",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "Microsoft Entra ID enhances security of branded sign-ins",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-id-enhances-security-of-branded-sign-ins/ba-p/4537471",
-      "published": "2026-08-19T20:28:52+00:00",
-      "summary": "To align with Microsoft’s Secure Future Initiative and its focus on identity security and phishing resistance, we’re evolving Microsoft Entra custom branding to help customers deliver sign-in experiences that are more secure, reliable, and consistent. Beginning October 26, 2026, Microsoft Entra...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Adam Steenwyk",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Understanding the new 100 GB mailbox entitlement for Microsoft 365 Business suites",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/understanding-the-new-100-gb-mailbox-entitlement-for-microsoft/ba-p/4548243",
-      "published": "2026-08-19T20:25:03+00:00",
-      "summary": "Microsoft 365 Business Basic, Business Standard, and Business Premium now include an additional 50 GB of primary email storage for eligible users. This brings the supported primary mailbox entitlement from 50 GB to a maximum of 100 GB. We wanted to talk about this change, so Exchange Online...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/",
-      "published": "2026-08-19T17:18:32+00:00",
-      "summary": "Writing and maintaining SQL is easier when you can eliminate repetitive steps and keep your scripts cleanly formatted. With the MSSQL extension for VS Code v1.45, we’re introducing the Public Preview of the SQL Formatter alongside the General Availability of Azure SQL Database Provisioning and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "Announcing General Availability of Disable Multithreading and Configurable Constrained Cores",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-disable-multithreading-and/ba-p/4547908",
-      "published": "2026-08-19T16:00:12+00:00",
-      "summary": "Today, we are announcing General Availability of two new capabilities: Disable Simultaneous Multithreading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features give customers control over virtual CPU configurations, enabling performance optimization and potential software...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "misha-bansal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Compute"
     }
   ]
 }
