@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-19T15:09:13.021627+00:00",
-  "totalArticles": 302,
+  "lastUpdated": "2026-09-20T15:13:11.610296+00:00",
+  "totalArticles": 296,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,42 @@
   },
   "articles": [
     {
+      "title": "Windows 11 Insider Beta version add smarter instant captions and fixes an issue with file history",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-beta-version-add-smarter-instant-captions-and/m-p/4558121#M45164",
+      "published": "2026-09-19T07:25:38+00:00",
+      "summary": "After I updated KB5124008 recently, file history was disabled, and many users reported being affected. Some netizens said they had spoken with others and confirmed that other users had encountered similar issues, but they had not yet confirmed that KB5124008 was the root...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "sheraton",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Feedback hub cannot log in. Please check your connection.",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/feedback-hub-cannot-log-in-please-check-your-connection/m-p/4558118#M45163",
+      "published": "2026-09-19T04:58:10+00:00",
+      "summary": "I'm clearly connected and my Microsoft account is working correctly, but I can't log in to Feedback Hub. It says the connection was checked before I logged out, and then it says there was a problem with my feedback. Have I been reported? Or is there some other reason?",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "sheraton",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Error loading add-ins. One or more add-ins failed to load. See your add-ins.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/error-loading-add-ins-one-or-more-add-ins-failed-to-load-see/m-p/4558077#M59904",
+      "published": "2026-09-18T20:30:26+00:00",
+      "summary": "No matter which Office applications I use (Excel, Word, PowerPoint, etc.), if a try to install an add-in. I get the above error message. This happens with any add-in. Does anybody have a solution for this?Thank you.",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Barattolo_67",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "Copilot code review: An improved review experience",
       "link": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
       "published": "2026-09-18T20:17:22+00:00",
@@ -321,6 +357,18 @@
       "product": "GitHub"
     },
     {
+      "title": "Intune App Protection Policy Still Allows Access to iOS Files App",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-app-protection-policy-still-allows-access-to-ios-files/m-p/4558062#M23754",
+      "published": "2026-09-18T19:00:57+00:00",
+      "summary": "I'm testing a very restrictive Intune App Protection Policy for Microsoft Word on iOS. The policy successfully blocks actions such as saving company data to unmanaged locations, copy/paste, screenshots, printing, and data transfer to other apps.However, users can still open Word, browse the native...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "JohnMGeorge",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
       "title": "Upcoming deprecation of selected GitHub Copilot models in mid-October",
       "link": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
       "published": "2026-09-18T19:00:00+00:00",
@@ -331,6 +379,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "FinOps-Ready Azure Landing Zone - Part 2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
+      "published": "2026-09-18T17:30:45+00:00",
+      "summary": "Author's Note: Vendor names referenced in this article are used solely as illustrative architectural examples and should not be interpreted as endorsements, recommendations, or advertisements. Introduction In Part 1, we looked at how Azure-native services can establish the foundation for a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "javedeqbal",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
     },
     {
       "title": "Stage-only npm tokens for safer automation",
@@ -367,6 +427,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Analytics"
+    },
+    {
+      "title": "Add-ins not working in microsoft office",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/add-ins-not-working-in-microsoft-office/m-p/4557977#M59901",
+      "published": "2026-09-18T13:55:32+00:00",
+      "summary": "I keep getting \"Error loading add-ins\"",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Lopo",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Replacing Retired Office 365 Connectors with Teams Workflows",
@@ -2157,18 +2229,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Entra ID Continuous Access Evaluation and Microsoft 365",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/entra-id-continuous-access-evaluation-and-microsoft-365/m-p/4554272#M59835",
-      "published": "2026-09-08T08:46:02+00:00",
-      "summary": "Continuous Access Evaluation (CAE) is supported by core Microsoft 365 workloads like Exchange Online, SharePoint Online, and Teams, and the reach of CAE is gradually spreading throughout the Microsoft cloud ecosystem. However, security researchers report inconsistent coverage across first-party...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "The Agentic Road to Revenue",
       "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue/",
       "published": "2026-09-08T04:45:34+00:00",
@@ -2359,18 +2419,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Exchange"
-    },
-    {
-      "title": "Preparing a Microsoft 365 Tenant for Copilot in Late 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/preparing-a-microsoft-365-tenant-for-copilot-in-late-2026/m-p/4553387#M59824",
-      "published": "2026-09-04T09:01:58+00:00",
-      "summary": "Forty months ago, Microsoft launched Copilot. Looking back, the lack of guardrails at the time was staggering, and AI had a great time wandering across SharePoint, OneDrive, Teams, and Exchange. Now Microsoft Copilot is a unified client and there’s a bunch of essential steps for tenants to take to...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "I've tried the methods but they still don't work. I don't know what to do.",
@@ -2877,18 +2925,6 @@
       "product": "Azure HPC"
     },
     {
-      "title": "Custom mouse cursor broken after Insider beta build 26220.9223",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/custom-mouse-cursor-broken-after-insider-beta-build-26220-9223/m-p/4552481#M45026",
-      "published": "2026-09-02T06:21:31+00:00",
-      "summary": "I recently updated to Windows 11 Insider Beta build 26220.9223, and ever since then, my custom mouse cursor has been acting up. Only the default pointer is affected—the rest of the custom cursor set works fine, but the main pointer keeps reverting to the ugly basic one and won't change no matter...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "KevinRodriguez",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
       "published": "2026-09-02T06:16:45+00:00",
@@ -3127,18 +3163,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "PROBLEME PARTAGE ECRAN SANS FIL",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/probleme-partage-ecran-sans-fil/m-p/4551928#M45007",
-      "published": "2026-08-31T14:50:16+00:00",
-      "summary": "Bonjour, j'ai un problème de partage d'écran entre mon ordinateur Windows et ma TV Samsung Série 8 de 75 pouces. Mon ordinateur détecte bien la télévision sous le nom [TV] Samsung 8 Series (75), mais lorsque je clique dessus pour diffuser mon écran, Windows affiche le message \"Nous n'avons pas pu...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "AATEQA",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     },
     {
       "title": "BizTalk Server 2020 End-of-Sale Announcement",
@@ -3811,102 +3835,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Visual Studio"
-    },
-    {
-      "title": "Azure Managed Redis Deployment Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
-      "published": "2026-08-21T14:26:48+00:00",
-      "summary": "Sometimes we may see some temporary capacity restrictions on some Azure Regions, while deploying Azure Managed Redis (AMR), and when that happen, the recommendation is usually retrying using a different Azure Region, a different AMR SKU, or retrying during off-peak hours or weekends.Retrying the...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure PaaS"
-    },
-    {
-      "title": "Multi-device Meeting and Synchronization Issues",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/multi-device-meeting-and-synchronization-issues/m-p/4548979#M145200",
-      "published": "2026-08-21T11:16:53+00:00",
-      "summary": "Microsoft Teams Bug Report – Multi-device Meeting and Synchronization IssuesDate: August 21, 2026Approximate time of occurrence: 10:30 AMPlatform: Microsoft TeamsDevices involved: iPhone and desktop computersIssue type: Meeting connection, multi-device support and synchronizationSummaryI would like...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Fezz",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Teams feedback function does not work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-feedback-function-does-not-work/m-p/4548978#M145199",
-      "published": "2026-08-21T11:14:55+00:00",
-      "summary": "Additional issue – Teams feedback function does not workMicrosoft’s support documentation currently directs users to submit feedback and report technical problems directly through the Teams application.I have attempted to follow this recommended procedure using the Microsoft Teams app on an iPhone...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Fezz",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Announcing Azure Web PubSub chat in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-azure-web-pubsub-chat-in-public-preview/ba-p/4548907",
-      "published": "2026-08-21T09:31:22+00:00",
-      "summary": "Chat is becoming a standard interaction model across customer support, collaboration, gaming, marketplaces, healthcare, financial services, and AI-powered applications. But building a production-ready chat system involves much more than opening a WebSocket connection. Teams also need to manage...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "kevinguo",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Browser automation with Pydantic-AI + Playwright",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/browser-automation-with-pydantic-ai-playwright/ba-p/4547971",
-      "published": "2026-08-20T21:42:16+00:00",
-      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "The AI Semantic Layer You Probably Already Have",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/The-AI-Semantic-Layer-You-Probably-Already-Have/ba-p/5360197",
-      "published": "2026-08-20T19:00:00+00:00",
-      "summary": "If your organization uses Power BI, you own something most companies chasing AI are desperately trying to build. You just may not know it by name.Let me explain.The invisible thing behind every reportEvery Power BI report you have ever opened sits on top of a semantic model. Every single one. No...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "bogdanc",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "Give your Copilot agents real tools, without hand-wiring MCP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/give-your-copilot-agents-real-tools-without-hand-wiring-mcp/ba-p/4548254",
-      "published": "2026-08-20T18:08:19+00:00",
-      "summary": "You’re running agents in the GitHub Copilot app - maybe three at once, each on its own branch, each working a task while you steer. It’s a good way to work, right up until an agent needs to reach outside your repo. It needs to read a SharePoint library, file a Salesforce record, or check an Outlook...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Microsoft Teams Calendar Request",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-calendar-request/m-p/4548644#M145198",
-      "published": "2026-08-20T16:29:30+00:00",
-      "summary": "My US public k-12 school district would really love to integrate our Google Calendar with Microsoft Teams calendar. We don't have Exchange licenses, but we'd like to be able to still sync the calendars if possible. I found this support article:...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "shin0933",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     }
   ]
 }
