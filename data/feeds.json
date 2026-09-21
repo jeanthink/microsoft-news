@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-20T15:13:11.610296+00:00",
-  "totalArticles": 296,
+  "lastUpdated": "2026-09-21T17:36:22.772444+00:00",
+  "totalArticles": 302,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,114 @@
   },
   "articles": [
     {
+      "title": "Virtual nodes on Azure Container Instances: a new compute layer for AKS",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/virtual-nodes-on-azure-container-instances-a-new-compute-layer/ba-p/4558080",
+      "published": "2026-09-21T16:44:41+00:00",
+      "summary": "Meet virtual nodes on ACI Azure Kubernetes Service (AKS) gives you managed Kubernetes: the full Kubernetes API without operating the control plane yourself. Virtual nodes on Azure Container Instances go a step further, letting your pods run directly on Azure's serverless container platform, with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hailukassa",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "What the Azure API Management integration means for Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/what-the-azure-api-management-integration-means-for-azure/ba-p/4558087",
+      "published": "2026-09-21T16:00:00+00:00",
+      "summary": "Azure API Management now provides a generally available policy for sending messages to Azure Service Bus. Using the send-service-bus-message policy, an API request can send a message directly to a Service Bus queue or topic. This allows you to put a governed HTTP API in front of an asynchronous...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Messaging"
+    },
+    {
+      "title": "How to Access Teams Meeting Transcripts with the Microsoft Graph",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-to-access-teams-meeting-transcripts-with-the-microsoft-graph/m-p/4558682#M145316",
+      "published": "2026-09-21T15:21:19+00:00",
+      "summary": "Microsoft has introduced a new control to stop Graph API-powered apps and agents from having unfettered access to Teams meetings transcripts. The new control is tenant-wide and either blocks or allows Graph API access. But after that, apps need the appropriate permissions and access through a Teams...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Grok 4.7 is now available in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "published": "2026-09-21T14:54:12+00:00",
+      "summary": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is… The post Grok 4.7 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Elasticsearch Vector Database on Azure: semantic search and RAG without managing a cluster",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/elasticsearch-vector-database-on-azure-semantic-search-and-rag/ba-p/4558647",
+      "published": "2026-09-21T13:34:07+00:00",
+      "summary": "With Elasticsearch Vector Database, Elastic's new serverless offering for vector workloads, Azure customers can build semantic search, retrieval-augmented generation (RAG), and agent-powered experiences. Azure Native Integrations make it easy to discover, deploy, and manage the resource through the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "piyush05",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
+      "published": "2026-09-21T07:00:11+00:00",
+      "summary": "AI coding agents can write much of an application’s code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
+      "published": "2026-09-21T07:00:00+00:00",
+      "summary": "In the rapidly evolving landscape of generative AI, large language model (LLM) evaluations have matured into standardized benchmark suites, Elo leaderboards, and automated judge pipelines. However, in the realm of Text-to-Image (T2I) synthesis, technical teams frequently slip back into what can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "MTR - Microphone drops during calls. Speaker works.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/mtr-microphone-drops-during-calls-speaker-works/m-p/4558436#M145314",
+      "published": "2026-09-21T01:57:09+00:00",
+      "summary": "Dear experts, I'm using Microsoft Teams Rooms (Rally/Rally Plus + Logitech tap cat5e) with the latest version on Windows 11 25H2, and I'm experiencing the following issue: Problem: microphone drops during calls. Speaker works.Symptoms:- You hear occasional glitches or unexpected noise (such as...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "BLACKROSE",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "You Get One Exchange Left: Rethinking Azure Commitments Before February 2027",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/you-get-one-exchange-left-rethinking-azure-commitments-before/ba-p/4552401",
+      "published": "2026-09-21T00:03:58+00:00",
+      "summary": "Azure gives you two main ways to pay less by committing up front. A reservation gets you the deepest discount, but you are locking in a specific SKU in a specific region. A savings plan gives up some of that discount in exchange for freedom: you are only committing to spend a certain amount per...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Madhura Amlekar",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "FinOps"
+    },
+    {
       "title": "Windows 11 Insider Beta version add smarter instant captions and fixes an issue with file history",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-beta-version-add-smarter-instant-captions-and/m-p/4558121#M45164",
       "published": "2026-09-19T07:25:38+00:00",
@@ -307,6 +415,30 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
+    },
+    {
+      "title": "All Office add-ins broken after Windows update",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/all-office-add-ins-broken-after-windows-update/m-p/4558094#M59906",
+      "published": "2026-09-18T23:00:25+00:00",
+      "summary": "**All Office add-ins broken after Windows update — \"Access denied to catalog\" on Microsoft 365 Family (Word, Windows 11 Pro)** All Office add-ins stopped working on my machine this week, immediately following a Windows update. They had been working normally the week before. **Symptoms** 1. Home >...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "spddemon19",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "M365 Business Standard renewal surprise: new subscription required!",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/m365-business-standard-renewal-surprise-new-subscription/m-p/4558084#M59905",
+      "published": "2026-09-18T21:02:53+00:00",
+      "summary": "Hi all,I wanted to share a recent experience in case it helps other Microsoft 365 admins.For many years, I have renewed several Microsoft 365 Business Standard subscriptions by purchasing annual product keys through the Microsoft eCompany Store and redeeming them in the Microsoft 365 Admin Center...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "ktladmin",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Error loading add-ins. One or more add-ins failed to load. See your add-ins.",
@@ -799,18 +931,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Automate SSO authorization for classic PATs and SSH keys",
-      "link": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
-      "published": "2026-09-16T20:20:16+00:00",
-      "summary": "Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization authorization by your developers.… The post Automate SSO authorization for classic PATs and SSH keys...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "The bottleneck isn't AI. It's transformation capacity.",
@@ -2133,18 +2253,6 @@
       "product": "Microsoft Teams"
     },
     {
-      "title": "Word and Excel stuck in Read and Print mode only",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/word-and-excel-stuck-in-read-and-print-mode-only/m-p/4554482#M59839",
-      "published": "2026-09-08T19:12:05+00:00",
-      "summary": "I have M365 Family Plan and one of my devices can't use Word or Excel. App tells me they are in Read and Print mode only. I have attempted multiple times to get support to resolve this via chat sessions, but they are unable to help. They have escalated this to Tier 3 Support and still no help. They...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "jbonwell",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Advancing the Microsoft Fabric SQL Query Editor",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Advancing-the-Microsoft-Fabric-SQL-Query-Editor/ba-p/5364033",
       "published": "2026-09-08T19:00:00+00:00",
@@ -2215,18 +2323,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Exchange"
-    },
-    {
-      "title": "Who's Performing Microsoft 365 License Audits For Their Clients?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/who-s-performing-microsoft-365-license-audits-for-their-clients/m-p/4554407#M59837",
-      "published": "2026-09-08T13:57:44+00:00",
-      "summary": "If you’re an MSP or IT leader and aren't running these regularly, you might be leaving money on the table or letting your clients overpay by over 20% on average.Common quick wins we see all the time:Disabled user accounts that still hold active paid licenses.Inactive or dormant users that could...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "John Gruber",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "The Agentic Road to Revenue",
@@ -3811,30 +3907,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Power BI August 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-August-2026-Feature-Summary/ba-p/5348434",
-      "published": "2026-08-21T21:06:18+00:00",
-      "summary": "Welcome to the August 2026 Power BI Feature Summary! This month includes updates across reporting, modeling, data connectivity, mobile, embedded analytics, and developer experiences, with a mix of generally available enhancements and new preview capabilities. Let's take a look at what's new. Table...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "Today I will… Modernize a .NET application",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/",
-      "published": "2026-08-21T17:00:45+00:00",
-      "summary": "Today I will modernize a .NET Framework application to .NET 10 using the GitHub Copilot modernization tooling built-in to Visual Studio. The tooling helps us upgrade applications running on legacy versions of .NET and also migrate them to Azure. Today we’re going to focus on the upgrade portion....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Matt Soucoup, Pablo Lopes",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Visual Studio"
     }
   ]
 }
