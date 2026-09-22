@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-21T17:36:22.772444+00:00",
-  "totalArticles": 302,
+  "lastUpdated": "2026-09-22T16:04:00.606538+00:00",
+  "totalArticles": 308,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,150 @@
   },
   "articles": [
     {
+      "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
+      "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
+      "published": "2026-09-22T15:00:44+00:00",
+      "summary": "LangChain Deep Agents is an open-source agent harness with built-in capabilities for building LLM-powered agents and applications, including complex, multi-step workflows. A model can reason and generate responses, but it needs a harness to do useful work over time. The harness provides the tools...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Vishnu Charan TJ",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure SDK"
+    },
+    {
+      "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+      "published": "2026-09-22T15:00:00+00:00",
+      "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Threat Intelligence, Microsoft Defender Experts and Microsoft Security Research",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "How Easy is It to Restore Microsoft 365 Tenants After a Catastrophic Attack",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-easy-is-it-to-restore-microsoft-365-tenants-after-a/m-p/4559006#M59935",
+      "published": "2026-09-22T13:17:51+00:00",
+      "summary": "Backup vendors sell on their ability to restore data. Usually, recovery covers one or two workloads and ignores configuration data. But Microsoft 365 tenants become more complex over time as workloads meld together and configurations become more complicated. The need to be able to recover a...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "From Domain-Joined to Microsoft Entra Joined: A Low-Disruption Migration Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/from-domain-joined-to-microsoft-entra-joined-a-low-disruption/m-p/4559001#M23762",
+      "published": "2026-09-22T12:57:11+00:00",
+      "summary": "How the right in-place migration approach can preserve eligible user profiles, establish Intune management, and accelerate the move away from on-premises Active Directory.Cloud-native endpoint management is relatively straightforward when a Windows device is new. The harder problem is the installed...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "VincentSKY",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "Deprecation notice: All-platform CodeQL bundle",
+      "link": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle",
+      "published": "2026-09-22T09:21:03+00:00",
+      "summary": "Starting with CodeQL CLI 2.27.0, the all-platform CodeQL bundle (i.e., codeql-bundle.tar.gz and codeql-bundle.tar.zst), which includes the binaries for all supported platforms up to this release, is marked as deprecated. In… The post Deprecation notice: All-platform CodeQL bundle appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "When the Coding Agent Leaves the Codebase: Building a Multi-Runtime AI Agent Infra with Azure KARS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-the-coding-agent-leaves-the-codebase-building-a-multi/ba-p/4558449",
+      "published": "2026-09-22T07:00:00+00:00",
+      "summary": "1. The story starts with someone who doesn't write code Let me start with a scene I keep running into at community events. Late last year, after a meetup, I got an email. The sender wasn't a developer — he was a marketing manager at a manufacturing customer. He wrote: \"I installed Claude Code from...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Refreshed repository pull requests page generally available",
+      "link": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
+      "published": "2026-09-22T01:25:53+00:00",
+      "summary": "The new repository pull requests page is now generally available to all GitHub users. Highlights The new page makes it easier to find and act on pull requests in a… The post Refreshed repository pull requests page generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "PostgreSQL to SQL Field Notes: Date & Time",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time/",
+      "published": "2026-09-21T22:44:58+00:00",
+      "summary": "Moving from PostgreSQL to SQL Server? Learn the key differences between timestamp, timestamptz, datetime2, and datetimeoffset, including precision, time zones, offsets, and storage. The post PostgreSQL to SQL Field Notes: Date & Time appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "The Complete Guide to Azure Databricks Cost Optimization",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
+      "published": "2026-09-21T22:03:58+00:00",
+      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
+      "published": "2026-09-21T21:29:25+00:00",
+      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Team Custom Tag usage in a Private Channel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/team-custom-tag-usage-in-a-private-channel/m-p/4558748#M145319",
+      "published": "2026-09-21T21:27:16+00:00",
+      "summary": "Hello! I am having an issue attempting to use a Custom Team Tag in a Private Channel. Below is a screenshot of a Team I am an Owner of called \"COPS - DEV Project Automation\". I created a custom tag with two Members: I then created a Private Channel called \"Test Private Channel USING tag\" under the...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "Lazodomi",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "GitHub Enterprise adds credential inventory exports",
+      "link": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports",
+      "published": "2026-09-21T21:13:18+00:00",
+      "summary": "Enterprise owners can now export a complete inventory of every credential that can access their enterprise (e.g., SSH keys, classic and fine-grained personal access tokens, OAuth App access tokens, and… The post GitHub Enterprise adds credential inventory exports appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Virtual nodes on Azure Container Instances: a new compute layer for AKS",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/virtual-nodes-on-azure-container-instances-a-new-compute-layer/ba-p/4558080",
       "published": "2026-09-21T16:44:41+00:00",
@@ -295,6 +439,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
+    },
+    {
+      "title": "Prepare your tenant estate for AI: Join our upcoming webinars",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/prepare-your-tenant-estate-for-ai-join-our-upcoming-webinars/ba-p/4554525",
+      "published": "2026-09-21T16:04:27+00:00",
+      "summary": "Securing multiple tenants has never been more critical. From mergers and acquisitions to shadow IT and test environments, multi-tenant complexity can introduce gaps in security, compliance, and governance. Now that Microsoft Entra Tenant Governance is generally available, you can gain visibility...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Hien_N",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
     },
     {
       "title": "What the Azure API Management integration means for Azure Service Bus",
@@ -345,6 +501,18 @@
       "product": "Azure App Service"
     },
     {
+      "title": "third party addins",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/third-party-addins/m-p/4558651#M59917",
+      "published": "2026-09-21T13:29:19+00:00",
+      "summary": "If one specific add-in were failing, we could suspect a compatibility issue with that vendor. However, you've tested approximately half a dozen different third-party add-ins across multiple Office applications, including Word, Excel, and PowerPoint, and they all return the exact same permission...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "kuta01",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
       "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
       "published": "2026-09-21T07:00:11+00:00",
@@ -369,6 +537,18 @@
       "product": "Azure Community"
     },
     {
+      "title": "ChatGPT for Excel update failed, followed by Office add-in catalog errors",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/chatgpt-for-excel-update-failed-followed-by-office-add-in/m-p/4558452#M59913",
+      "published": "2026-09-21T05:32:56+00:00",
+      "summary": "I am using Microsoft 365 Personal and Excel Desktop on Windows.The issue originally started when Excel told me that the ChatGPT for Excel add-in needed to be updated.I clicked \"Update Now\", but the update never completed. The Update button became disabled, and even after waiting for a long time and...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "niniel",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "MTR - Microphone drops during calls. Speaker works.",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/mtr-microphone-drops-during-calls-speaker-works/m-p/4558436#M145314",
       "published": "2026-09-21T01:57:09+00:00",
@@ -391,6 +571,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "FinOps"
+    },
+    {
+      "title": "File Explorer not working since build 29661 Beta Windows Preview Insider",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/file-explorer-not-working-since-build-29661-beta-windows-preview/m-p/4558401#M45173",
+      "published": "2026-09-20T18:09:17+00:00",
+      "summary": "File Explorer and My PC will not launch after Window 11 preview beta 29661. Does not work in subsequent builds 29667 and 29671. I have tried suggestions from Copilot the File Explorer Options to set to My PC from Home, but something keeps setting it to Home. Tried regedit to set LaunchTo to 0 from...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "pel53",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Windows 11 Insider Beta version add smarter instant captions and fixes an issue with file history",
@@ -657,18 +849,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Agentic CLI customizations now in the usage metrics API",
-      "link": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "published": "2026-09-17T21:08:50+00:00",
-      "summary": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in… The post Agentic CLI customizations now in the usage metrics API appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Upcoming changes to legacy Teams and Outlook activities in Fabric Data Factory pipelines",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Upcoming-changes-to-legacy-Teams-and-Outlook-activities-in/ba-p/5314499",
       "published": "2026-09-17T21:00:00+00:00",
@@ -741,18 +921,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Ubuntu 26 generally available and latest migration",
-      "link": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-      "published": "2026-09-17T16:27:16+00:00",
-      "summary": "The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,… The post Ubuntu 26 generally available and latest migration appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Mirroring for Google BigQuery in Microsoft Fabric (Generally Available)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Mirroring-for-Google-BigQuery-in-Microsoft-Fabric-Generally/ba-p/5364851",
       "published": "2026-09-17T16:24:38+00:00",
@@ -789,18 +957,6 @@
       "product": "Power BI"
     },
     {
-      "title": "Workflow execution protections in GitHub Actions generally available",
-      "link": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
-      "published": "2026-09-17T15:45:26+00:00",
-      "summary": "Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you define an allowlist that controls who… The post Workflow execution protections in GitHub Actions...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Announcing Microsoft Desired State Configuration v3.3.0",
       "link": "https://devblogs.microsoft.com/powershell/announcing-dsc-v3-3-0/",
       "published": "2026-09-17T14:57:07+00:00",
@@ -835,18 +991,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Architecture"
-    },
-    {
-      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
-      "published": "2026-09-17T12:00:00+00:00",
-      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "greenie-msft",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "I lost MFA for the M365 Admin account",
@@ -2061,18 +2205,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "My printers don't work after I reinstalled Microsoft 365",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/my-printers-don-t-work-after-i-reinstalled-microsoft-365/m-p/4554895#M59846",
-      "published": "2026-09-09T14:50:33+00:00",
-      "summary": "I recently had to reinstall Microsoft 365. The software now works quite well, but I can't print a document in Microsoft Word or from anywhere in Windows 11. I have two printers: an HP Envy Inspire 7900e AIO and a Brother HL-L2420DW. Both printers worked before the reinstall, and both printers work...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Caesar240",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
       "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
       "published": "2026-09-09T14:44:37+00:00",
@@ -2145,18 +2277,6 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Why Microsoft Graph Does Not Support Group Mailboxes",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/why-microsoft-graph-does-not-support-group-mailboxes/m-p/4554733#M59844",
-      "published": "2026-09-09T08:33:55+00:00",
-      "summary": "A reader asked why the Outlook Mail Graph API doesn’t support access to group mailboxes. The basic reason is that a group mailbox doesn’t have an account and the Outlook Mail API only supports mailboxes that are linked to an account. When you look at the current usage of group mailboxes, it doesn’t...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Still unable to update in version 29663.1000 because of 0x80070057 - 0x20003",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/still-unable-to-update-in-version-29663-1000-because-of/m-p/4554620#M45081",
       "published": "2026-09-09T04:12:15+00:00",
@@ -2167,18 +2287,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Onenote cannot search for handwriting",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onenote-cannot-search-for-handwriting/m-p/4554604#M59842",
-      "published": "2026-09-09T02:54:57+00:00",
-      "summary": "I have a problem where my Microsoft OneNote cannot search for ink/handwriting, though it used to be searchable. It can search for text but not handwritten notes. My friend who just downloaded OneNote is able to do so, while my other friend who has used OneNote for years is also unable to search for...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Velocity1",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Announcing .NET 11 Release Candidate 1",
@@ -2829,18 +2937,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Erro 0xc1900101 na instalação da build 26220.9223 (Todos os procedimentos padrão já realizados)",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/erro-0xc1900101-na-instala%C3%A7%C3%A3o-da-build-26220-9223-todos-os/m-p/4552784#M45028",
-      "published": "2026-09-02T19:52:05+00:00",
-      "summary": "Olá, comunidade Insider!Estou enfrentando um obstáculo persistente com a atualização para a build 26220.9223 do Windows 11 no canal Canary/Dev. A instalação sempre falha com o famigerado código de erro 0xc1900101 (geralmente revertendo para o sistema anterior durante a fase de migração de drivers...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "thiagohbragaonerd",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
       "title": "Introducing Radius Canvas: visualize, review and deploy applications in the GitHub Copilot app",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-radius-canvas-visualize-review-and-deploy/ba-p/4549760",
       "published": "2026-09-02T19:00:00+00:00",
@@ -3055,18 +3151,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Governance"
-    },
-    {
-      "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
-      "published": "2026-09-01T22:48:28+00:00",
-      "summary": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack techniques, Defender XDR detections, indicators of compromise, and practical mitigations to help...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research, Microsoft Defender Experts and Parth Jomadkar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Introducing APIOps CLI",
@@ -3691,18 +3775,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "The Complete Guide to Azure Databricks Cost Optimization",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
-      "published": "2026-08-25T16:25:03+00:00",
-      "summary": "Co-Authored by: Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next Steps. Phase 1: Discovery Assessing...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
     },
     {
       "title": "Azure Copilot Introduces Direct Access to Agents",
