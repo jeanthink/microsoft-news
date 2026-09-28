@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-27T16:10:04.367888+00:00",
-  "totalArticles": 301,
+  "lastUpdated": "2026-09-28T19:04:20.167208+00:00",
+  "totalArticles": 305,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,162 @@
   },
   "articles": [
     {
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Kevin Stubbings",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Claude Sonnet 5.5 in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "published": "2026-09-28T18:03:57+00:00",
+      "summary": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early… The post Claude Sonnet 5.5 in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-september2026/",
+      "published": "2026-09-28T17:27:53+00:00",
+      "summary": "Get started faster with common SQL workflows and resources in one place. The MSSQL extension for VS Code v1.46 introduces a new Getting Started page experience in Public Preview with quick actions, guided walkthroughs, dev container templates, and one-click installation of the latest Microsoft SQL...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Yo-Lei Chen",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Highlights from Git 2.56",
+      "link": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "published": "2026-09-28T17:23:33+00:00",
+      "summary": "The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.56 appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Elijah Newren",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Build Agentic UI with the new Blazor AI components",
+      "link": "https://devblogs.microsoft.com/dotnet/build-agentic-ui-blazor/",
+      "published": "2026-09-28T17:05:00+00:00",
+      "summary": "Build Agentic UI with the new Blazor AI components for streamed content, tools, approvals, shared state, and generative experiences. The post Build Agentic UI with the new Blazor AI components appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Daniel Roth",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "From Camera to Canvas: How Multimodal GenAI Automates Shop Floor Instructions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-camera-to-canvas-how-multimodal-genai-automates-shop-floor/ba-p/4557740",
+      "published": "2026-09-28T16:41:45+00:00",
+      "summary": "Scenario Across the industry, manufacturing organizations spend significant engineering effort converting tribal knowledge and assembly demonstrations into standardized work instructions. This process is traditionally manual, inconsistent, and difficult to scale across plants, product lines, and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Matt_Kazanowsky",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "SQLAlchemy 2.1 brings built-in support for mssql-python",
+      "link": "https://devblogs.microsoft.com/azure-sql/sqlalchemy-2-1-brings-built-in-support-for-mssql-python/",
+      "published": "2026-09-28T16:02:00+00:00",
+      "summary": "We’re pleased to share that SQLAlchemy 2.1.0 is now generally available, with built-in support for mssql-python, Microsoft’s Python driver for SQL Server. You can now use it with SQLAlchemy’s ORM and Core APIs through the first-party mssql+mssqlpython dialect. If SQLAlchemy is already part of how...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Matt Hyon, David Levy",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Open Sourcing the Azure Policy Linter!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/open-sourcing-the-azure-policy-linter/ba-p/4547577",
+      "published": "2026-09-28T15:02:05+00:00",
+      "summary": "Today we’re excited to share that the Azure Policy Linter is now open source on GitHub: github.com/Azure/azure-policy-linter. It’s a command-line linter for Azure Policy definitions that surfaces known issues, gotchas, and best practices that you can run when authoring your policy definition and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Governance"
+    },
+    {
+      "title": "Announcing the Public Preview of Local Time Zone Support in Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/announcing-the-public-preview-of-local-time-zone-support-in-azure-sql-database/",
+      "published": "2026-09-28T15:00:17+00:00",
+      "summary": "We are thrilled to announce the public preview of local time zone support in Azure SQL Database. Starting today, you can configure the time zone directly at the database or session level — all from T-SQL, without changing any infrastructure settings. This feature addresses one of the most...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Umachandar Jayachandran (UC)",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+      "published": "2026-09-28T15:00:00+00:00",
+      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Threat Intelligence",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Microsoft Learn Plans to Remove External Contributions via GitHub",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-learn-plans-to-remove-external-contributions-via/m-p/4560419#M59967",
+      "published": "2026-09-28T14:38:03+00:00",
+      "summary": "On September 23, Microsoft Learn announced that many of its public GitHub repositories for documentation would become private. The net effect is that external contributors will no longer be able to suggest changes to documentation. Although some change requests are probably not high quality,...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Is there any rate limiting on inbound messages through bot framework?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/is-there-any-rate-limiting-on-inbound-messages-through-bot/m-p/4560284#M145339",
+      "published": "2026-09-28T08:40:46+00:00",
+      "summary": "I found this documentation regarding rate limits for app using bot framework - https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/rate-limit. However, it seems to be applicable to outbound messages from our service backend to MS Teams. Is there any similar rate limiting for...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "DigvendraSinghTomar",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
+      "published": "2026-09-28T06:11:14+00:00",
+      "summary": "0. Why I'm writing this now Two things landed on my radar in the same week. First, TypeSafe AI published \"Introducing System One Models & Jev\" (Sep 15, 2026) and the developer community immediately started arguing about it. The pitch is unusual: instead of another chat model, Jev is described as \"a...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
       "title": "File History KB5124010 bug: File copy to D: drive but Last Copy Time and Previous Versions no update",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/file-history-kb5124010-bug-file-copy-to-d-drive-but-last-copy/m-p/4559787#M45192",
       "published": "2026-09-27T06:18:33+00:00",
@@ -355,18 +511,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "From Camera to Canvas: How Multimodal GenAI Automates Shop Floor Instructions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-camera-to-canvas-how-multimodal-genai-automates-shop-floor/ba-p/4557740",
-      "published": "2026-09-25T18:56:13+00:00",
-      "summary": "Scenario Across the industry, manufacturing organizations spend significant engineering effort converting tribal knowledge and assembly demonstrations into standardized work instructions. This process is traditionally manual, inconsistent, and difficult to scale across plants, product lines, and...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Matt_Kazanowsky",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
     },
     {
       "title": "Changes to query results in the GitHub Actions API and UI",
@@ -583,18 +727,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Require proof of presence for high-impact actions",
-      "link": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
-      "published": "2026-09-24T20:28:33+00:00",
-      "summary": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHub’s sudo… The post Require proof of presence for high-impact actions appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Getting the best out of Azure SRE Agent",
@@ -1953,18 +2085,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Error in office product (2016)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/error-in-office-product-2016/m-p/4557108#M59885",
-      "published": "2026-09-16T12:26:15+00:00",
-      "summary": "Hey am using office 2016, am getting this error when I tried to save office products like excel or MS word. The error - \"Microsoft office can't find your license for this application. a repair attempt was unsuccessful or cancelled. Microsoft office will now exit.\"Am using office enterprise...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "akash685",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Download error 0x80004005 when Windows 11 Insider Preview Feature Update (26220.9472)",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/download-error-0x80004005-when-windows-11-insider-preview/m-p/4557042#M45142",
       "published": "2026-09-16T09:54:50+00:00",
@@ -2449,12 +2569,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
       "published": "2026-09-11T18:26:10+00:00",
       "summary": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Tomoko Tanaka",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "AI Agent ROI Framework",
@@ -2569,12 +2689,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
       "published": "2026-09-10T21:31:19+00:00",
       "summary": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Kayla Cinnamon",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Lineage-aware AI with the Fabric item relations API (Preview)",
@@ -2757,18 +2877,6 @@
       "product": "Azure Compute"
     },
     {
-      "title": "Threat matrix: Mapping threats across cloud web applications",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
-      "published": "2026-09-09T21:30:00+00:00",
-      "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms. The post Threat matrix: Mapping threats across cloud web applications appeared first...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research and Lior Leizerovich",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "NOW ON DEMAND | OneDrive Office Hours | August 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/now-on-demand-onedrive-office-hours-august-2026/ba-p/4542927",
       "published": "2026-09-09T20:51:07+00:00",
@@ -2944,18 +3052,6 @@
       "blog": ".NET Blog",
       "blogId": "dotnetblog",
       "author": "Javier Lozano, Chris Sfanos, Jon Galloway",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": ".NET and .NET Framework September 2026 servicing releases updates",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-september-2026-servicing-updates/",
-      "published": "2026-09-08T20:00:00+00:00",
-      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for September 2026. The post .NET and .NET Framework September 2026 servicing releases updates appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Rahul Bhandari (MSFT), Tara Overfield",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
@@ -3753,18 +3849,6 @@
       "product": "Microsoft Entra"
     },
     {
-      "title": "Sharing sound",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/sharing-sound/m-p/4552044#M145239",
-      "published": "2026-09-01T03:42:44+00:00",
-      "summary": "Teams screen sharing does not show “Include sound” option for multiple usersI’m having an issue with Microsoft Teams screen sharing that I haven’t been able to resolve.I work in a call center, and we use Teams for peer coaching and training. When an agent shares their screen, I need to be able to...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "LordAries",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
       "title": "Close the gaps: layered data protection with Microsoft Purview across endpoint, browser, and network",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/close-the-gaps-layered-data-protection-with-microsoft-purview/ba-p/4550997",
       "published": "2026-08-31T22:25:14+00:00",
@@ -3859,42 +3943,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Only believe what you can validate: a verification framework for agentic AI",
-      "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
-      "published": "2026-08-29T12:45:11+00:00",
-      "summary": "How to read this article This article picks up where my January piece left off. My catch phrase is still the same: “only believe what you can validate”. This article is about validation. If you are new to agentic AI (in modernization contexts), I would highly recommend reading The Realities of...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "jkordick",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure General"
-    },
-    {
-      "title": "Try the new SqlClient and Retry connections natively",
-      "link": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry/",
-      "published": "2026-08-29T05:47:40+00:00",
-      "summary": "Microsoft.Data.SqlClient includes configurable retry logic for SqlConnection and SqlCommand, giving .NET applications built-in resilience for transient SQL Server failures without requiring Polly. The post Try the new SqlClient and Retry connections natively appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "Advertised gateway prefixes in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/advertised-gateway-prefixes-in-azure/ba-p/4550940",
-      "published": "2026-08-28T20:09:00+00:00",
-      "summary": "Introduction Large Azure hub-and-spoke environments can advertise a significant number of routes toward on-premises networks. By default, Azure VPN Gateway and ExpressRoute Gateway advertise the address spaces of the hub virtual network and the address spaces of peered spoke virtual networks that...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "erikbailey",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
     }
   ]
 }
