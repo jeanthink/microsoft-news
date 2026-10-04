@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-03T15:32:50.993034+00:00",
-  "totalArticles": 329,
+  "lastUpdated": "2026-10-04T16:16:19.118132+00:00",
+  "totalArticles": 319,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,18 @@
   },
   "articles": [
     {
+      "title": "Teams Audio Cuts Out When a Notification Arrives? Here’s How to Fix It",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/teams-audio-cuts-out-when-a-notification-arrives-here-s-how-to/m-p/4561992#M60021",
+      "published": "2026-10-04T15:13:52+00:00",
+      "summary": "You’re watching a video or sitting in a Teams call, everything is working normally, and then a Microsoft Teams message arrives. Suddenly, the video stutters, the audio freezes for a second, or the entire call sounds like it has been interrupted. link to the post",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JohnNaguib",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
       "published": "2026-10-03T04:08:41+00:00",
@@ -295,6 +307,30 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Analytics"
+    },
+    {
+      "title": "Notes from the field: testing EWSAllowedAppIDs safely",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/notes-from-the-field-testing-ewsallowedappids-safely/ba-p/4548568",
+      "published": "2026-10-03T02:07:48+00:00",
+      "summary": "As customers prepare for the final phase of Exchange Web Services (EWS) retirement in Exchange Online, many are asking the same practical question: how can I prove that EWSAllowedAppIDs is working before I depend on it? This field guide walks through a controlled positive-and-negative test,...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "EWS Deprecation Is Here – What This Means To You",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/ews-deprecation-is-here-what-this-means-to-you/ba-p/4561431",
+      "published": "2026-10-03T02:04:14+00:00",
+      "summary": "The deprecation of EWS in Exchange Online starts today. This is a multi-step process, years in the making, and this post has lots of important information. We will keep this post updated if we have new information to add. The first change, as previously announced, starting early October 2026, means...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
     },
     {
       "title": "Teams PowerShell no longer works on MacOS - Windows only dependency after 7.9.0",
@@ -319,6 +355,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "Released: September 2026 V2 Exchange Server Security Updates",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2026-v2-exchange-server-security-updates/ba-p/4561718",
+      "published": "2026-10-02T19:49:10+00:00",
+      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
     },
     {
       "title": "Copilot code review: API support and new default effort level",
@@ -595,18 +643,6 @@
       "solutionArea": "AIBS",
       "billingType": "License",
       "product": "Power BI"
-    },
-    {
-      "title": "EWS Deprecation Is Here – What This Means To You",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/ews-deprecation-is-here-what-this-means-to-you/ba-p/4561431",
-      "published": "2026-10-01T20:07:06+00:00",
-      "summary": "The deprecation of EWS in Exchange Online starts today. This is a multi-step process, years in the making, and this post has lots of important information. We will keep this post updated if we have new information to add. The first change, as previously announced, starting early October 2026, means...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "Rate limits for private vulnerability reports",
@@ -1977,18 +2013,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Microsoft Cancels the Microsoft 365 Companion Apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-cancels-the-microsoft-365-companion-apps/m-p/4559911#M59955",
-      "published": "2026-09-25T15:27:03+00:00",
-      "summary": "Microsoft launched the Microsoft 365 companion apps in November 2025 and now they have cancelled the apps. No obvious purpose or need for the apps and customer confusion is a fatal mix for any software to fight against, especially during an era when Microsoft is trimming engineering costs to free...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Improving site performance by shipping more CSS",
       "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
       "published": "2026-09-25T15:00:00+00:00",
@@ -2527,18 +2551,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Introducing EWSAllowedAppIDs: Preparing for the Final Phase of EWS Retirement",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/introducing-ewsallowedappids-preparing-for-the-final-phase-of/ba-p/4529471",
-      "published": "2026-09-22T13:15:00+00:00",
-      "summary": "Exchange Web Services (EWS) retirement in Exchange Online is entering its final phase. Over the last several years, Microsoft has worked with product teams, independent software vendors (ISVs), and customers across the ecosystem to migrate workloads to Microsoft Graph and other modern APIs. Many of...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "From Domain-Joined to Microsoft Entra Joined: A Low-Disruption Migration Framework",
@@ -3921,18 +3933,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Notes from the field: testing EWSAllowedAppIDs safely",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/notes-from-the-field-testing-ewsallowedappids-safely/ba-p/4548568",
-      "published": "2026-09-09T14:42:06+00:00",
-      "summary": "As customers prepare for the final phase of Exchange Web Services (EWS) retirement in Exchange Online, many are asking the same practical question: how can I prove that EWSAllowedAppIDs is working before I depend on it? This field guide walks through a controlled positive-and-negative test,...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
       "title": "Cant Install ChatGPT",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/cant-install-chatgpt/m-p/4554890#M45085",
       "published": "2026-09-09T14:29:45+00:00",
@@ -4111,126 +4111,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure SDK"
-    },
-    {
-      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-      "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "published": "2026-09-04T16:04:14+00:00",
-      "summary": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot. The post Project HydraFusion: Frontier quality via multi-model orchestration...",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "GitHub Staff",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "What’s new in Azure Firewall: Recent innovations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
-      "published": "2026-09-04T15:48:26+00:00",
-      "summary": "Organizations are modernizing their networks while managing a growing mix of applications, protocols, and security requirements. Recent Azure Firewall releases strengthen this journey with simpler traffic routing, expanded protocol support, more flexible application controls, improved health...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "devanshirastogi",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
-      "title": "Your Private Endpoint Does Not Cover Agent Egress: Locking Down Azure AI Foundry in Both Directions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/your-private-endpoint-does-not-cover-agent-egress-locking-down/ba-p/4547864",
-      "published": "2026-09-04T14:59:04+00:00",
-      "summary": "I got asked a question a few weeks ago that sounded simple. Lock down Azure AI Foundry with Private Link, and let the agents call an MCP server hosted on a VM in a different virtual network. Everything private, nothing over the public internet, and proof rather than a diagram. I said yes, that is...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "rgarofalo",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Take control of your EWSAllowedAppIDs list before EWS access changes",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/take-control-of-your-ewsallowedappids-list-before-ews-access/ba-p/4553534",
-      "published": "2026-09-04T14:47:38+00:00",
-      "summary": "As we prepare for the final phase of Exchange Web Services retirement, we are refining how EWSAllowedAppIDs setting (which you can use to define your EWS AppID allow list) will be applied. Our goal is to protect customers from unexpected disruption while keeping control of the allow list with each...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "SQL Decomposition in a Nutshell",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-decomposition/",
-      "published": "2026-09-03T20:06:28+00:00",
-      "summary": "Good software design principles apply inside the database too. See how decomposition, encapsulation, statelessness, and clear contracts can make complex T-SQL easier to read, test, reuse, and maintain. The post SQL Decomposition in a Nutshell appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "Accelerated AI & Analytics workload on Azure Blob Storage: Up to 25x faster List Blobs operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerated-ai-analytics-workload-on-azure-blob-storage-up-to/ba-p/4551857",
-      "published": "2026-09-03T18:46:37+00:00",
-      "summary": "Today Azure Storage introduces in preview a new List Blobs optimization that accelerates listing operations by up to 25x with up to 15x lower client-side CPU utilization allowing customers to return millions of objects per second in List Blobs results. The list results are now returned in Apache...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "wolfgangdesalvador",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Storage"
-    },
-    {
-      "title": "Building 3IQ Retail Assistant Demo – Part 1",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-1/ba-p/4547228",
-      "published": "2026-09-03T17:24:53+00:00",
-      "summary": "Introduction Recently I received a request from one of our GSI partners to demonstrate them 4IQs on a retail industry scenario. Unfortunately, Web IQ is still not in public preview. Hence, I promised them to come back with an example later with Web IQ. But even with the remaining Fabric IQ, Foundry...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "pranabpaul",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Building 3IQ Retail Assistant Demo – Part 2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-2/ba-p/4547231",
-      "published": "2026-09-03T17:24:04+00:00",
-      "summary": "In part 1 while setting up the Azure environment, I informed the template puts everything under VNET and all the services are having only private endpoints. Which is great from the security point of view. We also spoke about creating a jumpbox as a Bastion host to work on those services. If you did...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "pranabpaul",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Building 3IQ Retail Assistant Demo – Part 3",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-3/ba-p/4547233",
-      "published": "2026-09-03T17:23:13+00:00",
-      "summary": "We are now at the last part of our demo. We will build a Copilot Agent to connect it to a SharePoint List holding data related to Support case raised by the customers. Then connect the other 2 agents (Fabric Data Agent and Foundry Prompt Agent) to it. But before doing it ensure Work IQ is activated...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "pranabpaul",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Logic App Storage Inspector",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-app-storage-inspector/ba-p/4552352",
-      "published": "2026-09-03T16:28:54+00:00",
-      "summary": "Logic App Storage Inspector is a Kudu site extension for inspecting the storage used by an Azure Logic App Standard application. Read-only: The extension only reads Logic App storage data. It does not create, update, or delete workflows, tables, queues, blobs, messages, or other storage data....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Mohammed_Barqawi",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
     }
   ]
 }
