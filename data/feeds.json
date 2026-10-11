@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-10T16:44:19.758315+00:00",
-  "totalArticles": 338,
+  "lastUpdated": "2026-10-11T17:10:26.590102+00:00",
+  "totalArticles": 333,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,30 @@
   },
   "articles": [
     {
+      "title": "New controls and chat improvements in Copilot for JetBrains",
+      "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+      "published": "2026-10-10T18:53:39+00:00",
+      "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
+      "published": "2026-10-10T07:27:28+00:00",
+      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
       "title": "GitHub Copilot weekly releases — October 5",
       "link": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
       "published": "2026-10-09T22:58:23+00:00",
@@ -295,6 +319,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719",
+      "published": "2026-10-09T22:00:58+00:00",
+      "summary": "A production-minded reference architecture using Azure Integration Services and Microsoft Foundry to turn document-heavy intake into governed, traceable work. TL;DR: Calling a model is one step in AI-powered intake. Production readiness depends on everything around the model: authenticated entry,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "BrittanyPugh",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
     },
     {
       "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
@@ -331,6 +367,42 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
+    },
+    {
+      "title": "Microsoft Agent 365 and Azure API Management integration for MCP governance",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-agent-365-and-azure-api-management-integration-for-mcp/ba-p/4563335",
+      "published": "2026-10-09T20:18:42+00:00",
+      "summary": "As agents gain access to enterprise tools, organizations need consistent ways to govern what those agents can access and enforce those decisions at runtime Today, we're announcing a new integration between Microsoft Agent 365 and Azure API Management now in public preview. The integration connects...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "santiagxf",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
+      "published": "2026-10-09T19:35:00+00:00",
+      "summary": "Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2027. This does NOT affect the data plane (getting/setting secrets, keys, and certificates) — only vault and access-control management operations are...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Tools"
+    },
+    {
+      "title": "Multi-NIC Support on AKS powered by DRANET – Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/multi-nic-support-on-aks-powered-by-dranet-now-in-public-preview/ba-p/4563257",
+      "published": "2026-10-09T18:24:27+00:00",
+      "summary": "Kubernetes was designed around a simple networking model, every pod gets one network interface, and every pod on a node shares the same flat network. For most stateless microservices, this works well as it keeps the model simple and the platform portable. But a large class of workloads don't fit...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
     },
     {
       "title": "Hack the World: Why hackathons are still the best place to learn to build",
@@ -463,6 +535,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+      "published": "2026-10-08T20:44:28+00:00",
+      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
     },
     {
       "title": "Sending From Email Aliases – General Availability",
@@ -813,22 +897,22 @@
       "product": "GitHub"
     },
     {
+      "title": "3 lessons from frontier AI vulnerability research",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "published": "2026-10-07T16:00:00+00:00",
+      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Taesoo Kim",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Local sandboxing for GitHub Copilot now generally available",
       "link": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
       "published": "2026-10-07T15:46:17+00:00",
       "summary": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Discover local models in GitHub Copilot CLI",
-      "link": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-      "published": "2026-10-07T15:46:13+00:00",
-      "summary": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running… The post Discover local models in GitHub Copilot CLI appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1075,6 +1159,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
+    },
+    {
+      "title": "CISO perspectives on managing vulnerability risks in the age of AI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+      "published": "2026-10-06T16:00:00+00:00",
+      "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Freddy Dezeure and Sesha Mani",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
     },
     {
       "title": "Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview)",
@@ -2613,18 +2709,6 @@
       "product": "Azure SQL"
     },
     {
-      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-      "published": "2026-09-28T15:00:00+00:00",
-      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Is there any rate limiting on inbound messages through bot framework?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/is-there-any-rate-limiting-on-inbound-messages-through-bot/m-p/4560284#M145339",
       "published": "2026-09-28T08:40:46+00:00",
@@ -2707,18 +2791,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
-      "published": "2026-09-25T15:35:08+00:00",
-      "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks using compromised...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research, Yossi Weizman and Tushar Mudi",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Improving site performance by shipping more CSS",
@@ -2899,18 +2971,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Oracle on Azure"
-    },
-    {
-      "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-      "published": "2026-09-24T16:00:00+00:00",
-      "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Migrate Data Ingestion from Data Collector to Log Ingestion - Part 2",
@@ -4219,126 +4279,6 @@
       "solutionArea": "AIBS",
       "billingType": "License",
       "product": "GitHub Copilot"
-    },
-    {
-      "title": "AI Agent ROI Framework",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445",
-      "published": "2026-09-11T15:47:21+00:00",
-      "summary": "Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Yagneswari",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "Intune On-Demand Proactive Remediation API Reliability for Large-Scale Usage",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-on-demand-proactive-remediation-api-reliability-for-large/m-p/4555745#M23743",
-      "published": "2026-09-11T15:04:39+00:00",
-      "summary": "Hi Team,We are testing the Intune On-Demand Proactive Remediation API:POST /deviceManagement/managedDevices/{managedDeviceId}/initiateOnDemandProactiveRemediationIn our environment, the remediation package works correctly, and the API generally triggers the remediation as expected. However, during...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "Swahlea",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Can't upgrade to Windows 11 Build 26340.9354",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/can-t-upgrade-to-windows-11-build-26340-9354/m-p/4555742#M45102",
-      "published": "2026-09-11T14:55:04+00:00",
-      "summary": "So on 8th of Sept Microsoft release the preview build on the windows insider program for the experimental channel build 26340.9354 but no matter what I can't upgrade to this build no matter what I tried to via windows update and it would download and install and ask me to reboot but when I did and...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "ServerUser2035",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
-      "published": "2026-09-11T14:06:14+00:00",
-      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "FinOps"
-    },
-    {
-      "title": "Building on AI Landing Zones: Operationalizing Enterprise AI with the Citadel Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-on-ai-landing-zones-operationalizing-enterprise-ai-with/ba-p/4551078",
-      "published": "2026-09-11T12:14:40+00:00",
-      "summary": "From AI Foundations to a Shared Operating Model In my previous article, AI Azure Landing Zone: Shared Capabilities and Models to Enable AI as a Platform, I explored how organizations establish secure, governed environments for AI workloads. Building on that foundation requires aligning three...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Rohon_Mohapatra",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "From OSDU to Ontology: Why Oil & Gas AI Readiness Lives at the Meaning Layer",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-osdu-to-ontology-why-oil-gas-ai-readiness-lives-at-the/ba-p/4538718",
-      "published": "2026-09-11T12:13:32+00:00",
-      "summary": "The five-answer problem Ask a simple question inside a large operator: “How is this asset producing against plan, and what’s the constraint?” Now watch five systems answer five different things. The production historian knows a “well” as a set of surface sensor tags. The reservoir team reasons...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KimVaddi",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "September Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3/",
-      "published": "2026-09-10T22:25:52+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
-    },
-    {
-      "title": "Lineage-aware AI with the Fabric item relations API (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Lineage-aware-AI-with-the-Fabric-item-relations-API-Preview/ba-p/5366064",
-      "published": "2026-09-10T19:10:20+00:00",
-      "summary": "With two new REST operations, you can retrieve the upstream and downstream relations of any Fabric item directly from your own code — the dependency graph behind the portal's lineage view, now available as a supported, programmable surface. Each response includes related items, the typed relation...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "yaronc",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
-      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
-      "published": "2026-09-10T18:08:42+00:00",
-      "summary": "Learn how Azure AI Speech LLM 2607 improves multilingual and mixed-language recognition, lowers latency, and simplifies domain-specific customization with enhanced phrase lists. The post Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Rena Liu",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Use C# unions and closed hierarchies in ASP.NET Core",
-      "link": "https://devblogs.microsoft.com/dotnet/unions-and-closed-hierarchies-in-aspnetcore/",
-      "published": "2026-09-10T17:00:00+00:00",
-      "summary": "Learn how C# unions and closed hierarchies work with System.Text.Json across ASP.NET Core Minimal APIs, MVC, SignalR, Blazor, and OpenAPI. The post Use C# unions and closed hierarchies in ASP.NET Core appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Dmitrii Korolev",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
     }
   ]
 }
