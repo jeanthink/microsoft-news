@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-11T17:10:26.590102+00:00",
-  "totalArticles": 333,
+  "lastUpdated": "2026-10-12T20:42:18.354832+00:00",
+  "totalArticles": 336,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,162 @@
   },
   "articles": [
     {
+      "title": "Call for perspectives: Endpoint Management Experiences of IT Professionals Survey",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/call-for-perspectives-endpoint-management-experiences-of-it/m-p/4563935#M23787",
+      "published": "2026-10-12T20:05:16+00:00",
+      "summary": "Hi Endpoint management community, we’d love to hear from you!How do you manage employee devices today? Where do you turn for guidance and support? And how are you thinking about AI-enabled ways of working?🔗 Share your perspective in our 15-minute survey: https://lnkd.in/gmjkFx8PWe’re especially...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "Yiyi_Cui",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "What’s new for Business Events and real-time events in Microsoft Fabric",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/What-s-new-for-Business-Events-and-real-time-events-in-Microsoft/ba-p/5367401",
+      "published": "2026-10-12T19:00:00+00:00",
+      "summary": "Microsoft Fabric helps teams react when those moments happen. Real-Time Hub provides a common place to discover event sources, connect consumers, and move from a signal to an action. With Business Events now generally available and new Fabric Events capabilities arriving in the September 2026...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "robece-msft",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "published": "2026-10-12T17:43:59+00:00",
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Christopher Harrison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "A new look and new capabilities in the Capacity Metrics App (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/A-new-look-and-new-capabilities-in-the-Capacity-Metrics-App/ba-p/5374114",
+      "published": "2026-10-12T17:28:57+00:00",
+      "summary": "As announced at FabCon 2026 in Barcelona, we're releasing meaningful enhancements to the Capacity Metrics app in preview, designed to accelerate time to insight. This includes new and enhanced visuals and metrics across the health, compute, and storage pages—alongside improved navigation and a...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "pankajarora",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
+      "published": "2026-10-12T17:05:45+00:00",
+      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Fabric September 2026 Feature Summary",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-September-2026-Feature-Summary/ba-p/5325825",
+      "published": "2026-10-12T16:56:01+00:00",
+      "summary": "If you haven't already, check out FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and Agents for a complete look at all of our FabCon Europe announcements across Fabric and Microsoft Databases. Welcome to the September 2026 Fabric Feature Summary! As the...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "murray-kp",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Push attribution for commits in limited public preview",
+      "link": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+      "published": "2026-10-12T16:30:11+00:00",
+      "summary": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution for commits in limited public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Durable Task in the Real World: What Problems Does It Actually Solve?",
+      "link": "https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world/",
+      "published": "2026-10-12T16:30:00+00:00",
+      "summary": "Five practical examples of when durable execution makes sense, when it does not, and what it means for AI agents. The post Durable Task in the Real World: What Problems Does It Actually Solve? appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Tamir Dresher",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Custom SQL Pools in Fabric Data Warehouse (Generally Available)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Custom-SQL-Pools-in-Fabric-Data-Warehouse-Generally-Available/ba-p/5368292",
+      "published": "2026-10-12T15:00:00+00:00",
+      "summary": "Custom SQL Pools in Microsoft Fabric Data Warehouse are now generally available, along with statement type classification. Custom SQL Pools give administrators more control over how compute resources are allocated across different workloads in a Fabric workspace. You can isolate workloads into...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "TwinkleCyril",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Regarding the update on the One Drive storage in Microsoft 365 Family",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/regarding-the-update-on-the-one-drive-storage-in-microsoft-365/m-p/4563850#M60078",
+      "published": "2026-10-12T13:19:13+00:00",
+      "summary": "Microsoft states that existing Family subscribers will move to the new shared-storage model at renewal after the transition date. However, it's unclear whether customers who redeem multiple years of Microsoft 365 Family before the policy takes effect will remain on the legacy 1 TB-per-person...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "8dleduylf",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Maintaining Stable Azure Automation Runtime Environments",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/maintaining-stable-azure-automation-runtime-environments/m-p/4563767#M60077",
+      "published": "2026-10-12T09:03:20+00:00",
+      "summary": "The problem with V2.41 of the Microsoft Graph PowerShell SDK that stopped runbooks executing in PowerShell V7 runtime environments was disappointing. However, it was also a good wake-up call for tenant administrators to pay attention to maintaining healthy Azure Automation custom runtime...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Business Central - Blocking External Operations Until Previous Operation Quality",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/business-central-blocking-external-operations-until-previous/m-p/4563715#M60075",
+      "published": "2026-10-12T07:34:18+00:00",
+      "summary": "Hello Team,We are evaluating the Quality Management process in Microsoft Dynamics 365 Business Central for a Release Production scenario.Our requirement is to control the production workflow in such a way that an External Operation (Subcontracting Operation) cannot be processed or posted unless the...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Athira2",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Advancing AI fleet reliability through industry collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353",
+      "published": "2026-10-12T02:43:13+00:00",
+      "summary": "Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability, and reliability is more important than ever. Large-scale, multi-vendor AI clusters introduce significant operational complexity. Accelerators,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Rama_Bhimanadhuni",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
       "title": "New controls and chat improvements in Copilot for JetBrains",
       "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
       "published": "2026-10-10T18:53:39+00:00",
@@ -475,6 +631,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
+    },
+    {
+      "title": "Introducing the Agent Experience (AX) Practitioner Playbook",
+      "link": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
+      "published": "2026-10-09T09:44:25+00:00",
+      "summary": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely on when they don't.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
     },
     {
       "title": "Windows 11 Insider Preview Feature Update (26220.9606) download speed is extremely slow.",
@@ -849,18 +1017,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Fabric September 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-September-2026-Feature-Summary/ba-p/5325825",
-      "published": "2026-10-07T17:29:15+00:00",
-      "summary": "If you haven't already, check out FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and Agents for a complete look at all of our FabCon Europe announcements across Fabric and Microsoft Databases. Welcome to the September 2026 Fabric Feature Summary! As the...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Planning in Microsoft Fabric: From insight to action",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Planning-in-Microsoft-Fabric-From-insight-to-action/ba-p/5369552",
       "published": "2026-10-07T17:20:30+00:00",
@@ -907,18 +1063,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Security"
-    },
-    {
-      "title": "Local sandboxing for GitHub Copilot now generally available",
-      "link": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
-      "published": "2026-10-07T15:46:17+00:00",
-      "summary": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Microsoft Places bug: Room images are too big, hiding info. Need a compact/resize option",
@@ -1533,18 +1677,6 @@
       "product": "Windows"
     },
     {
-      "title": "OneNote for iPad - bug on undo in draw mode.",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onenote-for-ipad-bug-on-undo-in-draw-mode/m-p/4561637#M60011",
-      "published": "2026-10-02T07:57:05+00:00",
-      "summary": "I make extensive handwritten notes with my Apple Pencil on my iPad Pro using Draw mode in OneNote. This week I noticed that when I hit undo, the app crashes and I have to restart completely. When restarting I find that I also lost some my most recent markings. This is very disruptive and needs to...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Clark67",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Teams Enables Easier File Sharing in Federated Chat",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-enables-easier-file-sharing-in-federated-chat/m-p/4561627#M145349",
       "published": "2026-10-02T07:07:57+00:00",
@@ -1639,30 +1771,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Virtual Desktop"
-    },
-    {
-      "title": "Theme Not Available For Cengage Project",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/theme-not-available-for-cengage-project/m-p/4561571#M60010",
-      "published": "2026-10-01T22:34:32+00:00",
-      "summary": "I am currently trying to do a Cengage project for Microsoft power point. I need the Berlin theme and it is currently unavailable. I am using Microsoft 365 Family and only see a limited set of themes. Can someone PLEASE help me?Thank you!",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "LittleSea92",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Booking Error Message",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/booking-error-message/m-p/4561566#M60009",
-      "published": "2026-10-01T22:11:48+00:00",
-      "summary": "Microsoft Bookings public booking page displays “Something went wrong. We couldn't book that appointment,” but the appointment is actually created in the Bookings/Outlook calendar. The issue occurs even when using different browsers and Incognito mode.I checked availability and other things,...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Jenny2",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Run an Ollaya decision model on Azure Container Apps",
@@ -2635,18 +2743,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "Highlights from Git 2.56",
-      "link": "https://github.blog/open-source/git/highlights-from-git-2-56/",
-      "published": "2026-09-28T17:23:33+00:00",
-      "summary": "The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.56 appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Elijah Newren",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Build Agentic UI with the new Blazor AI components",
@@ -4161,30 +4257,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "From Business Events, Fabric Events, and Azure Events to Real-Time Hub",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-Business-Events-Fabric-Events-and-Azure-Events-to-Real-Time/ba-p/5365864",
-      "published": "2026-09-14T16:59:28+00:00",
-      "summary": "Welcome to the eighth and final post in our Business Events, Fabric Events, and Azure Events series for Microsoft Fabric. This series takes you from foundational event-driven concepts to practical implementation patterns that help teams turn meaningful business moments into trusted signals,...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "robece-msft",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Designing scalable Business Events in Microsoft Fabric",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Designing-scalable-Business-Events-in-Microsoft-Fabric/ba-p/5365863",
-      "published": "2026-09-14T16:59:09+00:00",
-      "summary": "Welcome to the seventh post in our Business Events, Fabric Events, and Azure Events series for Microsoft Fabric. This series takes you from foundational event-driven concepts to practical implementation patterns that help teams turn meaningful business moments into trusted signals, decisions, and...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "robece-msft",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Windows 11 Insider Preview Feature Update (26220.9472) Fails",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9472-fails/m-p/4556313#M45136",
       "published": "2026-09-14T13:45:12+00:00",
@@ -4243,42 +4315,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "ISE"
-    },
-    {
-      "title": "Windows Insider更新不了的问题",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-insider%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E7%9A%84%E9%97%AE%E9%A2%98/m-p/4555848#M45107",
-      "published": "2026-09-12T04:27:04+00:00",
-      "summary": "我已经加入了预览版体验，为什么在选择预览体验成员设置里面，所有选项成为灰标了呢？通知还一直提醒我版本过期，但是我检查了更新已经是最新了呀？",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "LANYI1145",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Azure App Service is now a trigger destination for Azure Managed Connectors",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-app-service-is-now-a-trigger-destination-for-azure-managed/ba-p/4555785",
-      "published": "2026-09-11T18:41:02+00:00",
-      "summary": "Azure Managed Connectors, currently in public preview, now lets you choose Azure App Service as a trigger destination. Connector events can be delivered directly to applications running on App Service, including ASP.NET Core, Java, Node.js, and Python applications. This is a new capability in the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-      "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-      "published": "2026-09-11T18:26:10+00:00",
-      "summary": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Tomoko Tanaka",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
     }
   ]
 }
