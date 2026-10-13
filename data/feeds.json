@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-12T20:42:18.354832+00:00",
-  "totalArticles": 336,
+  "lastUpdated": "2026-10-13T18:44:37.884103+00:00",
+  "totalArticles": 340,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,174 @@
   },
   "articles": [
     {
+      "title": "Audit GitHub Code Quality finding dismissals and reopenings",
+      "link": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
+      "published": "2026-10-13T17:58:36+00:00",
+      "summary": "You can now review manual dismissals and reopenings of GitHub Code Quality findings in your organization or enterprise audit log. Findings may appear in either your repository’s default-branch backlog or… The post Audit GitHub Code Quality finding dismissals and reopenings appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "link": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "published": "2026-10-13T17:56:33+00:00",
+      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Batu Ozturkler",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Fabric App functions to use secure server-side custom logic (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-App-functions-to-use-secure-server-side-custom-logic/ba-p/5368691",
+      "published": "2026-10-13T17:00:00+00:00",
+      "summary": "Fabric App functions is a new capability that allows builders to add secure, server-side logic directly to their Fabric Apps without standing up separate infrastructure. Built on top of Fabric User Data Functions (UDFs), Fabric App functions give developers a simple way to execute business logic,...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "mk_sunitha",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
+      "link": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
+      "published": "2026-10-13T16:12:36+00:00",
+      "summary": "Secret scanning now detects new secret types from Salesforce, Anthropic, and Cloudsmith, with the new Anthropic secret types blocked with push protection by default. New secret scanning partner Salesforce is… The post Secret scanning blocks Anthropic keys by default, adds Salesforce appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "My workspace governance improvements (Generally Available)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/My-workspace-governance-improvements-Generally-Available/ba-p/5368442",
+      "published": "2026-10-13T16:00:00+00:00",
+      "summary": "My workspace governance features, which give administrators governance controls over their users' personal My workspaces, are now generally available. As My workspaces continue to be used for business-critical content, organizations need governance capabilities that scale with their environment....",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "sergeig888",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Enterprise managed settings enforcement updates",
+      "link": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+      "published": "2026-10-13T15:20:10+00:00",
+      "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version… The post Enterprise managed settings enforcement updates appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-verified-modules-avm-is-now-owned-by-azure-engineering/ba-p/4563822",
+      "published": "2026-10-13T14:52:59+00:00",
+      "summary": "Azure Verified Modules (AVM) has moved into the Azure Deployments team, inside Microsoft’s Azure engineering organization. That is the headline, and it is a big one for us. AVM started as a community-led project inside Microsoft, built and maintained largely by people who cared about it alongside...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "jtracey93msft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Tools"
+    },
+    {
+      "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
+      "link": "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
+      "published": "2026-10-13T14:20:35+00:00",
+      "summary": "Learn how Azure Content Understanding prebuilt analyzers combine domain knowledge with grounding and confidence, and what Advanced Contextualization preview benchmarks show about quality, modeled cost, and latency. The post Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Chu Lahlou",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Improved detection for withdrawn Dependabot alerts",
+      "link": "https://github.blog/changelog/2026-10-13-improved-detection-for-withdrawn-dependabot-alerts",
+      "published": "2026-10-13T14:03:57+00:00",
+      "summary": "You can now more easily detect withdrawn Dependabot alerts. Dependabot withdraws and removes an alert when the advisory or vulnerability that produced it is no longer valid. Two changes help… The post Improved detection for withdrawn Dependabot alerts appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Build AI-powered apps without creating a vector database",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/build-ai-powered-apps-without-creating-a-vector-database/",
+      "published": "2026-10-13T13:00:52+00:00",
+      "summary": "Developers building AI applications face a familiar challenge: how do you ground AI experiences in enterprise content while maintaining security, compliance, and governance? You can use the Microsoft 365 Copilot Retrieval API for SharePoint Embedded, which helps you add Microsoft 365 Copilot and...",
+      "blog": "Microsoft 365 Developer Blog",
+      "blogId": "m365devblog",
+      "author": "Steve Pucelik",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Search and filter for budgets now available",
+      "link": "https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available",
+      "published": "2026-10-13T12:06:09+00:00",
+      "summary": "The “Budgets and alerts” page in your GitHub billing settings now shows all of your budgets in one list that you can search and filter. Whether you manage budgets for… The post Search and filter for budgets now available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Code scanning AI Scan metrics in security overview",
+      "link": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
+      "published": "2026-10-13T12:03:17+00:00",
+      "summary": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the… The post Code scanning AI Scan metrics in security overview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "How to Retrieve SharePoint Sites with the Microsoft Graph PowerShell SDKh sites",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-retrieve-sharepoint-sites-with-the-microsoft-graph/m-p/4564101#M60083",
+      "published": "2026-10-13T09:39:19+00:00",
+      "summary": "If you use the Microsoft Graph PowerShell SDK, you might know that the Graph APIs for SharePoint sites sometimes need a little help. For instance, finding a set of sites to process can be problematic because the APIs do not support extensive filtering capabilities. The solution is to use other...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Client telemetry user attribution and configurable capture",
+      "link": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+      "published": "2026-10-12T22:38:00+00:00",
+      "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Call for perspectives: Endpoint Management Experiences of IT Professionals Survey",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/call-for-perspectives-endpoint-management-experiences-of-it/m-p/4563935#M23787",
       "published": "2026-10-12T20:05:16+00:00",
@@ -331,6 +499,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
+    },
+    {
+      "title": "What’s new in Microsoft Entra: October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-october-2026/ba-p/4556460",
+      "published": "2026-10-12T17:25:18+00:00",
+      "summary": "Over the last few months, I've spent a lot of time with customers and our teams on one of the biggest security shifts ahead of us: securing an enterprise where people and AI agents are both acting on behalf of the business. It’s a challenge shaping Microsoft's approach to Secure AI. And while AI...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Yina Arenas",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
     },
     {
       "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
@@ -391,6 +571,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Anonymous organization-level registries for Dependabot",
+      "link": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+      "published": "2026-10-12T14:04:16+00:00",
+      "summary": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror… The post Anonymous organization-level registries for Dependabot appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
     },
     {
       "title": "Regarding the update on the One Drive storage in Microsoft 365 Family",
@@ -465,18 +657,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "GitHub Copilot weekly releases — October 5",
-      "link": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-      "published": "2026-10-09T22:58:23+00:00",
-      "summary": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719",
       "published": "2026-10-09T22:00:58+00:00",
@@ -487,18 +667,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
-      "link": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
-      "published": "2026-10-09T21:32:54+00:00",
-      "summary": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find… The post CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Meeting setup in teams Channel is not allowing me to update the Agenda and send updates",
@@ -729,18 +897,6 @@
       "product": "Exchange"
     },
     {
-      "title": "Copilot code review: New organization billing options and controls",
-      "link": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
-      "published": "2026-10-08T19:43:05+00:00",
-      "summary": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot code review: New organization billing options and controls appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
       "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
       "published": "2026-10-08T19:09:00+00:00",
@@ -751,18 +907,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure SDK"
-    },
-    {
-      "title": "Triage role users or higher can now archive pull requests",
-      "link": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
-      "published": "2026-10-08T19:01:42+00:00",
-      "summary": "Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine… The post Triage role users or higher can now archive pull requests appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Power BI September 2026 Feature Summary",
@@ -813,18 +957,6 @@
       "product": "Azure Governance"
     },
     {
-      "title": "Screen readers can navigate timelines as lists",
-      "link": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
-      "published": "2026-10-08T16:00:56+00:00",
-      "summary": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,… The post Screen readers can navigate timelines as lists appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Microsoft Publisher - New Replacement Option!",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-publisher-new-replacement-option/m-p/4562948#M60058",
       "published": "2026-10-08T15:14:00+00:00",
@@ -835,18 +967,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Draft pull requests count toward pull request limits",
-      "link": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
-      "published": "2026-10-08T14:25:53+00:00",
-      "summary": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,… The post Draft pull requests count toward pull request limits appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "New Wiki Editor Experience",
@@ -969,18 +1089,6 @@
       "product": "Microsoft Sentinel"
     },
     {
-      "title": "Claude Haiku 5.5 in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "published": "2026-10-07T20:12:18+00:00",
-      "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early… The post Claude Haiku 5.5 in GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Managed Google Play apps not syncing completely to Intune",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/managed-google-play-apps-not-syncing-completely-to-intune/m-p/4562642#M23780",
       "published": "2026-10-07T18:50:11+00:00",
@@ -1039,18 +1147,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Purpose-built model for leaked secret detection",
-      "link": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
-      "published": "2026-10-07T16:13:56+00:00",
-      "summary": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model for leaked secret detection appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "3 lessons from frontier AI vulnerability research",
@@ -1540,18 +1636,6 @@
       "blog": "Microsoft 365 Blog",
       "blogId": "Microsoft-365",
       "author": "JohnNaguib",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "What's wrong with my XLOOKUP formula?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/what-s-wrong-with-my-xlookup-formula/m-p/4561932#M60015",
-      "published": "2026-10-03T19:32:29+00:00",
-      "summary": "I'm trying for the first time to define cells in an Excel worksheet with values selected from list, which is defined by a table. The table is in the same worksheet, to the right of my data columns. I was OK until I tried to make the cell look up the value in one table column (an ID) and display the...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "DevoutSkeptic",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
@@ -2713,12 +2797,12 @@
       "link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
       "published": "2026-09-28T19:00:00+00:00",
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Security",
+      "blogId": "githubsecurity",
       "author": "Kevin Stubbings",
-      "solutionArea": "CAIP",
+      "solutionArea": "Security",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Advanced Security"
     },
     {
       "title": "Get started with the GitHub Copilot app: a free, hands-on course",
@@ -3825,18 +3909,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-      "link": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-      "published": "2026-09-17T00:26:43+00:00",
-      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Stephen Toub",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
       "title": "Running GitHub Actions Runner Controller on AKS Automatic",
       "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
       "published": "2026-09-17T00:00:00+00:00",
@@ -4027,18 +4099,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Moving off ODBC — A self-serve scanner for your ADBC migration",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Moving-off-ODBC-A-self-serve-scanner-for-your-ADBC-migration/ba-p/5365622",
-      "published": "2026-09-15T19:00:00+00:00",
-      "summary": "If your Fabric workspace connects to an ODBC driver, and you haven’t already moved to the ADBC driver, you’re on the ODBC → ADBC migration path. The migration window is already open — the sooner you start, the more room you have to validate.What’s happeningPower Query is transitioning from legacy...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "MichaelaIsaacs",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Public Preview Annoucement: Azure Policy Custom Policy Versioning!",
@@ -4243,18 +4303,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Diagnose Fabric Data Warehouse workloads with the SQL DW operations skill (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Diagnose-Fabric-Data-Warehouse-workloads-with-the-SQL-DW/ba-p/5366102",
-      "published": "2026-09-14T17:00:00+00:00",
-      "summary": "When a warehouse slows down, the investigation usually starts with more questions than answers. Was there a capacity spike? Did a specific query suddenly become expensive? Are requests failing, being canceled, or simply taking longer than usual? Answering those questions often requires switching...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "Mariyaali",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Windows 11 Insider Preview Feature Update (26220.9472) Fails",
