@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-13T18:44:37.884103+00:00",
-  "totalArticles": 340,
+  "lastUpdated": "2026-10-14T16:17:53.296858+00:00",
+  "totalArticles": 343,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,150 @@
   },
   "articles": [
     {
+      "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
+      "link": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
+      "published": "2026-10-14T15:38:56+00:00",
+      "summary": "Learn how Azure Content Understanding grounding, field-level confidence, and calibration help teams prioritize human review and build reliable document workflows. The post From extraction to action: Using grounding and confidence to build reliable document workflows appeared first on Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik, Colin Murphy",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "New Tools, New Workflows and the Value of the Visual Studio Subscription: What We Learned at VSLive! San Diego",
+      "link": "https://devblogs.microsoft.com/visualstudio/new-tools-new-workflows-and-the-value-of-the-visual-studio-subscription-what-we-learned-at-vslive-san-diego/",
+      "published": "2026-10-14T14:00:25+00:00",
+      "summary": "What happens when developers who have spent decades working with Visual Studio start rethinking how they write code, learn new skills, and expand their access to development tools? At VSLive! San Diego, we had an opportunity to find out as developers gathered for five days of technical sessions,...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "GitHub Actions workflow lockfiles in public preview",
+      "link": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+      "published": "2026-10-14T13:49:15+00:00",
+      "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud and GitHub Enterprise Cloud with data residency. Tags and branches can move after you review a… The post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Build a Simple GPU-Enabled Kubernetes Cluster on Azure N-Series VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/build-a-simple-gpu-enabled-kubernetes-cluster-on-azure-n-series/ba-p/4564410",
+      "published": "2026-10-14T13:39:03+00:00",
+      "summary": "Audience: Platform engineers, ML engineers, and developers who need a small, understandable GPU development cluster without the abstraction of a managed Kubernetes service. Reference topology: Role Azure VM size Operating system Purpose Control plane Standard_D8s_v6 Ubuntu 24.04 LTS API server,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "vinilv",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
+    },
+    {
+      "title": "Tracking File-Level Archiving Activity in SharePoint Online with PowerShell",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/tracking-file-level-archiving-activity-in-sharepoint-online-with/m-p/4564445#M60088",
+      "published": "2026-10-14T09:57:13+00:00",
+      "summary": "File-level archiving is now generally available and can be applied to files automatically, by users through the SharePoint browser UX, or via a Graph API. The big problem with Purview retention processing is its black box nature, so to discover how effective retention labels with an archiving step...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "GitHub App improvements for least privilege and management",
+      "link": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+      "published": "2026-10-13T23:17:55+00:00",
+      "summary": "We’re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We’ve also made it easier for… The post GitHub App improvements for least privilege and management appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "File Data Ingestion with Materialized Lake Views in Microsoft Fabric (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/File-Data-Ingestion-with-Materialized-Lake-Views-in-Microsoft/ba-p/5367801",
+      "published": "2026-10-13T21:00:00+00:00",
+      "summary": "File data ingestion with materialized lake views (MLVs) in Microsoft Fabric is now available in preview. Instead of building separate ingestion pipelines to move raw files into tables, you can now ingest CSV and Parquet files directly from OneLake into a materialized lake view and make your bronze...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "hareshgowri",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "October Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
+      "published": "2026-10-13T20:20:06+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Azure DevOps"
+    },
+    {
+      "title": "Announcing .NET 11 Release Candidate 2",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/",
+      "published": "2026-10-13T19:40:00+00:00",
+      "summary": ".NET 11 Release Candidate 2 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 2 appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": ".NET Team",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Amazon Redshift V2 Connector for Microsoft Data Factory",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Amazon-Redshift-V2-Connector-for-Microsoft-Data-Factory/ba-p/5365631",
+      "published": "2026-10-13T19:00:00+00:00",
+      "summary": "Microsoft is updating our Amazon Redshift connector to use the new Amazon Redshift ODBC 2.x driver. What’s new and why upgrade Microsoft and Amazon Redshift have been collaborating to provide our shared customers with an industry-leading, improved security, connectivity experience. The new driver...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "MichaelaIsaacs",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Fabric September 2026 Feature Summary",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-September-2026-Feature-Summary/ba-p/5325825",
+      "published": "2026-10-13T18:52:04+00:00",
+      "summary": "If you haven't already, check out FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and Agents for a complete look at all of our FabCon Europe announcements across Fabric and Microsoft Databases. Welcome to the September 2026 Fabric Feature Summary! As the...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "murray-kp",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "published": "2026-10-13T18:39:56+00:00",
+      "summary": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Audit GitHub Code Quality finding dismissals and reopenings",
       "link": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
       "published": "2026-10-13T17:58:36+00:00",
@@ -321,6 +465,18 @@
       "product": "Microsoft Fabric"
     },
     {
+      "title": "Microsoft at OCP Global Summit 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-ocp-global-summit-2026/ba-p/4562337",
+      "published": "2026-10-13T16:28:02+00:00",
+      "summary": "At OCP Global Summit 2026, Microsoft will showcase how we’re advancing the infrastructure needed to scale AI, from silicon and systems to the datacenter. Visit Microsoft at booth C73 At Booth C73, get a closer look at Cobalt 200 and Maia silicon, advanced cooling, sustainability demonstrations, and...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ceciliaxia",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
       "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
       "link": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
       "published": "2026-10-13T16:12:36+00:00",
@@ -333,6 +489,42 @@
       "product": "GitHub"
     },
     {
+      "title": "Networking for the AI era: Building for scale, efficiency, and openness",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/networking-for-the-ai-era-building-for-scale-efficiency-and/ba-p/4563036",
+      "published": "2026-10-13T16:00:00+00:00",
+      "summary": "AI is fundamentally changing what we ask of the network. As models become more capable and AI systems grow larger, adding more compute is only part of the challenge. Today’s largest AI systems bring together hundreds of thousands of accelerators in a datacenter, while AI infrastructure increasingly...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "sdighe",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Powering Azure infrastructure from grid to chip",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/powering-azure-infrastructure-from-grid-to-chip/ba-p/4563890",
+      "published": "2026-10-13T16:00:00+00:00",
+      "summary": "As AI infrastructure scales, power availability is increasingly setting the ceiling on how much compute we can deploy. With workloads evolving towards long-context reasoning and memory-intensive agentic tasks, the power envelope of operating AI at scale has changed dramatically. High density AI...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "mariozeng",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Advancing AI fleet reliability through industry collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353",
+      "published": "2026-10-13T16:00:00+00:00",
+      "summary": "Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability, and reliability is more important than ever. Large-scale, multi-vendor AI clusters introduce significant operational complexity. Accelerators,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Rama_Bhimanadhuni",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
       "title": "My workspace governance improvements (Generally Available)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/My-workspace-governance-improvements-Generally-Available/ba-p/5368442",
       "published": "2026-10-13T16:00:00+00:00",
@@ -343,6 +535,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Advancing hardware security through open-source collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-hardware-security-through-open-source-collaboration/ba-p/4563581",
+      "published": "2026-10-13T15:59:12+00:00",
+      "summary": "At the Open Compute Project Global Summit, we introduced six open security innovations spanning hardware-protected key management, platform resilience, system-wide attestation, scalable bare-metal management, recovery, and silicon hardening: Tessera Integrated HSM, an open-source silicon HSM...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Bryankel",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
     },
     {
       "title": "Enterprise managed settings enforcement updates",
@@ -465,6 +669,18 @@
       "product": "Microsoft Intune"
     },
     {
+      "title": ".NET and .NET Framework October 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates/",
+      "published": "2026-10-12T20:00:00+00:00",
+      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for October 2026. The post .NET and .NET Framework October 2026 servicing releases updates appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Rahul Bhandari (MSFT), Tara Overfield",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
       "title": "What’s new for Business Events and real-time events in Microsoft Fabric",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/What-s-new-for-Business-Events-and-real-time-events-in-Microsoft/ba-p/5367401",
       "published": "2026-10-12T19:00:00+00:00",
@@ -525,30 +741,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Fabric September 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-September-2026-Feature-Summary/ba-p/5325825",
-      "published": "2026-10-12T16:56:01+00:00",
-      "summary": "If you haven't already, check out FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and Agents for a complete look at all of our FabCon Europe announcements across Fabric and Microsoft Databases. Welcome to the September 2026 Fabric Feature Summary! As the...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Push attribution for commits in limited public preview",
-      "link": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
-      "published": "2026-10-12T16:30:11+00:00",
-      "summary": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution for commits in limited public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Durable Task in the Real World: What Problems Does It Actually Solve?",
       "link": "https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world/",
       "published": "2026-10-12T16:30:00+00:00",
@@ -571,18 +763,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Anonymous organization-level registries for Dependabot",
-      "link": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
-      "published": "2026-10-12T14:04:16+00:00",
-      "summary": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror… The post Anonymous organization-level registries for Dependabot appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Regarding the update on the One Drive storage in Microsoft 365 Family",
@@ -619,30 +799,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Advancing AI fleet reliability through industry collaboration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353",
-      "published": "2026-10-12T02:43:13+00:00",
-      "summary": "Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability, and reliability is more important than ever. Large-scale, multi-vendor AI clusters introduce significant operational complexity. Accelerators,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Rama_Bhimanadhuni",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "New controls and chat improvements in Copilot for JetBrains",
-      "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-      "published": "2026-10-10T18:53:39+00:00",
-      "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
@@ -751,18 +907,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Microsoft at OCP Global Summit 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-ocp-global-summit-2026/ba-p/4562337",
-      "published": "2026-10-09T15:17:37+00:00",
-      "summary": "At OCP Global Summit 2026, Microsoft will showcase how we’re advancing the infrastructure needed to scale AI, from silicon and systems to the datacenter. Come visit Microsoft at Booth C73 and hear from Microsoft leaders and experts through our keynote and sessions, panels, and workshops across the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ceciliaxia",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
     },
     {
       "title": "Microsoft account login help: How to sign in to a Microsoft account",
@@ -1624,18 +1768,6 @@
       "blog": "Microsoft 365 Blog",
       "blogId": "Microsoft-365",
       "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Teams Audio Cuts Out When a Notification Arrives? Here’s How to Fix It",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/teams-audio-cuts-out-when-a-notification-arrives-here-s-how-to/m-p/4561992#M60021",
-      "published": "2026-10-04T15:13:52+00:00",
-      "summary": "You’re watching a video or sitting in a Teams call, everything is working normally, and then a Microsoft Teams message arrives. Suddenly, the video stutters, the audio freezes for a second, or the entire call sounds like it has been interrupted. link to the post",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JohnNaguib",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
@@ -3849,18 +3981,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Mirroring for Google BigQuery in Microsoft Fabric (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Mirroring-for-Google-BigQuery-in-Microsoft-Fabric-Generally/ba-p/5364851",
-      "published": "2026-09-17T16:24:38+00:00",
-      "summary": "Mirroring for Google BigQuery in Microsoft Fabric is now generally available. For organizations running critical workloads on BigQuery, this means a simpler, faster, and lower-cost path to bringing your data into the rest of your analytics estate — with production support, an enterprise SLA, and no...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "MichaelaIsaacs",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Manage semantic model settings in context with the default settings pane (Preview)",
       "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Manage-semantic-model-settings-in-context-with-the-default/ba-p/5366792",
       "published": "2026-09-17T16:00:00+00:00",
@@ -4185,18 +4305,6 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Performance Improvements in .NET 11",
-      "link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
-      "published": "2026-09-15T12:00:00+00:00",
-      "summary": "Take a tour through hundreds of performance improvements in .NET 11. The post Performance Improvements in .NET 11 appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Stephen Toub - MSFT",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
       "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
       "published": "2026-09-15T11:00:34+00:00",
@@ -4291,78 +4399,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Share your .NET story with the community",
-      "link": "https://devblogs.microsoft.com/dotnet/share-your-dotnet-story/",
-      "published": "2026-09-14T17:05:00+00:00",
-      "summary": "Share how your team uses .NET to solve real problems and help us bring more community stories to .NET Conf 2026 and other .NET channels. The post Share your .NET story with the community appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Luis Quintanilla",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "Windows 11 Insider Preview Feature Update (26220.9472) Fails",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9472-fails/m-p/4556313#M45136",
-      "published": "2026-09-14T13:45:12+00:00",
-      "summary": "I ran the Windows Update troubleshooter and it sent me here.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "4xRant",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Windows11 Insider Preview 29667.1000 fails to install, stuck in boot window",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows11-insider-preview-29667-1000-fails-to-install-stuck-in/m-p/4556283#M45134",
-      "published": "2026-09-14T11:02:21+00:00",
-      "summary": "Windows11 Insider Preview 29667.1000 fails to install; it gets stuck in the boot window. After 2 reboots, it has been in the boot window for over 3 hours. I had to force-shut the system twice and reboot back to the existing Win 11 26H2. Any solution, anyone?",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Dineshh",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "BitLocker suspended by recent hotpatch?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/bitlocker-suspended-by-recent-hotpatch/m-p/4556282#M23745",
-      "published": "2026-09-14T11:00:42+00:00",
-      "summary": "We appear to have seen BitLocker get suspended by an automated process this past month or so (since August 2026 Patch Tuesday or thereafter) and left that way. Has anyone else seen their estate do this? We're using Autopatch with hotpatch updates. My No.1 suspect is KB5123607 but I've not yet been...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "AndrewMcN_SFRS",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "No matter what I try, Windows Update always says that my PC is up to date.",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/no-matter-what-i-try-windows-update-always-says-that-my-pc-is-up/m-p/4556201#M45132",
-      "published": "2026-09-14T09:34:16+00:00",
-      "summary": "After installing Windows 11 Insider Experimental (Future Platforms) Preview Build 29639.1000.rs using an ISO, I registered for the Windows Insider Program and signed in with my Insider account. I also submitted a bug report.Later, after an engineer informed me that the bug had been fixed, I tried...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "vincent463_re0",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
-      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon/",
-      "published": "2026-09-14T07:00:00+00:00",
-      "summary": "ISE hackathon produced a reusable Japanese LLM evaluation pipeline with multi-turn, facet-based scoring, cross-provider model support, and publication-ready benchmarking outputs. The post Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon appeared first on ISE Developer...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Jaein Tak, Akihiro Inui, Kohei Saito",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "ISE"
     }
   ]
 }
