@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-16T15:53:41.591729+00:00",
-  "totalArticles": 343,
+  "lastUpdated": "2026-10-17T14:46:49.385478+00:00",
+  "totalArticles": 338,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,66 @@
   },
   "articles": [
     {
+      "title": "Released: October 2026 Exchange Server Security Updates",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-october-2026-exchange-server-security-updates/ba-p/4563014",
+      "published": "2026-10-17T01:07:04+00:00",
+      "summary": "Update October 16, 2026: For more information related to installation of October 2026 updates for Windows Server and the possible impact on Exchange Server, please see Exchange servers may become unstable after installation of October 2026 Windows updates | Microsoft Community Hub. Microsoft has...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Exchange servers may become unstable after installation of October 2026 Windows updates",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-servers-may-become-unstable-after-installation-of/ba-p/4565382",
+      "published": "2026-10-17T01:02:06+00:00",
+      "summary": "Since October 13, 2026 (Microsoft “Patch Tuesday” release cycle), we have seen some reports of customer issues where Exchange Servers become unstable after a set of October updates are installed. Symptoms that can be seen are various, but here are some: Exchange Server OWA may fail with an error...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "Master Microsoft Entra with live webinars, AMAs, and on-demand videos",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/master-microsoft-entra-with-live-webinars-amas-and-on-demand/ba-p/4502147",
+      "published": "2026-10-16T21:53:24+00:00",
+      "summary": "The identity security landscape never stands still, and neither should your knowledge. With evolving scenarios such as Zero Trust adoption, AI-driven automation, and hybrid security strategies, staying informed is essential. That’s exactly what we want to do together with you – stay ahead and be...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Irina_Nechaeva",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "What’s new in Microsoft Entra: October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-october-2026/ba-p/4556460",
+      "published": "2026-10-16T16:25:24+00:00",
+      "summary": "Over the last few months, I've spent a lot of time with customers and our teams on one of the biggest security shifts ahead of us: securing an enterprise where people and AI agents are both acting on behalf of the business. It’s a challenge shaping Microsoft's approach to Secure AI. And while AI...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Yina Arenas",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "published": "2026-10-16T16:00:00+00:00",
+      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Michael Scovetta",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/threat-modeling-azure-mcp-securing-ai-assisted-infrastructure/ba-p/4564892",
       "published": "2026-10-16T15:14:27+00:00",
@@ -307,6 +367,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "Windows 11 Insider Preview Feature Update (26220.9606) 安装错误 - 0xc1900204",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9606-%E5%AE%89%E8%A3%85%E9%94%99%E8%AF%AF/m-p/4565181#M45294",
+      "published": "2026-10-16T09:48:09+00:00",
+      "summary": "Windows 11 Insider 预览功能更新（26220.9606）安装错误 - 0xc1900204",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "米勒",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Automating Microsoft 365 with PowerShell Update 29",
@@ -393,10 +465,10 @@
       "product": "Windows"
     },
     {
-      "title": "Multi-repo support and other improvements for GitHub in Slack and Teams",
+      "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
       "link": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
       "published": "2026-10-16T02:16:35+00:00",
-      "summary": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or… The post Multi-repo support and other improvements for GitHub in Slack and Teams...",
+      "summary": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories… The post Multi-repository support and other improvements for GitHub in Slack and...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -583,18 +655,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Released: October 2026 Exchange Server Security Updates",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-october-2026-exchange-server-security-updates/ba-p/4563014",
-      "published": "2026-10-15T16:36:50+00:00",
-      "summary": "Update October 15, 2026: We have received reports indicating that installation of October 2026 updates for Windows Server - KB5126646 (Windows Server 2025), KB5126655 (Windows Server 2022), KB5126651 (Windows Server 2019) or KB5126868 (Windows Server 2016) - can cause Exchange Server OWA to fail...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
     },
     {
       "title": "AI Scan for pull requests generally available",
@@ -1125,18 +1185,6 @@
       "product": ".NET"
     },
     {
-      "title": "Amazon Redshift V2 Connector for Microsoft Data Factory",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Amazon-Redshift-V2-Connector-for-Microsoft-Data-Factory/ba-p/5365631",
-      "published": "2026-10-13T19:00:00+00:00",
-      "summary": "Microsoft is updating our Amazon Redshift connector to use the new Amazon Redshift ODBC 2.x driver. What’s new and why upgrade Microsoft and Amazon Redshift have been collaborating to provide our shared customers with an industry-leading, improved security, connectivity experience. The new driver...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "MichaelaIsaacs",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
       "title": "Fabric September 2026 Feature Summary",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-September-2026-Feature-Summary/ba-p/5325825",
       "published": "2026-10-13T18:52:04+00:00",
@@ -1375,18 +1423,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "What’s new in Microsoft Entra: October 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-october-2026/ba-p/4556460",
-      "published": "2026-10-12T17:25:18+00:00",
-      "summary": "Over the last few months, I've spent a lot of time with customers and our teams on one of the biggest security shifts ahead of us: securing an enterprise where people and AI agents are both acting on behalf of the business. It’s a challenge shaping Microsoft's approach to Secure AI. And while AI...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Yina Arenas",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
     },
     {
       "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
@@ -3177,18 +3213,6 @@
       "product": "Azure Storage"
     },
     {
-      "title": "​​Beyond source code: A path to the keys to the kingdom",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-      "published": "2026-09-29T16:00:00+00:00",
-      "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Defender Experts Cybersecurity Incident Response",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
       "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
       "published": "2026-09-29T15:00:22+00:00",
@@ -4315,90 +4339,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Automating Azure Managed Redis capacity acquisition with bounded retries",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/automating-azure-managed-redis-capacity-acquisition-with-bounded/ba-p/4546462",
-      "published": "2026-09-17T04:15:00+00:00",
-      "summary": "TL;DR: Azure Managed Redis has no capacity-reporting API. This PowerShell poller safely rotates real creation attempts across approved regions and SKUs until one succeeds. Who this is for: Azure platform engineers, application owners, and site reliability engineers who need an Azure Managed Redis...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "varghesejoji",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Running GitHub Actions Runner Controller on AKS Automatic",
-      "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
-      "published": "2026-09-17T00:00:00+00:00",
-      "summary": "Create an AKS Automatic cluster, install Actions Runner Controller, and run a GitHub Actions workflow on ephemeral runner pods in your Azure network.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "AKS"
-    },
-    {
-      "title": "The bottleneck isn't AI. It's transformation capacity.",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/the-bottleneck-isn-t-ai-it-s-transformation-capacity/ba-p/4557214",
-      "published": "2026-09-16T19:17:48+00:00",
-      "summary": "AI everywhere, except at scale Ask almost any operator where they are with AI and the answer sounds impressive. Hundreds of potential use cases. Dozens of pilots in play. Multiple foundation models, thousands of agents, several data platforms, and a meaningful share of infrastructure already...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "MOHON",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Telecom"
-    },
-    {
-      "title": "Improve Campaign Reach and Measurement with Azure Confidential Clean Rooms",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/improve-campaign-reach-and-measurement-with-azure-confidential/ba-p/4556346",
-      "published": "2026-09-16T18:56:16+00:00",
-      "summary": "Why campaign performance now depends on trusted data collaboration For many years, third-party cookies helped advertisers, publishers, and measurement partners recognize users across parts of the open web. That model continues to evolve as browsers and mobile platforms introduce stronger privacy...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "Deepak_JV",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Confidential Computing"
-    },
-    {
-      "title": "Windows 11 Home Insider Preview v 10.0.26220 Build 26220. Windows Update is failing.",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-home-insider-preview-v-10-0-26220-build-26220-windows/m-p/4557212#M45145",
-      "published": "2026-09-16T17:36:56+00:00",
-      "summary": "I found the root cause in the log: Windows Update is reaching Microsoft, but its Microsoft Store/AppX update pipeline is stuck in an existing deployment. It repeatedly reports WU_E_OPERATIONINPROGRESS.There are older intermittent network/certificate errors (0x8024402C, 0x800B0109), but the affected...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "mrfreepress",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Replace VPN access with identity-driven security",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/replace-vpn-access-with-identity-driven-security/ba-p/4529309",
-      "published": "2026-09-16T16:30:30+00:00",
-      "summary": "Traditional VPNs no longer fit the security or agility needs of modern enterprises. Static tunnels, device trust assumptions, and network-level access introduce risk in a Zero Trust world. Microsoft Entra Private Access offers a different path. As a component of Global Secure Access, it is designed...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "SuleTatar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Investing in a more reliable Microsoft Graph PowerShell experience",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/investing-in-a-more-reliable-microsoft-graph-powershell-experience/",
-      "published": "2026-09-16T16:02:40+00:00",
-      "summary": "We’re focusing Microsoft Graph PowerShell on the platform where we can give you the most reliable, capable, and well-maintained experience: PowerShell 7.x and later. Built on modern .NET, PowerShell 7.x resolves many of the underlying assembly-loading and dependency issues that affect Windows...",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "Microsoft Graph team, Barry Gervin, Gavin Barron",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     }
   ]
 }
