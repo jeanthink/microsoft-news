@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-19T18:06:17.177343+00:00",
-  "totalArticles": 332,
+  "lastUpdated": "2026-10-20T16:08:56.273992+00:00",
+  "totalArticles": 337,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,40 +285,124 @@
   },
   "articles": [
     {
-      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
-      "published": "2026-10-19T18:02:57+00:00",
-      "summary": "Today, we're announcing pricing for Azure Logic Apps Automation, now in public preview, along with monthly free grants that make it easier to start building, experimenting, and bringing automations to life. Logic Apps Automation is Azure's fully managed platform for business process automation and...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "published": "2026-10-20T16:05:03+00:00",
+      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Julien Dubois",
       "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
+      "billingType": "License",
+      "product": "GitHub"
     },
     {
-      "title": "Five Web IQ use cases: bring the outside world into your AI agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/five-web-iq-use-cases-bring-the-outside-world-into-your-ai-agent/ba-p/4565273",
-      "published": "2026-10-19T17:52:31+00:00",
-      "summary": "Our previous blog post covers how Web IQ retrieves web content. This post covers where to use it: five workflows where web evidence makes an AI agent’s answers more useful. Better AI decisions start with the full picture AI agents and applications are only as useful as the information they can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "robertocarli",
-      "solutionArea": "CAIP",
+      "title": "New analytical functions in Microsoft Fabric Data Warehouse (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-analytical-functions-in-Microsoft-Fabric-Data-Warehouse/ba-p/5375432",
+      "published": "2026-10-20T16:00:00+00:00",
+      "summary": "Microsoft Fabric Data Warehouse and the SQL analytics endpoint now support new analytical functions in preview. SQL developers and data professionals can calculate medians, quantiles, and percentiles with concise, maintainable T-SQL queries. What’s new in preview MEDIAN — returns the middle value...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "jovanpop-msft",
+      "solutionArea": "AIBS",
       "billingType": "PAYGO",
-      "product": "Azure Community"
+      "product": "Microsoft Fabric"
     },
     {
-      "title": "Web IQ: Web Search and Grounding APIs for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/web-iq-web-search-and-grounding-apis-for-ai-agents/ba-p/4565272",
-      "published": "2026-10-19T17:50:21+00:00",
-      "summary": "AI applications are only as good as the information they reason from. A model can plan, summarize, and write code at a high level, but its built-in knowledge is bound by its training data. When an AI application needs to know what happened today, understand a recently updated regulation, or find a...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "robertocarli",
+      "title": "Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4",
+      "link": "https://github.blog/changelog/2026-10-20-dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-1-4",
+      "published": "2026-10-20T13:52:38+00:00",
+      "summary": "You can now upgrade your projects to npm 12, pnpm 11 or 12, or Bun 1.4 and keep receiving Dependabot updates. Support for these package manager versions is available to… The post Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
       "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Why the Microsoft Graph PowerShell SDK has Two Cmdlets to Add Group Members",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/why-the-microsoft-graph-powershell-sdk-has-two-cmdlets-to-add/m-p/4566080#M60121",
+      "published": "2026-10-20T08:22:06+00:00",
+      "summary": "It’s a consequence of how the Microsoft Graph PowerShell SDK is built that two cmdlets are available to add members to Entra ID groups (the same is true for group owners). The reason why the New-MgGroupMember and New-MgGroupMemberByRef cmdlets exist is down to how the Graph SDK build process...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Work IQ: the new retrieve tool",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/work-iq-retrieve-october-2026/",
+      "published": "2026-10-20T07:00:57+00:00",
+      "summary": "The new Work IQ Retrieve tool grounds agents in the context of work, helping them reason over the right information and deliver more relevant, trustworthy responses. With one retrieval layer across work sources, developers can give agents richer organizational context without building separate...",
+      "blog": "Microsoft 365 Developer Blog",
+      "blogId": "m365devblog",
+      "author": "Paolo Pialorsi",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "link": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "published": "2026-10-19T21:32:18+00:00",
+      "summary": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy API for enterprise, orgs, and teams appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "link": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "published": "2026-10-19T21:27:10+00:00",
+      "summary": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These… The post GitHub Copilot models deprecated on October 19, 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Fabric Data Warehouse integration with Fabric User Data Functions (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Fabric-Data-Warehouse-integration-with-Fabric-User-Data/ba-p/5375137",
+      "published": "2026-10-19T21:00:00+00:00",
+      "summary": "Microsoft Fabric Data Warehouse now integrates with Fabric User Data Functions in preview, so you can extend T-SQL with custom Python logic without building separate applications or pipelines. Use the integration to send email or Teams messages, retrieve parameters and secrets from Fabric variable...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "jovanpop-msft",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+      "published": "2026-10-19T18:47:22+00:00",
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Kayla Cinnamon",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Troubleshooting playbook for Auto labelling in SharePoint and OneDrive",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/troubleshooting-playbook-for-auto-labelling-in-sharepoint-and/ba-p/4564103",
+      "published": "2026-10-19T18:38:09+00:00",
+      "summary": "Auto-labeling policies are how most organizations label the backlog of files at rest, and with the tenant ceiling now up to 500,000 files a day, more teams run them at scale. When a policy doesn't label what you expect, the cause is almost always a missing prerequisite, simulation behavior or the...",
+      "blog": "Microsoft Purview",
+      "blogId": "microsoft-purview-blog",
+      "author": "Harysh9",
+      "solutionArea": "Security",
       "billingType": "PAYGO",
-      "product": "Azure Community"
+      "product": "Microsoft Purview"
     },
     {
       "title": "Making ACR Data Transfer Visible: The Storage Activity Platform Behind GetBlob Metrics",
@@ -331,18 +415,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Connect Azure Service Bus to other messaging systems with a JMS bridge",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/connect-azure-service-bus-to-other-messaging-systems-with-a-jms/ba-p/4564885",
-      "published": "2026-10-19T17:00:00+00:00",
-      "summary": "A JMS bridge connects existing messaging workloads to Azure Service Bus while their applications continue to use their current broker. In this post, we look at an on-premises IBM MQ application sending order events to a workload in Azure through Azure Service Bus Premium. IBM MQ is one example; the...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Messaging"
     },
     {
       "title": "Retiring the Fabric data agent custom tool in Microsoft Foundry: move to Fabric IQ",
@@ -513,6 +585,18 @@
       "product": "Azure Integration"
     },
     {
+      "title": "Stuck at Build 27754.1000 in Canary Channel",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/stuck-at-build-27754-1000-in-canary-channel/m-p/4565651#M45311",
+      "published": "2026-10-18T21:06:06+00:00",
+      "summary": "I've been stuck at build 27754.1000 in the Canary Channel for quite a while now. Winver shows: Due to hardware problems, I had to install a new motherboard and CPU. The Windows Insider screen in Settings shows: I need to get back in the Canary Channel or leave the Insider program since I'm not...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "mrmilt",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
       "title": "Why AI Agents Need External Grounding",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-ai-agents-need-external-grounding/ba-p/4565283",
       "published": "2026-10-18T15:00:00+00:00",
@@ -520,6 +604,30 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "bkingms",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Five Web IQ use cases: bring the outside world into your AI agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/five-web-iq-use-cases-bring-the-outside-world-into-your-ai-agent/ba-p/4565273",
+      "published": "2026-10-17T19:00:00+00:00",
+      "summary": "Our previous blog post covers how Web IQ retrieves web content. This post covers where to use it: five workflows where web evidence makes an AI agent’s answers more useful. Better AI decisions start with the full picture AI agents and applications are only as useful as the information they can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "robertocarli",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Web IQ: Web Search and Grounding APIs for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/web-iq-web-search-and-grounding-apis-for-ai-agents/ba-p/4565272",
+      "published": "2026-10-17T17:13:53+00:00",
+      "summary": "AI applications are only as good as the information they reason from. A model can plan, summarize, and write code at a high level, but its built-in knowledge is bound by its training data. When an AI application needs to know what happened today, understand a recently updated regulation, or find a...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "robertocarli",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
@@ -933,18 +1041,6 @@
       "product": ".NET"
     },
     {
-      "title": "AI Scan for pull requests generally available",
-      "link": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
-      "published": "2026-10-15T15:04:51+00:00",
-      "summary": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently… The post AI Scan for pull requests generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "The New Unified Events Experience in Microsoft Teams: Webinars & Town Halls in One Place",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/the-new-unified-events-experience-in-microsoft-teams-webinars/m-p/4564842#M145386",
       "published": "2026-10-15T15:03:15+00:00",
@@ -991,30 +1087,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Agentic autofix for code scanning alerts general availability",
-      "link": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
-      "published": "2026-10-15T13:49:20+00:00",
-      "summary": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,… The post Agentic autofix for code scanning alerts general availability appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Email notifications for repository push events have been retired",
-      "link": "https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired",
-      "published": "2026-10-15T13:42:19+00:00",
-      "summary": "As of October 15, 2026, email notifications for repository push events have been retired and are no longer sent. We shut down this feature to help prevent spam and abuse.… The post Email notifications for repository push events have been retired appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
@@ -1845,18 +1917,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Why Don't Tasks Assigned To Me in Microsoft Planner Don't Show Up in To Do?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/why-don-t-tasks-assigned-to-me-in-microsoft-planner-don-t-show/m-p/4563261#M60063",
-      "published": "2026-10-09T15:26:15+00:00",
-      "summary": "I have two plans set up in Microsoft Planner. When I assign tasks to myself in one of the plans they show up as assigned to me in Microsoft To-Do, however in the other plan which is in a different group that I'm a member of, the tasks assigned to me do not show up in Microsoft To-Do. Why is it they...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JBLT-77",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Azure Managed Redis Deployment Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
       "published": "2026-10-09T12:30:36+00:00",
@@ -2049,6 +2109,18 @@
       "product": "Microsoft Intune"
     },
     {
+      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
+      "published": "2026-10-08T08:03:09+00:00",
+      "summary": "Today, we're announcing pricing for Azure Logic Apps Automation, now in public preview, along with monthly free grants that make it easier to start building, experimenting, and bringing automations to life. Logic Apps Automation is Azure's fully managed platform for business process automation and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
       "title": "Faster by Design: Performance engineering in the Microsoft JDBC Driver for SQL Server",
       "link": "https://devblogs.microsoft.com/java/faster-by-design-performance-engineering-in-the-microsoft-jdbc-driver-for-sql-server/",
       "published": "2026-10-08T07:25:06+00:00",
@@ -2101,12 +2173,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
       "published": "2026-10-07T17:45:34+00:00",
       "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Erin Havens",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Planning in Microsoft Fabric: From insight to action",
@@ -2269,8 +2341,8 @@
       "link": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
       "published": "2026-10-06T20:57:56+00:00",
       "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Engineering",
+      "blogId": "githubengineering",
       "author": "Brian Celenza",
       "solutionArea": "CAIP",
       "billingType": "License",
@@ -3019,18 +3091,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Arc"
-    },
-    {
-      "title": "Bringing governed analytics into the flow of work: Fabric Analytics at FabCon Europe 2026",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bringing-governed-analytics-into-the-flow-of-work-Fabric/ba-p/5368918",
-      "published": "2026-09-30T16:11:44+00:00",
-      "summary": "If you haven't already, check out FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and Agents for a complete look at all of our FabCon Europe announcements across Fabric and Microsoft Databases. An end-to-end look at what's new in Fabric Analytics and how...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "bogdanc",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Build, deploy, and govern Microsoft Fabric at scale",
