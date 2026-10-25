@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-24T15:11:19.796367+00:00",
-  "totalArticles": 352,
+  "lastUpdated": "2026-10-25T15:22:42.301833+00:00",
+  "totalArticles": 342,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -319,6 +319,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-10-23T20:17:17+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Azure Network Security"
     },
     {
       "title": "Before Your Next Azure VM Refresh, Revisit the PaaS Options",
@@ -4375,138 +4387,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Improving site performance by shipping more CSS",
-      "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
-      "published": "2026-09-25T15:00:00+00:00",
-      "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog.",
-      "blog": "GitHub Engineering",
-      "blogId": "githubengineering",
-      "author": "Josh Black",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Unable to upgrade to the preview edition",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/unable-to-upgrade-to-the-preview-edition/m-p/4559806#M45194",
-      "published": "2026-09-25T07:49:33+00:00",
-      "summary": "I can't upgrade to the preview edition properly. Even though I'm a preview member, the preview button in settings does show that I'm on the latest Cancry channel, but the Windows version displayed in the settings is 25H2. And on the Windows update page, it says the Windows 11 Insider Preview...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Moon407",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Troubleshooting Azure Storage Deletion: Immutability, WORM, and Version Retention",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/troubleshooting-azure-storage-deletion-immutability-worm-and/ba-p/4559051",
-      "published": "2026-09-25T04:15:53+00:00",
-      "summary": "One of the most common questions Azure Storage administrators ask after enabling immutable storage is: \"Why can't I delete my storage account anymore?\" Azure Immutable Storage is designed to provide WORM (Write Once, Read Many) protection, ensuring that data cannot be modified or deleted during a...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "carlosbermudezlopez",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure PaaS"
-    },
-    {
-      "title": "Getting the best out of Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-the-best-out-of-azure-sre-agent/ba-p/4559745",
-      "published": "2026-09-24T20:24:01+00:00",
-      "summary": "A common question that we get from our customers is \"Hey guys, we are excited about SRE agent and we 've created one but whats the best way to configure it?\". The below guide aims at sharing some of the best practices that anyone can follow to make the most out of our SRE Agent. This guide is based...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "puneetguptams",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "When chat is the wrong UI",
-      "link": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-      "published": "2026-09-24T20:00:00+00:00",
-      "summary": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. The post When chat is the wrong UI appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Burke Holland",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "Introducing bicep docs: generate documentation from your Bicep modules",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/introducing-bicep-docs-generate-documentation-from-your-bicep/ba-p/4559737",
-      "published": "2026-09-24T19:55:33+00:00",
-      "summary": "TL;DR: The Bicep CLI has a new experimental command, bicep docs generate. Point it at a Bicep module and it writes a README.md next to it that describes the module's resources, parameters, types, outputs and usage examples, all read straight from your code. You can change the layout with your own...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "jaredfholgate",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Tools"
-    },
-    {
-      "title": "IBC Reflections and Where Media is Headed",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/ibc-reflections-and-where-media-is-headed/ba-p/4559411",
-      "published": "2026-09-24T19:00:00+00:00",
-      "summary": "Over the last several years, it has been easy to focus on the magical experiences produced with AI-generated content. The media industry has responded with growing short-form video, IP licensing for quality AI generated content, and various other approaches, but the core end-to-end workflows and...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "kshatzkamer",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Telecom"
-    },
-    {
-      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-      "link": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-      "published": "2026-09-24T18:26:12+00:00",
-      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog.",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Antonio Morales",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "Released: September 2026 Exchange Server Security Updates",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2026-exchange-server-security-updates/ba-p/4554411",
-      "published": "2026-09-24T17:56:48+00:00",
-      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
-      "link": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
-      "published": "2026-09-24T17:55:06+00:00",
-      "summary": "Define and attach an outbound policy to a hosted agent in Microsoft Foundry, observe calls in Audit, and verify allowed and denied destinations under Enforced mode. The post Control where your hosted agent connects with network egress in Foundry Agent Service appeared first on Microsoft Foundry...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Muzz Imam",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Oracle AI Database@Azure Expands with Azure Native Oracle GoldenGate User Experience, Observability",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-ai-database-azure-expands-with-azure-native-oracle/ba-p/4559430",
-      "published": "2026-09-24T17:29:07+00:00",
-      "summary": "Customers running mission-critical Oracle workloads on Azure want more than database infrastructure in an Azure datacenter. They want their Oracle environments to fit naturally into the way their teams already build, govern, monitor, and purchase services on Azure. Today, Oracle AI Database@Azure...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RajyaLaxmiYellajosyula",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Oracle on Azure"
     }
   ]
 }
