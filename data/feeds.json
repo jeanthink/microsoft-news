@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-25T15:22:42.301833+00:00",
-  "totalArticles": 342,
+  "lastUpdated": "2026-10-26T18:02:40.424909+00:00",
+  "totalArticles": 347,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,150 @@
     ]
   },
   "articles": [
+    {
+      "title": "Connect coding agents to Fabric notebooks with FNTK (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connect-coding-agents-to-Fabric-notebooks-with-FNTK-Preview/ba-p/5375986",
+      "published": "2026-10-26T17:22:43+00:00",
+      "summary": "The Fabric Notebook Toolkit (Preview) helps developers shorten the feedback loop between writing code and validating it with live notebook results. It connects coding agents to Microsoft Fabric notebooks through a command-line interface (CLI) that runs in the terminal alongside tools such as Claude...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "QixiaoWang",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
+      "published": "2026-10-26T17:10:00+00:00",
+      "summary": "Learn how Azure AI Speech LLM 09-2026 improves multilingual language and locale support with improved quality and latency. The post Announcing Azure AI Speech LLM 09-2026: Broader locale support appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Rena Liu",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Unlocking Microsoft 365 Adoption in Engineering, Manufacturing, and Regulated Industries",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/unlocking-microsoft-365-adoption-in-engineering-manufacturing/m-p/4567791#M60155",
+      "published": "2026-10-26T16:52:16+00:00",
+      "summary": "Executive Feedback to Microsoft Leadership: Expanding the Value of Microsoft 365 Beyond Cloud-First WorkflowsExecutive SummaryMicrosoft has successfully built the industry's leading cloud collaboration ecosystem around Microsoft 365, OneDrive, and SharePoint. The strategy has delivered substantial...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "BFCracker",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Announcing workspace monitoring integration for Fabric Data Warehouse (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Announcing-workspace-monitoring-integration-for-Fabric-Data/ba-p/5376599",
+      "published": "2026-10-26T16:00:00+00:00",
+      "summary": "With Microsoft Fabric Data Warehouse integration with workspace monitoring (Preview), you can analyze completed warehouse query activity across an entire workspace from the monitoring Eventhouse and KQL database, helping you find failed or slow queries and quickly identify the warehouse that needs...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "Mariyaali",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bringing-ai-powered-sre-to-your-on-premise-server-estate-for/ba-p/4566884",
+      "published": "2026-10-26T15:15:49+00:00",
+      "summary": "The problem nobody talks about at cloud conferences Walk the floor at any cloud event and you'll hear a lot about AI-assisted operations: agents that triage alerts, correlate signals, and hand your on-call engineer a root cause instead of a wall of logs. It's genuinely useful. But there's a quiet...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "FaizaanMerchant",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "PHP2Shell and Azure DevOps: what to check",
+      "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
+      "published": "2026-10-26T13:00:38+00:00",
+      "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Josef Sin",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Azure DevOps"
+    },
+    {
+      "title": "Keep your investigation between sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
+      "published": "2026-10-26T12:00:10+00:00",
+      "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jason Chlus, Mads Kristensen",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": ".NET October 2026 Out-of-Band Security Updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
+      "published": "2026-10-25T18:45:00+00:00",
+      "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability. The post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Rahul Bhandari (MSFT)",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "When attempt to download a Windows Insider ISO it gives me this GatewayExceptionResponse",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/when-attempt-to-download-a-windows-insider-iso-it-gives-me-this/m-p/4567531#M45333",
+      "published": "2026-10-25T18:40:33+00:00",
+      "summary": "Hello to all, Whenever I attempt to download a Windows Insider ISO Known as as of recently Build 29695.1001 Experimental Future Platforms release it will give me this error message as a result : GatewayExceptionResponse and just so happens I have tried all of the suggested suggestions online and...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "chaosjs010",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
+      "link": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates/",
+      "published": "2026-10-25T11:23:29+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 1 The Microsoft SQL team is always innovating. They do this in day-to-day efforts, but there are also brand new efforts that are constantly being explored, investigated, tested, and researched. Our engineering team partners closely with MSR...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Windows 11 Pro Insider Preview Won't Activate After Motherboard Upgrade",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-pro-insider-preview-won-t-activate-after-motherboard/m-p/4567403#M45328",
+      "published": "2026-10-24T16:02:49+00:00",
+      "summary": "Hello,I'm experiencing an issue activating Windows 11 Pro Insider Preview after upgrading my PC hardware.Background:I purchased the Windows 10 Home to Pro upgrade directly through Microsoft Store on March 17, 2021.Windows Pro has been activated successfully for several years.I previously managed to...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "Eirik_Fjorden",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "i need help unenrolling",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-need-help-unenrolling/m-p/4567324#M45326",
+      "published": "2026-10-24T00:49:10+00:00",
+      "summary": "i need help unenrolling when i clicked unenroll it keeps downloading insider builds and its not unenrolling",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "tryjxianis50",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
     {
       "title": "Making Azure Container Registry Activity Visible at Scale",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/making-azure-container-registry-activity-visible-at-scale/ba-p/4567301",
@@ -868,18 +1012,6 @@
       "blog": "Microsoft Fabric Blog",
       "blogId": "microsoftfabricblog",
       "author": "prl",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Connect coding agents to Fabric notebooks with FNTK (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connect-coding-agents-to-Fabric-notebooks-with-FNTK-Preview/ba-p/5375986",
-      "published": "2026-10-21T16:44:34+00:00",
-      "summary": "The Fabric Notebook Toolkit (Preview) helps developers shorten the feedback loop between writing code and validating it with live notebook results. It connects coding agents to Microsoft Fabric notebooks through a command-line interface (CLI) that runs in the terminal alongside tools such as Claude...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "QixiaoWang",
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
@@ -2433,18 +2565,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "GetHelpCmd",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/gethelpcmd/m-p/4564267#M60087",
-      "published": "2026-10-13T20:20:50+00:00",
-      "summary": "Hello,Whenever SD/Onsite Support team run the GetHelpCmd.exe command, it fails with the error 0x80072F7D. The Service Desk and Onsite Support teams are currently unable to use this tool and therefore remain dependent on the Microsoft Support and Recovery Assistant (SaRA), which has since been...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "agm7883",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "October Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
       "published": "2026-10-13T20:20:06+00:00",
@@ -3405,18 +3525,6 @@
       "product": "Azure Cosmos DB"
     },
     {
-      "title": "Fabric Influencers Spotlight: September 2026",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Influencers-Spotlight-September-2026/ba-p/5372276",
-      "published": "2026-10-05T09:56:45+00:00",
-      "summary": "See what the people who implement Fabric are working on, learning, and sharing this month!",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "slindsay",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
       "published": "2026-10-03T04:08:41+00:00",
@@ -4305,18 +4413,6 @@
       "product": "Azure Architecture"
     },
     {
-      "title": "SQLAlchemy 2.1 brings built-in support for mssql-python",
-      "link": "https://devblogs.microsoft.com/azure-sql/sqlalchemy-2-1-brings-built-in-support-for-mssql-python/",
-      "published": "2026-09-28T16:02:00+00:00",
-      "summary": "We’re pleased to share that SQLAlchemy 2.1.0 is now generally available, with built-in support for mssql-python, Microsoft’s Python driver for SQL Server. You can now use it with SQLAlchemy’s ORM and Core APIs through the first-party mssql+mssqlpython dialect. If SQLAlchemy is already part of how...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Matt Hyon, David Levy",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
       "title": "Open Sourcing the Azure Policy Linter!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/open-sourcing-the-azure-policy-linter/ba-p/4547577",
       "published": "2026-09-28T15:02:05+00:00",
@@ -4351,42 +4447,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Update Not working properly: Stuck on \"installing - 20%\" Windows 11, Version 25H2",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/update-not-working-properly-stuck-on-quot-installing-20-quot/m-p/4560036#M45204",
-      "published": "2026-09-26T10:53:19+00:00",
-      "summary": "My windows 11 laptop is on automatic updates. It suggested this update, Version 25H2, as the most recent and current update available. There also has intermittently been showing up an security x64 or something like that antivirus update showing up sometimes. I don't even know if that installed and...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "kch410211",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-      "published": "2026-09-25T18:00:00+00:00",
-      "summary": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app for Beginners: How to build custom workflows with canvases appeared first on...",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Kayla Cinnamon",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "AG-UI Protocol now has a first-class .NET SDK",
-      "link": "https://devblogs.microsoft.com/dotnet/ag-ui-dotnet-sdk/",
-      "published": "2026-09-25T17:05:00+00:00",
-      "summary": "The new AG-UI .NET SDK enables .NET services to expose and consume interoperable agent endpoints using Microsoft.Extensions.AI. The post AG-UI Protocol now has a first-class .NET SDK appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Daniel Roth",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
     }
   ]
 }
