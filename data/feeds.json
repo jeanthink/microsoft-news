@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-30T17:34:14.475795+00:00",
-  "totalArticles": 341,
+  "lastUpdated": "2026-10-31T16:38:56.182118+00:00",
+  "totalArticles": 330,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,78 @@
   },
   "articles": [
     {
+      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
+      "published": "2026-10-31T06:03:11+00:00",
+      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
+      "published": "2026-10-31T06:03:06+00:00",
+      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
+      "published": "2026-10-31T04:56:48+00:00",
+      "summary": "Updated October 30, 2026: the sample now runs vLLM 0.32 with async scheduling, 14% more decode steps a second on the code benchmark, and the memory bandwidth figure is corrected. See the update at the end. In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+      "published": "2026-10-31T01:02:57+00:00",
+      "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "AI agents are coming—are your identity controls prepared?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-agents-are-coming-are-your-identity-controls-prepared/ba-p/4515964",
+      "published": "2026-10-30T19:54:24+00:00",
+      "summary": "AI is reshaping identity risk. Attackers now use AI to automate phishing, social engineering, and privilege escalation, making credential theft faster and more convincing than ever. SMS codes and push approvals can be intercepted, while standing privileges give attackers reach far beyond a single...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Melanie_Maynes",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
+      "title": "Everything released in October 2026 for Azure Developer CLI",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2026/",
+      "published": "2026-10-30T19:02:14+00:00",
+      "summary": "The October recap for the Azure Developer CLI (`azd`). Preview service deployments before making changes, deploy to Container Apps express, remove stored environment values, and use extension-defined infrastructure providers in generated pipelines. Extension APIs gain stable contracts, and...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure SDK"
+    },
+    {
       "title": "Is Azure SQL Database Hyperscale “distributed SQL”?",
       "link": "https://devblogs.microsoft.com/azure-sql/is-azure-sql-database-hyperscale-distributed-sql/",
       "published": "2026-10-30T16:52:56+00:00",
@@ -295,6 +367,54 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-october-2026/ba-p/4568804",
+      "published": "2026-10-30T16:44:57+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. In October, cross-tenant delegated access reaches general availability so you can run security operations across tenants with least privilege, the Advanced Security Information Model (ASIM) EmailEvent schema gives you one consistent structure for...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "vkokkengada",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Sentinel"
+    },
+    {
+      "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+      "published": "2026-10-30T16:11:44+00:00",
+      "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, Sagar Patil, Jesse Birch and Tal Tzhori",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
+      "published": "2026-10-30T16:00:22+00:00",
+      "summary": "Keeping the Azure Connected Machine agent up to date across a large server estate requires persistent coordination and manual work. When enabled, Automatic Agent Upgrade simplifies this process by allowing Microsoft to manage agent upgrades for you. What is Automatic Agent Upgrade? Automatic Agent...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "yunishussein",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
+      "title": "Stay ahead of Azure Arc agent health with Azure Advisor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/stay-ahead-of-azure-arc-agent-health-with-azure-advisor/ba-p/4568747",
+      "published": "2026-10-30T16:00:00+00:00",
+      "summary": "Azure Advisor helps you stay ahead of potential connectivity issues by analyzing your Azure Arc-enabled servers and providing reliability recommendations when servers have been disconnected for an extended period. These recommendations give you visibility into potential issues and help you act...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "yunishussein",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
     },
     {
       "title": "Microsoft Releases FY27 Q1 Results - 470 Million Microsoft 365 Users?",
@@ -475,18 +595,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "AI agents are coming—are your identity controls prepared?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-agents-are-coming-are-your-identity-controls-prepared/ba-p/4515964",
-      "published": "2026-10-29T15:00:00+00:00",
-      "summary": "AI is reshaping identity risk. Attackers now use AI to automate phishing, social engineering, and privilege escalation, making credential theft faster and more convincing than ever. SMS codes and push approvals can be intercepted, while standing privileges give attackers reach far beyond a single...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Melanie_Maynes",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
     },
     {
       "title": "Blazor Welcomes Open-Source Contributions from Syncfusion",
@@ -837,30 +945,6 @@
       "product": "Azure SDK"
     },
     {
-      "title": "Identity under attack: How AI strengthens defense",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/identity-under-attack-how-ai-strengthens-defense/ba-p/4566649",
-      "published": "2026-10-28T15:00:00+00:00",
-      "summary": "Identity threats are evolving faster than manual defenses can keep pace. Microsoft Entra now delivers advanced AI capabilities that help organizations detect anomalies earlier, accelerate investigations, and adapt enforcement dynamically—all at machine speed. Identity attacks remain the top risk...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Marilee_Turscak",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
-      "published": "2026-10-28T14:28:39+00:00",
-      "summary": "Keeping the Azure Connected Machine agent up to date across a large server estate requires persistent coordination and manual work. When enabled, Automatic Agent Upgrade simplifies this process by allowing Microsoft to manage agent upgrades for you. What is Automatic Agent Upgrade? Automatic Agent...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "yunishussein",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
       "title": "Streamline creation and management of AI-ready, custom apps with SharePoint Embedded",
       "link": "https://devblogs.microsoft.com/microsoft365dev/streamline-creation-and-management-of-ai-ready-custom-apps-with-sharepoint-embedded/",
       "published": "2026-10-28T13:09:27+00:00",
@@ -1135,18 +1219,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Azure Network Security"
-    },
-    {
-      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
-      "published": "2026-10-26T18:52:23+00:00",
-      "summary": "In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a laptop: the Lenovo Yoga 9n 2-in-1 (16\", 11) with NVIDIA's RTX Spark N1X and 64 GB of unified memory. On a short code-generation benchmark it decodes 44.7 tokens a second for one request, and it holds the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Microsoft & Snowflake’s Commitment to Apache Ossie",
@@ -3309,18 +3381,6 @@
       "product": "GitHub Copilot"
     },
     {
-      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
-      "published": "2026-10-12T17:05:45+00:00",
-      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Durable Task in the Real World: What Problems Does It Actually Solve?",
       "link": "https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world/",
       "published": "2026-10-12T16:30:00+00:00",
@@ -3331,18 +3391,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
-      "published": "2026-10-10T07:27:28+00:00",
-      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
@@ -3475,18 +3523,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Tools"
-    },
-    {
-      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
-      "published": "2026-10-08T20:44:28+00:00",
-      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Sending From Email Aliases – General Availability",
@@ -3679,18 +3715,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "3 lessons from frontier AI vulnerability research",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-      "published": "2026-10-07T16:00:00+00:00",
-      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Taesoo Kim",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Microsoft Places bug: Room images are too big, hiding info. Need a compact/resize option",
@@ -4219,162 +4243,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET Aspire"
-    },
-    {
-      "title": "Scaling distributed AI infrastructure with Azure’s ExpressRoute and AI Points of Presence (AI PoPs)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/scaling-distributed-ai-infrastructure-with-azure-s-expressroute/ba-p/4560483",
-      "published": "2026-10-01T16:00:27+00:00",
-      "summary": "Rethinking connectivity for distributed AI infrastructure AI is changing more than the applications organizations build. It is reshaping where the infrastructure powering those applications is deployed. For years, cloud computing has been anchored by hyperscale regions that combine compute,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "frrey",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Meet the New Microsoft Purview Classifiers Experience: Your Admin Playbook for Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/meet-the-new-microsoft-purview-classifiers-experience-your-admin/ba-p/4561324",
-      "published": "2026-10-01T15:01:07+00:00",
-      "summary": "Microsoft Purview Unified Classification Management Experience Feature overview and administrator playbook OverviewThe new Classifiers experience brings supported Microsoft Purview classification types into one place where administrators can discover, create, inspect, and manage classifiers. It...",
-      "blog": "Microsoft Purview",
-      "blogId": "microsoft-purview-blog",
-      "author": "Sarahzin_Shane",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Purview"
-    },
-    {
-      "title": "Build and govern AI agents across a multitenant organization",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/build-and-govern-ai-agents-across-a-multitenant-organization/ba-p/4559921",
-      "published": "2026-10-01T14:23:11+00:00",
-      "summary": "Preview features: This article uses generally available Microsoft Agent 365 together with capabilities that are currently in preview, including Microsoft Entra Tenant Governance, multitenant agent management, and the Azure API Management dedicated AI Gateway tier. Preview capabilities are provided...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Rebekah_Midkiff",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Architecture"
-    },
-    {
-      "title": "From fragmented data to trusted intelligence: Microsoft at TM Forum Innovate Americas 2026",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/from-fragmented-data-to-trusted-intelligence-microsoft-at-tm/ba-p/4561272",
-      "published": "2026-10-01T13:36:34+00:00",
-      "summary": "AI is reshaping telecom, but moving from isolated pilots to AI-native operations requires more than capable models and agents. It requires trusted data, shared operational context, and governance that enables AI to act safely across network, customer, and business workflows. At TM Forum Innovate...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "rickliev",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Telecom"
-    },
-    {
-      "title": "Action Required: Upgrade ExchangeOnlineManagement PowerShell Module to Version 3.10.1 or Newer",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/action-required-upgrade-exchangeonlinemanagement-powershell/ba-p/4561418",
-      "published": "2026-10-01T12:50:20+00:00",
-      "summary": "We have introduced security enhancements to Exchange Online PowerShell authentication in ExchangeOnlineManagement module version 3.10.1 and newer. These enhancements strengthen the authentication flow and provide additional protection against emerging threats. Customers using a version earlier than...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
-      "link": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
-      "published": "2026-10-01T12:27:54+00:00",
-      "summary": "Today, we’re announcing the general availability of GitHub-hosted agents and pay-as-you-go pricing in Azure Pipelines. GitHub-hosted agents give teams access to more compute options for their pipelines, including native Apple silicon and larger Linux and Windows machines. Instead of purchasing...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Eric van Wijk",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
-    },
-    {
-      "title": "What a Burger Combo Taught Me About Agents: Jev, LLMs, and Model Routers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-a-burger-combo-taught-me-about-agents-jev-llms-and-model/ba-p/4558830",
-      "published": "2026-10-01T07:00:00+00:00",
-      "summary": "Imagine leaving the office and asking an AI assistant: “Find me a grilled chicken burger combo with a medium Coke at a nearby McDonald’s. Pickup, please. Check the price, but don’t place an order.” It sounds simple. To software, however, that sentence contains at least six decisions: which meal,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Scaling classification and labeling: an interactive reference architecture update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/scaling-classification-and-labeling-an-interactive-reference/ba-p/4560925",
-      "published": "2026-10-01T02:25:59+00:00",
-      "summary": "In April, I published a set of referential architecture diagrams for Microsoft Purview — Microsoft Purview Referential Architecture Diagrams. They have been useful in workshops and training sessions for a simple reason: one picture is worth a thousand words - attempting to explain the complex in a...",
-      "blog": "Microsoft Purview",
-      "blogId": "microsoft-purview-blog",
-      "author": "MaximeBombardier",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Purview"
-    },
-    {
-      "title": "SharePoint Framework (SPFx) roadmap update – September 2026",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-september-2026/",
-      "published": "2026-09-30T21:35:52+00:00",
-      "summary": "New Copilot UX components heading to Generally Available in October 2026, SPFx 1.24 Beta 5 is now available, React 18 support is coming in 1.24. Updates coming in Node.js support. The post SharePoint Framework (SPFx) roadmap update – September 2026 appeared first on Microsoft 365 Developer Blog.",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "Vesa Juvonen",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Network security perimeter metrics are now generally available in Public Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-metrics-are-now-generally-available/ba-p/4561244",
-      "published": "2026-09-30T19:35:03+00:00",
-      "summary": "We are excited to announce the general availability (GA) of network security perimeter metrics, a capability that helps administrators monitor network access patterns, understand the impact of the access rules, and identify unexpected traffic behaviour across protected resources. These metrics are...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
-    },
-    {
-      "title": "Bring Azure Logic Apps connectors into your .NET applications with the Azure Connectors SDK",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bring-azure-logic-apps-connectors-into-your-net-applications/ba-p/4555823",
-      "published": "2026-09-30T19:29:35+00:00",
-      "summary": "Modern business applications rarely work in isolation. An order exception might need an email, a support case might need a Teams notification, and a completed document might need to be stored in SharePoint. Developers can build each integration directly against a service API, but that also means...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "David_Burg",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Everything released in September 2026 for Azure Developer CLI",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-september-2026/",
-      "published": "2026-09-30T18:45:59+00:00",
-      "summary": "The September recap for the Azure Developer CLI (`azd`). Extension management gains dependency-aware uninstall and versioned contracts, project configuration adds top-level infrastructure and service layers, deployment phases support concurrency limits, and external authentication hosts can use...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-09-30T17:39:21+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Confidential Computing"
     }
   ]
 }
