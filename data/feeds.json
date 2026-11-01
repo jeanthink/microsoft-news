@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T16:38:56.182118+00:00",
-  "totalArticles": 330,
+  "lastUpdated": "2026-11-01T17:29:27.252034+00:00",
+  "totalArticles": 311,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,18 @@
   },
   "articles": [
     {
+      "title": "Building Secure, Ephemeral GitHub Actions Runners on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-secure-ephemeral-github-actions-runners-on-azure/ba-p/4569209",
+      "published": "2026-11-01T07:35:00+00:00",
+      "summary": "A practical architecture using KEDA autoscaling, GitHub App authentication, private Key Vault access, Microsoft Container Registry, and GitHub OIDC Implementation guide and field learnings What this architecture delivers · A repository-scoped runner that exists only for one workflow · Automatic...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ibrahimbaig",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
       "published": "2026-10-31T06:03:11+00:00",
@@ -319,18 +331,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "published": "2026-10-31T01:02:57+00:00",
-      "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "AI agents are coming—are your identity controls prepared?",
@@ -379,18 +379,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-      "published": "2026-10-30T16:11:44+00:00",
-      "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research, Sagar Patil, Jesse Birch and Tal Tzhori",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
@@ -535,30 +523,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Tracking AI adoption in North Korean threat actor tradecraft",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
-      "published": "2026-10-29T16:00:00+00:00",
-      "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
-      "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
-      "published": "2026-10-29T16:00:00+00:00",
-      "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Rob Lefferts",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Now generally available: Discover local AI agents with Microsoft Defender",
@@ -811,18 +775,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
-      "published": "2026-10-28T16:00:00+00:00",
-      "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both. The post The CISO’s evolving role:...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Aarti Borkar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Route and orchestrate models with GitHub Copilot Fusion",
@@ -1473,18 +1425,6 @@
       "product": "Azure Migrate"
     },
     {
-      "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "published": "2026-10-23T18:12:19+00:00",
-      "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research, Mahesh Mandava, Srinivasan Govindarajan, Sagar Patil and Suriyaraj Natarajan",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Code with Cosmos: Build a Production-Ready AI App in Four Episodes",
       "link": "https://devblogs.microsoft.com/cosmosdb/code-with-cosmos/",
       "published": "2026-10-23T17:18:03+00:00",
@@ -1795,18 +1735,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Linux on Azure"
-    },
-    {
-      "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-      "published": "2026-10-21T18:23:55+00:00",
-      "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research and Microsoft Threat Intelligence",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Incrementally migrate and re-migrate database objects with Migration Assistant for Fabric Warehouse (Preview)",
@@ -2505,18 +2433,6 @@
       "product": "Visual Studio"
     },
     {
-      "title": "Agents are your newest insiders. Security must move at their speed.",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
-      "published": "2026-10-19T13:00:00+00:00",
-      "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Nadim Abdo",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Microsoft auto-removed a user's license is action needed?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-auto-removed-a-user-s-license-is-action-needed/m-p/4565829#M60116",
       "published": "2026-10-19T12:44:24+00:00",
@@ -2659,18 +2575,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Managing open-weight model risk in enterprise deployments",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-      "published": "2026-10-16T16:00:00+00:00",
-      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Michael Scovetta",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
@@ -3153,18 +3057,6 @@
       "product": "Azure HPC"
     },
     {
-      "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
-      "published": "2026-10-14T13:00:00+00:00",
-      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence and Microsoft Digital Crimes Unit",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "How are organisations monitoring attendance and participation during live Microsoft Teams meetings?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-are-organisations-monitoring-attendance-and-participation/m-p/4564487#M145380",
       "published": "2026-10-14T12:32:15+00:00",
@@ -3525,6 +3417,18 @@
       "product": "Azure Tools"
     },
     {
+      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+      "published": "2026-10-08T20:44:28+00:00",
+      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Sending From Email Aliases – General Availability",
       "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/sending-from-email-aliases-general-availability/ba-p/4562543",
       "published": "2026-10-08T20:41:04+00:00",
@@ -3715,6 +3619,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
+    },
+    {
+      "title": "3 lessons from frontier AI vulnerability research",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "published": "2026-10-07T16:00:00+00:00",
+      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Taesoo Kim",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
     },
     {
       "title": "Microsoft Places bug: Room images are too big, hiding info. Need a compact/resize option",
@@ -3933,6 +3849,18 @@
       "product": "Azure SQL"
     },
     {
+      "title": "CISO perspectives on managing vulnerability risks in the age of AI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+      "published": "2026-10-06T16:00:00+00:00",
+      "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Freddy Dezeure and Sesha Mani",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-functions-agent-binding/",
       "published": "2026-10-06T15:00:10+00:00",
@@ -4087,162 +4015,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "OneDrive"
-    },
-    {
-      "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "link": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-      "published": "2026-10-02T15:00:00+00:00",
-      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog.",
-      "blog": "GitHub Copilot Blog",
-      "blogId": "githubcopilotblog",
-      "author": "Gwen Davis",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "GitHub Copilot"
-    },
-    {
-      "title": "Repeated prompt \"Some information has changed\" when reconnecting to mobile hotspot",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/repeated-prompt-quot-some-information-has-changed-quot-when/m-p/4561703#M45229",
-      "published": "2026-10-02T13:50:30+00:00",
-      "summary": "Problem DescriptionWhen attempting to reconnect Windows 11 to a personal mobile hotspot, the connection frequently fails to connect automatically. Instead, Windows displays the following prompt:\"Some information has changed since the last time you connected. We need additional information to...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "qqqq",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-10-02T13:43:37+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
-    },
-    {
-      "title": "i have uninstall insider preview program and need fresh window 11",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-have-uninstall-insider-preview-program-and-need-fresh-window/m-p/4561679#M45228",
-      "published": "2026-10-02T12:03:19+00:00",
-      "summary": "I have device currently registered wind 11 version 24h2 insider preview program and i am unable to install preview update and use window properly so please help to resolve this issue and help to install preview update and unregistered my device from insider program",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "manish8095",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/translating-an-elasticsearch-search-request-to-azure-cosmos-db/",
-      "published": "2026-10-02T07:00:14+00:00",
-      "summary": "This tutorial shows how common Elasticsearch search requests can be expressed using Azure Cosmos DB query patterns. Some Elasticsearch capabilities map directly to Cosmos DB full-text search functions, while others require separate queries or application-layer handling. Each step shows the closest...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Madeline Egan",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "When AI Starts Taking Action: Building Execution Boundaries with OpenSandbox and AKS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-ai-starts-taking-action-building-execution-boundaries-with/ba-p/4561601",
-      "published": "2026-10-02T06:26:45+00:00",
-      "summary": "1. An agent needs more than a smarter model Imagine you are building a food-ordering assistant. In its first version, it says, “You might enjoy a burger and fries.” That is primarily a content-generation problem. In the next version, it queries coupons, reads a menu, calculates prices, creates...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-10-02T02:23:51+00:00",
-      "summary": "Author's: Aladdin Alchalabi AladdinAlchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
-    },
-    {
-      "title": "Microsoft FinOps News - September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/microsoft-finops-news-september-2026/ba-p/4561596",
-      "published": "2026-10-02T01:27:20+00:00",
-      "summary": "We've scoured product announcements, blogs, videos and more to bring you a monthly wrap-up of news related to FinOps and cost management, including AI - across all of our Microsoft products. Did we miss something? Let us know in the comments! Microsoft Foundry and Azure OpenAI Microsoft Foundry...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "SoniaCuff",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "FinOps"
-    },
-    {
-      "title": "Data API builder 2.1.5: JSON and Vector Data Type Support, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-2-1-5-json-and-vector-data-type-support-and-more/",
-      "published": "2026-10-02T01:10:52+00:00",
-      "summary": "Data API builder (DAB) 2.1.5 is now available as a stable release, and it is about meeting modern data where it lives: documents next to rows, embeddings next to both. This release brings native support for the SQL json and vector data types to the REST and GraphQL endpoints, so the same entities...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Matt Hyon, Aniruddh Munde",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
-      "published": "2026-10-01T23:06:57+00:00",
-      "summary": "Editor’s note (October 1, 2026): This post was updated to clarify the benefits of regional host pools and provide additional context on recent resiliency improvements. Resiliency improvements are arriving for Azure Virtual Desktop. Regional host pools reduce cross-region metadata dependencies to...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Vidya_Iyer",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Virtual Desktop"
-    },
-    {
-      "title": "Run an Ollaya decision model on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-an-ollaya-decision-model-on-azure-container-apps/ba-p/4561558",
-      "published": "2026-10-01T21:48:30+00:00",
-      "summary": "Many AI calls are not really conversations. A support message needs an intent. A workflow needs a route. A policy check needs a yes or no. An agent needs to select its next action from a known list. These are bounded decisions, but they are often sent to a general-purpose LLM. The LLM reads the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "como puedo participar en ei programa windowsinside",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/como-puedo-participar-en-ei-programa-windowsinside/m-p/4561522#M45225",
-      "published": "2026-10-01T19:05:07+00:00",
-      "summary": "Micrófono",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "eniasmora",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Bringing rich terminal experiences to Aspire",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-terminal-support/",
-      "published": "2026-10-01T18:12:09+00:00",
-      "summary": "Aspire 13.5 introduced WithTerminal() for interactive terminal sessions on app resources. Aspire 13.6 builds on it with richer terminal emulation and docked terminals for REPLs. See how to enable, attach to, and automate terminal experiences in your app. The post Bringing rich terminal experiences...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Mitch Denny",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET Aspire"
     }
   ]
 }
