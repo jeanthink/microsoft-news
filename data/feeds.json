@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-01T17:29:27.252034+00:00",
-  "totalArticles": 311,
+  "lastUpdated": "2026-11-02T21:14:37.160525+00:00",
+  "totalArticles": 324,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,162 @@
   },
   "articles": [
     {
+      "title": "From a prompt to an operational dashboard: Generate Real-Time Dashboards with Copilot (Preview)",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-a-prompt-to-an-operational-dashboard-Generate-Real-Time/ba-p/5380258",
+      "published": "2026-11-02T20:00:00+00:00",
+      "summary": "Start with the question, not a blank dashboard Which transit stations are sending the most fans toward a stadium? How does that incoming demand compare with activity at the gates? Where are queues building? Answering these operational questions traditionally requires translating them into tables,...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "MichalBar",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-11-02T18:53:26+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Azure Network Security"
+    },
+    {
+      "title": "Announcing general availability of Geo-Replication on partitioned namespaces for Service Bus Premium",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-geo-replication-on/ba-p/4569139",
+      "published": "2026-11-02T17:00:00+00:00",
+      "summary": "Today we are excited to announce the general availability of Geo-Replication on partitioned namespaces for Azure Service Bus Premium. You can now combine the throughput benefits of partitioning with the reliability of replicating your messages and metadata to a secondary Azure region. Throughput...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Messaging"
+    },
+    {
+      "title": "Data Days: Learn, build, and connect with AI @Work",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-Days-Learn-build-and-connect-with-AI-Work/ba-p/5382446",
+      "published": "2026-11-02T16:19:22+00:00",
+      "summary": "Real people. Real projects. Real AI on Fabric, SQL, and Power BI. From November 2 through December 15, Data Days is your chance to get past polished demos and put data and AI to work yourself. Join a live session, build something new, work toward a certification, or connect with a community study...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "slindsay",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - November 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-november-2026/ba-p/4569378",
+      "published": "2026-11-02T16:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month November 2026's Ace Aviator: Steef-Jan Wiggers Domain Architect @ Coöperatie VGZ What's your role and title? What are your responsibilities? I'm a Domain Architect Technology in the...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Security risk assessments include repository protection status",
+      "link": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+      "published": "2026-11-02T15:47:21+00:00",
+      "summary": "The GitHub code security risk assessment and secret risk assessment now show whether findings are in protected or unprotected repositories, helping you identify where to extend your security coverage. Organization… The post Security risk assessments include repository protection status appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Nach dem Neuladen von MS 365 muss ich die Applik. z.B. EXCEL immer als Administrator starten.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/nach-dem-neuladen-von-ms-365-muss-ich-die-applik-z-b-excel-immer/m-p/4569602#M60177",
+      "published": "2026-11-02T15:26:51+00:00",
+      "summary": "Ist das normal?",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Anton_Schmidt_1943",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "pull_request_target blocked by default December 2",
+      "link": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "published": "2026-11-02T15:14:46+00:00",
+      "summary": "Starting December 2, 2026, GitHub Actions will block pull_request_target events by default in all public repositories, unless an applicable Actions event policy explicitly allows them. Enforcement was previously scheduled for… The post pull_request_target blocked by default December 2 appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Announcing flex nodes for AKS (preview) in Azure portal",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-flex-nodes-for-aks-preview-in-azure-portal/ba-p/4569460",
+      "published": "2026-11-02T13:00:00+00:00",
+      "summary": "What’s new? Today, we’re announcing Azure portal support for flex nodes for AKS (preview), offering an intuitive, guided experience that helps users create Flex node pools and connect supported user-managed compute to their existing AKS clusters. Flex nodes for AKS lets you extend an existing...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Samantha_Fernandez",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "My Team Is Growing, How Do I Structure Who Gets Access to What?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-access-control-growing-teams/",
+      "published": "2026-11-02T12:00:45+00:00",
+      "summary": "Your project started with one or two people. Now developers, operators, analysts, and applications all need access to Azure Cosmos DB. Giving everyone the same permissions might feel efficient, but it makes every identity more powerful than its job requires. As your team grows, organize access...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Iria Osara, Sudhanshu Khera",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Cosmos DB"
+    },
+    {
+      "title": "How Microsoft SQL learned to recover without undoing everything first",
+      "link": "https://devblogs.microsoft.com/azure-sql/your-server-wasnt-slow-it-was-waiting-we-fixed-it-with-constant-time-recovery/",
+      "published": "2026-11-02T11:49:03+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 2 Here’s a scenario that used to be genuinely frightening: you kick off a bulk load of a few hundred million rows in a single transaction. Somewhere in the middle, the server goes down. Not because of your load, just an unlucky reboot. When...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "What's new in AKS Automatic: migration, SLAs, and more",
+      "link": "https://blog.aks.azure.com/2026/11/02/automatic-enhancements",
+      "published": "2026-11-02T00:00:00+00:00",
+      "summary": "Explore the latest AKS Automatic improvements: preview migration, a managed system components SLA, native Terraform support, and flexible workload guardrails.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "AKS"
+    },
+    {
+      "title": "Game Off 2026: The theme is SHIFT",
+      "link": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "published": "2026-11-01T21:36:00+00:00",
+      "summary": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Lee Reilly",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Building Secure, Ephemeral GitHub Actions Runners on Azure Container Apps",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-secure-ephemeral-github-actions-runners-on-azure/ba-p/4569209",
       "published": "2026-11-01T07:35:00+00:00",
@@ -331,6 +487,30 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
+    },
+    {
+      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+      "published": "2026-10-31T01:02:57+00:00",
+      "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "stuck on install windows",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/stuck-on-install-windows/m-p/4569153#M45365",
+      "published": "2026-10-30T22:55:59+00:00",
+      "summary": "hi need a bit of assistancehave been getting green screen of death on a surface pro 11and when installing the latest insider build it crashed and now im unable to boot into safe mode bios uefi.any ideas?thanks",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "LooseC",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "AI agents are coming—are your identity controls prepared?",
@@ -381,6 +561,18 @@
       "product": "Microsoft Sentinel"
     },
     {
+      "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+      "published": "2026-10-30T16:11:44+00:00",
+      "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, Sagar Patil, Jesse Birch and Tal Tzhori",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
       "published": "2026-10-30T16:00:22+00:00",
@@ -403,6 +595,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Arc"
+    },
+    {
+      "title": "Does ‘eval’ in the workspace path change what your agent does?",
+      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+      "published": "2026-10-30T12:49:14+00:00",
+      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
     },
     {
       "title": "Microsoft Releases FY27 Q1 Results - 470 Million Microsoft 365 Users?",
@@ -523,6 +727,30 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+      "published": "2026-10-29T16:00:00+00:00",
+      "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Threat Intelligence",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+      "published": "2026-10-29T16:00:00+00:00",
+      "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Rob Lefferts",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
     },
     {
       "title": "Now generally available: Discover local AI agents with Microsoft Defender",
@@ -777,6 +1005,18 @@
       "product": "Microsoft Sentinel"
     },
     {
+      "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+      "published": "2026-10-28T16:00:00+00:00",
+      "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both. The post The CISO’s evolving role:...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Aarti Borkar",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Route and orchestrate models with GitHub Copilot Fusion",
       "link": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
       "published": "2026-10-28T16:00:00+00:00",
@@ -853,30 +1093,6 @@
       "link": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
       "published": "2026-10-28T15:33:00+00:00",
       "summary": "This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how… The post GitHub Copilot in VS Code, Universe releases appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Repository plugin defaults and enterprise plugin controls generally available",
-      "link": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
-      "published": "2026-10-28T15:33:00+00:00",
-      "summary": "Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can install and enable default plugins for… The post Repository plugin defaults and enterprise plugin controls generally available...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Generate and edit images directly in Copilot",
-      "link": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
-      "published": "2026-10-28T15:30:55+00:00",
-      "summary": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by… The post Generate and edit images directly in Copilot appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1197,18 +1413,6 @@
       "product": "Azure Network Security"
     },
     {
-      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
-      "published": "2026-10-26T18:19:26+00:00",
-      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "yuvalpery",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Azure Network Security"
-    },
-    {
       "title": "EWS Deprecation Is Here – What This Means To You",
       "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/ews-deprecation-is-here-what-this-means-to-you/ba-p/4561431",
       "published": "2026-10-26T18:17:26+00:00",
@@ -1423,6 +1627,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Migrate"
+    },
+    {
+      "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+      "published": "2026-10-23T18:12:19+00:00",
+      "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, Mahesh Mandava, Srinivasan Govindarajan, Sagar Patil and Suriyaraj Natarajan",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
     },
     {
       "title": "Code with Cosmos: Build a Production-Ready AI App in Four Episodes",
@@ -1737,6 +1953,18 @@
       "product": "Linux on Azure"
     },
     {
+      "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+      "published": "2026-10-21T18:23:55+00:00",
+      "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research and Microsoft Threat Intelligence",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Incrementally migrate and re-migrate database objects with Migration Assistant for Fabric Warehouse (Preview)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Incrementally-migrate-and-re-migrate-database-objects-with/ba-p/5376060",
       "published": "2026-10-21T18:00:00+00:00",
@@ -1965,18 +2193,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "More expressive graph analysis: GQL improvements in Microsoft Fabric Graph",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/More-expressive-graph-analysis-GQL-improvements-in-Microsoft/ba-p/5375740",
-      "published": "2026-10-20T20:45:46+00:00",
-      "summary": "Coauthors: Idris Motiwala, and Justin Fine January–August 2026 updates expand how users find, inspect, compose, and analyze connections. Organizations use graph data to understand how information moves between systems, how services depend on one another, how conversations develop, and how people or...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "tushar-msft",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Introducing Azure Copilot for Azure Local: AI-powered operations for distributed infrastructure",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-azure-copilot-for-azure-local-ai-powered-operations/ba-p/4565723",
       "published": "2026-10-20T20:25:48+00:00",
@@ -2059,18 +2275,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "T-SQL language enhancements in Microsoft Fabric Data Warehouse (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/T-SQL-language-enhancements-in-Microsoft-Fabric-Data-Warehouse/ba-p/5375433",
-      "published": "2026-10-20T17:00:00+00:00",
-      "summary": "Microsoft Fabric Data Warehouse is expanding its T-SQL capabilities with four language enhancements in preview. GROUP BY ALL, ORDER BY ALL, the QUALIFY clause, and the FROM ... SELECT query format help SQL developers and data professionals reduce repetitive code, simplify query maintenance, and...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "jovanpop-msft",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Azure DevOps available in Microsoft Copilot Cowork",
@@ -2433,6 +2637,18 @@
       "product": "Visual Studio"
     },
     {
+      "title": "Agents are your newest insiders. Security must move at their speed.",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+      "published": "2026-10-19T13:00:00+00:00",
+      "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Nadim Abdo",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Microsoft auto-removed a user's license is action needed?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-auto-removed-a-user-s-license-is-action-needed/m-p/4565829#M60116",
       "published": "2026-10-19T12:44:24+00:00",
@@ -2577,6 +2793,18 @@
       "product": "Microsoft Teams"
     },
     {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "published": "2026-10-16T16:00:00+00:00",
+      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Michael Scovetta",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
       "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/threat-modeling-azure-mcp-securing-ai-assisted-infrastructure/ba-p/4564892",
       "published": "2026-10-16T15:14:27+00:00",
@@ -2587,18 +2815,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Uploading PDFs into Whiteboard",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/uploading-pdfs-into-whiteboard/m-p/4565277#M60105",
-      "published": "2026-10-16T14:38:38+00:00",
-      "summary": "With the retirement of the whiteboard app, my company now has to use the web and teams version exclusively. We like to make use of the app specifically because you can upload high quality PDFs on to the board. However, this feature isn’t available on the web and teams version. Are there any plans...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Isingh1347",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Windows 11 Insider Preview Feature Update (26220.9606) 安装错误 - 0xc1900204",
@@ -2965,8 +3181,8 @@
       "link": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
       "published": "2026-10-14T19:11:33+00:00",
       "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Engineering",
+      "blogId": "githubengineering",
       "author": "Taylor Cuilty",
       "solutionArea": "CAIP",
       "billingType": "License",
@@ -3055,6 +3271,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure HPC"
+    },
+    {
+      "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+      "published": "2026-10-14T13:00:00+00:00",
+      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Threat Intelligence and Microsoft Digital Crimes Unit",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
     },
     {
       "title": "How are organisations monitoring attendance and participation during live Microsoft Teams meetings?",
@@ -3417,18 +3645,6 @@
       "product": "Azure Tools"
     },
     {
-      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
-      "published": "2026-10-08T20:44:28+00:00",
-      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Sending From Email Aliases – General Availability",
       "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/sending-from-email-aliases-general-availability/ba-p/4562543",
       "published": "2026-10-08T20:41:04+00:00",
@@ -3619,18 +3835,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
-    },
-    {
-      "title": "3 lessons from frontier AI vulnerability research",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-      "published": "2026-10-07T16:00:00+00:00",
-      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Taesoo Kim",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Microsoft Places bug: Room images are too big, hiding info. Need a compact/resize option",
@@ -3849,18 +4053,6 @@
       "product": "Azure SQL"
     },
     {
-      "title": "CISO perspectives on managing vulnerability risks in the age of AI",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
-      "published": "2026-10-06T16:00:00+00:00",
-      "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Freddy Dezeure and Sesha Mani",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-functions-agent-binding/",
       "published": "2026-10-06T15:00:10+00:00",
@@ -3979,42 +4171,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
-      "published": "2026-10-03T04:08:41+00:00",
-      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
-    },
-    {
-      "title": "Released: September 2026 V2 Exchange Server Security Updates",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2026-v2-exchange-server-security-updates/ba-p/4561718",
-      "published": "2026-10-02T19:49:10+00:00",
-      "summary": "Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access,...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Save the Date: Join us October 20 for the OneDrive + Copilot Digital Event",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/save-the-date-join-us-october-20-for-the-onedrive-copilot/ba-p/4556814",
-      "published": "2026-10-02T18:49:44+00:00",
-      "summary": "Files and photos are at the center of how we work, create, and collaborate. As AI and Copilot transform the way we use content, OneDrive is evolving for this era - helping people get more from their files with Copilot, delivering a faster and more dependable core file experience, making...",
-      "blog": "OneDrive Blog",
-      "blogId": "onedriveblog",
-      "author": "Arwa_Tyebkhan",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "OneDrive"
     }
   ]
 }
