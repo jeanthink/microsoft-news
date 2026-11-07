@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-06T18:45:05.080033+00:00",
-  "totalArticles": 340,
+  "lastUpdated": "2026-11-07T17:15:54.945221+00:00",
+  "totalArticles": 335,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,138 @@
   },
   "articles": [
     {
+      "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/repairs-and-renovation-should-not-compete-blindly-for-the-same/ba-p/4571312",
+      "published": "2026-11-07T16:06:48+00:00",
+      "summary": "Consider an illustrative ground-floor apartment in a 1960s portiekflat, a Dutch walk-up apartment building. In February, the tenant reports a back door that sticks and lets in drafts. A repair contractor adjusts the frame and orders a part; a second visit in March installs it. In April, another...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Dutch Social Housing Transformation: Smarter Repairs, Faster Renovations, Accountable Tech",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/dutch-social-housing-transformation-smarter-repairs-faster/ba-p/4571311",
+      "published": "2026-11-07T15:38:21+00:00",
+      "summary": "Picture an ordinary week at a Dutch housing association. A tenant reports bedroom mold for the third time, and the repair desk books a contractor to treat it. Across the office, the asset team is finalizing next year’s insulation and ventilation program for the same building. Each team acts...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "ARTEX abuse expands as cybercriminals target financial sector",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "published": "2026-11-07T02:44:34+00:00",
+      "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Threat Intelligence",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Logic Apps Standard custom code now supports .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
+      "published": "2026-11-07T00:59:02+00:00",
+      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Copilot code review: API management and review overview updates",
+      "link": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+      "published": "2026-11-07T00:27:19+00:00",
+      "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot code review: API management and review overview updates appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Java OpenJDK October 2026 Patch & Security Update",
+      "link": "https://devblogs.microsoft.com/java/java-openjdk-october-2026-patch-security-update/",
+      "published": "2026-11-06T23:56:56+00:00",
+      "summary": "Hello Java customers! We are happy to announce the latest October 2026 patch set update release for the Microsoft Build of OpenJDK. Check our release notes page for details on fixes and enhancements or download and install the binaries today. The source code of our builds are now available on...",
+      "blog": "Java on Azure",
+      "blogId": "javablog",
+      "author": "Josh Martin-Jaffe",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Java on Azure"
+    },
+    {
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "link": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+      "published": "2026-11-06T22:17:28+00:00",
+      "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "published": "2026-11-06T22:15:59+00:00",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The...",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Nick Liffen",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — November 2",
+      "link": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+      "published": "2026-11-06T21:00:26+00:00",
+      "summary": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge… The post GitHub Copilot weekly releases — November 2 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Announcing Live Migration for Confidential Computing",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-live-migration-for-confidential-computing/ba-p/4524558",
+      "published": "2026-11-06T20:40:50+00:00",
+      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Live Migration for Azure confidential computing, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "mmcrey",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Confidential Computing"
+    },
+    {
+      "title": "@GitHub in Slack and Teams is generally available and more",
+      "link": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+      "published": "2026-11-06T20:31:08+00:00",
+      "summary": "Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests—all without leaving your conversation. What’s new Build and review together… The post @GitHub in Slack and Teams is generally available and more appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Join us at FABCON + SQLCON 2027 in Atlanta and save",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Join-us-at-FABCON-SQLCON-2027-in-Atlanta-and-save/ba-p/5400304",
       "published": "2026-11-06T17:15:16+00:00",
@@ -297,9 +429,57 @@
       "product": "Microsoft Fabric"
     },
     {
+      "title": "Teams co-organizers can’t access meeting engagement data: a gap for centrally managed meetings",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-co-organizers-can-t-access-meeting-engagement-data-a-gap/m-p/4571110#M145440",
+      "published": "2026-11-06T17:02:53+00:00",
+      "summary": "Hi everyone,We’ve run into what seems to be a gap in the Microsoft Teams co-organizer model while working on moving our enterprise virtual learning delivery from a dedicated virtual-classroom platform to Teams.Our requirement is fairly straightforward: we run a large number of centrally...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "petergodaddy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Cross-tenant Free/Busy, MailTips, and Calendar Sharing are moving to Cross-Tenant Access Policy",
+      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/cross-tenant-free-busy-mailtips-and-calendar-sharing-are-moving/ba-p/4545169",
+      "published": "2026-11-06T15:17:58+00:00",
+      "summary": "Update 11/6/2026: This blog post discusses a feature that is not yet fully available. Please see The rollout schedule for Cross-Tenant Access Policy table below for expected availability dates. If your organization shares Free/Busy, MailTips, or calendars with other Microsoft 365 organizations,...",
+      "blog": "Exchange Team Blog",
+      "blogId": "Exchange",
+      "author": "The_Exchange_Team",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Exchange"
+    },
+    {
+      "title": "i have a loggin problem office 365",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/i-have-a-loggin-problem-office-365/m-p/4571072#M60201",
+      "published": "2026-11-06T13:51:38+00:00",
+      "summary": "i have changed my password,then MS asks me to enter code from authnticator but no code is cumming alternative methods say allways authenticator code and my phone number is nor verifiedms bissunes support is a chatbot and i will not work",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Ted2400",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Enhancements to the Protection and Posture Insights report",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/enhancements-to-the-protection-and-posture-insights-report/ba-p/4568163",
+      "published": "2026-11-06T13:48:48+00:00",
+      "summary": "Earlier this year, we introduced the Protection & Posture Insights report: an on-demand, tenant-specific view of the email & collaboration threats targeting your organization, how well Microsoft Defender is stopping them, and where your configuration can be strengthened. Today, we're announcing the...",
+      "blog": "Defender for Office 365",
+      "blogId": "MicrosoftDefenderforOffice365Blog",
+      "author": "Ben_Harris",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender for Office 365"
+    },
+    {
       "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
-      "published": "2026-11-06T12:02:37+00:00",
+      "published": "2026-11-06T13:47:24+00:00",
       "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
@@ -307,6 +487,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
+    },
+    {
+      "title": "DLP for Copilot Customizes Data Access Messages",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/dlp-for-copilot-customizes-data-access-messages/m-p/4571027#M60200",
+      "published": "2026-11-06T10:09:36+00:00",
+      "summary": "A small but important change gives DLP for Copilot the ability to include custom compliance links in error messages when DLP blocks Copilot from accessing content. It sounds like something administrators could ignore. They can, and DLP for Copilot will continue to work perfectly well. However,...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Work IQ: SharePoint Tools",
@@ -321,16 +513,16 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-06T06:15:29+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
+      "title": "option: \"allow customer to choose a specific person for the booking\" option does not seem to work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/option-quot-allow-customer-to-choose-a-specific-person-for-the/m-p/4570932#M60199",
+      "published": "2026-11-06T07:03:23+00:00",
+      "summary": "Would like to discuss a problem in bookings (bookings.cloud.microsoft)option: \"allow customer to choose a specific person for the booking\" Even if i have it unclicked it still allows person to choose a person (it says optional in the booking pagebut still allows person to choose one person)....",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "mart1",
       "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1017,18 +1209,6 @@
       "product": "Azure Infrastructure"
     },
     {
-      "title": "BYOK and enterprise custom models in the Copilot usage API",
-      "link": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-      "published": "2026-11-04T00:32:19+00:00",
-      "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "GitHub Copilot is now a default agent in JetBrains Air",
       "link": "https://devblogs.microsoft.com/java/github-copilot-jetbrains-air/",
       "published": "2026-11-03T23:11:50+00:00",
@@ -1063,18 +1243,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "Dependabot version updates support Agent Package Manager",
-      "link": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
-      "published": "2026-11-03T20:24:07+00:00",
-      "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Enhanced data protection for Azure Files",
@@ -1264,30 +1432,6 @@
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "Alex Perrault",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Look up a resource’s cost center with the GitHub REST API",
-      "link": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
-      "published": "2026-11-03T15:27:13+00:00",
-      "summary": "You can now use the GitHub REST API to find which cost center a user, organization, repository, or enterprise team belongs to. Previously, you had to list every cost center… The post Look up a resource’s cost center with the GitHub REST API appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "GitHub Copilot is now available in JetBrains Air",
-      "link": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
-      "published": "2026-11-03T15:11:46+00:00",
-      "summary": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your… The post GitHub Copilot is now available in JetBrains Air appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -1809,18 +1953,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Cross-tenant Free/Busy, MailTips, and Calendar Sharing are moving to Cross-Tenant Access Policy",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/cross-tenant-free-busy-mailtips-and-calendar-sharing-are-moving/ba-p/4545169",
-      "published": "2026-10-29T18:00:55+00:00",
-      "summary": "Update 10/29/2026: This blog post discusses a feature that is not yet fully available. Please see The rollout schedule for Cross-Tenant Access Policy table below for expected availability dates. If your organization shares Free/Busy, MailTips, or calendars with other Microsoft 365 organizations,...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
       "title": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-v2-restoring-predictable-outbound-ip/ba-p/4566574",
       "published": "2026-10-29T17:36:31+00:00",
@@ -1831,18 +1963,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Tracking AI adoption in North Korean threat actor tradecraft",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
-      "published": "2026-10-29T16:00:00+00:00",
-      "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Now generally available: Discover local AI agents with Microsoft Defender",
@@ -2553,18 +2673,6 @@
       "product": "Azure Cosmos DB"
     },
     {
-      "title": "Microsoft Teams Notifications Interrupting Video Audio? Here’s How to Fix It",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-teams-notifications-interrupting-video-audio-here-s/m-p/4567097#M60140",
-      "published": "2026-10-23T08:45:25+00:00",
-      "summary": "Imagine watching a training video, attending an online course, or listening to a technical presentation. Suddenly, a Microsoft Teams message arrives, and your video audio becomes quieter or stops completely. Sometimes, the sound returns automatically. In other cases, you must pause the video,...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "JohnNaguib",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
       "published": "2026-10-23T08:11:46+00:00",
@@ -2575,18 +2683,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Messaging"
-    },
-    {
-      "title": "Microsoft 365 Backup - Restore Experience and Reliability Questions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-backup-restore-experience-and-reliability/m-p/4567072#M60139",
-      "published": "2026-10-23T07:37:08+00:00",
-      "summary": "Microsoft 365 Backup - Restore Experience and Reliability QuestionsHi everyone,We're currently evaluating Microsoft 365 Backup and have been carrying out a series of restore tests across Exchange Online, OneDrive and SharePoint Online. While the backup side appears to be working as expected, we've...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "ty_zar",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
@@ -2647,18 +2743,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender XDR"
-    },
-    {
-      "title": "OneNote missing files",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onenote-missing-files/m-p/4566904#M60136",
-      "published": "2026-10-22T15:30:28+00:00",
-      "summary": "I tried opening the OneNote app and none of my notes were there, I tried resyncing, I tried looking at the online OneNote website, neither fixed the issue. I contacted the OneNote team, who referred me to the OneDrive team who referred me back to the OneNote team with the following info:\"The...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "noel999",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Scheduled backups for Azure Local with disconnected operations: Advancing control plane resilience",
@@ -3177,28 +3261,16 @@
       "product": "Microsoft Intune"
     },
     {
-      "title": "Announcing Live Migration for Confidential Computing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-live-migration-for-confidential-computing/ba-p/4524558",
-      "published": "2026-10-19T19:14:23+00:00",
-      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Live Migration for Confidential Computing, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory and...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "mmcrey",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Confidential Computing"
-    },
-    {
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
       "published": "2026-10-19T18:47:22+00:00",
       "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Kayla Cinnamon",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "Troubleshooting playbook for Auto labelling in SharePoint and OneDrive",
@@ -4231,138 +4303,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure SDK"
-    },
-    {
-      "title": "How one bug bounty researcher chooses the features they investigate",
-      "link": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-      "published": "2026-10-08T17:02:52+00:00",
-      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog.",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Shilpa Kumari",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "Adding persistence to the Aspire dashboard",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence/",
-      "published": "2026-10-08T17:00:00+00:00",
-      "summary": "Aspire 13.6 adds dashboard persistence and run history. Revisit telemetry after a restart, retain more data, and explore the SQLite and Dapper implementation behind it. The post Adding persistence to the Aspire dashboard appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "James Newton-King",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET Aspire"
-    },
-    {
-      "title": "A closer look at noise reduction in Stacks What-If",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-closer-look-at-noise-reduction-in-stacks-what-if/ba-p/4548210",
-      "published": "2026-10-08T16:12:33+00:00",
-      "summary": "Following the general availability of what-if for Azure Deployment Stacks, this article deep dives into the co-released feature of \"noise reduction\", which was a top community feature ask from Deployment Stacks customers. In this article, we will cover what noise reduction solves, how it works, and...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "torreyt",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Governance"
-    },
-    {
-      "title": "New Wiki Editor Experience",
-      "link": "https://devblogs.microsoft.com/devops/new-wiki-editor-experience/",
-      "published": "2026-10-08T14:24:03+00:00",
-      "summary": "We are excited to announce a new editing experience for Wiki pages. We are replacing the existing editor with a new editor built on Monaco Editor, the same editor technology that powers Visual Studio Code. Monaco brings many of the editing capabilities familiar to Visual Studio Code to Wiki pages,...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
-    },
-    {
-      "title": "Pre-authenticated (tempauth) URLs are retiring: move to Microsoft Entra ID tokens before April 1, 2027",
-      "link": "https://devblogs.microsoft.com/microsoft365dev/pre-authenticated-tempauth-urls-are-retiring-move-to-microsoft-entra-id-tokens-before-april-1-2027/",
-      "published": "2026-10-08T13:10:46+00:00",
-      "summary": "Starting April 1, 2027, affected Microsoft Graph file APIs will no longer return pre-authenticated URLs. Applications using these APIs must authenticate requests with Microsoft Entra ID access tokens. The post Pre-authenticated (tempauth) URLs are retiring: move to Microsoft Entra ID tokens before...",
-      "blog": "Microsoft 365 Developer Blog",
-      "blogId": "m365devblog",
-      "author": "SharePoint team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Azure Key Vault and BYOK: Lessons Learned",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
-      "published": "2026-10-08T12:41:54+00:00",
-      "summary": "Bring Your Own Key (BYOK) lets you import externally generated key material into Azure Key Vault. Importing that material again creates a new version; it does not recreate the original version identifier. If Azure Storage still requires the original customer-managed key (CMK) version to unwrap...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "gurjsing",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Shared Channels: @Channel mentions fail to trigger activity notifications for team-shared members",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/shared-channels-channel-mentions-fail-to-trigger-activity/m-p/4562911#M145366",
-      "published": "2026-10-08T11:51:47+00:00",
-      "summary": "Hello everyone, I am facing a persistent issue regarding notification behavior in Microsoft Teams Shared Channels that I hope someone can clarify or help with. Scenario:We have a Shared Channel that is shared with multiple teams (e.g., 17 teams in total). Note: I know that this way of communicating...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "HishNa",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Microsoft Edge plans to retire its legacy direct-WAM - version 157",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/microsoft-edge-plans-to-retire-its-legacy-direct-wam-version-157/m-p/4562847#M23782",
-      "published": "2026-10-08T09:19:31+00:00",
-      "summary": "Hello, I’m not sure if you are already aware of the above. Do you know of any way I could create a detection mechanism in Intune for the recommendation below? Thank you Action recommended for administrators: Check edge://signin-internals under Edge Auth Library Information → Library to see if any...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "Modechristo_13",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Faster by Design: Performance engineering in the Microsoft JDBC Driver for SQL Server",
-      "link": "https://devblogs.microsoft.com/java/faster-by-design-performance-engineering-in-the-microsoft-jdbc-driver-for-sql-server/",
-      "published": "2026-10-08T07:25:06+00:00",
-      "summary": "A database driver sits on the critical path of many applications. When a frequently executed path performs unnecessary work, even a small amount of overhead can compound across millions of operations. Over the past several releases, we have systematically profiled frequently executed paths across...",
-      "blog": "Java on Azure",
-      "blogId": "javablog",
-      "author": "Ananya Garg",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Java on Azure"
-    },
-    {
-      "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-asim-emailevent-schema/ba-p/4562581",
-      "published": "2026-10-07T20:21:05+00:00",
-      "summary": "Email remains one of the most common entry points for security threats. Yet email products often describe the same activity with different table names, fields, and values. This makes it harder to build detections and investigations that work consistently across data sources. The Microsoft Sentinel...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JamesAde",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Managed Google Play apps not syncing completely to Intune",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/managed-google-play-apps-not-syncing-completely-to-intune/m-p/4562642#M23780",
-      "published": "2026-10-07T18:50:11+00:00",
-      "summary": "Nimm diesen Text für den Beitrag:Hi,we are using Microsoft Intune with Android Enterprise Fully Managed devices and Managed Google Play.The Managed Google Play connection itself is working. Apps can be approved successfully and are visible in our Managed Google Play enterprise store.The problem is...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "Oldnar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
     }
   ]
 }
