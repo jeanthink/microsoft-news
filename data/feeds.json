@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-07T17:15:54.945221+00:00",
-  "totalArticles": 335,
+  "lastUpdated": "2026-11-08T17:28:28.789692+00:00",
+  "totalArticles": 331,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,30 @@
   },
   "articles": [
     {
+      "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
+      "published": "2026-11-07T20:50:12+00:00",
+      "summary": "Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a support worker who completes the form with them, and many reports include a photo. Asset history, approved repair guidance, contractor availability and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Windows Compliance",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/windows-compliance/m-p/4571325#M23820",
+      "published": "2026-11-07T18:43:43+00:00",
+      "summary": "Hi AllI hope you are well.Anyway, I'm having a nightmare with Device Compliance on Windows devices.Recent research of Microsoft and other guides and documents reveals seriously conflicting information.To sum up, we have a mixture E3 and F3 users logging onto Windows devices. These Windows devices...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "StuartK73",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
       "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/repairs-and-renovation-should-not-compete-blindly-for-the-same/ba-p/4571312",
       "published": "2026-11-07T16:06:48+00:00",
@@ -381,6 +405,18 @@
       "product": "GitHub"
     },
     {
+      "title": "What’s new in Microsoft Entra: November 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-november-2026/ba-p/4556457",
+      "published": "2026-11-06T21:04:04+00:00",
+      "summary": "Don't miss our Microsoft Ignite announcements. Tune in or join us in person for AI is changing access: See how Microsoft Entra helps you stay ahead on November 18, 2026, at 10:15 AM Pacific for secure access news and demos from our latest product roadmap. Access is never a one-time decision....",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Yina Arenas",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
       "title": "GitHub Copilot weekly releases — November 2",
       "link": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
       "published": "2026-11-06T21:00:26+00:00",
@@ -391,6 +427,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "Catch Microsoft Entra at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/catch-microsoft-entra-at-ignite-2026/ba-p/4513159",
+      "published": "2026-11-06T20:56:39+00:00",
+      "summary": "Join us at Microsoft Ignite 2026, November 17–20, 2026, at Moscone Center in San Francisco and online. Explore Microsoft Entra and learn how to secure access for users and AI agents. From stopping identity attacks to simplifying access policies and securing agents, our sessions bring practical...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "NgoziNwoko",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
     },
     {
       "title": "Announcing Live Migration for Confidential Computing",
@@ -799,18 +847,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "Catch Microsoft Entra at Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/catch-microsoft-entra-at-ignite-2026/ba-p/4513159",
-      "published": "2026-11-05T16:00:00+00:00",
-      "summary": "Join us at Microsoft Ignite 2026, November 17–20, 2026, at Moscone Center in San Francisco and online. Explore Microsoft Entra and learn how to secure access for users and AI agents. From stopping identity attacks to simplifying access policies and securing agents, our sessions bring practical...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "NgoziNwoko",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
     },
     {
       "title": "Email threat landscape: Q3 2026 trends and insights",
@@ -4219,90 +4255,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Networking"
-    },
-    {
-      "title": "Azure Managed Redis Deployment Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
-      "published": "2026-10-09T12:30:36+00:00",
-      "summary": "Sometimes we may see some temporary capacity restrictions on some Azure Regions, while deploying Azure Managed Redis (AMR), and when that happen, the recommendation is usually retrying using a different Azure Region, a different AMR SKU, or retrying during off-peak hours or weekends.Retrying the...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure PaaS"
-    },
-    {
-      "title": "Introducing the Agent Experience (AX) Practitioner Playbook",
-      "link": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
-      "published": "2026-10-09T09:44:25+00:00",
-      "summary": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely on when they don't.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "Windows 11 Insider Preview Feature Update (26220.9606) download speed is extremely slow.",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9606-download/m-p/4563138#M45263",
-      "published": "2026-10-09T08:31:21+00:00",
-      "summary": "I'm trying to download the latest Windows 11 Insider Preview Feature Update (26220.9606), but the download speed is painfully slow. My internet speed is fine otherwise, but this update seems stuck at a crawl. Has anyone else experienced this issue with this specific build? Any suggestions would be...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "ernest125",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Introducing the Native Confluent Cloud Connector Experience in Azure Cosmos DB!",
-      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-native-confluent-cloud-connector-experience-in-azure-cosmos-db/",
-      "published": "2026-10-09T07:00:28+00:00",
-      "summary": "Co-authored with Praveen Raja P Azure Cosmos DB already includes a powerful event foundation: change feed provides a durable, ordered record of item changes within each logical partition. It is ideal for reacting to operational data as it changes, building projections, and driving workflows...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Azure CLI on macOS got security upgrade: native broker authentication",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-got-security-upgrade-native-broker/ba-p/4563073",
-      "published": "2026-10-09T04:40:50+00:00",
-      "summary": "Why we built this If you manage Azure resources from a Mac today, az login opens a browser tab, you sign in, and a token comes back to the CLI. That's worked well for a long time. As security requirements become more stringent, many enterprise organizations are adopting secure authentication...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Tools"
-    },
-    {
-      "title": "Sending From Email Aliases – General Availability",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/sending-from-email-aliases-general-availability/ba-p/4562543",
-      "published": "2026-10-08T20:41:04+00:00",
-      "summary": "Today we are announcing the General Availability (GA) of Sending from Aliases for Exchange Online. This was a highly requested feature that now empowers users to send emails from any alias (proxy address) associated with their mailbox, not just their primary SMTP address. Read on to learn how it...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
-      "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
-      "published": "2026-10-08T19:09:00+00:00",
-      "summary": "Azure Functions is the event-driven application platform, and Hosted Skills adds AI reasoning to your app. Dynamic Workflows give the app a durable way to carry out AI-led, multi-step work after the triggering invocation is finished. The model writes a plan (a DAG) one time, and Durable Functions...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Tsuyoshi Ushio",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
     }
   ]
 }
