@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-08T17:28:28.789692+00:00",
-  "totalArticles": 331,
+  "lastUpdated": "2026-11-09T21:49:49.124368+00:00",
+  "totalArticles": 337,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -284,6 +284,282 @@
     ]
   },
   "articles": [
+    {
+      "title": "Securing and governing your medallion layers in Fabric Data Warehouse",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Securing-and-governing-your-medallion-layers-in-Fabric-Data/ba-p/5377539",
+      "published": "2026-11-09T21:32:00+00:00",
+      "summary": "Coauthor - Artur Vieira Part 4 of a series on medallion architecture with Fabric Data Warehouse. Security should follow the layers, not fight them. In Part 1 we chose the pattern, in Part 2 we built the layers, and in Part 3 we covered the operating practices that keep them healthy. Security is the...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "Scirqueira",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Durable Task extension for Microsoft Agent Framework is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/durable-task-extension-for-microsoft-agent-framework-is-now/ba-p/4571100",
+      "published": "2026-11-09T20:43:58+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Durable Task extension for Microsoft Agent Framework. It brings the reliable execution model of Durable Task to Agent Framework, helping agents and agentic workflows recover from failures and interruptions without losing their...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "NickGreenfield",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+      "published": "2026-11-09T20:17:31+00:00",
+      "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code...",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Yechan Bae and FORGE Lab",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "When one pass isn’t enough: agentic mode in Azure Content Understanding",
+      "link": "https://devblogs.microsoft.com/foundry/when-one-pass-isnt-enough-agentic-mode-in-azure-content-understanding/",
+      "published": "2026-11-09T20:04:00+00:00",
+      "summary": "Most document analysis takes one efficient pass. Learn how agentic mode gives AI a document-native harness for the hardest tasks, and when to choose it over standard mode. “Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.” Francis Bacon, “Of Studies”,...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Bring insights and action together with Fabric Apps in Org apps",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-insights-and-action-together-with-Fabric-Apps-in-Org-apps/ba-p/5377690",
+      "published": "2026-11-09T19:54:16+00:00",
+      "summary": "Business users move from understanding what happened, to investigating why, to acting. Microsoft Fabric can bring that journey together. Fabric Apps provide purpose-built, data-driven experiences when users need more than a report. Org apps distribute them alongside Power BI reports and other...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "mk_sunitha",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Announcing the retirement of R and Python visuals in Power BI",
+      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Announcing-the-retirement-of-R-and-Python-visuals-in-Power-BI/ba-p/5400748",
+      "published": "2026-11-09T19:00:39+00:00",
+      "summary": "The built-in R and Python visuals in Power BI will retire in May 2027. What changes This retirement applies only to R and Python visuals in interactive Power BI reports. Python scripts used in Power Query to populate tables are not affected. Power BI service: At retirement, all R and Python visuals...",
+      "blog": "Power BI Blog",
+      "blogId": "powerbi",
+      "author": "DataZoe",
+      "solutionArea": "AIBS",
+      "billingType": "License",
+      "product": "Power BI"
+    },
+    {
+      "title": "Granular control with scoped enforcement actions in Azure Policy for AKS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/granular-control-with-scoped-enforcement-actions-in-azure-policy/ba-p/4571773",
+      "published": "2026-11-09T18:34:10+00:00",
+      "summary": "Azure Policy for AKS now supports scoped enforcement actions. This feature allows you to define the enforcement action (deny, audit, or warn) with the enforcement point where that action is applied. With Validating Admission Policy (VAP) now generally available, customers gain a new enforcement...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Governance"
+    },
+    {
+      "title": "Unifying SQL Pools: Upcoming changes to UI and APIs",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Unifying-SQL-Pools-Upcoming-changes-to-UI-and-APIs/ba-p/5397390",
+      "published": "2026-11-09T17:00:00+00:00",
+      "summary": "SQL pools are Fabric Data Warehouse’s built-in workload management capability. They help administrators organize workloads and control how compute resources are allocated across them. SQL pool configurations are represented differently depending on whether a workspace uses the built-in or custom...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "Sosivara_msft",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-at-microsoft-ignite-2026-sessions-hands-on-labs-and/ba-p/4571203",
+      "published": "2026-11-09T16:00:00+00:00",
+      "summary": "Microsoft Ignite 2026 is almost here! Join us November 17–20 in San Francisco or online to explore the latest innovations across Microsoft. As organizations operate across increasingly distributed environments, consistent visibility, governance, and management are more important than ever. Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Arc"
+    },
+    {
+      "title": "A Leader in Data Integration—six years running",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/A-Leader-in-Data-Integration-six-years-running/ba-p/5400776",
+      "published": "2026-11-09T15:58:55+00:00",
+      "summary": "Microsoft is a Leader in the 2026 Gartner® Magic Quadrant™ for Data Integration Tools For the sixth consecutive year, Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Data Integration Tools—and this year, the story isn't just about unifying data, it's about what customers...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "FaisalMohamood",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Microsoft 365 Family - how can there be two products with the same name?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-family-how-can-there-be-two-products-with-the-same/m-p/4571695#M60215",
+      "published": "2026-11-09T12:34:49+00:00",
+      "summary": "Just spent an hour on live chat/quick assist before the agent worked out that \"Microsoft 365 Family\" that you pay for (in the UK appx £105 per year) is a different product to the \"Microsoft 365 Family\" that shows up in the \"Family Safety\" screens.How can Microsoft have two products with the same...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TomCR1974",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Office Home 2024 will not install over Office Home 2021",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/office-home-2024-will-not-install-over-office-home-2021/m-p/4571694#M60214",
+      "published": "2026-11-09T12:18:14+00:00",
+      "summary": "I have a very new Lenovo X1 gen 14 Aura edition laptop. I guess I set it up with my old Office version. I also purchased Office 2024 with the laptop and received a license. I downloaded the Setup.exe for office 2024. It appears to run, but my Office version stays at 2021.Any suggestions?",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "randysea",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "How do you run a query against data the database can’t read?",
+      "link": "https://devblogs.microsoft.com/azure-sql/how-do-you-run-a-query-against-data-the-database-cant-read/",
+      "published": "2026-11-09T11:56:57+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 3 Encryption at rest solves one threat. It stops someone who walks off with the disk. It does nothing about someone with administrative access to the running server, because the database decrypts data into memory to do anything useful with it....",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Conditional Access Reporting for Intune Enrolled Windows Devices",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/conditional-access-reporting-for-intune-enrolled-windows-devices/m-p/4571689#M23825",
+      "published": "2026-11-09T11:25:23+00:00",
+      "summary": "Hi AllI hope you are well and that this is the right community for this.Anyway, I have a Conditional Access policy that requires Intune enrolled Windows devices to be compliant.Prior to turning this on, I'd like to use Reporting Mode with Insights and Reporting.Now, I do have Insights and Reporting...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "StuartK73",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "Entra ID Previews Hard Deletion Protection",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/entra-id-previews-hard-deletion-protection/m-p/4571649#M60213",
+      "published": "2026-11-09T09:48:18+00:00",
+      "summary": "Entra ID Hard Deletion Protection is a new feature to prevent the hard deletion of directory objects like user accounts for 7 days after their soft deletion. The feature works by updating the isHardDeleteProtectionEnabled property for objects. If set, Entra ID blocks any attempt to hard delete an...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "How do you track file approvals in Teams chats?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-do-you-track-file-approvals-in-teams-chats/m-p/4571620#M145447",
+      "published": "2026-11-09T09:07:22+00:00",
+      "summary": "When someone shares a document in a Teams group chat, feedback like “looks good” can get buried under later messages. If a revised version is shared, it also becomes unclear which version was approved.How does your team record the final approval and make the approved file easy to find?",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "LiaBrown",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+      "link": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+      "published": "2026-11-09T09:01:37+00:00",
+      "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How… The post Secret scanning detects secrets in GitHub Actions workflow logs appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "OneDrive won't sign in until I log into an external account in Teams",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onedrive-won-t-sign-in-until-i-log-into-an-external-account-in/m-p/4571576#M60212",
+      "published": "2026-11-09T07:31:48+00:00",
+      "summary": "OneDrive gets stuck on \"Signing in\" after every restart – Sign-in only works when I log into a second organization in TeamsI've noticed that OneDrive consistently gets stuck at the \"Signing in\" stage every time I restart my Mac.I have tried several troubleshooting steps to resolve this issue,...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "koklucinar",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "i want to end this madness and leavel pre-release insider program",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/i-want-to-end-this-madness-and-leavel-pre-release-insider/m-p/4571531#M45413",
+      "published": "2026-11-09T05:03:14+00:00",
+      "summary": "i want tol leave",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "tigger2343",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "From Files to Insights: Building a Medallion Architecture with Microsoft Fabric",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-files-to-insights-building-a-medallion-architecture-with/ba-p/4571519",
+      "published": "2026-11-09T03:36:14+00:00",
+      "summary": "Organizations often receive critical business data through files, spreadsheets, and SharePoint, but turning that information into trusted, analytics-ready insights can quickly become complex. Microsoft Fabric simplifies this journey by bringing ingestion, transformation, governance, and analytics...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Flat and overlapping networks in Application Network",
+      "link": "https://blog.aks.azure.com/2026/11/09/appnet-network-names",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Learn how Azure Kubernetes Application Network connects AKS clusters across flat and overlapping pod networks, and why network names do not create reachability.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "AKS"
+    },
+    {
+      "title": "Build the platform, not the plumbing, on AKS",
+      "link": "https://blog.aks.azure.com/2026/11/09/build-the-platform-not-the-plumbing",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Why platform engineers should build internal developer platforms on AKS: let Azure run the undifferentiated work so your team can own the developer contract.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "AKS"
+    },
+    {
+      "title": "Excel and word saving to invalid cloud location",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/excel-and-word-saving-to-invalid-cloud-location/m-p/4571343#M60207",
+      "published": "2026-11-07T23:05:11+00:00",
+      "summary": "There is a random account that belongs to my wife that keeps showing up randomly in my office 365. Supposedly last year it was \"fixed\", yet now suddenly it's showing up again when I create a new file in word. It says I need to sign in when I make it so I have to save a copy to my actual cloud to...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Topor982",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
     {
       "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
@@ -1053,18 +1329,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-      "link": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "published": "2026-11-04T19:10:40+00:00",
-      "summary": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with… The post GitHub Copilot is now available in Xcode’s coding assistant appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Govern Fabric connections with admin APIs and data connection policies (Preview)",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Govern-Fabric-connections-with-admin-APIs-and-data-connection/ba-p/5383656",
       "published": "2026-11-04T19:00:00+00:00",
@@ -1485,18 +1749,6 @@
       "product": "Azure Cosmos DB"
     },
     {
-      "title": "Bring insights and action together with Fabric Apps in Org apps",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-insights-and-action-together-with-Fabric-Apps-in-Org-apps/ba-p/5377690",
-      "published": "2026-11-03T12:14:21+00:00",
-      "summary": "Business users move from understanding what happened, to investigating why, to acting. Microsoft Fabric can bring that journey together. Fabric Apps provide purpose-built, data-driven experiences when users need more than a report. Org apps distribute them alongside Power BI reports and other...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "mk_sunitha",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
       "title": "Discover and assess on-premises Network Attached Storage (NAS) shares using Azure Migrate",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/discover-and-assess-on-premises-network-attached-storage-nas/ba-p/4568287",
       "published": "2026-11-03T10:05:24+00:00",
@@ -1627,18 +1879,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Messaging"
-    },
-    {
-      "title": "Data Days: Learn, build, and connect with AI @Work",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-Days-Learn-build-and-connect-with-AI-Work/ba-p/5382446",
-      "published": "2026-11-02T16:19:22+00:00",
-      "summary": "Real people. Real projects. Real AI on Fabric, SQL, and Power BI. From November 2 through December 15, Data Days is your chance to get past polished demos and put data and AI to work yourself. Join a live session, build something new, work toward a certification, or connect with a community study...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "slindsay",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Logic Apps Aviators Newsletter - November 2026",
@@ -1905,18 +2145,6 @@
       "product": "Microsoft Sentinel"
     },
     {
-      "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-      "published": "2026-10-30T16:11:44+00:00",
-      "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Security Research, Sagar Patil, Jesse Birch and Tal Tzhori",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
-    },
-    {
       "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
       "published": "2026-10-30T16:00:22+00:00",
@@ -1963,30 +2191,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Strengthening data security with workspace-level private connectivity for custom endpoints for Eventstream (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Strengthening-data-security-with-workspace-level-private/ba-p/5377347",
-      "published": "2026-10-29T21:00:00+00:00",
-      "summary": "Organizations that operate sensitive applications often keep them in networks with no route to the public internet. Applications in restricted networks need real-time analytics without a route to the public internet. Eventstream now supports workspace-level private links for custom endpoint sources...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "spurthikommajos",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
-    },
-    {
-      "title": "Using Allow workspace settings editing policy in Fabric (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Using-Allow-workspace-settings-editing-policy-in-Fabric-Preview/ba-p/5377845",
-      "published": "2026-10-29T19:00:00+00:00",
-      "summary": "Your teams are ready to build. They know their data, understand their business, and need the freedom to manage the workspaces where ideas become solutions. As adoption grows, that freedom becomes even more valuable. So does the ability to protect the settings that matter most. A workspace admin...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "yaelbiss",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway",
@@ -2083,18 +2287,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure HPC"
-    },
-    {
-      "title": "forms family acoount not sycing and caping at 200 responses",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/forms-family-acoount-not-sycing-and-caping-at-200-responses/m-p/4568568#M60161",
-      "published": "2026-10-29T02:40:48+00:00",
-      "summary": "so i talked to miscorosft 2 days they sent me here, im ASD and frustarted and disregulated as to lack of support. I have a family account and my form caped at 200 responeses, and it should cap at 1000 responses, i cant create new form or link i need that one working. In my account in forms, it says...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "HELPmePLEASE2",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Introducing the Logic Apps local CLI: develop Standard workflows from your terminal",
@@ -2409,18 +2601,6 @@
       "product": "Azure Cosmos DB"
     },
     {
-      "title": "Converting Scripts from Search-UnifiedAuditLog",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/converting-scripts-from-search-unifiedauditlog/m-p/4567980#M60157",
-      "published": "2026-10-27T09:37:11+00:00",
-      "summary": "Investigating the work necessary to convert PowerShell scripts based on the Search-UnifiedAuditLog cmdlet to use the AuditLogQuery Graph API shows that it’s not easy. Running audit jobs is a multi-stage process rather than running a simple cmdlet. Parameter values are now passed in a request body...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "How Microsoft Intune team upgraded a .NET service with GitHub Copilot modernization",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-intune-team-upgraded-a-net-service-with-github/ba-p/4566987",
       "published": "2026-10-27T08:51:18+00:00",
@@ -2493,18 +2673,6 @@
       "product": "Azure AI Foundry"
     },
     {
-      "title": "Unlocking Microsoft 365 Adoption in Engineering, Manufacturing, and Regulated Industries",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/unlocking-microsoft-365-adoption-in-engineering-manufacturing/m-p/4567791#M60155",
-      "published": "2026-10-26T16:52:16+00:00",
-      "summary": "Executive Feedback to Microsoft Leadership: Expanding the Value of Microsoft 365 Beyond Cloud-First WorkflowsExecutive SummaryMicrosoft has successfully built the industry's leading cloud collaboration ecosystem around Microsoft 365, OneDrive, and SharePoint. The strategy has delivered substantial...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "BFCracker",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Proofpoint’s Core Email Protection API solution joins the Microsoft Defender ICES vendor ecosystem",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/proofpoint-s-core-email-protection-api-solution-joins-the/ba-p/4567264",
       "published": "2026-10-26T16:00:00+00:00",
@@ -2541,18 +2709,6 @@
       "product": "Microsoft Dev"
     },
     {
-      "title": "Outlook for Mac 16.114 can't paste a screen capture",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/outlook-for-mac-16-114-can-t-paste-a-screen-capture/m-p/4567755#M60153",
-      "published": "2026-10-26T14:07:38+00:00",
-      "summary": "The title says it all.This is fine in the Legacy version, but in the \"new\" version, somehow my mac is set on I guess HTML OFF.How do I turn that back on?Yes, I have updated to latest version.",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "078614",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "PHP2Shell and Azure DevOps: what to check",
       "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
       "published": "2026-10-26T13:00:38+00:00",
@@ -2587,18 +2743,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Standard red no longer standard in Word - oops or worse?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/standard-red-no-longer-standard-in-word-oops-or-worse/m-p/4567509#M60151",
-      "published": "2026-10-25T15:36:03+00:00",
-      "summary": "The \"Standard\" colour red, which has forever been defined as #FF0000 (or if you prefer, RGB 255,0,0) is now defined as #EE0000 (238,0,0) in Word.Why?This feels unintentional, but if it was a design choice that's even more frustrating. It's still #FF0000 in PowerPoint and Excel. I hope they're not...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "SolarScooter",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
@@ -4183,78 +4327,6 @@
       "solutionArea": "AIBS",
       "billingType": "License",
       "product": "GitHub Copilot"
-    },
-    {
-      "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719",
-      "published": "2026-10-09T22:00:58+00:00",
-      "summary": "A production-minded reference architecture using Azure Integration Services and Microsoft Foundry to turn document-heavy intake into governed, traceable work. TL;DR: Calling a model is one step in AI-powered intake. Production readiness depends on everything around the model: authenticated entry,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "BrittanyPugh",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Meeting setup in teams Channel is not allowing me to update the Agenda and send updates",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/meeting-setup-in-teams-channel-is-not-allowing-me-to-update-the/m-p/4563340#M145371",
-      "published": "2026-10-09T20:55:37+00:00",
-      "summary": "I am interested to understand why when I have setup a meeting from A channel I am not able to change the invitation to all the team members. When I go into teams Calendar ,. I update the agenda description, the send updates at the top right view shows up when I do the changes , however , When I...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "JOELMC",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Management of unsupported WFH Teams-certified desk phones",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/management-of-unsupported-wfh-teams-certified-desk-phones/m-p/4563336#M145370",
-      "published": "2026-10-09T20:21:10+00:00",
-      "summary": "Hello, I'm looking for best practice or suggestions on management of unsupported WFH Teams-certified desk phones for company with Microsoft enterprise E3 and E5 licensed users. We're a Microsoft shop with Teams for messaging, but not for desk phones. So far, we've had only one employee buy their...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Overclocker",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Microsoft Agent 365 and Azure API Management integration for MCP governance",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-agent-365-and-azure-api-management-integration-for-mcp/ba-p/4563335",
-      "published": "2026-10-09T20:18:42+00:00",
-      "summary": "As agents gain access to enterprise tools, organizations need consistent ways to govern what those agents can access and enforce those decisions at runtime Today, we're announcing a new integration between Microsoft Agent 365 and Azure API Management now in public preview. The integration connects...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "santiagxf",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
-      "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
-      "published": "2026-10-09T19:35:00+00:00",
-      "summary": "Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2027. This does NOT affect the data plane (getting/setting secrets, keys, and certificates) — only vault and access-control management operations are...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Tools"
-    },
-    {
-      "title": "Multi-NIC Support on AKS powered by DRANET – Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/multi-nic-support-on-aks-powered-by-dranet-now-in-public-preview/ba-p/4563257",
-      "published": "2026-10-09T18:24:27+00:00",
-      "summary": "Kubernetes was designed around a simple networking model, every pod gets one network interface, and every pod on a node shares the same flat network. For most stateless microservices, this works well as it keeps the model simple and the platform portable. But a large class of workloads don't fit...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
     }
   ]
 }
