@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-09T21:49:49.124368+00:00",
-  "totalArticles": 337,
+  "lastUpdated": "2026-11-10T19:10:13.447969+00:00",
+  "totalArticles": 346,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,222 @@
   },
   "articles": [
     {
+      "title": "What’s new in AKS networking: Connectivity, performance, and observability",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-aks-networking-connectivity-performance-and/ba-p/4571806",
+      "published": "2026-11-10T19:06:23+00:00",
+      "summary": "As organizations scale their cloud-native applications, networking requirements continue to evolve. AI and high-performance computing workloads demand high-throughput, low-latency connectivity, applications increasingly span multiple Kubernetes clusters and enterprises need greater control over how...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "SandhyaCastelino",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Networking"
+    },
+    {
+      "title": ".NET 11 is now generally available in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/net-11-is-now-generally-available-in-azure-functions/ba-p/4571176",
+      "published": "2026-11-10T19:00:00+00:00",
+      "summary": "Today, we're announcing general availability of .NET 11 support in Azure Functions through the isolated worker model. You can build new serverless applications with .NET 11 or update your existing isolated worker apps to target the new release. This release also introduces a required project SDK...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Logic Apps Standard custom code now supports .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
+      "published": "2026-11-10T18:55:47+00:00",
+      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "Run on your schedule: App Service plan start/stop now in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-on-your-schedule-app-service-plan-start-stop-now-in-public/ba-p/4566184",
+      "published": "2026-11-10T18:32:36+00:00",
+      "summary": "Start and stop your apps together Managing an environment with multiple apps shouldn't mean stopping and starting each app individually. App Service plan start/stop brings that control to the plan level, letting you manage the apps and deployment slots it hosts together. Today, we're announcing the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Announcing Visual Studio 2026 LTSC 18.11",
+      "link": "https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-2026-ltsc-1811/",
+      "published": "2026-11-10T18:06:36+00:00",
+      "summary": "Today, we are announcing Visual Studio 2026 Long-Term Servicing Channel (LTSC) 18.11 alongside Visual Studio 2026 18.12 on the Stable channel. LTSC 18.11 will receive two years of support, through November 14, 2028, rather than the one year of LTSC support we previously announced. If you are using...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jamshed Damkewala",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "Git security vulnerabilities announced",
+      "link": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "published": "2026-11-10T18:00:00+00:00",
+      "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Elijah Newren",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "C++ language server now auto-configures MSBuild builds",
+      "link": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+      "published": "2026-11-10T17:04:10+00:00",
+      "summary": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a… The post C++ language server now auto-configures MSBuild builds appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Accelerating AI Data Processing, HPC, and Agentic Workloads with Azure HDv2 Virtual Machines",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/accelerating-ai-data-processing-hpc-and-agentic-workloads-with/ba-p/4567877",
+      "published": "2026-11-10T16:25:29+00:00",
+      "summary": "Advancing model intelligence starts with training, and training starts with data. Before GPU supercomputers can train a model, enormous fleets of CPUs must collect, clean, filter, and format that data. If CPUs fall behind, expensive GPU capacity becomes underutilized and delays the delivery of...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "jvenkatesh",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
+    },
+    {
+      "title": "Announcing .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+      "published": "2026-11-10T16:11:00+00:00",
+      "summary": ".NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps. The post Announcing .NET 11 appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": ".NET Team",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": ".NET and .NET Framework November 2026 servicing updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/",
+      "published": "2026-11-10T16:10:00+00:00",
+      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for November 2026. The post .NET and .NET Framework November 2026 servicing updates appeared first on .NET Blog.",
+      "blog": ".NET Blog",
+      "blogId": "dotnetblog",
+      "author": "Rahul Bhandari (MSFT), Tara Overfield",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": ".NET"
+    },
+    {
+      "title": "Meeting chats visible for only one month in Microsoft Teams",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/meeting-chats-visible-for-only-one-month-in-microsoft-teams/m-p/4572073#M145453",
+      "published": "2026-11-10T15:34:03+00:00",
+      "summary": "Hi Community,In Microsoft Teams, under Chat > Meeting chats, I am currently able to see meeting chats from only the last one month.Is there any way or setting to extend this so that I can see meeting chats from the last two months (60 days) in the Meeting chats section?Please let me know if this...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "Gagandeepkaur370",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Dependabot alerts will pause on inactive repositories",
+      "link": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+      "published": "2026-11-10T14:20:05+00:00",
+      "summary": "Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Has anyone noticed a recent change in outbound PSTN ringing behavior in Microsoft Teams?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/has-anyone-noticed-a-recent-change-in-outbound-pstn-ringing/m-p/4572051#M145452",
+      "published": "2026-11-10T13:55:40+00:00",
+      "summary": "Previously, when dialing an E.164 number, Teams would play its internal ringing tone and then switch to the PSTN ringback tone once the call reached the carrier. Recently, the internal Teams ringing tone continues all the way until the far end answers. I haven't seen any Microsoft notices about...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "bciamarra",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
+      "published": "2026-11-10T11:20:16+00:00",
+      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "365 tenant blocked for delivery e-mails",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/365-tenant-blocked-for-delivery-e-mails/m-p/4572011#M60224",
+      "published": "2026-11-10T10:45:25+00:00",
+      "summary": "Hi Good Day ! Microsoft have blocked our tenant for 2 weeks due spam originating from the domain. Still we cannot send any e-mails and the block is not removed inspite of us contacting microsoft and their engineer connecting to the tenant and checking the tenant for any connectors and updating the...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "MCarvalho2026",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "New Audit Events Capture User Access to Purview Solutions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/new-audit-events-capture-user-access-to-purview-solutions/m-p/4571963#M60222",
+      "published": "2026-11-10T08:09:25+00:00",
+      "summary": "New audit events are always welcome if they provide additional insight into what happens inside Microsoft 365. Two events are now available to track access to Purview solutions. The events covered access on a non-scoped or scoped basis and show what roles are needed to access the intended target (a...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Copilot in Visual Studio Just Got a Major Upgrade",
+      "link": "https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade/",
+      "published": "2026-11-10T08:00:35+00:00",
+      "summary": "Copilot Chat in Visual Studio just got a new engine. Starting with Visual Studio 2026 version 18.12, it runs on the Microsoft Copilot SDK developed by GitHub, the same technology powering GitHub Copilot CLI, the GitHub Copilot app, and VS Code. It’s on by default, and it’s a major upgrade: same...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Dalia Abo Sheasha",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Visual Studio"
+    },
+    {
+      "title": "Core problem that Tier 1 & Tier 2 could not fix. Needs solution.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/core-problem-that-tier-1-tier-2-could-not-fix-needs-solution/m-p/4571892#M60221",
+      "published": "2026-11-10T04:44:06+00:00",
+      "summary": "\"Customize Quick Access Toolbar\" updates are blocked by the message \"The server drafts location you entered for offline editing is not valid or you do not have permission to access that location. Specify a location on your local computer.\" The user is also blocked from entering any data into the...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "rperryjr",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
       "title": "Securing and governing your medallion layers in Fabric Data Warehouse",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Securing-and-governing-your-medallion-layers-in-Fabric-Data/ba-p/5377539",
       "published": "2026-11-09T21:32:00+00:00",
@@ -295,6 +511,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
+    },
+    {
+      "title": "XFS (Next-Gen File System): A Conceptual Blueprint for Windows (Merging APFS & Btrfs Features)",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/xfs-next-gen-file-system-a-conceptual-blueprint-for-windows/m-p/4571825#M45415",
+      "published": "2026-11-09T21:11:42+00:00",
+      "summary": "Windows 11 is a modern operating system running on ultra-fast NVMe PCIe 4.0/5.0 SSDs, yet it is still fundamentally bottlenecked by NTFS—a file system designed in 1993 for mechanical hard drives. While Microsoft is experimenting with ReFS, it lacks essential consumer features like volume...",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "TymianekSNK",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
     },
     {
       "title": "Durable Task extension for Microsoft Agent Framework is now Generally Available",
@@ -379,6 +607,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Microsoft Fabric"
+    },
+    {
+      "title": "Claude Fable 5.2 in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+      "published": "2026-11-09T16:46:43+00:00",
+      "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
     },
     {
       "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
@@ -621,18 +861,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-07T00:59:02+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
       "title": "Copilot code review: API management and review overview updates",
       "link": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
       "published": "2026-11-07T00:27:19+00:00",
@@ -675,7 +903,7 @@
       "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The...",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
-      "author": "Nick Liffen",
+      "author": "Philip Holleran",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -799,18 +1027,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Defender for Office 365"
-    },
-    {
-      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
-      "published": "2026-11-06T13:47:24+00:00",
-      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Azure-Hacker",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
     },
     {
       "title": "DLP for Copilot Customizes Data Access Messages",
@@ -951,7 +1167,7 @@
       "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog.",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
-      "author": "Karthik Raman",
+      "author": "Brian Celenza",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -1137,16 +1353,16 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
-      "link": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-      "published": "2026-11-05T15:48:50+00:00",
-      "summary": "This update expands secret scanning’s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alibaba, AWS, Google, OpenVSX, Pydantic Services,… The post Secret scanning upgrades detectors, adds...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
+      "title": "Your best AX fixes are hiding in agent trajectories",
+      "link": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories/",
+      "published": "2026-11-05T15:40:49+00:00",
+      "summary": "All five agent runs produced a working script, and nothing in the eval score looked wrong. The trajectories told a different story. Every run read a DLL as raw bytes to find plugin names, and three scripts would quietly reroute a CI runner's network traffic. Here are the patterns to look for in...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
       "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
     },
     {
       "title": "October 2026 Node.js vulnerabilities: Azure DevOps security guidance",
@@ -1207,18 +1423,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
-    },
-    {
-      "title": "New pull request overview page in public preview",
-      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
-      "published": "2026-11-05T08:00:00+00:00",
-      "summary": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still… The post New pull request overview page in public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Important updates: GitHub Copilot support ending for JetBrains 2025.2.x",
@@ -1291,18 +1495,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Analytics"
-    },
-    {
-      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-      "link": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-      "published": "2026-11-04T20:04:52+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.4 with query accuracy improvements across several… The post CodeQL 2.27.4 improves accuracy and query metadata appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Find expensive queries from Capacity Metrics (Generally Available)",
@@ -2037,30 +2229,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
-      "published": "2026-10-31T06:03:11+00:00",
-      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
-      "published": "2026-10-31T06:03:06+00:00",
-      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
       "published": "2026-10-31T04:56:48+00:00",
@@ -2169,16 +2337,16 @@
       "product": "Azure Arc"
     },
     {
-      "title": "Microsoft Releases FY27 Q1 Results - 470 Million Microsoft 365 Users?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-releases-fy27-q1-results-470-million-microsoft-365/m-p/4568962#M60169",
-      "published": "2026-10-30T09:05:57+00:00",
-      "summary": "Every quarter, I look for interesting nuggets about Microsoft 365 and the wider Microsoft Cloud ecosystem in Microsoft’s quarterly results. This time round, the Microsoft Cloud clocked up $63.9 billion, which is a lot of money. Growth continues for Microsoft 365 in both revenues (spurred by...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
+      "title": "Does ‘eval’ in the workspace path change what your agent does?",
+      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+      "published": "2026-10-30T12:49:14+00:00",
+      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
       "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
     },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
@@ -2251,30 +2419,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Feature Request: Language-Based Font Categorization (Word, PowerPoint, & Microsoft 365 Apps)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/feature-request-language-based-font-categorization-word/m-p/4568713#M60164",
-      "published": "2026-10-29T13:38:54+00:00",
-      "summary": "Dear Microsoft Office Team,I am a regular user of Microsoft 365 applications, and I truly appreciate the continuous improvements made to the software.I would like to suggest a feature enhancement that would significantly improve the workflow for users working with multi-language documents and...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "MINA-eNjOy",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
-      "title": "Microsoft Launches Preview for Entra ID Conditional Access Policy Plans",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-launches-preview-for-entra-id-conditional-access/m-p/4568660#M60162",
-      "published": "2026-10-29T09:44:13+00:00",
-      "summary": "Conditional access policy plans are now available in preview. The idea is to define common rules, conditions like breakglass accounts and have the details inherited by CA policies. Microsoft provides a migration facility to move existing policies to plans, but it’s probably going to take some time...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Upgrade Azure CycleCloud Slurm Node OS Images Without Recreating the VM Scale Set",
@@ -3087,7 +3231,7 @@
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
-      "author": "Eleanor White",
+      "author": "Victoria Dye",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -3301,12 +3445,12 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
       "published": "2026-10-20T16:05:03+00:00",
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Copilot Blog",
+      "blogId": "githubcopilotblog",
       "author": "Julien Dubois",
-      "solutionArea": "CAIP",
+      "solutionArea": "AIBS",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Copilot"
     },
     {
       "title": "What’s new in Azure SRE Agent: October Update",
@@ -3544,18 +3688,6 @@
       "blog": ".NET Blog",
       "blogId": "dotnetblog",
       "author": "Gerald Versluis",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
-      "title": "Bring Your Own Model to the GitHub Copilot SDK with C#",
-      "link": "https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp/",
-      "published": "2026-10-19T16:00:00+00:00",
-      "summary": "The GitHub Copilot SDK gives your application an agent runtime. BYOK lets you keep that runtime while sending model requests to your own Microsoft Foundry or Azure OpenAI deployment. Here is the complete C# setup. The post Bring Your Own Model to the GitHub Copilot SDK with C# appeared first on...",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Bruno Capuano",
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
@@ -3873,18 +4005,6 @@
       "product": "Power BI"
     },
     {
-      "title": "Introducing dotnetup: A toolchain manager for .NET",
-      "link": "https://devblogs.microsoft.com/dotnet/introducing-dotnetup/",
-      "published": "2026-10-15T16:50:00+00:00",
-      "summary": "Learn how the new dotnetup tool helps macOS and Linux developers install, manage, and update user-local .NET SDKs and runtimes. The post Introducing dotnetup: A toolchain manager for .NET appeared first on .NET Blog.",
-      "blog": ".NET Blog",
-      "blogId": "dotnetblog",
-      "author": "Chet Husk",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": ".NET"
-    },
-    {
       "title": "The New Unified Events Experience in Microsoft Teams: Webinars & Town Halls in One Place",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/the-new-unified-events-experience-in-microsoft-teams-webinars/m-p/4564842#M145386",
       "published": "2026-10-15T15:03:15+00:00",
@@ -4047,7 +4167,7 @@
       "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog.",
       "blog": "GitHub Engineering",
       "blogId": "githubengineering",
-      "author": "Taylor Cuilty",
+      "author": "Sarita Iyer",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
@@ -4111,18 +4231,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure AI Foundry"
-    },
-    {
-      "title": "New tools, new workflows and the value of the Visual Studio Subscription: What we learned at VSLive! San Diego",
-      "link": "https://devblogs.microsoft.com/visualstudio/new-tools-new-workflows-and-the-value-of-the-visual-studio-subscription-what-we-learned-at-vslive-san-diego/",
-      "published": "2026-10-14T14:00:25+00:00",
-      "summary": "What happens when developers who have spent decades working with Visual Studio start rethinking how they write code, learn new skills, and expand their access to development tools? At VSLive! San Diego, we had an opportunity to find out as developers gathered for five days of technical sessions,...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Visual Studio"
     },
     {
       "title": "Build a Simple GPU-Enabled Kubernetes Cluster on Azure N-Series VMs",
@@ -4227,7 +4335,7 @@
       "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog.",
       "blog": "GitHub Security",
       "blogId": "githubsecurity",
-      "author": "Batu Ozturkler",
+      "author": "Shengyu Fu",
       "solutionArea": "Security",
       "billingType": "License",
       "product": "GitHub Advanced Security"
