@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T19:24:40.735376+00:00",
-  "totalArticles": 359,
+  "lastUpdated": "2026-11-13T19:02:06.008324+00:00",
+  "totalArticles": 357,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,174 @@
   },
   "articles": [
     {
+      "title": "What’s new in the Azure Resource Manager MCP server at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/what-s-new-in-the-azure-resource-manager-mcp-server-at-ignite/ba-p/4571824",
+      "published": "2026-11-13T18:30:14+00:00",
+      "summary": "What’s new since launch At Ignite, we’re announcing a major expansion of the Azure Resource Manager (ARM) MCP server. The initial release (read the blog post here!) introduced the foundation for MCP-based Azure control-plane interaction. This next phase is about operational depth: richer write and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Governance"
+    },
+    {
+      "title": "From Silicon to Service: Bringing AMD Helios™ to Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/from-silicon-to-service-bringing-amd-helios-to-azure/ba-p/4573029",
+      "published": "2026-11-13T17:00:00+00:00",
+      "summary": "Article contributed by: Yash Bhamare and Anna Daly Azure’s ND MI455X v7 brings a rack-scale approach to AI inference, powered by AMD Helios. Each liquid-cooled compute rack combines 72 MI455X GPUs, 18 AMD EPYC “Venice” CPUs, and 31 TB of HBM4 memory, with a two-tier Ethernet backend connecting...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "anhoward",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
+    },
+    {
+      "title": "не удаёться обновить Windows 11 Insider Preview Feature Update (26320.9877)",
+      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/%D0%BD%D0%B5-%D1%83%D0%B4%D0%B0%D1%91%D1%82%D1%8C%D1%81%D1%8F-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-windows-11-insider-preview-feature-update/m-p/4573251#M45424",
+      "published": "2026-11-13T16:43:09+00:00",
+      "summary": "не удаётся обновить Windows 11 Insider Preview Feature Update (26320.9877)выпадает Ошибка скачивания – 0x800705b9",
+      "blog": "Windows Insider",
+      "blogId": "WindowsInsiderProgram",
+      "author": "gaysin",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Windows"
+    },
+    {
+      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
+      "published": "2026-11-13T15:40:05+00:00",
+      "summary": "Editor’s note (November 2026): This post has been updated to reflect expanded regional availability for Azure Virtual Desktop Regional host pools, changes to the deployment scope experience in the Azure portal, and future plans to deprecate the creation of new Geographical host pools. Existing host...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Vidya_Iyer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Virtual Desktop"
+    },
+    {
+      "title": "Azure VMs deliver inference performance in line with industry benchmarks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-vms-deliver-inference-performance-in-line-with-industry/ba-p/4573039",
+      "published": "2026-11-13T14:17:40+00:00",
+      "summary": "Article contributed by: Dilip Patlolla, Wenqing Lan, Mingfeng Yang, Ali Vaziri, Aishwarya Prasad Tonpe, Huseyin Yildiz, Anshul Jain and Aditya Bhamidipati Azure delivers AI inference performance on par with industry benchmarks. We evaluated Azure ND GB200 v6 and ND GB300 v6 virtual machines across...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "anhoward",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
+    },
+    {
+      "title": "Manage AI Scan for repositories using the REST API",
+      "link": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "published": "2026-11-13T12:22:41+00:00",
+      "summary": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for repositories using the REST API appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Outlook still down in India – EX1550543 / MO1550821",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/outlook-still-down-in-india-ex1550543-mo1550821/m-p/4573174#M60253",
+      "published": "2026-11-13T10:50:09+00:00",
+      "summary": "Still affected here in India as of 10:45 UTC, 13 Nov 2026 (EX1550543 / MO1550821). Outlook on the web and Outlook desktop are both unable to connect. Sign-in to Microsoft 365 works, but Outlook isn't loading. We've ruled out local network issues on our side, so it looks like the fix hasn't reached...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "tomthomas1995",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Use OneLake as native storage for Azure Databricks",
+      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Use-OneLake-as-native-storage-for-Azure-Databricks/ba-p/5377939",
+      "published": "2026-11-13T08:01:45+00:00",
+      "summary": "Organizations increasingly use Microsoft Fabric and Azure Databricks together so teams can choose the tools that best fit their data engineering, analytics, and AI workloads while working from a common data foundation. OneLake external-location support for Azure Databricks Unity Catalog is now...",
+      "blog": "Microsoft Fabric Blog",
+      "blogId": "microsoftfabricblog",
+      "author": "shilmenon",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Microsoft Fabric"
+    },
+    {
+      "title": "GitHub availability report: October 2026",
+      "link": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "published": "2026-11-13T00:20:16+00:00",
+      "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Jakub Oleksy",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Visit Azure and AMD at Microsoft Ignite and SC26",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/visit-azure-and-amd-at-microsoft-ignite-and-sc26/ba-p/4570345",
+      "published": "2026-11-12T23:09:39+00:00",
+      "summary": "AI workloads place different demands on infrastructure. Azure is continuing to partner closely with silicon partners including AMD to expand infrastructure choice across general purpose compute and AI accelerators. That choice includes three purpose built virtual machines (VMs): Azure HDv2-series...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "andrewblack",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "published": "2026-11-12T22:54:52+00:00",
+      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Andrea Griffiths",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Join NVIDIA and Microsoft at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/join-nvidia-and-microsoft-at-ignite-2026/ba-p/4573012",
+      "published": "2026-11-12T21:54:04+00:00",
+      "summary": "Microsoft Ignite will run November 17 to 20 at Moscone Center in San Francisco and online (register for in-person or online attendance access here). Microsoft will open with the keynote on Tuesday, November 17, at 10:00 AM PT, and after Microsoft and NVIDIA will be there together in breakout...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Ben_Sickle",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Bring Your Expertise to Git-Ape",
+      "link": "https://devblogs.microsoft.com/all-things-azure/bring-your-expertise-to-git-ape-the-platform-engineering-framework/",
+      "published": "2026-11-12T21:02:31+00:00",
+      "summary": "The new Community Skills Feature. Bring Your Expertise to Git-Ape Git-Ape’s community skills open the framework to the people who know the work best. Platform teams, partners, and specialists can turn their expertise into repeatable procedures that Git-Ape can discover and use—extending its...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure General"
+    },
+    {
+      "title": "Actions for ARM32 Linux & Windows retirement",
+      "link": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+      "published": "2026-11-12T20:59:36+00:00",
+      "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "What’s new in AKS networking: Connectivity, performance, and observability",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-aks-networking-connectivity-performance-and/ba-p/4571806",
       "published": "2026-11-12T19:14:38+00:00",
@@ -295,6 +463,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Networking"
+    },
+    {
+      "title": "Microsoft 365 Outage Updates",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-outage-updates/m-p/4573007#M60248",
+      "published": "2026-11-12T19:05:37+00:00",
+      "summary": "Not seeing any reliable updates anywhere on this situation. Yes I looked at the thread on X. Anyone with a clue of what is going on or what MSFT is doing about it, drop it below.",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "wbainbeacon",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
@@ -381,6 +561,30 @@
       "product": "Visual Studio"
     },
     {
+      "title": "Secret scanning detects Cloudflare service tokens",
+      "link": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
+      "published": "2026-11-12T14:38:25+00:00",
+      "summary": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare cloudflare_access_service_token Partner secrets are… The post Secret scanning detects Cloudflare...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Public monitoring alerts now have direct links",
+      "link": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+      "published": "2026-11-12T14:37:38+00:00",
+      "summary": "You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise’s Public monitoring view, click an alert number to open the alert. You… The post Public monitoring alerts now have direct links appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Question",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/question/m-p/4572901#M45422",
       "published": "2026-11-12T11:15:42+00:00",
@@ -415,18 +619,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Redefining Application Load Balancing in Azure Application Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/redefining-application-load-balancing-in-azure-application/ba-p/4572687",
-      "published": "2026-11-12T07:29:59+00:00",
-      "summary": "By Jay Soni (Senior Product Manager) and Jordi Rey (Product Manager), Azure Application Gateway Modern applications change quickly. Teams run A/B experiments, version their APIs, tailor experiences by client and tenant, and serve AI models across reserved and pay-as-you-go capacity. Azure...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "vnamani",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Networking"
     },
     {
       "title": "Introducing Azure Container Apps as a target workload in Azure Migrate",
@@ -487,6 +679,18 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Sentinel"
+    },
+    {
+      "title": "Catch Microsoft Defender and Sentinel at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/catch-microsoft-defender-and-sentinel-at-ignite-2026/ba-p/4572639",
+      "published": "2026-11-11T22:22:31+00:00",
+      "summary": "Join us at Microsoft Ignite 2026, November 17 to 20, in San Francisco and online. Find the Defender and Sentinel sessions that fit your role, and what you will take away from each. Times are Pacific (PT). 1. Start here If you only catch one session, make it this one. BRK324: The Alert Is Dead. The...",
+      "blog": "Microsoft Defender XDR",
+      "blogId": "MicrosoftThreatProtectionBlog",
+      "author": "jevontan",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Defender XDR"
     },
     {
       "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
@@ -619,18 +823,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Use OneLake as native storage for Azure Databricks (Preview)",
-      "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Use-OneLake-as-native-storage-for-Azure-Databricks-Preview/ba-p/5377939",
-      "published": "2026-11-11T12:13:55+00:00",
-      "summary": "Organizations increasingly use Microsoft Fabric and Azure Databricks together so teams can choose the tools that best fit their data engineering, analytics, and AI workloads while working from a common data foundation. OneLake external-location support for Azure Databricks Unity Catalog is now...",
-      "blog": "Microsoft Fabric Blog",
-      "blogId": "microsoftfabricblog",
-      "author": "shilmenon",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Microsoft Fabric"
     },
     {
       "title": "What’s new across Microsoft SQL in 2026 so far: the PASS Summit West roundup",
@@ -1137,18 +1329,6 @@
       "product": "Microsoft Fabric"
     },
     {
-      "title": "Claude Fable 5.2 in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-      "published": "2026-11-09T16:46:43+00:00",
-      "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Do AI coding agents care about SemVer?",
       "link": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver/",
       "published": "2026-11-09T16:01:03+00:00",
@@ -1243,18 +1423,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
-      "link": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
-      "published": "2026-11-09T09:01:37+00:00",
-      "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How… The post Secret scanning detects secrets in GitHub Actions workflow logs appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "OneDrive won't sign in until I log into an external account in Teams",
@@ -1389,18 +1557,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Copilot code review: API management and review overview updates",
-      "link": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
-      "published": "2026-11-07T00:27:19+00:00",
-      "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot code review: API management and review overview updates appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Java OpenJDK October 2026 Patch & Security Update",
       "link": "https://devblogs.microsoft.com/java/java-openjdk-october-2026-patch-security-update/",
       "published": "2026-11-06T23:56:56+00:00",
@@ -1411,18 +1567,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Java on Azure"
-    },
-    {
-      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-      "link": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-      "published": "2026-11-06T22:17:28+00:00",
-      "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "Beyond code generation: A developer’s guide to agentic engineering",
@@ -1498,7 +1642,7 @@
     },
     {
       "title": "Enhancements to the Protection and Posture Insights report",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/enhancements-to-the-protection-and-posture-insights-report/ba-p/4568163",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/enhancements-to-the-protection-and-posture-insights-report/ba-p/4568163",
       "published": "2026-11-06T13:48:48+00:00",
       "summary": "Earlier this year, we introduced the Protection & Posture Insights report: an on-demand, tenant-specific view of the email & collaboration threats targeting your organization, how well Microsoft Defender is stopping them, and where your configuration can be strengthened. Today, we're announcing the...",
       "blog": "Microsoft Defender XDR",
@@ -2193,18 +2337,6 @@
       "product": "Azure Storage"
     },
     {
-      "title": "Power app",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/power-app/m-p/4570005#M60185",
-      "published": "2026-11-03T20:08:04+00:00",
-      "summary": "Can anyone please help?I need to create a Power App for iphone that updates Excel spreadsheets or SharePoint Lists for two different products, DBR and IBR. The app should allow users to scan a barcode on each product and update its current stage of production.I would prefer to use the Free 3 of 9...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "iaarain",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Announcing support for Materialized views and streaming tables in Mirrored Azure Databricks catalog",
       "link": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Announcing-support-for-Materialized-views-and-streaming-tables/ba-p/5377928",
       "published": "2026-11-03T20:00:00+00:00",
@@ -2373,18 +2505,6 @@
       "product": "Azure Storage"
     },
     {
-      "title": "Entra ID Allows Users to Change Passwords Without Knowing Their Old Password",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/entra-id-allows-users-to-change-passwords-without-knowing-their/m-p/4569842#M60181",
-      "published": "2026-11-03T09:27:23+00:00",
-      "summary": "Now rolling out to Entra tenants is the preview of the ability to configure the change password method for user accounts through the My Sign Ins page without knowing the original password. Although many Entra users are going passwordless, that approach only works when applications support passkeys....",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "From Writing Scripts to Running a Newsroom: A 24-Hour News Station with Microsoft Copilot Harness",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-writing-scripts-to-running-a-newsroom-a-24-hour-news/ba-p/4569422",
       "published": "2026-11-03T08:00:00+00:00",
@@ -2479,18 +2599,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Nach dem Neuladen von MS 365 muss ich die Applik. z.B. EXCEL immer als Administrator starten.",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/nach-dem-neuladen-von-ms-365-muss-ich-die-applik-z-b-excel-immer/m-p/4569602#M60177",
-      "published": "2026-11-02T15:26:51+00:00",
-      "summary": "Ist das normal?",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Anton_Schmidt_1943",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Announcing flex nodes for AKS (preview) in Azure portal",
@@ -2722,7 +2830,7 @@
     },
     {
       "title": "Now generally available: Discover local AI agents with Microsoft Defender",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/now-generally-available-discover-local-ai-agents-with-microsoft/ba-p/4568216",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/now-generally-available-discover-local-ai-agents-with-microsoft/ba-p/4568216",
       "published": "2026-10-29T16:00:00+00:00",
       "summary": "As local agents have moved from experimentation into everyday work, traditional security visibility is no longer enough. Unlike static software, local agents such as coding assistants, command-line agents, desktop applications, and agentic development environments can operate on endpoints with...",
       "blog": "Microsoft Defender XDR",
@@ -2734,7 +2842,7 @@
     },
     {
       "title": "Defending Linux in the age of AI-operated attacks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/defending-linux-in-the-age-of-ai-operated-attacks/ba-p/4557210",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/defending-linux-in-the-age-of-ai-operated-attacks/ba-p/4557210",
       "published": "2026-10-29T16:00:00+00:00",
       "summary": "Linux supports cloud services, containers, developer environments, business-critical applications, and a growing share of AI infrastructure. That makes Linux both essential to modern enterprises and increasingly attractive to attackers. AI is compressing the time required to research targets, vary...",
       "blog": "Microsoft Defender XDR",
@@ -3046,7 +3154,7 @@
     },
     {
       "title": "Part 4: See, investigate, and measure email and collaboration attacks with Defender reporting",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/part-4-see-investigate-and-measure-email-and-collaboration/ba-p/4562274",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/part-4-see-investigate-and-measure-email-and-collaboration/ba-p/4562274",
       "published": "2026-10-27T16:00:00+00:00",
       "summary": "Attacks rarely stay in one channel. A flood of spam email, a Teams chat from an unfamiliar organization, and a call from \"the helpdesk\" can all be part of the same attempt. Security teams need a unified way to see where attacks are happening across email and collaboration, investigate them quickly,...",
       "blog": "Microsoft Defender XDR",
@@ -3166,7 +3274,7 @@
     },
     {
       "title": "Proofpoint’s Core Email Protection API solution joins the Microsoft Defender ICES vendor ecosystem",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/proofpoint-s-core-email-protection-api-solution-joins-the/ba-p/4567264",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/proofpoint-s-core-email-protection-api-solution-joins-the/ba-p/4567264",
       "published": "2026-10-26T16:00:00+00:00",
       "summary": "Email remains the most exploited gateway for cyberattacks, as the threat landscape continues to get more sophisticated with attackers using AI to scale phishing, malware, and business email compromise. Microsoft Defender is a leading email security solution, helping organizations stay ahead of...",
       "blog": "Microsoft Defender XDR",
@@ -3397,16 +3505,16 @@
       "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
       "published": "2026-10-22T17:21:30+00:00",
       "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Security",
+      "blogId": "githubsecurity",
       "author": "Shilpa Kumari",
-      "solutionArea": "CAIP",
+      "solutionArea": "Security",
       "billingType": "License",
-      "product": "GitHub"
+      "product": "GitHub Advanced Security"
     },
     {
       "title": "Turn threat intelligence into informed action with Microsoft Defender",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/turn-threat-intelligence-into-informed-action-with-microsoft/ba-p/4566636",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/turn-threat-intelligence-into-informed-action-with-microsoft/ba-p/4566636",
       "published": "2026-10-22T17:06:53+00:00",
       "summary": "Every new threat raises a familiar set of questions. Is it targeting our industry? Are we exposed? What should we investigate first? Answering those questions takes more than another feed or a longer list of indicators. It takes intelligence that brings the relevant context together and helps your...",
       "blog": "Microsoft Defender XDR",
@@ -3577,8 +3685,8 @@
       "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "published": "2026-10-21T16:00:00+00:00",
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
+      "blog": "GitHub Engineering",
+      "blogId": "githubengineering",
       "author": "Victoria Dye",
       "solutionArea": "CAIP",
       "billingType": "License",
@@ -4459,138 +4567,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "Notes from the field: testing EWSAllowedAppIDs safely",
-      "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/notes-from-the-field-testing-ewsallowedappids-safely/ba-p/4548568",
-      "published": "2026-10-14T18:10:47+00:00",
-      "summary": "As customers prepare for the final phase of Exchange Web Services (EWS) retirement in Exchange Online, many are asking the same practical question: how can I prove that EWSAllowedAppIDs is working before I depend on it? This field guide walks through a controlled positive-and-negative test,...",
-      "blog": "Exchange Team Blog",
-      "blogId": "Exchange",
-      "author": "The_Exchange_Team",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Exchange"
-    },
-    {
-      "title": "Powering Azure infrastructure from grid to chip",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/powering-azure-infrastructure-from-grid-to-chip/ba-p/4563890",
-      "published": "2026-10-14T17:19:23+00:00",
-      "summary": "As AI infrastructure scales, power availability is increasingly setting the ceiling on how much compute we can deploy. With workloads evolving towards long-context reasoning and memory-intensive agentic tasks, the power envelope of operating AI at scale has changed dramatically. High density AI...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "mariozeng",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Secure Linux desktops with Microsoft Defender",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/secure-linux-desktops-with-microsoft-defender/ba-p/4560822",
-      "published": "2026-10-14T16:00:00+00:00",
-      "summary": "As more developers begin to use Linux desktops, they become more attractive to attackers: high-privilege, high-value, and easy for admins to overlook. A developer using Linux for day-to-day development may interact with source code repositories, continuous integration and continuous delivery...",
-      "blog": "Microsoft Defender XDR",
-      "blogId": "MicrosoftThreatProtectionBlog",
-      "author": "Megha_Priya",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender XDR"
-    },
-    {
-      "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
-      "link": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
-      "published": "2026-10-14T15:38:56+00:00",
-      "summary": "Learn how Azure Content Understanding grounding, field-level confidence, and calibration help teams prioritize human review and build reliable document workflows. The post From extraction to action: Using grounding and confidence to build reliable document workflows appeared first on Microsoft...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Joe Filcik, Colin Murphy",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Build a Simple GPU-Enabled Kubernetes Cluster on Azure N-Series VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/build-a-simple-gpu-enabled-kubernetes-cluster-on-azure-n-series/ba-p/4564410",
-      "published": "2026-10-14T13:39:03+00:00",
-      "summary": "Audience: Platform engineers, ML engineers, and developers who need a small, understandable GPU development cluster without the abstraction of a managed Kubernetes service. Reference topology: Role Azure VM size Operating system Purpose Control plane Standard_D8s_v6 Ubuntu 24.04 LTS API server,...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "vinilv",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure HPC"
-    },
-    {
-      "title": "How are organisations monitoring attendance and participation during live Microsoft Teams meetings?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-are-organisations-monitoring-attendance-and-participation/m-p/4564487#M145380",
-      "published": "2026-10-14T12:32:15+00:00",
-      "summary": "Hi everyone,I’m interested in how organisations are monitoring and verifying attendance and participation during live Microsoft Teams meetings, particularly where accurate records are important.Teams attendance reports provide useful information about when participants join and leave, but they...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "NikH9922",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Microsoft Teams transcription language settings",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-transcription-language-settings/m-p/4564414#M145379",
-      "published": "2026-10-14T09:05:34+00:00",
-      "summary": "Hi! With a Microsoft 365 Business Premium license and a Copilot license, I can use transcription during a Teams meeting by setting the spoken language to Auto Detect. However, the transcription is sometimes inaccurate. Is there a way to limit the language detection scope? For example, is it...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "GerardChen",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "0xc004f213错误代码怎么 解决",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/0xc004f213%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81%E6%80%8E%E4%B9%88-%E8%A7%A3%E5%86%B3/m-p/4564329#M23790",
-      "published": "2026-10-14T04:49:59+00:00",
-      "summary": "这个错误代码，一直不能激活我的虚拟机W11，寻求网上帮忙，还不能识别我的安装ID，求大神帮",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "杨大爷",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "0xc004f213错误代码怎么 解决",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/0xc004f213%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81%E6%80%8E%E4%B9%88-%E8%A7%A3%E5%86%B3/m-p/4564328#M23789",
-      "published": "2026-10-14T04:49:55+00:00",
-      "summary": "这个错误代码，一直不能激活我的虚拟机W11，寻求网上帮忙，还不能识别我的安装ID，求大神帮",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "杨大爷",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Announcing StandardV2 NAT Gateway for AKS-managed egress",
-      "link": "https://blog.aks.azure.com/2026/10/14/standardv2-nat-gateway-aks-managed-egress",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "AKS-managed StandardV2 NAT Gateway is now generally available, adding zone-redundant egress, higher throughput, IPv6 support, and flexible outbound IPs.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "AKS"
-    },
-    {
-      "title": "October Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
-      "published": "2026-10-13T20:20:06+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
     }
   ]
 }
