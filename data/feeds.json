@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-13T19:02:06.008324+00:00",
-  "totalArticles": 357,
+  "lastUpdated": "2026-11-14T17:32:20.149614+00:00",
+  "totalArticles": 348,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,78 @@
   },
   "articles": [
     {
+      "title": "From Purview Data Governance to the Fabric OneLake Catalog",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
+      "published": "2026-11-14T04:13:46+00:00",
+      "summary": "What is changing, What is available today, and How to transition without losing GOVERNANCE outcomes! Microsoft's data governance story is moving closer to the data. In Microsoft Fabric, the OneLake catalog is now the primary experience for discovering and governing Fabric data, while Microsoft...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Microsoft Teams Calendar - maximum number of events for meetings",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-calendar-maximum-number-of-events-for-meetings/m-p/4573352#M145462",
+      "published": "2026-11-13T22:08:02+00:00",
+      "summary": "Effective today, 11/13/2026, my Microsoft Teams is limiting the number of meetings I can put on my calendar. Does any one know why this is happening and how to fix it? This is the error that I get when I hit \"Save\" after creating a meeting.",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "HanSolo1972",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
+      "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+      "published": "2026-11-13T21:31:44+00:00",
+      "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. The post SCKit abuses ScreenConnect to deploy remote access and target technician sessions appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security DevBlog",
+      "blogId": "securitydevblog",
+      "author": "Microsoft Security Research, Sagar Patil and Jeremiah Jasmin",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Security"
+    },
+    {
+      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
+      "published": "2026-11-13T21:05:09+00:00",
+      "summary": "Editor’s note (November 2026): This post has been updated to reflect expanded regional availability for Azure Virtual Desktop Regional host pools, changes to the deployment scope experience in the Azure portal, and future plans to deprecate the creation of new Geographical host pools. Existing host...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Vidya_Iyer",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Virtual Desktop"
+    },
+    {
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "published": "2026-11-13T20:40:05+00:00",
+      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in December appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Migrate NuGet-based Logic Apps Standard apps and custom built-in connectors to .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-nuget-based-logic-apps-standard-apps-and-custom-built-in/ba-p/4573057",
+      "published": "2026-11-13T20:00:24+00:00",
+      "summary": "Less than you might fear. You don't change a line of C#, and you don't touch your workflow definitions. The work is retargeting your projects, resolving a couple of dependency conflicts, running the right host locally, and changing a handful of app settings in Azure. Those last two are where people...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
       "title": "What’s new in the Azure Resource Manager MCP server at Ignite 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/what-s-new-in-the-azure-resource-manager-mcp-server-at-ignite/ba-p/4571824",
       "published": "2026-11-13T18:30:14+00:00",
@@ -295,6 +367,30 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Governance"
+    },
+    {
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "link": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "published": "2026-11-13T18:27:13+00:00",
+      "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "published": "2026-11-13T18:23:48+00:00",
+      "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
     },
     {
       "title": "From Silicon to Service: Bringing AMD Helios™ to Azure",
@@ -319,18 +415,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
-      "published": "2026-11-13T15:40:05+00:00",
-      "summary": "Editor’s note (November 2026): This post has been updated to reflect expanded regional availability for Azure Virtual Desktop Regional host pools, changes to the deployment scope experience in the Azure portal, and future plans to deprecate the creation of new Geographical host pools. Existing host...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Vidya_Iyer",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Virtual Desktop"
     },
     {
       "title": "Azure VMs deliver inference performance in line with industry benchmarks",
@@ -1029,18 +1113,6 @@
       "product": "GitHub"
     },
     {
-      "title": "C++ language server now auto-configures MSBuild builds",
-      "link": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
-      "published": "2026-11-10T17:04:10+00:00",
-      "summary": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a… The post C++ language server now auto-configures MSBuild builds appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Accelerating AI Data Processing, HPC, and Agentic Workloads with Azure HDv2 Virtual Machines",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/accelerating-ai-data-processing-hpc-and-agentic-workloads-with/ba-p/4567877",
       "published": "2026-11-10T16:25:29+00:00",
@@ -1101,18 +1173,6 @@
       "product": "Linux on Azure"
     },
     {
-      "title": "Dependabot alerts will pause on inactive repositories",
-      "link": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
-      "published": "2026-11-10T14:20:05+00:00",
-      "summary": "Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Has anyone noticed a recent change in outbound PSTN ringing behavior in Microsoft Teams?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/has-anyone-noticed-a-recent-change-in-outbound-pstn-ringing/m-p/4572051#M145452",
       "published": "2026-11-10T13:55:40+00:00",
@@ -1147,18 +1207,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "A more informative GitHub dashboard",
-      "link": "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard",
-      "published": "2026-11-10T10:34:35+00:00",
-      "summary": "Since the new dashboard experience became the default, we’ve heard from developers that it used too much space to show too little. Generous padding, wrapped titles, and a low default… The post A more informative GitHub dashboard appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     },
     {
       "title": "New Audit Events Capture User Access to Purview Solutions",
@@ -1927,18 +1975,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
-    },
-    {
-      "title": "Email threat landscape: Q3 2026 trends and insights",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
-      "published": "2026-11-05T16:00:00+00:00",
-      "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service sender domains exposed risks associated with...",
-      "blog": "Microsoft Security DevBlog",
-      "blogId": "securitydevblog",
-      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Security"
     },
     {
       "title": "Your best AX fixes are hiding in agent trajectories",
@@ -4420,150 +4456,6 @@
       "blog": "GitHub Engineering",
       "blogId": "githubengineering",
       "author": "Greg Mohler",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
-      "title": "Databricks ADBC connector for Power BI and Microsoft Fabric (Generally Available)",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Databricks-ADBC-connector-for-Power-BI-and-Microsoft-Fabric/ba-p/5369591",
-      "published": "2026-10-15T17:00:00+00:00",
-      "summary": "This release is part of the broader ODBC-to-ADBC transition for Power Query connectors described in the Transition from ODBC to ADBC drivers in Power BI and Microsoft Fabric documentation. What’s new Existing connections in your semantic models, dataflows, and paginated reports continue to work...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "MichaelaIsaacs",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "The New Unified Events Experience in Microsoft Teams: Webinars & Town Halls in One Place",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/the-new-unified-events-experience-in-microsoft-teams-webinars/m-p/4564842#M145386",
-      "published": "2026-10-15T15:03:15+00:00",
-      "summary": "Hi everyone 👋 Microsoft has redesigned the Meet app in Teams into a new unified Events app. Webinars, town halls and custom events now share a single workflow for creating, discovering and managing events. I recorded a step-by-step video walkthrough, and I'd like to share the key points here for...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "GiulianoDeLuca",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "JSON Formatting",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/json-formatting/m-p/4564828#M145385",
-      "published": "2026-10-15T13:52:57+00:00",
-      "summary": "I created a JSON that counts the days after a certain start date \"A\" and stops after a date \"B\" if there is no date in B it keeps counting. Further the days count<90 turn green, 90-120, turn yellow, >120 turn red. The problem I encounter is that it works fine in 0. All items, but no longer in a...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "DuncanV",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
-      "link": "https://devblogs.microsoft.com/cosmosdb/ai-agents-meet-the-azure-cosmos-db-vnext-emulator/",
-      "published": "2026-10-15T13:38:16+00:00",
-      "summary": "Over a typical 2 day window, we record 10 times as many emulator sessions lasting more than 30 minutes for vNext as for the legacy emulator. Our bet is that agentic development is helping drive the difference! The appeal is straightforward: coding agents need a database they can run anywhere. They...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Stopping notifications for specific chats",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/stopping-notifications-for-specific-chats/m-p/4564806#M145387",
-      "published": "2026-10-15T12:39:42+00:00",
-      "summary": "When will you bring back the stop notifications for a specific post that was removed in the new Teams?This generate a lot of noise/notifications when there's a lot of replied in the post.",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "lalanc01",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Teams Chat messages disappears",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-chat-messages-disappears/m-p/4564805#M145383",
-      "published": "2026-10-15T12:38:22+00:00",
-      "summary": "Problem with Teams Windows client.When you hover the mouse over the chat column, all the contacts disappear.If you click on the Chat icon to the left or press CRTL+2 you get the error message \"We ran into a problem getting your chats and channels\"I have tried to do both a repair and reset from the...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Johol62",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "From Chat to Decisions: Bringing SLMs into Application Logic with Microsoft Olive and ONNX",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-chat-to-decisions-bringing-slms-into-application-logic-with/ba-p/4559310",
-      "published": "2026-10-15T11:08:04+00:00",
-      "summary": "1. Why Jev Matters: Accelerating the Next Action, Not Just the Next Reply Let us return to the automated ordering scenario we have been exploring. A customer says, “I’ll have a combo, but make the drink not too sweet.” A conversational model can produce a friendly response. For the ordering...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Microsoft & Windows in Evolvement",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/microsoft-windows-in-evolvement/m-p/4564744#M45285",
-      "published": "2026-10-15T09:53:42+00:00",
-      "summary": "Ready? Evolve! It's time for a modular \"Micore\" architecture to fix Windows' legacy pain points (Updates, Registry, Kernel) Body:Hi fellow Insiders and Windows enthusiasts, As a long-time Windows user and developer, I love the OS, but I think we can all agree that the current architecture is...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "Yangzhen-Lutang",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Canada’s 2026 time zone updates: guidance for Microsoft SQL",
-      "link": "https://devblogs.microsoft.com/azure-sql/canadas-2026-time-zone-updates-guidance-for-microsoft-sql/",
-      "published": "2026-10-15T05:21:10+00:00",
-      "summary": "Affected locations in British Columbia, Alberta, and Manitoba will not turn their clocks back at 02:00 local time on November 1, 2026. They will remain at UTC−07:00, UTC−06:00, and UTC−05:00, respectively. Microsoft’s interim guidance for British Columbia, Alberta, and Manitoba describes the new...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Umachandar Jayachandran (UC)",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
-    },
-    {
-      "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/end-of-lifecycle-for-windows-server-2012-and-2012-r2/ba-p/4564611",
-      "published": "2026-10-15T00:20:15+00:00",
-      "summary": "On October 13, 2026, the Extended Security Updates (ESU) program for Windows Server 2012 and Windows Server 2012 R2 ended. This closes the three-year extended coverage period that began when these operating systems reached end of support in October 2023. After today, Microsoft will no longer...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Meagan McCrory",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
-      "published": "2026-10-14T20:35:34+00:00",
-      "summary": "Explore the new Azure MCP Server 3.0 stable release, with AI agent tools for Terraform, backup, recovery, and troubleshooting, plus stronger security defaults. The post Azure MCP Server 3.0 stable release: More tools. More possibilities appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Sandeep Sen",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
-      "link": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
-      "published": "2026-10-14T19:11:33+00:00",
-      "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog.",
-      "blog": "GitHub Engineering",
-      "blogId": "githubengineering",
-      "author": "Sarita Iyer",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
