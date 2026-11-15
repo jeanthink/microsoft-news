@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-14T17:32:20.149614+00:00",
-  "totalArticles": 348,
+  "lastUpdated": "2026-11-15T18:20:22.595307+00:00",
+  "totalArticles": 334,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,30 @@
   },
   "articles": [
     {
+      "title": "Deploying an AI Application on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
+      "published": "2026-11-15T09:51:38+00:00",
+      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Devi_Priya",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
+      "published": "2026-11-14T19:38:07+00:00",
+      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Fernando_Vasconcellos",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "FinOps"
+    },
+    {
       "title": "From Purview Data Governance to the Fabric OneLake Catalog",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
       "published": "2026-11-14T04:13:46+00:00",
@@ -297,6 +321,18 @@
       "product": "Azure Analytics"
     },
     {
+      "title": "AI is changing access: Catch Microsoft Entra at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-is-changing-access-catch-microsoft-entra-at-ignite-2026/ba-p/4513159",
+      "published": "2026-11-14T00:13:31+00:00",
+      "summary": "Join us at Microsoft Ignite 2026, November 17–20, 2026, at Moscone Center in San Francisco and online. Explore Microsoft Entra and learn how to secure access for users and AI agents. From stopping identity attacks to simplifying access policies and securing agents, our sessions bring practical...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "NgoziNwoko",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
       "title": "Microsoft Teams Calendar - maximum number of events for meetings",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-calendar-maximum-number-of-events-for-meetings/m-p/4573352#M145462",
       "published": "2026-11-13T22:08:02+00:00",
@@ -307,6 +343,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
+    },
+    {
+      "title": "Microsoft Purview Referential Architecture Diagrams",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-purview-blog/microsoft-purview-referential-architecture-diagrams/ba-p/4510925",
+      "published": "2026-11-13T21:36:31+00:00",
+      "summary": "The Microsoft Purview architecture diagrams provide a referential view of how data classification, sensitivity labeling, Data Loss Prevention (DLP) and Insider Risk operate across Microsoft 365 workloads. These diagrams are intended to help organizations understand where policy evaluation occurs,...",
+      "blog": "Microsoft Purview",
+      "blogId": "microsoft-purview-blog",
+      "author": "MaximeBombardier",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Purview"
     },
     {
       "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
@@ -333,6 +381,18 @@
       "product": "Azure Virtual Desktop"
     },
     {
+      "title": "Run on your schedule: App Service plan start/stop now in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-on-your-schedule-app-service-plan-start-stop-now-in-public/ba-p/4566184",
+      "published": "2026-11-13T20:42:33+00:00",
+      "summary": "Start and stop your apps together Managing an environment with multiple apps shouldn't mean stopping and starting each app individually. App Service plan start/stop brings that control to the plan level, letting you manage the apps and deployment slots it hosts together. Today, we're announcing the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
       "title": "Upcoming deprecation of selected GitHub Copilot models in December",
       "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
       "published": "2026-11-13T20:40:05+00:00",
@@ -355,6 +415,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
+    },
+    {
+      "title": "Introducing Azure Container Apps Sandboxes in Visual Studio Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-sandboxes-in-visual-studio-code/ba-p/4573296",
+      "published": "2026-11-13T19:44:47+00:00",
+      "summary": "We're introducing support for Azure Container Apps Sandboxes in the Azure Container Apps extension for Visual Studio Code. The new experience brings sandbox groups and individual sandboxes into the Azure Resources view, putting everyday sandbox operations alongside your development workflow....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
     },
     {
       "title": "What’s new in the Azure Resource Manager MCP server at Ignite 2026",
@@ -789,18 +861,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "Deploying an AI Application on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
-      "published": "2026-11-11T19:12:23+00:00",
-      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Devi_Priya",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
       "title": "Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload",
       "link": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
       "published": "2026-11-11T18:24:28+00:00",
@@ -1065,18 +1125,6 @@
       "product": "Exchange"
     },
     {
-      "title": "Run on your schedule: App Service plan start/stop now in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-on-your-schedule-app-service-plan-start-stop-now-in-public/ba-p/4566184",
-      "published": "2026-11-10T18:32:36+00:00",
-      "summary": "Start and stop your apps together Managing an environment with multiple apps shouldn't mean stopping and starting each app individually. App Service plan start/stop brings that control to the plan level, letting you manage the apps and deployment slots it hosts together. Today, we're announcing the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Exchange servers may become unstable after installation of October 2026 Windows updates",
       "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-servers-may-become-unstable-after-installation-of/ba-p/4565382",
       "published": "2026-11-10T18:25:46+00:00",
@@ -1243,18 +1291,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Catch Microsoft Entra at Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/catch-microsoft-entra-at-ignite-2026/ba-p/4513159",
-      "published": "2026-11-09T21:38:24+00:00",
-      "summary": "Join us at Microsoft Ignite 2026, November 17–20, 2026, at Moscone Center in San Francisco and online. Explore Microsoft Entra and learn how to secure access for users and AI agents. From stopping identity attacks to simplifying access policies and securing agents, our sessions bring practical...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "NgoziNwoko",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
     },
     {
       "title": "Securing and governing your medallion layers in Fabric Data Warehouse",
@@ -2251,18 +2287,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Azure Network Security"
-    },
-    {
-      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
-      "published": "2026-11-04T15:43:50+00:00",
-      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Fernando_Vasconcellos",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "FinOps"
     },
     {
       "title": "Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription",
@@ -4137,18 +4161,6 @@
       "product": "Azure Community"
     },
     {
-      "title": "Making ACR Data Transfer Visible: The Storage Activity Platform Behind GetBlob Metrics",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/making-acr-data-transfer-visible-the-storage-activity-platform/ba-p/4564893",
-      "published": "2026-10-19T17:32:37+00:00",
-      "summary": "Learn More Use Grafana dashboards in Azure Container Registry - Use Grafana dashboards in Azure Container Registry - Azure Container Registry | Microsoft Learn Monitor Azure Container Registry - Monitor Azure Container Registry - Azure Container Registry | Microsoft Learn Introduction Azure...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "brethompson",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Connect Azure Service Bus to other messaging systems with a JMS bridge",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/connect-azure-service-bus-to-other-messaging-systems-with-a-jms/ba-p/4564885",
       "published": "2026-10-19T17:00:00+00:00",
@@ -4279,186 +4291,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Entra"
-    },
-    {
-      "title": "What’s new in Microsoft Entra: October 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-october-2026/ba-p/4556460",
-      "published": "2026-10-16T16:25:24+00:00",
-      "summary": "Over the last few months, I've spent a lot of time with customers and our teams on one of the biggest security shifts ahead of us: securing an enterprise where people and AI agents are both acting on behalf of the business. It’s a challenge shaping Microsoft's approach to Secure AI. And while AI...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Yina Arenas",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Teams External Access vs. B2B Direct Connect vs. B2B Collab",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-external-access-vs-b2b-direct-connect-vs-b2b-collab/m-p/4565309#M145395",
-      "published": "2026-10-16T16:15:03+00:00",
-      "summary": "I've received conflicting info regarding whether B2B Direct Connect and Teams External Access are the same thing. Last time I looked into this, they both seemed to rely on the 'Default External Identities' controls from Entra - they were two faces of the same coin. Now it's not so clear. Can...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "underQualifried",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/threat-modeling-azure-mcp-securing-ai-assisted-infrastructure/ba-p/4564892",
-      "published": "2026-10-16T15:14:27+00:00",
-      "summary": "An engineer opens an Azure incident and asks an AI assistant: \"Why is this application slow?\" The assistant queries Azure Monitor, reviews Log Analytics results, inspects an App Service configuration, and compares the affected resource with a healthy deployment. The investigation that once required...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "abhilashasr",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Windows 11 Insider Preview Feature Update (26220.9606) 安装错误 - 0xc1900204",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-insider-preview-feature-update-26220-9606-%E5%AE%89%E8%A3%85%E9%94%99%E8%AF%AF/m-p/4565181#M45294",
-      "published": "2026-10-16T09:48:09+00:00",
-      "summary": "Windows 11 Insider 预览功能更新（26220.9606）安装错误 - 0xc1900204",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "米勒",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "SQL developer tools at SQL Modernization Day",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sql-developer-tools-at-sql-modernization-day/ba-p/4562634",
-      "published": "2026-10-16T07:00:00+00:00",
-      "summary": "SQL developers can now do most of their database work without leaving VS Code. The MSSQL extension ships updates every month, GitHub Copilot understands your schema, and the Microsoft SQL drivers keep pace with SQL Server 2025. And new Microsoft SQL skills, now in public preview, let your coding...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "RicardoDuncan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "Migrating Azure Cosmos DB Across Regions",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/migrating-azure-cosmos-db-across-regions/ba-p/4564983",
-      "published": "2026-10-16T04:38:18+00:00",
-      "summary": "What this article delivers? A decision-oriented, implementation-ready walkthrough based on a hands-on Azure Cosmos DB for NoSQL lab. It corrects the online copy sequence, includes the required Azure CLI snippets, and separates migration duration from application cutover downtime. Regional migration...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
-    },
-    {
-      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
-      "published": "2026-10-16T04:12:58+00:00",
-      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Analytics"
-    },
-    {
-      "title": "Beta channel - can't leave Insider programme",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/beta-channel-can-t-leave-insider-programme/m-p/4565020#M45287",
-      "published": "2026-10-16T02:48:56+00:00",
-      "summary": "There are 2 issues I have:1. There is yellowish banner at the top of the settingI definitely registered in Insider Programme. It is very poor UI/UX design because there is nothing else telling me what to do next. 2. Can't \"Stop getting preview builds\"As you can see I am in Beta Channel but can't...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "SzymonH",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry | September 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/",
-      "published": "2026-10-16T02:04:50+00:00",
-      "summary": "Explore September's models, Routines, Tool Search, Model Router, and Insights through one two-agent workflow that turns public releases into a Foundry developer changelog. The post What’s new in Microsoft Foundry | September 2026 appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
-      "title": "Reducing AKS cold starts with Prepared Image Specification",
-      "link": "https://blog.aks.azure.com/2026/10/16/reducing-aks-cold-starts-with-prepared-image-specification",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "Learn how Prepared Image Specification can reduce AKS scale-out latency by preparing container images, models, and host customizations before nodes start.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "AKS"
-    },
-    {
-      "title": "Generally Available: Automatic Zone Balance for Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/generally-available-automatic-zone-balance-for-virtual-machine/ba-p/4562654",
-      "published": "2026-10-15T22:38:30+00:00",
-      "summary": "We’re excited to announce the general availability of automatic zone balance for Virtual Machine Scale Sets. Automatic zone balance continuously monitors your scale set and redistributes VM instances across availability zones, reducing the risk that a single-zone failure disproportionately impacts...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "HilaryWang",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Compute"
-    },
-    {
-      "title": "Power BI October 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-October-2026-Feature-Summary/ba-p/5374650",
-      "published": "2026-10-15T21:25:10+00:00",
-      "summary": "Last month, we shared a packed September update alongside the European Microsoft Fabric + SQL Community Conference. Even so, the Power BI team has continued delivering new capabilities, and we didn't want to wait another month to share them. This update includes enhancements across Copilot and AI,...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "Power BI September 2026 Feature Summary",
-      "link": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-September-2026-Feature-Summary/ba-p/5325831",
-      "published": "2026-10-15T21:06:46+00:00",
-      "summary": "As the Power BI, Microsoft Fabric, data, and analytics community gathers in Barcelona for the European Microsoft Fabric + SQL Community Conference, this month is packed with news. From new Copilot and AI experiences to reporting, modeling, data connectivity, developer enhancements, and mobile...",
-      "blog": "Power BI Blog",
-      "blogId": "powerbi",
-      "author": "murray-kp",
-      "solutionArea": "AIBS",
-      "billingType": "License",
-      "product": "Power BI"
-    },
-    {
-      "title": "the only way microsoft can get me back on board is",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/the-only-way-microsoft-can-get-me-back-on-board-is/m-p/4564930#M45286",
-      "published": "2026-10-15T19:01:56+00:00",
-      "summary": "1 accept what the insiders say like my data 2 acknowledge the insider group publicly 3 give some credit to the insiders for good input and remember de-bloat is good junk is badhere is the problem with windows I do hope you can take what I am about to tell you as I will come direct to the point...",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "andrew Bell",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
-    },
-    {
-      "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
-      "link": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
-      "published": "2026-10-15T18:00:00+00:00",
-      "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
-      "blog": "GitHub Engineering",
-      "blogId": "githubengineering",
-      "author": "Greg Mohler",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
     }
   ]
 }
