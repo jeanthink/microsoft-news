@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-20T19:30:12.403279+00:00",
-  "totalArticles": 447,
+  "lastUpdated": "2026-11-21T18:32:03.173894+00:00",
+  "totalArticles": 438,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,114 @@
   },
   "articles": [
     {
+      "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+      "link": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+      "published": "2026-11-21T18:12:21+00:00",
+      "summary": "The five questions teams ask most when they run hosted agents in their own virtual network: which subnet is the agent subnet, why listing agents times out, why a TLS-inspecting firewall still breaks after you add your CA, how peered VNets and DNS fit, and why a subnet stays in use after you delete...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Muzz Imam",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Azure API Management Premium v2 now supports private CNAME records",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-premium-v2-now-supports-private-cname/ba-p/4575312",
+      "published": "2026-11-20T22:33:28+00:00",
+      "summary": "We’re excited to announce support for private CNAME records in Azure API Management Premium v2, providing greater flexibility for customers deploying API gateways in private network environments. Organizations increasingly rely on private networking to securely expose APIs to internal applications,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
+      "title": "How to Chunk Documents in Azure SQL Database for RAG",
+      "link": "https://devblogs.microsoft.com/azure-sql/how-to-chunk-documents-in-azure-sql-database-for-rag/",
+      "published": "2026-11-20T22:23:17+00:00",
+      "summary": "Quick answer Azure SQL Database can split text into fixed-size chunks using AI_GENERATE_CHUNKS, with the OVERLAP percentage controlling repeated text between chunks. Store embeddings generated through an external Azure OpenAI endpoint in VECTOR columns, then retrieve passages with VECTOR_DISTANCE...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Dhruv Malik",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure SQL"
+    },
+    {
+      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
+      "published": "2026-11-20T22:08:45+00:00",
+      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Kiran_Cherukuwada",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Storage"
+    },
+    {
+      "title": "Security advisory permissions are now generally available",
+      "link": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+      "published": "2026-11-20T21:49:29+00:00",
+      "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally available appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "What’s new in Azure SRE Agent at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607",
+      "published": "2026-11-20T21:38:48+00:00",
+      "summary": "Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debugging deployments, triaging new issues, and the routine, proactive work that happens between them. That shift changes what customers ask of us. The...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "sanchitmehta",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Databases on confidential computing: the foundation for sovereign AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/databases-on-confidential-computing-the-foundation-for-sovereign/ba-p/4572327",
+      "published": "2026-11-20T20:42:51+00:00",
+      "summary": "Co-authored with Thierry Fevrier, Amir Bredy, Danyal Bukhari, Jakub Szymaszek, Pam Lahoud Introduction Databases are the most valuable assets an organization has. They hold enterprise data, intellectual property, conversations, and institutional knowledge, making them the systems of record for AI....",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "michamcr",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Confidential Computing"
+    },
+    {
+      "title": "Advancing confidential computing with Intel TDX: more performance, more resiliency",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307",
+      "published": "2026-11-20T20:42:21+00:00",
+      "summary": "Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device Interface Security Protocol (TDISP) with Azure Boost, showcasing up to 400 Gbps of network bandwidth. We also released improvements across our...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "michamcr",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Confidential Computing"
+    },
+    {
+      "title": "GitHub Enterprise Server 3.23 release candidate",
+      "link": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+      "published": "2026-11-20T20:41:26+00:00",
+      "summary": "GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release: When working in GitHub Projects, you… The post GitHub Enterprise Server 3.23 release candidate appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
       "title": "Copilot Code Reviews for Azure Repos is generally available",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/",
       "published": "2026-11-20T18:41:47+00:00",
@@ -343,6 +451,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure App Service"
+    },
+    {
+      "title": "Demystifying macOS Platform SSO: How Apple and Microsoft Entra ID work together",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/demystifying-macos-platform-sso-how-apple-and-microsoft-entra-id/ba-p/4437423",
+      "published": "2026-11-20T16:00:00+00:00",
+      "summary": "Platform SSO has been transforming the macOS sign-in experience by bringing Microsoft Entra authentication closer to the operating system. Users can sign in to their Mac and access work applications with fewer authentication prompts, while organizations retain Microsoft Entra device trust and...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "veenasoman",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
     },
     {
       "title": "PowerPoint Slide Show ignores animation timings, advances to end",
@@ -549,6 +669,18 @@
       "product": "Azure HPC"
     },
     {
+      "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
+      "published": "2026-11-19T19:53:30+00:00",
+      "summary": "Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work on their own. They can solve math problems that stumped mathematicians for decades, build functional operating systems from scratch, and teach...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Amanda Foster",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure AI Foundry"
+    },
+    {
       "title": "Enterprise Live Migrations from Azure DevOps generally available",
       "link": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
       "published": "2026-11-19T18:50:57+00:00",
@@ -667,18 +799,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "FinOps"
-    },
-    {
-      "title": "Databases on confidential computing: the foundation for sovereign AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/databases-on-confidential-computing-the-foundation-for-sovereign/ba-p/4572327",
-      "published": "2026-11-19T16:14:58+00:00",
-      "summary": "Co-authored with Thierry Fevrier, Amir Bredy, Danyal Bukhari, Jakub Szymaszek, Pam Lahoud Introduction Databases are the most valuable assets an organization has. They hold enterprise data, intellectual property, conversations, and institutional knowledge, making them the systems of record for AI....",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "michamcr",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Confidential Computing"
     },
     {
       "title": "The best things in open source are built together",
@@ -813,18 +933,6 @@
       "product": "Azure Messaging"
     },
     {
-      "title": "Advancing confidential computing with Intel TDX: more performance, more resiliency",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307",
-      "published": "2026-11-19T01:42:22+00:00",
-      "summary": "Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device Interface Security Protocol (TDISP) with Azure Boost, showcasing up to 400 Gbps of network bandwidth. We also released improvements across our...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "michamcr",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Confidential Computing"
-    },
-    {
       "title": "Beyond the pilot: Scaling Azure SRE Agent across your enterprise",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/beyond-the-pilot-scaling-azure-sre-agent-across-your-enterprise/ba-p/4573349",
       "published": "2026-11-19T00:08:29+00:00",
@@ -885,18 +993,6 @@
       "product": "GitHub"
     },
     {
-      "title": "Gemini 4 Neon in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
-      "published": "2026-11-18T21:49:21+00:00",
-      "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Sending From Email Aliases – General Availability",
       "link": "https://techcommunity.microsoft.com/t5/exchange-team-blog/sending-from-email-aliases-general-availability/ba-p/4562543",
       "published": "2026-11-18T21:11:05+00:00",
@@ -907,18 +1003,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Exchange"
-    },
-    {
-      "title": "What’s new in Azure SRE Agent at Microsoft Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607",
-      "published": "2026-11-18T21:05:10+00:00",
-      "summary": "Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debugging deployments, triaging new issues, and the routine, proactive work that happens between them. That shift changes what customers ask of us. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro",
@@ -1185,18 +1269,6 @@
       "product": "Java on Azure"
     },
     {
-      "title": "Security risk assessments run automatically on GitHub Team",
-      "link": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-      "published": "2026-11-18T16:54:26+00:00",
-      "summary": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code… The post Security risk assessments run automatically on GitHub Team appeared...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Intune Enrolement Not Working For Some Devices",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/intune-enrolement-not-working-for-some-devices/m-p/4574496#M23837",
       "published": "2026-11-18T16:30:27+00:00",
@@ -1339,18 +1411,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
-    },
-    {
-      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
-      "published": "2026-11-18T09:14:47+00:00",
-      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Kiran_Cherukuwada",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Storage"
     },
     {
       "title": "Addressing Java4Shell CVE-2026-114938: upgrade guidance and Azure WAF mitigations",
@@ -3273,18 +3333,6 @@
       "product": "Azure Virtual Desktop"
     },
     {
-      "title": "Migrate NuGet-based Logic Apps Standard apps and custom built-in connectors to .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-nuget-based-logic-apps-standard-apps-and-custom-built-in/ba-p/4573057",
-      "published": "2026-11-13T20:00:24+00:00",
-      "summary": "Less than you might fear. You don't change a line of C#, and you don't touch your workflow definitions. The work is retargeting your projects, resolving a couple of dependency conflicts, running the right host locally, and changing a handful of app settings in Azure. Those last two are where people...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
-    },
-    {
       "title": "What’s new in the Azure Resource Manager MCP server at Ignite 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/what-s-new-in-the-azure-resource-manager-mcp-server-at-ignite/ba-p/4571824",
       "published": "2026-11-13T18:30:14+00:00",
@@ -4293,18 +4341,6 @@
       "product": "Power BI"
     },
     {
-      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
-      "link": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
-      "published": "2026-11-05T20:55:45+00:00",
-      "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "John Miller",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
-    },
-    {
       "title": "Inside GitHub’s new Git storage architecture",
       "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
       "published": "2026-11-05T20:23:21+00:00",
@@ -4435,18 +4471,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Azure DevOps"
-    },
-    {
-      "title": "Bring Agentic Coding On-Device with Foundry Local",
-      "link": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/",
-      "published": "2026-11-05T14:00:38+00:00",
-      "summary": "Foundry Local brings agentic coding directly to developer hardware. The post Bring Agentic Coding On-Device with Foundry Local appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Baiju Meswani, Emma Ning, Tianlei Wu",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure AI Foundry"
     },
     {
       "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",
@@ -4675,18 +4699,6 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Purview"
-    },
-    {
-      "title": "My Favorite Undocumented Feature in SQL MCP Server",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-hidden-feature-default-configuration/",
-      "published": "2026-11-03T21:29:25+00:00",
-      "summary": "Deploy Microsoft's SQL MCP Server in minutes without a configuration file. Learn how DAB_CONNSTRING enables fast deployment using Docker, Azure Container Apps, ACI, or AKS. The post My Favorite Undocumented Feature in SQL MCP Server appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure SQL"
     },
     {
       "title": "Enhanced data protection for Azure Files",
@@ -5527,126 +5539,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure Databricks"
-    },
-    {
-      "title": "What production taught us about reviewing AI translations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-production-taught-us-about-reviewing-ai-translations/ba-p/4566948",
-      "published": "2026-10-22T18:24:53+00:00",
-      "summary": "When I first started thinking about translation review for Co-op Translator, I wanted a score. Something that could tell us whether a translated document was good enough, without asking a person to read every language after every update. That seemed like a reasonable place to start. Co-op...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "MinseokSong",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Community"
-    },
-    {
-      "title": "How bug bounty sharpens one researcher’s security skills",
-      "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-      "published": "2026-10-22T17:21:30+00:00",
-      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog.",
-      "blog": "GitHub Security",
-      "blogId": "githubsecurity",
-      "author": "Shilpa Kumari",
-      "solutionArea": "Security",
-      "billingType": "License",
-      "product": "GitHub Advanced Security"
-    },
-    {
-      "title": "Turn threat intelligence into informed action with Microsoft Defender",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/turn-threat-intelligence-into-informed-action-with-microsoft/ba-p/4566636",
-      "published": "2026-10-22T17:06:53+00:00",
-      "summary": "Every new threat raises a familiar set of questions. Is it targeting our industry? Are we exposed? What should we investigate first? Answering those questions takes more than another feed or a longer list of indicators. It takes intelligence that brings the relevant context together and helps your...",
-      "blog": "Microsoft Defender XDR",
-      "blogId": "MicrosoftThreatProtectionBlog",
-      "author": "Yoni_Nave",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender XDR"
-    },
-    {
-      "title": "Scheduled backups for Azure Local with disconnected operations: Advancing control plane resilience",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/scheduled-backups-for-azure-local-with-disconnected-operations/ba-p/4563594",
-      "published": "2026-10-22T15:30:00+00:00",
-      "summary": "For organizations operating in sovereign and disconnected environments, resilience is more than keeping infrastructure available. It also means having a reliable way to recover critical platform services when something goes wrong. Backup and restore capabilities of the control plane for the Azure...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Naveen_Nooka",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Arc"
-    },
-    {
-      "title": "Azure Storage Discovery now offers advanced capacity insights",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-storage-discovery-now-offers-advanced-capacity-insights/ba-p/4563651",
-      "published": "2026-10-22T15:00:00+00:00",
-      "summary": "We are excited to announce the preview of advanced capacity insights in Azure Storage Discovery. Azure Storage Discovery provides enterprise-wide visibility into storage usage, activity, egress, and configuration across your data estate. Advanced capacity insights extend this visibility with deeper...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "PreethiThippeswamy",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Storage"
-    },
-    {
-      "title": "Designing smarter access policies for hybrid enterprises",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/designing-smarter-access-policies-for-hybrid-enterprises/ba-p/4529308",
-      "published": "2026-10-22T15:00:00+00:00",
-      "summary": "Every hybrid enterprise eventually reaches the same point: the security model that worked when everyone was inside the corporate network no longer holds up when people, apps, and data are distributed across clouds, data centers, and unmanaged devices. Add AI agents acting on users’ behalf, and the...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "SuleTatar",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Are you getting everything you can from Your Visual Studio Subscription?",
-      "link": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
-      "published": "2026-10-22T14:00:56+00:00",
-      "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you’re a Visual Studio subscriber, you may...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Visual Studio"
-    },
-    {
-      "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-hub-and-spoke-routable-and-non-advertised-azure-networks/ba-p/4553044",
-      "published": "2026-10-22T12:19:59+00:00",
-      "summary": "Why Enterprise Azure Networking Needs to Evolve Hub-and-spoke remains a common foundation for enterprise Azure networking. The hub provides shared transit, hybrid connectivity, DNS, and security services, while spokes host application and platform workloads. A conventional design allocates each...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Sunip",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Infrastructure"
-    },
-    {
-      "title": "Configure only \"trusted\" usb flash drives to be allowed to the workstations through Itnune?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/configure-only-quot-trusted-quot-usb-flash-drives-to-be-allowed/m-p/4566746#M23804",
-      "published": "2026-10-22T07:22:08+00:00",
-      "summary": "We would like to impose a policy that allows only vendor specific encrypted usb flash drives to be installed to the workstations without affecting other usb device classes. Is there a way to accomplish it through Intune configuration?",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "demion",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "Built by experience: The journey to Azure Linux 4.0",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/built-by-experience-the-journey-to-azure-linux-4-0/ba-p/4559114",
-      "published": "2026-10-21T21:06:03+00:00",
-      "summary": "Azure Linux 4.0 builds on years of experience creating, operating, securing, and maintaining a Linux distribution for cloud-scale workloads. That journey began with CBL-Mariner, which emerged publicly in 2020 as Microsoft’s open-source Linux distribution for its cloud infrastructure and edge...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "poorvinarang",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
     }
   ]
 }
