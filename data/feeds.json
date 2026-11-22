@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-21T18:32:03.173894+00:00",
-  "totalArticles": 438,
+  "lastUpdated": "2026-11-22T18:54:43.615711+00:00",
+  "totalArticles": 434,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,30 @@
   },
   "articles": [
     {
+      "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
+      "published": "2026-11-22T02:13:31+00:00",
+      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for enterprise AI, that moment is here. As organizations move beyond isolated experiments toward...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Arun Kishan",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Compute"
+    },
+    {
+      "title": "Rotating credentials in Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
+      "published": "2026-11-21T22:12:12+00:00",
+      "summary": "Credentials covered by this guidance Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Integration"
+    },
+    {
       "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
       "link": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
       "published": "2026-11-21T18:12:21+00:00",
@@ -295,6 +319,18 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure AI Foundry"
+    },
+    {
+      "title": "Implement Virtual WAN Secure Hub with Customer-Owned Public IPs for Firewall using AVM",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/implement-virtual-wan-secure-hub-with-customer-owned-public-ips/ba-p/4575390",
+      "published": "2026-11-21T10:27:54+00:00",
+      "summary": "Azure Virtual WAN provides a managed networking architecture that simplifies connectivity between virtual networks, branch locations, VPN connections, and ExpressRoute connections. At the centre of this architecture is the Virtual Hub, which provides managed connectivity and routing. When Azure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Seema_gupta",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
     },
     {
       "title": "Azure API Management Premium v2 now supports private CNAME records",
@@ -415,18 +451,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": ".NET"
-    },
-    {
-      "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
-      "published": "2026-11-20T17:30:47+00:00",
-      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for enterprise AI, that moment is here. As organizations move beyond isolated experiments toward...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Arun Kishan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Compute"
     },
     {
       "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
@@ -2839,18 +2863,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Migrate"
-    },
-    {
-      "title": "Tune your Logic Apps Standard runtime from the portal",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/tune-your-logic-apps-standard-runtime-from-the-portal/ba-p/4573619",
-      "published": "2026-11-17T15:27:16+00:00",
-      "summary": "Until now, the answer lived in host.json. To change a value in Azure, you opened Advanced Tools, went into Kudu, stopped your logic app, hand-edited JSON with a key you copied from the docs, saved, and restarted. Nothing on screen told you the default, or whether someone had already changed it....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Integration"
     },
     {
       "title": "The risks of device code authentication for AI coding agents",
@@ -5479,66 +5491,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Migrate"
-    },
-    {
-      "title": "Can I use forms inside Teams to automate surveys at intervals?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/can-i-use-forms-inside-teams-to-automate-surveys-at-intervals/m-p/4567227#M145410",
-      "published": "2026-10-23T14:06:59+00:00",
-      "summary": "I’m trying to set up a few recurring surveys for things like monthly pulse checks and occasional employee feedback, ideally without someone from HR having to remember to send them out every time. I know Forms works inside Teams, but I’m not sure how far the automation goes. Can you schedule the...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "SarahBMullany",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "How are people keeping manager notes private in Teams without creating a mess of separate files?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/how-are-people-keeping-manager-notes-private-in-teams-without/m-p/4567222#M145409",
-      "published": "2026-10-23T13:51:46+00:00",
-      "summary": "We’re trying to get managers to keep better notes from 1:1s, performance conversations, development discussions, etc., but the privacy side gets messy pretty quickly.If everything goes into OneNote, Loop, or Word docs, managers end up with a bunch of separate files and folders for different...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "MReed98",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
-      "published": "2026-10-23T08:11:46+00:00",
-      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Messaging"
-    },
-    {
-      "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-verified-modules-avm-is-now-owned-by-azure-engineering/ba-p/4563822",
-      "published": "2026-10-22T22:48:19+00:00",
-      "summary": "Next community call: Monday 26th October 2026 @ 16:00 UK | 12:00 EDT | 09:00 PDT | 21:30 IST | 03:00 AEDT This call will be streamed to YouTube live so use the \"Set reminder\" / \"Notify Me\" options on YouTube and also put an entry in your calendar to remind you. This means it will automatically be...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "jtracey93msft",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Tools"
-    },
-    {
-      "title": "Simplify private connectivity for Azure Databricks Serverless with Private Network Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/simplify-private-connectivity-for-azure-databricks-serverless/ba-p/4566980",
-      "published": "2026-10-22T21:13:52+00:00",
-      "summary": "Recently, we announced the public preview of Private Network Gateway (PNG) for Azure Databricks - a simpler way to connect Azure Databricks serverless workloads to resources accessible from your Azure Virtual Network. With a single managed connection into your network, PNG helps reduce connectivity...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "Shivani_Tripathi",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Databricks"
     }
   ]
 }
