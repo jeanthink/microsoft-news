@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-25T20:55:50.272348+00:00",
-  "totalArticles": 461,
+  "lastUpdated": "2026-11-26T20:47:54.839717+00:00",
+  "totalArticles": 459,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,198 @@
   },
   "articles": [
     {
+      "title": "Azure Local: 10 anti-patterns that quietly break a running cluster",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-anti-patterns-that-quietly-break-a-running/ba-p/4577143",
+      "published": "2026-11-26T18:00:52+00:00",
+      "summary": "Part 2: Design and operations anti-patterns for Azure Local An anti-pattern is a recurring design or operating choice that looks like a good solution to an immediate problem but creates a bigger problem elsewhere. A storage optimization can look good on a capacity report, for example, and still be...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Infrastructure"
+    },
+    {
+      "title": "Unlocking Data Value with Fabric and Microsoft AI Agents: Choose, Deploy, Optimise",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/unlocking-data-value-with-fabric-and-microsoft-ai-agents-choose/ba-p/4574895",
+      "published": "2026-11-26T15:45:59+00:00",
+      "summary": "Over the past few years, most organisations I work with have invested heavily in their data platforms: landing data, modelling it and publishing reports. Yet when a business leader has a new question, the answer is often still a request to the BI team, a hunt for the right report, or someone...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "limaoncloud",
+      "solutionArea": "AIBS",
+      "billingType": "PAYGO",
+      "product": "Azure Analytics"
+    },
+    {
+      "title": "Microsoft 365 defaults to the wrong account even after updating the license",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-defaults-to-the-wrong-account-even-after-updating/m-p/4577120#M60367",
+      "published": "2026-11-26T15:21:10+00:00",
+      "summary": "Microsoft 365 has worked fine for years. About 4 days ago, it started showing the \"Get Started with Microsoft 365\" screen and states that I am signed in with an Outlook email address. This was probably created by Microsoft when I set up my web based Outlook account a long time ago which I use...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Just_Me01",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "I can't delete emails from the Deleted Items folder in Outlook.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/i-can-t-delete-emails-from-the-deleted-items-folder-in-outlook/m-p/4577114#M60366",
+      "published": "2026-11-26T15:03:00+00:00",
+      "summary": "I am using Outlook via a Microsoft 365 Family subscription. I am trying to delete items from the Deleted Items folder, but they keep reappearing whenever I open Outlook. How can I permanently delete them? The total size of the emails is not large, and I am using a personal account.",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "sheraton",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Running green hydrogen export plants with AI agents on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/running-green-hydrogen-export-plants-with-ai-agents-on-azure/ba-p/4576731",
+      "published": "2026-11-26T13:35:43+00:00",
+      "summary": "Before you read. I wrote this paper for my capstone in the Azure Master Architect Program. The design has not been built, and the test in section 9 is a simulation. The value figures come from the case and from that simulation, and the cost figures are my estimates at Azure list prices. All of them...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "sahoumym",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Announcing Public Preview of Guest RDMA for Azure Boost",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-of-guest-rdma-for-azure-boost/ba-p/4573027",
+      "published": "2026-11-26T12:19:57+00:00",
+      "summary": "Today, we're excited to announce the public preview of Guest RDMA on Azure Boost, available in all regions. Guest RDMA on Azure Boost extends Remote Direct Memory Access (RDMA) directly into guest VMs over the front-end Network Interface Card (NIC). Applications interact natively with RDMA verbs...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "MengxiWu",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Compute"
+    },
+    {
+      "title": "Microsoft 365 Backup Introduces Premium Entra ID Backups",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-backup-introduces-premium-entra-id-backups/m-p/4576966#M60358",
+      "published": "2026-11-26T10:09:25+00:00",
+      "summary": "Microsoft 365 Backup has quietly introduced a Premium backup option for Entra ID. Premium extends the seven-day recovery window provided by Standard backup to 30 days and uses pay-as-you-go billing based on the number of protected directory objects. At $0.025 per protected object per month, costs...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Device Cleanup Rules cannot be opened in Intune Admin Center (multiple tenants affected)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/device-cleanup-rules-cannot-be-opened-in-intune-admin-center/m-p/4576964#M23855",
+      "published": "2026-11-26T10:08:00+00:00",
+      "summary": "We are experiencing an issue with Device Cleanup Rules in the Microsoft Intune Admin Center.The Device Cleanup Rules page loads successfully and displays existing rules; however, selecting any rule does not open the details blade. No navigation occurs and no additional network activity is generated...",
+      "blog": "Microsoft Intune",
+      "blogId": "microsoft-intune",
+      "author": "Jameskennedy",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Intune"
+    },
+    {
+      "title": "How to Install Microsoft Office 365 on Windows & Macs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-install-microsoft-office-365-on-windows-macs/m-p/4576899#M60357",
+      "published": "2026-11-26T08:21:34+00:00",
+      "summary": "Pls Guide through installing Microsoft Office on Mac, 855*535*7109 Windows, iOS, and Android devices. get started with Office 365 on my device. It is recommended to select the first option, Office 365 Apps, as this will make the process faster and easier by taking you directly to the installation...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "CharlesShipp",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Where should LLM weights live on AKS? Three options for GPU cold starts, measured",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/where-should-llm-weights-live-on-aks-three-options-for-gpu-cold/ba-p/4574887",
+      "published": "2026-11-26T05:30:00+00:00",
+      "summary": "Summary When you self-host an open-weight large language model (LLM) on Azure Kubernetes Service (AKS), each new replica needs two payloads before it can answer a request: the container image that holds the inference runtime, and the model weights. That wait is the cold start. On CPU services it is...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kumarsagar",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Community"
+    },
+    {
+      "title": "Azure Functions and AWS Lambda: One Trigger vs. Multiple Triggers—What Changes in Your Design?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-and-aws-lambda-one-trigger-vs-multiple-triggers/ba-p/4574749",
+      "published": "2026-11-26T02:28:19+00:00",
+      "summary": "When moving between Azure Functions and AWS Lambda, one difference quickly stands out: An individual Azure function must have exactly one trigger. An AWS Lambda function can have multiple triggers. At first glance, Lambda appears more flexible. But what does this difference actually mean for code...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "singh_abhi",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
+      "title": "Problems with Word, Excel, and Outlook in Microsoft 365 Business Channel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/problems-with-word-excel-and-outlook-in-microsoft-365-business/m-p/4576787#M60356",
+      "published": "2026-11-26T00:56:00+00:00",
+      "summary": "A problem has been detected with the Microsoft 365 Apps (Business channel): Word. When opening certain documents and attempting to edit them, the program freezes and closes a few seconds later (Apparently, this only applies to certain formats that have a header and footer.). More and more users are...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JuanDiaz01",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Ignite 2026: The next era of AI starts with the infrastructure beneath it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-ai-starts-with-the-infrastructure/ba-p/4574943",
+      "published": "2026-11-25T22:26:15+00:00",
+      "summary": "Windows Remote Recovery for Azure VMsBy Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for AI, that moment is here. As organizations move beyond isolated...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Arun Kishan",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Compute"
+    },
+    {
+      "title": "Copilot code review billing will default to the organization",
+      "link": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "published": "2026-11-25T22:18:03+00:00",
+      "summary": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "GitHub"
+    },
+    {
+      "title": "Microsoft Ignite 2026: New Sentinel Connectors Announcement",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-ignite-2026-new-sentinel-connectors-announcement/ba-p/4565258",
+      "published": "2026-11-25T21:36:10+00:00",
+      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to threats across increasingly complex environments. As AI transforms security operations, bringing together the right data and context is more important than ever, giving human defenders and AI agents a more complete view of...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JesseKopavi",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Sentinel"
+    },
+    {
+      "title": "Introducing Brewlet: Manage Golden Images at Platform Speed",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-brewlet-manage-golden-images-at-platform-speed/ba-p/4576767",
+      "published": "2026-11-25T20:14:07+00:00",
+      "summary": "In October 2026, the PHP project released security updates for critical vulnerabilities that could allow unauthenticated remote code execution. For teams running PHP in Kubernetes, applying a runtime fix can mean more than updating PHP: it can mean rebuilding application images, waiting for...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Bruno Borges",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure App Service"
+    },
+    {
       "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
       "published": "2026-11-25T18:09:06+00:00",
@@ -336,10 +528,10 @@
       "title": "Action required: Update app-only permissions for SharePoint tenant App Catalog writes",
       "link": "https://devblogs.microsoft.com/microsoft365dev/action-required-update-app-only-permissions-for-sharepoint-tenant-app-catalog-writes/",
       "published": "2026-11-25T09:01:55+00:00",
-      "summary": "We are introducing an additional authorization requirement for applications that use app-only authentication to write directly to specific surfaces in the SharePoint tenant App Catalog. Starting January 31, 2027, affected app-only workflows must have the SharePointTenantSettings.ReadWrite.All...",
+      "summary": "Starting January 31, 2027, app-only solutions that write to the SharePoint tenant App Catalog will require the SharePointTenantSettings.ReadWrite.All application permission. Review and update your CI/CD pipelines, unattended scripts, and other automated deployment processes before the deadline. The...",
       "blog": "Microsoft 365 Developer Blog",
       "blogId": "m365devblog",
-      "author": "Vesa Juvonen",
+      "author": "SharePoint team",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft 365"
@@ -367,18 +559,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Messaging"
-    },
-    {
-      "title": "Ignite 2026: The next era of AI starts with the infrastructure beneath it",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-ai-starts-with-the-infrastructure/ba-p/4574943",
-      "published": "2026-11-24T23:34:39+00:00",
-      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for AI, that moment is here. As organizations move beyond isolated experiments toward models,...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Arun Kishan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Compute"
     },
     {
       "title": "Strengthen your Azure security baseline with Metadata Security Protocol",
@@ -429,13 +609,25 @@
       "product": "Azure Compute"
     },
     {
+      "title": "Ask the Microsoft Entra experts anything, live on December 2",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ask-the-microsoft-entra-experts-anything-live-on-december-2/ba-p/4576043",
+      "published": "2026-11-24T20:09:19+00:00",
+      "summary": "Microsoft Ignite 2026 brought a wave of news for Microsoft Entra, from new ways to secure AI agents to new tools for managing access at scale. Now it's your turn to ask the people who build it. On Tuesday, December 2, Yina Arenas, Chief Product Officer for Microsoft Identity and Network Access,...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Nichole_Peterson",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
       "title": "Approvals API only working in the default environment",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/approvals-api-only-working-in-the-default-environment/m-p/4576405#M145487",
       "published": "2026-11-24T19:22:31+00:00",
       "summary": "The approvals are created by a Power Automate flow with the Approvals connector (Create an approval).We want to complete or cancel the approval from outside Power Automate. For this we call the beta Graph approvals API from a custom connector, with the delegated permission...",
       "blog": "Microsoft Teams",
       "blogId": "microsoftteams",
-      "author": "EvangelosAsap1",
+      "author": "VagAll1",
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
@@ -645,6 +837,18 @@
       "product": "Azure Monitor"
     },
     {
+      "title": "AI is changing access. See how Microsoft Entra helps you stay ahead.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-is-changing-access-see-how-microsoft-entra-helps-you-stay/ba-p/4556456",
+      "published": "2026-11-24T00:43:52+00:00",
+      "summary": "AI and agents are changing the access landscape at a pace that challenges even mature identity and security programs. Without centralized visibility and control, agent sprawl risks becoming shadow IT at a scale we've never had to manage before. AI amplifies today's identity challenges. Every agent...",
+      "blog": "Microsoft Entra",
+      "blogId": "microsoft-entra-blog",
+      "author": "Yina Arenas",
+      "solutionArea": "Security",
+      "billingType": "PAYGO",
+      "product": "Microsoft Entra"
+    },
+    {
       "title": "Accelerate Model Loading on AKS with DACS and Run:ai Model Streamer",
       "link": "https://blog.aks.azure.com/2026/11/24/dacs-runai-model-loading",
       "published": "2026-11-24T00:00:00+00:00",
@@ -667,18 +871,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Integration"
-    },
-    {
-      "title": "Microsoft Ignite 2026: New Sentinel Connectors Announcement",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-ignite-2026-new-sentinel-connectors-announcement/ba-p/4565258",
-      "published": "2026-11-23T22:53:24+00:00",
-      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to threats across increasingly complex environments. As AI transforms security operations, bringing together the right data and context is more important than ever, giving human defenders and AI agents a more complete view of...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JesseKopavi",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
     },
     {
       "title": "Run models and agents on your own Kubernetes clusters: AKS at Microsoft Ignite 2026",
@@ -1413,18 +1605,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Improvements on the pull request overview in public preview",
-      "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-      "published": "2026-11-20T00:02:21+00:00",
-      "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the pull request overview in public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "GitHub"
-    },
-    {
       "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio subscribers",
       "link": "https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/",
       "published": "2026-11-19T21:30:48+00:00",
@@ -1869,18 +2049,6 @@
       "product": "Azure App Service"
     },
     {
-      "title": "Announcing Public Preview of Guest RDMA for Azure Boost",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-of-guest-rdma-for-azure-boost/ba-p/4573027",
-      "published": "2026-11-18T17:04:34+00:00",
-      "summary": "Today, we're excited to announce the public preview of Guest RDMA on Azure Boost, available in all regions. Guest RDMA on Azure Boost extends Remote Direct Memory Access (RDMA) directly into guest VMs over the front-end Network Interface Card (NIC). Applications interact natively with RDMA verbs...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "MengxiWu",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure Compute"
-    },
-    {
       "title": "Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries",
       "link": "https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/",
       "published": "2026-11-18T17:00:54+00:00",
@@ -2191,18 +2359,6 @@
       "solutionArea": "AIBS",
       "billingType": "PAYGO",
       "product": "Azure SQL"
-    },
-    {
-      "title": "AI is changing access. See how Microsoft Entra helps you stay ahead.",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-is-changing-access-see-how-microsoft-entra-helps-you-stay/ba-p/4556456",
-      "published": "2026-11-18T00:39:46+00:00",
-      "summary": "⭐Don't miss Microsoft Ignite BRK343 to see demos of what's in this post.⭐ Wednesday, November 18, 2026, 10:15 to 11:00 AM Pacific Time Watch: AI is changing access. See how Microsoft Entra helps you stay ahead. AI and agents are changing the access landscape at a pace that challenges even mature...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Yina Arenas",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
     },
     {
       "title": "Matching Storage Performance to every stage of your AI Workloads on Azure",
@@ -3093,18 +3249,6 @@
       "product": "Azure Cosmos DB"
     },
     {
-      "title": "What's new in Azure Container Apps at Ignite'26",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-container-apps-at-ignite-26/ba-p/4573042",
-      "published": "2026-11-17T18:45:12+00:00",
-      "summary": "Azure Container Apps (ACA) is a fully managed serverless container platform that enables developers to design and deploy microservices and modern apps without requiring container expertise or needing infrastructure management. With built-in autoscaling (including scale to zero), per-second billing,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vyomnagrani",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
-    },
-    {
       "title": "Simplify AI retrieval with embedding generation using Microsoft-Embedding-1",
       "link": "https://devblogs.microsoft.com/cosmosdb/microsoft-embedding-one/",
       "published": "2026-11-17T18:45:11+00:00",
@@ -3199,18 +3343,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
-    },
-    {
-      "title": "Introducing Azure App Service Builder (Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-app-service-builder-public-preview/ba-p/4572180",
-      "published": "2026-11-17T18:45:00+00:00",
-      "summary": "This is a summarized version of the full post which can be found here: Introducing Azure App Service Builder: From code to a running app Builder brings application builds, hosting, and deployment management into one app-focused workflow. Connect an authorized GitHub repository for source-based...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure App Service"
     },
     {
       "title": "Redefining application load balancing in Azure Application Gateway",
@@ -4113,18 +4245,6 @@
       "product": "Azure Networking"
     },
     {
-      "title": "Microsoft 365 Outage Updates",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-365-outage-updates/m-p/4573007#M60248",
-      "published": "2026-11-12T19:05:37+00:00",
-      "summary": "Not seeing any reliable updates anywhere on this situation. Yes I looked at the thread on X. Anyone with a clue of what is going on or what MSFT is doing about it, drop it below.",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "wbainbeacon",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-at-microsoft-ignite-2026-sessions-hands-on-labs-and/ba-p/4571203",
       "published": "2026-11-12T17:49:38+00:00",
@@ -4173,18 +4293,6 @@
       "product": "Microsoft Security"
     },
     {
-      "title": "OneDrive is able to download documents from SharePoint site but will not upload, errors out",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/onedrive-is-able-to-download-documents-from-sharepoint-site-but/m-p/4572958#M60247",
-      "published": "2026-11-12T15:54:17+00:00",
-      "summary": "User has site owner permission to the site but is unable to upload files from OneDrive to SharePoint Online. If the user creates a file in SharePoint, it pulls down into OneDrive. However, if they try to add a file through File Explorer it will error out.",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "pb_jberg1305",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion",
       "link": "https://devblogs.microsoft.com/visualstudio/build-better-applications-with-bold-bi-a-visual-studio-subscriber-benefit-from-syncfusion/",
       "published": "2026-11-12T15:00:31+00:00",
@@ -4219,18 +4327,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "Word for the web does not open. Documents remain on a loading spinner indefinitely.",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/word-for-the-web-does-not-open-documents-remain-on-a-loading/m-p/4572797#M60244",
-      "published": "2026-11-12T08:03:51+00:00",
-      "summary": "What works:OneDrive loads normally.Excel files open and edit successfully in Excel for the web.Word documents can be downloaded from OneDrive.New Word documents can be created, but they also fail to open and remain stuck loading.Troubleshooting performed:Tested in Microsoft Edge, Chrome, and...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "Les99",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "What's new in FinOps toolkit 15 – October 2026",
@@ -4401,18 +4497,6 @@
       "product": "Azure Storage"
     },
     {
-      "title": "How to Fetch Large Volumes of Entra Sign-In Events",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-to-fetch-large-volumes-of-entra-sign-in-events/m-p/4572384#M60232",
-      "published": "2026-11-11T09:26:59+00:00",
-      "summary": "Every time a user, app, service principal, or agent authenticates against Entra ID, the action generates a sign-in log. These records are an invaluable source of information about who or what accessed a tenant, when the access occurred, and how authentication was performed. Active tenants generate...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Announcing PowerShell 7.7 GA Release",
       "link": "https://devblogs.microsoft.com/powershell/announcing-powershell-7-7/",
       "published": "2026-11-10T21:05:06+00:00",
@@ -4555,18 +4639,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Infrastructure"
-    },
-    {
-      "title": "365 tenant blocked for delivery e-mails",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/365-tenant-blocked-for-delivery-e-mails/m-p/4572011#M60224",
-      "published": "2026-11-10T10:45:25+00:00",
-      "summary": "Hi Good Day ! Microsoft have blocked our tenant for 2 weeks due spam originating from the domain. Still we cannot send any e-mails and the block is not removed inspite of us contacting microsoft and their engineer connecting to the tenant and checking the tenant for any connectors and updating the...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "MCarvalho2026",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Copilot in Visual Studio Just Got a Major Upgrade",
@@ -5719,102 +5791,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Microsoft Teams"
-    },
-    {
-      "title": "MANA out-of-tree (OOT) driver for Linux LTS kernels",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/mana-out-of-tree-oot-driver-for-linux-lts-kernels/ba-p/4566923",
-      "published": "2026-10-27T20:40:38+00:00",
-      "summary": "The Microsoft Azure Network Adapter (MANA) driver is part of the upstream Linux kernel and provides networking support for Azure Accelerated Networking. Today, we’re announcing an out-of-tree (OOT) driver, so you can use MANA on supported Linux LTS kernels without upgrading your kernel. MANA...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "KashanK",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Linux on Azure"
-    },
-    {
-      "title": "Azure DevOps Server RC (26H2) Is Now Available",
-      "link": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
-      "published": "2026-10-27T20:31:59+00:00",
-      "summary": "Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today. A direct upgrade to Azure DevOps Server RC...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Azure DevOps"
-    },
-    {
-      "title": "Bringing Azure Applications Closer to Oracle AI Database@Azure with Proximity Placement Groups",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/bringing-azure-applications-closer-to-oracle-ai-database-azure/ba-p/4567806",
-      "published": "2026-10-27T19:30:00+00:00",
-      "summary": "Azure proximity placement group (PPG) integration is now generally available for Exadata Database Service on Dedicated Infrastructure in Oracle AI Database@Azure. New PPG-enabled deployments can place supported Azure application virtual machines (VMs) close to Oracle-managed Exadata infrastructure...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "Venkat_Ramakrishnan",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Oracle on Azure"
-    },
-    {
-      "title": "What’s new for Oracle AI Database@Azure at Oracle AI World 2026",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/what-s-new-for-oracle-ai-database-azure-at-oracle-ai-world-2026/ba-p/4567429",
-      "published": "2026-10-27T19:30:00+00:00",
-      "summary": "The newest wave of enhancements includes plans to bring Oracle AI Database@Azure to Microsoft Azure Government Cloud, new sovereign controls, like EU Data Boundary and Azure Policy support, and Proximity Placement Group. These new capabilities offer customers more control over where and how they...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "KalyanKaki",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Oracle on Azure"
-    },
-    {
-      "title": "Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding/",
-      "published": "2026-10-27T16:00:00+00:00",
-      "summary": "Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors. The post Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Visual Studio"
-    },
-    {
-      "title": "Part 4: See, investigate, and measure email and collaboration attacks with Defender reporting",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-blog/part-4-see-investigate-and-measure-email-and-collaboration/ba-p/4562274",
-      "published": "2026-10-27T16:00:00+00:00",
-      "summary": "Attacks rarely stay in one channel. A flood of spam email, a Teams chat from an unfamiliar organization, and a call from \"the helpdesk\" can all be part of the same attempt. Security teams need a unified way to see where attacks are happening across email and collaboration, investigate them quickly,...",
-      "blog": "Microsoft Defender XDR",
-      "blogId": "MicrosoftThreatProtectionBlog",
-      "author": "IustinIrimia",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Defender XDR"
-    },
-    {
-      "title": "Why identity needs network insight to make Zero Trust work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/why-identity-needs-network-insight-to-make-zero-trust-work/ba-p/4566630",
-      "published": "2026-10-27T15:00:00+00:00",
-      "summary": "Your users sign in successfully—and then what? The session can be hijacked, device posture can degrade, and traffic to non-federated SaaS and AI apps can slip past the identity controls you trust to protect them. That’s the gap admins see every day: identity tells you who, but not what’s happening...",
-      "blog": "Microsoft Entra",
-      "blogId": "microsoft-entra-blog",
-      "author": "Mohammad_Zmaili",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Entra"
-    },
-    {
-      "title": "Windows 11 Update Failed - Error 0x8007139f",
-      "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/windows-11-update-failed-error-0x8007139f/m-p/4567941#M45346",
-      "published": "2026-10-27T07:46:13+00:00",
-      "summary": "My Windows 11 Insider Preview update (26340.9767) failed with error code 0x8007139f. Please guide me step by step to fix this problem.",
-      "blog": "Windows Insider",
-      "blogId": "WindowsInsiderProgram",
-      "author": "gauravlohar604",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Windows"
     }
   ]
 }
