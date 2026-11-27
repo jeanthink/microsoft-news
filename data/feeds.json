@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-26T20:47:54.839717+00:00",
-  "totalArticles": 459,
+  "lastUpdated": "2026-11-27T20:32:16.683318+00:00",
+  "totalArticles": 458,
   "categories": {
     "Compute": [
       "azurecompute",
@@ -285,6 +285,66 @@
   },
   "articles": [
     {
+      "title": "Agentic disruption recovery for airlines on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agentic-disruption-recovery-for-airlines-on-azure/ba-p/4577378",
+      "published": "2026-11-27T14:44:17+00:00",
+      "summary": "The business problem Disruption is a network problem: 44% of Europe's average departure delay in 2025 was knock-on delay from earlier flights [1]. Lisbon, on one runway near capacity, was the least punctual of Europe's 30 busiest airports [2]. A minute of delay at the gate costs an airline about...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "simon10",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Architecture"
+    },
+    {
+      "title": "Using PowerShell Here-Strings with Graph APIs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/using-powershell-here-strings-with-graph-apis/m-p/4577372#M60385",
+      "published": "2026-11-27T10:49:13+00:00",
+      "summary": "A reader was curious about the way of passing data to Graph API requests as shown in an article. It's because we used PowerShell here-strings to pass request bodies to Graph API requests. Normally, we use hash tables to create a request body containing several parameters and their values, but...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "TonyRedmond",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Run Slurm on Kubernetes with Slinky",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/run-slurm-on-kubernetes-with-slinky/ba-p/4577289",
+      "published": "2026-11-27T08:08:25+00:00",
+      "summary": "Run Slurm on Kubernetes with Slinky What Slinky does Slurm is a workload manager for jobs with explicit resource requirements: a simulation needs a number of nodes, a training run needs GPUs, and a parameter sweep needs hundreds of independent tasks. It provides queues, priorities, reservations,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Hugo_Meiland",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure HPC"
+    },
+    {
+      "title": "Maps Visualization",
+      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/maps-visualization/ba-p/4399823",
+      "published": "2026-11-27T00:30:00+00:00",
+      "summary": "Azure Maps offers an integrated suite of geospatial map visualization tools to simplify data interpretation and empower decision-making. Businesses can leverage these tools, including the location API for real-time geocoding and spatial data enrichment, to transform static datasets into actionable...",
+      "blog": "Azure Maps",
+      "blogId": "azuremapsblog",
+      "author": "IoTGirl",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Maps"
+    },
+    {
+      "title": "Microsoft Ignite 2026: Sovereign Cloud, Azure Local and Azure Catalyst",
+      "link": "https://www.azurecitadel.com/blog/2026-11-27-post-ignite/",
+      "published": "2026-11-27T00:00:00+00:00",
+      "summary": "Microsoft Ignite 2026 delivered a substantial number of announcements across Azure, AI, infrastructure and security. Of particular interest were the continued development of Microsoft’s sovereign cloud capabilities, significant additions to Azure Local, and the introduction of Azure Catalyst for...",
+      "blog": "Azure Citadel Blog",
+      "blogId": "azurecitadelblog",
+      "author": "Microsoft",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Azure Citadel"
+    },
+    {
       "title": "Azure Local: 10 anti-patterns that quietly break a running cluster",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-anti-patterns-that-quietly-break-a-running/ba-p/4577143",
       "published": "2026-11-26T18:00:52+00:00",
@@ -375,7 +435,7 @@
       "summary": "We are experiencing an issue with Device Cleanup Rules in the Microsoft Intune Admin Center.The Device Cleanup Rules page loads successfully and displays existing rules; however, selecting any rule does not open the details blade. No navigation occurs and no additional network activity is generated...",
       "blog": "Microsoft Intune",
       "blogId": "microsoft-intune",
-      "author": "Jameskennedy",
+      "author": "JamesKE",
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Microsoft Intune"
@@ -525,6 +585,54 @@
       "product": "GitHub"
     },
     {
+      "title": "Family Group Debacle",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/family-group-debacle/m-p/4576626#M60349",
+      "published": "2026-11-25T12:00:47+00:00",
+      "summary": "So, I have a family subscription that I wanted to add two more accounts to- one a new one for my daughter, and one to take over from one I was paying for as a standalone, which I hadn't realised I had done). Went through all the motions to send invites. First the child- that doesn't work. Just an...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "barnabygrayson",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Do inconsistent docs hurt AI coding agents?",
+      "link": "https://devblogs.microsoft.com/blog/do-inconsistent-docs-hurt-ai-coding-agents/",
+      "published": "2026-11-25T11:46:06+00:00",
+      "summary": "Somewhere in your docs, two pages disagree. Coding agents often notice, follow the wrong page anyway, and pay for it in extra tokens or a broken build.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "solutionArea": "CAIP",
+      "billingType": "PAYGO",
+      "product": "Microsoft Dev"
+    },
+    {
+      "title": "Probleme d'activation Office 2016/2019 Petite Entreprise",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/probleme-d-activation-office-2016-2019-petite-entreprise/m-p/4576609#M60348",
+      "published": "2026-11-25T11:38:30+00:00",
+      "summary": "Bonjour,Depuis 2 jours, je ne peux pas activer une installation de Office 2016 ou 2019 Petite entreprise. On premier lancement Office, j'ai une fenêtre blanche. Normalement, il devrait y avoir la demande d'activation.J'ai fais tous ces tests, rien n'y fais :TestRésultatInstall Office 2016Fenêtre...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Stephane17",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
+    },
+    {
+      "title": "Microsoft Loop - Automatically Carrying Over Meeting Notes Between Recurring Teams Meetings",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-loop-automatically-carrying-over-meeting-notes-between/m-p/4576570#M145489",
+      "published": "2026-11-25T10:03:31+00:00",
+      "summary": "Hi everyone,In our organization, we use Microsoft Loop for taking meeting notes.We have several recurring Microsoft Teams meetings scheduled on a weekly basis, and I would like to know whether there is a way to automatically carry over the Loop meeting notes from one occurrence to the next.Ideally,...",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "OndřejHynek",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
+    },
+    {
       "title": "Action required: Update app-only permissions for SharePoint tenant App Catalog writes",
       "link": "https://devblogs.microsoft.com/microsoft365dev/action-required-update-app-only-permissions-for-sharepoint-tenant-app-catalog-writes/",
       "published": "2026-11-25T09:01:55+00:00",
@@ -547,6 +655,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Community"
+    },
+    {
+      "title": "Sole Global Admin locked out by MFA, no backup method",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/sole-global-admin-locked-out-by-mfa-no-backup-method/m-p/4576477#M145488",
+      "published": "2026-11-25T04:37:31+00:00",
+      "summary": "I lost access to Microsoft Authenticator, there are no other MFA verification methods and recovery codes. I cannot log in. What is the solution to this issue? Thanks!!",
+      "blog": "Microsoft Teams",
+      "blogId": "microsoftteams",
+      "author": "ZODA",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft Teams"
     },
     {
       "title": "Upcoming DNS changes for Azure Event Hubs and Azure Service Bus",
@@ -1387,6 +1507,18 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "GitHub"
+    },
+    {
+      "title": "MODERN COMMENTS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/modern-comments/m-p/4575286#M60373",
+      "published": "2026-11-20T20:35:19+00:00",
+      "summary": "Title: Profile Pictures of Commenters Not Displayed in Word, Excel, and PowerPoint for MacHello Microsoft Tech Community,I am using Microsoft 365 on macOS Golden Gate 27.2.1, with the latest Office build:Microsoft 365 Version: 16.117 (26111815)Operating System: macOS Golden Gate 27.2.1I have been...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "Subha486",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Copilot Code Reviews for Azure Repos is generally available",
@@ -3705,18 +3837,6 @@
       "product": "Microsoft 365"
     },
     {
-      "title": "Account deletion warning despite an active subscription — is this email legitimate?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/account-deletion-warning-despite-an-active-subscription-is-this/m-p/4573990#M60284",
-      "published": "2026-11-17T07:59:54+00:00",
-      "summary": "Hello,I received an email claiming to be from Microsoft with the subject “Your account will be deleted by January 16, 2027—make a purchase to keep your billing account.”The message says that my Microsoft billing account and its associated Microsoft Entra ID tenant have been inactive for more than...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "lokolok",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "Announcing Public Preview of the next generation of Azure CLI and Azure PowerShell",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/announcing-public-preview-of-the-next-generation-of-azure-cli/ba-p/4573824",
       "published": "2026-11-17T06:16:49+00:00",
@@ -3825,18 +3945,6 @@
       "product": "Azure SQL"
     },
     {
-      "title": "Microsoft license",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/microsoft-license/m-p/4573919#M60282",
-      "published": "2026-11-16T23:11:31+00:00",
-      "summary": "i have the Microsoft plan for 1 to 6 users, can I keep Microsoft on my old laptop and also at the same time install onto a new device and if so how do I achieve this?",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "cherryl",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "DDoS Support for NATGWv2 IP - Public Preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/ddos-support-for-natgwv2-ip-public-preview/ba-p/4573913",
       "published": "2026-11-16T22:52:35+00:00",
@@ -3871,6 +3979,18 @@
       "solutionArea": "Security",
       "billingType": "PAYGO",
       "product": "Azure Network Security"
+    },
+    {
+      "title": "when opening office 2016 blank screen appear overtop of the program and can not do anything?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/when-opening-office-2016-blank-screen-appear-overtop-of-the/m-p/4573905#M60374",
+      "published": "2026-11-16T22:15:14+00:00",
+      "summary": "I have tried all suggestion from AI including uninstall reinstall clean install removing all office entrees amending the registry to stop pop up and many more please help",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "JosephAlves",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Unlock trusted data collaboration in financial services with Azure Confidential Clean Rooms",
@@ -3969,18 +4089,6 @@
       "product": "Microsoft Sentinel"
     },
     {
-      "title": "The Great Exchange Online Meltdown of November 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/the-great-exchange-online-meltdown-of-november-2026/m-p/4573699#M60274",
-      "published": "2026-11-16T09:52:16+00:00",
-      "summary": "November 12 was a bad day for Microsoft 365. A massive Exchange Online outage reduced servers to quivering wrecks and affected many other Microsoft 365 services. I was out of the office in France, peacefully researching wine, when all hell broke loose. One thing we learned is that Exchange Online...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
-    },
-    {
       "title": "File Explorer \"Can't find the specified file\" on folder creation/rename (Build 26300.9974)",
       "link": "https://techcommunity.microsoft.com/t5/windows-insider-program/file-explorer-quot-can-t-find-the-specified-file-quot-on-folder/m-p/4573695#M45437",
       "published": "2026-11-16T09:34:45+00:00",
@@ -4063,18 +4171,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "M365 outage compensation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/m365-outage-compensation/m-p/4573483#M60264",
-      "published": "2026-11-14T12:28:38+00:00",
-      "summary": "Enterprise M365 operators will be able to claim for compensation for the M365, Outlook and Teams outage on 11/12-26-11/13/26. Individual personal account subscribers should also receive compensation as well. Is there a way to achieve this?",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "lwlamontagne",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "Microsoft Teams Calendar - maximum number of events for meetings",
@@ -4171,18 +4267,6 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure HPC"
-    },
-    {
-      "title": "Outlook still down in India – EX1550543 / MO1550821",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/outlook-still-down-in-india-ex1550543-mo1550821/m-p/4573174#M60253",
-      "published": "2026-11-13T10:50:09+00:00",
-      "summary": "Still affected here in India as of 10:45 UTC, 13 Nov 2026 (EX1550543 / MO1550821). Outlook on the web and Outlook desktop are both unable to connect. Sign-in to Microsoft 365 works, but Outlook isn't loading. We've ruled out local network issues on our side, so it looks like the fix hasn't reached...",
-      "blog": "Microsoft 365 Blog",
-      "blogId": "Microsoft-365",
-      "author": "tomthomas1995",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft 365"
     },
     {
       "title": "GitHub availability report: October 2026",
@@ -4495,6 +4579,18 @@
       "solutionArea": "CAIP",
       "billingType": "PAYGO",
       "product": "Azure Storage"
+    },
+    {
+      "title": "How are you handling email signatures across client tenants?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365/how-are-you-handling-email-signatures-across-client-tenants/m-p/4572261#M60378",
+      "published": "2026-11-11T01:42:16+00:00",
+      "summary": "Curious how other MSPs deal with this. Every time a client rebrands, adds a legal line, or onboards a batch of new staff, someone on our side ends up touching the signatures mailbox by mailbox.What I’ve seen so far across M365 tenants:Transport-rule signatures are consistent, but users never see...",
+      "blog": "Microsoft 365 Blog",
+      "blogId": "Microsoft-365",
+      "author": "mwenekongo",
+      "solutionArea": "CAIP",
+      "billingType": "License",
+      "product": "Microsoft 365"
     },
     {
       "title": "Announcing PowerShell 7.7 GA Release",
@@ -5683,114 +5779,6 @@
       "solutionArea": "CAIP",
       "billingType": "License",
       "product": "Windows"
-    },
-    {
-      "title": "Microsoft Teams updates : Two presenters can share their screens",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-updates-two-presenters-can-share-their-screens/m-p/4568517#M145424",
-      "published": "2026-10-28T19:56:04+00:00",
-      "summary": "SummaryStarting in late November 2026, Microsoft Teams will support simultaneous screen sharing by two Microsoft Teams will allow two presenters to share screens simultaneously in meetings starting late November 2026. This feature enhances collaboration by displaying both shared contents at once....",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Zohaib_Yousuf",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Microsoft Teams update: QR code protection for messages from external users",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/microsoft-teams-update-qr-code-protection-for-messages-from/m-p/4568497#M145423",
-      "published": "2026-10-28T18:15:27+00:00",
-      "summary": "Microsoft Teams is adding extra security to protect users from phishing and fraud. QR code images sent by external users will be hidden by default. Users can choose to reveal the image before viewing or scanning the QR code.Rollout scheduleTargeted Release: Beginning in October 2026 General...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "Zohaib_Yousuf",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
-      "link": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
-      "published": "2026-10-28T16:59:00+00:00",
-      "summary": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Lynn Dai",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Microsoft Dev"
-    },
-    {
-      "title": "Growing our connector ecosystem with 500+ Microsoft Sentinel connectors",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/growing-our-connector-ecosystem-with-500-microsoft-sentinel/ba-p/4567832",
-      "published": "2026-10-28T16:00:00+00:00",
-      "summary": "Connecting the modern security environment Having spent years working across Microsoft's cloud, AI, and customer-facing organizations. I have seen that technology delivers the greatest value when it works with the environments customers already operate. That's especially true in cybersecurity. Most...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "alihob",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Sentinel"
-    },
-    {
-      "title": "Azure SDK Release (October 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-october-2026/",
-      "published": "2026-10-28T15:00:44+00:00",
-      "summary": "October's Azure SDK highlights include Azure Core authentication updates, managed identity improvements for Python and Java, and the first stable Cosmos DB libraries for Rust. The post Azure SDK Release (October 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Sandeep Sen",
-      "solutionArea": "CAIP",
-      "billingType": "PAYGO",
-      "product": "Azure SDK"
-    },
-    {
-      "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
-      "link": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
-      "published": "2026-10-28T11:00:02+00:00",
-      "summary": "Give each coding task its own disposable database environment, then merge the reviewed changes – not the test database. When parallel coding agents share a database In From Local Development to CI Workflows with the Azure Cosmos DB Emulator, we used FleetCharge to make local development and CI...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jay Gordon",
-      "solutionArea": "AIBS",
-      "billingType": "PAYGO",
-      "product": "Azure Cosmos DB"
-    },
-    {
-      "title": "Report Hypes Attacks Through Teams Federated Chat",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/report-hypes-attacks-through-teams-federated-chat/m-p/4568342#M145420",
-      "published": "2026-10-28T09:30:05+00:00",
-      "summary": "A report by a security company described how 30% of “monitored organizations” experienced an attack by a spurious IT worker over Teams federated chat. These kinds of social engineering attacks do happen, but Teams includes an array of defensive features that Microsoft 365 tenants can use to resist...",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "TonyRedmond",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
-    },
-    {
-      "title": "Secure Enterprise Onboarding and Domain Join Method - Concept",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune/secure-enterprise-onboarding-and-domain-join-method-concept/m-p/4568210#M23814",
-      "published": "2026-10-27T22:02:34+00:00",
-      "summary": "Hey Microsoft Hub community — Rodrigo here.After nearly two decades working in enterprise Windows environments, I’ve seen the same onboarding problem repeat everywhere: trust is granted too early, too inconsistently, and across too many disconnected systems.To address this, I created APilot — a...",
-      "blog": "Microsoft Intune",
-      "blogId": "microsoft-intune",
-      "author": "criscuolora",
-      "solutionArea": "Security",
-      "billingType": "PAYGO",
-      "product": "Microsoft Intune"
-    },
-    {
-      "title": "teams insider community is gone?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams/teams-insider-community-is-gone/m-p/4568205#M145418",
-      "published": "2026-10-27T21:06:48+00:00",
-      "summary": "I am a teams insider and the community has been removed from my app without any notification at all. I am on a paid 365 subscription so I am not sure what is going on.Sure would of been nice to get some kind of notification about this..........",
-      "blog": "Microsoft Teams",
-      "blogId": "microsoftteams",
-      "author": "bgm-dc",
-      "solutionArea": "CAIP",
-      "billingType": "License",
-      "product": "Microsoft Teams"
     }
   ]
 }
